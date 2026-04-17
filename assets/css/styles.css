@@ -255,6 +255,7 @@ button:hover {
 
 .table-wrap {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 table {
@@ -349,9 +350,27 @@ th {
 }
 
 @media (max-width: 860px) {
+  .site-header,
+  .layout,
+  .site-footer {
+    width: min(1100px, calc(100% - 1.2rem));
+  }
+
   .site-header {
     align-items: flex-start;
     flex-direction: column;
+    padding: 1.6rem 0 1rem;
+  }
+
+  .quick-nav {
+    width: 100%;
+    gap: 0.45rem;
+  }
+
+  .quick-nav a,
+  .theme-toggle {
+    padding: 0.45rem 0.8rem;
+    font-size: 0.92rem;
   }
 
   .controls form {
@@ -361,10 +380,63 @@ th {
   .manuscripts {
     grid-template-columns: 1fr;
   }
+
+  table {
+    min-width: 760px;
+  }
+
+  th,
+  td {
+    padding: 0.55rem;
+  }
 }
 
 @media (max-width: 560px) {
+  h1 {
+    font-size: clamp(1.55rem, 9vw, 2rem);
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .card {
+    padding: 0.8rem;
+  }
+
+  .card--banner {
+    padding: 0.9rem;
+  }
+
+  .card--banner h2 {
+    font-size: 1.02rem;
+    line-height: 1.3;
+  }
+
   .controls form {
     grid-template-columns: 1fr;
+  }
+
+  .tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.6rem;
+    scroll-snap-type: x proximity;
+  }
+
+  .tab-button {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    scroll-snap-align: start;
+  }
+
+  table {
+    min-width: 620px;
+    font-size: 0.92rem;
+  }
+
+  .site-footer {
+    font-size: 0.94rem;
   }
 }
