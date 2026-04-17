@@ -189,7 +189,7 @@ h1 {
     radial-gradient(circle at 15% 10%, rgba(30, 107, 100, 0.22), transparent 38%),
     radial-gradient(circle at 88% 12%, rgba(204, 154, 88, 0.25), transparent 42%),
     linear-gradient(130deg, #fdf8ef, #f4ecdc);
-  padding: 0.95rem 1rem;
+  padding: 0.82rem 1rem 0.92rem;
 }
 
 .support-banner::after {
@@ -218,18 +218,19 @@ h1 {
 
 .support-banner h2 {
   margin: 0.2rem 0 0.35rem;
-  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+  font-size: clamp(1.15rem, 2vw, 1.42rem);
 }
 
 .support-banner p {
   margin: 0;
-  max-width: 60ch;
-  font-size: 1rem;
+  max-width: none;
+  white-space: nowrap;
+  font-size: 0.98rem;
 }
 
 .support-cta {
   display: inline-block;
-  margin-top: 0.75rem;
+  margin-top: 0.95rem;
   text-decoration: none;
   font-weight: 700;
   color: #fff;
@@ -661,6 +662,7 @@ th {
   }
 
   .support-banner p {
+    white-space: normal;
     font-size: 0.84rem;
     line-height: 1.4;
   }
