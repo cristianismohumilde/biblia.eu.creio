@@ -1,119 +1,130 @@
 # Biblia.Creio.EU
 
+[Leia em português](README.pt-BR.md)
+
 ![Deploy static site to Pages](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml/badge.svg)
 
-Projeto open source de estudo bíblico interlinear em português, com foco inicial em publicação estática (GitHub Pages e hospedagem compartilhada), preparado para evoluir para backend em fases sem retrabalho.
+Open source interlinear Bible study project focused on static publishing first (GitHub Pages and shared hosting), prepared to evolve into backend phases without rework.
 
-## Objetivo Inicial (MVP)
+## Contributing
 
-Entregar um site com:
+To keep the project stable and avoid production regressions, please follow the collaboration guide:
 
-- textos dos manuscritos antigos (grego, hebraico, aramaico e latim)
-- tradução literal para português por verso
-- tradução literal por palavra
-- explicação léxica/morfológica por palavra
-- comparação entre os principais testemunhos linguísticos: hebraico, aramaico, grego, latim, ge'ez, siríaco, copta e armênio
+- see [CONTRIBUTING.md](CONTRIBUTING.md)
+- Portuguese version: [CONTRIBUTING.pt-BR.md](CONTRIBUTING.pt-BR.md)
 
-## Arquitetura por Fases
+Before opening a Pull Request, complete the required validation checklist (desktop, mobile, language routes, data, links, console/network).
 
-### Fase 1 (Atual): Frontend Estático + JSON Pré-gerado
+## Initial Goal (MVP)
 
-Plataforma alvo:
+Deliver a website with:
+
+- ancient manuscript texts (Greek, Hebrew, Aramaic, and Latin)
+- verse-level literal translation
+- word-by-word literal translation
+- lexical/morphological explanation per token
+- comparison across key witnesses: Hebrew, Aramaic, Greek, Latin, Ge'ez, Syriac, Coptic, and Armenian
+
+## Phased Architecture
+
+### Phase 1 (Current): Static Frontend + Pre-generated JSON
+
+Target platform:
 
 - GitHub Pages
-- hospedagem compartilhada sem Node persistente
+- shared hosting without persistent Node runtime
 
-Decisões:
+Decisions:
 
-- sem backend no runtime
-- dados gerados offline e publicados como arquivos JSON
-- páginas estáticas por livro/capítulo/verso
+- no runtime backend
+- data generated offline and published as JSON files
+- static pages by book/chapter/verse
 
-Escopo técnico:
+Technical scope:
 
-- UI interlinear por verso
-- navegação livro > capítulo > verso
-- carregamento de JSON por trecho
-- busca local simples (opcional no início)
+- interlinear UI per verse
+- book > chapter > verse navigation
+- chunked JSON loading
+- simple local search (optional at first)
 
-Critérios de sucesso:
+Success criteria:
 
-- build estático publicado com sucesso
-- páginas carregando rápido em mobile/desktop
-- estrutura de dados pronta para evolução futura
+- static build successfully published
+- fast page loading on desktop/mobile
+- data structure ready for future evolution
 
-### Fase 2: Backend Leve ou Serviço Externo
+### Phase 2: Lightweight Backend or External Service
 
-Objetivo:
+Goal:
 
-- adicionar busca e API básicas sem quebrar a estrutura da Fase 1
+- add basic API/search without breaking the Phase 1 public structure
 
-Escopo técnico:
+Technical scope:
 
-- API de leitura de versos/interlinear
-- busca básica por palavra/lema/Strong
-- cache simples para consultas frequentes
+- read API for verses/interlinear data
+- basic search by word/lemma/Strong
+- simple caching for frequent queries
 
-Critérios de sucesso:
+Success criteria:
 
-- manter URLs e estrutura pública da Fase 1
-- reduzir payload no cliente para consultas amplas
+- keep Phase 1 URLs/public structure intact
+- reduce client payload for wide queries
 
-### Fase 3: VPS + Backend Completo
+### Phase 3: VPS + Full Backend
 
-Objetivo:
+Goal:
 
-- escalar para busca avançada, jobs de processamento e contas
+- scale to advanced search, processing jobs, and user accounts
 
-Escopo técnico:
+Technical scope:
 
-- pipeline automatizado de ingestão/reprocessamento de dados
-- cache robusto
-- busca avançada (concordância, relevância, filtros)
-- autenticação e recursos de usuário (notas, favoritos, histórico)
+- automated ingest/reprocessing pipeline
+- robust cache
+- advanced search (concordance, relevance, filters)
+- auth and user features (notes, favorites, history)
 
-Critérios de sucesso:
+Success criteria:
 
-- observabilidade (logs, métricas, alertas)
-- performance estável com alto volume de tráfego
+- observability (logs, metrics, alerts)
+- stable performance under high traffic
 
-## Checklist de Migração Sem Retrabalho
+## No-Rework Migration Checklist
 
-### Base de dados e contratos
+### Data and contracts
 
-- definir um schema JSON versionado (ex: schemaVersion)
-- manter IDs estáveis para livro/capítulo/verso/token
-- separar conteúdo textual de metadados léxicos/morfológicos
-- documentar licenças de cada fonte em arquivo próprio
+- define a versioned JSON schema (for example: schemaVersion)
+- keep stable IDs for book/chapter/verse/token
+- separate textual content from lexical/morphological metadata
+- document source licenses in dedicated files
 
 ### Frontend
 
-- encapsular acesso a dados em uma camada única (data adapters)
-- evitar acoplar componentes diretamente ao formato bruto do JSON
-- preservar URLs canônicas para SEO durante todas as fases
+- isolate data access through a single adapter layer
+- avoid coupling components directly to raw JSON shape
+- preserve canonical URLs for SEO in all phases
 
-### Busca
+### Search
 
-- iniciar com índice local simples (Fase 1)
-- evoluir para endpoint de busca mantendo a mesma interface no frontend
-- garantir fallback gracioso quando busca avançada não estiver disponível
+- start with a simple local index (Phase 1)
+- evolve to a search endpoint with the same frontend interface
+- guarantee graceful fallback when advanced search is unavailable
 
-### Operação
+### Operations
 
-- automatizar geração de dados (scripts reprodutíveis)
-- validar consistência dos JSONs em CI
-- publicar changelog de dados e de schema
+- automate data generation (reproducible scripts)
+- validate JSON consistency in CI
+- publish data/schema changelog
 
-## Estrutura de Dados Recomendada (Fase 1)
+## Recommended Data Structure (Phase 1)
 
-Sugestão de organização:
+Suggested organization:
 
 - data/books.json
-- data/books/{livro}/chapters/{capitulo}.json
-- data/verses/{livro}.{capitulo}.{verso}.json
-- data/lexicon/{idioma}/{id}.json
+- data/books/{book}/chapters/{chapter}.json
+- data/verses/{book}.{chapter}.{verse}.json
+- data/lexicon/{language}/{id}.json
 
-Exemplo resumido de verso interlinear:
+Interlinear verse sample:
 
 ```json
 {
@@ -146,94 +157,94 @@ Exemplo resumido de verso interlinear:
 }
 ```
 
-## Padrões para Continuidade por Programador ou Agente de IA
+## Continuity Rules (Developers and AI Agents)
 
-- não alterar contratos de dados sem atualizar schemaVersion
-- nunca quebrar URLs públicas já indexadas
-- priorizar compatibilidade retroativa no frontend
-- registrar decisões arquiteturais no README antes de grandes mudanças
+- do not change data contracts without updating schemaVersion
+- never break already indexed public URLs
+- prioritize frontend backward compatibility
+- record architectural decisions in README before major changes
 
-## Estado Atual
+## Current Status
 
-- planejamento arquitetural registrado
-- frontend estático criado (HTML/CSS/JS)
-- primeira página interlinear funcional com dados JSON de exemplo (Gênesis 1:1)
-- versão de exemplo em inglês adicionada em `en/`
-- versão em português consolidada em `pt/`
-- raiz (`/`) com redirecionamento automático por idioma do navegador (com fallback)
-- Gênesis disponível até o capítulo 5 com estrutura interlinear multilíngue ativa
-- versos de demonstração curados no momento: `gen.1.1`, `gen.2.1`, `gen.3.1`, `gen.4.1`, `gen.5.1`
-- páginas explicativas dos idiomas bíblicos:
-  - `pt/idiomas-biblicos.html`
-  - `en/biblical-languages.html`
+- architectural planning documented
+- static frontend implemented (HTML/CSS/JS)
+- first functional interlinear page with sample JSON (Genesis 1:1)
+- English version available in en/
+- Portuguese version available in pt/
+- root (/) uses language redirect with fallback
+- Genesis available up to chapter 5 with multilingual interlinear structure
+- currently curated demo verses: gen.1.1, gen.2.1, gen.3.1, gen.4.1, gen.5.1
+- explanatory language pages:
+  - pt/idiomas-biblicos.html
+  - en/biblical-languages.html
 
-## Como Rodar Localmente
+## Run Locally
 
-Como o projeto é estático, você pode abrir via servidor HTTP simples.
+Since the project is static, serve it with any simple HTTP server.
 
-Exemplo com Python:
+Python example:
 
 ```bash
 python -m http.server 8080
 ```
 
-Depois, acesse `http://localhost:8080`.
+Then open http://localhost:8080.
 
-## Publicação
+## Publishing
 
 ### GitHub Pages
 
-- publicar a raiz do repositório como site estático
-- garantir que os arquivos `index.html`, `assets/` e `data/` estejam versionados
-- workflow automático já incluído em `.github/workflows/deploy-pages.yml`
-- no GitHub, abrir Settings > Pages > Build and deployment > Source e selecionar GitHub Actions
-- após isso, cada push na branch `main` publica automaticamente o site
-- URL esperada do site: `https://cristianismohumilde.github.io/biblia.eu.creio/`
-- versão em português: `https://cristianismohumilde.github.io/biblia.eu.creio/pt/`
-- versão em inglês: `https://cristianismohumilde.github.io/biblia.eu.creio/en/`
+- publish repository root as static site
+- ensure index.html, assets/, and data/ are versioned
+- automatic workflow included at .github/workflows/deploy-pages.yml
+- on GitHub, open Settings > Pages > Build and deployment > Source and choose GitHub Actions
+- after that, every push to main publishes automatically
+- expected site URL: https://cristianismohumilde.github.io/biblia.eu.creio/
+- Portuguese URL: https://cristianismohumilde.github.io/biblia.eu.creio/pt/
+- English URL: https://cristianismohumilde.github.io/biblia.eu.creio/en/
 
-Estratégia de idioma recomendada neste projeto:
+Recommended language strategy in this project:
 
-- manter idioma por subpasta (`pt/`, `en/`, e futuramente outros)
-- usar a raiz (`/`) apenas como roteador de idioma por preferência do navegador
-- compartilhar estrutura de dados e adicionar campos específicos por idioma quando necessário
-- SEO internacional ativo com `canonical`, `hreflang` (`pt-BR`, `en`) e `x-default`
+- keep language by subfolder (pt/, en/, and future languages)
+- use root (/) only as language router based on browser preference
+- share common data structure and add language-specific fields only when needed
+- maintain international SEO with canonical, hreflang (pt-BR, en), and x-default
 
-Checklist rápido após ativação:
+Quick post-activation checklist:
 
-- verificar execução do workflow em Actions
-- confirmar publicação sem erro no ambiente `github-pages`
-- abrir a URL pública e validar carregamento de `index.html` e arquivos em `data/`
-- validar o health-check em `data/health.json`
-- validar `sitemap.xml` e `robots.txt`
+- verify workflow run under Actions
+- confirm successful deployment to github-pages environment
+- open public URL and validate index/data loading
+- validate health file at data/health.json
+- validate sitemap.xml and robots.txt
 
-Health-check estático:
+Static health-check:
 
-- arquivo: `data/health.json`
-- uso: monitorar versão publicada, schema e data de geração do pacote estático
-- `generatedAt` é atualizado automaticamente no deploy com base no último commit
+- file: data/health.json
+- purpose: monitor published version, schema, and generated package timestamp
+- generatedAt updates automatically in deploy based on latest commit
 
-SEO técnico adicional:
+Additional SEO notes:
 
-- `sitemap.xml` com URLs multilíngues e alternates (`pt-BR`, `en`, `x-default`)
-- `robots.txt` permitindo rastreamento e apontando para o sitemap
-- `lastmod` do sitemap é atualizado automaticamente no deploy com base no último commit
+- sitemap.xml with multilingual URLs and alternates (pt-BR, en, x-default)
+- robots.txt allowing crawling and pointing to sitemap
+- sitemap lastmod updates automatically in deploy from latest commit
 
-### Hospedagem Compartilhada
+### Shared Hosting
 
-- enviar os mesmos arquivos para o diretório público (ex: `public_html`)
-- não requer Node.js nem backend para o MVP
+- upload the same files to public directory (for example: public_html)
+- no Node.js runtime or backend required for MVP
 
-## Próximo Passo Recomendado
+## Recommended Next Steps
 
-- ampliar `data/books.json`, capítulos e versos
-- criar script offline para gerar JSONs em lote a partir das fontes licenciadas
-- completar os demais versos de Gênesis 1-5 mantendo o mesmo schema multilíngue
+- expand data/books.json, chapter files, and verse files
+- add offline scripts to generate JSON in batches from licensed sources
+- complete remaining verses for Genesis 1-5 following the same multilingual schema
 
-## Nota de Licenciamento
+## Licensing Note
 
-Este projeto deve permanecer open source. O código pode usar licença MIT, mas os dados textuais devem respeitar a licença específica de cada fonte. Não publicar conteúdo sem verificar direitos de uso.
+This project should remain open source. Code can use MIT license, but textual datasets must follow each source license. Do not publish content without rights verification.
 
-- Licença do código: ver arquivo `LICENSE`
-- Licença e política de dados: ver arquivo `LICENSE-DATA`
-- Verificação atual de fontes e risco legal: ver arquivo `SOURCES-LICENSES.md`
+- code license: see [LICENSE](LICENSE)
+- data licensing policy: see [LICENSE-DATA](LICENSE-DATA)
+- source licensing/risk status: see [SOURCES-LICENSES.md](SOURCES-LICENSES.md)
