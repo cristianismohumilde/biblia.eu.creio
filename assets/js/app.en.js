@@ -48,7 +48,7 @@ const applyTheme = (theme) => {
   }
 
   const isDark = normalizedTheme === "dark";
-  els.themeToggle.textContent = isDark ? "Enable light theme" : "Enable dark theme";
+  els.themeToggle.textContent = isDark ? "☀️ Light theme" : "🌙 Dark theme";
   els.themeToggle.setAttribute("aria-pressed", String(isDark));
 };
 
