@@ -267,10 +267,10 @@ const renderLiteralBySource = (entries) => {
     tr.innerHTML = `
       <td>${entry.langEn || entry.lang || "-"}</td>
       <td>${entry.en || "-"}</td>
-      <td>${entry.pt || "-"}</td>
     `;
     els.literalSourcesBody.appendChild(tr);
   });
+};
 };
 
 const renderVerse = (data) => {

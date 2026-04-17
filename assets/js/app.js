@@ -267,7 +267,6 @@ const renderLiteralBySource = (entries) => {
     tr.innerHTML = `
       <td>${entry.langPt || entry.lang || "-"}</td>
       <td>${entry.pt || "-"}</td>
-      <td>${entry.en || "-"}</td>
     `;
     els.literalSourcesBody.appendChild(tr);
   });
