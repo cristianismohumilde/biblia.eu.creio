@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biblia.Creio.EU</title>
-    <meta name="description" content="Language router for Biblia.Creio.EU" />
+    <meta
+      name="description"
+      content="Welcome screen and language router for Biblia.Creio.EU"
+    />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="canonical" href="https://cristianismohumilde.github.io/biblia.eu.creio/" />
     <link
@@ -22,13 +25,226 @@
       hreflang="x-default"
       href="https://cristianismohumilde.github.io/biblia.eu.creio/"
     />
-    <meta http-equiv="refresh" content="0; url=pt/" />
+    <style>
+      :root {
+        --ink: #f7f4e8;
+        --ink-soft: #d2c6a4;
+        --bg-start: #112331;
+        --bg-mid: #36466a;
+        --bg-end: #8b5a2b;
+        --tech-cyan: #86e8ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+      }
+
+      body {
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        color: var(--ink);
+        background:
+          radial-gradient(70vw 45vh at 20% 30%, rgba(234, 194, 122, 0.28), transparent 70%),
+          radial-gradient(65vw 40vh at 80% 72%, rgba(96, 126, 204, 0.35), transparent 72%),
+          linear-gradient(135deg, var(--bg-start), var(--bg-mid) 48%, var(--bg-end));
+        overflow: hidden;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(134, 232, 255, 0.08) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(134, 232, 255, 0.08) 1px, transparent 1px);
+        background-size: 38px 38px;
+        mask-image: radial-gradient(circle at center, black 35%, transparent 85%);
+        opacity: 0.36;
+      }
+
+      .welcome {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 1.5rem;
+      }
+
+      .panel {
+        position: relative;
+        width: min(860px, 100%);
+        text-align: center;
+        border: 1px solid rgba(247, 244, 232, 0.35);
+        background: rgba(17, 23, 41, 0.54);
+        backdrop-filter: blur(8px);
+        border-radius: 18px;
+        padding: clamp(1.4rem, 3.8vw, 3rem);
+        box-shadow:
+          0 18px 40px rgba(6, 9, 19, 0.5),
+          inset 0 0 0 1px rgba(134, 232, 255, 0.14);
+      }
+
+      .panel::after {
+        content: "";
+        position: absolute;
+        inset: -2px;
+        border-radius: 20px;
+        pointer-events: none;
+        opacity: 0;
+        background: linear-gradient(
+          112deg,
+          transparent 16%,
+          rgba(134, 232, 255, 0.24) 40%,
+          rgba(255, 246, 216, 0.26) 50%,
+          rgba(134, 232, 255, 0.24) 60%,
+          transparent 84%
+        );
+      }
+
+      .eyebrow {
+        margin: 0 0 1rem;
+        font-size: clamp(0.85rem, 2vw, 1rem);
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-soft);
+        text-shadow: 0 0 12px rgba(134, 232, 255, 0.18);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.45rem, 4.7vw, 3.2rem);
+        line-height: 1.25;
+        min-height: 3.6lh;
+        text-shadow: 0 0 22px rgba(134, 232, 255, 0.18);
+      }
+
+      .typing-caret {
+        display: inline-block;
+        margin-left: 0.2rem;
+        opacity: 0.8;
+        animation: blink 0.8s steps(1, end) infinite;
+      }
+
+      .sub {
+        margin: 1rem 0 0;
+        color: var(--ink-soft);
+        font-size: clamp(0.95rem, 2.2vw, 1.1rem);
+      }
+
+      .progress {
+        height: 6px;
+        width: min(420px, 78vw);
+        margin: 1.35rem auto 0;
+        border-radius: 999px;
+        background: rgba(247, 244, 232, 0.2);
+        overflow: hidden;
+      }
+
+      .progress > span {
+        display: block;
+        height: 100%;
+        width: 100%;
+        transform-origin: left center;
+        background: linear-gradient(90deg, #f2ca88, #f6ead1);
+        animation: load 9s linear forwards;
+      }
+
+      .manual {
+        margin-top: 1.15rem;
+        font-size: 0.95rem;
+      }
+
+      .manual a {
+        color: #fff0c8;
+      }
+
+      .panel.is-finalizing {
+        animation: final-glow 1s ease-out forwards;
+      }
+
+      .panel.is-finalizing::after {
+        opacity: 1;
+        animation: final-shimmer 1s ease-out forwards;
+      }
+
+      @keyframes blink {
+        50% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes load {
+        from {
+          transform: scaleX(0);
+        }
+        to {
+          transform: scaleX(1);
+        }
+      }
+
+      @keyframes final-glow {
+        0% {
+          box-shadow:
+            0 18px 40px rgba(6, 9, 19, 0.5),
+            inset 0 0 0 1px rgba(134, 232, 255, 0.14);
+        }
+        35% {
+          box-shadow:
+            0 22px 52px rgba(6, 9, 19, 0.56),
+            0 0 26px rgba(134, 232, 255, 0.42),
+            0 0 52px rgba(255, 246, 216, 0.2),
+            inset 0 0 0 1px rgba(134, 232, 255, 0.34);
+        }
+        100% {
+          box-shadow:
+            0 18px 40px rgba(6, 9, 19, 0.5),
+            inset 0 0 0 1px rgba(134, 232, 255, 0.14);
+        }
+      }
+
+      @keyframes final-shimmer {
+        0% {
+          transform: translateX(-36%);
+          opacity: 0;
+        }
+        35% {
+          opacity: 0.95;
+        }
+        100% {
+          transform: translateX(36%);
+          opacity: 0;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .typing-caret,
+        .progress > span,
+        .panel.is-finalizing,
+        .panel.is-finalizing::after {
+          animation: none;
+        }
+      }
+    </style>
   </head>
   <body>
-    <p>Redirecting to your language...</p>
-    <p>
-      If redirection does not happen: <a href="pt/">🇧🇷 Português</a> | <a href="en/">🇺🇸 English</a>
-    </p>
+    <main class="welcome" aria-live="polite">
+      <section class="panel" aria-label="Welcome">
+        <p class="eyebrow">Biblia.Creio.EU</p>
+        <h1>
+          <span id="welcome-message"></span><span class="typing-caret" aria-hidden="true">|</span>
+        </h1>
+        <p id="welcome-sub" class="sub"></p>
+        <div class="progress" aria-hidden="true"><span></span></div>
+        <p class="manual">
+          <a id="manual-link" href="pt/">Continuar</a>
+        </p>
+      </section>
+    </main>
     <script>
       (function () {
         var params = new URLSearchParams(window.location.search);
@@ -49,7 +265,66 @@
 
         var suffix = targetLang + "/";
         var next = suffix + window.location.search + window.location.hash;
-        window.location.replace(next);
+
+        var copy = {
+          pt: {
+            title: "Boas-vindas à melhor plataforma de consulta e estudos bíblicos!",
+            subtitle: "Entrando na versão em português...",
+            manual: "Continuar para português"
+          },
+          en: {
+            title: "Welcome to the best Bible consultation and study platform!",
+            subtitle: "Entering the English experience...",
+            manual: "Continue to English"
+          }
+        };
+
+        var text = copy[targetLang] || copy.en;
+        var titleEl = document.getElementById("welcome-message");
+        var subEl = document.getElementById("welcome-sub");
+        var manualEl = document.getElementById("manual-link");
+
+        if (subEl) {
+          subEl.textContent = text.subtitle;
+        }
+
+        if (manualEl) {
+          manualEl.href = next;
+          manualEl.textContent = text.manual;
+        }
+
+        var i = 0;
+        var typeDelay = 78;
+
+        var type = function () {
+          if (!titleEl) {
+            return;
+          }
+
+          titleEl.textContent = text.title.slice(0, i);
+          i += 1;
+          if (i <= text.title.length) {
+            setTimeout(type, typeDelay);
+          }
+        };
+
+        type();
+
+        var shouldReduceMotion =
+          window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+        if (!shouldReduceMotion) {
+          setTimeout(function () {
+            var panel = document.querySelector(".panel");
+            if (panel) {
+              panel.classList.add("is-finalizing");
+            }
+          }, 8200);
+        }
+
+        setTimeout(function () {
+          window.location.replace(next);
+        }, shouldReduceMotion ? 1200 : 9000);
       })();
     </script>
   </body>
