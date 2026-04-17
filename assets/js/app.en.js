@@ -154,6 +154,111 @@ const renderTokens = (tokens) => {
   });
 };
 
+const renderTokensByLanguage = (tokens) => {
+  const tabsContainer = document.querySelector("#lang-tabs");
+  const contentContainer = document.querySelector("#tokens-by-lang-content");
+  
+  if (!tabsContainer || !contentContainer) return;
+  
+  clearBody(tabsContainer);
+  clearBody(contentContainer);
+  
+  // Group tokens by language
+  const tokensByLang = {};
+  tokens.forEach((token) => {
+    const lang = token.lang || "unknown";
+    const langEn = token.langEn || lang;
+    
+    if (!tokensByLang[lang]) {
+      tokensByLang[lang] = {
+        langEn,
+        tokens: []
+      };
+    }
+    tokensByLang[lang].tokens.push(token);
+  });
+  
+  // Get languages in order
+  const langOrder = LANG_ORDER.map(x => x.code);
+  const sortedLangs = Object.keys(tokensByLang).sort((a, b) => {
+    return langOrder.indexOf(a) - langOrder.indexOf(b);
+  });
+  
+  if (sortedLangs.length === 0) return;
+  
+  // Create tabs
+  sortedLangs.forEach((lang, idx) => {
+    const langData = tokensByLang[lang];
+    const btn = document.createElement("button");
+    btn.className = `tab-button ${idx === 0 ? "active" : ""}`;
+    btn.textContent = langData.langEn;
+    btn.setAttribute("data-lang", lang);
+    
+    btn.addEventListener("click", () => {
+      // Remove active from all buttons and content
+      document.querySelectorAll(".tab-button").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
+      
+      // Add active to clicked button and corresponding content
+      btn.classList.add("active");
+      const content = document.querySelector(`[data-lang-content="${lang}"]`);
+      if (content) content.classList.add("active");
+    });
+    
+    tabsContainer.appendChild(btn);
+  });
+  
+  // Create content tabs
+  sortedLangs.forEach((lang, idx) => {
+    const langData = tokensByLang[lang];
+    const content = document.createElement("div");
+    content.className = `tab-content ${idx === 0 ? "active" : ""}`;
+    content.setAttribute("data-lang-content", lang);
+    
+    const tableWrap = document.createElement("div");
+    tableWrap.className = "table-wrap";
+    
+    const table = document.createElement("table");
+    const thead = document.createElement("thead");
+    const headerRow = document.createElement("tr");
+    headerRow.innerHTML = `
+      <th>Word</th>
+      <th>Original</th>
+      <th>Transliteration</th>
+      <th>Lemma</th>
+      <th>Strong</th>
+      <th>Morphology</th>
+      <th>Manuscript/Source</th>
+      <th>EN literal</th>
+      <th>Explanation</th>
+    `;
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+    
+    const tbody = document.createElement("tbody");
+    langData.tokens.forEach((token, idx) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${idx + 1}</td>
+        <td>${token.surface || "-"}</td>
+        <td>${token.transliteration || "-"}</td>
+        <td>${token.lemma || "-"}</td>
+        <td>${token.strong || "-"}</td>
+        <td>${token.morph || "-"}</td>
+        <td>${token.manuscriptEn || token.manuscript || "-"}</td>
+        <td>${token.enLiteralWord || token.ptLiteralWord || "-"}</td>
+        <td>${token.explanationEn || token.explanation || "-"}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    
+    tableWrap.appendChild(table);
+    content.appendChild(tableWrap);
+    contentContainer.appendChild(content);
+  });
+};
+
 const renderLiteralBySource = (entries) => {
   clearBody(els.literalSourcesBody);
 
@@ -176,8 +281,8 @@ const renderVerse = (data) => {
   const sourceTexts = data.sourceTexts || {};
 
   els.referenceTitle.textContent = `${bookName} ${data.ref.chapter}:${data.ref.verse}`;
-  els.translationAuthor.textContent = `Literal translation author: ${translation.authorEn || translation.author || "not provided"}`;
-  els.translationSource.textContent = `Translation source text: ${translation.baseTextEn || translation.baseText || "not provided"}`;
+  els.translationAuthor.textContent = `Literal translation authors: ${translation.authorEn || translation.author || "not provided"}`;
+  els.translationSource.textContent = `Translation source texts: ${translation.baseTextEn || translation.baseText || "not provided"}`;
   els.ptVerse.textContent = data.enLiteralVerse || data.ptLiteralVerse || "Literal translation unavailable.";
 
   LANG_ORDER.forEach(({ code, fallbackLabel }) => {
@@ -193,6 +298,7 @@ const renderVerse = (data) => {
 
   renderLiteralBySource(data.literalTranslations || []);
   renderTokens(data.tokens || []);
+  renderTokensByLanguage(data.tokens || []);
 };
 
 const loadVerse = async (bookCode, chapter, verse) => {

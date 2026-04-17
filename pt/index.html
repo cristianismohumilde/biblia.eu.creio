@@ -79,6 +79,10 @@
         <p id="status" role="status" aria-live="polite"></p>
       </section>
 
+      <section class="card card--banner" id="banner-verso">
+        <h2>Tradução literal do verso</h2>
+      </section>
+
       <section class="card" id="verso" aria-labelledby="verso-titulo">
         <h2 id="verso-titulo">Tradução literal do verso</h2>
         <p id="reference-title" class="reference"></p>
@@ -168,6 +172,14 @@
             </thead>
             <tbody id="tokens-body"></tbody>
           </table>
+        </div>
+      </section>
+
+      <section class="card" id="tokens-by-lang" aria-labelledby="tokens-by-lang-titulo">
+        <h2 id="tokens-by-lang-titulo">Interlinear completo por idioma</h2>
+        <div class="tabs-container">
+          <div class="tabs" id="lang-tabs"></div>
+          <div id="tokens-by-lang-content"></div>
         </div>
       </section>
     </main>

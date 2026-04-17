@@ -150,6 +150,19 @@ h1 {
   animation: reveal 620ms ease;
 }
 
+.card--banner {
+  background: linear-gradient(135deg, rgba(132, 111, 77, 0.1) 0%, rgba(132, 111, 77, 0.05) 100%);
+  border: 2px solid rgba(132, 111, 77, 0.4);
+  padding: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card--banner h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--text);
+}
+
 .controls form {
   display: grid;
   grid-template-columns: repeat(4, minmax(140px, 1fr));
@@ -289,6 +302,50 @@ th {
   margin: 0.35rem 0 0;
   font-size: 0.9rem;
   opacity: 0.9;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(132, 111, 77, 0.25);
+  padding-bottom: 0.5rem;
+}
+
+.tab-button {
+  padding: 0.6rem 1rem;
+  background: rgba(132, 111, 77, 0.1);
+  border: 1px solid rgba(132, 111, 77, 0.25);
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  color: var(--text);
+}
+
+.tab-button:hover {
+  background: rgba(132, 111, 77, 0.2);
+}
+
+.tab-button.active {
+  background: rgba(132, 111, 77, 0.35);
+  border-color: rgba(132, 111, 77, 0.5);
+  font-weight: 600;
+}
+
+.tab-content {
+  display: none;
+  animation: reveal 300ms ease;
+}
+
+.tab-content.active {
+  display: block;
 }
 
 @media (max-width: 860px) {
