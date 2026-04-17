@@ -74,6 +74,9 @@ const setStatus = (message) => {
 };
 
 const clearBody = (element) => {
+  if (!element) {
+    return;
+  }
   element.innerHTML = "";
 };
 
@@ -271,7 +274,6 @@ const renderLiteralBySource = (entries) => {
     els.literalSourcesBody.appendChild(tr);
   });
 };
-};
 
 const renderVerse = (data) => {
   const book = state.books.find((item) => item.code === data.ref.book);
@@ -297,7 +299,6 @@ const renderVerse = (data) => {
   });
 
   renderLiteralBySource(data.literalTranslations || []);
-  renderTokens(data.tokens || []);
   renderTokensByLanguage(data.tokens || []);
 };
 

@@ -74,6 +74,9 @@ const setStatus = (message) => {
 };
 
 const clearBody = (element) => {
+  if (!element) {
+    return;
+  }
   element.innerHTML = "";
 };
 
@@ -296,7 +299,6 @@ const renderVerse = (data) => {
   });
 
   renderLiteralBySource(data.literalTranslations || []);
-  renderTokens(data.tokens || []);
   renderTokensByLanguage(data.tokens || []);
 };
 
