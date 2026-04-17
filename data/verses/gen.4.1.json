@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.1.0",
+  "ref": {
+    "book": "gen",
+    "chapter": 4,
+    "verse": 1
+  },
+  "translation": {
+    "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+    "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+    "baseText": "Base principal hebraica com comparação multitradicional",
+    "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
+  },
+  "manuscripts": {
+    "hebrew": "Hebraico: Codex Leningradensis (B19A), tradição massorética",
+    "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition",
+    "aramaic": "Aramaico: tradições targúmicas (comparação)",
+    "aramaicEn": "Aramaic: targumic traditions (comparison)",
+    "greek": "Grego: Septuaginta e tradição bizantina (comparação)",
+    "greekEn": "Greek: Septuagint and Byzantine tradition (comparison)",
+    "latin": "Latim: Vulgata",
+    "latinEn": "Latin: Vulgate",
+    "geez": "Ge'ez: tradição etíope clássica",
+    "geezEn": "Ge'ez: classical Ethiopic tradition",
+    "syriac": "Siríaco: Peshitta",
+    "syriacEn": "Syriac: Peshitta",
+    "coptic": "Copta: testemunhos sahídico/boárico",
+    "copticEn": "Coptic: Sahidic/Bohairic witnesses",
+    "armenian": "Armênio: versão armênia antiga",
+    "armenianEn": "Armenian: ancient Armenian version"
+  },
+  "sourceTexts": {
+    "hebrew": "וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־קַיִן",
+    "aramaic": "[Aramaico] Curadoria textual em progresso para Gênesis 4:1.",
+    "greek": "Αδαμ δε εγνω Ευαν την γυναικα αυτου και συλλαβουσα ετεκεν τον Καιν",
+    "latin": "Adam vero cognovit uxorem suam Hevam quae concepit et peperit Cain",
+    "geez": "[Ge'ez] Curadoria textual em progresso para Gênesis 4:1.",
+    "syriac": "[Siríaco] Curadoria textual em progresso para Gênesis 4:1.",
+    "coptic": "[Copta] Curadoria textual em progresso para Gênesis 4:1.",
+    "armenian": "[Armênio] Curadoria textual em progresso para Gênesis 4:1."
+  },
+  "ptLiteralVerse": "E o homem conheceu Eva, sua mulher; ela concebeu e deu à luz Caim.",
+  "enLiteralVerse": "And the man knew Eve his wife; she conceived and bore Cain.",
+  "literalTranslations": [
+    {
+      "lang": "hebrew",
+      "langPt": "Hebraico",
+      "langEn": "Hebrew",
+      "pt": "O homem conheceu Eva, sua mulher, e ela gerou Caim.",
+      "en": "The man knew Eve his wife, and she bore Cain."
+    },
+    {
+      "lang": "aramaic",
+      "langPt": "Aramaico",
+      "langEn": "Aramaic",
+      "pt": "Tradição aramaica equivalente em curadoria.",
+      "en": "Equivalent Aramaic tradition under curation."
+    },
+    {
+      "lang": "greek",
+      "langPt": "Grego",
+      "langEn": "Greek",
+      "pt": "Adão conheceu Eva e ela, concebendo, deu à luz Caim.",
+      "en": "Adam knew Eve and she, having conceived, gave birth to Cain."
+    },
+    {
+      "lang": "latin",
+      "langPt": "Latim",
+      "langEn": "Latin",
+      "pt": "Adão conheceu sua esposa Eva, que concebeu e gerou Caim.",
+      "en": "Adam knew his wife Eve, who conceived and bore Cain."
+    },
+    {
+      "lang": "geez",
+      "langPt": "Ge'ez",
+      "langEn": "Ge'ez",
+      "pt": "Tradição etíope clássica em curadoria.",
+      "en": "Classical Ethiopic tradition under curation."
+    },
+    {
+      "lang": "syriac",
+      "langPt": "Siríaco",
+      "langEn": "Syriac",
+      "pt": "Peshitta em curadoria para este verso.",
+      "en": "Peshitta curation in progress for this verse."
+    },
+    {
+      "lang": "coptic",
+      "langPt": "Copta",
+      "langEn": "Coptic",
+      "pt": "Testemunhos coptas em curadoria para este verso.",
+      "en": "Coptic witnesses under curation for this verse."
+    },
+    {
+      "lang": "armenian",
+      "langPt": "Armênio",
+      "langEn": "Armenian",
+      "pt": "Versão armênia antiga em curadoria para este verso.",
+      "en": "Ancient Armenian version under curation for this verse."
+    }
+  ],
+  "tokens": [
+    {
+      "id": "gen.4.1.t1",
+      "lang": "hebrew",
+      "langPt": "Hebraico",
+      "langEn": "Hebrew",
+      "surface": "יָדַע",
+      "transliteration": "yada",
+      "lemma": "יָדַע",
+      "strong": "H3045",
+      "morph": "Verbo qal perfeito 3ms",
+      "manuscript": "Codex Leningradensis (B19A)",
+      "manuscriptEn": "Codex Leningradensis (B19A)",
+      "ptLiteralWord": "conheceu",
+      "enLiteralWord": "knew",
+      "explanation": "Eufemismo semítico para relação conjugal.",
+      "explanationEn": "Semitic euphemism for marital union."
+    }
+  ]
+}

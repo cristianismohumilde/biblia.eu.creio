@@ -2,6 +2,17 @@ const state = {
   books: [],
 };
 
+const LANG_ORDER = [
+  { code: "hebrew", fallbackLabel: "Hebrew" },
+  { code: "aramaic", fallbackLabel: "Aramaic" },
+  { code: "greek", fallbackLabel: "Greek" },
+  { code: "latin", fallbackLabel: "Latin" },
+  { code: "geez", fallbackLabel: "Ge'ez" },
+  { code: "syriac", fallbackLabel: "Syriac" },
+  { code: "coptic", fallbackLabel: "Coptic" },
+  { code: "armenian", fallbackLabel: "Armenian" },
+];
+
 const els = {
   form: document.querySelector("#reference-form"),
   status: document.querySelector("#status"),
@@ -13,17 +24,17 @@ const els = {
   translationAuthor: document.querySelector("#translation-author"),
   translationSource: document.querySelector("#translation-source"),
   ptVerse: document.querySelector("#pt-verse"),
-  metaHebrew: document.querySelector("#meta-hebrew"),
-  metaGreek: document.querySelector("#meta-greek"),
-  metaAramaic: document.querySelector("#meta-aramaic"),
-  metaLatin: document.querySelector("#meta-latin"),
-  sourceHebrew: document.querySelector("#source-hebrew"),
-  sourceGreek: document.querySelector("#source-greek"),
-  sourceAramaic: document.querySelector("#source-aramaic"),
-  sourceLatin: document.querySelector("#source-latin"),
+  literalSourcesBody: document.querySelector("#literal-sources-body"),
   tokensBody: document.querySelector("#tokens-body"),
   healthInfo: document.querySelector("#health-info"),
+  metaByLang: {},
+  sourceByLang: {},
 };
+
+LANG_ORDER.forEach(({ code }) => {
+  els.metaByLang[code] = document.querySelector(`#meta-${code}`);
+  els.sourceByLang[code] = document.querySelector(`#source-${code}`);
+});
 
 const THEME_KEY = "biblia-theme";
 const DATA_ROOT = document.body.dataset.dataRoot || "../data";
@@ -62,8 +73,8 @@ const setStatus = (message) => {
   els.status.textContent = message;
 };
 
-const clearTokens = () => {
-  els.tokensBody.innerHTML = "";
+const clearBody = (element) => {
+  element.innerHTML = "";
 };
 
 const addOption = (selectEl, value, label) => {
@@ -117,20 +128,19 @@ const fillVerses = async (bookCode, chapter) => {
     }
 
     const chapterData = await response.json();
-    chapterData.verses.forEach((verse) => {
-      addOption(els.verseSelect, verse, verse);
-    });
+    chapterData.verses.forEach((verse) => addOption(els.verseSelect, verse, verse));
   } catch (error) {
     setStatus("Could not load verses for this chapter.");
   }
 };
 
 const renderTokens = (tokens) => {
-  clearTokens();
+  clearBody(els.tokensBody);
 
   tokens.forEach((token) => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
+      <td>${token.langEn || token.lang || "-"}</td>
       <td>${token.surface || "-"}</td>
       <td>${token.transliteration || "-"}</td>
       <td>${token.lemma || "-"}</td>
@@ -144,27 +154,44 @@ const renderTokens = (tokens) => {
   });
 };
 
+const renderLiteralBySource = (entries) => {
+  clearBody(els.literalSourcesBody);
+
+  entries.forEach((entry) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${entry.langEn || entry.lang || "-"}</td>
+      <td>${entry.en || "-"}</td>
+      <td>${entry.pt || "-"}</td>
+    `;
+    els.literalSourcesBody.appendChild(tr);
+  });
+};
+
 const renderVerse = (data) => {
   const book = state.books.find((item) => item.code === data.ref.book);
-  const bookName = book ? book.name : data.ref.book;
+  const bookName = book ? book.nameEn || book.name : data.ref.book;
   const translation = data.translation || {};
   const manuscripts = data.manuscripts || {};
+  const sourceTexts = data.sourceTexts || {};
 
   els.referenceTitle.textContent = `${bookName} ${data.ref.chapter}:${data.ref.verse}`;
   els.translationAuthor.textContent = `Literal translation author: ${translation.authorEn || translation.author || "not provided"}`;
   els.translationSource.textContent = `Translation source text: ${translation.baseTextEn || translation.baseText || "not provided"}`;
   els.ptVerse.textContent = data.enLiteralVerse || data.ptLiteralVerse || "Literal translation unavailable.";
 
-  els.metaHebrew.textContent = manuscripts.hebrewEn || manuscripts.hebrew || "Manuscript/source not provided.";
-  els.metaGreek.textContent = manuscripts.greekEn || manuscripts.greek || "Manuscript/source not provided.";
-  els.metaAramaic.textContent = manuscripts.aramaicEn || manuscripts.aramaic || "Manuscript/source not provided.";
-  els.metaLatin.textContent = manuscripts.latinEn || manuscripts.latin || "Manuscript/source not provided.";
+  LANG_ORDER.forEach(({ code, fallbackLabel }) => {
+    const metaEl = els.metaByLang[code];
+    const sourceEl = els.sourceByLang[code];
+    if (metaEl) {
+      metaEl.textContent = manuscripts[`${code}En`] || manuscripts[code] || `Manuscript/source (${fallbackLabel}) not provided.`;
+    }
+    if (sourceEl) {
+      sourceEl.textContent = sourceTexts[code] || "No content.";
+    }
+  });
 
-  els.sourceHebrew.textContent = data.sourceTexts.hebrew || "No content.";
-  els.sourceGreek.textContent = data.sourceTexts.greek || "No content.";
-  els.sourceAramaic.textContent = data.sourceTexts.aramaic || "No content.";
-  els.sourceLatin.textContent = data.sourceTexts.latin || "No content.";
-
+  renderLiteralBySource(data.literalTranslations || []);
   renderTokens(data.tokens || []);
 };
 
@@ -189,7 +216,7 @@ const loadVerse = async (bookCode, chapter, verse) => {
 
 const initializeBooks = () => {
   resetSelect(els.bookSelect);
-  state.books.forEach((book) => addOption(els.bookSelect, book.code, book.name));
+  state.books.forEach((book) => addOption(els.bookSelect, book.code, book.nameEn || book.name));
 };
 
 const setupReferenceEvents = () => {
@@ -204,7 +231,6 @@ const setupReferenceEvents = () => {
 
   els.form.addEventListener("submit", async (event) => {
     event.preventDefault();
-
     await loadVerse(
       els.bookSelect.value,
       Number(els.chapterSelect.value),

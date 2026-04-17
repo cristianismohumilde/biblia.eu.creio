@@ -1,38 +1,110 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "ref": {
     "book": "gen",
     "chapter": 1,
     "verse": 1
   },
   "translation": {
-    "author": "Equipe Biblia.Creio.EU (tradução literal de demonstração)",
-    "authorEn": "Biblia.Creio.EU Team (demo literal translation)",
-    "baseText": "Texto hebraico massorético com referência principal no Codex Leningradensis (B19A), com comparação editorial",
-    "baseTextEn": "Masoretic Hebrew text, primarily referencing Codex Leningradensis (B19A), with editorial comparison"
+    "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+    "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+    "baseText": "Base principal hebraica com comparação multitradicional",
+    "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
   },
   "manuscripts": {
     "hebrew": "Hebraico: Codex Leningradensis (B19A), tradição massorética",
     "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition",
-    "greek": "Grego: texto majoritário bizantino (referência de comparação)",
-    "greekEn": "Greek: Byzantine majority text (comparison reference)",
-    "aramaic": "Aramaico: Targum (não exibido neste verso no MVP)",
-    "aramaicEn": "Aramaic: Targum (not displayed for this verse in MVP)",
-    "latin": "Latim: tradição da Vulgata",
-    "latinEn": "Latin: Vulgate tradition"
+    "aramaic": "Aramaico: tradições targúmicas (comparação)",
+    "aramaicEn": "Aramaic: targumic traditions (comparison)",
+    "greek": "Grego: Septuaginta e tradição bizantina (comparação)",
+    "greekEn": "Greek: Septuagint and Byzantine tradition (comparison)",
+    "latin": "Latim: Vulgata",
+    "latinEn": "Latin: Vulgate",
+    "geez": "Ge'ez: tradição etíope clássica",
+    "geezEn": "Ge'ez: classical Ethiopic tradition",
+    "syriac": "Siríaco: Peshitta",
+    "syriacEn": "Syriac: Peshitta",
+    "coptic": "Copta: testemunhos sahídico/boárico",
+    "copticEn": "Coptic: Sahidic/Bohairic witnesses",
+    "armenian": "Armênio: versão armênia antiga",
+    "armenianEn": "Armenian: ancient Armenian version"
   },
   "sourceTexts": {
     "hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+    "aramaic": "[Aramaico] Tradição targúmica associada a Gênesis 1:1 (curadoria em progresso).",
     "greek": "Εν αρχη εποιησεν ο θεος τον ουρανον και την γην",
-    "aramaic": "No exemplo inicial não há conteúdo aramaico para este verso.",
-    "latin": "In principio creavit Deus caelum et terram"
+    "latin": "In principio creavit Deus caelum et terram",
+    "geez": "[Ge'ez] Tradição etíope de Gênesis 1:1 (curadoria em progresso).",
+    "syriac": "[Siríaco] Peshitta de Gênesis 1:1 (curadoria em progresso).",
+    "coptic": "[Copta] Tradições coptas para Gênesis 1:1 (curadoria em progresso).",
+    "armenian": "[Armênio] Versão armênia antiga de Gênesis 1:1 (curadoria em progresso)."
   },
   "ptLiteralVerse": "No princípio Deus criou os céus e a terra.",
   "enLiteralVerse": "In the beginning God created the heavens and the earth.",
+  "literalTranslations": [
+    {
+      "lang": "hebrew",
+      "langPt": "Hebraico",
+      "langEn": "Hebrew",
+      "pt": "No princípio Deus criou os céus e a terra.",
+      "en": "In the beginning God created the heavens and the earth."
+    },
+    {
+      "lang": "aramaic",
+      "langPt": "Aramaico",
+      "langEn": "Aramaic",
+      "pt": "Abertura equivalente da criação divina em tradição aramaica.",
+      "en": "Equivalent opening of divine creation in Aramaic tradition."
+    },
+    {
+      "lang": "greek",
+      "langPt": "Grego",
+      "langEn": "Greek",
+      "pt": "No princípio Deus fez/criou o céu e a terra.",
+      "en": "In the beginning God made/created heaven and earth."
+    },
+    {
+      "lang": "latin",
+      "langPt": "Latim",
+      "langEn": "Latin",
+      "pt": "No princípio Deus criou o céu e a terra.",
+      "en": "In the beginning God created heaven and earth."
+    },
+    {
+      "lang": "geez",
+      "langPt": "Ge'ez",
+      "langEn": "Ge'ez",
+      "pt": "A tradição etíope clássica acompanha a abertura criacional.",
+      "en": "Classical Ethiopic tradition follows the creation opening."
+    },
+    {
+      "lang": "syriac",
+      "langPt": "Siríaco",
+      "langEn": "Syriac",
+      "pt": "A Peshitta preserva formulação semítica paralela.",
+      "en": "The Peshitta preserves a parallel Semitic formulation."
+    },
+    {
+      "lang": "coptic",
+      "langPt": "Copta",
+      "langEn": "Coptic",
+      "pt": "Testemunhos coptas refletem transmissão grega no Egito cristão.",
+      "en": "Coptic witnesses reflect Greek transmission in Christian Egypt."
+    },
+    {
+      "lang": "armenian",
+      "langPt": "Armênio",
+      "langEn": "Armenian",
+      "pt": "A versão armênia antiga é testemunha importante da recepção textual.",
+      "en": "The ancient Armenian version is an important witness of textual reception."
+    }
+  ],
   "tokens": [
     {
       "id": "gen.1.1.t1",
       "lang": "hebrew",
+      "langPt": "Hebraico",
+      "langEn": "Hebrew",
       "surface": "בְּרֵאשִׁית",
       "transliteration": "bereshit",
       "lemma": "רֵאשִׁית",
@@ -42,12 +114,14 @@
       "manuscriptEn": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "no princípio",
       "enLiteralWord": "in the beginning",
-      "explanation": "Marca um início ou fundamento temporal da narrativa.",
-      "explanationEn": "Marks the temporal beginning or foundational opening of the narrative."
+      "explanation": "Marca um início temporal e teológico da narrativa.",
+      "explanationEn": "Marks a temporal and theological beginning of the narrative."
     },
     {
       "id": "gen.1.1.t2",
       "lang": "hebrew",
+      "langPt": "Hebraico",
+      "langEn": "Hebrew",
       "surface": "בָּרָא",
       "transliteration": "bara",
       "lemma": "בָּרָא",
@@ -57,53 +131,59 @@
       "manuscriptEn": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "criou",
       "enLiteralWord": "created",
-      "explanation": "Verbo usado para ação criativa atribuída a Deus.",
-      "explanationEn": "Verb used for creative action attributed to God."
+      "explanation": "Verbo clássico para ação criadora atribuída a Deus.",
+      "explanationEn": "Classical verb for creative action attributed to God."
     },
     {
       "id": "gen.1.1.t3",
-      "lang": "hebrew",
-      "surface": "אֱלֹהִים",
-      "transliteration": "elohim",
-      "lemma": "אֱלֹהִים",
-      "strong": "H430",
-      "morph": "Substantivo masculino plural (sentido singular aqui)",
-      "manuscript": "Codex Leningradensis (B19A)",
-      "manuscriptEn": "Codex Leningradensis (B19A)",
-      "ptLiteralWord": "Deus",
-      "enLiteralWord": "God",
-      "explanation": "Título divino comum no hebraico bíblico.",
-      "explanationEn": "Common divine title in Biblical Hebrew."
+      "lang": "greek",
+      "langPt": "Grego",
+      "langEn": "Greek",
+      "surface": "Εν αρχη",
+      "transliteration": "en arche",
+      "lemma": "ἀρχή",
+      "strong": "G746",
+      "morph": "Prep + subst feminino dativo singular",
+      "manuscript": "Tradição septuagíntica",
+      "manuscriptEn": "Septuagint tradition",
+      "ptLiteralWord": "no princípio",
+      "enLiteralWord": "in the beginning",
+      "explanation": "Paralelo grego da abertura narrativa.",
+      "explanationEn": "Greek parallel of the narrative opening."
     },
     {
       "id": "gen.1.1.t4",
-      "lang": "hebrew",
-      "surface": "הַשָּׁמַיִם",
-      "transliteration": "hashamayim",
-      "lemma": "שָׁמַיִם",
-      "strong": "H8064",
-      "morph": "Artigo definido + substantivo masculino plural",
-      "manuscript": "Codex Leningradensis (B19A)",
-      "manuscriptEn": "Codex Leningradensis (B19A)",
-      "ptLiteralWord": "os céus",
-      "enLiteralWord": "the heavens",
-      "explanation": "Refere-se à esfera celeste, os céus.",
-      "explanationEn": "Refers to the celestial realm, the heavens."
+      "lang": "latin",
+      "langPt": "Latim",
+      "langEn": "Latin",
+      "surface": "In principio",
+      "transliteration": "in principio",
+      "lemma": "principium",
+      "strong": "-",
+      "morph": "Prep + subst neutro ablativo singular",
+      "manuscript": "Vulgata",
+      "manuscriptEn": "Vulgate",
+      "ptLiteralWord": "no princípio",
+      "enLiteralWord": "in the beginning",
+      "explanation": "Formulação latina tradicional da Vulgata.",
+      "explanationEn": "Traditional Latin Vulgate formulation."
     },
     {
       "id": "gen.1.1.t5",
-      "lang": "hebrew",
-      "surface": "הָאָרֶץ",
-      "transliteration": "haaretz",
-      "lemma": "אֶרֶץ",
-      "strong": "H776",
-      "morph": "Artigo definido + substantivo feminino singular",
-      "manuscript": "Codex Leningradensis (B19A)",
-      "manuscriptEn": "Codex Leningradensis (B19A)",
-      "ptLiteralWord": "a terra",
-      "enLiteralWord": "the earth",
-      "explanation": "Refere-se ao domínio terrestre ou terra habitável.",
-      "explanationEn": "Refers to the terrestrial domain or inhabitable land."
+      "lang": "syriac",
+      "langPt": "Siríaco",
+      "langEn": "Syriac",
+      "surface": "ܒܪܫܝܬ",
+      "transliteration": "breshit",
+      "lemma": "ܪܫܝܬ",
+      "strong": "-",
+      "morph": "Substantivo em estado enfático",
+      "manuscript": "Peshitta",
+      "manuscriptEn": "Peshitta",
+      "ptLiteralWord": "no princípio",
+      "enLiteralWord": "in the beginning",
+      "explanation": "Testemunho siríaco usado em comparação textual.",
+      "explanationEn": "Syriac witness used for textual comparison."
     }
   ]
 }

@@ -12,6 +12,7 @@ Entregar um site com:
 - tradução literal para português por verso
 - tradução literal por palavra
 - explicação léxica/morfológica por palavra
+- comparação entre os principais testemunhos linguísticos: hebraico, aramaico, grego, latim, ge'ez, siríaco, copta e armênio
 
 ## Arquitetura por Fases
 
@@ -160,6 +161,11 @@ Exemplo resumido de verso interlinear:
 - versão de exemplo em inglês adicionada em `en/`
 - versão em português consolidada em `pt/`
 - raiz (`/`) com redirecionamento automático por idioma do navegador (com fallback)
+- Gênesis disponível até o capítulo 5 com estrutura interlinear multilíngue ativa
+- versos de demonstração curados no momento: `gen.1.1`, `gen.2.1`, `gen.3.1`, `gen.4.1`, `gen.5.1`
+- páginas explicativas dos idiomas bíblicos:
+  - `pt/idiomas-biblicos.html`
+  - `en/biblical-languages.html`
 
 ## Como Rodar Localmente
 
@@ -222,6 +228,7 @@ SEO técnico adicional:
 
 - ampliar `data/books.json`, capítulos e versos
 - criar script offline para gerar JSONs em lote a partir das fontes licenciadas
+- completar os demais versos de Gênesis 1-5 mantendo o mesmo schema multilíngue
 
 ## Nota de Licenciamento
 

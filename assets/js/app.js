@@ -2,6 +2,17 @@ const state = {
   books: [],
 };
 
+const LANG_ORDER = [
+  { code: "hebrew", fallbackLabel: "Hebraico" },
+  { code: "aramaic", fallbackLabel: "Aramaico" },
+  { code: "greek", fallbackLabel: "Grego" },
+  { code: "latin", fallbackLabel: "Latim" },
+  { code: "geez", fallbackLabel: "Ge'ez" },
+  { code: "syriac", fallbackLabel: "Siríaco" },
+  { code: "coptic", fallbackLabel: "Copta" },
+  { code: "armenian", fallbackLabel: "Armênio" },
+];
+
 const els = {
   form: document.querySelector("#reference-form"),
   status: document.querySelector("#status"),
@@ -13,17 +24,17 @@ const els = {
   translationAuthor: document.querySelector("#translation-author"),
   translationSource: document.querySelector("#translation-source"),
   ptVerse: document.querySelector("#pt-verse"),
-  metaHebrew: document.querySelector("#meta-hebrew"),
-  metaGreek: document.querySelector("#meta-greek"),
-  metaAramaic: document.querySelector("#meta-aramaic"),
-  metaLatin: document.querySelector("#meta-latin"),
-  sourceHebrew: document.querySelector("#source-hebrew"),
-  sourceGreek: document.querySelector("#source-greek"),
-  sourceAramaic: document.querySelector("#source-aramaic"),
-  sourceLatin: document.querySelector("#source-latin"),
+  literalSourcesBody: document.querySelector("#literal-sources-body"),
   tokensBody: document.querySelector("#tokens-body"),
   healthInfo: document.querySelector("#health-info"),
+  metaByLang: {},
+  sourceByLang: {},
 };
+
+LANG_ORDER.forEach(({ code }) => {
+  els.metaByLang[code] = document.querySelector(`#meta-${code}`);
+  els.sourceByLang[code] = document.querySelector(`#source-${code}`);
+});
 
 const THEME_KEY = "biblia-theme";
 const DATA_ROOT = document.body.dataset.dataRoot || "data";
@@ -62,8 +73,8 @@ const setStatus = (message) => {
   els.status.textContent = message;
 };
 
-const clearTokens = () => {
-  els.tokensBody.innerHTML = "";
+const clearBody = (element) => {
+  element.innerHTML = "";
 };
 
 const addOption = (selectEl, value, label) => {
@@ -117,20 +128,19 @@ const fillVerses = async (bookCode, chapter) => {
     }
 
     const chapterData = await response.json();
-    chapterData.verses.forEach((verse) => {
-      addOption(els.verseSelect, verse, verse);
-    });
+    chapterData.verses.forEach((verse) => addOption(els.verseSelect, verse, verse));
   } catch (error) {
     setStatus("Não foi possível carregar os versos desse capítulo.");
   }
 };
 
 const renderTokens = (tokens) => {
-  clearTokens();
+  clearBody(els.tokensBody);
 
   tokens.forEach((token) => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
+      <td>${token.langPt || token.lang || "-"}</td>
       <td>${token.surface || "-"}</td>
       <td>${token.transliteration || "-"}</td>
       <td>${token.lemma || "-"}</td>
@@ -144,27 +154,44 @@ const renderTokens = (tokens) => {
   });
 };
 
+const renderLiteralBySource = (entries) => {
+  clearBody(els.literalSourcesBody);
+
+  entries.forEach((entry) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${entry.langPt || entry.lang || "-"}</td>
+      <td>${entry.pt || "-"}</td>
+      <td>${entry.en || "-"}</td>
+    `;
+    els.literalSourcesBody.appendChild(tr);
+  });
+};
+
 const renderVerse = (data) => {
   const book = state.books.find((item) => item.code === data.ref.book);
   const bookName = book ? book.name : data.ref.book;
   const translation = data.translation || {};
   const manuscripts = data.manuscripts || {};
+  const sourceTexts = data.sourceTexts || {};
 
   els.referenceTitle.textContent = `${bookName} ${data.ref.chapter}:${data.ref.verse}`;
   els.translationAuthor.textContent = `Autor da tradução literal: ${translation.author || "não informado"}`;
   els.translationSource.textContent = `Texto-fonte da tradução: ${translation.baseText || "não informado"}`;
   els.ptVerse.textContent = data.ptLiteralVerse || "Sem tradução literal disponível.";
 
-  els.metaHebrew.textContent = manuscripts.hebrew || "Manuscrito/fonte não informado.";
-  els.metaGreek.textContent = manuscripts.greek || "Manuscrito/fonte não informado.";
-  els.metaAramaic.textContent = manuscripts.aramaic || "Manuscrito/fonte não informado.";
-  els.metaLatin.textContent = manuscripts.latin || "Manuscrito/fonte não informado.";
+  LANG_ORDER.forEach(({ code, fallbackLabel }) => {
+    const metaEl = els.metaByLang[code];
+    const sourceEl = els.sourceByLang[code];
+    if (metaEl) {
+      metaEl.textContent = manuscripts[code] || `Manuscrito/fonte (${fallbackLabel}) não informado.`;
+    }
+    if (sourceEl) {
+      sourceEl.textContent = sourceTexts[code] || "Sem conteúdo.";
+    }
+  });
 
-  els.sourceHebrew.textContent = data.sourceTexts.hebrew || "Sem conteúdo.";
-  els.sourceGreek.textContent = data.sourceTexts.greek || "Sem conteúdo.";
-  els.sourceAramaic.textContent = data.sourceTexts.aramaic || "Sem conteúdo.";
-  els.sourceLatin.textContent = data.sourceTexts.latin || "Sem conteúdo.";
-
+  renderLiteralBySource(data.literalTranslations || []);
   renderTokens(data.tokens || []);
 };
 
@@ -204,7 +231,6 @@ const setupReferenceEvents = () => {
 
   els.form.addEventListener("submit", async (event) => {
     event.preventDefault();
-
     await loadVerse(
       els.bookSelect.value,
       Number(els.chapterSelect.value),

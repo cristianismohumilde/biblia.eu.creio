@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.1.0",
+  "ref": {
+    "book": "gen",
+    "chapter": 5,
+    "verse": 1
+  },
+  "translation": {
+    "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+    "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+    "baseText": "Base principal hebraica com comparação multitradicional",
+    "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
+  },
+  "manuscripts": {
+    "hebrew": "Hebraico: Codex Leningradensis (B19A), tradição massorética",
+    "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition",
+    "aramaic": "Aramaico: tradições targúmicas (comparação)",
+    "aramaicEn": "Aramaic: targumic traditions (comparison)",
+    "greek": "Grego: Septuaginta e tradição bizantina (comparação)",
+    "greekEn": "Greek: Septuagint and Byzantine tradition (comparison)",
+    "latin": "Latim: Vulgata",
+    "latinEn": "Latin: Vulgate",
+    "geez": "Ge'ez: tradição etíope clássica",
+    "geezEn": "Ge'ez: classical Ethiopic tradition",
+    "syriac": "Siríaco: Peshitta",
+    "syriacEn": "Syriac: Peshitta",
+    "coptic": "Copta: testemunhos sahídico/boárico",
+    "copticEn": "Coptic: Sahidic/Bohairic witnesses",
+    "armenian": "Armênio: versão armênia antiga",
+    "armenianEn": "Armenian: ancient Armenian version"
+  },
+  "sourceTexts": {
+    "hebrew": "זֶה סֵפֶר תּוֹלְדֹת אָדָם",
+    "aramaic": "[Aramaico] Curadoria textual em progresso para Gênesis 5:1.",
+    "greek": "Αυτη η βιβλος γενεσεως ανθρωπων",
+    "latin": "Hic est liber generationis Adam",
+    "geez": "[Ge'ez] Curadoria textual em progresso para Gênesis 5:1.",
+    "syriac": "[Siríaco] Curadoria textual em progresso para Gênesis 5:1.",
+    "coptic": "[Copta] Curadoria textual em progresso para Gênesis 5:1.",
+    "armenian": "[Armênio] Curadoria textual em progresso para Gênesis 5:1."
+  },
+  "ptLiteralVerse": "Este é o livro das gerações de Adão.",
+  "enLiteralVerse": "This is the book of the generations of Adam.",
+  "literalTranslations": [
+    {
+      "lang": "hebrew",
+      "langPt": "Hebraico",
+      "langEn": "Hebrew",
+      "pt": "Este é o livro das gerações de Adão.",
+      "en": "This is the book of the generations of Adam."
+    },
+    {
+      "lang": "aramaic",
+      "langPt": "Aramaico",
+      "langEn": "Aramaic",
+      "pt": "Tradição aramaica equivalente em curadoria.",
+      "en": "Equivalent Aramaic tradition under curation."
+    },
+    {
+      "lang": "greek",
+      "langPt": "Grego",
+      "langEn": "Greek",
+      "pt": "Este é o livro da origem dos homens.",
+      "en": "This is the book of the origin of humankind."
+    },
+    {
+      "lang": "latin",
+      "langPt": "Latim",
+      "langEn": "Latin",
+      "pt": "Este é o livro da geração de Adão.",
+      "en": "This is the book of the generation of Adam."
+    },
+    {
+      "lang": "geez",
+      "langPt": "Ge'ez",
+      "langEn": "Ge'ez",
+      "pt": "Tradição etíope clássica em curadoria.",
+      "en": "Classical Ethiopic tradition under curation."
+    },
+    {
+      "lang": "syriac",
+      "langPt": "Siríaco",
+      "langEn": "Syriac",
+      "pt": "Peshitta em curadoria para este verso.",
+      "en": "Peshitta curation in progress for this verse."
+    },
+    {
+      "lang": "coptic",
+      "langPt": "Copta",
+      "langEn": "Coptic",
+      "pt": "Testemunhos coptas em curadoria para este verso.",
+      "en": "Coptic witnesses under curation for this verse."
+    },
+    {
+      "lang": "armenian",
+      "langPt": "Armênio",
+      "langEn": "Armenian",
+      "pt": "Versão armênia antiga em curadoria para este verso.",
+      "en": "Ancient Armenian version under curation for this verse."
+    }
+  ],
+  "tokens": [
+    {
+      "id": "gen.5.1.t1",
+      "lang": "hebrew",
+      "langPt": "Hebraico",
+      "langEn": "Hebrew",
+      "surface": "סֵפֶר",
+      "transliteration": "sefer",
+      "lemma": "סֵפֶר",
+      "strong": "H5612",
+      "morph": "Substantivo masc singular",
+      "manuscript": "Codex Leningradensis (B19A)",
+      "manuscriptEn": "Codex Leningradensis (B19A)",
+      "ptLiteralWord": "livro",
+      "enLiteralWord": "book",
+      "explanation": "Termo para registro escrito/genealógico.",
+      "explanationEn": "Term for written/genealogical record."
+    }
+  ]
+}

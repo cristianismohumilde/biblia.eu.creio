@@ -36,8 +36,10 @@
       </div>
       <nav class="quick-nav" aria-label="Navegação rápida">
         <a href="#verso">Verso</a>
+        <a href="#traducoes-originais">Traduções por idioma</a>
         <a href="#originais">Originais</a>
         <a href="#tokens">Palavra a palavra</a>
+        <a href="idiomas-biblicos.html">Importância dos idiomas</a>
         <a href="../en/" hreflang="en" lang="en">English</a>
         <button id="theme-toggle" type="button" class="theme-toggle" aria-pressed="false">
           Ativar tema dark
@@ -97,6 +99,42 @@
             <p id="meta-latin" class="manuscript-meta"></p>
             <p id="source-latin"></p>
           </article>
+          <article>
+            <h3>Ge'ez</h3>
+            <p id="meta-geez" class="manuscript-meta"></p>
+            <p id="source-geez"></p>
+          </article>
+          <article>
+            <h3>Siríaco</h3>
+            <p id="meta-syriac" class="manuscript-meta"></p>
+            <p id="source-syriac"></p>
+          </article>
+          <article>
+            <h3>Copta</h3>
+            <p id="meta-coptic" class="manuscript-meta"></p>
+            <p id="source-coptic"></p>
+          </article>
+          <article>
+            <h3>Armênio</h3>
+            <p id="meta-armenian" class="manuscript-meta"></p>
+            <p id="source-armenian"></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="card" id="traducoes-originais" aria-labelledby="traducoes-originais-titulo">
+        <h2 id="traducoes-originais-titulo">Traduções literais por idioma original</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Idioma</th>
+                <th>Tradução literal (PT)</th>
+                <th>Literal translation (EN)</th>
+              </tr>
+            </thead>
+            <tbody id="literal-sources-body"></tbody>
+          </table>
         </div>
       </section>
 
@@ -106,6 +144,7 @@
           <table>
             <thead>
               <tr>
+                <th>Idioma original</th>
                 <th>Original</th>
                 <th>Transliteração</th>
                 <th>Lema</th>
