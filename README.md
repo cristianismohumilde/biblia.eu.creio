@@ -199,11 +199,17 @@ Checklist rápido após ativação:
 - confirmar publicação sem erro no ambiente `github-pages`
 - abrir a URL pública e validar carregamento de `index.html` e arquivos em `data/`
 - validar o health-check em `data/health.json`
+- validar `sitemap.xml` e `robots.txt`
 
 Health-check estático:
 
 - arquivo: `data/health.json`
 - uso: monitorar versão publicada, schema e data de geração do pacote estático
+
+SEO técnico adicional:
+
+- `sitemap.xml` com URLs multilíngues e alternates (`pt-BR`, `en`, `x-default`)
+- `robots.txt` permitindo rastreamento e apontando para o sitemap
 
 ### Hospedagem Compartilhada
 
