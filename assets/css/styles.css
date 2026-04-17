@@ -179,12 +179,16 @@ h1 {
 .support-banner {
   position: relative;
   overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 1.25rem;
+  align-items: center;
   border: 1px solid rgba(30, 107, 100, 0.35);
   background:
     radial-gradient(circle at 15% 10%, rgba(30, 107, 100, 0.22), transparent 38%),
     radial-gradient(circle at 88% 12%, rgba(204, 154, 88, 0.25), transparent 42%),
     linear-gradient(130deg, #fdf8ef, #f4ecdc);
-  padding: 0.68rem 0.76rem 0.76rem;
+  padding: 0.95rem 1rem;
 }
 
 .support-banner::after {
@@ -203,8 +207,9 @@ h1 {
 }
 
 .support-kicker {
+  grid-column: 1;
   margin: 0;
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
   color: #3d766f;
@@ -212,27 +217,33 @@ h1 {
 }
 
 .support-banner h2 {
+  grid-column: 1;
   margin: 0.2rem 0 0.35rem;
-  font-size: clamp(0.95rem, 1.8vw, 1.15rem);
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
 }
 
 .support-banner p {
+  grid-column: 1;
   margin: 0;
-  max-width: 70ch;
-  font-size: 0.88rem;
+  max-width: 66ch;
+  font-size: 1rem;
 }
 
 .support-cta {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  align-self: center;
   display: inline-block;
-  margin-top: 0.52rem;
+  margin-top: 0;
   text-decoration: none;
   font-weight: 700;
   color: #fff;
   border-radius: 999px;
-  padding: 0.34rem 0.72rem;
-  font-size: 0.82rem;
+  padding: 0.55rem 1.05rem;
+  font-size: 0.94rem;
   background: linear-gradient(120deg, #1e6b64, #4d948d);
   box-shadow: 0 10px 18px rgba(30, 107, 100, 0.22);
+  white-space: nowrap;
 }
 
 .support-cta:hover {
@@ -288,8 +299,8 @@ h1 {
 }
 
 .controls {
-  max-width: 980px;
-  margin: 0 auto;
+  max-width: none;
+  margin: 0;
   padding: 0.95rem;
 }
 
@@ -572,7 +583,24 @@ th {
   }
 
   .controls {
-    max-width: 840px;
+    max-width: none;
+  }
+
+  .support-banner {
+    grid-template-columns: 1fr;
+    row-gap: 0.25rem;
+  }
+
+  .support-kicker,
+  .support-banner h2,
+  .support-banner p,
+  .support-cta {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .support-cta {
+    margin-top: 0.6rem;
   }
 
   .manuscripts {
