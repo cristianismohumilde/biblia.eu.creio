@@ -157,6 +157,7 @@ Exemplo resumido de verso interlinear:
 - planejamento arquitetural registrado
 - frontend estático criado (HTML/CSS/JS)
 - primeira página interlinear funcional com dados JSON de exemplo (Gênesis 1:1)
+- versão de exemplo em inglês adicionada em `en/`
 
 ## Como Rodar Localmente
 
@@ -180,6 +181,12 @@ Depois, acesse `http://localhost:8080`.
 - no GitHub, abrir Settings > Pages > Build and deployment > Source e selecionar GitHub Actions
 - após isso, cada push na branch `main` publica automaticamente o site
 - URL esperada do site: `https://cristianismohumilde.github.io/biblia.eu.creio/`
+- versão em inglês (exemplo): `https://cristianismohumilde.github.io/biblia.eu.creio/en/`
+
+Estratégia de idioma recomendada neste projeto:
+
+- manter idioma por subpasta (`/`, `en/`, e futuramente outros)
+- compartilhar estrutura de dados e adicionar campos específicos por idioma quando necessário
 
 Checklist rápido após ativação:
 

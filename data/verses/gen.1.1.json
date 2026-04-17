@@ -7,13 +7,19 @@
   },
   "translation": {
     "author": "Equipe Biblia.Creio.EU (tradução literal de demonstração)",
-    "baseText": "Texto hebraico massorético com referência principal no Codex Leningradensis (B19A), com comparação editorial"
+    "authorEn": "Biblia.Creio.EU Team (demo literal translation)",
+    "baseText": "Texto hebraico massorético com referência principal no Codex Leningradensis (B19A), com comparação editorial",
+    "baseTextEn": "Masoretic Hebrew text, primarily referencing Codex Leningradensis (B19A), with editorial comparison"
   },
   "manuscripts": {
     "hebrew": "Hebraico: Codex Leningradensis (B19A), tradição massorética",
+    "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition",
     "greek": "Grego: texto majoritário bizantino (referência de comparação)",
+    "greekEn": "Greek: Byzantine majority text (comparison reference)",
     "aramaic": "Aramaico: Targum (não exibido neste verso no MVP)",
-    "latin": "Latim: tradição da Vulgata"
+    "aramaicEn": "Aramaic: Targum (not displayed for this verse in MVP)",
+    "latin": "Latim: tradição da Vulgata",
+    "latinEn": "Latin: Vulgate tradition"
   },
   "sourceTexts": {
     "hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
@@ -22,6 +28,7 @@
     "latin": "In principio creavit Deus caelum et terram"
   },
   "ptLiteralVerse": "No princípio Deus criou os céus e a terra.",
+  "enLiteralVerse": "In the beginning God created the heavens and the earth.",
   "tokens": [
     {
       "id": "gen.1.1.t1",
@@ -32,8 +39,11 @@
       "strong": "H7225",
       "morph": "Prep + subst feminino singular construto",
       "manuscript": "Codex Leningradensis (B19A)",
+      "manuscriptEn": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "no princípio",
-      "explanation": "Marca um início ou fundamento temporal da narrativa."
+      "enLiteralWord": "in the beginning",
+      "explanation": "Marca um início ou fundamento temporal da narrativa.",
+      "explanationEn": "Marks the temporal beginning or foundational opening of the narrative."
     },
     {
       "id": "gen.1.1.t2",
@@ -44,8 +54,11 @@
       "strong": "H1254",
       "morph": "Verbo qal perfeito 3ms",
       "manuscript": "Codex Leningradensis (B19A)",
+      "manuscriptEn": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "criou",
-      "explanation": "Verbo usado para ação criativa atribuída a Deus."
+      "enLiteralWord": "created",
+      "explanation": "Verbo usado para ação criativa atribuída a Deus.",
+      "explanationEn": "Verb used for creative action attributed to God."
     },
     {
       "id": "gen.1.1.t3",
@@ -56,8 +69,11 @@
       "strong": "H430",
       "morph": "Substantivo masculino plural (sentido singular aqui)",
       "manuscript": "Codex Leningradensis (B19A)",
+      "manuscriptEn": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "Deus",
-      "explanation": "Título divino comum no hebraico bíblico."
+      "enLiteralWord": "God",
+      "explanation": "Título divino comum no hebraico bíblico.",
+      "explanationEn": "Common divine title in Biblical Hebrew."
     },
     {
       "id": "gen.1.1.t4",
@@ -68,8 +84,11 @@
       "strong": "H8064",
       "morph": "Artigo definido + substantivo masculino plural",
       "manuscript": "Codex Leningradensis (B19A)",
+      "manuscriptEn": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "os céus",
-      "explanation": "Refere-se à esfera celeste, os céus."
+      "enLiteralWord": "the heavens",
+      "explanation": "Refere-se à esfera celeste, os céus.",
+      "explanationEn": "Refers to the celestial realm, the heavens."
     },
     {
       "id": "gen.1.1.t5",
@@ -80,8 +99,11 @@
       "strong": "H776",
       "morph": "Artigo definido + substantivo feminino singular",
       "manuscript": "Codex Leningradensis (B19A)",
+      "manuscriptEn": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "a terra",
-      "explanation": "Refere-se ao domínio terrestre ou terra habitável."
+      "enLiteralWord": "the earth",
+      "explanation": "Refere-se ao domínio terrestre ou terra habitável.",
+      "explanationEn": "Refers to the terrestrial domain or inhabitable land."
     }
   ]
 }
