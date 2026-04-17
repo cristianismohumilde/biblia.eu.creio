@@ -174,6 +174,9 @@ Depois, acesse `http://localhost:8080`.
 
 - publicar a raiz do repositório como site estático
 - garantir que os arquivos `index.html`, `assets/` e `data/` estejam versionados
+- workflow automático já incluído em `.github/workflows/deploy-pages.yml`
+- no GitHub, abrir Settings > Pages > Build and deployment > Source e selecionar GitHub Actions
+- após isso, cada push na branch `main` publica automaticamente o site
 
 ### Hospedagem Compartilhada
 
