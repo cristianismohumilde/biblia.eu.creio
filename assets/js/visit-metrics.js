@@ -33,8 +33,8 @@
   }
 
   async function hitCounter(key) {
-    var data = await fetchJson("https://api.countapi.xyz/hit/" + namespace + "/" + key);
-    return data && typeof data.value === "number" ? data.value : null;
+    var data = await fetchJson("https://api.counterapi.dev/v1/" + namespace + "/" + key + "/up");
+    return data && typeof data.count === "number" ? data.count : null;
   }
 
   hitCounter(KEY_TOTAL_VIEWS)
