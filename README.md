@@ -158,6 +158,8 @@ Exemplo resumido de verso interlinear:
 - frontend estático criado (HTML/CSS/JS)
 - primeira página interlinear funcional com dados JSON de exemplo (Gênesis 1:1)
 - versão de exemplo em inglês adicionada em `en/`
+- versão em português consolidada em `pt/`
+- raiz (`/`) com redirecionamento automático por idioma do navegador (com fallback)
 
 ## Como Rodar Localmente
 
@@ -181,11 +183,13 @@ Depois, acesse `http://localhost:8080`.
 - no GitHub, abrir Settings > Pages > Build and deployment > Source e selecionar GitHub Actions
 - após isso, cada push na branch `main` publica automaticamente o site
 - URL esperada do site: `https://cristianismohumilde.github.io/biblia.eu.creio/`
-- versão em inglês (exemplo): `https://cristianismohumilde.github.io/biblia.eu.creio/en/`
+- versão em português: `https://cristianismohumilde.github.io/biblia.eu.creio/pt/`
+- versão em inglês: `https://cristianismohumilde.github.io/biblia.eu.creio/en/`
 
 Estratégia de idioma recomendada neste projeto:
 
-- manter idioma por subpasta (`/`, `en/`, e futuramente outros)
+- manter idioma por subpasta (`pt/`, `en/`, e futuramente outros)
+- usar a raiz (`/`) apenas como roteador de idioma por preferência do navegador
 - compartilhar estrutura de dados e adicionar campos específicos por idioma quando necessário
 
 Checklist rápido após ativação:

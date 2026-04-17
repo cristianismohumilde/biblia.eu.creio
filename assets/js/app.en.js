@@ -26,7 +26,7 @@ const els = {
 };
 
 const THEME_KEY = "biblia-theme";
-const DATA_ROOT = "../data";
+const DATA_ROOT = document.body.dataset.dataRoot || "../data";
 
 const applyTheme = (theme) => {
   const normalizedTheme = theme === "dark" ? "dark" : "light";
@@ -236,6 +236,7 @@ const loadHealthInfo = async () => {
 };
 
 const bootstrap = async () => {
+  localStorage.setItem("preferred-lang", "en");
   initializeTheme();
 
   try {

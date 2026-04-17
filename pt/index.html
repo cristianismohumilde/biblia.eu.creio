@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Biblia.Creio.EU | Interlinear (English)</title>
+    <title>Biblia.Creio.EU | Interlinear</title>
     <meta
       name="description"
-      content="Open source interlinear Bible study in English with ancient manuscript texts and literal translation."
+      content="Estudo bíblico interlinear em português com manuscritos antigos e tradução literal."
     />
     <link rel="stylesheet" href="../assets/css/styles.css" />
   </head>
@@ -16,88 +16,88 @@
       <div>
         <p class="brand-eyebrow">Open Source</p>
         <h1>Biblia.Creio.EU</h1>
-        <p class="subtitle">Interlinear Bible study in English.</p>
+        <p class="subtitle">Interlinear em português para estudo textual.</p>
       </div>
-      <nav class="quick-nav" aria-label="Quick navigation">
-        <a href="#verse">Verse</a>
-        <a href="#sources">Manuscripts</a>
-        <a href="#tokens">Word by word</a>
-        <a href="../pt/" hreflang="pt-BR" lang="pt-BR">Português</a>
+      <nav class="quick-nav" aria-label="Navegação rápida">
+        <a href="#verso">Verso</a>
+        <a href="#originais">Originais</a>
+        <a href="#tokens">Palavra a palavra</a>
+        <a href="../en/" hreflang="en" lang="en">English</a>
         <button id="theme-toggle" type="button" class="theme-toggle" aria-pressed="false">
-          Enable dark theme
+          Ativar tema dark
         </button>
       </nav>
     </header>
 
     <main class="layout">
-      <section class="card controls" aria-labelledby="controls-title">
-        <h2 id="controls-title">Select reference</h2>
+      <section class="card controls" aria-labelledby="controles-titulo">
+        <h2 id="controles-titulo">Selecionar referência</h2>
         <form id="reference-form">
           <label>
-            Book
+            Livro
             <select id="book-select" name="book"></select>
           </label>
           <label>
-            Chapter
+            Capítulo
             <select id="chapter-select" name="chapter"></select>
           </label>
           <label>
-            Verse
+            Verso
             <select id="verse-select" name="verse"></select>
           </label>
-          <button type="submit">Load verse</button>
+          <button type="submit">Carregar verso</button>
         </form>
         <p id="status" role="status" aria-live="polite"></p>
       </section>
 
-      <section class="card" id="verse" aria-labelledby="verse-title">
-        <h2 id="verse-title">Literal verse translation</h2>
+      <section class="card" id="verso" aria-labelledby="verso-titulo">
+        <h2 id="verso-titulo">Tradução literal do verso</h2>
         <p id="reference-title" class="reference"></p>
         <p id="translation-author" class="translation-meta"></p>
         <p id="translation-source" class="translation-meta"></p>
         <blockquote id="pt-verse" class="verse"></blockquote>
       </section>
 
-      <section class="card" id="sources" aria-labelledby="sources-title">
-        <h2 id="sources-title">Manuscript texts</h2>
+      <section class="card" id="originais" aria-labelledby="originais-titulo">
+        <h2 id="originais-titulo">Textos dos manuscritos</h2>
         <div class="manuscripts">
           <article>
-            <h3>Hebrew</h3>
+            <h3>Hebraico</h3>
             <p id="meta-hebrew" class="manuscript-meta"></p>
             <p id="source-hebrew" class="rtl"></p>
           </article>
           <article>
-            <h3>Greek</h3>
+            <h3>Grego</h3>
             <p id="meta-greek" class="manuscript-meta"></p>
             <p id="source-greek"></p>
           </article>
           <article>
-            <h3>Aramaic</h3>
+            <h3>Aramaico</h3>
             <p id="meta-aramaic" class="manuscript-meta"></p>
             <p id="source-aramaic"></p>
           </article>
           <article>
-            <h3>Latin</h3>
+            <h3>Latim</h3>
             <p id="meta-latin" class="manuscript-meta"></p>
             <p id="source-latin"></p>
           </article>
         </div>
       </section>
 
-      <section class="card" id="tokens" aria-labelledby="tokens-title">
-        <h2 id="tokens-title">Interlinear by word</h2>
+      <section class="card" id="tokens" aria-labelledby="tokens-titulo">
+        <h2 id="tokens-titulo">Interlinear por palavra</h2>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
                 <th>Original</th>
-                <th>Transliteration</th>
-                <th>Lemma</th>
+                <th>Transliteração</th>
+                <th>Lema</th>
                 <th>Strong</th>
-                <th>Morphology</th>
-                <th>Manuscript/Source</th>
-                <th>EN literal</th>
-                <th>Explanation</th>
+                <th>Morfologia</th>
+                <th>Manuscrito/Fonte</th>
+                <th>PT literal</th>
+                <th>Explicação</th>
               </tr>
             </thead>
             <tbody id="tokens-body"></tbody>
@@ -108,15 +108,18 @@
 
     <footer class="site-footer">
       <p>
-        Open source project on GitHub:
+        Projeto open source em português no GitHub:
         <a href="https://github.com/cristianismohumilde/biblia.eu.creio" target="_blank" rel="noopener noreferrer">
           github.com/cristianismohumilde/biblia.eu.creio
         </a>
       </p>
-      <p>Licensing: MIT code and data governed by LICENSE-DATA and SOURCES-LICENSES.</p>
-      <p id="health-info" class="health-info">Health: loading...</p>
+      <p>Licenças: código MIT e dados conforme LICENSE-DATA e SOURCES-LICENSES.</p>
+      <p id="health-info" class="health-info">Health: carregando...</p>
     </footer>
 
-    <script type="module" src="../assets/js/app.en.js"></script>
+    <script type="module" src="../assets/js/app.js"></script>
+    <script>
+      localStorage.setItem("preferred-lang", "pt");
+    </script>
   </body>
 </html>

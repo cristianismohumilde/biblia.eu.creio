@@ -26,6 +26,7 @@ const els = {
 };
 
 const THEME_KEY = "biblia-theme";
+const DATA_ROOT = document.body.dataset.dataRoot || "data";
 
 const applyTheme = (theme) => {
   const normalizedTheme = theme === "dark" ? "dark" : "light";
@@ -107,7 +108,7 @@ const fillChapters = (bookCode) => {
 
 const fillVerses = async (bookCode, chapter) => {
   resetSelect(els.verseSelect);
-  const chapterFile = `data/books/${bookCode}/chapters/${chapter}.json`;
+  const chapterFile = `${DATA_ROOT}/books/${bookCode}/chapters/${chapter}.json`;
 
   try {
     const response = await fetch(chapterFile);
@@ -171,7 +172,7 @@ const loadVerse = async (bookCode, chapter, verse) => {
   setStatus("Carregando verso...");
 
   try {
-    const file = `data/verses/${bookCode}.${chapter}.${verse}.json`;
+    const file = `${DATA_ROOT}/verses/${bookCode}.${chapter}.${verse}.json`;
     const response = await fetch(file);
     if (!response.ok) {
       throw new Error(`Verso não encontrado: ${file}`);
@@ -218,7 +219,7 @@ const loadHealthInfo = async () => {
   }
 
   try {
-    const response = await fetch("data/health.json", { cache: "no-store" });
+    const response = await fetch(`${DATA_ROOT}/health.json`, { cache: "no-store" });
     if (!response.ok) {
       throw new Error("Falha ao carregar health.json");
     }
@@ -235,10 +236,11 @@ const loadHealthInfo = async () => {
 };
 
 const bootstrap = async () => {
+  localStorage.setItem("preferred-lang", "pt");
   initializeTheme();
 
   try {
-    const booksResponse = await fetch("data/books.json");
+    const booksResponse = await fetch(`${DATA_ROOT}/books.json`);
     if (!booksResponse.ok) {
       throw new Error("Não foi possível carregar books.json");
     }
