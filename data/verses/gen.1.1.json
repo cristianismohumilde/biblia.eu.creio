@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0.0",
+  "ref": {
+    "book": "gen",
+    "chapter": 1,
+    "verse": 1
+  },
+  "sourceTexts": {
+    "hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+    "greek": "Εν αρχη εποιησεν ο θεος τον ουρανον και την γην",
+    "aramaic": "No exemplo inicial não há conteúdo aramaico para este verso.",
+    "latin": "In principio creavit Deus caelum et terram"
+  },
+  "ptLiteralVerse": "No princípio Deus criou os céus e a terra.",
+  "tokens": [
+    {
+      "id": "gen.1.1.t1",
+      "lang": "hebrew",
+      "surface": "בְּרֵאשִׁית",
+      "transliteration": "bereshit",
+      "lemma": "רֵאשִׁית",
+      "strong": "H7225",
+      "morph": "Prep + subst feminino singular construto",
+      "ptLiteralWord": "no princípio",
+      "explanation": "Marca um início ou fundamento temporal da narrativa."
+    },
+    {
+      "id": "gen.1.1.t2",
+      "lang": "hebrew",
+      "surface": "בָּרָא",
+      "transliteration": "bara",
+      "lemma": "בָּרָא",
+      "strong": "H1254",
+      "morph": "Verbo qal perfeito 3ms",
+      "ptLiteralWord": "criou",
+      "explanation": "Verbo usado para ação criativa atribuída a Deus."
+    },
+    {
+      "id": "gen.1.1.t3",
+      "lang": "hebrew",
+      "surface": "אֱלֹהִים",
+      "transliteration": "elohim",
+      "lemma": "אֱלֹהִים",
+      "strong": "H430",
+      "morph": "Substantivo masculino plural (sentido singular aqui)",
+      "ptLiteralWord": "Deus",
+      "explanation": "Título divino comum no hebraico bíblico."
+    },
+    {
+      "id": "gen.1.1.t4",
+      "lang": "hebrew",
+      "surface": "הַשָּׁמַיִם",
+      "transliteration": "hashamayim",
+      "lemma": "שָׁמַיִם",
+      "strong": "H8064",
+      "morph": "Artigo definido + substantivo masculino plural",
+      "ptLiteralWord": "os céus",
+      "explanation": "Refere-se à esfera celeste, os céus."
+    },
+    {
+      "id": "gen.1.1.t5",
+      "lang": "hebrew",
+      "surface": "הָאָרֶץ",
+      "transliteration": "haaretz",
+      "lemma": "אֶרֶץ",
+      "strong": "H776",
+      "morph": "Artigo definido + substantivo feminino singular",
+      "ptLiteralWord": "a terra",
+      "explanation": "Refere-se ao domínio terrestre ou terra habitável."
+    }
+  ]
+}

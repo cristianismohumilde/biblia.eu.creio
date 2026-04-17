@@ -1,0 +1,38 @@
+Licenca de Dados - Biblia.Creio.EU
+
+Este arquivo define as regras de uso para os dados textuais deste repositorio.
+
+1. Escopo
+- Esta licenca cobre exclusivamente os dados em pastas como data/ e arquivos derivados de fontes textuais.
+- O codigo-fonte do projeto permanece sob a licenca MIT (ver arquivo LICENSE).
+
+2. Regra Geral
+- Nenhum dado deve ser publicado sem verificacao de direitos de uso da fonte original.
+- Cada dataset deve incluir metadados de origem e licenca em arquivo proprio.
+
+3. Uso Permitido
+- Uso, estudo e redistribuicao sao permitidos apenas quando a fonte original autorizar.
+- Modificacoes sao permitidas quando compativeis com a licenca da fonte original.
+
+4. Uso Nao Permitido
+- Publicar, redistribuir ou comercializar datasets sem licenca valida da fonte.
+- Remover ou ocultar atribuicoes exigidas pela licenca de origem.
+
+5. Atribuicao e Proveniencia
+- Cada novo dataset deve registrar:
+  - nome da fonte
+  - URL oficial da fonte
+  - tipo de licenca
+  - data de coleta
+  - transformacoes aplicadas
+
+6. Responsabilidade
+- O mantenedor e colaboradores sao responsaveis por verificar a conformidade legal antes de cada publicacao.
+- Dados sem comprovacao de licenca devem ser removidos do repositorio.
+
+7. Supremacia da Licenca de Origem
+- Em caso de conflito, prevalecem os termos da licenca da fonte original dos dados.
+
+8. Versao
+- Versao deste documento: 1.0.0
+- Data: 2026-04-17

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblia.Creio.EU | Interlinear</title>
+    <meta
+      name="description"
+      content="Estudo bíblico interlinear em português com manuscritos antigos e tradução literal."
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="aurora" aria-hidden="true"></div>
+    <header class="site-header">
+      <div>
+        <p class="brand-eyebrow">Open Source</p>
+        <h1>Biblia.Creio.EU</h1>
+        <p class="subtitle">Interlinear em português para estudo textual.</p>
+      </div>
+      <nav class="quick-nav" aria-label="Navegação rápida">
+        <a href="#verso">Verso</a>
+        <a href="#originais">Originais</a>
+        <a href="#tokens">Palavra a palavra</a>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <section class="card controls" aria-labelledby="controles-titulo">
+        <h2 id="controles-titulo">Selecionar referência</h2>
+        <form id="reference-form">
+          <label>
+            Livro
+            <select id="book-select" name="book"></select>
+          </label>
+          <label>
+            Capítulo
+            <select id="chapter-select" name="chapter"></select>
+          </label>
+          <label>
+            Verso
+            <select id="verse-select" name="verse"></select>
+          </label>
+          <button type="submit">Carregar verso</button>
+        </form>
+        <p id="status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="card" id="verso" aria-labelledby="verso-titulo">
+        <h2 id="verso-titulo">Tradução literal do verso</h2>
+        <p id="reference-title" class="reference"></p>
+        <blockquote id="pt-verse" class="verse"></blockquote>
+      </section>
+
+      <section class="card" id="originais" aria-labelledby="originais-titulo">
+        <h2 id="originais-titulo">Textos dos manuscritos</h2>
+        <div class="manuscripts">
+          <article>
+            <h3>Hebraico</h3>
+            <p id="source-hebrew" class="rtl"></p>
+          </article>
+          <article>
+            <h3>Grego</h3>
+            <p id="source-greek"></p>
+          </article>
+          <article>
+            <h3>Aramaico</h3>
+            <p id="source-aramaic"></p>
+          </article>
+          <article>
+            <h3>Latim</h3>
+            <p id="source-latin"></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="card" id="tokens" aria-labelledby="tokens-titulo">
+        <h2 id="tokens-titulo">Interlinear por palavra</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Original</th>
+                <th>Transliteração</th>
+                <th>Lema</th>
+                <th>Strong</th>
+                <th>Morfologia</th>
+                <th>PT literal</th>
+                <th>Explicação</th>
+              </tr>
+            </thead>
+            <tbody id="tokens-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Projeto open source em português. Verifique licenças de dados antes de publicar novos textos.
+      </p>
+    </footer>
+
+    <script type="module" src="assets/js/app.js"></script>
+  </body>
+</html>
