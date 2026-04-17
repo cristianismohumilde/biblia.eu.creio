@@ -30,7 +30,6 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -165,10 +164,10 @@ h1 {
   grid-template-columns: 1fr;
   gap: 1rem;
   padding-bottom: 2rem;
-  overflow-x: clip;
 }
 
 .card {
+  min-width: 0;
   background: var(--card);
   border: 1px solid rgba(132, 111, 77, 0.25);
   border-radius: var(--radius);
@@ -306,6 +305,9 @@ button {
   border: 1px solid var(--line);
   padding: 0.55rem;
   font: inherit;
+}
+
+select {
   width: 100%;
 }
 
@@ -435,8 +437,16 @@ button:hover {
 }
 
 .table-wrap {
+  max-width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+.tabs-container,
+#tokens-by-lang,
+#tokens-by-lang-content,
+.tab-content {
+  min-width: 0;
 }
 
 table {
