@@ -205,6 +205,7 @@ Health-check estático:
 
 - arquivo: `data/health.json`
 - uso: monitorar versão publicada, schema e data de geração do pacote estático
+- `generatedAt` é atualizado automaticamente no deploy com base no último commit
 
 SEO técnico adicional:
 

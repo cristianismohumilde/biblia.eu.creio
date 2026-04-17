@@ -32,6 +32,8 @@ jobs:
         run: |
           LASTMOD=$(git log -1 --format=%cs)
           sed -i "s/__LASTMOD__/${LASTMOD}/g" sitemap.xml
+          GENERATED_AT=$(git log -1 --format=%cI)
+          sed -i "s|__GENERATED_AT__|${GENERATED_AT}|g" data/health.json
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
