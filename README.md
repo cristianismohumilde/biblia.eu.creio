@@ -1,5 +1,7 @@
 # Biblia.Creio.EU
 
+![Deploy static site to Pages](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml/badge.svg)
+
 Projeto open source de estudo bíblico interlinear em português, com foco inicial em publicação estática (GitHub Pages e hospedagem compartilhada), preparado para evoluir para backend em fases sem retrabalho.
 
 ## Objetivo Inicial (MVP)
@@ -177,6 +179,13 @@ Depois, acesse `http://localhost:8080`.
 - workflow automático já incluído em `.github/workflows/deploy-pages.yml`
 - no GitHub, abrir Settings > Pages > Build and deployment > Source e selecionar GitHub Actions
 - após isso, cada push na branch `main` publica automaticamente o site
+- URL esperada do site: `https://cristianismohumilde.github.io/biblia.eu.creio/`
+
+Checklist rápido após ativação:
+
+- verificar execução do workflow em Actions
+- confirmar publicação sem erro no ambiente `github-pages`
+- abrir a URL pública e validar carregamento de `index.html` e arquivos em `data/`
 
 ### Hospedagem Compartilhada
 
