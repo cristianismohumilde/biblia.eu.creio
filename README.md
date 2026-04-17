@@ -191,6 +191,7 @@ Estratégia de idioma recomendada neste projeto:
 - manter idioma por subpasta (`pt/`, `en/`, e futuramente outros)
 - usar a raiz (`/`) apenas como roteador de idioma por preferência do navegador
 - compartilhar estrutura de dados e adicionar campos específicos por idioma quando necessário
+- SEO internacional ativo com `canonical`, `hreflang` (`pt-BR`, `en`) e `x-default`
 
 Checklist rápido após ativação:
 
