@@ -493,6 +493,18 @@ th {
 
   .controls form {
     grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+
+  .controls label {
+    gap: 0.4rem;
+  }
+
+  .controls form button {
+    width: 100%;
+    justify-self: stretch;
+    align-self: stretch;
+    margin-top: 0.1rem;
   }
 
   .tabs {

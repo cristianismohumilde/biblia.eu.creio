@@ -25,7 +25,6 @@ const els = {
   translationSource: document.querySelector("#translation-source"),
   ptVerse: document.querySelector("#pt-verse"),
   literalSourcesBody: document.querySelector("#literal-sources-body"),
-  tokensBody: document.querySelector("#tokens-body"),
   healthInfo: document.querySelector("#health-info"),
   metaByLang: {},
   sourceByLang: {},
@@ -135,26 +134,6 @@ const fillVerses = async (bookCode, chapter) => {
   } catch (error) {
     setStatus("Não foi possível carregar os versos desse capítulo.");
   }
-};
-
-const renderTokens = (tokens) => {
-  clearBody(els.tokensBody);
-
-  tokens.forEach((token) => {
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${token.langPt || token.lang || "-"}</td>
-      <td>${token.surface || "-"}</td>
-      <td>${token.transliteration || "-"}</td>
-      <td>${token.lemma || "-"}</td>
-      <td>${token.strong || "-"}</td>
-      <td>${token.morph || "-"}</td>
-      <td>${token.manuscript || "-"}</td>
-      <td>${token.ptLiteralWord || "-"}</td>
-      <td>${token.explanation || "-"}</td>
-    `;
-    els.tokensBody.appendChild(tr);
-  });
 };
 
 const renderTokensByLanguage = (tokens) => {
@@ -283,7 +262,7 @@ const renderVerse = (data) => {
   const sourceTexts = data.sourceTexts || {};
 
   els.referenceTitle.textContent = `${bookName} ${data.ref.chapter}:${data.ref.verse}`;
-  els.translationAuthor.textContent = `Autor das traduções literais: ${translation.author || "não informado"}`;
+  els.translationAuthor.textContent = `Autoria das traduções literais: ${translation.author || "não informado"}`;
   els.translationSource.textContent = `Texto-fonte das traduções: ${translation.baseText || "não informado"}`;
   els.ptVerse.textContent = data.ptLiteralVerse || "Sem tradução literal disponível.";
 

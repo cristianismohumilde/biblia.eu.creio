@@ -25,7 +25,6 @@ const els = {
   translationSource: document.querySelector("#translation-source"),
   ptVerse: document.querySelector("#pt-verse"),
   literalSourcesBody: document.querySelector("#literal-sources-body"),
-  tokensBody: document.querySelector("#tokens-body"),
   healthInfo: document.querySelector("#health-info"),
   metaByLang: {},
   sourceByLang: {},
@@ -135,26 +134,6 @@ const fillVerses = async (bookCode, chapter) => {
   } catch (error) {
     setStatus("Could not load verses for this chapter.");
   }
-};
-
-const renderTokens = (tokens) => {
-  clearBody(els.tokensBody);
-
-  tokens.forEach((token) => {
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${token.langEn || token.lang || "-"}</td>
-      <td>${token.surface || "-"}</td>
-      <td>${token.transliteration || "-"}</td>
-      <td>${token.lemma || "-"}</td>
-      <td>${token.strong || "-"}</td>
-      <td>${token.morph || "-"}</td>
-      <td>${token.manuscriptEn || token.manuscript || "-"}</td>
-      <td>${token.enLiteralWord || token.ptLiteralWord || "-"}</td>
-      <td>${token.explanationEn || token.explanation || "-"}</td>
-    `;
-    els.tokensBody.appendChild(tr);
-  });
 };
 
 const renderTokensByLanguage = (tokens) => {
