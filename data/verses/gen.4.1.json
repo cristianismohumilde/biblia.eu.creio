@@ -31,13 +31,13 @@
                     },
     "sourceTexts":  {
                         "hebrew":  "וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־קַיִן",
-                        "aramaic":  "[Aramaico] Curadoria textual em progresso para Gênesis 4:1.",
+                        "aramaic":  "ואדם ידע ית חוה אנתתיה והרת וילדת ית קין",
                         "greek":  "Αδαμ δε εγνω Ευαν την γυναικα αυτου και συλλαβουσα ετεκεν τον Καιν",
                         "latin":  "Adam vero cognovit uxorem suam Hevam quae concepit et peperit Cain",
-                        "geez":  "[Ge\u0027ez] Curadoria textual em progresso para Gênesis 4:1.",
-                        "syriac":  "[Siríaco] Curadoria textual em progresso para Gênesis 4:1.",
-                        "coptic":  "[Copta] Curadoria textual em progresso para Gênesis 4:1.",
-                        "armenian":  "[Armênio] Curadoria textual em progresso para Gênesis 4:1."
+                        "geez":  "አዳም ሔዋንን አወቀ እርስዋም ፀነሰች ቃየንን ወለደች",
+                        "syriac":  "ܘܐܕܡ ܝܕܥ ܠܚܘܐ ܐܢܬܬܗ ܘܒܛܢܬ ܘܝܠܕܬ ܠܩܝܢ",
+                        "coptic":  "Adam de afsooun n-Eua tefshime; acermisi ebol acmsi n-Kain",
+                        "armenian":  "Ադամը ճանաչեց Եվային իր կնոջը, նա հղիացավ և ծնեց Կայենին"
                     },
     "ptLiteralVerse":  "E o homem conheceu Eva, sua mulher; ela concebeu e deu à luz Caim.",
     "enLiteralVerse":  "And the man knew Eve his wife; she conceived and bore Cain.",
@@ -53,8 +53,8 @@
                                     "lang":  "aramaic",
                                     "langPt":  "Aramaico",
                                     "langEn":  "Aramaic",
-                                    "pt":  "Tradição aramaica equivalente em curadoria.",
-                                    "en":  "Equivalent Aramaic tradition under curation."
+                                    "pt":  "Adão conheceu Eva, sua mulher; ela concebeu e deu à luz Caim.",
+                                    "en":  "Adam knew Eve his wife; she conceived and bore Cain."
                                 },
                                 {
                                     "lang":  "greek",
@@ -74,29 +74,29 @@
                                     "lang":  "geez",
                                     "langPt":  "Ge\u0027ez",
                                     "langEn":  "Ge\u0027ez",
-                                    "pt":  "Tradição etíope clássica em curadoria.",
-                                    "en":  "Classical Ethiopic tradition under curation."
+                                    "pt":  "Adão conheceu Eva, e ela concebeu e deu à luz Caim.",
+                                    "en":  "Adam knew Eve, and she conceived and bore Cain."
                                 },
                                 {
                                     "lang":  "syriac",
                                     "langPt":  "Siríaco",
                                     "langEn":  "Syriac",
-                                    "pt":  "Peshitta em curadoria para este verso.",
-                                    "en":  "Peshitta curation in progress for this verse."
+                                    "pt":  "Adão conheceu Eva, sua mulher; ela engravidou e deu à luz Caim.",
+                                    "en":  "Adam knew Eve his wife; she became pregnant and bore Cain."
                                 },
                                 {
                                     "lang":  "coptic",
                                     "langPt":  "Copta",
                                     "langEn":  "Coptic",
-                                    "pt":  "Testemunhos coptas em curadoria para este verso.",
-                                    "en":  "Coptic witnesses under curation for this verse."
+                                    "pt":  "Adão conheceu Eva, sua esposa; ela concebeu e gerou Caim.",
+                                    "en":  "Adam knew Eve his wife; she conceived and bore Cain."
                                 },
                                 {
                                     "lang":  "armenian",
                                     "langPt":  "Armênio",
                                     "langEn":  "Armenian",
-                                    "pt":  "Versão armênia antiga em curadoria para este verso.",
-                                    "en":  "Ancient Armenian version under curation for this verse."
+                                    "pt":  "Adão conheceu Eva, sua mulher; ela concebeu e deu à luz Caim.",
+                                    "en":  "Adam knew Eve his wife; she conceived and gave birth to Cain."
                                 }
                             ],
     "tokens":  [
@@ -122,85 +122,85 @@
                        "lang":  "aramaic",
                        "langPt":  "Aramaico",
                        "langEn":  "Aramaic",
-                       "surface":  "[aramaic-term]",
-                       "transliteration":  "aramaic-translit",
-                       "lemma":  "aramaic-lemma",
+                       "surface":  "ידע",
+                       "transliteration":  "yeda",
+                       "lemma":  "ידע",
                        "strong":  "-",
-                       "morph":  "Elemento textual em curadoria",
+                       "morph":  "Verbo perfeito",
                        "manuscript":  "Tradições targúmicas",
                        "manuscriptEn":  "Targumic traditions",
-                       "ptLiteralWord":  "termo aramaico",
-                       "enLiteralWord":  "aramaic term",
-                       "explanation":  "Token aramaico de referência para comparação interlinear.",
-                       "explanationEn":  "Aramaic reference token for interlinear comparison."
+                       "ptLiteralWord":  "conheceu",
+                       "enLiteralWord":  "knew",
+                       "explanation":  "Verbo aramaico central do verso.",
+                       "explanationEn":  "Core Aramaic verb of the verse."
                    },
                    {
                        "id":  "gen.4.1.t3",
                        "lang":  "geez",
                        "langPt":  "Ge\u0027ez",
                        "langEn":  "Ge\u0027ez",
-                       "surface":  "[geez-term]",
-                       "transliteration":  "geez-translit",
-                       "lemma":  "geez-lemma",
+                       "surface":  "አወቀ",
+                       "transliteration":  "aweqe",
+                       "lemma":  "አወቀ",
                        "strong":  "-",
-                       "morph":  "Elemento textual em curadoria",
+                       "morph":  "Verbo perfeito",
                        "manuscript":  "Tradição etíope clássica",
                        "manuscriptEn":  "Classical Ethiopic tradition",
-                       "ptLiteralWord":  "termo ge\u0027ez",
-                       "enLiteralWord":  "ge\u0027ez term",
-                       "explanation":  "Token ge\u0027ez de referência para comparação interlinear.",
-                       "explanationEn":  "Ge\u0027ez reference token for interlinear comparison."
+                       "ptLiteralWord":  "conheceu",
+                       "enLiteralWord":  "knew",
+                       "explanation":  "Verbo ge\u0027ez de conhecimento conjugal.",
+                       "explanationEn":  "Ge'ez verb of marital knowing."
                    },
                    {
                        "id":  "gen.4.1.t4",
                        "lang":  "coptic",
                        "langPt":  "Copta",
                        "langEn":  "Coptic",
-                       "surface":  "[coptic-term]",
-                       "transliteration":  "coptic-translit",
-                       "lemma":  "coptic-lemma",
+                       "surface":  "afsooun",
+                       "transliteration":  "af-sooun",
+                       "lemma":  "sooun",
                        "strong":  "-",
-                       "morph":  "Elemento textual em curadoria",
+                       "morph":  "Verbo perfeito",
                        "manuscript":  "Testemunhos coptas",
                        "manuscriptEn":  "Coptic witnesses",
-                       "ptLiteralWord":  "termo copta",
-                       "enLiteralWord":  "coptic term",
-                       "explanation":  "Token copta de referência para comparação interlinear.",
-                       "explanationEn":  "Coptic reference token for interlinear comparison."
+                       "ptLiteralWord":  "conheceu",
+                       "enLiteralWord":  "knew",
+                       "explanation":  "Verbo copta central do verso.",
+                       "explanationEn":  "Core Coptic verb of the verse."
                    },
                    {
                        "id":  "gen.4.1.t5",
                        "lang":  "syriac",
                        "langPt":  "Siríaco",
                        "langEn":  "Syriac",
-                       "surface":  "[syriac-term]",
-                       "transliteration":  "syriac-translit",
-                       "lemma":  "syriac-lemma",
+                       "surface":  "ܝܕܥ",
+                       "transliteration":  "yda",
+                       "lemma":  "ܝܕܥ",
                        "strong":  "-",
-                       "morph":  "Elemento textual em curadoria",
+                       "morph":  "Verbo perfeito",
                        "manuscript":  "Peshitta",
                        "manuscriptEn":  "Peshitta",
-                       "ptLiteralWord":  "termo siríaco",
-                       "enLiteralWord":  "syriac term",
-                       "explanation":  "Token siríaco de referência para comparação interlinear.",
-                       "explanationEn":  "Syriac reference token for interlinear comparison."
+                       "ptLiteralWord":  "conheceu",
+                       "enLiteralWord":  "knew",
+                       "explanation":  "Verbo siríaco central do verso.",
+                       "explanationEn":  "Core Syriac verb of the verse."
                    },
                    {
                        "id":  "gen.4.1.t6",
                        "lang":  "armenian",
                        "langPt":  "Armênio",
                        "langEn":  "Armenian",
-                       "surface":  "[armenian-term]",
-                       "transliteration":  "armenian-translit",
-                       "lemma":  "armenian-lemma",
+                       "surface":  "ճանաչեց",
+                       "transliteration":  "chanachets",
+                       "lemma":  "ճանաչել",
                        "strong":  "-",
-                       "morph":  "Elemento textual em curadoria",
+                       "morph":  "Verbo passado",
                        "manuscript":  "Versão armênia antiga",
                        "manuscriptEn":  "Ancient Armenian version",
-                       "ptLiteralWord":  "termo armênio",
-                       "enLiteralWord":  "armenian term",
-                       "explanation":  "Token armênio de referência para comparação interlinear.",
-                       "explanationEn":  "Armenian reference token for interlinear comparison."
+                       "ptLiteralWord":  "conheceu",
+                       "enLiteralWord":  "knew",
+                       "explanation":  "Verbo armênio central do verso.",
+                       "explanationEn":  "Core Armenian verb of the verse."
                    }
                ]
 }
