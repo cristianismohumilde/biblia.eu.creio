@@ -308,10 +308,16 @@
           }
         };
 
-        type();
-
         var shouldReduceMotion =
           window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+        if (shouldReduceMotion) {
+          if (titleEl) {
+            titleEl.textContent = text.title;
+          }
+        } else {
+          type();
+        }
 
         if (!shouldReduceMotion) {
           setTimeout(function () {
@@ -324,7 +330,7 @@
 
         setTimeout(function () {
           window.location.replace(next);
-        }, shouldReduceMotion ? 1200 : 9000);
+        }, 9000);
       })();
     </script>
   </body>

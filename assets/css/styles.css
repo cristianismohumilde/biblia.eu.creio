@@ -183,7 +183,7 @@ h1 {
     radial-gradient(circle at 15% 10%, rgba(30, 107, 100, 0.22), transparent 38%),
     radial-gradient(circle at 88% 12%, rgba(204, 154, 88, 0.25), transparent 42%),
     linear-gradient(130deg, #fdf8ef, #f4ecdc);
-  padding: 0.85rem 0.95rem 0.95rem;
+  padding: 0.68rem 0.76rem 0.76rem;
 }
 
 .support-banner::after {
@@ -203,7 +203,7 @@ h1 {
 
 .support-kicker {
   margin: 0;
-  font-size: 0.72rem;
+  font-size: 0.62rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
   color: #3d766f;
@@ -212,24 +212,24 @@ h1 {
 
 .support-banner h2 {
   margin: 0.2rem 0 0.35rem;
-  font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+  font-size: clamp(0.95rem, 1.8vw, 1.15rem);
 }
 
 .support-banner p {
   margin: 0;
   max-width: 70ch;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
 }
 
 .support-cta {
   display: inline-block;
-  margin-top: 0.65rem;
+  margin-top: 0.52rem;
   text-decoration: none;
   font-weight: 700;
   color: #fff;
   border-radius: 999px;
-  padding: 0.42rem 0.9rem;
-  font-size: 0.94rem;
+  padding: 0.34rem 0.72rem;
+  font-size: 0.82rem;
   background: linear-gradient(120deg, #1e6b64, #4d948d);
   box-shadow: 0 10px 18px rgba(30, 107, 100, 0.22);
 }
@@ -283,6 +283,13 @@ h1 {
   display: grid;
   grid-template-columns: repeat(4, minmax(140px, 1fr));
   gap: 0.8rem;
+  align-items: end;
+}
+
+.controls {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0.95rem;
 }
 
 label {
@@ -297,6 +304,7 @@ button {
   border: 1px solid var(--line);
   padding: 0.55rem;
   font: inherit;
+  width: 100%;
 }
 
 button {
@@ -548,6 +556,11 @@ th {
     grid-template-columns: 1fr 1fr;
     max-width: 760px;
     margin: 0 auto;
+    gap: 0.7rem;
+  }
+
+  .controls {
+    max-width: 840px;
   }
 
   .manuscripts {
@@ -583,6 +596,11 @@ th {
     padding: 0.8rem;
   }
 
+  .controls {
+    max-width: 520px;
+    padding: 0.72rem;
+  }
+
   .card--banner {
     padding: 0.9rem;
   }
@@ -593,23 +611,25 @@ th {
   }
 
   .support-banner {
-    padding: 0.78rem 0.8rem 0.86rem;
+    padding: 0.62rem 0.64rem 0.68rem;
   }
 
   .support-banner h2 {
-    font-size: 1.02rem;
+    font-size: 0.9rem;
     line-height: 1.3;
   }
 
   .support-banner p {
-    font-size: 0.92rem;
+    font-size: 0.84rem;
     line-height: 1.4;
   }
 
   .support-cta {
     width: auto;
-    min-width: 170px;
+    min-width: 142px;
     text-align: center;
+    font-size: 0.78rem;
+    padding: 0.3rem 0.66rem;
   }
 
   #verso h2,
@@ -638,11 +658,17 @@ th {
 
   .controls form {
     grid-template-columns: 1fr;
-    gap: 0.65rem;
+    gap: 0.55rem;
   }
 
   .controls label {
     gap: 0.4rem;
+    font-size: 0.9rem;
+  }
+
+  .controls select,
+  .controls button {
+    padding: 0.5rem;
   }
 
   .controls form button {
