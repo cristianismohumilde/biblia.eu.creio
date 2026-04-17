@@ -210,6 +210,7 @@ SEO técnico adicional:
 
 - `sitemap.xml` com URLs multilíngues e alternates (`pt-BR`, `en`, `x-default`)
 - `robots.txt` permitindo rastreamento e apontando para o sitemap
+- `lastmod` do sitemap é atualizado automaticamente no deploy com base no último commit
 
 ### Hospedagem Compartilhada
 
