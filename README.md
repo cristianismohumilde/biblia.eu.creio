@@ -186,6 +186,12 @@ Checklist rápido após ativação:
 - verificar execução do workflow em Actions
 - confirmar publicação sem erro no ambiente `github-pages`
 - abrir a URL pública e validar carregamento de `index.html` e arquivos em `data/`
+- validar o health-check em `data/health.json`
+
+Health-check estático:
+
+- arquivo: `data/health.json`
+- uso: monitorar versão publicada, schema e data de geração do pacote estático
 
 ### Hospedagem Compartilhada
 

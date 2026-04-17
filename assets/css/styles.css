@@ -228,6 +228,12 @@ th {
   color: #5b5345;
 }
 
+.health-info {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
 @media (max-width: 860px) {
   .site-header {
     align-items: flex-start;

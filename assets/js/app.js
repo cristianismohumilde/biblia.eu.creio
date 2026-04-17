@@ -15,6 +15,7 @@ const els = {
   sourceAramaic: document.querySelector("#source-aramaic"),
   sourceLatin: document.querySelector("#source-latin"),
   tokensBody: document.querySelector("#tokens-body"),
+  healthInfo: document.querySelector("#health-info"),
 };
 
 const setStatus = (message) => {
@@ -162,6 +163,28 @@ const setupReferenceEvents = () => {
   });
 };
 
+const loadHealthInfo = async () => {
+  if (!els.healthInfo) {
+    return;
+  }
+
+  try {
+    const response = await fetch("data/health.json", { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error("Falha ao carregar health.json");
+    }
+
+    const health = await response.json();
+    const generated = health.generatedAt
+      ? new Date(health.generatedAt).toLocaleString("pt-BR", { timeZone: "UTC" }) + " UTC"
+      : "n/d";
+
+    els.healthInfo.textContent = `Health: ${health.status || "n/d"} | versão ${health.version || "n/d"} | schema ${health.schemaVersion || "n/d"} | atualizado ${generated}`;
+  } catch (error) {
+    els.healthInfo.textContent = "Health: indisponível";
+  }
+};
+
 const bootstrap = async () => {
   try {
     const booksResponse = await fetch("data/books.json");
@@ -187,9 +210,13 @@ const bootstrap = async () => {
     els.verseSelect.value = String(verse);
 
     setupReferenceEvents();
+    await loadHealthInfo();
     await loadVerse(defaultBook, chapter, verse);
   } catch (error) {
     setStatus("Erro ao inicializar o site. Verifique os dados JSON.");
+    if (els.healthInfo) {
+      els.healthInfo.textContent = "Health: indisponível";
+    }
   }
 };
 
