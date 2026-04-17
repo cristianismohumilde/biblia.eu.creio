@@ -1,4 +1,4 @@
-﻿{
+{
     "schemaVersion":  "1.1.0",
     "ref":  {
                 "book":  "gen",
@@ -6,38 +6,38 @@
                 "verse":  1
             },
     "translation":  {
-                        "author":  "Equipe Biblia.Creio.EU (traduÃ§Ã£o literal em curadoria)",
+                        "author":  "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
                         "authorEn":  "Biblia.Creio.EU Team (literal translation under curation)",
-                        "baseText":  "Base principal hebraica com comparaÃ§Ã£o multitradicional",
+                        "baseText":  "Base principal hebraica com comparação multitradicional",
                         "baseTextEn":  "Primary Hebrew base with multi-tradition comparison"
                     },
     "manuscripts":  {
-                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), tradiÃ§Ã£o massorÃ©tica",
+                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), tradição massorética",
                         "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Masoretic tradition",
-                        "aramaic":  "Aramaico: tradiÃ§Ãµes targÃºmicas (comparaÃ§Ã£o)",
+                        "aramaic":  "Aramaico: tradições targúmicas (comparação)",
                         "aramaicEn":  "Aramaic: targumic traditions (comparison)",
-                        "greek":  "Grego: Septuaginta e tradiÃ§Ã£o bizantina (comparaÃ§Ã£o)",
+                        "greek":  "Grego: Septuaginta e tradição bizantina (comparação)",
                         "greekEn":  "Greek: Septuagint and Byzantine tradition (comparison)",
                         "latin":  "Latim: Vulgata",
                         "latinEn":  "Latin: Vulgate",
-                        "geez":  "Ge\u0027ez: tradiÃ§Ã£o etÃ­ope clÃ¡ssica",
+                        "geez":  "Ge\u0027ez: tradição etíope clássica",
                         "geezEn":  "Ge\u0027ez: classical Ethiopic tradition",
-                        "syriac":  "SirÃ­aco: Peshitta",
+                        "syriac":  "Siríaco: Peshitta",
                         "syriacEn":  "Syriac: Peshitta",
-                        "coptic":  "Copta: testemunhos sahÃ­dico/boÃ¡rico",
+                        "coptic":  "Copta: testemunhos sahídico/boárico",
                         "copticEn":  "Coptic: Sahidic/Bohairic witnesses",
-                        "armenian":  "ArmÃªnio: versÃ£o armÃªnia antiga",
+                        "armenian":  "Armênio: versão armênia antiga",
                         "armenianEn":  "Armenian: ancient Armenian version"
                     },
     "sourceTexts":  {
-                        "hebrew":  "×•Ö°×”Ö·× Ö¸Ö¼×—Ö¸×©× ×”Ö¸×™Ö¸×” ×¢Ö¸×¨×•Ö¼× ×žÖ´×›Ö¹Ö¼×œ ×—Ö·×™Ö·Ö¼×ª ×”Ö·×©Ö¸Ö¼×‚×“Ö¶×”",
-                        "aramaic":  "[Aramaico] Curadoria textual em progresso para GÃªnesis 3:1.",
-                        "greek":  "ÎŸ Î´Îµ Î¿Ï†Î¹Ï‚ Î·Î½ Ï†ÏÎ¿Î½Î¹Î¼Ï‰Ï„Î±Ï„Î¿Ï‚ Ï€Î±Î½Ï„Ï‰Î½ Ï„Ï‰Î½ Î¸Î·ÏÎ¹Ï‰Î½",
+                        "hebrew":  "וְהַנָּחָשׁ הָיָה עָרוּם מִכֹּל חַיַּת הַשָּׂדֶה",
+                        "aramaic":  "[Aramaico] Curadoria textual em progresso para Gênesis 3:1.",
+                        "greek":  "Ο δε οφις ην φρονιμωτατος παντων των θηριων",
                         "latin":  "Sed et serpens erat callidior cunctis animantibus terrae",
-                        "geez":  "[Ge\u0027ez] Curadoria textual em progresso para GÃªnesis 3:1.",
-                        "syriac":  "[SirÃ­aco] Curadoria textual em progresso para GÃªnesis 3:1.",
-                        "coptic":  "[Copta] Curadoria textual em progresso para GÃªnesis 3:1.",
-                        "armenian":  "[ArmÃªnio] Curadoria textual em progresso para GÃªnesis 3:1."
+                        "geez":  "[Ge\u0027ez] Curadoria textual em progresso para Gênesis 3:1.",
+                        "syriac":  "[Siríaco] Curadoria textual em progresso para Gênesis 3:1.",
+                        "coptic":  "[Copta] Curadoria textual em progresso para Gênesis 3:1.",
+                        "armenian":  "[Armênio] Curadoria textual em progresso para Gênesis 3:1."
                     },
     "ptLiteralVerse":  "Ora, a serpente era mais astuta que todos os animais do campo.",
     "enLiteralVerse":  "Now the serpent was more crafty than all the animals of the field.",
@@ -53,7 +53,7 @@
                                     "lang":  "aramaic",
                                     "langPt":  "Aramaico",
                                     "langEn":  "Aramaic",
-                                    "pt":  "TradiÃ§Ã£o aramaica equivalente em curadoria.",
+                                    "pt":  "Tradição aramaica equivalente em curadoria.",
                                     "en":  "Equivalent Aramaic tradition under curation."
                                 },
                                 {
@@ -74,12 +74,12 @@
                                     "lang":  "geez",
                                     "langPt":  "Ge\u0027ez",
                                     "langEn":  "Ge\u0027ez",
-                                    "pt":  "TradiÃ§Ã£o etÃ­ope clÃ¡ssica em curadoria.",
+                                    "pt":  "Tradição etíope clássica em curadoria.",
                                     "en":  "Classical Ethiopic tradition under curation."
                                 },
                                 {
                                     "lang":  "syriac",
-                                    "langPt":  "SirÃ­aco",
+                                    "langPt":  "Siríaco",
                                     "langEn":  "Syriac",
                                     "pt":  "Peshitta em curadoria para este verso.",
                                     "en":  "Peshitta curation in progress for this verse."
@@ -93,9 +93,9 @@
                                 },
                                 {
                                     "lang":  "armenian",
-                                    "langPt":  "ArmÃªnio",
+                                    "langPt":  "Armênio",
                                     "langEn":  "Armenian",
-                                    "pt":  "VersÃ£o armÃªnia antiga em curadoria para este verso.",
+                                    "pt":  "Versão armênia antiga em curadoria para este verso.",
                                     "en":  "Ancient Armenian version under curation for this verse."
                                 }
                             ],
@@ -105,16 +105,16 @@
                        "lang":  "hebrew",
                        "langPt":  "Hebraico",
                        "langEn":  "Hebrew",
-                       "surface":  "×”Ö·× Ö¸Ö¼×—Ö¸×©×",
+                       "surface":  "הַנָּחָשׁ",
                        "transliteration":  "hannachash",
-                       "lemma":  "× Ö¸×—Ö¸×©×",
+                       "lemma":  "נָחָשׁ",
                        "strong":  "H5175",
                        "morph":  "Artigo + substantivo masc singular",
                        "manuscript":  "Codex Leningradensis (B19A)",
                        "manuscriptEn":  "Codex Leningradensis (B19A)",
                        "ptLiteralWord":  "a serpente",
                        "enLiteralWord":  "the serpent",
-                       "explanation":  "Figura central da tentaÃ§Ã£o no relato.",
+                       "explanation":  "Figura central da tentação no relato.",
                        "explanationEn":  "Central figure of temptation in the narrative."
                    },
                    {
@@ -122,12 +122,12 @@
                        "lang":  "greek",
                        "langPt":  "Grego",
                        "langEn":  "Greek",
-                       "surface":  "á½„Ï†Î¹Ï‚",
+                       "surface":  "ὄφις",
                        "transliteration":  "ophis",
-                       "lemma":  "á½„Ï†Î¹Ï‚",
+                       "lemma":  "ὄφις",
                        "strong":  "G3789",
                        "morph":  "Substantivo masculino nominativo singular",
-                       "manuscript":  "TradiÃ§Ã£o septuagÃ­ntica",
+                       "manuscript":  "Tradição septuagíntica",
                        "manuscriptEn":  "Septuagint tradition",
                        "ptLiteralWord":  "serpente",
                        "enLiteralWord":  "serpent",

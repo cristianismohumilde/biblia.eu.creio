@@ -1,4 +1,4 @@
-﻿{
+{
     "schemaVersion":  "1.1.0",
     "ref":  {
                 "book":  "gen",
@@ -6,80 +6,80 @@
                 "verse":  1
             },
     "translation":  {
-                        "author":  "Equipe Biblia.Creio.EU (traduÃ§Ã£o literal em curadoria)",
+                        "author":  "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
                         "authorEn":  "Biblia.Creio.EU Team (literal translation under curation)",
-                        "baseText":  "Base principal hebraica com comparaÃ§Ã£o multitradicional",
+                        "baseText":  "Base principal hebraica com comparação multitradicional",
                         "baseTextEn":  "Primary Hebrew base with multi-tradition comparison"
                     },
     "manuscripts":  {
-                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), tradiÃ§Ã£o massorÃ©tica",
+                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), tradição massorética",
                         "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Masoretic tradition",
-                        "aramaic":  "Aramaico: tradiÃ§Ãµes targÃºmicas (comparaÃ§Ã£o)",
+                        "aramaic":  "Aramaico: tradições targúmicas (comparação)",
                         "aramaicEn":  "Aramaic: targumic traditions (comparison)",
-                        "greek":  "Grego: Septuaginta e tradiÃ§Ã£o bizantina (comparaÃ§Ã£o)",
+                        "greek":  "Grego: Septuaginta e tradição bizantina (comparação)",
                         "greekEn":  "Greek: Septuagint and Byzantine tradition (comparison)",
                         "latin":  "Latim: Vulgata",
                         "latinEn":  "Latin: Vulgate",
-                        "geez":  "Ge\u0027ez: tradiÃ§Ã£o etÃ­ope clÃ¡ssica",
+                        "geez":  "Ge\u0027ez: tradição etíope clássica",
                         "geezEn":  "Ge\u0027ez: classical Ethiopic tradition",
-                        "syriac":  "SirÃ­aco: Peshitta",
+                        "syriac":  "Siríaco: Peshitta",
                         "syriacEn":  "Syriac: Peshitta",
-                        "coptic":  "Copta: testemunhos sahÃ­dico/boÃ¡rico",
+                        "coptic":  "Copta: testemunhos sahídico/boárico",
                         "copticEn":  "Coptic: Sahidic/Bohairic witnesses",
-                        "armenian":  "ArmÃªnio: versÃ£o armÃªnia antiga",
+                        "armenian":  "Armênio: versão armênia antiga",
                         "armenianEn":  "Armenian: ancient Armenian version"
                     },
     "sourceTexts":  {
-                        "hebrew":  "×•Ö·×™Ö°×›Ö»×œÖ¼×•Ö¼ ×”Ö·×©Ö¸Ö¼××žÖ·×™Ö´× ×•Ö°×”Ö¸×Ö¸×¨Ö¶×¥ ×•Ö°×›Ö¸×œÖ¾×¦Ö°×‘Ö¸×Ö¸×",
-                        "aramaic":  "[Aramaico] Curadoria textual em progresso para GÃªnesis 2:1.",
-                        "greek":  "ÎšÎ±Î¹ ÏƒÏ…Î½ÎµÏ„ÎµÎ»ÎµÏƒÎ¸Î·ÏƒÎ±Î½ Î¿ Î¿Ï…ÏÎ±Î½Î¿Ï‚ ÎºÎ±Î¹ Î· Î³Î· ÎºÎ±Î¹ Ï€Î±Ï‚ Î¿ ÎºÎ¿ÏƒÎ¼Î¿Ï‚ Î±Ï…Ï„Ï‰Î½",
+                        "hebrew":  "וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל־צְבָאָם",
+                        "aramaic":  "[Aramaico] Curadoria textual em progresso para Gênesis 2:1.",
+                        "greek":  "Και συνετελεσθησαν ο ουρανος και η γη και πας ο κοσμος αυτων",
                         "latin":  "Igitur perfecti sunt caeli et terra et omnis ornatus eorum",
-                        "geez":  "[Ge\u0027ez] Curadoria textual em progresso para GÃªnesis 2:1.",
-                        "syriac":  "[SirÃ­aco] Curadoria textual em progresso para GÃªnesis 2:1.",
-                        "coptic":  "[Copta] Curadoria textual em progresso para GÃªnesis 2:1.",
-                        "armenian":  "[ArmÃªnio] Curadoria textual em progresso para GÃªnesis 2:1."
+                        "geez":  "[Ge\u0027ez] Curadoria textual em progresso para Gênesis 2:1.",
+                        "syriac":  "[Siríaco] Curadoria textual em progresso para Gênesis 2:1.",
+                        "coptic":  "[Copta] Curadoria textual em progresso para Gênesis 2:1.",
+                        "armenian":  "[Armênio] Curadoria textual em progresso para Gênesis 2:1."
                     },
-    "ptLiteralVerse":  "Assim foram concluÃ­dos os cÃ©us e a terra, e todo o seu exÃ©rcito.",
+    "ptLiteralVerse":  "Assim foram concluídos os céus e a terra, e todo o seu exército.",
     "enLiteralVerse":  "Thus the heavens and the earth were completed, and all their host.",
     "literalTranslations":  [
                                 {
                                     "lang":  "hebrew",
                                     "langPt":  "Hebraico",
                                     "langEn":  "Hebrew",
-                                    "pt":  "Foram concluÃ­dos os cÃ©us e a terra, e todo o seu exÃ©rcito.",
+                                    "pt":  "Foram concluídos os céus e a terra, e todo o seu exército.",
                                     "en":  "The heavens and the earth were completed, and all their host."
                                 },
                                 {
                                     "lang":  "aramaic",
                                     "langPt":  "Aramaico",
                                     "langEn":  "Aramaic",
-                                    "pt":  "TradiÃ§Ã£o aramaica equivalente em curadoria.",
+                                    "pt":  "Tradição aramaica equivalente em curadoria.",
                                     "en":  "Equivalent Aramaic tradition under curation."
                                 },
                                 {
                                     "lang":  "greek",
                                     "langPt":  "Grego",
                                     "langEn":  "Greek",
-                                    "pt":  "Foram consumados o cÃ©u e a terra, e toda a sua ordem.",
+                                    "pt":  "Foram consumados o céu e a terra, e toda a sua ordem.",
                                     "en":  "Heaven and earth were brought to completion, and all their order."
                                 },
                                 {
                                     "lang":  "latin",
                                     "langPt":  "Latim",
                                     "langEn":  "Latin",
-                                    "pt":  "Foram aperfeiÃ§oados os cÃ©us e a terra e todo o seu ornamento.",
+                                    "pt":  "Foram aperfeiçoados os céus e a terra e todo o seu ornamento.",
                                     "en":  "The heavens and the earth were perfected, and all their adornment."
                                 },
                                 {
                                     "lang":  "geez",
                                     "langPt":  "Ge\u0027ez",
                                     "langEn":  "Ge\u0027ez",
-                                    "pt":  "TradiÃ§Ã£o etÃ­ope clÃ¡ssica em curadoria.",
+                                    "pt":  "Tradição etíope clássica em curadoria.",
                                     "en":  "Classical Ethiopic tradition under curation."
                                 },
                                 {
                                     "lang":  "syriac",
-                                    "langPt":  "SirÃ­aco",
+                                    "langPt":  "Siríaco",
                                     "langEn":  "Syriac",
                                     "pt":  "Peshitta em curadoria para este verso.",
                                     "en":  "Peshitta curation in progress for this verse."
@@ -93,9 +93,9 @@
                                 },
                                 {
                                     "lang":  "armenian",
-                                    "langPt":  "ArmÃªnio",
+                                    "langPt":  "Armênio",
                                     "langEn":  "Armenian",
-                                    "pt":  "VersÃ£o armÃªnia antiga em curadoria para este verso.",
+                                    "pt":  "Versão armênia antiga em curadoria para este verso.",
                                     "en":  "Ancient Armenian version under curation for this verse."
                                 }
                             ],
@@ -105,16 +105,16 @@
                        "lang":  "hebrew",
                        "langPt":  "Hebraico",
                        "langEn":  "Hebrew",
-                       "surface":  "×•Ö·×™Ö°×›Ö»×œÖ¼×•Ö¼",
+                       "surface":  "וַיְכֻלּוּ",
                        "transliteration":  "vayekhullu",
-                       "lemma":  "×›×œ×”",
+                       "lemma":  "כלה",
                        "strong":  "H3615",
                        "morph":  "Verbo wayyiqtol 3mp",
                        "manuscript":  "Codex Leningradensis (B19A)",
                        "manuscriptEn":  "Codex Leningradensis (B19A)",
-                       "ptLiteralWord":  "foram concluÃ­dos",
+                       "ptLiteralWord":  "foram concluídos",
                        "enLiteralWord":  "were completed",
-                       "explanation":  "Marca conclusÃ£o da obra criacional.",
+                       "explanation":  "Marca conclusão da obra criacional.",
                        "explanationEn":  "Marks completion of the creation work."
                    },
                    {
@@ -122,16 +122,16 @@
                        "lang":  "greek",
                        "langPt":  "Grego",
                        "langEn":  "Greek",
-                       "surface":  "ÏƒÏ…Î½ÎµÏ„ÎµÎ»ÎµÏƒÎ¸Î·ÏƒÎ±Î½",
+                       "surface":  "συνετελεσθησαν",
                        "transliteration":  "synetelesthesan",
-                       "lemma":  "ÏƒÏ…Î½Ï„ÎµÎ»Î­Ï‰",
+                       "lemma":  "συντελέω",
                        "strong":  "G4931",
                        "morph":  "Aoristo passivo 3pl",
-                       "manuscript":  "TradiÃ§Ã£o septuagÃ­ntica",
+                       "manuscript":  "Tradição septuagíntica",
                        "manuscriptEn":  "Septuagint tradition",
                        "ptLiteralWord":  "foram consumados",
                        "enLiteralWord":  "were completed",
-                       "explanation":  "Forma grega de conclusÃ£o plena.",
+                       "explanation":  "Forma grega de conclusão plena.",
                        "explanationEn":  "Greek form indicating full completion."
                    },
                    {
@@ -146,9 +146,9 @@
                        "morph":  "Perfeito passivo 3pl",
                        "manuscript":  "Vulgata",
                        "manuscriptEn":  "Vulgate",
-                       "ptLiteralWord":  "foram aperfeiÃ§oados",
+                       "ptLiteralWord":  "foram aperfeiçoados",
                        "enLiteralWord":  "were perfected",
-                       "explanation":  "Expressa finalizaÃ§Ã£o completa em latim bÃ­blico.",
+                       "explanation":  "Expressa finalização completa em latim bíblico.",
                        "explanationEn":  "Expresses full completion in biblical Latin."
                    },
                    {
