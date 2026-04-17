@@ -5,6 +5,16 @@
     "chapter": 1,
     "verse": 1
   },
+  "translation": {
+    "author": "Equipe Biblia.Creio.EU (tradução literal de demonstração)",
+    "baseText": "Texto hebraico massorético com referência principal no Codex Leningradensis (B19A), com comparação editorial"
+  },
+  "manuscripts": {
+    "hebrew": "Hebraico: Codex Leningradensis (B19A), tradição massorética",
+    "greek": "Grego: texto majoritário bizantino (referência de comparação)",
+    "aramaic": "Aramaico: Targum (não exibido neste verso no MVP)",
+    "latin": "Latim: tradição da Vulgata"
+  },
   "sourceTexts": {
     "hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
     "greek": "Εν αρχη εποιησεν ο θεος τον ουρανον και την γην",
@@ -21,6 +31,7 @@
       "lemma": "רֵאשִׁית",
       "strong": "H7225",
       "morph": "Prep + subst feminino singular construto",
+      "manuscript": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "no princípio",
       "explanation": "Marca um início ou fundamento temporal da narrativa."
     },
@@ -32,6 +43,7 @@
       "lemma": "בָּרָא",
       "strong": "H1254",
       "morph": "Verbo qal perfeito 3ms",
+      "manuscript": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "criou",
       "explanation": "Verbo usado para ação criativa atribuída a Deus."
     },
@@ -43,6 +55,7 @@
       "lemma": "אֱלֹהִים",
       "strong": "H430",
       "morph": "Substantivo masculino plural (sentido singular aqui)",
+      "manuscript": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "Deus",
       "explanation": "Título divino comum no hebraico bíblico."
     },
@@ -54,6 +67,7 @@
       "lemma": "שָׁמַיִם",
       "strong": "H8064",
       "morph": "Artigo definido + substantivo masculino plural",
+      "manuscript": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "os céus",
       "explanation": "Refere-se à esfera celeste, os céus."
     },
@@ -65,6 +79,7 @@
       "lemma": "אֶרֶץ",
       "strong": "H776",
       "morph": "Artigo definido + substantivo feminino singular",
+      "manuscript": "Codex Leningradensis (B19A)",
       "ptLiteralWord": "a terra",
       "explanation": "Refere-se ao domínio terrestre ou terra habitável."
     }

@@ -5,17 +5,56 @@ const state = {
 const els = {
   form: document.querySelector("#reference-form"),
   status: document.querySelector("#status"),
+  themeToggle: document.querySelector("#theme-toggle"),
   bookSelect: document.querySelector("#book-select"),
   chapterSelect: document.querySelector("#chapter-select"),
   verseSelect: document.querySelector("#verse-select"),
   referenceTitle: document.querySelector("#reference-title"),
+  translationAuthor: document.querySelector("#translation-author"),
+  translationSource: document.querySelector("#translation-source"),
   ptVerse: document.querySelector("#pt-verse"),
+  metaHebrew: document.querySelector("#meta-hebrew"),
+  metaGreek: document.querySelector("#meta-greek"),
+  metaAramaic: document.querySelector("#meta-aramaic"),
+  metaLatin: document.querySelector("#meta-latin"),
   sourceHebrew: document.querySelector("#source-hebrew"),
   sourceGreek: document.querySelector("#source-greek"),
   sourceAramaic: document.querySelector("#source-aramaic"),
   sourceLatin: document.querySelector("#source-latin"),
   tokensBody: document.querySelector("#tokens-body"),
   healthInfo: document.querySelector("#health-info"),
+};
+
+const THEME_KEY = "biblia-theme";
+
+const applyTheme = (theme) => {
+  const normalizedTheme = theme === "dark" ? "dark" : "light";
+  document.documentElement.setAttribute("data-theme", normalizedTheme);
+
+  if (!els.themeToggle) {
+    return;
+  }
+
+  const isDark = normalizedTheme === "dark";
+  els.themeToggle.textContent = isDark ? "Ativar tema claro" : "Ativar tema dark";
+  els.themeToggle.setAttribute("aria-pressed", String(isDark));
+};
+
+const initializeTheme = () => {
+  const stored = localStorage.getItem(THEME_KEY);
+  const preferred = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  applyTheme(stored || preferred);
+
+  if (!els.themeToggle) {
+    return;
+  }
+
+  els.themeToggle.addEventListener("click", () => {
+    const current = document.documentElement.getAttribute("data-theme");
+    const next = current === "dark" ? "light" : "dark";
+    applyTheme(next);
+    localStorage.setItem(THEME_KEY, next);
+  });
 };
 
 const setStatus = (message) => {
@@ -96,6 +135,7 @@ const renderTokens = (tokens) => {
       <td>${token.lemma || "-"}</td>
       <td>${token.strong || "-"}</td>
       <td>${token.morph || "-"}</td>
+      <td>${token.manuscript || "-"}</td>
       <td>${token.ptLiteralWord || "-"}</td>
       <td>${token.explanation || "-"}</td>
     `;
@@ -106,9 +146,18 @@ const renderTokens = (tokens) => {
 const renderVerse = (data) => {
   const book = state.books.find((item) => item.code === data.ref.book);
   const bookName = book ? book.name : data.ref.book;
+  const translation = data.translation || {};
+  const manuscripts = data.manuscripts || {};
 
   els.referenceTitle.textContent = `${bookName} ${data.ref.chapter}:${data.ref.verse}`;
+  els.translationAuthor.textContent = `Autor da tradução literal: ${translation.author || "não informado"}`;
+  els.translationSource.textContent = `Texto-fonte da tradução: ${translation.baseText || "não informado"}`;
   els.ptVerse.textContent = data.ptLiteralVerse || "Sem tradução literal disponível.";
+
+  els.metaHebrew.textContent = manuscripts.hebrew || "Manuscrito/fonte não informado.";
+  els.metaGreek.textContent = manuscripts.greek || "Manuscrito/fonte não informado.";
+  els.metaAramaic.textContent = manuscripts.aramaic || "Manuscrito/fonte não informado.";
+  els.metaLatin.textContent = manuscripts.latin || "Manuscrito/fonte não informado.";
 
   els.sourceHebrew.textContent = data.sourceTexts.hebrew || "Sem conteúdo.";
   els.sourceGreek.textContent = data.sourceTexts.greek || "Sem conteúdo.";
@@ -186,6 +235,8 @@ const loadHealthInfo = async () => {
 };
 
 const bootstrap = async () => {
+  initializeTheme();
+
   try {
     const booksResponse = await fetch("data/books.json");
     if (!booksResponse.ok) {

@@ -22,6 +22,9 @@
         <a href="#verso">Verso</a>
         <a href="#originais">Originais</a>
         <a href="#tokens">Palavra a palavra</a>
+        <button id="theme-toggle" type="button" class="theme-toggle" aria-pressed="false">
+          Ativar tema dark
+        </button>
       </nav>
     </header>
 
@@ -49,6 +52,8 @@
       <section class="card" id="verso" aria-labelledby="verso-titulo">
         <h2 id="verso-titulo">Tradução literal do verso</h2>
         <p id="reference-title" class="reference"></p>
+        <p id="translation-author" class="translation-meta"></p>
+        <p id="translation-source" class="translation-meta"></p>
         <blockquote id="pt-verse" class="verse"></blockquote>
       </section>
 
@@ -57,18 +62,22 @@
         <div class="manuscripts">
           <article>
             <h3>Hebraico</h3>
+            <p id="meta-hebrew" class="manuscript-meta"></p>
             <p id="source-hebrew" class="rtl"></p>
           </article>
           <article>
             <h3>Grego</h3>
+            <p id="meta-greek" class="manuscript-meta"></p>
             <p id="source-greek"></p>
           </article>
           <article>
             <h3>Aramaico</h3>
+            <p id="meta-aramaic" class="manuscript-meta"></p>
             <p id="source-aramaic"></p>
           </article>
           <article>
             <h3>Latim</h3>
+            <p id="meta-latin" class="manuscript-meta"></p>
             <p id="source-latin"></p>
           </article>
         </div>
@@ -85,6 +94,7 @@
                 <th>Lema</th>
                 <th>Strong</th>
                 <th>Morfologia</th>
+                <th>Manuscrito/Fonte</th>
                 <th>PT literal</th>
                 <th>Explicação</th>
               </tr>
@@ -97,8 +107,12 @@
 
     <footer class="site-footer">
       <p>
-        Projeto open source em português. Verifique licenças de dados antes de publicar novos textos.
+        Projeto open source em português no GitHub:
+        <a href="https://github.com/cristianismohumilde/biblia.eu.creio" target="_blank" rel="noopener noreferrer">
+          github.com/cristianismohumilde/biblia.eu.creio
+        </a>
       </p>
+      <p>Licenças: código MIT e dados conforme LICENSE-DATA e SOURCES-LICENSES.</p>
       <p id="health-info" class="health-info">Health: carregando...</p>
     </footer>
 

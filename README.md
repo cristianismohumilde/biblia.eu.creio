@@ -209,3 +209,4 @@ Este projeto deve permanecer open source. O código pode usar licença MIT, mas 
 
 - Licença do código: ver arquivo `LICENSE`
 - Licença e política de dados: ver arquivo `LICENSE-DATA`
+- Verificação atual de fontes e risco legal: ver arquivo `SOURCES-LICENSES.md`
