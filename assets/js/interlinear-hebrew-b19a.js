@@ -232,7 +232,7 @@ const renderTokenRows = (tokens) => {
 
   if (!tokens.length) {
     const tr = document.createElement("tr");
-    tr.innerHTML = '<td colspan="11">Nenhum token hebraico disponível para este verso.</td>';
+    tr.innerHTML = '<td colspan="8">Nenhum token hebraico disponível para este verso.</td>';
     els.interlinearBody.appendChild(tr);
     return;
   }
@@ -249,9 +249,6 @@ const renderTokenRows = (tokens) => {
       <td>${token.strong || "-"}</td>
       <td>${token.morph || "-"}</td>
       <td>${token.ptLiteralWord || "-"}</td>
-      <td>${token.enLiteralWord || "-"}</td>
-      <td>${explanationInfo.text}</td>
-      <td>${token.manuscript || "-"}</td>
     `;
     els.interlinearBody.appendChild(tr);
   });
@@ -273,9 +270,6 @@ const applyFilter = () => {
       token.strong,
       token.morph,
       token.ptLiteralWord,
-      token.enLiteralWord,
-      getTokenExplanationInfo(token).text,
-      token.manuscript,
     ]
       .filter(Boolean)
       .join(" ")
@@ -294,7 +288,7 @@ const renderVerse = (data) => {
   const tokens = getHebrewTokens(data);
 
   els.referenceTitle.textContent = `${bookName} ${data.ref.chapter}:${data.ref.verse}`;
-  els.witnessMeta.textContent = data.manuscripts?.hebrew || "Manuscrito não informado.";
+  els.witnessMeta.textContent = "Codex Leningradensis (B19A)";
   els.witnessText.textContent = witness.text;
   els.witnessTransliteration.textContent = witness.transliteration;
   els.witnessLiteral.textContent = witness.literal;
