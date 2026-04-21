@@ -16,8 +16,8 @@
                         "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Aleppo Codex and Qumran manuscripts (Dead Sea Scrolls)",
                         "aramaic":  "Aramaico: tradições targúmicas (comparação)",
                         "aramaicEn":  "Aramaic: targumic traditions (comparison)",
-                        "greek":  "Grego: Septuaginta e tradição bizantina (comparação)",
-                        "greekEn":  "Greek: Septuagint and Byzantine tradition (comparison)",
+                        "greek":  "Grego: Septuaginta (LXX), tradição bizantina e recensão luciânica (comparação)",
+                        "greekEn":  "Greek: Septuagint (LXX), Byzantine tradition and Lucianic recension (comparison)",
                         "latin":  "Latim: Vulgata",
                         "latinEn":  "Latin: Vulgate",
                         "geez":  "Ge\u0027ez: tradição etíope clássica",
@@ -62,6 +62,29 @@
                                 "literalPt":  "Foram concluídos os céus e a terra, e todo o seu exército."
                             }
                         ],
+    "greekWitnesses":  [
+                           {
+                               "id":  "lxx",
+                               "label":  "Septuaginta (LXX)",
+                               "text":  "Καὶ συνετελέσθησαν ὁ οὐρανὸς καὶ ἡ γῆ καὶ πᾶς ὁ κόσμος αὐτῶν",
+                               "transliteration":  "Kai synetelesthesan ho ouranos kai he ge kai pas ho kosmos auton",
+                               "literalPt":  "Foram consumados o céu e a terra, e toda a sua ordem."
+                           },
+                           {
+                               "id":  "byzantine",
+                               "label":  "Tradição Bizantina Grega",
+                               "text":  "Καὶ συνετελέσθησαν ὁ οὐρανὸς καὶ ἡ γῆ καὶ πᾶς ὁ κόσμος αὐτῶν",
+                               "transliteration":  "Kai synetelesthesan ho ouranos kai he ge kai pas ho kosmos auton",
+                               "literalPt":  "Foram consumados o céu e a terra, e toda a sua ordem."
+                           },
+                           {
+                               "id":  "lucianic",
+                               "label":  "Recensão Luciânica (Antioquena)",
+                               "text":  "Καὶ συνετελέσθησαν ὁ οὐρανὸς καὶ ἡ γῆ, καὶ πᾶσα ἡ τάξις αὐτῶν",
+                               "transliteration":  "Kai synetelesthesan ho ouranos kai he ge kai pasa he taxis auton",
+                               "literalPt":  "Foram consumados o céu e a terra, e toda a sua disposição."
+                           }
+                       ],
     "ptLiteralVerse":  "Assim foram concluídos os céus e a terra, e todo o seu exército.",
     "enLiteralVerse":  "Thus the heavens and the earth were completed, and all their host.",
     "literalTranslations":  [

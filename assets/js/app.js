@@ -26,6 +26,7 @@ const els = {
   ptVerse: document.querySelector("#pt-verse"),
   literalSourcesBody: document.querySelector("#literal-sources-body"),
   hebrewWitnesses: document.querySelector("#hebrew-witnesses"),
+  greekWitnesses: document.querySelector("#greek-witnesses"),
   healthInfo: document.querySelector("#health-info"),
   metaByLang: {},
   sourceByLang: {},
@@ -255,66 +256,77 @@ const renderLiteralBySource = (entries) => {
   });
 };
 
-const getHebrewTokenTransliteration = (tokens = []) => {
+const getTokenTransliterationByLang = (tokens = [], langCode) => {
   const transliteratedTokens = tokens
-    .filter((token) => token.lang === "hebrew" && token.transliteration && token.transliteration !== "-")
+    .filter(
+      (token) => token.lang === langCode && token.transliteration && token.transliteration !== "-",
+    )
     .map((token) => token.transliteration.trim())
     .filter(Boolean);
 
   return transliteratedTokens.join(" ");
 };
 
-const renderHebrewWitnesses = (witnesses, fallbackLiteral, fallbackTransliteration) => {
-  if (!els.hebrewWitnesses) {
+const renderLanguageWitnesses = ({
+  containerEl,
+  witnesses,
+  fallbackLiteral,
+  fallbackTransliteration,
+  fallbackSourceLabel,
+  sourceTextClass = "",
+}) => {
+  if (!containerEl) {
     return false;
   }
 
-  clearBody(els.hebrewWitnesses);
+  clearBody(containerEl);
 
   if (!Array.isArray(witnesses) || witnesses.length === 0) {
-    els.hebrewWitnesses.hidden = true;
+    containerEl.hidden = true;
     return false;
   }
 
   witnesses.forEach((witness) => {
     const witnessCard = document.createElement("div");
-    witnessCard.className = "hebrew-witness";
+    witnessCard.className = "text-witness";
 
     const title = document.createElement("h4");
-    title.className = "hebrew-witness-title";
-    title.textContent = witness.label || "Fonte hebraica";
+    title.className = "text-witness-title";
+    title.textContent = witness.label || fallbackSourceLabel || "Fonte textual";
     witnessCard.appendChild(title);
 
     const sourceText = document.createElement("p");
-    sourceText.className = "hebrew-witness-text rtl";
+    sourceText.className = sourceTextClass
+      ? `text-witness-text ${sourceTextClass}`
+      : "text-witness-text";
     sourceText.textContent = witness.text || "Sem texto disponível.";
     witnessCard.appendChild(sourceText);
 
     const transliterationLabel = document.createElement("p");
-    transliterationLabel.className = "hebrew-witness-label";
+    transliterationLabel.className = "text-witness-label";
     transliterationLabel.textContent = "Transliteração";
     witnessCard.appendChild(transliterationLabel);
 
     const transliterationText = document.createElement("p");
-    transliterationText.className = "hebrew-witness-transliteration";
+    transliterationText.className = "text-witness-transliteration";
     transliterationText.textContent =
       witness.transliteration || fallbackTransliteration || "Sem transliteração disponível.";
     witnessCard.appendChild(transliterationText);
 
     const literalLabel = document.createElement("p");
-    literalLabel.className = "hebrew-witness-label";
+    literalLabel.className = "text-witness-label";
     literalLabel.textContent = "Tradução literal";
     witnessCard.appendChild(literalLabel);
 
     const literalText = document.createElement("p");
-    literalText.className = "hebrew-witness-literal";
+    literalText.className = "text-witness-literal";
     literalText.textContent = witness.literalPt || fallbackLiteral || "Sem tradução literal disponível.";
     witnessCard.appendChild(literalText);
 
-    els.hebrewWitnesses.appendChild(witnessCard);
+    containerEl.appendChild(witnessCard);
   });
 
-  els.hebrewWitnesses.hidden = false;
+  containerEl.hidden = false;
   return true;
 };
 
@@ -326,13 +338,30 @@ const renderVerse = (data) => {
   const sourceTexts = data.sourceTexts || {};
   const literalTranslations = data.literalTranslations || [];
   const hebrewLiteralEntry = literalTranslations.find((entry) => entry.lang === "hebrew");
+  const greekLiteralEntry = literalTranslations.find((entry) => entry.lang === "greek");
   const hebrewLiteralFallback = hebrewLiteralEntry ? hebrewLiteralEntry.pt || "" : "";
-  const hebrewTransliterationFallback = getHebrewTokenTransliteration(data.tokens || []);
-  const hasHebrewWitnesses = renderHebrewWitnesses(
-    data.hebrewWitnesses || [],
-    hebrewLiteralFallback,
-    hebrewTransliterationFallback,
-  );
+  const greekLiteralFallback = greekLiteralEntry ? greekLiteralEntry.pt || "" : "";
+  const hebrewTransliterationFallback = getTokenTransliterationByLang(data.tokens || [], "hebrew");
+  const greekTransliterationFallback = getTokenTransliterationByLang(data.tokens || [], "greek");
+  const hasHebrewWitnesses = renderLanguageWitnesses({
+    containerEl: els.hebrewWitnesses,
+    witnesses: data.hebrewWitnesses || [],
+    fallbackLiteral: hebrewLiteralFallback,
+    fallbackTransliteration: hebrewTransliterationFallback,
+    fallbackSourceLabel: "Fonte hebraica",
+    sourceTextClass: "rtl",
+  });
+  const hasGreekWitnesses = renderLanguageWitnesses({
+    containerEl: els.greekWitnesses,
+    witnesses: data.greekWitnesses || [],
+    fallbackLiteral: greekLiteralFallback,
+    fallbackTransliteration: greekTransliterationFallback,
+    fallbackSourceLabel: "Fonte grega",
+  });
+  const witnessVisibility = {
+    hebrew: hasHebrewWitnesses,
+    greek: hasGreekWitnesses,
+  };
 
   els.referenceTitle.textContent = `${bookName} ${data.ref.chapter}:${data.ref.verse}`;
   els.translationAuthor.textContent = `Autoria das traduções literais: ${translation.author || "não informado"}`;
@@ -346,7 +375,7 @@ const renderVerse = (data) => {
       metaEl.textContent = manuscripts[code] || `Manuscrito/fonte (${fallbackLabel}) não informado.`;
     }
     if (sourceEl) {
-      if (code === "hebrew" && hasHebrewWitnesses) {
+      if (witnessVisibility[code]) {
         sourceEl.hidden = true;
         sourceEl.textContent = "";
       } else {

@@ -16,8 +16,8 @@
                         "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Aleppo Codex and Qumran manuscripts (Dead Sea Scrolls)",
                         "aramaic":  "Aramaico: tradições targúmicas (comparação)",
                         "aramaicEn":  "Aramaic: targumic traditions (comparison)",
-                        "greek":  "Grego: Septuaginta e tradição bizantina (comparação)",
-                        "greekEn":  "Greek: Septuagint and Byzantine tradition (comparison)",
+                        "greek":  "Grego: Septuaginta (LXX), tradição bizantina e recensão luciânica (comparação)",
+                        "greekEn":  "Greek: Septuagint (LXX), Byzantine tradition and Lucianic recension (comparison)",
                         "latin":  "Latim: Vulgata",
                         "latinEn":  "Latin: Vulgate",
                         "geez":  "Ge\u0027ez: tradição etíope clássica",
@@ -62,6 +62,29 @@
                                 "literalPt":  "A serpente era astuta mais do que todo animal do campo."
                             }
                         ],
+    "greekWitnesses":  [
+                           {
+                               "id":  "lxx",
+                               "label":  "Septuaginta (LXX)",
+                               "text":  "Ὁ δὲ ὄφις ἦν φρονιμώτατος πάντων τῶν θηρίων",
+                               "transliteration":  "Ho de ophis en phronimotatos panton ton therion",
+                               "literalPt":  "A serpente era a mais prudente dentre os animais."
+                           },
+                           {
+                               "id":  "byzantine",
+                               "label":  "Tradição Bizantina Grega",
+                               "text":  "Ὁ δὲ ὄφις ἦν φρονιμώτατος πάντων τῶν θηρίων",
+                               "transliteration":  "Ho de ophis en phronimotatos panton ton therion",
+                               "literalPt":  "A serpente era a mais prudente dentre os animais."
+                           },
+                           {
+                               "id":  "lucianic",
+                               "label":  "Recensão Luciânica (Antioquena)",
+                               "text":  "Ὁ δὲ ὄφις ἦν φρονιμώτερος πάντων τῶν θηρίων",
+                               "transliteration":  "Ho de ophis en phronimoteros panton ton therion",
+                               "literalPt":  "A serpente era mais prudente do que todos os animais."
+                           }
+                       ],
     "ptLiteralVerse":  "Ora, a serpente era mais astuta que todos os animais do campo.",
     "enLiteralVerse":  "Now the serpent was more crafty than all the animals of the field.",
     "literalTranslations":  [

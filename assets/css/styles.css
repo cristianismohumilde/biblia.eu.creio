@@ -488,28 +488,28 @@ button:hover {
   margin: 0;
 }
 
-.hebrew-witnesses {
+.text-witnesses {
   display: grid;
   gap: 0.6rem;
 }
 
-.hebrew-witness {
+.text-witness {
   border: 1px solid rgba(132, 111, 77, 0.28);
   border-radius: 8px;
   padding: 0.55rem 0.62rem;
   background: rgba(255, 255, 255, 0.5);
 }
 
-.hebrew-witness-title {
+.text-witness-title {
   margin: 0 0 0.35rem;
   font-size: 0.93rem;
 }
 
-.hebrew-witness-text {
+.text-witness-text {
   margin: 0;
 }
 
-.hebrew-witness-label {
+.text-witness-label {
   margin: 0.45rem 0 0.12rem;
   font-size: 0.74rem;
   letter-spacing: 0.08em;
@@ -518,18 +518,18 @@ button:hover {
   font-weight: 700;
 }
 
-.hebrew-witness-transliteration,
-.hebrew-witness-literal {
+.text-witness-transliteration,
+.text-witness-literal {
   margin: 0;
   font-size: 0.93rem;
 }
 
-:root[data-theme="dark"] .hebrew-witness {
+:root[data-theme="dark"] .text-witness {
   border-color: rgba(102, 197, 186, 0.32);
   background: rgba(20, 30, 38, 0.6);
 }
 
-:root[data-theme="dark"] .hebrew-witness-label {
+:root[data-theme="dark"] .text-witness-label {
   color: #a8b8c6;
 }
 
