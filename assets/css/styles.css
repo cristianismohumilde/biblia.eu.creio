@@ -121,20 +121,44 @@ h1 {
 }
 
 .quick-nav .nav-spotlight {
-  border-color: rgba(204, 154, 88, 0.7);
-  background: linear-gradient(135deg, rgba(30, 107, 100, 0.17), rgba(204, 154, 88, 0.28));
-  font-weight: 700;
+  position: relative;
+  border-color: #1e6b64;
+  background: linear-gradient(120deg, #1e6b64, #2f837a, #cc9a58);
+  background-size: 220% 220%;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  text-shadow: 0 1px 1px rgba(22, 20, 17, 0.35);
   box-shadow:
-    0 0 0 1px rgba(204, 154, 88, 0.3),
-    0 8px 18px rgba(84, 58, 27, 0.14);
+    0 0 0 1px rgba(30, 107, 100, 0.34),
+    0 10px 20px rgba(59, 39, 20, 0.22);
   transform: translateY(-1px);
+  animation: nav-spotlight-glow 4s ease-in-out infinite;
 }
 
 .quick-nav .nav-spotlight:hover {
-  filter: brightness(1.05);
+  filter: brightness(1.08);
   box-shadow:
-    0 0 0 1px rgba(204, 154, 88, 0.45),
-    0 10px 24px rgba(84, 58, 27, 0.2);
+    0 0 0 1px rgba(30, 107, 100, 0.42),
+    0 12px 24px rgba(59, 39, 20, 0.3);
+  transform: translateY(-2px);
+}
+
+.quick-nav .nav-spotlight:focus-visible {
+  outline: 2px solid #0f4f49;
+  outline-offset: 2px;
+}
+
+@keyframes nav-spotlight-glow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .theme-toggle {
@@ -152,11 +176,13 @@ h1 {
 }
 
 :root[data-theme="dark"] .quick-nav .nav-spotlight {
-  border-color: rgba(139, 212, 203, 0.72);
-  background: linear-gradient(130deg, rgba(47, 131, 122, 0.36), rgba(102, 197, 186, 0.2));
+  border-color: rgba(139, 212, 203, 0.82);
+  background: linear-gradient(125deg, rgba(47, 131, 122, 0.86), rgba(102, 197, 186, 0.72), rgba(210, 173, 124, 0.75));
+  color: #071519;
+  text-shadow: none;
   box-shadow:
-    0 0 0 1px rgba(102, 197, 186, 0.35),
-    0 8px 20px rgba(4, 15, 21, 0.5);
+    0 0 0 1px rgba(102, 197, 186, 0.52),
+    0 10px 24px rgba(4, 15, 21, 0.58);
 }
 
 .layout {
@@ -462,6 +488,21 @@ button:hover {
   margin: 0;
 }
 
+.originais-literais {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(132, 111, 77, 0.25);
+}
+
+.originais-literais h3 {
+  margin: 0 0 0.65rem;
+  font-size: 1.05rem;
+}
+
+:root[data-theme="dark"] .originais-literais {
+  border-top-color: rgba(102, 197, 186, 0.3);
+}
+
 .rtl {
   direction: rtl;
   text-align: left;
@@ -597,6 +638,10 @@ th {
     font-size: 0.92rem;
   }
 
+  .quick-nav .nav-spotlight {
+    width: fit-content;
+  }
+
   .controls form {
     grid-template-columns: 1fr 1fr;
     max-width: 760px;
@@ -642,6 +687,12 @@ th {
   th,
   td {
     padding: 0.55rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quick-nav .nav-spotlight {
+    animation: none;
   }
 }
 
