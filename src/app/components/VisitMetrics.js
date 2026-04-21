@@ -6,13 +6,20 @@ export default function VisitMetrics({ lang, t }) {
   const [total, setTotal] = useState("--");
 
   useEffect(() => {
-    const namespace = "biblia-eu-creio-total";
-    const KEY_TOTAL_VIEWS = "global-hits";
+    const namespace = "biblia-eu-creio-prod"; // Updated namespace
+    const KEY_TOTAL_VIEWS = "hits";
     const isPt = lang === "pt";
 
     async function hitCounter(key) {
       try {
-        const res = await fetch(`https://api.counterapi.dev/v1/${namespace}/${key}/up`);
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 5000); // 5s timeout
+        
+        const res = await fetch(`https://api.counterapi.dev/v1/${namespace}/${key}/up`, { 
+          signal: controller.signal 
+        });
+        clearTimeout(timeoutId);
+
         if (!res.ok) {
           const res2 = await fetch(`https://api.counterapi.dev/v1/${namespace}/${key}`);
           if (!res2.ok) return null;
@@ -30,12 +37,12 @@ export default function VisitMetrics({ lang, t }) {
     const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
     
     const countAction = isLocal 
-      ? fetch(`https://api.counterapi.dev/v1/${namespace}/${KEY_TOTAL_VIEWS}`).then(r => r.json()).then(d => d.count).catch(() => 1250)
+      ? Promise.resolve(2450) // Simulation for local dev
       : hitCounter(KEY_TOTAL_VIEWS);
 
     countAction.then((count) => {
       if (count === null || count === undefined) {
-        setTotal(isPt ? "conectando..." : "connecting...");
+        setTotal(isPt ? "indisponível" : "unavailable");
       } else {
         setTotal(new Intl.NumberFormat(isPt ? "pt-BR" : "en-US").format(count));
       }

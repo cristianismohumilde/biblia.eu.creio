@@ -77,7 +77,7 @@ export default function WitnessCards({ lang, data, manuscript }) {
         return (
           <article key={lo.code}>
             <h3>{lo.label}</h3>
-            <p className="manuscript-meta">{data.manuscripts?.[lo.code] || `Manuscript/source (${lo.label}) not informed.`}</p>
+            <p className="manuscript-meta">{ (lang === 'en' ? data.manuscripts?.[`${lo.code}En`] : data.manuscripts?.[lo.code]) || `Manuscript/source (${lo.label}) not informed.`}</p>
             {witnesses.map(w => {
               const msInfo = manuscriptMap[lo.code]?.find(m => {
                 const label = (w.label || "").toLowerCase();
