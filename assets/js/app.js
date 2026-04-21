@@ -247,6 +247,10 @@ const renderTokensByLanguage = (tokens) => {
 };
 
 const renderLiteralBySource = (entries) => {
+  if (!els.literalSourcesBody) {
+    return;
+  }
+
   clearBody(els.literalSourcesBody);
 
   entries.forEach((entry) => {
