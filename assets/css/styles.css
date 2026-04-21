@@ -272,9 +272,18 @@ h1 {
   color: var(--ink);
 }
 
+.support-actions {
+  margin-top: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
 .support-cta {
   display: inline-block;
-  margin-top: 0.95rem;
+  margin-top: 0;
   text-decoration: none;
   font-weight: 700;
   color: #fff;
@@ -288,6 +297,11 @@ h1 {
 
 .support-cta:hover {
   filter: brightness(1.06);
+}
+
+.support-cta--github {
+  background: linear-gradient(120deg, #25282e, #404956);
+  box-shadow: 0 10px 18px rgba(36, 42, 52, 0.26);
 }
 
 @keyframes banner-shine {
@@ -316,6 +330,12 @@ h1 {
   background: linear-gradient(120deg, #2f837a, #66c5ba);
   color: #102126;
   box-shadow: 0 10px 18px rgba(5, 18, 24, 0.52);
+}
+
+:root[data-theme="dark"] .support-cta--github {
+  background: linear-gradient(120deg, #6d7a8f, #95a3ba);
+  color: #101822;
+  box-shadow: 0 10px 18px rgba(8, 17, 27, 0.5);
 }
 
 :root[data-theme="dark"] .support-metrics {
@@ -708,17 +728,17 @@ th {
   .support-kicker,
   .support-banner h2,
   .support-banner p,
-  .support-cta {
+  .support-actions {
     grid-column: auto;
     grid-row: auto;
   }
 
-  .support-metrics {
-    justify-items: start;
+  .support-actions {
+    justify-content: flex-start;
   }
 
-  .support-cta {
-    margin-top: 0.6rem;
+  .support-metrics {
+    justify-items: start;
   }
 
   .manuscripts {
@@ -799,11 +819,16 @@ th {
   }
 
   .support-cta {
-    width: auto;
+    width: 100%;
     min-width: 142px;
     text-align: center;
     font-size: 0.78rem;
     padding: 0.3rem 0.66rem;
+  }
+
+  .support-actions {
+    width: 100%;
+    gap: 0.45rem;
   }
 
   #verso h2,

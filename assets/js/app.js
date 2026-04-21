@@ -30,15 +30,18 @@ const els = {
   healthInfo: document.querySelector("#health-info"),
   metaByLang: {},
   sourceByLang: {},
+  witnessContainersByLang: {},
 };
 
 LANG_ORDER.forEach(({ code }) => {
   els.metaByLang[code] = document.querySelector(`#meta-${code}`);
   els.sourceByLang[code] = document.querySelector(`#source-${code}`);
+  els.witnessContainersByLang[code] = document.querySelector(`#${code}-witnesses`);
 });
 
 const THEME_KEY = "biblia-theme";
 const DATA_ROOT = document.body.dataset.dataRoot || "data";
+const RTL_LANGS = new Set(["hebrew", "aramaic", "syriac"]);
 
 const applyTheme = (theme) => {
   const normalizedTheme = theme === "dark" ? "dark" : "light";
@@ -267,6 +270,22 @@ const getTokenTransliterationByLang = (tokens = [], langCode) => {
   return transliteratedTokens.join(" ");
 };
 
+const buildDefaultWitness = ({ sourceText, literalText, transliterationText }) => {
+  if (!sourceText) {
+    return [];
+  }
+
+  return [
+    {
+      id: "base",
+      label: "Texto-base",
+      text: sourceText,
+      transliteration: transliterationText,
+      literalPt: literalText,
+    },
+  ];
+};
+
 const renderLanguageWitnesses = ({
   containerEl,
   witnesses,
@@ -337,31 +356,48 @@ const renderVerse = (data) => {
   const manuscripts = data.manuscripts || {};
   const sourceTexts = data.sourceTexts || {};
   const literalTranslations = data.literalTranslations || [];
-  const hebrewLiteralEntry = literalTranslations.find((entry) => entry.lang === "hebrew");
-  const greekLiteralEntry = literalTranslations.find((entry) => entry.lang === "greek");
-  const hebrewLiteralFallback = hebrewLiteralEntry ? hebrewLiteralEntry.pt || "" : "";
-  const greekLiteralFallback = greekLiteralEntry ? greekLiteralEntry.pt || "" : "";
-  const hebrewTransliterationFallback = getTokenTransliterationByLang(data.tokens || [], "hebrew");
-  const greekTransliterationFallback = getTokenTransliterationByLang(data.tokens || [], "greek");
-  const hasHebrewWitnesses = renderLanguageWitnesses({
-    containerEl: els.hebrewWitnesses,
-    witnesses: data.hebrewWitnesses || [],
-    fallbackLiteral: hebrewLiteralFallback,
-    fallbackTransliteration: hebrewTransliterationFallback,
-    fallbackSourceLabel: "Fonte hebraica",
-    sourceTextClass: "rtl",
-  });
-  const hasGreekWitnesses = renderLanguageWitnesses({
-    containerEl: els.greekWitnesses,
-    witnesses: data.greekWitnesses || [],
-    fallbackLiteral: greekLiteralFallback,
-    fallbackTransliteration: greekTransliterationFallback,
-    fallbackSourceLabel: "Fonte grega",
-  });
-  const witnessVisibility = {
-    hebrew: hasHebrewWitnesses,
-    greek: hasGreekWitnesses,
+  const tokens = data.tokens || [];
+  const witnessSetsByLang = {
+    hebrew: data.hebrewWitnesses,
+    aramaic: data.aramaicWitnesses,
+    greek: data.greekWitnesses,
+    latin: data.latinWitnesses,
+    geez: data.geezWitnesses,
+    syriac: data.syriacWitnesses,
+    coptic: data.copticWitnesses,
+    armenian: data.armenianWitnesses,
   };
+  const literalByLang = {};
+  literalTranslations.forEach((entry) => {
+    if (entry && entry.lang) {
+      literalByLang[entry.lang] = entry.pt || "";
+    }
+  });
+  const witnessVisibility = {};
+
+  LANG_ORDER.forEach(({ code, fallbackLabel }) => {
+    const fallbackLiteral = literalByLang[code] || "";
+    const fallbackTransliteration = getTokenTransliterationByLang(tokens, code);
+    const providedWitnesses = Array.isArray(witnessSetsByLang[code]) ? witnessSetsByLang[code] : [];
+    const witnesses =
+      providedWitnesses.length > 0
+        ? providedWitnesses
+        : buildDefaultWitness({
+            sourceText: sourceTexts[code] || "",
+            literalText: fallbackLiteral,
+            transliterationText: fallbackTransliteration,
+          });
+    const sourceTextClass = RTL_LANGS.has(code) ? "rtl" : "";
+
+    witnessVisibility[code] = renderLanguageWitnesses({
+      containerEl: els.witnessContainersByLang[code],
+      witnesses,
+      fallbackLiteral,
+      fallbackTransliteration,
+      fallbackSourceLabel: `Fonte ${fallbackLabel.toLowerCase()}`,
+      sourceTextClass,
+    });
+  });
 
   els.referenceTitle.textContent = `${bookName} ${data.ref.chapter}:${data.ref.verse}`;
   els.translationAuthor.textContent = `Autoria das traduções literais: ${translation.author || "não informado"}`;
