@@ -72,6 +72,7 @@ export const translations = {
     summary: "Resumo",
     manuscriptSource: "Manuscrito/Fonte",
     notInformedMsg: "não informado",
+    serviceUnavailable: "serviço indisponível no momento",
   },
   en: {
     title: "Biblia.Creio.EU | Interlinear",
@@ -146,5 +147,6 @@ export const translations = {
     summary: "Summary",
     manuscriptSource: "Manuscript/Source",
     notInformedMsg: "not informed",
+    serviceUnavailable: "service currently unavailable",
   }
 };
