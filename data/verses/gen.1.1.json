@@ -1,150 +1,143 @@
 {
-    "schemaVersion":  "1.1.0",
-    "ref":  {
-                "book":  "gen",
-                "chapter":  1,
-                "verse":  1
-            },
-    "translation":  {
-                        "author":  "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
-                        "authorEn":  "Biblia.Creio.EU Team (literal translation under curation)",
-                        "baseText":  "Base principal hebraica com comparação multitradicional",
-                        "baseTextEn":  "Primary Hebrew base with multi-tradition comparison"
-                    },
-    "manuscripts":  {
-                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran (4QGen)",
-                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts (4QGen)",
-                        "aramaic":  "Aramaico: Targum Onkelos (TO), tradições targúmicas (comparação)",
-                        "aramaicEn":  "Aramaic: Targum Onkelos (TO), targumic traditions (comparison)",
-                        "greek":  "Grego: Septuaginta (LXX), tradição bizantina (Byz/RP) e recensão luciânica (L) (comparação)",
-                        "greekEn":  "Greek: Septuagint (LXX), Byzantine tradition (Byz/RP), and Lucianic recension (L) (comparison)",
-                        "latin":  "Latim: Vulgata (Vg)",
-                        "latinEn":  "Latin: Vulgate (Vg)",
-                        "geez":  "Ge\u0027ez: tradição etíope clássica (Eth)",
-                        "geezEn":  "Ge\u0027ez: classical Ethiopic tradition (Eth)",
-                        "syriac":  "Siríaco: Peshitta (SyrP)",
-                        "syriacEn":  "Syriac: Peshitta (SyrP)",
-                        "coptic":  "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
-                        "copticEn":  "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
-                        "armenian":  "Armênio: versão armênia antiga (Arm)",
-                        "armenianEn":  "Armenian: ancient Armenian version (Arm)"
-                    },
-    "sourceTexts":  {
-                        "hebrew":  "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
-                        "aramaic":  "בקדמין ברא יי ית שמיא וית ארעא",
-                        "greek":  "Εν αρχη εποιησεν ο θεος τον ουρανον και την γην",
-                        "latin":  "In principio creavit Deus caelum et terram",
-                        "geez":  "በመጀመሪያ ፈጠረ እግዚአብሔር ሰማይን እና ምድርን",
-                        "syriac":  "ܒܪܫܝܬ ܒܪܐ ܐܠܗܐ ܫܡܝܐ ܘܐܪܥܐ",
-                        "coptic":  "Hn te-hē arxe af-thamio m-petfe nem p-kahi",
-                        "armenian":  "Սկզբում Աստված ստեղծեց երկինքն ու երկիրը"
-                    },
-    "hebrewWitnesses":  [
-                            {
-                                "id":  "leningradensis",
-                                "label":  "Codex Leningradensis (B19A)",
-                                "text":  "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
-                                "transliteration":  "Bereshit bara Elohim et hashamayim ve-et haaretz",
-                                "literalPt":  "No princípio Deus criou os céus e a terra."
-                            },
-                            {
-                                "id":  "aleppo",
-                                "label":  "Aleppo Codex (A)",
-                                "text":  "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
-                                "transliteration":  "Bereshit bara Elohim et hashamayim ve-et haaretz",
-                                "literalPt":  "No princípio Deus criou os céus e a terra."
-                            },
-                            {
-                                "id":  "dead-sea-scrolls",
-                                "label":  "Dead Sea Scrolls (Qumran, 4QGen)",
-                                "text":  "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
-                                "transliteration":  "Bereshit bara Elohim et hashamayim ve-et haaretz",
-                                "literalPt":  "No princípio Deus criou os céus e a terra."
-                            }
-                        ],
-    "greekWitnesses":  [
-                           {
-                               "id":  "lxx",
-                               "label":  "Septuaginta (LXX)",
-                               "text":  "Ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν",
-                               "transliteration":  "En arche epoiesen ho Theos ton ouranon kai ten gen",
-                               "literalPt":  "No princípio Deus fez/criou o céu e a terra."
-                           },
-                           {
-                               "id":  "byzantine",
-                               "label":  "Tradição Bizantina Grega (Byz/RP)",
-                               "text":  "Ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν",
-                               "transliteration":  "En arche epoiesen ho Theos ton ouranon kai ten gen",
-                               "literalPt":  "No princípio Deus fez/criou o céu e a terra."
-                           },
-                           {
-                               "id":  "lucianic",
-                               "label":  "Recensão Luciânica (Antioquena, L)",
-                               "text":  "Ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν",
-                               "transliteration":  "En arche epoiesen ho Theos ton ouranon kai ten gen",
-                               "literalPt":  "No princípio Deus fez/criou o céu e a terra."
-                           }
-                       ],
-    "ptLiteralVerse":  "No princípio Deus criou os céus e a terra.",
-    "enLiteralVerse":  "In the beginning God created the heavens and the earth.",
-    "literalTranslations":  [
-                                {
-                                    "lang":  "hebrew",
-                                    "langPt":  "Hebraico",
-                                    "langEn":  "Hebrew",
-                                    "pt":  "No princípio Deus criou os céus e a terra.",
-                                    "en":  "In the beginning God created the heavens and the earth."
-                                },
-                                {
-                                    "lang":  "aramaic",
-                                    "langPt":  "Aramaico",
-                                    "langEn":  "Aramaic",
-                                    "pt":  "No princípio o Senhor criou os céus e a terra.",
-                                    "en":  "In the beginning the Lord created the heavens and the earth."
-                                },
-                                {
-                                    "lang":  "greek",
-                                    "langPt":  "Grego",
-                                    "langEn":  "Greek",
-                                    "pt":  "No princípio Deus fez/criou o céu e a terra.",
-                                    "en":  "In the beginning God made/created heaven and earth."
-                                },
-                                {
-                                    "lang":  "latin",
-                                    "langPt":  "Latim",
-                                    "langEn":  "Latin",
-                                    "pt":  "No princípio Deus criou o céu e a terra.",
-                                    "en":  "In the beginning God created heaven and earth."
-                                },
-                                {
-                                    "lang":  "geez",
-                                    "langPt":  "Ge\u0027ez",
-                                    "langEn":  "Ge\u0027ez",
-                                    "pt":  "No princípio o Senhor criou os céus e a terra.",
-                                    "en":  "In the beginning the Lord created the heavens and the earth."
-                                },
-                                {
-                                    "lang":  "syriac",
-                                    "langPt":  "Siríaco",
-                                    "langEn":  "Syriac",
-                                    "pt":  "No princípio Deus criou os céus e a terra.",
-                                    "en":  "In the beginning God created the heavens and the earth."
-                                },
-                                {
-                                    "lang":  "coptic",
-                                    "langPt":  "Copta",
-                                    "langEn":  "Coptic",
-                                    "pt":  "No princípio Deus criou os céus e a terra.",
-                                    "en":  "In the beginning God created the heavens and the earth."
-                                },
-                                {
-                                    "lang":  "armenian",
-                                    "langPt":  "Armênio",
-                                    "langEn":  "Armenian",
-                                    "pt":  "No princípio Deus criou os céus e a terra.",
-                                    "en":  "In the beginning God created the heavens and the earth."
-                                }
-                            ],
+    "schemaVersion": "1.1.0",
+    "ref": {
+        "book": "gen",
+        "chapter": 1,
+        "verse": 1
+    },
+    "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal hebraica com comparação multitradicional",
+        "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
+    },
+    "manuscripts": {
+        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran (4QGen)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts (4QGen)",
+        "aramaic": "Aramaico: Targum Onkelos (TO), tradições targúmicas (comparação)",
+        "aramaicEn": "Aramaic: Targum Onkelos (TO), targumic traditions (comparison)",
+        "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
+        "greekEn": "Greek: Septuagint (LXX) and Byzantine tradition (Byz/RP) (comparison)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "geez": "Ge'ez: tradição etíope clássica (Eth)",
+        "geezEn": "Ge'ez: classical Ethiopic tradition (Eth)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)"
+    },
+    "sourceTexts": {
+        "hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+        "aramaic": "בקדמין ברא יי ית שמיא וית ארעא",
+        "greek": "Εν αρχη εποιησεν ο θεος τον ουρανον και την γην",
+        "latin": "In principio creavit Deus caelum et terram",
+        "geez": "በመጀመሪያ ፈጠረ እግዚአብሔር ሰማይን እና ምድርን",
+        "syriac": "ܒܪܫܝܬ ܒܪܐ ܐܠܗܐ ܫܡܝܐ ܘܐܪܥܐ",
+        "coptic": "Hn te-hē arxe af-thamio m-petfe nem p-kahi",
+        "armenian": "Սկզբում Աստված ստեղծեց երկինքն ու երկիրը"
+    },
+    "hebrewWitnesses": [
+        {
+            "id": "leningradensis",
+            "label": "Codex Leningradensis (B19A)",
+            "text": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+            "transliteration": "Bereshit bara Elohim et hashamayim ve-et haaretz",
+            "literalPt": "No princípio Deus criou os céus e a terra."
+        },
+        {
+            "id": "aleppo",
+            "label": "Aleppo Codex (A)",
+            "text": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+            "transliteration": "Bereshit bara Elohim et hashamayim ve-et haaretz",
+            "literalPt": "No princípio Deus criou os céus e a terra."
+        },
+        {
+            "id": "dead-sea-scrolls",
+            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
+            "text": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+            "transliteration": "Bereshit bara Elohim et hashamayim ve-et haaretz",
+            "literalPt": "No princípio Deus criou os céus e a terra."
+        }
+    ],
+    "greekWitnesses": [
+        {
+            "id": "lxx",
+            "label": "Septuaginta (LXX)",
+            "text": "Ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν",
+            "transliteration": "En arche epoiesen ho Theos ton ouranon kai ten gen",
+            "literalPt": "No princípio Deus fez/criou o céu e a terra."
+        },
+        {
+            "id": "byzantine",
+            "label": "Tradição Bizantina Grega (Byz/RP)",
+            "text": "Ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν",
+            "transliteration": "En arche epoiesen ho Theos ton ouranon kai ten gen",
+            "literalPt": "No princípio Deus fez/criou o céu e a terra."
+        }
+    ],
+    "ptLiteralVerse": "No princípio Deus criou os céus e a terra.",
+    "enLiteralVerse": "In the beginning God created the heavens and the earth.",
+    "literalTranslations": [
+        {
+            "lang": "hebrew",
+            "langPt": "Hebraico",
+            "langEn": "Hebrew",
+            "pt": "No princípio Deus criou os céus e a terra.",
+            "en": "In the beginning God created the heavens and the earth."
+        },
+        {
+            "lang": "aramaic",
+            "langPt": "Aramaico",
+            "langEn": "Aramaic",
+            "pt": "No princípio o Senhor criou os céus e a terra.",
+            "en": "In the beginning the Lord created the heavens and the earth."
+        },
+        {
+            "lang": "greek",
+            "langPt": "Grego",
+            "langEn": "Greek",
+            "pt": "No princípio Deus fez/criou o céu e a terra.",
+            "en": "In the beginning God made/created heaven and earth."
+        },
+        {
+            "lang": "latin",
+            "langPt": "Latim",
+            "langEn": "Latin",
+            "pt": "No princípio Deus criou o céu e a terra.",
+            "en": "In the beginning God created heaven and earth."
+        },
+        {
+            "lang": "geez",
+            "langPt": "Ge'ez",
+            "langEn": "Ge'ez",
+            "pt": "No princípio o Senhor criou os céus e a terra.",
+            "en": "In the beginning the Lord created the heavens and the earth."
+        },
+        {
+            "lang": "syriac",
+            "langPt": "Siríaco",
+            "langEn": "Syriac",
+            "pt": "No princípio Deus criou os céus e a terra.",
+            "en": "In the beginning God created the heavens and the earth."
+        },
+        {
+            "lang": "coptic",
+            "langPt": "Copta",
+            "langEn": "Coptic",
+            "pt": "No princípio Deus criou os céus e a terra.",
+            "en": "In the beginning God created the heavens and the earth."
+        },
+        {
+            "lang": "armenian",
+            "langPt": "Armênio",
+            "langEn": "Armenian",
+            "pt": "No princípio Deus criou os céus e a terra.",
+            "en": "In the beginning God created the heavens and the earth."
+        }
+    ],
     "tokens": [
         {
             "id": "gen.1.1.h1",
