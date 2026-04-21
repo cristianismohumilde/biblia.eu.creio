@@ -136,6 +136,9 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
         <nav className="quick-nav">
           <Link href={`/${lang}/`}>{t.backToIndex}</Link>
           <a href="#tabela-interlinear">{t.detailedTable}</a>
+          <Link href={`/${t.otherLangCode}/`} hreflang={t.otherLangCode}>
+            {t.otherLangName}
+          </Link>
           <ThemeToggle t={t} />
         </nav>
       </header>

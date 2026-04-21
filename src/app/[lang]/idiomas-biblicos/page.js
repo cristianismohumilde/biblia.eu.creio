@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { translations } from "../../translations";
+import ThemeToggle from "../../components/ThemeToggle";
 
 export async function generateStaticParams() {
   return [{ lang: "pt" }, { lang: "en" }];
@@ -97,6 +99,13 @@ export default async function IdiomasBiblicosPage({ params }) {
           <h1>{lang === 'pt' ? 'Por que estes idiomas são importantes' : 'Why these languages are important'}</h1>
           <p className="subtitle">{lang === 'pt' ? 'Um panorama para crítica textual, exegese e história da transmissão bíblica.' : 'An overview for textual criticism, exegesis, and history of biblical transmission.'}</p>
         </div>
+        <nav className="quick-nav">
+          <Link href={`/${lang}/`}>{t.backToIndex || (lang === 'pt' ? 'Voltar' : 'Back')}</Link>
+          <Link href={`/${t.otherLangCode}/`} hreflang={t.otherLangCode}>
+            {t.otherLangName}
+          </Link>
+          <ThemeToggle t={t} />
+        </nav>
       </header>
 
       {activeContent.map((item, index) => (
