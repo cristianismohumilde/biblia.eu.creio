@@ -84,8 +84,22 @@ export default function InterlinearClient({ lang, manuscript, book, chapter, ver
     { code: "armenian", label: "Armênio" },
   ];
 
+  const currentMsInfo = Object.values(manuscriptMap).flat().find(m => m.key === manuscript);
+
   return (
     <>
+      <header className="site-header" style={{ marginBottom: '2rem' }}>
+        <div>
+          <p className="brand-eyebrow">{currentMsInfo?.label || manuscript.toUpperCase()}</p>
+          <h1>Interlinear Completo</h1>
+          <p className="subtitle">
+            Análise detalhada com transliteração, morfologia e explicações palavra por palavra.
+          </p>
+        </div>
+      </header>
+
+      <ReferenceSelector lang={lang} t={t} />
+
       <section className="card" id="verso">
         <h2>{t.literalTranslation}</h2>
         <p className="reference">{data.ref.book} {data.ref.chapter}:{data.ref.verse}</p>
