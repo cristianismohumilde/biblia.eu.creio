@@ -10,12 +10,23 @@ export default function VisitMetrics({ lang, t }) {
     const unavailable = t.serviceUnavailable;
 
     async function fetchHits() {
+      const namespace = "biblia-creio-v1"; // Novo ID para garantir que funcione
+      const key = "total_visits";
+      
       try {
-        const res = await fetch("/api/hits");
-        if (!res.ok) return null;
+        // Tenta incrementar e obter o valor
+        const res = await fetch(`https://api.counterapi.dev/v1/${namespace}/${key}/up`);
+        if (!res.ok) {
+          // Se falhar o increment, tenta só ler
+          const res2 = await fetch(`https://api.counterapi.dev/v1/${namespace}/${key}`);
+          if (!res2.ok) return null;
+          const data2 = await res2.json();
+          return data2.count;
+        }
         const data = await res.json();
         return data.count;
       } catch (e) {
+        console.error("Counter error:", e);
         return null;
       }
     }
