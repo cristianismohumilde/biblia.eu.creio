@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: '/biblia.eu.creio',
+  // BasePath removed to support custom domain biblia.creio.eu
 };
 
 export default nextConfig;

@@ -13,7 +13,7 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
   const router = useRouter();
 
   useEffect(() => {
-    fetch("/biblia.eu.creio/data/books.json")
+    fetch("/data/books.json")
       .then((res) => res.json())
       .then((data) => {
         setBooks(data);
@@ -36,7 +36,7 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
   };
 
   const updateVerses = (bookCode, chapter) => {
-    fetch(`/biblia.eu.creio/data/books/${bookCode}/chapters/${chapter}.json`)
+    fetch(`/data/books/${bookCode}/chapters/${chapter}.json`)
       .then((res) => res.json())
       .then((data) => {
         setVerses(data.verses);

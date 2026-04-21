@@ -36,7 +36,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const filePath = `/biblia.eu.creio/data/verses/${book.toLowerCase()}.${chapter}.${verse}.json`;
+    const filePath = `/data/verses/${book.toLowerCase()}.${chapter}.${verse}.json`;
     fetch(filePath)
       .then((res) => {
         if (!res.ok) throw new Error("Verso não encontrado");

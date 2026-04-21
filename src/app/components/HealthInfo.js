@@ -6,7 +6,7 @@ export default function HealthInfo() {
   const [info, setInfo] = useState("Health: carregando...");
 
   useEffect(() => {
-    const DATA_ROOT = "/biblia.eu.creio/data";
+    const DATA_ROOT = "/data";
     
     async function loadHealthInfo() {
       try {

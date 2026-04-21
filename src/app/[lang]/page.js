@@ -18,7 +18,7 @@ export default function LangHomePage({ params }) {
   }, [params]);
 
   const loadVerse = (book, chapter, verse) => {
-    const filePath = `/biblia.eu.creio/data/verses/${book.toLowerCase()}.${chapter}.${verse}.json`;
+    const filePath = `/data/verses/${book.toLowerCase()}.${chapter}.${verse}.json`;
     fetch(filePath)
       .then((res) => {
         if (!res.ok) throw new Error("Verso não encontrado");

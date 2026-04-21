@@ -15,8 +15,8 @@ export default function RootPage() {
     const targetLang = userLang.startsWith("pt") ? "pt" : "en";
     
     // On GitHub Pages, we MUST include the repository name (basePath)
-    const basePath = "/biblia.eu.creio";
-    const path = `${basePath}/${targetLang}/`;
+    const basePath = "";
+    const path = `/${targetLang}/`;
     setNext(path);
 
     const copy = {
