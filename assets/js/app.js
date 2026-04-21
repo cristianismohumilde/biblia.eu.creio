@@ -334,6 +334,28 @@ const isGreekSeptuagintWitness = (witness) => {
   return normalizedLabel.includes("septuaginta") || normalizedLabel.includes("lxx");
 };
 
+const buildAramaicInterlinearHref = (ref) => {
+  const params = new URLSearchParams({
+    book: String(ref.book || "gen"),
+    chapter: String(ref.chapter || 1),
+    verse: String(ref.verse || 1),
+  });
+  return `interlinear-aramaico-targum.html?${params.toString()}`;
+};
+
+const isAramaicTargumWitness = (witness) => {
+  if (!witness || typeof witness !== "object") {
+    return false;
+  }
+
+  if (witness.id === "targum" || witness.id === "base") {
+    return true;
+  }
+
+  const normalizedLabel = String(witness.label || "").toLowerCase();
+  return normalizedLabel.includes("targum") || normalizedLabel.includes("onkelos");
+};
+
 const renderLanguageWitnesses = ({
   containerEl,
   witnesses,
@@ -412,6 +434,19 @@ const renderLanguageWitnesses = ({
       const interlinearLink = document.createElement("a");
       interlinearLink.className = "manuscript-cta";
       interlinearLink.href = buildGreekInterlinearHref(currentRef);
+      interlinearLink.textContent = "Interlinear completo";
+
+      actions.appendChild(interlinearLink);
+      witnessCard.appendChild(actions);
+    }
+
+    if (langCode === "aramaic" && currentRef && isAramaicTargumWitness(witness)) {
+      const actions = document.createElement("div");
+      actions.className = "manuscript-actions";
+
+      const interlinearLink = document.createElement("a");
+      interlinearLink.className = "manuscript-cta";
+      interlinearLink.href = buildAramaicInterlinearHref(currentRef);
       interlinearLink.textContent = "Interlinear completo";
 
       actions.appendChild(interlinearLink);
