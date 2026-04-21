@@ -13,7 +13,10 @@ export default function RootPage() {
   useEffect(() => {
     const userLang = (navigator.language || "en").toLowerCase();
     const targetLang = userLang.startsWith("pt") ? "pt" : "en";
-    const path = `/${targetLang}/`;
+    
+    // On GitHub Pages, we MUST include the repository name (basePath)
+    const basePath = "/biblia.eu.creio";
+    const path = `${basePath}/${targetLang}/`;
     setNext(path);
 
     const copy = {
@@ -46,7 +49,8 @@ export default function RootPage() {
     type();
 
     const timer = setTimeout(() => {
-      router.replace(path);
+      // Use window.location.replace for external-like redirect on static export
+      window.location.replace(path);
     }, 9000);
 
     return () => clearTimeout(timer);

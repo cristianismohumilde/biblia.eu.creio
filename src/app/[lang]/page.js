@@ -68,6 +68,8 @@ export default function LangHomePage({ params }) {
             <h2>{t.literalTranslation}</h2>
             <p className="reference">{data.ref.book} {data.ref.chapter}:{data.ref.verse}</p>
             <blockquote className="verse">{data.ptLiteralVerse}</blockquote>
+            <p className="translation-meta">{t.translationAuthor} {data.translation?.author || t.notInformed}</p>
+            <p className="translation-meta">{t.translationSource} {data.translation?.baseText || t.notInformed}</p>
           </section>
 
           <section className="card" id="originais">

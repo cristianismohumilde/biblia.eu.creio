@@ -34,10 +34,11 @@ const getTokenTransliterationByLang = (tokens = [], langCode) => {
 export default function WitnessCards({ lang, data, manuscript }) {
   if (!data) return null;
 
+  // Swapped Greek and Aramaic as requested
   const langOrder = [
     { code: "hebrew", label: "Hebraico" },
-    { code: "aramaic", label: "Aramaico" },
     { code: "greek", label: "Grego" },
+    { code: "aramaic", label: "Aramaico" },
     { code: "latin", label: "Latim" },
     { code: "geez", label: "Ge'ez" },
     { code: "syriac", label: "Siríaco" },
@@ -77,11 +78,37 @@ export default function WitnessCards({ lang, data, manuscript }) {
             <h3>{lo.label}</h3>
             <p className="manuscript-meta">{data.manuscripts?.[lo.code] || `Manuscrito/fonte (${lo.label}) não informado.`}</p>
             {witnesses.map(w => {
+              // EXACT matching logic from app.js
               const msInfo = manuscriptMap[lo.code]?.find(m => {
-                if (m.id === w.id) return true;
                 const label = (w.label || "").toLowerCase();
-                return label.includes(m.id) || (m.key === "b19a" && label.includes("leningradensis"));
+                const id = (w.id || "").toLowerCase();
+                
+                // General match (id or label)
+                if (id === m.id || label.includes(m.id)) return true;
+                
+                // Specific fallbacks
+                if (id === "base") {
+                  if (lo.code === "aramaic" && m.key === "targum") return true;
+                  if (lo.code === "latin" && m.key === "vulgate") return true;
+                  if (lo.code === "syriac" && m.key === "syriac") return true;
+                  if (lo.code === "geez" && m.key === "geez") return true;
+                  if (lo.code === "coptic" && m.key === "coptic") return true;
+                  if (lo.code === "armenian" && m.key === "armenian") return true;
+                  if (lo.code === "greek" && m.key === "lxx") return true;
+                }
+                
+                // Label fallbacks
+                if (m.key === "b19a" && label.includes("leningradensis")) return true;
+                if (m.key === "aleppo" && label.includes("codex a")) return true;
+                if (m.key === "qumran" && (label.includes("dead sea") || label.includes("4qgen"))) return true;
+                if (m.key === "lxx" && label.includes("septuaginta")) return true;
+                if (m.key === "byzantine" && (label.includes("bizantina") || label.includes("byz"))) return true;
+                if (m.key === "targum" && label.includes("onkelos")) return true;
+                if (m.key === "geez" && (label.includes("etióp") || label.includes("ethiopic"))) return true;
+                
+                return false;
               });
+
               const isCurrent = msInfo && msInfo.key === manuscript;
 
               return (
@@ -90,9 +117,9 @@ export default function WitnessCards({ lang, data, manuscript }) {
                   <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`}>
                     {w.text || "Sem texto disponível."}
                   </p>
-                  <p className="text-witness-label">Transliteração</p>
+                  <p className="text-witness-label">TRANSLITERAÇÃO</p>
                   <p className="text-witness-transliteration">{w.transliteration || fallbackTransliteration || "Sem transliteração disponível."}</p>
-                  <p className="text-witness-label">Tradução literal</p>
+                  <p className="text-witness-label">TRADUÇÃO LITERAL</p>
                   <p className="text-witness-literal">{w.literalPt || fallbackLiteral || "Sem tradução literal disponível."}</p>
                   
                   {msInfo && !isCurrent && (

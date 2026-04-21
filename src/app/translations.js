@@ -24,6 +24,9 @@ export const translations = {
     langName: "Português",
     otherLangName: "English",
     otherLangCode: "en",
+    translationAuthor: "Autoria das traduções literais:",
+    translationSource: "Texto-fonte das traduções:",
+    notInformed: "não informado",
   },
   en: {
     title: "Biblia.Creio.EU | Interlinear",
@@ -50,5 +53,8 @@ export const translations = {
     langName: "English",
     otherLangName: "Português",
     otherLangCode: "pt",
+    translationAuthor: "Literal translations authorship:",
+    translationSource: "Translations source text:",
+    notInformed: "not informed",
   }
 };
