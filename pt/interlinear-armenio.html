@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interlinear Completo | Versão Armênia Antiga</title>
+    <meta
+      name="description"
+      content="Interlinear completo do armênio (Versão Armênia Antiga) com tokens, morfologia e transliteração."
+    />
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+    <script>
+      (function () {
+        try {
+          var storedTheme = localStorage.getItem("biblia-theme");
+          if (storedTheme === "dark" || storedTheme === "light") {
+            document.documentElement.setAttribute("data-theme", storedTheme);
+          }
+        } catch (error) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+  <body data-data-root="../data">
+    <div class="aurora" aria-hidden="true"></div>
+    <header class="site-header">
+      <div>
+        <p class="brand-eyebrow">Versão Armênia Antiga</p>
+        <h1>Interlinear Completo</h1>
+        <p class="subtitle">
+          Análise detalhada do texto armênio com transliteração e morfologia palavra por palavra.
+        </p>
+      </div>
+      <nav class="quick-nav" aria-label="Navegação rápida">
+        <a href="index.html">Voltar ao interlinear</a>
+        <a href="#tabela-interlinear">Tabela detalhada</a>
+        <button id="theme-toggle" type="button" class="theme-toggle" aria-pressed="false">
+          🌙 Tema escuro
+        </button>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <section class="card controls" aria-labelledby="controles-titulo">
+        <h2 id="controles-titulo">Selecionar referência</h2>
+        <form id="reference-form">
+          <label>
+            Livro
+            <select id="book-select" name="book"></select>
+          </label>
+          <label>
+            Capítulo
+            <select id="chapter-select" name="chapter"></select>
+          </label>
+          <label>
+            Verso
+            <select id="verse-select" name="verse"></select>
+          </label>
+          <button type="submit">Carregar interlinear</button>
+        </form>
+        <p id="status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="card" id="visao-geral" aria-labelledby="visao-geral-titulo">
+        <h2 id="visao-geral-titulo">Visão do Verso</h2>
+        <p id="reference-title" class="reference"></p>
+        <p id="witness-meta" class="translation-meta"></p>
+
+        <p class="text-witness-label">Texto do manuscrito</p>
+        <blockquote id="witness-text" class="verse"></blockquote>
+
+        <p class="text-witness-label">Transliteração</p>
+        <p id="witness-transliteration" class="text-witness-transliteration"></p>
+
+        <p class="text-witness-label">Tradução literal</p>
+        <p id="witness-literal" class="text-witness-literal"></p>
+      </section>
+
+      <section class="card" aria-labelledby="resumo-titulo">
+        <h2 id="resumo-titulo">Resumo Linguístico</h2>
+        <div class="interlinear-stats-grid">
+          <article class="interlinear-stat-card">
+            <p class="interlinear-stat-label">Tokens totais</p>
+            <p class="interlinear-stat-value" id="stat-total">0</p>
+          </article>
+          <article class="interlinear-stat-card">
+            <p class="interlinear-stat-label">Com Léxico (Awetik'ean)</p>
+            <p class="interlinear-stat-value" id="stat-lexicon">0</p>
+          </article>
+          <article class="interlinear-stat-card">
+            <p class="interlinear-stat-label">Com morfologia</p>
+            <p class="interlinear-stat-value" id="stat-morph">0</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="card" id="tabela-interlinear" aria-labelledby="tabela-titulo">
+        <h2 id="tabela-titulo">Tabela Interlinear Detalhada</h2>
+        <label class="interlinear-filter">
+          Buscar por palavra, lema, léxico ou transliteração
+          <input id="token-filter" type="search" placeholder="Ex.: astvats, steghtsets, skizb" />
+        </label>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>ID</th>
+                <th>Original</th>
+                <th>Transliteração</th>
+                <th>Lema</th>
+                <th>Léxico</th>
+                <th>Morfologia</th>
+                <th>Tradução literal</th>
+              </tr>
+            </thead>
+            <tbody id="interlinear-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Projeto open source em português no GitHub:
+        <a href="https://github.com/cristianismohumilde/biblia.eu.creio" target="_blank" rel="noopener noreferrer">
+          github.com/cristianismohumilde/biblia.eu.creio
+        </a>
+      </p>
+      <p>Licenças: código MIT e dados conforme LICENSE-DATA e SOURCES-LICENSES.</p>
+    </footer>
+
+    <script type="module" src="../assets/js/interlinear-armenian.js"></script>
+  </body>
+</html>

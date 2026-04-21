@@ -422,6 +422,50 @@ const isSyriacPeshittaWitness = (witness) => {
   return normalizedLabel.includes("peshitta") || normalizedLabel.includes("siríaco") || normalizedLabel.includes("syriac");
 };
 
+const buildCopticInterlinearHref = (ref) => {
+  const params = new URLSearchParams({
+    book: String(ref.book || "gen"),
+    chapter: String(ref.chapter || 1),
+    verse: String(ref.verse || 1),
+  });
+  return `interlinear-copta.html?${params.toString()}`;
+};
+
+const isCopticWitness = (witness) => {
+  if (!witness || typeof witness !== "object") {
+    return false;
+  }
+
+  if (witness.id === "coptic" || witness.id === "base") {
+    return true;
+  }
+
+  const normalizedLabel = String(witness.label || "").toLowerCase();
+  return normalizedLabel.includes("copta") || normalizedLabel.includes("coptic");
+};
+
+const buildArmenianInterlinearHref = (ref) => {
+  const params = new URLSearchParams({
+    book: String(ref.book || "gen"),
+    chapter: String(ref.chapter || 1),
+    verse: String(ref.verse || 1),
+  });
+  return `interlinear-armenio.html?${params.toString()}`;
+};
+
+const isArmenianWitness = (witness) => {
+  if (!witness || typeof witness !== "object") {
+    return false;
+  }
+
+  if (witness.id === "armenian" || witness.id === "base") {
+    return true;
+  }
+
+  const normalizedLabel = String(witness.label || "").toLowerCase();
+  return normalizedLabel.includes("armênio") || normalizedLabel.includes("armenian");
+};
+
 const renderLanguageWitnesses = ({
   containerEl,
   witnesses,
@@ -552,6 +596,32 @@ const renderLanguageWitnesses = ({
       const interlinearLink = document.createElement("a");
       interlinearLink.className = "manuscript-cta";
       interlinearLink.href = buildSyriacInterlinearHref(currentRef);
+      interlinearLink.textContent = "Interlinear completo";
+
+      actions.appendChild(interlinearLink);
+      witnessCard.appendChild(actions);
+    }
+
+    if (langCode === "coptic" && currentRef && isCopticWitness(witness)) {
+      const actions = document.createElement("div");
+      actions.className = "manuscript-actions";
+
+      const interlinearLink = document.createElement("a");
+      interlinearLink.className = "manuscript-cta";
+      interlinearLink.href = buildCopticInterlinearHref(currentRef);
+      interlinearLink.textContent = "Interlinear completo";
+
+      actions.appendChild(interlinearLink);
+      witnessCard.appendChild(actions);
+    }
+
+    if (langCode === "armenian" && currentRef && isArmenianWitness(witness)) {
+      const actions = document.createElement("div");
+      actions.className = "manuscript-actions";
+
+      const interlinearLink = document.createElement("a");
+      interlinearLink.className = "manuscript-cta";
+      interlinearLink.href = buildArmenianInterlinearHref(currentRef);
       interlinearLink.textContent = "Interlinear completo";
 
       actions.appendChild(interlinearLink);
