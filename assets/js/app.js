@@ -356,6 +356,28 @@ const isAramaicTargumWitness = (witness) => {
   return normalizedLabel.includes("targum") || normalizedLabel.includes("onkelos");
 };
 
+const buildGeezInterlinearHref = (ref) => {
+  const params = new URLSearchParams({
+    book: String(ref.book || "gen"),
+    chapter: String(ref.chapter || 1),
+    verse: String(ref.verse || 1),
+  });
+  return `interlinear-geez.html?${params.toString()}`;
+};
+
+const isGeezWitness = (witness) => {
+  if (!witness || typeof witness !== "object") {
+    return false;
+  }
+
+  if (witness.id === "geez" || witness.id === "ethiopic" || witness.id === "base") {
+    return true;
+  }
+
+  const normalizedLabel = String(witness.label || "").toLowerCase();
+  return normalizedLabel.includes("ge'ez") || normalizedLabel.includes("etióp") || normalizedLabel.includes("ethiopic");
+};
+
 const renderLanguageWitnesses = ({
   containerEl,
   witnesses,
@@ -447,6 +469,19 @@ const renderLanguageWitnesses = ({
       const interlinearLink = document.createElement("a");
       interlinearLink.className = "manuscript-cta";
       interlinearLink.href = buildAramaicInterlinearHref(currentRef);
+      interlinearLink.textContent = "Interlinear completo";
+
+      actions.appendChild(interlinearLink);
+      witnessCard.appendChild(actions);
+    }
+
+    if (langCode === "geez" && currentRef && isGeezWitness(witness)) {
+      const actions = document.createElement("div");
+      actions.className = "manuscript-actions";
+
+      const interlinearLink = document.createElement("a");
+      interlinearLink.className = "manuscript-cta";
+      interlinearLink.href = buildGeezInterlinearHref(currentRef);
       interlinearLink.textContent = "Interlinear completo";
 
       actions.appendChild(interlinearLink);
