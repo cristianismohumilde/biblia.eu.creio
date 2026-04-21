@@ -3,6 +3,9 @@ import "../../public/assets/css/styles.css";
 export const metadata = {
   title: "Biblia.Creio.EU",
   description: "Plataforma de estudos bíblicos interlineares",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({ children }) {

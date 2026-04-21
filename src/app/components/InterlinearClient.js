@@ -30,7 +30,7 @@ export default function InterlinearClient({ lang, manuscript, book, chapter, ver
   };
 
   useEffect(() => {
-    const filePath = `/data/verses/${book}.${chapter}.${verse}.json`;
+    const filePath = `/biblia.eu.creio/data/verses/${book}.${chapter}.${verse}.json`;
     fetch(filePath)
       .then((res) => {
         if (!res.ok) throw new Error("Verso não encontrado");

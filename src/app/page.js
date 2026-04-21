@@ -4,15 +4,17 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 export default function RootPage() {
+  const router = useRouter();
+
   // Client-side redirection
   useEffect(() => {
     const userLang = navigator.language || navigator.userLanguage;
     if (userLang.startsWith("pt")) {
-      window.location.href = "/pt/";
+      router.replace("/pt/");
     } else {
-      window.location.href = "/en/";
+      router.replace("/en/");
     }
-  }, []);
+  }, [router]);
 
   return (
     <div style={{ 

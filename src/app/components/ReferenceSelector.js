@@ -13,7 +13,7 @@ export default function ReferenceSelector({ lang, t }) {
   const router = useRouter();
 
   useEffect(() => {
-    fetch("/data/books.json")
+    fetch("/biblia.eu.creio/data/books.json")
       .then((res) => res.json())
       .then((data) => {
         setBooks(data);
@@ -36,7 +36,7 @@ export default function ReferenceSelector({ lang, t }) {
   };
 
   const updateVerses = (bookCode, chapter) => {
-    fetch(`/data/books/${bookCode}/chapters/${chapter}.json`)
+    fetch(`/biblia.eu.creio/data/books/${bookCode}/chapters/${chapter}.json`)
       .then((res) => res.json())
       .then((data) => {
         setVerses(data.verses);
