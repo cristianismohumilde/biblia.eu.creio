@@ -4,8 +4,8 @@ export async function generateStaticParams() {
   return [{ lang: "pt" }, { lang: "en" }];
 }
 
-export default function IdiomasBiblicosPage({ params }) {
-  const { lang } = params;
+export default async function IdiomasBiblicosPage({ params }) {
+  const { lang } = await params;
   const t = translations[lang] || translations.pt;
 
   const content = {

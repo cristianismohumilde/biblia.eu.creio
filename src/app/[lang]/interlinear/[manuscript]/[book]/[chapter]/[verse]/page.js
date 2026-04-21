@@ -17,8 +17,8 @@ export async function generateStaticParams() {
   return params;
 }
 
-export default function InterlinearPage({ params }) {
-  const { lang, manuscript, book, chapter, verse } = params;
+export default async function InterlinearPage({ params }) {
+  const { lang, manuscript, book, chapter, verse } = await params;
   
   return (
     <InterlinearClient 

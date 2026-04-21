@@ -1,8 +1,9 @@
 import { translations } from "../translations";
 import ReferenceSelector from "../components/ReferenceSelector";
+import VisitMetrics from "../components/VisitMetrics";
 
-export default function LangHomePage({ params }) {
-  const { lang } = params;
+export default async function LangHomePage({ params }) {
+  const { lang } = await params;
   const t = translations[lang] || translations.pt;
 
   return (
@@ -11,11 +12,7 @@ export default function LangHomePage({ params }) {
         <p className="support-kicker">Comunidade</p>
         <h2 id="support-title">{t.supportTitle}</h2>
         <p>{t.supportText}</p>
-        <div className="support-metrics" aria-live="polite">
-          <p>
-            <strong>{t.visitCount}</strong> <span id="metric-total-views">--</span>
-          </p>
-        </div>
+        <VisitMetrics lang={lang} t={t} />
         <div className="support-actions">
           <a
             className="support-cta"

@@ -6,8 +6,8 @@ export async function generateStaticParams() {
   return [{ lang: "pt" }, { lang: "en" }];
 }
 
-export default function LangLayout({ children, params }) {
-  const { lang } = params;
+export default async function LangLayout({ children, params }) {
+  const { lang } = await params;
   const t = translations[lang] || translations.pt;
 
   return (
