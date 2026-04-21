@@ -15,11 +15,8 @@ export default function LangHomePage({ params }) {
     params.then(p => setResolvedParams(p));
   }, [params]);
 
-  useEffect(() => {
-    if (!resolvedParams) return;
-    
-    // Default verse: Genesis 1:1
-    const filePath = `/biblia.eu.creio/data/verses/gen.1.1.json`;
+  const loadVerse = (book, chapter, verse) => {
+    const filePath = `/biblia.eu.creio/data/verses/${book.toLowerCase()}.${chapter}.${verse}.json`;
     fetch(filePath)
       .then((res) => {
         if (!res.ok) throw new Error("Verso não encontrado");
@@ -27,6 +24,11 @@ export default function LangHomePage({ params }) {
       })
       .then((json) => setData(json))
       .catch((err) => setError(err.message));
+  };
+
+  useEffect(() => {
+    if (!resolvedParams) return;
+    loadVerse("gen", 1, 1);
   }, [resolvedParams]);
 
   if (!resolvedParams) return null;
@@ -60,7 +62,7 @@ export default function LangHomePage({ params }) {
         </div>
       </section>
 
-      <ReferenceSelector lang={lang} t={t} />
+      <ReferenceSelector lang={lang} t={t} onSelect={loadVerse} />
 
       {data && (
         <>

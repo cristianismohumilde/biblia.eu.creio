@@ -125,7 +125,7 @@ export default function WitnessCards({ lang, data, manuscript }) {
                   {msInfo && !isCurrent && (
                     <div className="manuscript-actions">
                       <Link 
-                        href={`/${lang}/interlinear/${msInfo.key}/${data.ref.book.toLowerCase()}/${data.ref.chapter}/${data.ref.verse}`}
+                        href={`/${lang}/interlinear/${msInfo.key}/?book=${data.ref.book.toLowerCase()}&chapter=${data.ref.chapter}&verse=${data.ref.verse}`}
                         className="manuscript-cta"
                       >
                         Interlinear completo

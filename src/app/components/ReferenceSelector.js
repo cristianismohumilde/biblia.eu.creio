@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-export default function ReferenceSelector({ lang, t }) {
+export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, onSelect }) {
   const [books, setBooks] = useState([]);
   const [selectedBook, setSelectedBook] = useState("");
   const [chapters, setChapters] = useState([]);
@@ -58,7 +58,14 @@ export default function ReferenceSelector({ lang, t }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    router.push(`/${lang}/interlinear/b19a/${selectedBook}/${selectedChapter}/${selectedVerse}`);
+    if (isInterlinear) {
+      // Update URL with new verse on interlinear page
+      const url = `/${lang}/interlinear/${manuscript}/?book=${selectedBook}&chapter=${selectedChapter}&verse=${selectedVerse}`;
+      router.push(url);
+    } else if (onSelect) {
+      // Update home page content
+      onSelect(selectedBook, selectedChapter, selectedVerse);
+    }
   };
 
   return (
@@ -95,7 +102,7 @@ export default function ReferenceSelector({ lang, t }) {
             ))}
           </select>
         </label>
-        <button type="submit">{t.loadVerse}</button>
+        <button type="submit">{isInterlinear ? t.loadVerse : t.loadVerse}</button>
       </form>
     </section>
   );

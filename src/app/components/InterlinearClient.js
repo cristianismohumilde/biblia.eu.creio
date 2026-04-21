@@ -1,19 +1,26 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { translations } from "@/app/translations";
 import ReferenceSelector from "./ReferenceSelector";
 import WitnessCards from "./WitnessCards";
 
-export default function InterlinearClient({ lang, manuscript, book, chapter, verse }) {
+function InterlinearContent({ lang, manuscript, initialBook, initialChapter, initialVerse }) {
   const t = translations[lang] || translations.pt;
+  const searchParams = useSearchParams();
+
+  // Determine current verse from props or search params
+  const book = initialBook || searchParams.get("book") || "gen";
+  const chapter = initialChapter || searchParams.get("chapter") || "1";
+  const verse = initialVerse || searchParams.get("verse") || "1";
 
   const [data, setData] = useState(null);
   const [filter, setFilter] = useState("");
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const filePath = `/biblia.eu.creio/data/verses/${book}.${chapter}.${verse}.json`;
+    const filePath = `/biblia.eu.creio/data/verses/${book.toLowerCase()}.${chapter}.${verse}.json`;
     fetch(filePath)
       .then((res) => {
         if (!res.ok) throw new Error("Verso não encontrado");
@@ -56,11 +63,25 @@ export default function InterlinearClient({ lang, manuscript, book, chapter, ver
   if (error) return <div className="card"><h2>Erro</h2><p>{error}</p></div>;
   if (!data) return <div className="card"><p>{t.loading}</p></div>;
 
+  const manuscriptLabels = {
+    b19a: "Codex Leningradensis (B19A)",
+    aleppo: "Aleppo Codex (A)",
+    qumran: "Qumran (4QGen)",
+    lxx: "Septuaginta (LXX)",
+    byzantine: "Tradição Bizantina",
+    targum: "Targum Onkelos",
+    vulgate: "Vulgata",
+    syriac: "Peshitta",
+    geez: "Ge'ez",
+    coptic: "Copta",
+    armenian: "Armênio"
+  };
+
   return (
     <>
       <header className="site-header" style={{ marginBottom: '2rem' }}>
         <div>
-          <p className="brand-eyebrow">{manuscript.toUpperCase()}</p>
+          <p className="brand-eyebrow">{manuscriptLabels[manuscript] || manuscript.toUpperCase()}</p>
           <h1>Interlinear Completo</h1>
           <p className="subtitle">
             Análise detalhada com transliteração, morfologia e explicações palavra por palavra.
@@ -68,7 +89,7 @@ export default function InterlinearClient({ lang, manuscript, book, chapter, ver
         </div>
       </header>
 
-      <ReferenceSelector lang={lang} t={t} />
+      <ReferenceSelector lang={lang} t={t} isInterlinear manuscript={manuscript} />
 
       <section className="card" id="verso">
         <h2>{t.literalTranslation}</h2>
@@ -86,12 +107,12 @@ export default function InterlinearClient({ lang, manuscript, book, chapter, ver
       <section className="card" id="tabela-interlinear">
         <h2>Tabela Interlinear - {manuscript.toUpperCase()}</h2>
         <label className="interlinear-filter">
-          Buscar
+          Buscar por palavra, lema, Strong ou transliteração
           <input 
             type="search" 
             value={filter} 
             onChange={(e) => setFilter(e.target.value)}
-            placeholder="Ex.: Elohim, H430..." 
+            placeholder="Ex.: Elohim, H430, bara" 
           />
         </label>
 
@@ -127,5 +148,13 @@ export default function InterlinearClient({ lang, manuscript, book, chapter, ver
         </div>
       </section>
     </>
+  );
+}
+
+export default function InterlinearClient(props) {
+  return (
+    <Suspense fallback={<div>Carregando...</div>}>
+      <InterlinearContent {...props} />
+    </Suspense>
   );
 }
