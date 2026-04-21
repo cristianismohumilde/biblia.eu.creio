@@ -1,4 +1,4 @@
-{
+﻿{
     "schemaVersion":  "1.1.0",
     "ref":  {
                 "book":  "gen",
@@ -12,22 +12,22 @@
                         "baseTextEn":  "Primary Hebrew base with multi-tradition comparison"
                     },
     "manuscripts":  {
-                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), Aleppo Codex e manuscritos de Qumran (Dead Sea Scrolls)",
-                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Aleppo Codex and Qumran manuscripts (Dead Sea Scrolls)",
-                        "aramaic":  "Aramaico: tradições targúmicas (comparação)",
-                        "aramaicEn":  "Aramaic: targumic traditions (comparison)",
-                        "greek":  "Grego: Septuaginta (LXX), tradição bizantina e recensão luciânica (comparação)",
-                        "greekEn":  "Greek: Septuagint (LXX), Byzantine tradition and Lucianic recension (comparison)",
-                        "latin":  "Latim: Vulgata",
-                        "latinEn":  "Latin: Vulgate",
-                        "geez":  "Ge\u0027ez: tradição etíope clássica",
-                        "geezEn":  "Ge\u0027ez: classical Ethiopic tradition",
-                        "syriac":  "Siríaco: Peshitta",
-                        "syriacEn":  "Syriac: Peshitta",
-                        "coptic":  "Copta: testemunhos sahídico/boárico",
-                        "copticEn":  "Coptic: Sahidic/Bohairic witnesses",
-                        "armenian":  "Armênio: versão armênia antiga",
-                        "armenianEn":  "Armenian: ancient Armenian version"
+                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran (4QGen)",
+                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts (4QGen)",
+                        "aramaic":  "Aramaico: Targum Onkelos (TO), tradições targúmicas (comparação)",
+                        "aramaicEn":  "Aramaic: Targum Onkelos (TO), targumic traditions (comparison)",
+                        "greek":  "Grego: Septuaginta (LXX), tradição bizantina (Byz/RP) e recensão luciânica (L) (comparação)",
+                        "greekEn":  "Greek: Septuagint (LXX), Byzantine tradition (Byz/RP), and Lucianic recension (L) (comparison)",
+                        "latin":  "Latim: Vulgata (Vg)",
+                        "latinEn":  "Latin: Vulgate (Vg)",
+                        "geez":  "Ge\u0027ez: tradição etíope clássica (Eth)",
+                        "geezEn":  "Ge\u0027ez: classical Ethiopic tradition (Eth)",
+                        "syriac":  "Siríaco: Peshitta (SyrP)",
+                        "syriacEn":  "Syriac: Peshitta (SyrP)",
+                        "coptic":  "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+                        "copticEn":  "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
+                        "armenian":  "Armênio: versão armênia antiga (Arm)",
+                        "armenianEn":  "Armenian: ancient Armenian version (Arm)"
                     },
     "sourceTexts":  {
                         "hebrew":  "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
@@ -49,14 +49,14 @@
                             },
                             {
                                 "id":  "aleppo",
-                                "label":  "Aleppo Codex",
+                                "label":  "Aleppo Codex (A)",
                                 "text":  "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
                                 "transliteration":  "Bereshit bara Elohim et hashamayim ve-et haaretz",
                                 "literalPt":  "No princípio Deus criou os céus e a terra."
                             },
                             {
                                 "id":  "dead-sea-scrolls",
-                                "label":  "Dead Sea Scrolls (Qumran)",
+                                "label":  "Dead Sea Scrolls (Qumran, 4QGen)",
                                 "text":  "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
                                 "transliteration":  "Bereshit bara Elohim et hashamayim ve-et haaretz",
                                 "literalPt":  "No princípio Deus criou os céus e a terra."
@@ -72,14 +72,14 @@
                            },
                            {
                                "id":  "byzantine",
-                               "label":  "Tradição Bizantina Grega",
+                               "label":  "Tradição Bizantina Grega (Byz/RP)",
                                "text":  "Ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν",
                                "transliteration":  "En arche epoiesen ho Theos ton ouranon kai ten gen",
                                "literalPt":  "No princípio Deus fez/criou o céu e a terra."
                            },
                            {
                                "id":  "lucianic",
-                               "label":  "Recensão Luciânica (Antioquena)",
+                               "label":  "Recensão Luciânica (Antioquena, L)",
                                "text":  "Ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν",
                                "transliteration":  "En arche epoiesen ho Theos ton ouranon kai ten gen",
                                "literalPt":  "No princípio Deus fez/criou o céu e a terra."
