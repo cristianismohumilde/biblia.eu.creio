@@ -117,13 +117,13 @@ const fillVerses = async (bookCode, chapter) => {
   try {
     const response = await fetch(chapterFile);
     if (!response.ok) {
-      throw new Error(`Arquivo nao encontrado: ${chapterFile}`);
+      throw new Error(`Arquivo não encontrado: ${chapterFile}`);
     }
 
     const chapterData = await response.json();
     chapterData.verses.forEach((verse) => addOption(els.verseSelect, verse, verse));
   } catch (error) {
-    setStatus("Nao foi possivel carregar os versos desse capitulo.");
+    setStatus("Não foi possível carregar os versos desse capítulo.");
   }
 };
 
@@ -141,31 +141,75 @@ const getWitnessFromData = (data) => {
   if (witness) {
     return {
       label: witness.label || "Codex Leningradensis (B19A)",
-      text: witness.text || data.sourceTexts?.hebrew || "Sem texto disponivel.",
+      text: witness.text || data.sourceTexts?.hebrew || "Sem texto disponível.",
       transliteration:
-        witness.transliteration || transliterationFromTokens || "Sem transliteracao disponivel.",
+        witness.transliteration || transliterationFromTokens || "Sem transliteração disponível.",
       literal:
         witness.literalPt ||
         (literalEntry ? literalEntry.pt || "" : "") ||
         data.ptLiteralVerse ||
-        "Sem traducao literal disponivel.",
+        "Sem tradução literal disponível.",
     };
   }
 
   return {
     label: "Codex Leningradensis (B19A)",
-    text: data.sourceTexts?.hebrew || "Sem texto disponivel.",
-    transliteration: transliterationFromTokens || "Sem transliteracao disponivel.",
+    text: data.sourceTexts?.hebrew || "Sem texto disponível.",
+    transliteration: transliterationFromTokens || "Sem transliteração disponível.",
     literal:
       (literalEntry ? literalEntry.pt || "" : "") ||
       data.ptLiteralVerse ||
-      "Sem traducao literal disponivel.",
+      "Sem tradução literal disponível.",
   };
 };
 
 const getHebrewTokens = (data) => {
   const tokens = Array.isArray(data.tokens) ? data.tokens : [];
   return tokens.filter((token) => token.lang === "hebrew");
+};
+
+const hasMeaningfulValue = (value) => {
+  if (typeof value !== "string") {
+    return Boolean(value);
+  }
+
+  const normalized = value.trim();
+  return normalized !== "" && normalized !== "-";
+};
+
+const getTokenExplanationInfo = (token) => {
+  if (hasMeaningfulValue(token.explanation)) {
+    return {
+      text: token.explanation,
+      isDetailed: true,
+    };
+  }
+
+  const parts = [];
+  if (hasMeaningfulValue(token.lemma)) {
+    parts.push(`Lema: ${token.lemma}.`);
+  }
+  if (hasMeaningfulValue(token.morph)) {
+    parts.push(`Função morfológica: ${token.morph}.`);
+  }
+  if (hasMeaningfulValue(token.strong)) {
+    parts.push(`Referência Strong: ${token.strong}.`);
+  }
+  if (hasMeaningfulValue(token.ptLiteralWord)) {
+    parts.push(`No contexto do verso: ${token.ptLiteralWord}.`);
+  }
+
+  if (parts.length) {
+    return {
+      text: parts.join(" "),
+      isDetailed: true,
+    };
+  }
+
+  return {
+    text: "Sem explicação detalhada cadastrada; análise lexical pendente.",
+    isDetailed: false,
+  };
 };
 
 const renderStats = (tokens) => {
@@ -175,7 +219,7 @@ const renderStats = (tokens) => {
 
   const withStrong = tokens.filter((token) => token.strong && token.strong !== "-").length;
   const withMorph = tokens.filter((token) => token.morph && token.morph !== "-").length;
-  const withExplanation = tokens.filter((token) => token.explanation && token.explanation !== "-").length;
+  const withExplanation = tokens.filter((token) => getTokenExplanationInfo(token).isDetailed).length;
 
   els.statTotal.textContent = String(tokens.length);
   els.statStrong.textContent = String(withStrong);
@@ -188,12 +232,13 @@ const renderTokenRows = (tokens) => {
 
   if (!tokens.length) {
     const tr = document.createElement("tr");
-    tr.innerHTML = '<td colspan="11">Nenhum token hebraico disponivel para este verso.</td>';
+    tr.innerHTML = '<td colspan="11">Nenhum token hebraico disponível para este verso.</td>';
     els.interlinearBody.appendChild(tr);
     return;
   }
 
   tokens.forEach((token, index) => {
+    const explanationInfo = getTokenExplanationInfo(token);
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${index + 1}</td>
@@ -205,7 +250,7 @@ const renderTokenRows = (tokens) => {
       <td>${token.morph || "-"}</td>
       <td>${token.ptLiteralWord || "-"}</td>
       <td>${token.enLiteralWord || "-"}</td>
-      <td>${token.explanation || "-"}</td>
+      <td>${explanationInfo.text}</td>
       <td>${token.manuscript || "-"}</td>
     `;
     els.interlinearBody.appendChild(tr);
@@ -229,7 +274,7 @@ const applyFilter = () => {
       token.morph,
       token.ptLiteralWord,
       token.enLiteralWord,
-      token.explanation,
+      getTokenExplanationInfo(token).text,
       token.manuscript,
     ]
       .filter(Boolean)
@@ -249,7 +294,7 @@ const renderVerse = (data) => {
   const tokens = getHebrewTokens(data);
 
   els.referenceTitle.textContent = `${bookName} ${data.ref.chapter}:${data.ref.verse}`;
-  els.witnessMeta.textContent = data.manuscripts?.hebrew || "Manuscrito nao informado.";
+  els.witnessMeta.textContent = data.manuscripts?.hebrew || "Manuscrito não informado.";
   els.witnessText.textContent = witness.text;
   els.witnessTransliteration.textContent = witness.transliteration;
   els.witnessLiteral.textContent = witness.literal;
@@ -266,7 +311,7 @@ const loadVerse = async (bookCode, chapter, verse) => {
     const file = `${DATA_ROOT}/verses/${bookCode}.${chapter}.${verse}.json`;
     const response = await fetch(file);
     if (!response.ok) {
-      throw new Error(`Verso nao encontrado: ${file}`);
+      throw new Error(`Verso não encontrado: ${file}`);
     }
 
     const data = await response.json();
@@ -274,7 +319,7 @@ const loadVerse = async (bookCode, chapter, verse) => {
     updateURL(bookCode, chapter, verse);
     setStatus("Interlinear carregado.");
   } catch (error) {
-    setStatus("Nao foi possivel carregar esse verso.");
+    setStatus("Não foi possível carregar esse verso.");
     clearBody(els.interlinearBody);
   }
 };
@@ -312,7 +357,7 @@ const bootstrap = async () => {
   try {
     const booksResponse = await fetch(`${DATA_ROOT}/books.json`);
     if (!booksResponse.ok) {
-      throw new Error("Nao foi possivel carregar books.json");
+      throw new Error("Não foi possível carregar books.json");
     }
 
     state.books = await booksResponse.json();

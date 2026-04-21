@@ -6,7 +6,7 @@
     <title>Interlinear Completo | Codex Leningradensis (B19A)</title>
     <meta
       name="description"
-      content="Interlinear completo do hebraico massoretico (Codex Leningradensis B19A) com tokens, morfologia, transliteracao e explicacoes."
+      content="Interlinear completo do hebraico massorético (Codex Leningradensis B19A) com tokens, morfologia, transliteração e explicações."
     />
     <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
     <script>
@@ -28,10 +28,10 @@
         <p class="brand-eyebrow">Codex Leningradensis (B19A)</p>
         <h1>Interlinear Completo</h1>
         <p class="subtitle">
-          Analise detalhada do texto hebraico com transliteracao, morfologia e explicacoes palavra por palavra.
+          Análise detalhada do texto hebraico com transliteração, morfologia e explicações palavra por palavra.
         </p>
       </div>
-      <nav class="quick-nav" aria-label="Navegacao rapida">
+      <nav class="quick-nav" aria-label="Navegação rápida">
         <a href="index.html">Voltar ao interlinear</a>
         <a href="#tabela-interlinear">Tabela detalhada</a>
         <button id="theme-toggle" type="button" class="theme-toggle" aria-pressed="false">
@@ -42,14 +42,14 @@
 
     <main class="layout">
       <section class="card controls" aria-labelledby="controles-titulo">
-        <h2 id="controles-titulo">Selecionar referencia</h2>
+        <h2 id="controles-titulo">Selecionar referência</h2>
         <form id="reference-form">
           <label>
             Livro
             <select id="book-select" name="book"></select>
           </label>
           <label>
-            Capitulo
+            Capítulo
             <select id="chapter-select" name="chapter"></select>
           </label>
           <label>
@@ -62,22 +62,22 @@
       </section>
 
       <section class="card" id="visao-geral" aria-labelledby="visao-geral-titulo">
-        <h2 id="visao-geral-titulo">Visao do Verso</h2>
+        <h2 id="visao-geral-titulo">Visão do Verso</h2>
         <p id="reference-title" class="reference"></p>
         <p id="witness-meta" class="translation-meta"></p>
 
         <p class="text-witness-label">Texto do manuscrito</p>
         <blockquote id="witness-text" class="verse rtl"></blockquote>
 
-        <p class="text-witness-label">Transliteracao</p>
+        <p class="text-witness-label">Transliteração</p>
         <p id="witness-transliteration" class="text-witness-transliteration"></p>
 
-        <p class="text-witness-label">Traducao literal</p>
+        <p class="text-witness-label">Tradução literal</p>
         <p id="witness-literal" class="text-witness-literal"></p>
       </section>
 
       <section class="card" aria-labelledby="resumo-titulo">
-        <h2 id="resumo-titulo">Resumo Linguistico</h2>
+        <h2 id="resumo-titulo">Resumo Linguístico</h2>
         <div class="interlinear-stats-grid">
           <article class="interlinear-stat-card">
             <p class="interlinear-stat-label">Tokens totais</p>
@@ -92,7 +92,7 @@
             <p class="interlinear-stat-value" id="stat-morph">0</p>
           </article>
           <article class="interlinear-stat-card">
-            <p class="interlinear-stat-label">Com explicacao</p>
+            <p class="interlinear-stat-label">Com explicação</p>
             <p class="interlinear-stat-value" id="stat-explanation">0</p>
           </article>
         </div>
@@ -101,7 +101,7 @@
       <section class="card" id="tabela-interlinear" aria-labelledby="tabela-titulo">
         <h2 id="tabela-titulo">Tabela Interlinear Detalhada</h2>
         <label class="interlinear-filter">
-          Buscar por palavra, lema, Strong ou transliteracao
+          Buscar por palavra, lema, Strong ou transliteração
           <input id="token-filter" type="search" placeholder="Ex.: Elohim, H430, bara" />
         </label>
 
@@ -112,13 +112,13 @@
                 <th>#</th>
                 <th>ID</th>
                 <th>Original</th>
-                <th>Transliteracao</th>
+                <th>Transliteração</th>
                 <th>Lema</th>
                 <th>Strong</th>
                 <th>Morfologia</th>
                 <th>PT literal</th>
                 <th>EN literal</th>
-                <th>Explicacao</th>
+                <th>Explicação</th>
                 <th>Manuscrito</th>
               </tr>
             </thead>
@@ -130,12 +130,12 @@
 
     <footer class="site-footer">
       <p>
-        Projeto open source em portugues no GitHub:
+        Projeto open source em português no GitHub:
         <a href="https://github.com/cristianismohumilde/biblia.eu.creio" target="_blank" rel="noopener noreferrer">
           github.com/cristianismohumilde/biblia.eu.creio
         </a>
       </p>
-      <p>Licencas: codigo MIT e dados conforme LICENSE-DATA e SOURCES-LICENSES.</p>
+      <p>Licenças: código MIT e dados conforme LICENSE-DATA e SOURCES-LICENSES.</p>
     </footer>
 
     <script type="module" src="../assets/js/interlinear-hebrew-b19a.js"></script>

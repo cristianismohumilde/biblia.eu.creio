@@ -25,7 +25,6 @@ const els = {
   translationSource: document.querySelector("#translation-source"),
   ptVerse: document.querySelector("#pt-verse"),
   literalSourcesBody: document.querySelector("#literal-sources-body"),
-  hebrewInterlinearLink: document.querySelector("#hebrew-interlinear-link"),
   hebrewWitnesses: document.querySelector("#hebrew-witnesses"),
   greekWitnesses: document.querySelector("#greek-witnesses"),
   healthInfo: document.querySelector("#health-info"),
@@ -291,17 +290,26 @@ const buildDefaultWitness = ({ sourceText, literalText, transliterationText }) =
   ];
 };
 
-const updateHebrewInterlinearLink = (ref) => {
-  if (!els.hebrewInterlinearLink || !ref) {
-    return;
-  }
-
+const buildHebrewInterlinearHref = (ref) => {
   const params = new URLSearchParams({
     book: String(ref.book || "gen"),
     chapter: String(ref.chapter || 1),
     verse: String(ref.verse || 1),
   });
-  els.hebrewInterlinearLink.href = `interlinear-hebraico-b19a.html?${params.toString()}`;
+  return `interlinear-hebraico-b19a.html?${params.toString()}`;
+};
+
+const isHebrewLeningradensisWitness = (witness) => {
+  if (!witness || typeof witness !== "object") {
+    return false;
+  }
+
+  if (witness.id === "leningradensis") {
+    return true;
+  }
+
+  const normalizedLabel = String(witness.label || "").toLowerCase();
+  return normalizedLabel.includes("leningradensis") || normalizedLabel.includes("b19a");
 };
 
 const renderLanguageWitnesses = ({
@@ -311,6 +319,8 @@ const renderLanguageWitnesses = ({
   fallbackTransliteration,
   fallbackSourceLabel,
   sourceTextClass = "",
+  langCode = "",
+  currentRef = null,
 }) => {
   if (!containerEl) {
     return false;
@@ -360,6 +370,19 @@ const renderLanguageWitnesses = ({
     literalText.textContent = witness.literalPt || fallbackLiteral || "Sem tradução literal disponível.";
     witnessCard.appendChild(literalText);
 
+    if (langCode === "hebrew" && currentRef && isHebrewLeningradensisWitness(witness)) {
+      const actions = document.createElement("div");
+      actions.className = "manuscript-actions";
+
+      const interlinearLink = document.createElement("a");
+      interlinearLink.className = "manuscript-cta";
+      interlinearLink.href = buildHebrewInterlinearHref(currentRef);
+      interlinearLink.textContent = "Interlinear completo";
+
+      actions.appendChild(interlinearLink);
+      witnessCard.appendChild(actions);
+    }
+
     containerEl.appendChild(witnessCard);
   });
 
@@ -393,8 +416,6 @@ const renderVerse = (data) => {
   });
   const witnessVisibility = {};
 
-  updateHebrewInterlinearLink(data.ref);
-
   LANG_ORDER.forEach(({ code, fallbackLabel }) => {
     const fallbackLiteral = literalByLang[code] || "";
     const fallbackTransliteration = getTokenTransliterationByLang(tokens, code);
@@ -416,6 +437,8 @@ const renderVerse = (data) => {
       fallbackTransliteration,
       fallbackSourceLabel: `Fonte ${fallbackLabel.toLowerCase()}`,
       sourceTextClass,
+      langCode: code,
+      currentRef: data.ref,
     });
   });
 
