@@ -12,8 +12,8 @@
                         "baseTextEn":  "Primary Hebrew base with multi-tradition comparison"
                     },
     "manuscripts":  {
-                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), tradição massorética",
-                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Masoretic tradition",
+                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), Aleppo Codex e manuscritos de Qumran (Dead Sea Scrolls)",
+                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Aleppo Codex and Qumran manuscripts (Dead Sea Scrolls)",
                         "aramaic":  "Aramaico: tradições targúmicas (comparação)",
                         "aramaicEn":  "Aramaic: targumic traditions (comparison)",
                         "greek":  "Grego: Septuaginta e tradição bizantina (comparação)",
@@ -39,6 +39,29 @@
                         "coptic":  "Aujwk ebol nje tpe nem pkahi nem noujom tyrou",
                         "armenian":  "Այսպես ավարտվեցին երկինքն ու երկիրը և նրանց ամբողջ զորքը"
                     },
+    "hebrewWitnesses":  [
+                            {
+                                "id":  "leningradensis",
+                                "label":  "Codex Leningradensis (B19A)",
+                                "text":  "וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל־צְבָאָם",
+                                "transliteration":  "Vayekhullu hashamayim vehaaretz vekhol-tsevaam",
+                                "literalPt":  "Foram concluídos os céus e a terra, e todo o seu exército."
+                            },
+                            {
+                                "id":  "aleppo",
+                                "label":  "Aleppo Codex",
+                                "text":  "וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל־צְבָאָם",
+                                "transliteration":  "Vayekhullu hashamayim vehaaretz vekhol-tsevaam",
+                                "literalPt":  "Foram concluídos os céus e a terra, e todo o seu exército."
+                            },
+                            {
+                                "id":  "dead-sea-scrolls",
+                                "label":  "Dead Sea Scrolls (Qumran)",
+                                "text":  "וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל־צְבָאָם",
+                                "transliteration":  "Vayekhullu hashamayim vehaaretz vekhol-tsevaam",
+                                "literalPt":  "Foram concluídos os céus e a terra, e todo o seu exército."
+                            }
+                        ],
     "ptLiteralVerse":  "Assim foram concluídos os céus e a terra, e todo o seu exército.",
     "enLiteralVerse":  "Thus the heavens and the earth were completed, and all their host.",
     "literalTranslations":  [

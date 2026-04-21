@@ -12,8 +12,8 @@
                         "baseTextEn":  "Primary Hebrew base with multi-tradition comparison"
                     },
     "manuscripts":  {
-                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), tradição massorética",
-                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Masoretic tradition",
+                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), Aleppo Codex e manuscritos de Qumran (Dead Sea Scrolls)",
+                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Aleppo Codex and Qumran manuscripts (Dead Sea Scrolls)",
                         "aramaic":  "Aramaico: tradições targúmicas (comparação)",
                         "aramaicEn":  "Aramaic: targumic traditions (comparison)",
                         "greek":  "Grego: Septuaginta e tradição bizantina (comparação)",
@@ -39,6 +39,29 @@
                         "coptic":  "P-hof de ne ourefkathes nte nibēri nte pma",
                         "armenian":  "Օձը դաշտի բոլոր կենդանիներից առավել խորամանկ էր"
                     },
+    "hebrewWitnesses":  [
+                            {
+                                "id":  "leningradensis",
+                                "label":  "Codex Leningradensis (B19A)",
+                                "text":  "וְהַנָּחָשׁ הָיָה עָרוּם מִכֹּל חַיַּת הַשָּׂדֶה",
+                                "transliteration":  "Vehanahash hayah arum mikol chayat hasadeh",
+                                "literalPt":  "A serpente era astuta mais do que todo animal do campo."
+                            },
+                            {
+                                "id":  "aleppo",
+                                "label":  "Aleppo Codex",
+                                "text":  "וְהַנָּחָשׁ הָיָה עָרוּם מִכֹּל חַיַּת הַשָּׂדֶה",
+                                "transliteration":  "Vehanahash hayah arum mikol chayat hasadeh",
+                                "literalPt":  "A serpente era astuta mais do que todo animal do campo."
+                            },
+                            {
+                                "id":  "dead-sea-scrolls",
+                                "label":  "Dead Sea Scrolls (Qumran)",
+                                "text":  "וְהַנָּחָשׁ הָיָה עָרוּם מִכֹּל חַיַּת הַשָּׂדֶה",
+                                "transliteration":  "Vehanahash hayah arum mikol chayat hasadeh",
+                                "literalPt":  "A serpente era astuta mais do que todo animal do campo."
+                            }
+                        ],
     "ptLiteralVerse":  "Ora, a serpente era mais astuta que todos os animais do campo.",
     "enLiteralVerse":  "Now the serpent was more crafty than all the animals of the field.",
     "literalTranslations":  [

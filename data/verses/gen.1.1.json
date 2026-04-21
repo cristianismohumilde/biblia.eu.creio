@@ -12,8 +12,8 @@
                         "baseTextEn":  "Primary Hebrew base with multi-tradition comparison"
                     },
     "manuscripts":  {
-                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), tradição massorética",
-                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Masoretic tradition",
+                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), Aleppo Codex e manuscritos de Qumran (Dead Sea Scrolls)",
+                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Aleppo Codex and Qumran manuscripts (Dead Sea Scrolls)",
                         "aramaic":  "Aramaico: tradições targúmicas (comparação)",
                         "aramaicEn":  "Aramaic: targumic traditions (comparison)",
                         "greek":  "Grego: Septuaginta e tradição bizantina (comparação)",
@@ -39,6 +39,29 @@
                         "coptic":  "Hn te-hē arxe af-thamio m-petfe nem p-kahi",
                         "armenian":  "Սկզբում Աստված ստեղծեց երկինքն ու երկիրը"
                     },
+    "hebrewWitnesses":  [
+                            {
+                                "id":  "leningradensis",
+                                "label":  "Codex Leningradensis (B19A)",
+                                "text":  "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+                                "transliteration":  "Bereshit bara Elohim et hashamayim ve-et haaretz",
+                                "literalPt":  "No princípio Deus criou os céus e a terra."
+                            },
+                            {
+                                "id":  "aleppo",
+                                "label":  "Aleppo Codex",
+                                "text":  "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+                                "transliteration":  "Bereshit bara Elohim et hashamayim ve-et haaretz",
+                                "literalPt":  "No princípio Deus criou os céus e a terra."
+                            },
+                            {
+                                "id":  "dead-sea-scrolls",
+                                "label":  "Dead Sea Scrolls (Qumran)",
+                                "text":  "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+                                "transliteration":  "Bereshit bara Elohim et hashamayim ve-et haaretz",
+                                "literalPt":  "No princípio Deus criou os céus e a terra."
+                            }
+                        ],
     "ptLiteralVerse":  "No princípio Deus criou os céus e a terra.",
     "enLiteralVerse":  "In the beginning God created the heavens and the earth.",
     "literalTranslations":  [

@@ -12,8 +12,8 @@
                         "baseTextEn":  "Primary Hebrew base with multi-tradition comparison"
                     },
     "manuscripts":  {
-                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), tradição massorética",
-                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Masoretic tradition",
+                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), Aleppo Codex e manuscritos de Qumran (Dead Sea Scrolls)",
+                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Aleppo Codex and Qumran manuscripts (Dead Sea Scrolls)",
                         "aramaic":  "Aramaico: tradições targúmicas (comparação)",
                         "aramaicEn":  "Aramaic: targumic traditions (comparison)",
                         "greek":  "Grego: Septuaginta e tradição bizantina (comparação)",
@@ -39,6 +39,29 @@
                         "coptic":  "Pai pe pjwm nte tgenea n-Adam",
                         "armenian":  "Սա Ադամի սերունդների գրքն է"
                     },
+    "hebrewWitnesses":  [
+                            {
+                                "id":  "leningradensis",
+                                "label":  "Codex Leningradensis (B19A)",
+                                "text":  "זֶה סֵפֶר תּוֹלְדֹת אָדָם",
+                                "transliteration":  "Zeh sefer toledot adam",
+                                "literalPt":  "Este é o livro das gerações de Adão."
+                            },
+                            {
+                                "id":  "aleppo",
+                                "label":  "Aleppo Codex",
+                                "text":  "זֶה סֵפֶר תּוֹלְדֹת אָדָם",
+                                "transliteration":  "Zeh sefer toledot adam",
+                                "literalPt":  "Este é o livro das gerações de Adão."
+                            },
+                            {
+                                "id":  "dead-sea-scrolls",
+                                "label":  "Dead Sea Scrolls (Qumran)",
+                                "text":  "זֶה סֵפֶר תּוֹלְדֹת אָדָם",
+                                "transliteration":  "Zeh sefer toledot adam",
+                                "literalPt":  "Este é o livro das gerações de Adão."
+                            }
+                        ],
     "ptLiteralVerse":  "Este é o livro das gerações de Adão.",
     "enLiteralVerse":  "This is the book of the generations of Adam.",
     "literalTranslations":  [

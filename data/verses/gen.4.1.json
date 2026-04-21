@@ -12,8 +12,8 @@
                         "baseTextEn":  "Primary Hebrew base with multi-tradition comparison"
                     },
     "manuscripts":  {
-                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), tradição massorética",
-                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Masoretic tradition",
+                        "hebrew":  "Hebraico: Codex Leningradensis (B19A), Aleppo Codex e manuscritos de Qumran (Dead Sea Scrolls)",
+                        "hebrewEn":  "Hebrew: Codex Leningradensis (B19A), Aleppo Codex and Qumran manuscripts (Dead Sea Scrolls)",
                         "aramaic":  "Aramaico: tradições targúmicas (comparação)",
                         "aramaicEn":  "Aramaic: targumic traditions (comparison)",
                         "greek":  "Grego: Septuaginta e tradição bizantina (comparação)",
@@ -39,6 +39,29 @@
                         "coptic":  "Adam de afsooun n-Eua tefshime; acermisi ebol acmsi n-Kain",
                         "armenian":  "Ադամը ճանաչեց Եվային իր կնոջը, նա հղիացավ և ծնեց Կայենին"
                     },
+    "hebrewWitnesses":  [
+                            {
+                                "id":  "leningradensis",
+                                "label":  "Codex Leningradensis (B19A)",
+                                "text":  "וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־קַיִן",
+                                "transliteration":  "Vehaadam yada et-havah ishto vatahar vateled et-qayin",
+                                "literalPt":  "O homem conheceu Eva, sua mulher, e ela gerou Caim."
+                            },
+                            {
+                                "id":  "aleppo",
+                                "label":  "Aleppo Codex",
+                                "text":  "וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־קַיִן",
+                                "transliteration":  "Vehaadam yada et-havah ishto vatahar vateled et-qayin",
+                                "literalPt":  "O homem conheceu Eva, sua mulher, e ela gerou Caim."
+                            },
+                            {
+                                "id":  "dead-sea-scrolls",
+                                "label":  "Dead Sea Scrolls (Qumran)",
+                                "text":  "וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־קַיִן",
+                                "transliteration":  "Vehaadam yada et-havah ishto vatahar vateled et-qayin",
+                                "literalPt":  "O homem conheceu Eva, sua mulher, e ela gerou Caim."
+                            }
+                        ],
     "ptLiteralVerse":  "E o homem conheceu Eva, sua mulher; ela concebeu e deu à luz Caim.",
     "enLiteralVerse":  "And the man knew Eve his wife; she conceived and bore Cain.",
     "literalTranslations":  [

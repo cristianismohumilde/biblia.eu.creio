@@ -25,6 +25,7 @@ const els = {
   translationSource: document.querySelector("#translation-source"),
   ptVerse: document.querySelector("#pt-verse"),
   literalSourcesBody: document.querySelector("#literal-sources-body"),
+  hebrewWitnesses: document.querySelector("#hebrew-witnesses"),
   healthInfo: document.querySelector("#health-info"),
   metaByLang: {},
   sourceByLang: {},
@@ -254,12 +255,84 @@ const renderLiteralBySource = (entries) => {
   });
 };
 
+const getHebrewTokenTransliteration = (tokens = []) => {
+  const transliteratedTokens = tokens
+    .filter((token) => token.lang === "hebrew" && token.transliteration && token.transliteration !== "-")
+    .map((token) => token.transliteration.trim())
+    .filter(Boolean);
+
+  return transliteratedTokens.join(" ");
+};
+
+const renderHebrewWitnesses = (witnesses, fallbackLiteral, fallbackTransliteration) => {
+  if (!els.hebrewWitnesses) {
+    return false;
+  }
+
+  clearBody(els.hebrewWitnesses);
+
+  if (!Array.isArray(witnesses) || witnesses.length === 0) {
+    els.hebrewWitnesses.hidden = true;
+    return false;
+  }
+
+  witnesses.forEach((witness) => {
+    const witnessCard = document.createElement("div");
+    witnessCard.className = "hebrew-witness";
+
+    const title = document.createElement("h4");
+    title.className = "hebrew-witness-title";
+    title.textContent = witness.label || "Fonte hebraica";
+    witnessCard.appendChild(title);
+
+    const sourceText = document.createElement("p");
+    sourceText.className = "hebrew-witness-text rtl";
+    sourceText.textContent = witness.text || "Sem texto disponível.";
+    witnessCard.appendChild(sourceText);
+
+    const transliterationLabel = document.createElement("p");
+    transliterationLabel.className = "hebrew-witness-label";
+    transliterationLabel.textContent = "Transliteração";
+    witnessCard.appendChild(transliterationLabel);
+
+    const transliterationText = document.createElement("p");
+    transliterationText.className = "hebrew-witness-transliteration";
+    transliterationText.textContent =
+      witness.transliteration || fallbackTransliteration || "Sem transliteração disponível.";
+    witnessCard.appendChild(transliterationText);
+
+    const literalLabel = document.createElement("p");
+    literalLabel.className = "hebrew-witness-label";
+    literalLabel.textContent = "Tradução literal";
+    witnessCard.appendChild(literalLabel);
+
+    const literalText = document.createElement("p");
+    literalText.className = "hebrew-witness-literal";
+    literalText.textContent = witness.literalPt || fallbackLiteral || "Sem tradução literal disponível.";
+    witnessCard.appendChild(literalText);
+
+    els.hebrewWitnesses.appendChild(witnessCard);
+  });
+
+  els.hebrewWitnesses.hidden = false;
+  return true;
+};
+
 const renderVerse = (data) => {
   const book = state.books.find((item) => item.code === data.ref.book);
   const bookName = book ? book.name : data.ref.book;
   const translation = data.translation || {};
   const manuscripts = data.manuscripts || {};
   const sourceTexts = data.sourceTexts || {};
+  const literalTranslations = data.literalTranslations || [];
+  const hebrewLiteralEntry = literalTranslations.find((entry) => entry.lang === "hebrew");
+  const hebrewLiteralFallback = hebrewLiteralEntry ? hebrewLiteralEntry.pt || "" : "";
+  const hebrewTransliterationFallback = getHebrewTokenTransliteration(data.tokens || []);
+  const hasHebrewWitnesses = renderHebrewWitnesses(
+    data.hebrewWitnesses || [],
+    hebrewLiteralFallback,
+    hebrewTransliterationFallback,
+  );
 
   els.referenceTitle.textContent = `${bookName} ${data.ref.chapter}:${data.ref.verse}`;
   els.translationAuthor.textContent = `Autoria das traduções literais: ${translation.author || "não informado"}`;
@@ -273,11 +346,17 @@ const renderVerse = (data) => {
       metaEl.textContent = manuscripts[code] || `Manuscrito/fonte (${fallbackLabel}) não informado.`;
     }
     if (sourceEl) {
-      sourceEl.textContent = sourceTexts[code] || "Sem conteúdo.";
+      if (code === "hebrew" && hasHebrewWitnesses) {
+        sourceEl.hidden = true;
+        sourceEl.textContent = "";
+      } else {
+        sourceEl.hidden = false;
+        sourceEl.textContent = sourceTexts[code] || "Sem conteúdo.";
+      }
     }
   });
 
-  renderLiteralBySource(data.literalTranslations || []);
+  renderLiteralBySource(literalTranslations);
   renderTokensByLanguage(data.tokens || []);
 };
 
