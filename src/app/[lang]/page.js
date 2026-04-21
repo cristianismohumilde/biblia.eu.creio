@@ -22,7 +22,15 @@ export default function LangHomePage({ params }) {
         if (!res.ok) throw new Error("Verso não encontrado");
         return res.json();
       })
-      .then((json) => setData(json))
+      .then((json) => {
+        setData(json);
+        // Update URL to match selection for better refresh/share experience
+        const url = new URL(window.location.href);
+        url.searchParams.set("book", book);
+        url.searchParams.set("chapter", chapter);
+        url.searchParams.set("verse", verse);
+        window.history.replaceState({}, "", url);
+      })
       .catch((err) => setError(err.message));
   };
 

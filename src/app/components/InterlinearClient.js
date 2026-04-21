@@ -82,9 +82,9 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
       <header className="site-header" style={{ marginBottom: '2rem' }}>
         <div>
           <p className="brand-eyebrow">{manuscriptLabels[manuscript] || manuscript.toUpperCase()}</p>
-          <h1>Interlinear Completo</h1>
+          <h1>{t.interlinearTitle}</h1>
           <p className="subtitle">
-            Análise detalhada com transliteração, morfologia e explicações palavra por palavra.
+            {t.interlinearSubtitle}
           </p>
         </div>
       </header>

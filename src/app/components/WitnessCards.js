@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { translations } from "@/app/translations";
 
 const RTL_LANGS = new Set(["hebrew", "aramaic", "syriac"]);
 
@@ -33,17 +34,17 @@ const getTokenTransliterationByLang = (tokens = [], langCode) => {
 
 export default function WitnessCards({ lang, data, manuscript }) {
   if (!data) return null;
+  const t = translations[lang] || translations.pt;
 
-  // Swapped Greek and Aramaic as requested
   const langOrder = [
-    { code: "hebrew", label: "Hebraico" },
-    { code: "greek", label: "Grego" },
-    { code: "aramaic", label: "Aramaico" },
-    { code: "latin", label: "Latim" },
-    { code: "geez", label: "Ge'ez" },
-    { code: "syriac", label: "Siríaco" },
-    { code: "coptic", label: "Copta" },
-    { code: "armenian", label: "Armênio" },
+    { code: "hebrew", label: t.hebrew },
+    { code: "greek", label: t.greek },
+    { code: "aramaic", label: t.aramaic },
+    { code: "latin", label: t.latin },
+    { code: "geez", label: t.geez },
+    { code: "syriac", label: t.syriac },
+    { code: "coptic", label: t.coptic },
+    { code: "armenian", label: t.armenian },
   ];
 
   const literalByLang = {};
@@ -65,7 +66,7 @@ export default function WitnessCards({ lang, data, manuscript }) {
           ? providedWitnesses 
           : (sourceText ? [{
               id: "base",
-              label: `Fonte ${lo.label.toLowerCase()}`,
+              label: `Source: ${lo.label}`,
               text: sourceText,
               transliteration: fallbackTransliteration,
               literalPt: fallbackLiteral,
@@ -76,17 +77,12 @@ export default function WitnessCards({ lang, data, manuscript }) {
         return (
           <article key={lo.code}>
             <h3>{lo.label}</h3>
-            <p className="manuscript-meta">{data.manuscripts?.[lo.code] || `Manuscrito/fonte (${lo.label}) não informado.`}</p>
+            <p className="manuscript-meta">{data.manuscripts?.[lo.code] || `Manuscript/source (${lo.label}) not informed.`}</p>
             {witnesses.map(w => {
-              // EXACT matching logic from app.js
               const msInfo = manuscriptMap[lo.code]?.find(m => {
                 const label = (w.label || "").toLowerCase();
                 const id = (w.id || "").toLowerCase();
-                
-                // General match (id or label)
                 if (id === m.id || label.includes(m.id)) return true;
-                
-                // Specific fallbacks
                 if (id === "base") {
                   if (lo.code === "aramaic" && m.key === "targum") return true;
                   if (lo.code === "latin" && m.key === "vulgate") return true;
@@ -96,8 +92,6 @@ export default function WitnessCards({ lang, data, manuscript }) {
                   if (lo.code === "armenian" && m.key === "armenian") return true;
                   if (lo.code === "greek" && m.key === "lxx") return true;
                 }
-                
-                // Label fallbacks
                 if (m.key === "b19a" && label.includes("leningradensis")) return true;
                 if (m.key === "aleppo" && label.includes("codex a")) return true;
                 if (m.key === "qumran" && (label.includes("dead sea") || label.includes("4qgen"))) return true;
@@ -105,7 +99,6 @@ export default function WitnessCards({ lang, data, manuscript }) {
                 if (m.key === "byzantine" && (label.includes("bizantina") || label.includes("byz"))) return true;
                 if (m.key === "targum" && label.includes("onkelos")) return true;
                 if (m.key === "geez" && (label.includes("etióp") || label.includes("ethiopic"))) return true;
-                
                 return false;
               });
 
@@ -113,14 +106,14 @@ export default function WitnessCards({ lang, data, manuscript }) {
 
               return (
                 <div key={w.id} className={`text-witness ${isCurrent ? 'active-witness' : ''}`}>
-                  <h4 className="text-witness-title">{w.label || `Fonte ${lo.label.toLowerCase()}`}</h4>
+                  <h4 className="text-witness-title">{w.label || `Source: ${lo.label}`}</h4>
                   <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`}>
-                    {w.text || "Sem texto disponível."}
+                    {w.text || "No text available."}
                   </p>
-                  <p className="text-witness-label">TRANSLITERAÇÃO</p>
-                  <p className="text-witness-transliteration">{w.transliteration || fallbackTransliteration || "Sem transliteração disponível."}</p>
-                  <p className="text-witness-label">TRADUÇÃO LITERAL</p>
-                  <p className="text-witness-literal">{w.literalPt || fallbackLiteral || "Sem tradução literal disponível."}</p>
+                  <p className="text-witness-label">{t.transliteration}</p>
+                  <p className="text-witness-transliteration">{w.transliteration || fallbackTransliteration || "No transliteration available."}</p>
+                  <p className="text-witness-label">{t.literalTranslationLabel}</p>
+                  <p className="text-witness-literal">{w.literalPt || fallbackLiteral || "No literal translation available."}</p>
                   
                   {msInfo && !isCurrent && (
                     <div className="manuscript-actions">
@@ -128,7 +121,7 @@ export default function WitnessCards({ lang, data, manuscript }) {
                         href={`/${lang}/interlinear/${msInfo.key}/?book=${data.ref.book.toLowerCase()}&chapter=${data.ref.chapter}&verse=${data.ref.verse}`}
                         className="manuscript-cta"
                       >
-                        Interlinear completo
+                        {t.interlinearComplete}
                       </Link>
                     </div>
                   )}
