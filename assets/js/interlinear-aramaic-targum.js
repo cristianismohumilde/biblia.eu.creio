@@ -16,7 +16,7 @@ const els = {
   witnessTransliteration: document.querySelector("#witness-transliteration"),
   witnessLiteral: document.querySelector("#witness-literal"),
   statTotal: document.querySelector("#stat-total"),
-  statStrong: document.querySelector("#stat-strong"),
+  statCal: document.querySelector("#stat-cal"),
   statMorph: document.querySelector("#stat-morph"),
   tokenFilter: document.querySelector("#token-filter"),
   interlinearBody: document.querySelector("#interlinear-body"),
@@ -170,11 +170,11 @@ const renderStats = (tokens) => {
     return;
   }
 
-  const withStrong = tokens.filter((token) => token.strong && token.strong !== "-").length;
+  const withCal = tokens.filter((token) => (token.cal && token.cal !== "-") || (token.strong && token.strong !== "-")).length;
   const withMorph = tokens.filter((token) => token.morph && token.morph !== "-").length;
 
   if(els.statTotal) els.statTotal.textContent = String(tokens.length);
-  if(els.statStrong) els.statStrong.textContent = String(withStrong);
+  if(els.statCal) els.statCal.textContent = String(withCal);
   if(els.statMorph) els.statMorph.textContent = String(withMorph);
 };
 
@@ -196,7 +196,7 @@ const renderTokenRows = (tokens) => {
       <td>${token.surface || "-"}</td>
       <td>${token.transliteration || "-"}</td>
       <td>${token.lemma || "-"}</td>
-      <td>${token.strong || "-"}</td>
+      <td>${token.cal || token.strong || "-"}</td>
       <td>${token.morph || "-"}</td>
       <td>${token.ptLiteralWord || "-"}</td>
     `;
@@ -217,7 +217,7 @@ const applyFilter = () => {
       token.surface,
       token.transliteration,
       token.lemma,
-      token.strong,
+      token.cal || token.strong,
       token.morph,
       token.ptLiteralWord,
     ]
