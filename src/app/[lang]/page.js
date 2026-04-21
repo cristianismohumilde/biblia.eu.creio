@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { translations } from "@/app/translations";
 import ReferenceSelector from "@/app/components/ReferenceSelector";
-import VisitMetrics from "@/app/components/VisitMetrics";
 import WitnessCards from "@/app/components/WitnessCards";
 import ThemeToggle from "@/app/components/ThemeToggle";
 import { FlagBR, FlagUS } from "@/app/components/FlagIcon";
@@ -75,7 +74,7 @@ export default function LangHomePage({ params }) {
         <p className="support-kicker">{t.community}</p>
         <h2 id="support-title">{t.supportTitle}</h2>
         <p>{t.supportText}</p>
-        <VisitMetrics lang={lang} t={t} />
+
         <div className="support-actions">
           <a
             className="support-cta"

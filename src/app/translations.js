@@ -20,7 +20,7 @@ export const translations = {
     licenses: "Licenças: código MIT e dados conforme LICENSE-DATA e SOURCES-LICENSES.",
     themeDark: "🌙 Tema escuro",
     themeLight: "☀️ Tema claro",
-    visitCount: "Visitas totais:",
+
     langName: "Português",
     otherLangName: "English 🇺🇸",
     otherLangCode: "en",
@@ -72,7 +72,7 @@ export const translations = {
     summary: "Resumo",
     manuscriptSource: "Manuscrito/Fonte",
     notInformedMsg: "não informado",
-    serviceUnavailable: "serviço indisponível no momento",
+
   },
   en: {
     title: "Biblia.Creio.EU | Interlinear",
@@ -95,7 +95,7 @@ export const translations = {
     licenses: "Licenses: MIT code and data according to LICENSE-DATA and SOURCES-LICENSES.",
     themeDark: "🌙 Dark theme",
     themeLight: "☀️ Light theme",
-    visitCount: "Total views:",
+
     langName: "English",
     otherLangName: "Português 🇧🇷",
     otherLangCode: "pt",
@@ -147,6 +147,6 @@ export const translations = {
     summary: "Summary",
     manuscriptSource: "Manuscript/Source",
     notInformedMsg: "not informed",
-    serviceUnavailable: "service currently unavailable",
+
   }
 };
