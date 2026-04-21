@@ -86,7 +86,7 @@ export default function LangHomePage({ params }) {
           </a>
           <a
             className="support-cta support-cta--github"
-            href="https://github.com/cristianismohumilde/biblia.eu.creio/discussions/2"
+            href="https://github.com/cristianismohumilde/biblia.eu.creio/discussions"
             target="_blank"
             rel="noopener noreferrer"
           >
