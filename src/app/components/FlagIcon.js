@@ -1,9 +1,27 @@
 "use client";
 
 export function FlagBR({ className = "" }) {
-  return <span className={className} style={{ fontSize: '1.2em', lineHeight: 1 }}>🇧🇷</span>;
+  return (
+    <img 
+      src="https://flagcdn.com/br.svg" 
+      alt="Brasil" 
+      className={className} 
+      width="20" 
+      height="15" 
+      style={{ display: 'inline-block', verticalAlign: 'middle', borderRadius: '2px' }}
+    />
+  );
 }
 
 export function FlagUS({ className = "" }) {
-  return <span className={className} style={{ fontSize: '1.2em', lineHeight: 1 }}>🇺🇸</span>;
+  return (
+    <img 
+      src="https://flagcdn.com/us.svg" 
+      alt="USA" 
+      className={className} 
+      width="20" 
+      height="15" 
+      style={{ display: 'inline-block', verticalAlign: 'middle', borderRadius: '2px' }}
+    />
+  );
 }

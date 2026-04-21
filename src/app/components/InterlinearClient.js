@@ -240,8 +240,10 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                     <td>{token.transliteration}</td>
                     <td>{token.lemma}</td>
                     <td>{(() => {
-                      const val = token.lexicon || token.strong || token.cal;
-                      return (val && val !== "-") ? val : "-";
+                      if (token.lexicon && token.lexicon !== "-") return token.lexicon;
+                      if (token.strong && token.strong !== "-") return token.strong;
+                      if (token.cal && token.cal !== "-") return token.cal;
+                      return "-";
                     })()}</td>
                     <td>{token.morph}</td>
                     <td>{lang === 'pt' ? token.ptLiteralWord : token.enLiteralWord}</td>

@@ -216,14 +216,34 @@ h1 {
   background: rgba(17, 23, 29, 0.8);
 }
 
+.quick-nav .nav-spotlight {
+  border-color: rgba(132, 111, 77, 0.45);
+  background: linear-gradient(135deg, #846f4d, #b49d78, #846f4d);
+  background-size: 200% 200%;
+  color: #fff;
+  font-weight: 800;
+  box-shadow: 0 0 15px rgba(132, 111, 77, 0.3);
+  animation: spotlight-pulse 3s infinite ease-in-out, shimmer 5s infinite linear;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+@keyframes spotlight-pulse {
+  0% { transform: scale(1); box-shadow: 0 0 15px rgba(132, 111, 77, 0.3); }
+  50% { transform: scale(1.05); box-shadow: 0 0 25px rgba(132, 111, 77, 0.5); }
+  100% { transform: scale(1); box-shadow: 0 0 15px rgba(132, 111, 77, 0.3); }
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
 :root[data-theme="dark"] .quick-nav .nav-spotlight {
-  border-color: rgba(139, 212, 203, 0.82);
-  background: linear-gradient(125deg, rgba(47, 131, 122, 0.86), rgba(102, 197, 186, 0.72), rgba(210, 173, 124, 0.75));
+  border-color: rgba(102, 197, 186, 0.6);
+  background: linear-gradient(135deg, #1e6b64, #66c5ba, #1e6b64);
+  background-size: 200% 200%;
   color: #071519;
-  text-shadow: none;
-  box-shadow:
-    0 0 0 1px rgba(102, 197, 186, 0.52),
-    0 10px 24px rgba(4, 15, 21, 0.58);
+  box-shadow: 0 0 20px rgba(102, 197, 186, 0.4);
 }
 
 .layout {

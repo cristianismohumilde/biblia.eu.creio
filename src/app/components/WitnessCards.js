@@ -106,7 +106,6 @@ export default function WitnessCards({ lang, data, manuscript }) {
 
               return (
                 <div key={w.id} className={`text-witness ${isCurrent ? 'active-witness' : ''}`}>
-                  <h4 className="text-witness-title">{w.label || `Source: ${lo.label}`}</h4>
                   <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`}>
                     {w.text || t.noText}
                   </p>
