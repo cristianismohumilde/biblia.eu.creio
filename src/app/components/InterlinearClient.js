@@ -121,6 +121,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
   })();
 
   const lexiconStatLabel = (() => {
+    if (manuscript === "targum") return t.withCal;
     if (manuscript === "geez" || manuscript === "vulgate" || manuscript === "coptic") return t.withLexicon;
     return t.withStrong;
   })();

@@ -53,7 +53,8 @@ export const translations = {
     geezLexicon: "Léxico (CDG)",
     latinLexicon: "Léxico (L&S)",
     copticLexicon: "Léxico (Crum)",
-    aramaicLexicon: "Léxico (TO)",
+    aramaicLexicon: "CAL",
+    withCal: "Com CAL",
   },
   en: {
     title: "Biblia.Creio.EU | Interlinear",
@@ -109,6 +110,7 @@ export const translations = {
     geezLexicon: "Lexicon (CDG)",
     latinLexicon: "Lexicon (L&S)",
     copticLexicon: "Lexicon (Crum)",
-    aramaicLexicon: "Lexicon (TO)",
+    aramaicLexicon: "CAL",
+    withCal: "With CAL",
   }
 };
