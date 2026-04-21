@@ -1,8 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import { useState, useEffect, useMemo } from "react";
 import { translations } from "@/app/translations";
+import ReferenceSelector from "./ReferenceSelector";
+import WitnessCards from "./WitnessCards";
 
 export default function InterlinearClient({ lang, manuscript, book, chapter, verse }) {
   const t = translations[lang] || translations.pt;
@@ -10,24 +11,6 @@ export default function InterlinearClient({ lang, manuscript, book, chapter, ver
   const [data, setData] = useState(null);
   const [filter, setFilter] = useState("");
   const [error, setError] = useState(null);
-
-  const manuscriptMap = {
-    hebrew: [
-      { id: "leningradensis", key: "b19a", label: "Codex Leningradensis (B19A)" },
-      { id: "aleppo", key: "aleppo", label: "Aleppo Codex (A)" },
-      { id: "dead-sea-scrolls", key: "qumran", label: "Qumran (4QGen)" }
-    ],
-    greek: [
-      { id: "lxx", key: "lxx", label: "Septuaginta (LXX)" },
-      { id: "byzantine", key: "byzantine", label: "Tradição Bizantina" }
-    ],
-    aramaic: [{ id: "targum", key: "targum", label: "Targum Onkelos" }],
-    latin: [{ id: "vulgate", key: "vulgate", label: "Vulgata" }],
-    syriac: [{ id: "peshitta", key: "syriac", label: "Peshitta" }],
-    geez: [{ id: "geez", key: "geez", label: "Ge'ez" }],
-    coptic: [{ id: "coptic", key: "coptic", label: "Copta" }],
-    armenian: [{ id: "armenian", key: "armenian", label: "Armênio" }]
-  };
 
   useEffect(() => {
     const filePath = `/biblia.eu.creio/data/verses/${book}.${chapter}.${verse}.json`;
@@ -73,24 +56,11 @@ export default function InterlinearClient({ lang, manuscript, book, chapter, ver
   if (error) return <div className="card"><h2>Erro</h2><p>{error}</p></div>;
   if (!data) return <div className="card"><p>{t.loading}</p></div>;
 
-  const langOrder = [
-    { code: "hebrew", label: "Hebraico" },
-    { code: "greek", label: "Grego" },
-    { code: "aramaic", label: "Aramaico" },
-    { code: "latin", label: "Latim" },
-    { code: "geez", label: "Ge'ez" },
-    { code: "syriac", label: "Siríaco" },
-    { code: "coptic", label: "Copta" },
-    { code: "armenian", label: "Armênio" },
-  ];
-
-  const currentMsInfo = Object.values(manuscriptMap).flat().find(m => m.key === manuscript);
-
   return (
     <>
       <header className="site-header" style={{ marginBottom: '2rem' }}>
         <div>
-          <p className="brand-eyebrow">{currentMsInfo?.label || manuscript.toUpperCase()}</p>
+          <p className="brand-eyebrow">{manuscript.toUpperCase()}</p>
           <h1>Interlinear Completo</h1>
           <p className="subtitle">
             Análise detalhada com transliteração, morfologia e explicações palavra por palavra.
@@ -108,53 +78,7 @@ export default function InterlinearClient({ lang, manuscript, book, chapter, ver
 
       <section className="card" id="originais">
         <h2>{t.manuscriptTexts}</h2>
-        <div className="manuscripts">
-          {langOrder.map(lo => {
-            const witnesses = data[`${lo.code}Witnesses`] || [];
-            const sourceText = data.sourceTexts?.[lo.code];
-            if (witnesses.length === 0 && !sourceText) return null;
-
-            return (
-              <article key={lo.code}>
-                <h3>{lo.label}</h3>
-                <p className="manuscript-meta">{data.manuscripts?.[lo.code]}</p>
-                {witnesses.map(w => {
-                  const msInfo = manuscriptMap[lo.code]?.find(m => m.id === w.id);
-                  const isCurrent = msInfo && msInfo.key === manuscript;
-
-                  return (
-                    <div key={w.id} className={`text-witness ${isCurrent ? 'active-witness' : ''}`}>
-                      <h4 className="text-witness-title">{w.label}</h4>
-                      <p className={`text-witness-text ${lo.code === 'hebrew' || lo.code === 'aramaic' || lo.code === 'syriac' ? 'rtl' : ''}`}>
-                        {w.text}
-                      </p>
-                      <p className="text-witness-label">Transliteração</p>
-                      <p className="text-witness-transliteration">{w.transliteration}</p>
-                      <p className="text-witness-label">Tradução literal</p>
-                      <p className="text-witness-literal">{w.literalPt}</p>
-                      
-                      {msInfo && !isCurrent && (
-                        <div className="manuscript-actions">
-                          <Link 
-                            href={`/${lang}/interlinear/${msInfo.key}/${book}/${chapter}/${verse}`}
-                            className="manuscript-cta"
-                          >
-                            Interlinear completo
-                          </Link>
-                        </div>
-                      )}
-                    </div>
-                  );
-                })}
-                {!witnesses.length && sourceText && (
-                  <p className={lo.code === 'hebrew' || lo.code === 'aramaic' || lo.code === 'syriac' ? 'rtl' : ''}>
-                    {sourceText}
-                  </p>
-                )}
-              </article>
-            );
-          })}
-        </div>
+        <WitnessCards lang={lang} data={data} manuscript={manuscript} />
       </section>
 
       <section className="card" id="tabela-interlinear">

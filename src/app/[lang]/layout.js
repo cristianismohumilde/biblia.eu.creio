@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { translations } from "../translations";
 import ThemeToggle from "../components/ThemeToggle";
+import HealthInfo from "../components/HealthInfo";
 
 export async function generateStaticParams() {
   return [{ lang: "pt" }, { lang: "en" }];
@@ -45,6 +46,7 @@ export default async function LangLayout({ children, params }) {
           </a>
         </p>
         <p>{t.licenses}</p>
+        <HealthInfo />
       </footer>
     </div>
   );
