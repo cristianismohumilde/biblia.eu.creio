@@ -378,6 +378,50 @@ const isGeezWitness = (witness) => {
   return normalizedLabel.includes("ge'ez") || normalizedLabel.includes("etióp") || normalizedLabel.includes("ethiopic");
 };
 
+const buildLatinInterlinearHref = (ref) => {
+  const params = new URLSearchParams({
+    book: String(ref.book || "gen"),
+    chapter: String(ref.chapter || 1),
+    verse: String(ref.verse || 1),
+  });
+  return `interlinear-latim-vulgata.html?${params.toString()}`;
+};
+
+const isLatinVulgateWitness = (witness) => {
+  if (!witness || typeof witness !== "object") {
+    return false;
+  }
+
+  if (witness.id === "vulgate" || witness.id === "base") {
+    return true;
+  }
+
+  const normalizedLabel = String(witness.label || "").toLowerCase();
+  return normalizedLabel.includes("vulgata") || normalizedLabel.includes("vulgate");
+};
+
+const buildSyriacInterlinearHref = (ref) => {
+  const params = new URLSearchParams({
+    book: String(ref.book || "gen"),
+    chapter: String(ref.chapter || 1),
+    verse: String(ref.verse || 1),
+  });
+  return `interlinear-siriaco-peshitta.html?${params.toString()}`;
+};
+
+const isSyriacPeshittaWitness = (witness) => {
+  if (!witness || typeof witness !== "object") {
+    return false;
+  }
+
+  if (witness.id === "peshitta" || witness.id === "base") {
+    return true;
+  }
+
+  const normalizedLabel = String(witness.label || "").toLowerCase();
+  return normalizedLabel.includes("peshitta") || normalizedLabel.includes("siríaco") || normalizedLabel.includes("syriac");
+};
+
 const renderLanguageWitnesses = ({
   containerEl,
   witnesses,
@@ -482,6 +526,32 @@ const renderLanguageWitnesses = ({
       const interlinearLink = document.createElement("a");
       interlinearLink.className = "manuscript-cta";
       interlinearLink.href = buildGeezInterlinearHref(currentRef);
+      interlinearLink.textContent = "Interlinear completo";
+
+      actions.appendChild(interlinearLink);
+      witnessCard.appendChild(actions);
+    }
+
+    if (langCode === "latin" && currentRef && isLatinVulgateWitness(witness)) {
+      const actions = document.createElement("div");
+      actions.className = "manuscript-actions";
+
+      const interlinearLink = document.createElement("a");
+      interlinearLink.className = "manuscript-cta";
+      interlinearLink.href = buildLatinInterlinearHref(currentRef);
+      interlinearLink.textContent = "Interlinear completo";
+
+      actions.appendChild(interlinearLink);
+      witnessCard.appendChild(actions);
+    }
+
+    if (langCode === "syriac" && currentRef && isSyriacPeshittaWitness(witness)) {
+      const actions = document.createElement("div");
+      actions.className = "manuscript-actions";
+
+      const interlinearLink = document.createElement("a");
+      interlinearLink.className = "manuscript-cta";
+      interlinearLink.href = buildSyriacInterlinearHref(currentRef);
       interlinearLink.textContent = "Interlinear completo";
 
       actions.appendChild(interlinearLink);
