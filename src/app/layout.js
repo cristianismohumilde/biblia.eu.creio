@@ -1,6 +1,7 @@
 import "../../public/assets/css/styles.css";
 
 export const metadata = {
+  metadataBase: new URL('https://biblia.creio.eu'),
   title: "Biblia.Creio.EU",
   description: "Plataforma de estudos bíblicos interlineares com análise de manuscritos originais.",
   icons: {

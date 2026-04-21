@@ -50,7 +50,7 @@ export default function WitnessCards({ lang, data, manuscript }) {
   const literalByLang = {};
   (data.literalTranslations || []).forEach((entry) => {
     if (entry && entry.lang) {
-      literalByLang[entry.lang] = entry.pt || "";
+      literalByLang[entry.lang] = (lang === 'en' ? entry.en : entry.pt) || "";
     }
   });
 
@@ -66,7 +66,7 @@ export default function WitnessCards({ lang, data, manuscript }) {
           ? providedWitnesses 
           : (sourceText ? [{
               id: "base",
-              label: `Source: ${lo.label}`,
+              label: `${t.source}: ${lo.label}`,
               text: sourceText,
               transliteration: fallbackTransliteration,
               literalPt: fallbackLiteral,
@@ -108,12 +108,12 @@ export default function WitnessCards({ lang, data, manuscript }) {
                 <div key={w.id} className={`text-witness ${isCurrent ? 'active-witness' : ''}`}>
                   <h4 className="text-witness-title">{w.label || `Source: ${lo.label}`}</h4>
                   <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`}>
-                    {w.text || "No text available."}
+                    {w.text || t.noText}
                   </p>
                   <p className="text-witness-label">{t.transliteration}</p>
-                  <p className="text-witness-transliteration">{w.transliteration || fallbackTransliteration || "No transliteration available."}</p>
+                  <p className="text-witness-transliteration">{w.transliteration || fallbackTransliteration || t.noTranslit}</p>
                   <p className="text-witness-label">{t.literalTranslationLabel}</p>
-                  <p className="text-witness-literal">{w.literalPt || fallbackLiteral || "No literal translation available."}</p>
+                  <p className="text-witness-literal">{(lang === 'en' ? w.literalEn : w.literalPt) || fallbackLiteral || t.noLiteral}</p>
                   
                   {msInfo && !isCurrent && (
                     <div className="manuscript-actions">

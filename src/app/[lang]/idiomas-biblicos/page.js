@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { translations } from "../../translations";
 import ThemeToggle from "../../components/ThemeToggle";
+import { FlagBR, FlagUS } from "../../components/FlagIcon";
 
 export async function generateStaticParams() {
   return [{ lang: "pt" }, { lang: "en" }];
@@ -95,15 +96,20 @@ export default async function IdiomasBiblicosPage({ params }) {
     <>
       <header className="site-header" style={{ marginBottom: '2rem' }}>
         <div>
-          <p className="brand-eyebrow">{lang === 'pt' ? 'Estudos Bíblicos' : 'Biblical Studies'}</p>
-          <h1>{lang === 'pt' ? 'Por que estes idiomas são importantes' : 'Why these languages are important'}</h1>
-          <p className="subtitle">{lang === 'pt' ? 'Um panorama para crítica textual, exegese e história da transmissão bíblica.' : 'An overview for textual criticism, exegesis, and history of biblical transmission.'}</p>
+          <p className="brand-eyebrow">{t.biblicalStudies}</p>
+          <h1>{t.biblicalLanguages}</h1>
+          <p className="subtitle">{t.languagesSubtitle}</p>
         </div>
         <nav className="quick-nav">
-          <Link href={`/${lang}/`}>{t.backToIndex || (lang === 'pt' ? 'Voltar' : 'Back')}</Link>
-          <Link href={`/${t.otherLangCode}/`} hreflang={t.otherLangCode}>
-            {t.otherLangName}
-          </Link>
+          <Link href={`/${lang}/`}>{t.back}</Link>
+          <div className="lang-switcher">
+            <Link href="/pt/" className={lang === 'pt' ? 'active' : ''} aria-label="Português">
+              <FlagBR /> <span className="desktop-only">PT</span>
+            </Link>
+            <Link href="/en/" className={lang === 'en' ? 'active' : ''} aria-label="English">
+              <FlagUS /> <span className="desktop-only">EN</span>
+            </Link>
+          </div>
           <ThemeToggle t={t} />
         </nav>
       </header>

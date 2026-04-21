@@ -72,7 +72,7 @@ export default function LangHomePage({ params }) {
       </header>
 
       <section className="card support-banner" aria-labelledby="support-title">
-        <p className="support-kicker">Comunidade</p>
+        <p className="support-kicker">{t.community}</p>
         <h2 id="support-title">{t.supportTitle}</h2>
         <p>{t.supportText}</p>
         <VisitMetrics lang={lang} t={t} />
@@ -103,7 +103,7 @@ export default function LangHomePage({ params }) {
           <section className="card" id="verso">
             <h2>{t.literalTranslation}</h2>
             <p className="reference">{data.ref.book} {data.ref.chapter}:{data.ref.verse}</p>
-            <blockquote className="verse">{data.ptLiteralVerse}</blockquote>
+            <blockquote className="verse">{lang === 'pt' ? data.ptLiteralVerse : data.enLiteralVerse}</blockquote>
             <p className="translation-meta">{t.translationAuthor} {data.translation?.author || t.notInformed}</p>
             <p className="translation-meta">{t.translationSource} {data.translation?.baseText || t.notInformed}</p>
           </section>

@@ -9,17 +9,32 @@ import ThemeToggle from "./ThemeToggle";
 import { FlagBR, FlagUS } from "./FlagIcon";
 
 const manuscriptLabels = {
-  b19a: "Codex Leningradensis (B19A)",
-  aleppo: "Aleppo Codex (A)",
-  qumran: "Qumran (4QGen)",
-  lxx: "Septuaginta (LXX)",
-  byzantine: "Tradição Bizantina",
-  targum: "Targum Onkelos",
-  vulgate: "Vulgata",
-  syriac: "Peshitta",
-  geez: "Tradição Etíope Clássica",
-  coptic: "Copta",
-  armenian: "Armênio"
+  pt: {
+    b19a: "Codex Leningradensis (B19A)",
+    aleppo: "Aleppo Codex (A)",
+    qumran: "Qumran (4QGen)",
+    lxx: "Septuaginta (LXX)",
+    byzantine: "Tradição Bizantina",
+    targum: "Targum Onkelos",
+    vulgate: "Vulgata",
+    syriac: "Peshitta",
+    geez: "Tradição Etíope Clássica",
+    coptic: "Copta",
+    armenian: "Armênio"
+  },
+  en: {
+    b19a: "Codex Leningradensis (B19A)",
+    aleppo: "Aleppo Codex (A)",
+    qumran: "Qumran (4QGen)",
+    lxx: "Septuagint (LXX)",
+    byzantine: "Byzantine Tradition",
+    targum: "Targum Onkelos",
+    vulgate: "Vulgate",
+    syriac: "Peshitta",
+    geez: "Classical Ethiopic Tradition",
+    coptic: "Coptic",
+    armenian: "Armenian"
+  }
 };
 
 const RTL_LANGS = new Set(["hebrew", "aramaic", "syriac"]);
@@ -98,14 +113,14 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
 
     if (w) {
       return {
-        label: w.label || manuscriptLabels[manuscript],
+        label: w.label || manuscriptLabels[lang][manuscript],
         text: w.text || data.sourceTexts?.[targetLang],
         transliteration: w.transliteration || translit,
         literal: w.literalPt || literalEntry?.pt
       };
     }
     return {
-      label: manuscriptLabels[manuscript],
+      label: manuscriptLabels[lang][manuscript],
       text: data.sourceTexts?.[targetLang],
       transliteration: translit,
       literal: literalEntry?.pt
@@ -131,7 +146,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     <>
       <header className="site-header">
         <div>
-          <p className="brand-eyebrow">{manuscriptLabels[manuscript] || manuscript.toUpperCase()}</p>
+          <p className="brand-eyebrow">{manuscriptLabels[lang][manuscript] || manuscript.toUpperCase()}</p>
           <h1>{t.interlinearTitle}</h1>
           <p className="subtitle">{t.interlinearSubtitle}</p>
         </div>
@@ -171,7 +186,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
         </section>
 
         <section className="card">
-          <h2>Resumo Linguístico</h2>
+          <h2>{t.linguisticSummary}</h2>
           <div className="interlinear-stats-grid">
             <article className="interlinear-stat-card">
               <p className="interlinear-stat-label">{t.tokensTotal}</p>
@@ -191,12 +206,12 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
         <section className="card" id="tabela-interlinear">
           <h2>{t.detailedTable}</h2>
           <label className="interlinear-filter">
-            {lang === 'pt' ? 'Buscar por palavra, lema, léxico ou transliteração' : 'Search by word, lemma, lexicon or transliteration'}
+            {t.searchPlaceholder}
             <input 
               type="search" 
               value={filter} 
               onChange={(e) => setFilter(e.target.value)}
-              placeholder="Ex.: Elohim, H430, bara" 
+              placeholder={lang === 'pt' ? 'Ex.: Elohim, H430, bara' : 'Ex.: Elohim, H430, bara'} 
             />
           </label>
 
@@ -205,13 +220,13 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>ID</th>
-                  <th>Original</th>
-                  <th>Transliteração</th>
-                  <th>Lema</th>
+                  <th>{t.id}</th>
+                  <th>{t.original}</th>
+                  <th>{t.transliteration}</th>
+                  <th>{t.lemma}</th>
                   <th>{lexiconHeader}</th>
-                  <th>Morfologia</th>
-                  <th>Tradução literal</th>
+                  <th>{t.morphology}</th>
+                  <th>{t.literalTranslationLabel}</th>
                 </tr>
               </thead>
               <tbody>
@@ -226,7 +241,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                     <td>{token.lemma}</td>
                     <td>{token.lexicon || token.strong || token.cal || "-"}</td>
                     <td>{token.morph}</td>
-                    <td>{token.ptLiteralWord}</td>
+                    <td>{lang === 'pt' ? token.ptLiteralWord : token.enLiteralWord}</td>
                   </tr>
                 ))}
               </tbody>

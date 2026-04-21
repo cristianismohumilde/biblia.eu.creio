@@ -77,7 +77,7 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
           <select value={selectedBook} onChange={handleBookChange} name="book">
             {books.map((b) => (
               <option key={b.code} value={b.code}>
-                {b.name}
+                {lang === 'pt' ? b.name : b.nameEn}
               </option>
             ))}
           </select>
