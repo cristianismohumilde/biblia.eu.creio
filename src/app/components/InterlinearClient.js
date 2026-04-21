@@ -68,7 +68,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     if (!filter) return tokens;
     const query = filter.toLowerCase();
     return tokens.filter(tk => {
-      const haystack = [tk.surface, tk.transliteration, tk.lemma, tk.strong, tk.lexicon, tk.morph, tk.ptLiteralWord]
+      const haystack = [tk.surface, tk.transliteration, tk.lemma, tk.strong, tk.lexicon, tk.cal, tk.morph, tk.ptLiteralWord]
         .filter(Boolean).join(" ").toLowerCase();
       return haystack.includes(query);
     });
@@ -79,7 +79,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     const tokens = data.tokens.filter(tk => tk.lang === targetLang);
     return {
       total: tokens.length,
-      withLexicon: tokens.filter(tk => (tk.lexicon && tk.lexicon !== "-") || (tk.strong && tk.strong !== "-")).length,
+      withLexicon: tokens.filter(tk => (tk.lexicon && tk.lexicon !== "-") || (tk.strong && tk.strong !== "-") || (tk.cal && tk.cal !== "-")).length,
       withMorph: tokens.filter(tk => tk.morph && tk.morph !== "-").length
     };
   }, [data, targetLang]);
@@ -224,7 +224,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                     </td>
                     <td>{token.transliteration}</td>
                     <td>{token.lemma}</td>
-                    <td>{token.lexicon || token.strong || "-"}</td>
+                    <td>{token.lexicon || token.strong || token.cal || "-"}</td>
                     <td>{token.morph}</td>
                     <td>{token.ptLiteralWord}</td>
                   </tr>

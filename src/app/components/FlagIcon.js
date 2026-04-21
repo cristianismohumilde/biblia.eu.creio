@@ -33,12 +33,17 @@ export function FlagUS({ className = "" }) {
       <rect width="741" height="390" fill="#bf0a30"/>
       <path fill="#fff" d="M0 30h741M0 90h741M0 150h741M0 210h741M0 270h741M0 330h741"/>
       <rect width="296" height="210" fill="#002868"/>
-      <circle cx="30" cy="30" r="3" fill="#fff"/>
-      <circle cx="60" cy="30" r="3" fill="#fff"/>
-      <circle cx="90" cy="30" r="3" fill="#fff"/>
-      <circle cx="30" cy="60" r="3" fill="#fff"/>
-      <circle cx="60" cy="60" r="3" fill="#fff"/>
-      <circle cx="90" cy="60" r="3" fill="#fff"/>
+      <g fill="#fff">
+        <circle cx="25" cy="25" r="3"/><circle cx="55" cy="25" r="3"/><circle cx="85" cy="25" r="3"/><circle cx="115" cy="25" r="3"/><circle cx="145" cy="25" r="3"/>
+        <circle cx="40" cy="45" r="3"/><circle cx="70" cy="45" r="3"/><circle cx="100" cy="45" r="3"/><circle cx="130" cy="45" r="3"/>
+        <circle cx="25" cy="65" r="3"/><circle cx="55" cy="65" r="3"/><circle cx="85" cy="65" r="3"/><circle cx="115" cy="65" r="3"/><circle cx="145" cy="65" r="3"/>
+        <circle cx="40" cy="85" r="3"/><circle cx="70" cy="85" r="3"/><circle cx="100" cy="85" r="3"/><circle cx="130" cy="85" r="3"/>
+        <circle cx="25" cy="105" r="3"/><circle cx="55" cy="105" r="3"/><circle cx="85" cy="105" r="3"/><circle cx="115" cy="105" r="3"/><circle cx="145" cy="105" r="3"/>
+        <circle cx="40" cy="125" r="3"/><circle cx="70" cy="125" r="3"/><circle cx="100" cy="125" r="3"/><circle cx="130" cy="125" r="3"/>
+        <circle cx="25" cy="145" r="3"/><circle cx="55" cy="145" r="3"/><circle cx="85" cy="145" r="3"/><circle cx="115" cy="145" r="3"/><circle cx="145" cy="145" r="3"/>
+        <circle cx="40" cy="165" r="3"/><circle cx="70" cy="165" r="3"/><circle cx="100" cy="165" r="3"/><circle cx="130" cy="165" r="3"/>
+        <circle cx="25" cy="185" r="3"/><circle cx="55" cy="185" r="3"/><circle cx="85" cy="185" r="3"/><circle cx="115" cy="185" r="3"/><circle cx="145" cy="185" r="3"/>
+      </g>
     </svg>
   );
 }

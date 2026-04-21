@@ -53,7 +53,7 @@ export const translations = {
     geezLexicon: "Léxico (CDG)",
     latinLexicon: "Léxico (L&S)",
     copticLexicon: "Léxico (Crum)",
-    aramaicLexicon: "CAL (Comprehensive Aramaic Lexicon)",
+    aramaicLexicon: "CAL",
     withCal: "Com CAL (Comprehensive Aramaic Lexicon)",
   },
   en: {
@@ -110,7 +110,7 @@ export const translations = {
     geezLexicon: "Lexicon (CDG)",
     latinLexicon: "Lexicon (L&S)",
     copticLexicon: "Lexicon (Crum)",
-    aramaicLexicon: "CAL (Comprehensive Aramaic Lexicon)",
+    aramaicLexicon: "CAL",
     withCal: "With CAL (Comprehensive Aramaic Lexicon)",
   }
 };
