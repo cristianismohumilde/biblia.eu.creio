@@ -47,9 +47,10 @@ export default function VisitMetrics({ lang, t }) {
 
   return (
     <div className="support-metrics" aria-live="polite">
-      <p>
-        <strong>{t.visitCount}</strong> <span>{total}</span>
-      </p>
+      <div className="metric-badge">
+        <span className="metric-label">{t.visitCount}</span>
+        <span className="metric-value">{total}</span>
+      </div>
     </div>
   );
 }
