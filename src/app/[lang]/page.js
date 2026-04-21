@@ -1,10 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { translations } from "@/app/translations";
 import ReferenceSelector from "@/app/components/ReferenceSelector";
 import VisitMetrics from "@/app/components/VisitMetrics";
 import WitnessCards from "@/app/components/WitnessCards";
+import ThemeToggle from "@/app/components/ThemeToggle";
 
 export default function LangHomePage({ params }) {
   const [resolvedParams, setResolvedParams] = useState(null);
@@ -24,7 +26,6 @@ export default function LangHomePage({ params }) {
       })
       .then((json) => {
         setData(json);
-        // Update URL to match selection for better refresh/share experience
         const url = new URL(window.location.href);
         url.searchParams.set("book", book);
         url.searchParams.set("chapter", chapter);
@@ -45,6 +46,25 @@ export default function LangHomePage({ params }) {
 
   return (
     <>
+      <header className="site-header">
+        <div>
+          <p className="brand-eyebrow">{t.openSource}</p>
+          <h1><Link href={`/${lang}/`} style={{ color: 'inherit', textDecoration: 'none' }}>Biblia.Creio.EU</Link></h1>
+          <p className="subtitle">{t.subtitle}</p>
+        </div>
+        <nav className="quick-nav" aria-label="Navegação rápida">
+          <Link href={`/${lang}/#verso`}>{t.verse}</Link>
+          <Link href={`/${lang}/#originais`}>{t.manuscriptTexts}</Link>
+          <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">
+            {t.biblicalLanguages}
+          </Link>
+          <Link href={`/${t.otherLangCode}/`} hreflang={t.otherLangCode}>
+            {t.otherLangName}
+          </Link>
+          <ThemeToggle t={t} />
+        </nav>
+      </header>
+
       <section className="card support-banner" aria-labelledby="support-title">
         <p className="support-kicker">Comunidade</p>
         <h2 id="support-title">{t.supportTitle}</h2>
