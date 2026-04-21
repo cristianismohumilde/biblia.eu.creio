@@ -209,6 +209,42 @@ const isHebrewLeningradensisWitness = (witness) => {
   return normalizedLabel.includes("leningradensis") || normalizedLabel.includes("b19a");
 };
 
+const buildHebrewAleppoInterlinearHref = (ref) => {
+  const params = new URLSearchParams({
+    book: String(ref.book || "gen"),
+    chapter: String(ref.chapter || 1),
+    verse: String(ref.verse || 1),
+  });
+  return `interlinear-hebraico-aleppo.html?${params.toString()}`;
+};
+
+const isHebrewAleppoWitness = (witness) => {
+  if (!witness || typeof witness !== "object") {
+    return false;
+  }
+  if (witness.id === "aleppo") return true;
+  const normalizedLabel = String(witness.label || "").toLowerCase();
+  return normalizedLabel.includes("aleppo") || normalizedLabel.includes("codex a");
+};
+
+const buildHebrewQumranInterlinearHref = (ref) => {
+  const params = new URLSearchParams({
+    book: String(ref.book || "gen"),
+    chapter: String(ref.chapter || 1),
+    verse: String(ref.verse || 1),
+  });
+  return `interlinear-hebraico-qumran.html?${params.toString()}`;
+};
+
+const isHebrewQumranWitness = (witness) => {
+  if (!witness || typeof witness !== "object") {
+    return false;
+  }
+  if (witness.id === "dead-sea-scrolls" || witness.id === "qumran") return true;
+  const normalizedLabel = String(witness.label || "").toLowerCase();
+  return normalizedLabel.includes("qumran") || normalizedLabel.includes("dead sea") || normalizedLabel.includes("4qgen");
+};
+
 const buildGreekInterlinearHref = (ref) => {
   const params = new URLSearchParams({
     book: String(ref.book || "gen"),
@@ -229,6 +265,24 @@ const isGreekSeptuagintWitness = (witness) => {
 
   const normalizedLabel = String(witness.label || "").toLowerCase();
   return normalizedLabel.includes("septuaginta") || normalizedLabel.includes("lxx");
+};
+
+const buildGreekByzantineInterlinearHref = (ref) => {
+  const params = new URLSearchParams({
+    book: String(ref.book || "gen"),
+    chapter: String(ref.chapter || 1),
+    verse: String(ref.verse || 1),
+  });
+  return `interlinear-grego-byzantine.html?${params.toString()}`;
+};
+
+const isGreekByzantineWitness = (witness) => {
+  if (!witness || typeof witness !== "object") {
+    return false;
+  }
+  if (witness.id === "byzantine") return true;
+  const normalizedLabel = String(witness.label || "").toLowerCase();
+  return normalizedLabel.includes("bizantina") || normalizedLabel.includes("byzantine") || normalizedLabel.includes("byz");
 };
 
 const buildAramaicInterlinearHref = (ref) => {
@@ -421,30 +475,46 @@ const renderLanguageWitnesses = ({
     literalText.textContent = witness.literalPt || fallbackLiteral || "Sem tradução literal disponível.";
     witnessCard.appendChild(literalText);
 
-    if (langCode === "hebrew" && currentRef && isHebrewLeningradensisWitness(witness)) {
-      const actions = document.createElement("div");
-      actions.className = "manuscript-actions";
+    if (langCode === "hebrew" && currentRef) {
+      let href = null;
+      if (isHebrewLeningradensisWitness(witness)) {
+        href = buildHebrewInterlinearHref(currentRef);
+      } else if (isHebrewAleppoWitness(witness)) {
+        href = buildHebrewAleppoInterlinearHref(currentRef);
+      } else if (isHebrewQumranWitness(witness)) {
+        href = buildHebrewQumranInterlinearHref(currentRef);
+      }
 
-      const interlinearLink = document.createElement("a");
-      interlinearLink.className = "manuscript-cta";
-      interlinearLink.href = buildHebrewInterlinearHref(currentRef);
-      interlinearLink.textContent = "Interlinear completo";
-
-      actions.appendChild(interlinearLink);
-      witnessCard.appendChild(actions);
+      if (href) {
+        const actions = document.createElement("div");
+        actions.className = "manuscript-actions";
+        const interlinearLink = document.createElement("a");
+        interlinearLink.className = "manuscript-cta";
+        interlinearLink.href = href;
+        interlinearLink.textContent = "Interlinear completo";
+        actions.appendChild(interlinearLink);
+        witnessCard.appendChild(actions);
+      }
     }
 
-    if (langCode === "greek" && currentRef && isGreekSeptuagintWitness(witness)) {
-      const actions = document.createElement("div");
-      actions.className = "manuscript-actions";
+    if (langCode === "greek" && currentRef) {
+      let href = null;
+      if (isGreekSeptuagintWitness(witness)) {
+        href = buildGreekInterlinearHref(currentRef);
+      } else if (isGreekByzantineWitness(witness)) {
+        href = buildGreekByzantineInterlinearHref(currentRef);
+      }
 
-      const interlinearLink = document.createElement("a");
-      interlinearLink.className = "manuscript-cta";
-      interlinearLink.href = buildGreekInterlinearHref(currentRef);
-      interlinearLink.textContent = "Interlinear completo";
-
-      actions.appendChild(interlinearLink);
-      witnessCard.appendChild(actions);
+      if (href) {
+        const actions = document.createElement("div");
+        actions.className = "manuscript-actions";
+        const interlinearLink = document.createElement("a");
+        interlinearLink.className = "manuscript-cta";
+        interlinearLink.href = href;
+        interlinearLink.textContent = "Interlinear completo";
+        actions.appendChild(interlinearLink);
+        witnessCard.appendChild(actions);
+      }
     }
 
     if (langCode === "aramaic" && currentRef && isAramaicTargumWitness(witness)) {
