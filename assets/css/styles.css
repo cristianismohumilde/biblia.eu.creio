@@ -508,6 +508,37 @@ button:hover {
   margin: 0;
 }
 
+.manuscript-actions {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.manuscript-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.4rem 0.78rem;
+  background: linear-gradient(120deg, #395986, #5876a3);
+  box-shadow: 0 8px 14px rgba(42, 62, 94, 0.2);
+}
+
+.manuscript-cta:hover {
+  filter: brightness(1.06);
+}
+
+:root[data-theme="dark"] .manuscript-cta {
+  background: linear-gradient(120deg, #7997c5, #9bb4d8);
+  color: #11202e;
+  box-shadow: 0 8px 14px rgba(8, 16, 28, 0.45);
+}
+
 .text-witnesses {
   display: grid;
   gap: 0.6rem;
@@ -635,6 +666,60 @@ th {
   opacity: 0.9;
 }
 
+.interlinear-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.interlinear-stat-card {
+  border: 1px solid rgba(132, 111, 77, 0.26);
+  border-radius: 10px;
+  padding: 0.55rem 0.62rem;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.interlinear-stat-label {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #655b4d;
+}
+
+.interlinear-stat-value {
+  margin: 0.2rem 0 0;
+  font-size: 1.28rem;
+  font-weight: 700;
+}
+
+.interlinear-filter {
+  display: grid;
+  gap: 0.35rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.interlinear-filter input {
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  padding: 0.5rem 0.62rem;
+  font: inherit;
+  background: rgba(255, 255, 255, 0.75);
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .interlinear-stat-card {
+  border-color: rgba(102, 197, 186, 0.28);
+  background: rgba(20, 30, 38, 0.58);
+}
+
+:root[data-theme="dark"] .interlinear-stat-label {
+  color: #a8b8c6;
+}
+
+:root[data-theme="dark"] .interlinear-filter input {
+  background: rgba(17, 23, 29, 0.8);
+}
+
 .tabs-container {
   display: flex;
   flex-direction: column;
@@ -743,6 +828,10 @@ th {
 
   .manuscripts {
     grid-template-columns: 1fr;
+  }
+
+  .interlinear-stats-grid {
+    grid-template-columns: 1fr 1fr;
   }
 
   table {
@@ -877,6 +966,10 @@ th {
     justify-self: stretch;
     align-self: stretch;
     margin-top: 0.1rem;
+  }
+
+  .interlinear-stats-grid {
+    grid-template-columns: 1fr;
   }
 
   .tabs {

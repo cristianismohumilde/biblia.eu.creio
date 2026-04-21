@@ -25,6 +25,7 @@ const els = {
   translationSource: document.querySelector("#translation-source"),
   ptVerse: document.querySelector("#pt-verse"),
   literalSourcesBody: document.querySelector("#literal-sources-body"),
+  hebrewInterlinearLink: document.querySelector("#hebrew-interlinear-link"),
   hebrewWitnesses: document.querySelector("#hebrew-witnesses"),
   greekWitnesses: document.querySelector("#greek-witnesses"),
   healthInfo: document.querySelector("#health-info"),
@@ -290,6 +291,19 @@ const buildDefaultWitness = ({ sourceText, literalText, transliterationText }) =
   ];
 };
 
+const updateHebrewInterlinearLink = (ref) => {
+  if (!els.hebrewInterlinearLink || !ref) {
+    return;
+  }
+
+  const params = new URLSearchParams({
+    book: String(ref.book || "gen"),
+    chapter: String(ref.chapter || 1),
+    verse: String(ref.verse || 1),
+  });
+  els.hebrewInterlinearLink.href = `interlinear-hebraico-b19a.html?${params.toString()}`;
+};
+
 const renderLanguageWitnesses = ({
   containerEl,
   witnesses,
@@ -378,6 +392,8 @@ const renderVerse = (data) => {
     }
   });
   const witnessVisibility = {};
+
+  updateHebrewInterlinearLink(data.ref);
 
   LANG_ORDER.forEach(({ code, fallbackLabel }) => {
     const fallbackLiteral = literalByLang[code] || "";
