@@ -170,7 +170,48 @@ h1 {
   cursor: pointer;
 }
 
+.lang-switcher {
+  display: flex;
+  gap: 0.4rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
+  padding: 0.2rem;
+}
+
+.lang-switcher a {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0.6rem !important;
+  border: none !important;
+  background: transparent !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink);
+  transition: all 0.2s ease;
+}
+
+.lang-switcher a.active {
+  background: var(--accent) !important;
+  color: #fff !important;
+  border-radius: 999px;
+}
+
+.lang-switcher a.active svg path,
+.lang-switcher a.active svg rect,
+.lang-switcher a.active svg circle {
+  /* Keep flag colors original even when parent is active */
+}
+
+@media (max-width: 640px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
 :root[data-theme="dark"] .theme-toggle,
+:root[data-theme="dark"] .lang-switcher,
 :root[data-theme="dark"] .quick-nav a {
   background: rgba(17, 23, 29, 0.8);
 }

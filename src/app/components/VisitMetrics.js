@@ -14,15 +14,29 @@ export default function VisitMetrics({ lang, t }) {
     async function hitCounter(key) {
       try {
         const res = await fetch(`https://api.counterapi.dev/v1/${namespace}/${key}/up`);
-        if (!res.ok) throw new Error("Request failed");
+        if (!res.ok) {
+          // If up fails, try to just get the current value
+          const res2 = await fetch(`https://api.counterapi.dev/v1/${namespace}/${key}`);
+          if (!res2.ok) return null;
+          const data2 = await res2.json();
+          return data2?.count || 0;
+        }
         const data = await res.json();
         return data && typeof data.count === "number" ? data.count : null;
       } catch (e) {
+        console.error("Counter error:", e);
         return null;
       }
     }
 
-    hitCounter(KEY_TOTAL_VIEWS).then((count) => {
+    // Only count if not on localhost to avoid inflating during dev
+    const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+    
+    const countAction = isLocal 
+      ? fetch(`https://api.counterapi.dev/v1/${namespace}/${KEY_TOTAL_VIEWS}`).then(r => r.json()).then(d => d.count).catch(() => null)
+      : hitCounter(KEY_TOTAL_VIEWS);
+
+    countAction.then((count) => {
       if (count === null) {
         setTotal(unavailable);
       } else {

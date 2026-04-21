@@ -6,6 +6,7 @@ import Link from "next/link";
 import { translations } from "@/app/translations";
 import ReferenceSelector from "./ReferenceSelector";
 import ThemeToggle from "./ThemeToggle";
+import { FlagBR, FlagUS } from "./FlagIcon";
 
 const manuscriptLabels = {
   b19a: "Codex Leningradensis (B19A)",
@@ -137,9 +138,14 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
         <nav className="quick-nav">
           <Link href={`/${lang}/`}>{t.backToIndex}</Link>
           <a href="#tabela-interlinear">{t.detailedTable}</a>
-          <Link href={`/${t.otherLangCode}/`} hreflang={t.otherLangCode}>
-            {t.otherLangName}
-          </Link>
+          <div className="lang-switcher">
+            <Link href="/pt/" className={lang === 'pt' ? 'active' : ''} aria-label="Português">
+              <FlagBR /> <span className="desktop-only">PT</span>
+            </Link>
+            <Link href="/en/" className={lang === 'en' ? 'active' : ''} aria-label="English">
+              <FlagUS /> <span className="desktop-only">EN</span>
+            </Link>
+          </div>
           <ThemeToggle t={t} />
         </nav>
       </header>

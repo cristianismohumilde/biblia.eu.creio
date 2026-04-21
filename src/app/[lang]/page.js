@@ -7,6 +7,7 @@ import ReferenceSelector from "@/app/components/ReferenceSelector";
 import VisitMetrics from "@/app/components/VisitMetrics";
 import WitnessCards from "@/app/components/WitnessCards";
 import ThemeToggle from "@/app/components/ThemeToggle";
+import { FlagBR, FlagUS } from "@/app/components/FlagIcon";
 
 export default function LangHomePage({ params }) {
   const [resolvedParams, setResolvedParams] = useState(null);
@@ -58,9 +59,14 @@ export default function LangHomePage({ params }) {
           <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">
             {t.biblicalLanguages}
           </Link>
-          <Link href={`/${t.otherLangCode}/`} hreflang={t.otherLangCode}>
-            {t.otherLangName}
-          </Link>
+          <div className="lang-switcher">
+            <Link href="/pt/" className={lang === 'pt' ? 'active' : ''} aria-label="Português">
+              <FlagBR /> <span className="desktop-only">PT</span>
+            </Link>
+            <Link href="/en/" className={lang === 'en' ? 'active' : ''} aria-label="English">
+              <FlagUS /> <span className="desktop-only">EN</span>
+            </Link>
+          </div>
           <ThemeToggle t={t} />
         </nav>
       </header>
