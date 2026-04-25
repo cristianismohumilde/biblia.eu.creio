@@ -924,15 +924,15 @@
             "langEn": "Greek",
             "surface": "καιροὺς",
             "transliteration": "kairous",
-            "lemma": "καιροὺς",
-            "strong": "G4052",
-            "morph": "Vocab",
+            "lemma": "καιρός",
+            "strong": "G2540",
+            "morph": "N-AMP",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "years:",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Tempos / Estações",
+            "explanationEn": "Tempos / Estações"
         },
         {
             "id": "gen.1.14.g35",
@@ -959,14 +959,14 @@
             "surface": "εἰς",
             "transliteration": "eis",
             "lemma": "εἰς",
-            "strong": "G3887",
-            "morph": "Vocab",
+            "strong": "G1519",
+            "morph": "Prep",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "-",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Para / Em",
+            "explanationEn": "Para / Em"
         },
         {
             "id": "gen.1.14.g37",
@@ -976,14 +976,14 @@
             "surface": "ἡμέρας",
             "transliteration": "hēmeras",
             "lemma": "ἡμέρας",
-            "strong": "G2250",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "-",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.14.g38",
@@ -1010,14 +1010,14 @@
             "surface": "εἰς",
             "transliteration": "eis",
             "lemma": "εἰς",
-            "strong": "G2530",
-            "morph": "Vocab",
+            "strong": "G1519",
+            "morph": "Prep",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "-",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Para / Em",
+            "explanationEn": "Para / Em"
         },
         {
             "id": "gen.1.14.g40",
@@ -1026,15 +1026,15 @@
             "langEn": "Greek",
             "surface": "ἐνιαυτοὺς",
             "transliteration": "eniautous",
-            "lemma": "ἐνιαυτοὺς",
-            "strong": "G728",
-            "morph": "Vocab",
+            "lemma": "ἐνιαυτός",
+            "strong": "G1763",
+            "morph": "N-AMP",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "-",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Anos",
+            "explanationEn": "Anos"
         },
         {
             "id": "gen.1.14.l1",

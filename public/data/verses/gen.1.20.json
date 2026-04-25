@@ -211,14 +211,14 @@
             "surface": "וְעוֹף",
             "transliteration": "ve'of",
             "lemma": "וְעוֹף",
-            "strong": "H3884",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "répteis",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.20.h9",
@@ -466,14 +466,14 @@
             "surface": "ἑρπετὰ",
             "transliteration": "herpeta",
             "lemma": "ἑρπετὰ",
-            "strong": "G1288",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "répteis",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.20.g9",
@@ -584,15 +584,15 @@
             "langEn": "Greek",
             "surface": "τῆς",
             "transliteration": "tēs",
-            "lemma": "τῆς",
+            "lemma": "ὁ",
             "strong": "G3588",
-            "morph": "Vocab",
+            "morph": "Art-GFS",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "aves",
             "enLiteralWord": "life,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Da",
+            "explanationEn": "Da"
         },
         {
             "id": "gen.1.20.g16",
@@ -670,14 +670,14 @@
             "surface": "τοῦ",
             "transliteration": "tou",
             "lemma": "τοῦ",
-            "strong": "G3787",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "expansão",
             "enLiteralWord": "fly",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.20.g21",
@@ -875,13 +875,13 @@
             "transliteration": "viventis",
             "lemma": "viventis",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "répteis",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.20.l9",
@@ -994,13 +994,13 @@
             "transliteration": "caeli",
             "lemma": "caeli",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "aves",
             "enLiteralWord": "life,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Aves (substantivo plural)",
+            "explanationEn": "Aves (substantivo plural)"
         },
         {
             "id": "gen.1.20.a1",
@@ -1130,13 +1130,13 @@
             "transliteration": "ve'ofa",
             "lemma": "וְעוֹפָא",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "répteis",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.20.a9",
@@ -1249,13 +1249,13 @@
             "transliteration": "dishomaya",
             "lemma": "ܕִשְׁמַיָּא",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "aves",
             "enLiteralWord": "life,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Aves (substantivo plural)",
+            "explanationEn": "Aves (substantivo plural)"
         },
         {
             "id": "gen.1.20.s1",
@@ -1385,13 +1385,13 @@
             "transliteration": "w-prakhta",
             "lemma": "ܘܦܪܚܬܐ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "répteis",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.20.s9",
@@ -1504,13 +1504,13 @@
             "transliteration": "d-shmaya",
             "lemma": "ܕܫܡܝܐ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "aves",
             "enLiteralWord": "life,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Aves (substantivo plural)",
+            "explanationEn": "Aves (substantivo plural)"
         },
         {
             "id": "gen.1.20.g1",
@@ -1640,13 +1640,13 @@
             "transliteration": "wa-za-yəbarər",
             "lemma": "ወዘይበርር",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "répteis",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.20.g9",
@@ -1861,13 +1861,13 @@
             "transliteration": "han-psukhē",
             "lemma": "han-psukhē",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "répteis",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.20.c9",
@@ -1980,13 +1980,13 @@
             "transliteration": "p-kahi",
             "lemma": "p-kahi",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "aves",
             "enLiteralWord": "life,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Aves (substantivo plural)",
+            "explanationEn": "Aves (substantivo plural)"
         },
         {
             "id": "gen.1.20.c16",
@@ -2165,15 +2165,15 @@
             "langEn": "armenian",
             "surface": "կենդանեաց,",
             "transliteration": "kendaneac',",
-            "lemma": "կենդանեաց",
+            "lemma": "կենդանեաց,",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "répteis",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.20.a9",
@@ -2286,13 +2286,13 @@
             "transliteration": "erknic':",
             "lemma": "երկնից։",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "aves",
             "enLiteralWord": "life,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Aves (substantivo plural)",
+            "explanationEn": "Aves (substantivo plural)"
         },
         {
             "id": "gen.1.20.a16",

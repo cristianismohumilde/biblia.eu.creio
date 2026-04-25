@@ -177,14 +177,14 @@
             "surface": "בְּצֶלֶם",
             "transliteration": "betzelem",
             "lemma": "בְּצֶלֶם",
-            "strong": "H5213",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "à",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.h7",
@@ -414,15 +414,15 @@
             "langEn": "Greek",
             "surface": "κατ'",
             "transliteration": "kat",
-            "lemma": "κατ'",
-            "strong": "G3641",
-            "morph": "Vocab",
+            "lemma": "κατά",
+            "strong": "G2596",
+            "morph": "Prep",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "sua",
             "enLiteralWord": "own",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Segundo",
+            "explanationEn": "Segundo"
         },
         {
             "id": "gen.1.27.g8",
@@ -671,13 +671,13 @@
             "transliteration": "imaginem",
             "lemma": "imaginem",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "à",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.l7",
@@ -688,13 +688,13 @@
             "transliteration": "suam",
             "lemma": "suam",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "sua",
             "enLiteralWord": "own",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.l8",
@@ -858,13 +858,13 @@
             "transliteration": "eos",
             "lemma": "eos",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "mulher",
             "enLiteralWord": "male",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.a1",
@@ -960,13 +960,13 @@
             "transliteration": "betzelem",
             "lemma": "בְּצֶלֶם",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "à",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.a7",
@@ -1181,13 +1181,13 @@
             "transliteration": "Alaha",
             "lemma": "ܐܠܗܐ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "à",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.s7",
@@ -1198,13 +1198,13 @@
             "transliteration": "brāyhy",
             "lemma": "ܒܪܝܗܝ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "sua",
             "enLiteralWord": "own",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.s8",
@@ -1368,13 +1368,13 @@
             "transliteration": "faṭarō",
             "lemma": "ፈጠሮ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "à",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.g7",
@@ -1385,13 +1385,13 @@
             "transliteration": "tabā'ta",
             "lemma": "ተባዕተ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "sua",
             "enLiteralWord": "own",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.g8",
@@ -1521,13 +1521,13 @@
             "transliteration": "kata",
             "lemma": "kata",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "à",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.c7",
@@ -1538,13 +1538,13 @@
             "transliteration": "p-hini",
             "lemma": "p-hini",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "sua",
             "enLiteralWord": "own",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.c8",
@@ -1742,13 +1742,13 @@
             "transliteration": "patker",
             "lemma": "պատկեր",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "à",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.a7",
@@ -1757,15 +1757,15 @@
             "langEn": "armenian",
             "surface": "իւր,",
             "transliteration": "iwr,",
-            "lemma": "իւր",
+            "lemma": "իւր,",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "sua",
             "enLiteralWord": "own",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.27.a8",
@@ -1929,13 +1929,13 @@
             "transliteration": "z-nosa:",
             "lemma": "զնոսա։",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "mulher",
             "enLiteralWord": "male",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         }
     ],
     "hebrewWitnesses": [

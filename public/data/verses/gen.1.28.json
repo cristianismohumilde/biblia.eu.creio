@@ -228,14 +228,14 @@
             "surface": "וּמִלְאוּ",
             "transliteration": "umil'u",
             "lemma": "וּמִלְאוּ",
-            "strong": "H508",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "Frutificai",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.h10",
@@ -296,14 +296,14 @@
             "surface": "וּרְדוּ",
             "transliteration": "uredu",
             "lemma": "וּרְדוּ",
-            "strong": "H2831",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "V-Imper-2mp",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "enchei",
             "enLiteralWord": "multiply,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Multiplicai-vos (imperativo)",
+            "explanationEn": "Multiplicai-vos (imperativo)"
         },
         {
             "id": "gen.1.28.h14",
@@ -602,14 +602,14 @@
             "surface": "πληθύνεσθε",
             "transliteration": "plēthynesthe",
             "lemma": "πληθύνεσθε",
-            "strong": "G3732",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "Frutificai",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.g10",
@@ -636,14 +636,14 @@
             "surface": "πληρώσατε",
             "transliteration": "plērōsate",
             "lemma": "πληρώσατε",
-            "strong": "G1230",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "multiplicai-vos,",
             "enLiteralWord": "fruitful,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.g12",
@@ -670,14 +670,14 @@
             "surface": "γῆν",
             "transliteration": "gēn",
             "lemma": "γῆν",
-            "strong": "G465",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "V-Imper-2mp",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "enchei",
             "enLiteralWord": "multiply,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Multiplicai-vos (imperativo)",
+            "explanationEn": "Multiplicai-vos (imperativo)"
         },
         {
             "id": "gen.1.28.g14",
@@ -823,14 +823,14 @@
             "surface": "θαλάσσης",
             "transliteration": "thalassēs",
             "lemma": "θαλάσσης",
-            "strong": "G4761",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-mp",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "peixes",
             "enLiteralWord": "have",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Peixe (substantivo)",
+            "explanationEn": "Peixe (substantivo)"
         },
         {
             "id": "gen.1.28.g23",
@@ -1179,15 +1179,15 @@
             "langEn": "Greek",
             "surface": "τῆς",
             "transliteration": "tēs",
-            "lemma": "τῆς",
+            "lemma": "ὁ",
             "strong": "G3588",
-            "morph": "Vocab",
+            "morph": "Art-GFS",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "moveth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Da",
+            "explanationEn": "Da"
         },
         {
             "id": "gen.1.28.g44",
@@ -1196,15 +1196,15 @@
             "langEn": "Greek",
             "surface": "γῆς",
             "transliteration": "gēs",
-            "lemma": "γῆς",
+            "lemma": "γῆ",
             "strong": "G1093",
-            "morph": "Vocab",
+            "morph": "N-GFS",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "upon",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Terra",
+            "explanationEn": "Terra"
         },
         {
             "id": "gen.1.28.l1",
@@ -1266,13 +1266,13 @@
             "transliteration": "et",
             "lemma": "et",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "abençoou,",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Abençoou (verbo, perfeito)",
+            "explanationEn": "Abençoou (verbo, perfeito)"
         },
         {
             "id": "gen.1.28.l5",
@@ -1351,13 +1351,13 @@
             "transliteration": "et",
             "lemma": "et",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "Frutificai",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.l10",
@@ -1385,13 +1385,13 @@
             "transliteration": "terram",
             "lemma": "terram",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "multiplicai-vos,",
             "enLiteralWord": "fruitful,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.l12",
@@ -1419,13 +1419,13 @@
             "transliteration": "subicite",
             "lemma": "subicite",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Imper-2mp",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "enchei",
             "enLiteralWord": "multiply,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Multiplicai-vos (imperativo)",
+            "explanationEn": "Multiplicai-vos (imperativo)"
         },
         {
             "id": "gen.1.28.l14",
@@ -1572,13 +1572,13 @@
             "transliteration": "universis",
             "lemma": "universis",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "peixes",
             "enLiteralWord": "have",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Peixe (substantivo)",
+            "explanationEn": "Peixe (substantivo)"
         },
         {
             "id": "gen.1.28.l23",
@@ -1725,13 +1725,13 @@
             "transliteration": "va'amar",
             "lemma": "וַאֲמַר",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "abençoou,",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Abençoou (verbo, perfeito)",
+            "explanationEn": "Abençoou (verbo, perfeito)"
         },
         {
             "id": "gen.1.28.a5",
@@ -1810,13 +1810,13 @@
             "transliteration": "umelo",
             "lemma": "וּמְלוֹ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "Frutificai",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.a10",
@@ -1844,13 +1844,13 @@
             "transliteration": "ar'a",
             "lemma": "אַרְעָא",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "multiplicai-vos,",
             "enLiteralWord": "fruitful,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.a12",
@@ -1878,13 +1878,13 @@
             "transliteration": "ushlitu",
             "lemma": "וּשְׁלִיטוּ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Imper-2mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "enchei",
             "enLiteralWord": "multiply,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Multiplicai-vos (imperativo)",
+            "explanationEn": "Multiplicai-vos (imperativo)"
         },
         {
             "id": "gen.1.28.a14",
@@ -2031,13 +2031,13 @@
             "transliteration": "ar'a",
             "lemma": "אַרְעָא",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "peixes",
             "enLiteralWord": "have",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Peixe (substantivo)",
+            "explanationEn": "Peixe (substantivo)"
         },
         {
             "id": "gen.1.28.s1",
@@ -2099,13 +2099,13 @@
             "transliteration": "w-emar",
             "lemma": "ܘܐܡܪ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "abençoou,",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Abençoou (verbo, perfeito)",
+            "explanationEn": "Abençoou (verbo, perfeito)"
         },
         {
             "id": "gen.1.28.s5",
@@ -2184,13 +2184,13 @@
             "transliteration": "w-mlu",
             "lemma": "ܘܡܠܘ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "Frutificai",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.s10",
@@ -2218,13 +2218,13 @@
             "transliteration": "w-khbashwh",
             "lemma": "ܘܟܒܫܘܗ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "multiplicai-vos,",
             "enLiteralWord": "fruitful,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.s12",
@@ -2252,13 +2252,13 @@
             "transliteration": "b-nune",
             "lemma": "ܒܢܘܢܐ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Imper-2mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "enchei",
             "enLiteralWord": "multiply,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Multiplicai-vos (imperativo)",
+            "explanationEn": "Multiplicai-vos (imperativo)"
         },
         {
             "id": "gen.1.28.s14",
@@ -2456,13 +2456,13 @@
             "transliteration": "'Egzi'abḥēr",
             "lemma": "እግዚአብሔር",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "abençoou,",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Abençoou (verbo, perfeito)",
+            "explanationEn": "Abençoou (verbo, perfeito)"
         },
         {
             "id": "gen.1.28.g5",
@@ -2541,13 +2541,13 @@
             "transliteration": "wa-kʷannənwā",
             "lemma": "ወኰንንዋ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "Frutificai",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.g10",
@@ -2575,13 +2575,13 @@
             "transliteration": "la-'āśāta",
             "lemma": "ለዓሣተ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "multiplicai-vos,",
             "enLiteralWord": "fruitful,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.g12",
@@ -2609,13 +2609,13 @@
             "transliteration": "wa-la-'a'wāfa",
             "lemma": "ወለአዕዋፈ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Imper-2mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "enchei",
             "enLiteralWord": "multiply,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Multiplicai-vos (imperativo)",
+            "explanationEn": "Multiplicai-vos (imperativo)"
         },
         {
             "id": "gen.1.28.g14",
@@ -2779,13 +2779,13 @@
             "transliteration": "smou",
             "lemma": "smou",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "abençoou,",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Abençoou (verbo, perfeito)",
+            "explanationEn": "Abençoou (verbo, perfeito)"
         },
         {
             "id": "gen.1.28.c5",
@@ -2864,13 +2864,13 @@
             "transliteration": "ai-ai",
             "lemma": "ai-ai",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "Frutificai",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.c10",
@@ -2898,13 +2898,13 @@
             "transliteration": "ashai",
             "lemma": "ashai",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "multiplicai-vos,",
             "enLiteralWord": "fruitful,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.c12",
@@ -2932,13 +2932,13 @@
             "transliteration": "mah",
             "lemma": "mah",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Imper-2mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "enchei",
             "enLiteralWord": "multiply,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Multiplicai-vos (imperativo)",
+            "explanationEn": "Multiplicai-vos (imperativo)"
         },
         {
             "id": "gen.1.28.c14",
@@ -3085,13 +3085,13 @@
             "transliteration": "n-te",
             "lemma": "n-te",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "peixes",
             "enLiteralWord": "have",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Peixe (substantivo)",
+            "explanationEn": "Peixe (substantivo)"
         },
         {
             "id": "gen.1.28.c23",
@@ -3238,13 +3238,13 @@
             "transliteration": "Astuac",
             "lemma": "Աստուած",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "abençoou,",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Abençoou (verbo, perfeito)",
+            "explanationEn": "Abençoou (verbo, perfeito)"
         },
         {
             "id": "gen.1.28.a5",
@@ -3321,15 +3321,15 @@
             "langEn": "armenian",
             "surface": "բազմացարո՛ւք,",
             "transliteration": "bazmac'aruk',",
-            "lemma": "բազմացարո՛ւք",
+            "lemma": "բազմացարո՛ւք,",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "Frutificai",
             "enLiteralWord": "them,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.a10",
@@ -3357,13 +3357,13 @@
             "transliteration": "lc'ēk'",
             "lemma": "լցէք",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "multiplicai-vos,",
             "enLiteralWord": "fruitful,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.28.a12",
@@ -3391,13 +3391,13 @@
             "transliteration": "ew",
             "lemma": "եւ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "V-Imper-2mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "enchei",
             "enLiteralWord": "multiply,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Multiplicai-vos (imperativo)",
+            "explanationEn": "Multiplicai-vos (imperativo)"
         },
         {
             "id": "gen.1.28.a14",
@@ -3542,15 +3542,15 @@
             "langEn": "armenian",
             "surface": "երկնից,",
             "transliteration": "erknic',",
-            "lemma": "երկնից",
+            "lemma": "երկնից,",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "peixes",
             "enLiteralWord": "have",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Peixe (substantivo)",
+            "explanationEn": "Peixe (substantivo)"
         },
         {
             "id": "gen.1.28.a23",

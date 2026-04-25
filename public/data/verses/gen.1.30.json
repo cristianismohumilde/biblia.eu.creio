@@ -857,14 +857,14 @@
             "surface": "ζωῆς",
             "transliteration": "zōēs",
             "lemma": "ζωῆς",
-            "strong": "G4507",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-fs",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "alma",
             "enLiteralWord": "there",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Alma (substantivo)",
+            "explanationEn": "Alma (substantivo)"
         },
         {
             "id": "gen.1.30.g26",
@@ -874,14 +874,14 @@
             "surface": "πάντα",
             "transliteration": "panta",
             "lemma": "πάντα",
-            "strong": "G1178",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "vivente,",
             "enLiteralWord": "is",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.30.g27",
@@ -925,14 +925,14 @@
             "surface": "εἰς",
             "transliteration": "eis",
             "lemma": "εἰς",
-            "strong": "G4532",
-            "morph": "Vocab",
+            "strong": "G1519",
+            "morph": "Prep",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "erva",
             "enLiteralWord": "have",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Para / Em",
+            "explanationEn": "Para / Em"
         },
         {
             "id": "gen.1.30.g30",
@@ -993,14 +993,14 @@
             "surface": "οὕτως",
             "transliteration": "houtōs",
             "lemma": "οὕτως",
-            "strong": "G2996",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "mantimento;",
             "enLiteralWord": "herb",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Erva (substantivo)",
+            "explanationEn": "Erva (substantivo)"
         },
         {
             "id": "gen.1.30.l1",
@@ -1419,13 +1419,13 @@
             "transliteration": "factum",
             "lemma": "factum",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "alma",
             "enLiteralWord": "there",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Alma (substantivo)",
+            "explanationEn": "Alma (substantivo)"
         },
         {
             "id": "gen.1.30.l26",
@@ -1436,13 +1436,13 @@
             "transliteration": "est",
             "lemma": "est",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "vivente,",
             "enLiteralWord": "is",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.30.l27",
@@ -2881,13 +2881,13 @@
             "transliteration": "eu-xrēsis",
             "lemma": "eu-xrēsis",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "alma",
             "enLiteralWord": "there",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Alma (substantivo)",
+            "explanationEn": "Alma (substantivo)"
         },
         {
             "id": "gen.1.30.c26",
@@ -2898,13 +2898,13 @@
             "transliteration": "uoh",
             "lemma": "uoh",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "vivente,",
             "enLiteralWord": "is",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.30.c27",
@@ -3357,13 +3357,13 @@
             "transliteration": "kerakur:",
             "lemma": "կերակուր։",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "alma",
             "enLiteralWord": "there",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Alma (substantivo)",
+            "explanationEn": "Alma (substantivo)"
         },
         {
             "id": "gen.1.30.a26",
@@ -3374,13 +3374,13 @@
             "transliteration": "Ew",
             "lemma": "Եւ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "vivente,",
             "enLiteralWord": "is",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.30.a27",

@@ -823,14 +823,14 @@
             "surface": "νυκτός",
             "transliteration": "nyktos",
             "lemma": "νυκτός",
-            "strong": "G737",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-cp",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "estrelas.",
             "enLiteralWord": "also.",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Estrelas (substantivo plural)",
+            "explanationEn": "Estrelas (substantivo plural)"
         },
         {
             "id": "gen.1.16.g27",
@@ -856,15 +856,15 @@
             "langEn": "Greek",
             "surface": "τοὺς",
             "transliteration": "tous",
-            "lemma": "τοὺς",
-            "strong": "G2564",
-            "morph": "Vocab",
+            "lemma": "ὁ",
+            "strong": "G3588",
+            "morph": "Art-AMP",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "-",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Os",
+            "explanationEn": "Os"
         },
         {
             "id": "gen.1.16.g29",
@@ -874,14 +874,14 @@
             "surface": "ἀστέρας",
             "transliteration": "asteras",
             "lemma": "ἀστέρας",
-            "strong": "G108",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "-",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.16.l1",

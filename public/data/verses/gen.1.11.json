@@ -364,14 +364,14 @@
             "surface": "עַל",
             "transliteration": "al",
             "lemma": "עַל",
-            "strong": "H1271",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "fruto",
             "enLiteralWord": "tree",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Árvore (substantivo)",
+            "explanationEn": "Árvore (substantivo)"
         },
         {
             "id": "gen.1.11.h18",
@@ -415,14 +415,14 @@
             "surface": "כֵן",
             "transliteration": "chen",
             "lemma": "כֵן",
-            "strong": "H7693",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "sua",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.g1",
@@ -551,14 +551,14 @@
             "surface": "βοτάνην",
             "transliteration": "botanēn",
             "lemma": "βοτάνην",
-            "strong": "G670",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "ervas",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.g9",
@@ -636,14 +636,14 @@
             "surface": "γένος",
             "transliteration": "genos",
             "lemma": "γένος",
-            "strong": "G317",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "árvores",
             "enLiteralWord": "seed,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Semente (substantivo)",
+            "explanationEn": "Semente (substantivo)"
         },
         {
             "id": "gen.1.11.g14",
@@ -755,14 +755,14 @@
             "surface": "ποιοῦν",
             "transliteration": "poioun",
             "lemma": "ποιοῦν",
-            "strong": "G1624",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "sua",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.g21",
@@ -772,14 +772,14 @@
             "surface": "καρπόν",
             "transliteration": "karpon",
             "lemma": "καρπόν",
-            "strong": "G3143",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "espécie,",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.g22",
@@ -823,14 +823,14 @@
             "surface": "σπέρμα",
             "transliteration": "sperma",
             "lemma": "σπέρμα",
-            "strong": "G3698",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "esteja",
             "enLiteralWord": "seed",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Semente (substantivo)",
+            "explanationEn": "Semente (substantivo)"
         },
         {
             "id": "gen.1.11.g25",
@@ -840,14 +840,14 @@
             "surface": "αὐτοῦ",
             "transliteration": "autou",
             "lemma": "αὐτοῦ",
-            "strong": "G4169",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "nelas",
             "enLiteralWord": "is",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.g26",
@@ -958,15 +958,15 @@
             "langEn": "Greek",
             "surface": "γῆς",
             "transliteration": "gēs",
-            "lemma": "γῆς",
+            "lemma": "γῆ",
             "strong": "G1093",
-            "morph": "Vocab",
+            "morph": "N-GFS",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "it",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Terra",
+            "explanationEn": "Terra"
         },
         {
             "id": "gen.1.11.g33",
@@ -993,14 +993,14 @@
             "surface": "ἐγένετο",
             "transliteration": "egeneto",
             "lemma": "ἐγένετο",
-            "strong": "G282",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "so.",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.g35",
@@ -1010,14 +1010,14 @@
             "surface": "οὕτως",
             "transliteration": "houtōs",
             "lemma": "οὕτως",
-            "strong": "G470",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "-",
             "enLiteralWord": "-",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.l1",
@@ -1147,13 +1147,13 @@
             "transliteration": "facientem",
             "lemma": "facientem",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "ervas",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.l9",
@@ -1232,13 +1232,13 @@
             "transliteration": "faciens",
             "lemma": "faciens",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "árvores",
             "enLiteralWord": "seed,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Semente (substantivo)",
+            "explanationEn": "Semente (substantivo)"
         },
         {
             "id": "gen.1.11.l14",
@@ -1300,13 +1300,13 @@
             "transliteration": "suum",
             "lemma": "suum",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "fruto",
             "enLiteralWord": "tree",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Árvore (substantivo)",
+            "explanationEn": "Árvore (substantivo)"
         },
         {
             "id": "gen.1.11.l18",
@@ -1351,13 +1351,13 @@
             "transliteration": "in",
             "lemma": "in",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "sua",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.l21",
@@ -1368,13 +1368,13 @@
             "transliteration": "semet",
             "lemma": "semet",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "espécie,",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.l22",
@@ -1419,13 +1419,13 @@
             "transliteration": "super",
             "lemma": "super",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "esteja",
             "enLiteralWord": "seed",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Semente (substantivo)",
+            "explanationEn": "Semente (substantivo)"
         },
         {
             "id": "gen.1.11.l25",
@@ -1436,13 +1436,13 @@
             "transliteration": "terram",
             "lemma": "terram",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "nelas",
             "enLiteralWord": "is",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.l26",
@@ -1640,13 +1640,13 @@
             "transliteration": "zar'eih",
             "lemma": "זַרְעֵיהּ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "ervas",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.a9",
@@ -1725,13 +1725,13 @@
             "transliteration": "peirin",
             "lemma": "פֵּירִין",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "árvores",
             "enLiteralWord": "seed,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Semente (substantivo)",
+            "explanationEn": "Semente (substantivo)"
         },
         {
             "id": "gen.1.11.a14",
@@ -1793,13 +1793,13 @@
             "transliteration": "beih",
             "lemma": "בֵּיהּ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "fruto",
             "enLiteralWord": "tree",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Árvore (substantivo)",
+            "explanationEn": "Árvore (substantivo)"
         },
         {
             "id": "gen.1.11.a18",
@@ -1844,13 +1844,13 @@
             "transliteration": "vahavah",
             "lemma": "וַהֲוָה",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "sua",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.a21",
@@ -1861,13 +1861,13 @@
             "transliteration": "chen",
             "lemma": "כֵן",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "espécie,",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.s1",
@@ -1997,13 +1997,13 @@
             "transliteration": "zar'a",
             "lemma": "ܙܪܥܐ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "ervas",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.s9",
@@ -2082,13 +2082,13 @@
             "transliteration": "pera",
             "lemma": "ܦܐܪܐ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "árvores",
             "enLiteralWord": "seed,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Semente (substantivo)",
+            "explanationEn": "Semente (substantivo)"
         },
         {
             "id": "gen.1.11.s14",
@@ -2150,13 +2150,13 @@
             "transliteration": "'al",
             "lemma": "ܥܠ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "fruto",
             "enLiteralWord": "tree",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Árvore (substantivo)",
+            "explanationEn": "Árvore (substantivo)"
         },
         {
             "id": "gen.1.11.s18",
@@ -2201,13 +2201,13 @@
             "transliteration": "hakana",
             "lemma": "ܗܟܢܐ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "sua",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.g1",
@@ -2337,13 +2337,13 @@
             "transliteration": "zar'a",
             "lemma": "ዘርአ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "ervas",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.g9",
@@ -2422,13 +2422,13 @@
             "transliteration": "fərē",
             "lemma": "ፍሬ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "árvores",
             "enLiteralWord": "seed,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Semente (substantivo)",
+            "explanationEn": "Semente (substantivo)"
         },
         {
             "id": "gen.1.11.g14",
@@ -2592,13 +2592,13 @@
             "transliteration": "n-ou-sim",
             "lemma": "n-ou-sim",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "ervas",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.c9",
@@ -2677,13 +2677,13 @@
             "transliteration": "uoh",
             "lemma": "uoh",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "árvores",
             "enLiteralWord": "seed,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Semente (substantivo)",
+            "explanationEn": "Semente (substantivo)"
         },
         {
             "id": "gen.1.11.c14",
@@ -2864,13 +2864,13 @@
             "transliteration": "sermanołi",
             "lemma": "սերմանողի",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "ervas",
             "enLiteralWord": "forth",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.11.a9",
@@ -2949,13 +2949,13 @@
             "transliteration": "z-caṙ",
             "lemma": "զծառ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "árvores",
             "enLiteralWord": "seed,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Semente (substantivo)",
+            "explanationEn": "Semente (substantivo)"
         },
         {
             "id": "gen.1.11.a14",

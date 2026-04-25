@@ -194,14 +194,14 @@
             "surface": "וְיִרְדּוּ",
             "transliteration": "veyirdu",
             "lemma": "וְיִרְדּוּ",
-            "strong": "H501",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "à",
             "enLiteralWord": "man",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Homem (substantivo)",
+            "explanationEn": "Homem (substantivo)"
         },
         {
             "id": "gen.1.26.h8",
@@ -245,14 +245,14 @@
             "surface": "וּבְעוֹף",
             "transliteration": "uve'of",
             "lemma": "וּבְעוֹף",
-            "strong": "H6267",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-fs",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "image,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Imagem (substantivo)",
+            "explanationEn": "Imagem (substantivo)"
         },
         {
             "id": "gen.1.26.h11",
@@ -516,15 +516,15 @@
             "langEn": "Greek",
             "surface": "κατ'",
             "transliteration": "kat",
-            "lemma": "κατ'",
-            "strong": "G2490",
-            "morph": "Vocab",
+            "lemma": "κατά",
+            "strong": "G2596",
+            "morph": "Prep",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "à",
             "enLiteralWord": "man",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Segundo",
+            "explanationEn": "Segundo"
         },
         {
             "id": "gen.1.26.g8",
@@ -1181,13 +1181,13 @@
             "transliteration": "et",
             "lemma": "et",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "à",
             "enLiteralWord": "man",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Homem (substantivo)",
+            "explanationEn": "Homem (substantivo)"
         },
         {
             "id": "gen.1.26.l8",
@@ -1232,13 +1232,13 @@
             "transliteration": "et",
             "lemma": "et",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "image,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Imagem (substantivo)",
+            "explanationEn": "Imagem (substantivo)"
         },
         {
             "id": "gen.1.26.l11",
@@ -1623,13 +1623,13 @@
             "transliteration": "veyishletun",
             "lemma": "וְיִשְׁלְטוּן",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "à",
             "enLiteralWord": "man",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Homem (substantivo)",
+            "explanationEn": "Homem (substantivo)"
         },
         {
             "id": "gen.1.26.a8",
@@ -1674,13 +1674,13 @@
             "transliteration": "uve'ofa",
             "lemma": "וּבְעוֹפָא",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "image,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Imagem (substantivo)",
+            "explanationEn": "Imagem (substantivo)"
         },
         {
             "id": "gen.1.26.a11",
@@ -1946,13 +1946,13 @@
             "transliteration": "dmuthan",
             "lemma": "ܕܡܘܬܢ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "à",
             "enLiteralWord": "man",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Homem (substantivo)",
+            "explanationEn": "Homem (substantivo)"
         },
         {
             "id": "gen.1.26.s8",
@@ -1997,13 +1997,13 @@
             "transliteration": "d-yama",
             "lemma": "ܕܝܡܐ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "image,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Imagem (substantivo)",
+            "explanationEn": "Imagem (substantivo)"
         },
         {
             "id": "gen.1.26.s11",
@@ -2286,13 +2286,13 @@
             "transliteration": "wa-yəkʷannənwōmu",
             "lemma": "ወይኰንንዎሙ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "à",
             "enLiteralWord": "man",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Homem (substantivo)",
+            "explanationEn": "Homem (substantivo)"
         },
         {
             "id": "gen.1.26.g8",
@@ -2337,13 +2337,13 @@
             "transliteration": "wa-la-'a'wāfa",
             "lemma": "ወለአዕዋፈ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "image,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Imagem (substantivo)",
+            "explanationEn": "Imagem (substantivo)"
         },
         {
             "id": "gen.1.26.g11",
@@ -2592,13 +2592,13 @@
             "transliteration": "kata",
             "lemma": "kata",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "à",
             "enLiteralWord": "man",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Homem (substantivo)",
+            "explanationEn": "Homem (substantivo)"
         },
         {
             "id": "gen.1.26.c8",
@@ -2643,13 +2643,13 @@
             "transliteration": "kata",
             "lemma": "kata",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "image,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Imagem (substantivo)",
+            "explanationEn": "Imagem (substantivo)"
         },
         {
             "id": "gen.1.26.c11",
@@ -3034,13 +3034,13 @@
             "transliteration": "patkeri",
             "lemma": "պատկերի",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "à",
             "enLiteralWord": "man",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Homem (substantivo)",
+            "explanationEn": "Homem (substantivo)"
         },
         {
             "id": "gen.1.26.a8",
@@ -3085,13 +3085,13 @@
             "transliteration": "əst",
             "lemma": "ըստ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "image,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Imagem (substantivo)",
+            "explanationEn": "Imagem (substantivo)"
         },
         {
             "id": "gen.1.26.a11",

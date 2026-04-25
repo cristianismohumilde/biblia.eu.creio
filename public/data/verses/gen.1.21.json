@@ -279,14 +279,14 @@
             "surface": "שָׁרְצוּ",
             "transliteration": "shartzu",
             "lemma": "שָׁרְצוּ",
-            "strong": "H6841",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-fs",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "alma",
             "enLiteralWord": "which",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Alma (substantivo)",
+            "explanationEn": "Alma (substantivo)"
         },
         {
             "id": "gen.1.21.h13",
@@ -381,14 +381,14 @@
             "surface": "כָּנָף",
             "transliteration": "kanaf",
             "lemma": "כָּנָף",
-            "strong": "H5049",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "produziram",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.h19",
@@ -669,15 +669,15 @@
             "langEn": "Greek",
             "surface": "ζῴων",
             "transliteration": "zōōn",
-            "lemma": "ζῴων",
-            "strong": "G2694",
-            "morph": "Vocab",
+            "lemma": "ζῷον",
+            "strong": "G2226",
+            "morph": "N-GNP",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "alma",
             "enLiteralWord": "which",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Seres vivos",
+            "explanationEn": "Seres vivos"
         },
         {
             "id": "gen.1.21.g13",
@@ -772,14 +772,14 @@
             "surface": "κατὰ",
             "transliteration": "kata",
             "lemma": "κατὰ",
-            "strong": "G4249",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "produziram",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.g19",
@@ -789,14 +789,14 @@
             "surface": "γένη",
             "transliteration": "genē",
             "lemma": "γένη",
-            "strong": "G4367",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "their",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.g20",
@@ -839,15 +839,15 @@
             "langEn": "Greek",
             "surface": "πᾶν",
             "transliteration": "pan",
-            "lemma": "πᾶν",
-            "strong": "G3446",
-            "morph": "Vocab",
+            "lemma": "πᾶς",
+            "strong": "G3956",
+            "morph": "Adj-ANS",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "espécies;",
             "enLiteralWord": "every",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Todo",
+            "explanationEn": "Todo"
         },
         {
             "id": "gen.1.21.g23",
@@ -908,14 +908,14 @@
             "surface": "γένος",
             "transliteration": "genos",
             "lemma": "γένος",
-            "strong": "G3782",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "ave",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.g27",
@@ -1010,14 +1010,14 @@
             "surface": "καλά",
             "transliteration": "kala",
             "lemma": "καλά",
-            "strong": "G5092",
-            "morph": "Vocab",
+            "strong": "-",
+            "morph": "N-ms",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "espécie;",
             "enLiteralWord": "it",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.l1",
@@ -1215,13 +1215,13 @@
             "transliteration": "produxerant",
             "lemma": "produxerant",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "alma",
             "enLiteralWord": "which",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Alma (substantivo)",
+            "explanationEn": "Alma (substantivo)"
         },
         {
             "id": "gen.1.21.l13",
@@ -1317,13 +1317,13 @@
             "transliteration": "omne",
             "lemma": "omne",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "produziram",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.l19",
@@ -1334,13 +1334,13 @@
             "transliteration": "volatile",
             "lemma": "volatile",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "their",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.l20",
@@ -1385,13 +1385,13 @@
             "transliteration": "suum",
             "lemma": "suum",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "espécies;",
             "enLiteralWord": "every",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.l23",
@@ -1453,13 +1453,13 @@
             "transliteration": "quod",
             "lemma": "quod",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "ave",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.l27",
@@ -1691,13 +1691,13 @@
             "transliteration": "maya",
             "lemma": "מַיָּא",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "alma",
             "enLiteralWord": "which",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Alma (substantivo)",
+            "explanationEn": "Alma (substantivo)"
         },
         {
             "id": "gen.1.21.a13",
@@ -1793,13 +1793,13 @@
             "transliteration": "lizneih",
             "lemma": "לִזְנֵיהּ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "produziram",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.a19",
@@ -1810,13 +1810,13 @@
             "transliteration": "vachaza",
             "lemma": "וַחֲזָא",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "their",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.a20",
@@ -1861,13 +1861,13 @@
             "transliteration": "tav",
             "lemma": "טָב",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "espécies;",
             "enLiteralWord": "every",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.s1",
@@ -2065,13 +2065,13 @@
             "transliteration": "w-khol",
             "lemma": "ܘܟܠ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "alma",
             "enLiteralWord": "which",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Alma (substantivo)",
+            "explanationEn": "Alma (substantivo)"
         },
         {
             "id": "gen.1.21.s13",
@@ -2167,13 +2167,13 @@
             "transliteration": "d-shappir",
             "lemma": "ܕܫܦܝܪ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "produziram",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.g1",
@@ -2371,13 +2371,13 @@
             "transliteration": "wa-kʷəlo",
             "lemma": "ወኵሎ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "alma",
             "enLiteralWord": "which",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Alma (substantivo)",
+            "explanationEn": "Alma (substantivo)"
         },
         {
             "id": "gen.1.21.g13",
@@ -2473,13 +2473,13 @@
             "transliteration": "śannāy",
             "lemma": "ሠናይ",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "produziram",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.c1",
@@ -2677,13 +2677,13 @@
             "transliteration": "e-ta",
             "lemma": "e-ta",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "alma",
             "enLiteralWord": "which",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Alma (substantivo)",
+            "explanationEn": "Alma (substantivo)"
         },
         {
             "id": "gen.1.21.c13",
@@ -2779,13 +2779,13 @@
             "transliteration": "uoh",
             "lemma": "uoh",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "produziram",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.c19",
@@ -2796,13 +2796,13 @@
             "transliteration": "halati",
             "lemma": "halati",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "their",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.c20",
@@ -2847,13 +2847,13 @@
             "transliteration": "kata",
             "lemma": "kata",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "espécies;",
             "enLiteralWord": "every",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.c23",
@@ -2915,13 +2915,13 @@
             "transliteration": "phnuti",
             "lemma": "phnuti",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "ave",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.c27",
@@ -3170,13 +3170,13 @@
             "transliteration": "hanin",
             "lemma": "հանին",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "alma",
             "enLiteralWord": "which",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Alma (substantivo)",
+            "explanationEn": "Alma (substantivo)"
         },
         {
             "id": "gen.1.21.a13",
@@ -3272,13 +3272,13 @@
             "transliteration": "z-amenayn",
             "lemma": "զամենայն",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "produziram",
             "enLiteralWord": "after",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.a19",
@@ -3289,13 +3289,13 @@
             "transliteration": "t'ṙč'uns",
             "lemma": "թռչունս",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "conforme",
             "enLiteralWord": "their",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.a20",
@@ -3340,13 +3340,13 @@
             "transliteration": "azgi",
             "lemma": "ազգի",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "espécies;",
             "enLiteralWord": "every",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.a23",
@@ -3408,13 +3408,13 @@
             "transliteration": "Astuac",
             "lemma": "Աստուած",
             "strong": "-",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Manuscrito Base",
             "manuscriptEn": "Base Manuscript",
             "ptLiteralWord": "ave",
             "enLiteralWord": "his",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "explanation": "Palavra identificada no texto base",
+            "explanationEn": "Palavra identificada no texto base"
         },
         {
             "id": "gen.1.21.a27",
