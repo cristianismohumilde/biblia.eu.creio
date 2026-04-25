@@ -29,7 +29,7 @@ export default async function LangLayout({ children, params }) {
           </a>
         </p>
         <p>
-          {t.licenses} | <Link href={`/${lang}/fontes`}>{t.sources}</Link>
+          {t.licenses} | <Link href={`/${lang}/fontes`}>{t.sources}</Link> | <Link href={`/${lang}/#apoie`} style={{ color: '#ef4444', fontWeight: 'bold' }}>❤️ {t.support}</Link>
         </p>
         <HealthInfo />
       </footer>

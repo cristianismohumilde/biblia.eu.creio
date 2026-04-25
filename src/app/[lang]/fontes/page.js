@@ -95,7 +95,6 @@ export default async function FontesPage({ params }) {
         <nav className="quick-nav">
           <Link href={`/${lang}/`}>{t.back}</Link>
           <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">{t.biblicalLanguages}</Link>
-          <Link href={`/${lang}/#apoie`} style={{ color: '#ef4444', fontWeight: 'bold' }}>❤️ {t.support}</Link>
           <LanguageSwitcher lang={lang} />
           <ThemeToggle t={t} />
         </nav>
