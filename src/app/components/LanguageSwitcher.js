@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, Suspense } from "react";
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { FlagBR, FlagUS } from "./FlagIcon";
@@ -21,7 +21,7 @@ function buildLangHref(pathname, search, hash, targetLang) {
   return `${path}${query}${hash}`;
 }
 
-export default function LanguageSwitcher({ lang }) {
+function LanguageSwitcherContent({ lang }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [currentPathname, setCurrentPathname] = useState(pathname || "/");
@@ -66,5 +66,13 @@ export default function LanguageSwitcher({ lang }) {
         <FlagUS /> <span className="desktop-only">EN</span>
       </Link>
     </div>
+  );
+}
+
+export default function LanguageSwitcher({ lang }) {
+  return (
+    <Suspense fallback={<div className="lang-switcher" />}>
+      <LanguageSwitcherContent lang={lang} />
+    </Suspense>
   );
 }
