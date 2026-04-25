@@ -131,7 +131,7 @@ function inferGrammarFromLiteral(ptWord, enWord, surface) {
     return { morph, exp, strong, lemma };
 }
 
-for (let i = 1; i <= 10; i++) {
+for (let i = 1; i <= 31; i++) {
     const filename = `gen.1.${i}.json`;
     const filePath = path.join(versesDir, filename);
     
