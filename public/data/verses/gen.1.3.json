@@ -1,16 +1,43 @@
 {
     "schemaVersion": "1.1.0",
-    "ref": { "book": "gen", "chapter": 1, "verse": 3 },
     "translation": {
         "author": "Equipe Biblia.Creio.EU",
         "authorEn": "Biblia.Creio.EU Team",
         "baseText": "Codex Leningradensis / LXX / Vulgata",
         "baseTextEn": "Codex Leningradensis / LXX / Vulgate"
     },
+    "manuscripts": {
+        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "aramaic": "Aramaico: Targum Onkelos (TO)",
+        "aramaicEn": "Aramaic: Targum Onkelos (TO)",
+        "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
+        "greekEn": "Greek: Septuagint (LXX) and Byzantine tradition (Byz/RP) (comparison)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "geez": "Ge'ez: tradição etíope clássica",
+        "geezEn": "Ge'ez: classical Ethiopic tradition",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses",
+        "armenian": "Armênio: versão armênia antiga",
+        "armenianEn": "Armenian: ancient Armenian version"
+    },
+    "ref": {
+        "book": "gen",
+        "chapter": 1,
+        "verse": 3
+    },
     "sourceTexts": {
         "hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי אוֹר",
+        "aramaic": "וַאֲמַר יְיָ יְהֵי נְהוֹרָא וַהֲוָה נְהוֹרָא",
         "greek": "καὶ εἶπεν ὁ θεός Γενηθήτω φῶς καὶ ἐγένετο φῶς",
-        "latin": "Dixitque Deus fiat lux et facta est lux"
+        "latin": "Dixitque Deus fiat lux et facta est lux",
+        "geez": "ወይቤ እግዚአብሔር ለይኩን ብርሃን ወኮነ ብርሃን",
+        "syriac": "ܘܐܡܪ ܐܠܗܐ ܢܗܘܐ ܢܘܗܪܐ ܘܗܘܐ ܢܘܗܪܐ",
+        "coptic": "peje phnuti je mare u-ōini shōpi uoh a u-ōini shōpi",
+        "armenian": "Եւ ասաց Աստուած. Եղիցի լոյս, եւ եղեւ լոյս։"
     },
     "hebrewWitnesses": [
         {
@@ -54,20 +81,272 @@
     "ptLiteralVerse": "E disse Deus: 'Haja luz'; e houve luz.",
     "enLiteralVerse": "And God said, 'Let there be light'; and there was light.",
     "tokens": [
-        { "id": "gen.1.3.h1", "lang": "hebrew", "surface": "וַיֹּאמֶר", "transliteration": "vayomer", "lemma": "אָמַר", "strong": "H559", "morph": "Conj + Verbo", "ptLiteralWord": "e disse", "enLiteralWord": "and said" },
-        { "id": "gen.1.3.h2", "lang": "hebrew", "surface": "אֱלֹהִים", "transliteration": "Elohim", "lemma": "אֱלֹהִים", "strong": "H430", "morph": "Subst", "ptLiteralWord": "Deus", "enLiteralWord": "God" },
-        { "id": "gen.1.3.h3", "lang": "hebrew", "surface": "יְהִי", "transliteration": "yehi", "lemma": "הָיָה", "strong": "H1961", "morph": "Verbo", "ptLiteralWord": "haja", "enLiteralWord": "let there be" },
-        { "id": "gen.1.3.h4", "lang": "hebrew", "surface": "אוֹר", "transliteration": "or", "lemma": "אוֹר", "strong": "H216", "morph": "Subst", "ptLiteralWord": "luz", "enLiteralWord": "light" },
-        { "id": "gen.1.3.h5", "lang": "hebrew", "surface": "וַיְהִי", "transliteration": "vayehi", "lemma": "הָיָה", "strong": "H1961", "morph": "Conj + Verbo", "ptLiteralWord": "e houve", "enLiteralWord": "and there was" },
-        { "id": "gen.1.3.h6", "lang": "hebrew", "surface": "אוֹר", "transliteration": "or", "lemma": "אוֹר", "strong": "H216", "morph": "Subst", "ptLiteralWord": "luz", "enLiteralWord": "light" },
-        { "id": "gen.1.3.g1", "lang": "greek", "surface": "καὶ", "transliteration": "kai", "lemma": "καί", "strong": "G2532", "morph": "Conj", "ptLiteralWord": "e", "enLiteralWord": "and" },
-        { "id": "gen.1.3.g2", "lang": "greek", "surface": "εἶπεν", "transliteration": "eipen", "lemma": "εἶπον", "strong": "G2036", "morph": "Verbo", "ptLiteralWord": "disse", "enLiteralWord": "said" },
-        { "id": "gen.1.3.g3", "lang": "greek", "surface": "ὁ", "transliteration": "ho", "lemma": "ὁ", "strong": "G3588", "morph": "Artigo", "ptLiteralWord": "o", "enLiteralWord": "the" },
-        { "id": "gen.1.3.g4", "lang": "greek", "surface": "θεός", "transliteration": "theos", "lemma": "θεός", "strong": "G2316", "morph": "Subst", "ptLiteralWord": "Deus", "enLiteralWord": "God" },
-        { "id": "gen.1.3.g5", "lang": "greek", "surface": "Γενηθήτω", "transliteration": "Genethetō", "lemma": "γίνομαι", "strong": "G1096", "morph": "Verbo", "ptLiteralWord": "seja feito / haja", "enLiteralWord": "let there be" },
-        { "id": "gen.1.3.g6", "lang": "greek", "surface": "φῶς", "transliteration": "phos", "lemma": "φῶς", "strong": "G5457", "morph": "Subst", "ptLiteralWord": "luz", "enLiteralWord": "light" },
-        { "id": "gen.1.3.g7", "lang": "greek", "surface": "καὶ", "transliteration": "kai", "lemma": "καί", "strong": "G2532", "morph": "Conj", "ptLiteralWord": "e", "enLiteralWord": "and" },
-        { "id": "gen.1.3.g8", "lang": "greek", "surface": "ἐγένετο", "transliteration": "egeneto", "lemma": "γίνομαι", "strong": "G1096", "morph": "Verbo", "ptLiteralWord": "foi feito / houve", "enLiteralWord": "there was" },
-        { "id": "gen.1.3.g9", "lang": "greek", "surface": "φῶς", "transliteration": "phos", "lemma": "φῶς", "strong": "G5457", "morph": "Subst", "ptLiteralWord": "luz", "enLiteralWord": "light" }
+        {
+            "id": "gen.1.3.h1",
+            "lang": "hebrew",
+            "surface": "וַיֹּאמֶר",
+            "transliteration": "vayomer",
+            "lemma": "אָמַר",
+            "strong": "H559",
+            "morph": "Conj + Verbo",
+            "ptLiteralWord": "e disse",
+            "enLiteralWord": "and said"
+        },
+        {
+            "id": "gen.1.3.h2",
+            "lang": "hebrew",
+            "surface": "אֱלֹהִים",
+            "transliteration": "Elohim",
+            "lemma": "אֱלֹהִים",
+            "strong": "H430",
+            "morph": "Subst",
+            "ptLiteralWord": "Deus",
+            "enLiteralWord": "God"
+        },
+        {
+            "id": "gen.1.3.h3",
+            "lang": "hebrew",
+            "surface": "יְהִי",
+            "transliteration": "yehi",
+            "lemma": "הָיָה",
+            "strong": "H1961",
+            "morph": "Verbo",
+            "ptLiteralWord": "haja",
+            "enLiteralWord": "let there be"
+        },
+        {
+            "id": "gen.1.3.h4",
+            "lang": "hebrew",
+            "surface": "אוֹר",
+            "transliteration": "or",
+            "lemma": "אוֹר",
+            "strong": "H216",
+            "morph": "Subst",
+            "ptLiteralWord": "luz",
+            "enLiteralWord": "light"
+        },
+        {
+            "id": "gen.1.3.h5",
+            "lang": "hebrew",
+            "surface": "וַיְהִי",
+            "transliteration": "vayehi",
+            "lemma": "הָיָה",
+            "strong": "H1961",
+            "morph": "Conj + Verbo",
+            "ptLiteralWord": "e houve",
+            "enLiteralWord": "and there was"
+        },
+        {
+            "id": "gen.1.3.h6",
+            "lang": "hebrew",
+            "surface": "אוֹר",
+            "transliteration": "or",
+            "lemma": "אוֹר",
+            "strong": "H216",
+            "morph": "Subst",
+            "ptLiteralWord": "luz",
+            "enLiteralWord": "light"
+        },
+        {
+            "id": "gen.1.3.g1",
+            "lang": "greek",
+            "surface": "καὶ",
+            "transliteration": "kai",
+            "lemma": "καί",
+            "strong": "G2532",
+            "morph": "Conj",
+            "ptLiteralWord": "e",
+            "enLiteralWord": "and"
+        },
+        {
+            "id": "gen.1.3.g2",
+            "lang": "greek",
+            "surface": "εἶπεν",
+            "transliteration": "eipen",
+            "lemma": "εἶπον",
+            "strong": "G2036",
+            "morph": "Verbo",
+            "ptLiteralWord": "disse",
+            "enLiteralWord": "said"
+        },
+        {
+            "id": "gen.1.3.g3",
+            "lang": "greek",
+            "surface": "ὁ",
+            "transliteration": "ho",
+            "lemma": "ὁ",
+            "strong": "G3588",
+            "morph": "Artigo",
+            "ptLiteralWord": "o",
+            "enLiteralWord": "the"
+        },
+        {
+            "id": "gen.1.3.g4",
+            "lang": "greek",
+            "surface": "θεός",
+            "transliteration": "theos",
+            "lemma": "θεός",
+            "strong": "G2316",
+            "morph": "Subst",
+            "ptLiteralWord": "Deus",
+            "enLiteralWord": "God"
+        },
+        {
+            "id": "gen.1.3.g5",
+            "lang": "greek",
+            "surface": "Γενηθήτω",
+            "transliteration": "Genethetō",
+            "lemma": "γίνομαι",
+            "strong": "G1096",
+            "morph": "Verbo",
+            "ptLiteralWord": "seja feito / haja",
+            "enLiteralWord": "let there be"
+        },
+        {
+            "id": "gen.1.3.g6",
+            "lang": "greek",
+            "surface": "φῶς",
+            "transliteration": "phos",
+            "lemma": "φῶς",
+            "strong": "G5457",
+            "morph": "Subst",
+            "ptLiteralWord": "luz",
+            "enLiteralWord": "light"
+        },
+        {
+            "id": "gen.1.3.g7",
+            "lang": "greek",
+            "surface": "καὶ",
+            "transliteration": "kai",
+            "lemma": "καί",
+            "strong": "G2532",
+            "morph": "Conj",
+            "ptLiteralWord": "e",
+            "enLiteralWord": "and"
+        },
+        {
+            "id": "gen.1.3.g8",
+            "lang": "greek",
+            "surface": "ἐγένετο",
+            "transliteration": "egeneto",
+            "lemma": "γίνομαι",
+            "strong": "G1096",
+            "morph": "Verbo",
+            "ptLiteralWord": "foi feito / houve",
+            "enLiteralWord": "there was"
+        },
+        {
+            "id": "gen.1.3.g9",
+            "lang": "greek",
+            "surface": "φῶς",
+            "transliteration": "phos",
+            "lemma": "φῶς",
+            "strong": "G5457",
+            "morph": "Subst",
+            "ptLiteralWord": "luz",
+            "enLiteralWord": "light"
+        }
+    ],
+    "literalTranslations": [
+        {
+            "lang": "hebrew",
+            "pt": "E disse Deus: Haja luz, e houve luz.",
+            "en": "And God said, Let there be light, and there was light."
+        },
+        {
+            "lang": "aramaic",
+            "pt": "E disse o Senhor: Haja luz, e houve luz.",
+            "en": "And the Lord said, Let there be light, and there was light."
+        },
+        {
+            "lang": "greek",
+            "pt": "E disse Deus: Seja feita luz, e houve luz.",
+            "en": "And God said, Let light come to be, and light came to be."
+        },
+        {
+            "lang": "latin",
+            "pt": "E disse Deus: Faça-se a luz, e a luz foi feita.",
+            "en": "And God said: Let light be made, and light was made."
+        },
+        {
+            "lang": "geez",
+            "pt": "E disse o Senhor: Haja luz, e houve luz.",
+            "en": "And the Lord said: Let there be light, and there was light."
+        },
+        {
+            "lang": "syriac",
+            "pt": "E disse Deus: Haja luz, e houve luz.",
+            "en": "And God said, Let there be light, and there was light."
+        },
+        {
+            "lang": "coptic",
+            "pt": "E disse Deus: Haja luz, e houve luz.",
+            "en": "And God said, Let there be light, and there was light."
+        },
+        {
+            "lang": "armenian",
+            "pt": "E disse Deus: Haja luz, e houve luz.",
+            "en": "And God said, Let there be light, and there was light."
+        }
+    ],
+    "aramaicWitnesses": [
+        {
+            "id": "aramaic",
+            "label": "Aramaic Witness",
+            "text": "וַאֲמַר יְיָ יְהֵי נְהוֹרָא וַהֲוָה נְהוֹרָא",
+            "transliteration": "-",
+            "literalPt": "E disse o Senhor: Haja luz, e houve luz.",
+            "literalEn": "And the Lord said, Let there be light, and there was light."
+        }
+    ],
+    "latinWitnesses": [
+        {
+            "id": "latin",
+            "label": "Latin Witness",
+            "text": "Dixitque Deus fiat lux et facta est lux",
+            "transliteration": "-",
+            "literalPt": "E disse Deus: Faça-se a luz, e a luz foi feita.",
+            "literalEn": "And God said: Let light be made, and light was made."
+        }
+    ],
+    "geezWitnesses": [
+        {
+            "id": "geez",
+            "label": "Geez Witness",
+            "text": "ወይቤ እግዚአብሔር ለይኩን ብርሃን ወኮነ ብርሃን",
+            "transliteration": "-",
+            "literalPt": "E disse o Senhor: Haja luz, e houve luz.",
+            "literalEn": "And the Lord said: Let there be light, and there was light."
+        }
+    ],
+    "syriacWitnesses": [
+        {
+            "id": "syriac",
+            "label": "Syriac Witness",
+            "text": "ܘܐܡܪ ܐܠܗܐ ܢܗܘܐ ܢܘܗܪܐ ܘܗܘܐ ܢܘܗܪܐ",
+            "transliteration": "-",
+            "literalPt": "E disse Deus: Haja luz, e houve luz.",
+            "literalEn": "And God said, Let there be light, and there was light."
+        }
+    ],
+    "copticWitnesses": [
+        {
+            "id": "coptic",
+            "label": "Coptic Witness",
+            "text": "peje phnuti je mare u-ōini shōpi uoh a u-ōini shōpi",
+            "transliteration": "-",
+            "literalPt": "E disse Deus: Haja luz, e houve luz.",
+            "literalEn": "And God said, Let there be light, and there was light."
+        }
+    ],
+    "armenianWitnesses": [
+        {
+            "id": "armenian",
+            "label": "Armenian Witness",
+            "text": "Եւ ասաց Աստուած. Եղիցի լոյս, եւ եղեւ լոյս։",
+            "transliteration": "-",
+            "literalPt": "E disse Deus: Haja luz, e houve luz.",
+            "literalEn": "And God said, Let there be light, and there was light."
+        }
     ]
 }

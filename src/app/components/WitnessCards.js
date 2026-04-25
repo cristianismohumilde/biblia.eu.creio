@@ -106,6 +106,7 @@ export default function WitnessCards({ lang, data, manuscript }) {
 
               return (
                 <div key={w.id} className={`text-witness ${isCurrent ? 'active-witness' : ''}`}>
+                  {w.label && <h4 className="witness-label">{w.label}</h4>}
                   <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`}>
                     {w.text || t.noText}
                   </p>
@@ -117,7 +118,7 @@ export default function WitnessCards({ lang, data, manuscript }) {
                   {msInfo && !isCurrent && (
                     <div className="manuscript-actions">
                       <Link 
-                        href={`/${lang}/interlinear/${msInfo.key}/?book=${data.ref.book.toLowerCase()}&chapter=${data.ref.chapter}&verse=${data.ref.verse}`}
+                        href={`/${lang}/interlinear/${msInfo.key}/${data.ref.book.toLowerCase()}/${data.ref.chapter}/${data.ref.verse}`}
                         className="manuscript-cta"
                       >
                         {t.interlinearComplete}

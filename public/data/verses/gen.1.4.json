@@ -1,16 +1,43 @@
 {
     "schemaVersion": "1.1.0",
-    "ref": { "book": "gen", "chapter": 1, "verse": 4 },
     "translation": {
         "author": "Equipe Biblia.Creio.EU",
         "authorEn": "Biblia.Creio.EU Team",
         "baseText": "Codex Leningradensis / LXX / Vulgata",
         "baseTextEn": "Codex Leningradensis / LXX / Vulgate"
     },
+    "manuscripts": {
+        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "aramaic": "Aramaico: Targum Onkelos (TO)",
+        "aramaicEn": "Aramaic: Targum Onkelos (TO)",
+        "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
+        "greekEn": "Greek: Septuagint (LXX) and Byzantine tradition (Byz/RP) (comparison)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "geez": "Ge'ez: tradição etíope clássica",
+        "geezEn": "Ge'ez: classical Ethiopic tradition",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses",
+        "armenian": "Armênio: versão armênia antiga",
+        "armenianEn": "Armenian: ancient Armenian version"
+    },
+    "ref": {
+        "book": "gen",
+        "chapter": 1,
+        "verse": 4
+    },
     "sourceTexts": {
         "hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
+        "aramaic": "וַחֲזָא יְיָ יָת נְהוֹרָא אֲרֵי טָב וְאַפְרֵישׁ יְיָ בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא",
         "greek": "καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους",
-        "latin": "Et vidit Deus lucem quod esset bona et divisit lucem ac tenebras"
+        "latin": "Et vidit Deus lucem quod esset bona et divisit lucem ac tenebras",
+        "geez": "ወርእየ እግዚአብሔር ለብርሃን ከመ ሠናይ ወአለየ እግዚአብሔር ማእከለ ብርሃን ወማእከለ ጽልመት",
+        "syriac": "ܘܚܙܐ ܐܠܗܐ ܠܢܘܗܪܐ ܕܫܦܝܪ ܘܦܪܫ ܐܠܗܐ ܒܝܬ ܢܘܗܪܐ ܠܚܫܘܟܐ",
+        "coptic": "uoh af-nau nje phnuti e p-ōini je nanef uoh af-phōrj nje phnuti ut-te p-ōini nem ut-te p-kaki",
+        "armenian": "Եւ ետես Աստուած զլոյսն զի բարի է, եւ մեկնեաց Աստուած ի մէջ լուսոյն եւ ի մէջ խաւարին:"
     },
     "hebrewWitnesses": [
         {
@@ -54,17 +81,239 @@
     "ptLiteralVerse": "E viu Deus que a luz era boa; e fez Deus separação entre a luz e as trevas.",
     "enLiteralVerse": "And God saw the light, that it was good: and God divided the light from the darkness.",
     "tokens": [
-        { "id": "gen.1.4.h1", "lang": "hebrew", "surface": "וַיַּרְא", "transliteration": "vayar", "lemma": "רָאָה", "strong": "H7200", "morph": "Conj + Verbo", "ptLiteralWord": "e viu", "enLiteralWord": "and saw" },
-        { "id": "gen.1.4.h2", "lang": "hebrew", "surface": "אֱלֹהִים", "transliteration": "Elohim", "lemma": "אֱלֹהִים", "strong": "H430", "morph": "Subst", "ptLiteralWord": "Deus", "enLiteralWord": "God" },
-        { "id": "gen.1.4.h3", "lang": "hebrew", "surface": "אֶת", "transliteration": "et", "lemma": "אֵת", "strong": "H853", "morph": "Marcador", "ptLiteralWord": "(a)", "enLiteralWord": "(the)" },
-        { "id": "gen.1.4.h4", "lang": "hebrew", "surface": "הָאוֹר", "transliteration": "ha-or", "lemma": "אוֹר", "strong": "H216", "morph": "Art + Subst", "ptLiteralWord": "luz", "enLiteralWord": "light" },
-        { "id": "gen.1.4.h5", "lang": "hebrew", "surface": "כִּי", "transliteration": "ki", "lemma": "כִּי", "strong": "H3588", "morph": "Conj", "ptLiteralWord": "que / pois", "enLiteralWord": "that / for" },
-        { "id": "gen.1.4.h6", "lang": "hebrew", "surface": "טוֹב", "transliteration": "tov", "lemma": "טוֹב", "strong": "H2896", "morph": "Adj", "ptLiteralWord": "boa", "enLiteralWord": "good" },
-        { "id": "gen.1.4.h7", "lang": "hebrew", "surface": "וַיַּבְדֵּל", "transliteration": "vayavdel", "lemma": "בָּדַל", "strong": "H914", "morph": "Conj + Verbo", "ptLiteralWord": "e separou", "enLiteralWord": "and divided" },
-        { "id": "gen.1.4.h8", "lang": "hebrew", "surface": "אֱלֹהִים", "transliteration": "Elohim", "lemma": "אֱלֹהִים", "strong": "H430", "morph": "Subst", "ptLiteralWord": "Deus", "enLiteralWord": "God" },
-        { "id": "gen.1.4.h9", "lang": "hebrew", "surface": "בֵּין", "transliteration": "bein", "lemma": "בֵּין", "strong": "H996", "morph": "Prep", "ptLiteralWord": "entre", "enLiteralWord": "between" },
-        { "id": "gen.1.4.h10", "lang": "hebrew", "surface": "הָאוֹר", "transliteration": "ha-or", "lemma": "אוֹר", "strong": "H216", "morph": "Art + Subst", "ptLiteralWord": "a luz", "enLiteralWord": "the light" },
-        { "id": "gen.1.4.h11", "lang": "hebrew", "surface": "וּבֵין", "transliteration": "u-vein", "lemma": "בֵּין", "strong": "H996", "morph": "Conj + Prep", "ptLiteralWord": "e entre", "enLiteralWord": "and between" },
-        { "id": "gen.1.4.h12", "lang": "hebrew", "surface": "הַחֹשֶׁךְ", "transliteration": "ha-choshek", "lemma": "חֹשֶׁךְ", "strong": "H2822", "morph": "Art + Subst", "ptLiteralWord": "as trevas", "enLiteralWord": "the darkness" }
+        {
+            "id": "gen.1.4.h1",
+            "lang": "hebrew",
+            "surface": "וַיַּרְא",
+            "transliteration": "vayar",
+            "lemma": "רָאָה",
+            "strong": "H7200",
+            "morph": "Conj + Verbo",
+            "ptLiteralWord": "e viu",
+            "enLiteralWord": "and saw"
+        },
+        {
+            "id": "gen.1.4.h2",
+            "lang": "hebrew",
+            "surface": "אֱלֹהִים",
+            "transliteration": "Elohim",
+            "lemma": "אֱלֹהִים",
+            "strong": "H430",
+            "morph": "Subst",
+            "ptLiteralWord": "Deus",
+            "enLiteralWord": "God"
+        },
+        {
+            "id": "gen.1.4.h3",
+            "lang": "hebrew",
+            "surface": "אֶת",
+            "transliteration": "et",
+            "lemma": "אֵת",
+            "strong": "H853",
+            "morph": "Marcador",
+            "ptLiteralWord": "(a)",
+            "enLiteralWord": "(the)"
+        },
+        {
+            "id": "gen.1.4.h4",
+            "lang": "hebrew",
+            "surface": "הָאוֹר",
+            "transliteration": "ha-or",
+            "lemma": "אוֹר",
+            "strong": "H216",
+            "morph": "Art + Subst",
+            "ptLiteralWord": "luz",
+            "enLiteralWord": "light"
+        },
+        {
+            "id": "gen.1.4.h5",
+            "lang": "hebrew",
+            "surface": "כִּי",
+            "transliteration": "ki",
+            "lemma": "כִּי",
+            "strong": "H3588",
+            "morph": "Conj",
+            "ptLiteralWord": "que / pois",
+            "enLiteralWord": "that / for"
+        },
+        {
+            "id": "gen.1.4.h6",
+            "lang": "hebrew",
+            "surface": "טוֹב",
+            "transliteration": "tov",
+            "lemma": "טוֹב",
+            "strong": "H2896",
+            "morph": "Adj",
+            "ptLiteralWord": "boa",
+            "enLiteralWord": "good"
+        },
+        {
+            "id": "gen.1.4.h7",
+            "lang": "hebrew",
+            "surface": "וַיַּבְדֵּל",
+            "transliteration": "vayavdel",
+            "lemma": "בָּדַל",
+            "strong": "H914",
+            "morph": "Conj + Verbo",
+            "ptLiteralWord": "e separou",
+            "enLiteralWord": "and divided"
+        },
+        {
+            "id": "gen.1.4.h8",
+            "lang": "hebrew",
+            "surface": "אֱלֹהִים",
+            "transliteration": "Elohim",
+            "lemma": "אֱלֹהִים",
+            "strong": "H430",
+            "morph": "Subst",
+            "ptLiteralWord": "Deus",
+            "enLiteralWord": "God"
+        },
+        {
+            "id": "gen.1.4.h9",
+            "lang": "hebrew",
+            "surface": "בֵּין",
+            "transliteration": "bein",
+            "lemma": "בֵּין",
+            "strong": "H996",
+            "morph": "Prep",
+            "ptLiteralWord": "entre",
+            "enLiteralWord": "between"
+        },
+        {
+            "id": "gen.1.4.h10",
+            "lang": "hebrew",
+            "surface": "הָאוֹר",
+            "transliteration": "ha-or",
+            "lemma": "אוֹר",
+            "strong": "H216",
+            "morph": "Art + Subst",
+            "ptLiteralWord": "a luz",
+            "enLiteralWord": "the light"
+        },
+        {
+            "id": "gen.1.4.h11",
+            "lang": "hebrew",
+            "surface": "וּבֵין",
+            "transliteration": "u-vein",
+            "lemma": "בֵּין",
+            "strong": "H996",
+            "morph": "Conj + Prep",
+            "ptLiteralWord": "e entre",
+            "enLiteralWord": "and between"
+        },
+        {
+            "id": "gen.1.4.h12",
+            "lang": "hebrew",
+            "surface": "הַחֹשֶׁךְ",
+            "transliteration": "ha-choshek",
+            "lemma": "חֹשֶׁךְ",
+            "strong": "H2822",
+            "morph": "Art + Subst",
+            "ptLiteralWord": "as trevas",
+            "enLiteralWord": "the darkness"
+        }
+    ],
+    "literalTranslations": [
+        {
+            "lang": "hebrew",
+            "pt": "E viu Deus a luz, que era boa; e fez separação Deus entre a luz e entre as trevas.",
+            "en": "And God saw the light, that it was good; and God separated between the light and between the darkness."
+        },
+        {
+            "lang": "aramaic",
+            "pt": "E viu o Senhor a luz, que era boa; e o Senhor separou entre a luz e entre as trevas.",
+            "en": "And the Lord saw the light, that it was good; and the Lord separated between the light and between the darkness."
+        },
+        {
+            "lang": "greek",
+            "pt": "E viu Deus a luz que era boa, e separou Deus no meio da luz e no meio das trevas.",
+            "en": "And God saw the light that it was good, and God divided in the midst of the light and in the midst of the darkness."
+        },
+        {
+            "lang": "latin",
+            "pt": "E viu Deus a luz que era boa e dividiu a luz e as trevas.",
+            "en": "And God saw the light that it was good and divided the light and the darkness."
+        },
+        {
+            "lang": "geez",
+            "pt": "E viu o Senhor a luz que era boa; e separou o Senhor entre a luz e entre as trevas.",
+            "en": "And the Lord saw the light that it was good; and the Lord separated between the light and between the darkness."
+        },
+        {
+            "lang": "syriac",
+            "pt": "E viu Deus a luz, que era boa; e separou Deus entre a luz e as trevas.",
+            "en": "And God saw the light, that it was good; and God separated between the light and the darkness."
+        },
+        {
+            "lang": "coptic",
+            "pt": "E viu Deus a luz que era boa; e separou Deus entre a luz e entre as trevas.",
+            "en": "And God saw the light that it was good; and God separated between the light and between the darkness."
+        },
+        {
+            "lang": "armenian",
+            "pt": "E viu Deus a luz que era boa; e separou Deus entre a luz e entre as trevas.",
+            "en": "And God saw the light that it was good; and God separated between the light and between the darkness."
+        }
+    ],
+    "aramaicWitnesses": [
+        {
+            "id": "aramaic",
+            "label": "Aramaic Witness",
+            "text": "וַחֲזָא יְיָ יָת נְהוֹרָא אֲרֵי טָב וְאַפְרֵישׁ יְיָ בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא",
+            "transliteration": "-",
+            "literalPt": "E viu o Senhor a luz, que era boa; e o Senhor separou entre a luz e entre as trevas.",
+            "literalEn": "And the Lord saw the light, that it was good; and the Lord separated between the light and between the darkness."
+        }
+    ],
+    "latinWitnesses": [
+        {
+            "id": "latin",
+            "label": "Latin Witness",
+            "text": "Et vidit Deus lucem quod esset bona et divisit lucem ac tenebras",
+            "transliteration": "-",
+            "literalPt": "E viu Deus a luz que era boa e dividiu a luz e as trevas.",
+            "literalEn": "And God saw the light that it was good and divided the light and the darkness."
+        }
+    ],
+    "geezWitnesses": [
+        {
+            "id": "geez",
+            "label": "Geez Witness",
+            "text": "ወርእየ እግዚአብሔር ለብርሃን ከመ ሠናይ ወአለየ እግዚአብሔር ማእከለ ብርሃን ወማእከለ ጽልመት",
+            "transliteration": "-",
+            "literalPt": "E viu o Senhor a luz que era boa; e separou o Senhor entre a luz e entre as trevas.",
+            "literalEn": "And the Lord saw the light that it was good; and the Lord separated between the light and between the darkness."
+        }
+    ],
+    "syriacWitnesses": [
+        {
+            "id": "syriac",
+            "label": "Syriac Witness",
+            "text": "ܘܚܙܐ ܐܠܗܐ ܠܢܘܗܪܐ ܕܫܦܝܪ ܘܦܪܫ ܐܠܗܐ ܒܝܬ ܢܘܗܪܐ ܠܚܫܘܟܐ",
+            "transliteration": "-",
+            "literalPt": "E viu Deus a luz, que era boa; e separou Deus entre a luz e as trevas.",
+            "literalEn": "And God saw the light, that it was good; and God separated between the light and the darkness."
+        }
+    ],
+    "copticWitnesses": [
+        {
+            "id": "coptic",
+            "label": "Coptic Witness",
+            "text": "uoh af-nau nje phnuti e p-ōini je nanef uoh af-phōrj nje phnuti ut-te p-ōini nem ut-te p-kaki",
+            "transliteration": "-",
+            "literalPt": "E viu Deus a luz que era boa; e separou Deus entre a luz e entre as trevas.",
+            "literalEn": "And God saw the light that it was good; and God separated between the light and between the darkness."
+        }
+    ],
+    "armenianWitnesses": [
+        {
+            "id": "armenian",
+            "label": "Armenian Witness",
+            "text": "Եւ ետես Աստուած զլոյսն զի բարի է, եւ մեկնեաց Աստուած ի մէջ լուսոյն եւ ի մէջ խաւարին:",
+            "transliteration": "-",
+            "literalPt": "E viu Deus a luz que era boa; e separou Deus entre a luz e entre as trevas.",
+            "literalEn": "And God saw the light that it was good; and God separated between the light and between the darkness."
+        }
     ]
 }

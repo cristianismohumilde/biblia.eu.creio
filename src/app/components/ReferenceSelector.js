@@ -3,13 +3,13 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, onSelect }) {
+export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, onSelect, initialBook, initialChapter, initialVerse }) {
   const [books, setBooks] = useState([]);
-  const [selectedBook, setSelectedBook] = useState("");
+  const [selectedBook, setSelectedBook] = useState(initialBook || "");
   const [chapters, setChapters] = useState([]);
-  const [selectedChapter, setSelectedChapter] = useState("");
+  const [selectedChapter, setSelectedChapter] = useState(initialChapter || "");
   const [verses, setVerses] = useState([]);
-  const [selectedVerse, setSelectedVerse] = useState("");
+  const [selectedVerse, setSelectedVerse] = useState(initialVerse || "");
   const router = useRouter();
 
   useEffect(() => {
@@ -18,29 +18,29 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
       .then((data) => {
         setBooks(data);
         if (data.length > 0) {
-          const firstBook = data[0].code;
-          setSelectedBook(firstBook);
-          updateChapters(data, firstBook);
+          const bookToUse = initialBook || data[0].code;
+          if (!selectedBook) setSelectedBook(bookToUse);
+          updateChapters(data, bookToUse, initialChapter || "1", initialVerse || "1");
         }
       });
-  }, []);
+  }, [initialBook, initialChapter, initialVerse]);
 
-  const updateChapters = (allBooks, bookCode) => {
+  const updateChapters = (allBooks, bookCode, targetChapter = "1", targetVerse = "1") => {
     const book = allBooks.find((b) => b.code === bookCode);
     if (book) {
       const chaps = Array.from({ length: book.chapters }, (_, i) => i + 1);
       setChapters(chaps);
-      setSelectedChapter("1");
-      updateVerses(bookCode, 1);
+      if (!selectedChapter || targetChapter !== "1") setSelectedChapter(targetChapter);
+      updateVerses(bookCode, targetChapter, targetVerse);
     }
   };
 
-  const updateVerses = (bookCode, chapter) => {
+  const updateVerses = (bookCode, chapter, targetVerse = "1") => {
     fetch(`/data/books/${bookCode}/chapters/${chapter}.json`)
       .then((res) => res.json())
       .then((data) => {
         setVerses(data.verses);
-        setSelectedVerse(data.verses[0]);
+        if (!selectedVerse || targetVerse !== "1") setSelectedVerse(targetVerse);
       });
   };
 
@@ -60,7 +60,7 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
     e.preventDefault();
     if (isInterlinear) {
       // Update URL with new verse on interlinear page
-      const url = `/${lang}/interlinear/${manuscript}/?book=${selectedBook}&chapter=${selectedChapter}&verse=${selectedVerse}`;
+      const url = `/${lang}/interlinear/${manuscript}/${selectedBook}/${selectedChapter}/${selectedVerse}`;
       router.push(url);
     } else if (onSelect) {
       // Update home page content

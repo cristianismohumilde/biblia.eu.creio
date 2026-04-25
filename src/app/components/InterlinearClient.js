@@ -159,7 +159,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
       </header>
 
       <div className="layout">
-        <ReferenceSelector lang={lang} t={t} isInterlinear manuscript={manuscript} />
+        <ReferenceSelector lang={lang} t={t} isInterlinear manuscript={manuscript} initialBook={book} initialChapter={chapter} initialVerse={verse} />
 
         <section className="card" id="visao-geral">
           <h2>{t.verseVision}</h2>
