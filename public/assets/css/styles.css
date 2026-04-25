@@ -324,6 +324,46 @@ h1 {
   flex-wrap: wrap;
 }
 
+.donation-info {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  animation: reveal 400ms ease;
+  width: 100%;
+  max-width: 500px;
+}
+
+.donation-title {
+  font-weight: 700;
+  margin-bottom: 0.5rem !important;
+  color: var(--accent);
+}
+
+.donation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  text-align: left;
+}
+
+.donation-list li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.donation-list a {
+  color: var(--accent);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+:root[data-theme="dark"] .donation-info {
+  background: rgba(0, 0, 0, 0.2);
+  border-color: var(--line);
+}
+
 .support-cta {
   display: inline-block;
   margin-top: 0;

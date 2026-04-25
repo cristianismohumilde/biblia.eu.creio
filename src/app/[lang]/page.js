@@ -12,6 +12,7 @@ export default function LangHomePage({ params }) {
   const [resolvedParams, setResolvedParams] = useState(null);
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
+  const [showDonation, setShowDonation] = useState(false);
 
   useEffect(() => {
     params.then(p => setResolvedParams(p));
@@ -75,40 +76,69 @@ export default function LangHomePage({ params }) {
         <h2 id="support-title">{t.supportTitle}</h2>
         <p>{t.supportText}</p>
 
-        <div className="support-actions">
-          <a
-            className="support-cta"
-            href="https://wa.me/5585986794831?text=Quero+Colaborar!"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t.supportCta}
-          </a>
-          <a
-            className="support-cta support-cta--github"
-            href="https://github.com/cristianismohumilde/biblia.eu.creio/discussions"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t.supportGithub}
-          </a>
-          <a
-            className="support-cta support-cta--discord"
-            href="https://discord.gg/dmjd6QDb9u"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t.supportDiscord}
-          </a>
-          <a
-            className="support-cta support-cta--academy"
-            href="https://creio.eu"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t.supportAcademy}
-          </a>
-        </div>
+        {!showDonation ? (
+          <div className="support-actions">
+            <button
+              className="support-cta"
+              onClick={() => setShowDonation(true)}
+            >
+              {t.supportCta}
+            </button>
+            <a
+              className="support-cta support-cta--github"
+              href="https://github.com/cristianismohumilde/biblia.eu.creio/discussions"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t.supportGithub}
+            </a>
+            <a
+              className="support-cta support-cta--discord"
+              href="https://discord.gg/dmjd6QDb9u"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t.supportDiscord}
+            </a>
+            <a
+              className="support-cta support-cta--academy"
+              href="https://creio.eu"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t.supportAcademy}
+            </a>
+          </div>
+        ) : (
+          <div className="donation-info">
+            <p className="donation-title">{t.donationTitle}</p>
+            <ul className="donation-list">
+              <li>{t.donationPix}</li>
+              <li>
+                {t.donationWise}:{" "}
+                <a href="https://wise.com/pay/me/venelouistyagov" target="_blank" rel="noopener noreferrer">
+                  @venelouistyagov
+                </a>
+              </li>
+            </ul>
+            <div className="support-actions">
+              <a
+                className="support-cta"
+                href="https://wa.me/5585986794831?text=Quero+Colaborar!"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t.whatsappCta}
+              </a>
+              <button
+                className="support-cta support-cta--github"
+                onClick={() => setShowDonation(false)}
+              >
+                {t.back}
+              </button>
+            </div>
+          </div>
+        )}
       </section>
 
       <ReferenceSelector lang={lang} t={t} onSelect={loadVerse} />
