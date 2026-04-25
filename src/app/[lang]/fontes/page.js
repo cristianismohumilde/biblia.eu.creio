@@ -113,10 +113,6 @@ export default async function FontesPage({ params }) {
           <p>{item.text}</p>
         </section>
       ))}
-
-      <footer className="site-footer" style={{ marginTop: '2rem' }}>
-        <p>{t.footerText} <a href="https://github.com/cristianismohumilde/biblia.eu.creio" target="_blank" rel="noopener noreferrer">github.com/cristianismohumilde/biblia.eu.creio</a></p>
-      </footer>
     </>
   );
 }
