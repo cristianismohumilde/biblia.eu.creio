@@ -62,9 +62,7 @@ export default function LangHomePage({ params }) {
           <Link href={`/${lang}/fontes`}>
             {t.sources}
           </Link>
-          <Link href={`/${lang}/#apoie`} style={{ color: '#ef4444', fontWeight: 'bold' }}>
-            ❤️ {t.support}
-          </Link>
+
           <LanguageSwitcher lang={lang} />
           <ThemeToggle t={t} />
         </nav>
@@ -78,10 +76,10 @@ export default function LangHomePage({ params }) {
         {!showDonation ? (
           <div className="support-actions">
             <button
-              className="support-cta"
+              className="support-cta support-cta--red heart-beat"
               onClick={() => setShowDonation(true)}
             >
-              {t.supportCta}
+              ❤️ {t.supportCta}
             </button>
             <a
               className="support-cta support-cta--github"
@@ -89,7 +87,7 @@ export default function LangHomePage({ params }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t.supportGithub}
+              🐙 {t.supportGithub}
             </a>
             <a
               className="support-cta support-cta--discord"
@@ -97,7 +95,7 @@ export default function LangHomePage({ params }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t.supportDiscord}
+              💬 {t.supportDiscord}
             </a>
             <a
               className="support-cta support-cta--academy"
@@ -105,7 +103,7 @@ export default function LangHomePage({ params }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t.supportAcademy}
+              🎓 {t.supportAcademy}
             </a>
           </div>
         ) : (
@@ -127,7 +125,7 @@ export default function LangHomePage({ params }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {t.whatsappCta}
+                📲 {t.whatsappCta}
               </a>
               <button
                 className="support-cta support-cta--github"
@@ -138,6 +136,9 @@ export default function LangHomePage({ params }) {
             </div>
           </div>
         )}
+        <p style={{ marginTop: '1.5rem', fontSize: '0.85rem', opacity: 0.8, fontStyle: 'italic' }}>
+          {t.globalBannerText}
+        </p>
       </section>
 
       <ReferenceSelector lang={lang} t={t} onSelect={loadVerse} />
