@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { translations } from "../../translations";
 import ThemeToggle from "../../components/ThemeToggle";
-import { FlagBR, FlagUS } from "../../components/FlagIcon";
+import LanguageSwitcher from "../../components/LanguageSwitcher";
 
 export async function generateStaticParams() {
   return [{ lang: "pt" }, { lang: "en" }];
@@ -102,14 +102,7 @@ export default async function IdiomasBiblicosPage({ params }) {
         </div>
         <nav className="quick-nav">
           <Link href={`/${lang}/`}>{t.back}</Link>
-          <div className="lang-switcher">
-            <Link href="/pt/" className={lang === 'pt' ? 'active' : ''} aria-label="Português">
-              <FlagBR /> <span className="desktop-only">PT</span>
-            </Link>
-            <Link href="/en/" className={lang === 'en' ? 'active' : ''} aria-label="English">
-              <FlagUS /> <span className="desktop-only">EN</span>
-            </Link>
-          </div>
+          <LanguageSwitcher lang={lang} />
           <ThemeToggle t={t} />
         </nav>
       </header>

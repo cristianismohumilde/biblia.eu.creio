@@ -2,110 +2,126 @@
 
 [Read in English](README.md)
 
-![Deploy Next.js site to Pages](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml/badge.svg)
+[![Deploy Next.js site to Pages](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml)
+![Next.js](https://img.shields.io/badge/Next.js-16-black)
+![React](https://img.shields.io/badge/React-19-149ECA)
+![Licença: MIT](https://img.shields.io/badge/licenca-MIT-green)
 
-Projeto open source de estudo bíblico interlinear, com foco inicial em publicação estática (GitHub Pages), utilizando Next.js para geração estática de alta performance e roteamento dinâmico.
+Plataforma open source de estudo bíblico interlinear com arquitetura static-first.
+O foco é unir fidelidade aos manuscritos, análise linguística por token e entrega rápida em hospedagem estática.
 
-## Stack Tecnológica
+## Por que este projeto
 
-- **Framework:** [Next.js](https://nextjs.org/) (App Router)
-- **Estilização:** Vanilla CSS (sistema de design premium customizado)
-- **Hospedagem:** GitHub Pages (via Static Export)
-- **Dados:** Arquivos JSON estruturados
+- Preservar acesso aos testemunhos textuais antigos em uma interface moderna.
+- Oferecer tradução literal por verso e por palavra.
+- Facilitar comparação entre tradições linguísticas relevantes.
+- Escalar por fases sem inflar infraestrutura no inicio.
 
-## Como Contribuir
+## Capacidades principais
 
-Para manter o projeto estável e evitar regressões, siga o guia de colaboração:
-
-- ver [CONTRIBUTING.pt-BR.md](CONTRIBUTING.pt-BR.md)
-- ver [CONTRIBUTING.md](CONTRIBUTING.md) (versão em inglês)
-
-## Objetivo Inicial (MVP)
-
-Entregar um site com:
-
-- textos dos manuscritos antigos (grego, hebraico, aramaico e latim)
-- tradução literal por verso
-- tradução literal por palavra
-- explicação léxica/morfológica por palavra
-- comparação entre os principais testemunhos linguísticos: hebraico, aramaico, grego, latim, ge'ez, siríaco, copta e armênio
-
-## Arquitetura por Fases
-
-### Fase 1 (Atual): Next.js Static Export + JSON Pré-gerado
-
-Plataforma alvo:
-
-- GitHub Pages (Hospedagem Estática)
-
-Decisões:
-
-- **Geração Estática:** As páginas são geradas no momento do build via Next.js.
-- **Roteamento Dinâmico:** Um único template gerencia todas as visualizações interlineares baseado nos parâmetros da URL.
-- **Redirecionamento Automático:** A raiz (/) detecta o idioma do navegador e redireciona para `/pt/` ou `/en/`.
-- **Dados:** Os dados são gerados offline e servidos como arquivos JSON estáticos a partir do diretório `public/data/`.
-
-Escopo técnico:
-
-- UI interlinear moderna e responsiva por verso.
-- Navegação dinâmica livro > capítulo > verso.
+- Leitura interlinear por token (surface, transliteration, lemma, morfologia, referências lexicais).
+- Comparação de testemunhos por verso.
+- Navegação livro -> capítulo -> verso por rotas dinâmicas.
 - Filtros em tempo real nas tabelas interlineares.
-- Suporte multilíngue (PT/EN) a partir de uma base de código única.
+- Superfície bilíngue (PT/EN).
+- Exportação estática otimizada para GitHub Pages.
 
-### Fase 2: Backend Leve ou Serviço Externo
+## Stack tecnológica
 
-Objetivo:
+| Camada | Tecnologia |
+| --- | --- |
+| Framework | [Next.js](https://nextjs.org/) App Router |
+| UI | Vanilla CSS + design system customizado |
+| Runtime | React 19 |
+| Hospedagem | GitHub Pages (estática) |
+| Dados | JSON pré-gerado em public/data |
 
-- adicionar busca e API básicas sem quebrar a estrutura da Fase 1.
+## Arquitetura por fases
 
-### Fase 3: VPS + Backend Completo
+### Fase 1 (atual)
+Exportação estática com datasets JSON pré-gerados.
 
-Objetivo:
+- Geração de páginas no build.
+- Templates dinâmicos para páginas interlineares.
+- Redirecionamento por idioma do navegador em / para /pt ou /en.
+- Dados servidos como arquivos estáticos em public/data.
 
-- escalar para busca avançada, jobs de processamento e contas de usuário.
+### Fase 2
+Camada leve de API/busca sem quebrar contratos de URL da fase estática.
 
-## Estrutura do Projeto
+### Fase 3
+Backend completo em VPS para busca avançada, jobs de processamento e contas.
 
-- `src/app/`: App Router do Next.js (páginas e layouts).
-- `public/data/`: Dados JSON estruturados para livros, capítulos e versos.
-- `public/assets/`: Assets estáticos (CSS, JS, imagens).
-- `next.config.mjs`: Configurado para `output: 'export'`.
+## Estrutura do projeto
 
-## Como Rodar Localmente
+```text
+src/app/                # paginas e layouts (App Router)
+public/data/            # datasets de livros, capítulos e versos
+public/assets/          # CSS/JS e mídias estáticas
+next.config.mjs         # configuração de exportação estática
+```
 
-Certifique-se de ter o Node.js instalado.
+## Como rodar localmente
 
-1. Instale as dependências:
+Requisitos:
+
+- Node.js 20+
+- npm
+
+Instalar dependências:
+
 ```bash
 npm install
 ```
 
-2. Inicie o servidor de desenvolvimento:
+Iniciar ambiente de desenvolvimento:
+
 ```bash
 npm run dev
 ```
 
-3. Acesse http://localhost:3000.
+Gerar build estático:
 
-## Publicação
+```bash
+npm run build
+```
 
-### GitHub Pages
+URL local: http://localhost:3000
 
-- O projeto utiliza GitHub Actions para build e deploy.
-- O processo executa `npm run build`, gerando a pasta estática `out/`.
-- A pasta `out/` é publicada automaticamente na branch `gh-pages`.
+## Modelo de dados (visão geral)
+
+```text
+public/data/books.json
+public/data/books/{livro}/chapters/{capítulo}.json
+public/data/verses/{livro}.{capítulo}.{verso}.json
+```
+
+Cada JSON de verso pode incluir:
+
+- referência canônica
+- textos-fonte por idioma
+- metadados de testemunhos
+- traduções literais
+- lista de tokens com campos lexicais e morfológicos
+
+## Publicacao
+
+- O CI executa build e deploy com GitHub Actions.
+- npm run build gera a pasta estática out.
+- out e publicada automaticamente na branch gh-pages.
 - URL esperada: https://cristianismohumilde.github.io/biblia.eu.creio/
 
-## Estrutura de Dados Recomendada
+## Contribuição
 
-- public/data/books.json
-- public/data/books/{livro}/chapters/{capitulo}.json
-- public/data/verses/{livro}.{capitulo}.{verso}.json
+Antes de abrir PR, leia:
 
-## Nota de Licenciamento
+- [CONTRIBUTING.pt-BR.md](CONTRIBUTING.pt-BR.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
 
-Este projeto é open source. O código utiliza a licença MIT, mas os datasets textuais devem respeitar a licença de cada fonte original.
+## Licenciamento
 
-- Licença do código: ver arquivo [LICENSE](LICENSE)
-- Política de dados: ver arquivo [LICENSE-DATA](LICENSE-DATA)
-- Status das fontes: ver arquivo [SOURCES-LICENSES.md](SOURCES-LICENSES.md)
+Código e dados textuais seguem políticas diferentes.
+
+- Licença de código: [LICENSE](LICENSE)
+- Política de dados: [LICENSE-DATA](LICENSE-DATA)
+- Status de licenciamento das fontes: [SOURCES-LICENSES.md](SOURCES-LICENSES.md)

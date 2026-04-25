@@ -1,111 +1,127 @@
 # Biblia.Creio.EU
 
-[Leia em português](README.pt-BR.md)
+[Leia em portugues](README.pt-BR.md)
 
-![Deploy Next.js site to Pages](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml/badge.svg)
+[![Deploy Next.js site to Pages](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml)
+![Next.js](https://img.shields.io/badge/Next.js-16-black)
+![React](https://img.shields.io/badge/React-19-149ECA)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
-Open source interlinear Bible study project focused on static publishing first (GitHub Pages), utilizing Next.js for high-performance static generation and dynamic routing.
+An open source interlinear Bible platform built with a static-first architecture.
+The project combines manuscript fidelity, token-level linguistic analysis, and fast global delivery via GitHub Pages.
 
-## Technology Stack
+## Why This Project
 
-- **Framework:** [Next.js](https://nextjs.org/) (App Router)
-- **Styling:** Vanilla CSS (custom premium design system)
-- **Hosting:** GitHub Pages (via Static Export)
-- **Data:** Structured JSON files
+- Preserve access to ancient textual witnesses in a clean modern UI.
+- Provide verse-level and token-level literal translation.
+- Enable language comparison across major traditions.
+- Keep infrastructure lightweight while scaling by roadmap.
 
-## Contributing
+## Core Capabilities
 
-To keep the project stable and avoid production regressions, please follow the collaboration guide:
+- Interlinear reading by token (surface, transliteration, lemma, morphology, lexical references).
+- Manuscript/witness comparison per verse.
+- Book -> chapter -> verse navigation with dynamic routes.
+- Real-time filtering for interlinear token tables.
+- Bilingual product surface (PT/EN).
+- Static export optimized for low-cost hosting.
 
-- see [CONTRIBUTING.md](CONTRIBUTING.md)
-- Portuguese version: [CONTRIBUTING.pt-BR.md](CONTRIBUTING.pt-BR.md)
+## Technology
 
-## Initial Goal (MVP)
+| Layer | Stack |
+| --- | --- |
+| Framework | [Next.js](https://nextjs.org/) App Router |
+| UI | Vanilla CSS + custom design system |
+| Runtime | React 19 |
+| Delivery | GitHub Pages static hosting |
+| Data | Pre-generated JSON in public/data |
 
-Deliver a website with:
+## Architecture Roadmap
 
-- ancient manuscript texts (Greek, Hebrew, Aramaic, and Latin)
-- verse-level literal translation
-- word-by-word literal translation
-- lexical/morphological explanation per token
-- comparison across key witnesses: Hebrew, Aramaic, Greek, Latin, Ge'ez, Syriac, Coptic, and Armenian
+### Phase 1 (current)
+Static export with pre-generated JSON datasets.
 
-## Phased Architecture
+- Build-time page generation.
+- Dynamic route templates for interlinear pages.
+- Browser-language redirect from / to /pt or /en.
+- Data served from static files in public/data.
 
-### Phase 1 (Current): Next.js Static Export + Pre-generated JSON
+### Phase 2
+Lightweight API/search layer without breaking static URL contracts.
 
-Target platform:
+### Phase 3
+Full backend on VPS for advanced search, processing jobs, and user accounts.
 
-- GitHub Pages (Static Hosting)
+## Project Layout
 
-Decisions:
+```text
+src/app/                # App Router pages and layouts
+public/data/            # books, chapters, verses datasets
+public/assets/          # static CSS/JS and media assets
+next.config.mjs         # static export configuration
+```
 
-- **Static Generation:** Pages are generated at build time using Next.js.
-- **Dynamic Routing:** A single template handles all interlinear views based on URL parameters.
-- **Client-side Redirect:** Root (/) detects browser language and redirects to `/pt/` or `/en/`.
-- **Data:** Data is generated offline and served as static JSON files from the `public/data/` directory.
+## Quick Start
 
-Technical scope:
+Requirements:
 
-- Modern interlinear UI per verse.
-- Book > chapter > verse dynamic navigation.
-- Real-time filtering in interlinear tables.
-- Multilingual support (PT/EN) from the same codebase.
+- Node.js 20+
+- npm
 
-### Phase 2: Lightweight Backend or External Service
+Install dependencies:
 
-Goal:
-
-- add basic API/search without breaking the Phase 1 public structure.
-
-### Phase 3: VPS + Full Backend
-
-Goal:
-
-- scale to advanced search, processing jobs, and user accounts.
-
-## Project Structure
-
-- `src/app/`: Next.js App Router (pages and layouts).
-- `public/data/`: Structured JSON data for books, chapters, and verses.
-- `public/assets/`: Static assets (CSS, JS, images).
-- `next.config.mjs`: Configured for `output: 'export'`.
-
-## Run Locally
-
-Ensure you have Node.js installed.
-
-1. Install dependencies:
 ```bash
 npm install
 ```
 
-2. Run the development server:
+Run dev server:
+
 ```bash
 npm run dev
 ```
 
-3. Open http://localhost:3000.
+Build static output:
 
-## Publishing
+```bash
+npm run build
+```
 
-### GitHub Pages
+Local URL: http://localhost:3000
 
-- The project uses GitHub Actions to build and deploy.
-- The build process runs `npm run build`, generating a static `out/` folder.
-- The `out/` folder is automatically published to the `gh-pages` branch.
-- Expected site URL: https://cristianismohumilde.github.io/biblia.eu.creio/
+## Data Model (high level)
 
-## Recommended Data Structure
+```text
+public/data/books.json
+public/data/books/{book}/chapters/{chapter}.json
+public/data/verses/{book}.{chapter}.{verse}.json
+```
 
-- public/data/books.json
-- public/data/books/{book}/chapters/{chapter}.json
-- public/data/verses/{book}.{chapter}.{verse}.json
+Each verse JSON can include:
 
-## Licensing Note
+- canonical reference
+- source texts by language
+- witness metadata
+- literal translations
+- token array with lexical/morphological fields
 
-This project is open source. Code uses MIT license, but textual datasets must follow each source license.
+## Deployment
 
-- code license: see [LICENSE](LICENSE)
-- data licensing policy: see [LICENSE-DATA](LICENSE-DATA)
-- source licensing/risk status: see [SOURCES-LICENSES.md](SOURCES-LICENSES.md)
+- CI builds with GitHub Actions.
+- npm run build generates the static out directory.
+- out is published to gh-pages.
+- Expected public URL: https://cristianismohumilde.github.io/biblia.eu.creio/
+
+## Contributing
+
+Before opening PRs, read:
+
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [CONTRIBUTING.pt-BR.md](CONTRIBUTING.pt-BR.md)
+
+## License
+
+Code and textual data have different licensing constraints.
+
+- Code license: [LICENSE](LICENSE)
+- Data policy: [LICENSE-DATA](LICENSE-DATA)
+- Source licensing status: [SOURCES-LICENSES.md](SOURCES-LICENSES.md)
