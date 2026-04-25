@@ -92,6 +92,22 @@ export default function LangHomePage({ params }) {
           >
             {t.supportGithub}
           </a>
+          <a
+            className="support-cta support-cta--discord"
+            href="https://discord.gg/dmjd6QDb9u"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t.supportDiscord}
+          </a>
+          <a
+            className="support-cta support-cta--academy"
+            href="https://creio.eu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t.supportAcademy}
+          </a>
         </div>
       </section>
 
