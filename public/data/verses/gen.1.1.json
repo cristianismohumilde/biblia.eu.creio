@@ -438,13 +438,13 @@
             "lemma": "In",
             "strong": "N/A",
             "lexicon": "in",
-            "morph": "Vocab",
+            "morph": "Prep",
             "manuscript": "Vulgata",
             "manuscriptEn": "Vulgate",
             "ptLiteralWord": "em",
             "enLiteralWord": "in",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Em / No",
+            "explanationEn": "Em / No"
         },
         {
             "id": "gen.1.1.l2",
@@ -456,13 +456,13 @@
             "lemma": "principio",
             "strong": "N/A",
             "lexicon": "principium",
-            "morph": "Vocab",
+            "morph": "Prep",
             "manuscript": "Vulgata",
             "manuscriptEn": "Vulgate",
             "ptLiteralWord": "princípio",
             "enLiteralWord": "beginning",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Em / No",
+            "explanationEn": "Em / No"
         },
         {
             "id": "gen.1.1.l3",
@@ -474,13 +474,13 @@
             "lemma": "creavit",
             "strong": "N/A",
             "lexicon": "creo",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Vulgata",
             "manuscriptEn": "Vulgate",
             "ptLiteralWord": "criou",
             "enLiteralWord": "created",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Criou",
+            "explanationEn": "Criou"
         },
         {
             "id": "gen.1.1.l4",
@@ -510,13 +510,13 @@
             "lemma": "caelum",
             "strong": "N/A",
             "lexicon": "caelum",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Vulgata",
             "manuscriptEn": "Vulgate",
             "ptLiteralWord": "céu",
             "enLiteralWord": "heaven",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Céus / Firmamento",
+            "explanationEn": "Céus / Firmamento"
         },
         {
             "id": "gen.1.1.l6",
@@ -546,13 +546,13 @@
             "lemma": "terram",
             "strong": "N/A",
             "lexicon": "terra",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Vulgata",
             "manuscriptEn": "Vulgate",
             "ptLiteralWord": "terra",
             "enLiteralWord": "earth",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.1.a1",
@@ -564,13 +564,13 @@
             "lemma": "בקדמין",
             "strong": "N/A",
             "cal": "qdm",
-            "morph": "Vocab",
+            "morph": "Prep",
             "manuscript": "Targum",
             "manuscriptEn": "Targum",
             "ptLiteralWord": "no princípio",
             "enLiteralWord": "in beginning",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Em / No",
+            "explanationEn": "Em / No"
         },
         {
             "id": "gen.1.1.a2",
@@ -582,13 +582,13 @@
             "lemma": "ברא",
             "strong": "N/A",
             "cal": "br'",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Targum",
             "manuscriptEn": "Targum",
             "ptLiteralWord": "criou",
             "enLiteralWord": "created",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Criou",
+            "explanationEn": "Criou"
         },
         {
             "id": "gen.1.1.a3",
@@ -600,13 +600,13 @@
             "lemma": "יי",
             "strong": "N/A",
             "cal": "ywy",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Targum",
             "manuscriptEn": "Targum",
             "ptLiteralWord": "o Senhor",
             "enLiteralWord": "the Lord",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.1.a4",
@@ -623,8 +623,8 @@
             "manuscriptEn": "Targum",
             "ptLiteralWord": "(o)",
             "enLiteralWord": "(the)",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Palavra do texto base",
+            "explanationEn": "Palavra do texto base"
         },
         {
             "id": "gen.1.1.a5",
@@ -636,13 +636,13 @@
             "lemma": "שמיא",
             "strong": "N/A",
             "cal": "šmy",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Targum",
             "manuscriptEn": "Targum",
             "ptLiteralWord": "céus",
             "enLiteralWord": "heavens",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Céus / Firmamento",
+            "explanationEn": "Céus / Firmamento"
         },
         {
             "id": "gen.1.1.a6",
@@ -659,8 +659,8 @@
             "manuscriptEn": "Targum",
             "ptLiteralWord": "e (a)",
             "enLiteralWord": "and (the)",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Palavra do texto base",
+            "explanationEn": "Palavra do texto base"
         },
         {
             "id": "gen.1.1.a7",
@@ -672,13 +672,13 @@
             "lemma": "ארעא",
             "strong": "N/A",
             "cal": "'r'",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Targum",
             "manuscriptEn": "Targum",
             "ptLiteralWord": "terra",
             "enLiteralWord": "earth",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.1.z1",
@@ -690,13 +690,13 @@
             "lemma": "በመጀመሪያ",
             "strong": "N/A",
             "lexicon": "jmr",
-            "morph": "Vocab",
+            "morph": "Prep",
             "manuscript": "Tradição etíope clássica",
             "manuscriptEn": "Classical Ethiopic tradition",
             "ptLiteralWord": "no princípio",
             "enLiteralWord": "in the beginning",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Em / No",
+            "explanationEn": "Em / No"
         },
         {
             "id": "gen.1.1.z2",
@@ -708,13 +708,13 @@
             "lemma": "ፈጠረ",
             "strong": "N/A",
             "lexicon": "fṭr",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Tradição etíope clássica",
             "manuscriptEn": "Classical Ethiopic tradition",
             "ptLiteralWord": "criou",
             "enLiteralWord": "created",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Criou",
+            "explanationEn": "Criou"
         },
         {
             "id": "gen.1.1.z3",
@@ -726,13 +726,13 @@
             "lemma": "እግዚአብሔር",
             "strong": "N/A",
             "lexicon": "gzi' + bḥr",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Tradição etíope clássica",
             "manuscriptEn": "Classical Ethiopic tradition",
             "ptLiteralWord": "o Senhor",
             "enLiteralWord": "the Lord",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.1.z4",
@@ -744,13 +744,13 @@
             "lemma": "ሰማይን",
             "strong": "N/A",
             "lexicon": "smy",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Tradição etíope clássica",
             "manuscriptEn": "Classical Ethiopic tradition",
             "ptLiteralWord": "os céus",
             "enLiteralWord": "the heavens",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Céus / Firmamento",
+            "explanationEn": "Céus / Firmamento"
         },
         {
             "id": "gen.1.1.z5",
@@ -762,13 +762,13 @@
             "lemma": "እና",
             "strong": "N/A",
             "lexicon": "n",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Tradição etíope clássica",
             "manuscriptEn": "Classical Ethiopic tradition",
             "ptLiteralWord": "e",
             "enLiteralWord": "and",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.1.z6",
@@ -780,13 +780,13 @@
             "lemma": "ምድርን",
             "strong": "N/A",
             "lexicon": "mdr",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Tradição etíope clássica",
             "manuscriptEn": "Classical Ethiopic tradition",
             "ptLiteralWord": "a terra",
             "enLiteralWord": "the earth",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.1.s1",
@@ -798,13 +798,13 @@
             "lemma": "ܒܪܫܝܬ",
             "strong": "N/A",
             "lexicon": "rēšīṯ",
-            "morph": "Vocab",
+            "morph": "Prep",
             "manuscript": "Peshitta",
             "manuscriptEn": "Peshitta",
             "ptLiteralWord": "no princípio",
             "enLiteralWord": "in the beginning",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Em / No",
+            "explanationEn": "Em / No"
         },
         {
             "id": "gen.1.1.s2",
@@ -816,13 +816,13 @@
             "lemma": "ܒܪܐ",
             "strong": "N/A",
             "lexicon": "brā",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Peshitta",
             "manuscriptEn": "Peshitta",
             "ptLiteralWord": "criou",
             "enLiteralWord": "created",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Criou",
+            "explanationEn": "Criou"
         },
         {
             "id": "gen.1.1.s3",
@@ -834,13 +834,13 @@
             "lemma": "ܐܠܗܐ",
             "strong": "N/A",
             "lexicon": "alāhā",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Peshitta",
             "manuscriptEn": "Peshitta",
             "ptLiteralWord": "Deus",
             "enLiteralWord": "God",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.1.s4",
@@ -852,13 +852,13 @@
             "lemma": "ܫܡܝܐ",
             "strong": "N/A",
             "lexicon": "šmayyā",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Peshitta",
             "manuscriptEn": "Peshitta",
             "ptLiteralWord": "céus",
             "enLiteralWord": "heavens",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Céus / Firmamento",
+            "explanationEn": "Céus / Firmamento"
         },
         {
             "id": "gen.1.1.s5",
@@ -870,13 +870,13 @@
             "lemma": "ܘ",
             "strong": "N/A",
             "lexicon": "w-",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Peshitta",
             "manuscriptEn": "Peshitta",
             "ptLiteralWord": "e",
             "enLiteralWord": "and",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.1.s6",
@@ -888,13 +888,13 @@
             "lemma": "ܐܪܥܐ",
             "strong": "N/A",
             "lexicon": "ar'ā",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Peshitta",
             "manuscriptEn": "Peshitta",
             "ptLiteralWord": "terra",
             "enLiteralWord": "earth",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.1.c1",
@@ -906,13 +906,13 @@
             "lemma": "Hn",
             "strong": "N/A",
             "lexicon": "ϩⲛ",
-            "morph": "Vocab",
+            "morph": "Prep",
             "manuscript": "Testemunhos coptas",
             "manuscriptEn": "Coptic witnesses",
             "ptLiteralWord": "em",
             "enLiteralWord": "in",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Em / No",
+            "explanationEn": "Em / No"
         },
         {
             "id": "gen.1.1.c2",
@@ -924,13 +924,13 @@
             "lemma": "te-hē",
             "strong": "N/A",
             "lexicon": "ϩⲏ",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Testemunhos coptas",
             "manuscriptEn": "Coptic witnesses",
             "ptLiteralWord": "o",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.1.c3",
@@ -942,13 +942,13 @@
             "lemma": "arxe",
             "strong": "N/A",
             "lexicon": "ⲁⲣⲭⲏ",
-            "morph": "Vocab",
+            "morph": "Prep",
             "manuscript": "Testemunhos coptas",
             "manuscriptEn": "Coptic witnesses",
             "ptLiteralWord": "princípio",
             "enLiteralWord": "beginning",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Em / No",
+            "explanationEn": "Em / No"
         },
         {
             "id": "gen.1.1.c4",
@@ -960,13 +960,13 @@
             "lemma": "af-thamio",
             "strong": "N/A",
             "lexicon": "ⲁϥⲑⲁⲙⲓⲟ",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Testemunhos coptas",
             "manuscriptEn": "Coptic witnesses",
             "ptLiteralWord": "criou",
             "enLiteralWord": "created",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Criou",
+            "explanationEn": "Criou"
         },
         {
             "id": "gen.1.1.c5",
@@ -978,13 +978,13 @@
             "lemma": "m-petfe",
             "strong": "N/A",
             "lexicon": "ⲙⲡⲉⲧⲫⲉ",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Testemunhos coptas",
             "manuscriptEn": "Coptic witnesses",
             "ptLiteralWord": "os céus",
             "enLiteralWord": "the heavens",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Céus / Firmamento",
+            "explanationEn": "Céus / Firmamento"
         },
         {
             "id": "gen.1.1.c6",
@@ -996,13 +996,13 @@
             "lemma": "nem",
             "strong": "N/A",
             "lexicon": "ⲛⲉⲙ",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Testemunhos coptas",
             "manuscriptEn": "Coptic witnesses",
             "ptLiteralWord": "e",
             "enLiteralWord": "and",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.1.c7",
@@ -1014,13 +1014,13 @@
             "lemma": "p-kahi",
             "strong": "N/A",
             "lexicon": "ⲡⲕⲁϩⲓ",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Testemunhos coptas",
             "manuscriptEn": "Coptic witnesses",
             "ptLiteralWord": "a terra",
             "enLiteralWord": "the earth",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.1.m1",
@@ -1032,13 +1032,13 @@
             "lemma": "Սկզբում",
             "strong": "N/A",
             "lexicon": "սկիզբն",
-            "morph": "Vocab",
+            "morph": "Prep",
             "manuscript": "Versão armênia antiga",
             "manuscriptEn": "Ancient Armenian version",
             "ptLiteralWord": "no princípio",
             "enLiteralWord": "in the beginning",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Em / No",
+            "explanationEn": "Em / No"
         },
         {
             "id": "gen.1.1.m2",
@@ -1050,13 +1050,13 @@
             "lemma": "Աստված",
             "strong": "N/A",
             "lexicon": "Աստուած",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Versão armênia antiga",
             "manuscriptEn": "Ancient Armenian version",
             "ptLiteralWord": "Deus",
             "enLiteralWord": "God",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.1.m3",
@@ -1068,13 +1068,13 @@
             "lemma": "ստեղծեց",
             "strong": "N/A",
             "lexicon": "ստեղծ",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Versão armênia antiga",
             "manuscriptEn": "Ancient Armenian version",
             "ptLiteralWord": "criou",
             "enLiteralWord": "created",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Criou",
+            "explanationEn": "Criou"
         },
         {
             "id": "gen.1.1.m4",
@@ -1086,13 +1086,13 @@
             "lemma": "երկինքն",
             "strong": "N/A",
             "lexicon": "երկինք",
-            "morph": "Vocab",
+            "morph": "N-ms",
             "manuscript": "Versão armênia antiga",
             "manuscriptEn": "Ancient Armenian version",
             "ptLiteralWord": "os céus",
             "enLiteralWord": "the heavens",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Céus / Firmamento",
+            "explanationEn": "Céus / Firmamento"
         },
         {
             "id": "gen.1.1.m5",
@@ -1104,13 +1104,13 @@
             "lemma": "ու",
             "strong": "N/A",
             "lexicon": "եւ",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Versão armênia antiga",
             "manuscriptEn": "Ancient Armenian version",
             "ptLiteralWord": "e",
             "enLiteralWord": "and",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.1.m6",
@@ -1122,13 +1122,13 @@
             "lemma": "երկիրը",
             "strong": "N/A",
             "lexicon": "երկիր",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Versão armênia antiga",
             "manuscriptEn": "Ancient Armenian version",
             "ptLiteralWord": "a terra",
             "enLiteralWord": "the earth",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         }
     ]
 }

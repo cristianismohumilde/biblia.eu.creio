@@ -231,13 +231,13 @@
             "transliteration": "layabashah",
             "lemma": "לַיַּבָּשָׁה",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "Deus",
             "enLiteralWord": "called",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.h4",
@@ -282,13 +282,13 @@
             "transliteration": "hamayim",
             "lemma": "הַמַּיִם",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "seca",
             "enLiteralWord": "land",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.h7",
@@ -401,13 +401,13 @@
             "transliteration": "Uqra",
             "lemma": "וּקְרָא",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "E",
             "enLiteralWord": "And",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.10.a2",
@@ -418,13 +418,13 @@
             "transliteration": "YY",
             "lemma": "יְיָ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "chamou",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Chamou",
+            "explanationEn": "Chamou"
         },
         {
             "id": "gen.1.10.a3",
@@ -435,13 +435,13 @@
             "transliteration": "leyabeshta",
             "lemma": "לְיַבֶּשְׁתָּא",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "o",
             "enLiteralWord": "Lord",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.a4",
@@ -452,13 +452,13 @@
             "transliteration": "ara",
             "lemma": "אַרְעָא",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "Senhor",
             "enLiteralWord": "called",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.a5",
@@ -469,13 +469,13 @@
             "transliteration": "uleveit",
             "lemma": "וּלְבֵית",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "à",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.a6",
@@ -486,13 +486,13 @@
             "transliteration": "kenishat",
             "lemma": "כְּנִישַׁת",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "terra",
             "enLiteralWord": "dry",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.a7",
@@ -503,13 +503,13 @@
             "transliteration": "maya",
             "lemma": "מַיָּא",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "seca",
             "enLiteralWord": "land",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.a8",
@@ -520,13 +520,13 @@
             "transliteration": "qra",
             "lemma": "קְרָא",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "terra;",
             "enLiteralWord": "earth;",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.a9",
@@ -537,13 +537,13 @@
             "transliteration": "yammaya",
             "lemma": "יַמְמַיָּא",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "e",
             "enLiteralWord": "and",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.10.a10",
@@ -554,13 +554,13 @@
             "transliteration": "vachaza",
             "lemma": "וַחֲזָא",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "ao",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.a11",
@@ -571,13 +571,13 @@
             "transliteration": "YY",
             "lemma": "יְיָ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Jussive",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "ajuntamento",
             "enLiteralWord": "gathering",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Ajuntem-se",
+            "explanationEn": "Ajuntem-se"
         },
         {
             "id": "gen.1.10.a12",
@@ -588,13 +588,13 @@
             "transliteration": "arei",
             "lemma": "אֲרֵי",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Prep",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "das",
             "enLiteralWord": "of",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "De / Do",
+            "explanationEn": "De / Do"
         },
         {
             "id": "gen.1.10.a13",
@@ -605,13 +605,13 @@
             "transliteration": "tav",
             "lemma": "טָב",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Aramaico: Targum Onkelos (TO), tradições targúmicas",
             "manuscriptEn": "Aramaic: Targum Onkelos (TO), targumic traditions",
             "ptLiteralWord": "águas",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Águas",
+            "explanationEn": "Águas"
         },
         {
             "id": "gen.1.10.g1",
@@ -690,13 +690,13 @@
             "transliteration": "tēn",
             "lemma": "τὴν",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "seco",
             "enLiteralWord": "dry",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.g6",
@@ -707,13 +707,13 @@
             "transliteration": "xēran",
             "lemma": "ξηρὰν",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "terra,",
             "enLiteralWord": "land",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.g7",
@@ -758,13 +758,13 @@
             "transliteration": "ta",
             "lemma": "τὰ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "ajuntamentos",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.g10",
@@ -792,13 +792,13 @@
             "transliteration": "tōn",
             "lemma": "τῶν",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "águas",
             "enLiteralWord": "of",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Águas",
+            "explanationEn": "Águas"
         },
         {
             "id": "gen.1.10.g12",
@@ -979,13 +979,13 @@
             "transliteration": "vocavit",
             "lemma": "vocavit",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "chamou",
             "enLiteralWord": "God",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.l3",
@@ -1013,13 +1013,13 @@
             "transliteration": "aridam",
             "lemma": "aridam",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "à",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.l5",
@@ -1035,8 +1035,8 @@
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "seca",
             "enLiteralWord": "dry",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Palavra do texto base",
+            "explanationEn": "Palavra do texto base"
         },
         {
             "id": "gen.1.10.l6",
@@ -1047,13 +1047,13 @@
             "transliteration": "congregationesque",
             "lemma": "congregationesque",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "terra;",
             "enLiteralWord": "land",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.l7",
@@ -1064,13 +1064,13 @@
             "transliteration": "aquarum",
             "lemma": "aquarum",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "e",
             "enLiteralWord": "earth;",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.l8",
@@ -1081,13 +1081,13 @@
             "transliteration": "appellavit",
             "lemma": "appellavit",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "aos",
             "enLiteralWord": "and",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.10.l9",
@@ -1098,13 +1098,13 @@
             "transliteration": "maria",
             "lemma": "maria",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "ajuntamentos",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.l10",
@@ -1200,13 +1200,13 @@
             "transliteration": "bonum",
             "lemma": "bonum",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Latim: Vulgata (Vg)",
             "manuscriptEn": "Latin: Vulgate (Vg)",
             "ptLiteralWord": "viu",
             "enLiteralWord": "called",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Viu",
+            "explanationEn": "Viu"
         },
         {
             "id": "gen.1.10.g1",
@@ -1217,13 +1217,13 @@
             "transliteration": "Wa-samayā",
             "lemma": "ወሰመያ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "E",
             "enLiteralWord": "And",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.10.g2",
@@ -1234,13 +1234,13 @@
             "transliteration": "'Egzi'abḥēr",
             "lemma": "እግዚአብሔር",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "chamou",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Chamou",
+            "explanationEn": "Chamou"
         },
         {
             "id": "gen.1.10.g3",
@@ -1251,13 +1251,13 @@
             "transliteration": "la-yabs",
             "lemma": "ለየብስ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "o",
             "enLiteralWord": "Lord",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.g4",
@@ -1268,13 +1268,13 @@
             "transliteration": "mdra",
             "lemma": "ምድረ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "Senhor",
             "enLiteralWord": "called",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.g5",
@@ -1285,13 +1285,13 @@
             "transliteration": "wa-la-za-tagāb'a",
             "lemma": "ወለዘተጋብአ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "à",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.g6",
@@ -1302,13 +1302,13 @@
             "transliteration": "māy",
             "lemma": "ማይ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "terra",
             "enLiteralWord": "dry",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.g7",
@@ -1319,13 +1319,13 @@
             "transliteration": "samayo",
             "lemma": "ሰመዮ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "seca",
             "enLiteralWord": "land",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.g8",
@@ -1336,13 +1336,13 @@
             "transliteration": "bāḥra",
             "lemma": "ባሕረ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "terra,",
             "enLiteralWord": "earth,",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.g9",
@@ -1353,13 +1353,13 @@
             "transliteration": "wa-r'ya",
             "lemma": "ወርእየ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "e",
             "enLiteralWord": "and",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.10.g10",
@@ -1370,13 +1370,13 @@
             "transliteration": "'Egzi'abḥēr",
             "lemma": "እግዚአብሔር",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "à",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.g11",
@@ -1387,13 +1387,13 @@
             "transliteration": "kama",
             "lemma": "ከመ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "água",
             "enLiteralWord": "gathered",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Águas",
+            "explanationEn": "Águas"
         },
         {
             "id": "gen.1.10.g12",
@@ -1404,13 +1404,13 @@
             "transliteration": "śanāy",
             "lemma": "ሠናይ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Ge'ez: tradição etíope clássica (Eth)",
             "manuscriptEn": "Ge'ez: classical Ethiopic tradition (Eth)",
             "ptLiteralWord": "reunida",
             "enLiteralWord": "water",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Águas",
+            "explanationEn": "Águas"
         },
         {
             "id": "gen.1.10.s1",
@@ -1421,13 +1421,13 @@
             "transliteration": "W-qra",
             "lemma": "ܘܩܪܐ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Siríaco: Peshitta (SyrP)",
             "manuscriptEn": "Syriac: Peshitta (SyrP)",
             "ptLiteralWord": "E",
             "enLiteralWord": "And",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.10.s2",
@@ -1438,13 +1438,13 @@
             "transliteration": "Alaha",
             "lemma": "ܐܠܗܐ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Siríaco: Peshitta (SyrP)",
             "manuscriptEn": "Syriac: Peshitta (SyrP)",
             "ptLiteralWord": "chamou",
             "enLiteralWord": "God",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.s3",
@@ -1455,13 +1455,13 @@
             "transliteration": "l-yabshta",
             "lemma": "ܠܝܒܫܬܐ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Siríaco: Peshitta (SyrP)",
             "manuscriptEn": "Syriac: Peshitta (SyrP)",
             "ptLiteralWord": "Deus",
             "enLiteralWord": "called",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.s4",
@@ -1472,13 +1472,13 @@
             "transliteration": "ar'a",
             "lemma": "ܐܪܥܐ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Siríaco: Peshitta (SyrP)",
             "manuscriptEn": "Syriac: Peshitta (SyrP)",
             "ptLiteralWord": "à",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.s5",
@@ -1494,8 +1494,8 @@
             "manuscriptEn": "Syriac: Peshitta (SyrP)",
             "ptLiteralWord": "seca",
             "enLiteralWord": "dry",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Palavra do texto base",
+            "explanationEn": "Palavra do texto base"
         },
         {
             "id": "gen.1.10.s6",
@@ -1506,13 +1506,13 @@
             "transliteration": "d-maya",
             "lemma": "ܕܡܝܐ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Siríaco: Peshitta (SyrP)",
             "manuscriptEn": "Syriac: Peshitta (SyrP)",
             "ptLiteralWord": "terra;",
             "enLiteralWord": "land",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.s7",
@@ -1523,13 +1523,13 @@
             "transliteration": "qra",
             "lemma": "ܩܪܐ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Siríaco: Peshitta (SyrP)",
             "manuscriptEn": "Syriac: Peshitta (SyrP)",
             "ptLiteralWord": "e",
             "enLiteralWord": "earth;",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.s8",
@@ -1540,13 +1540,13 @@
             "transliteration": "yamama",
             "lemma": "ܝܡܡܐ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Siríaco: Peshitta (SyrP)",
             "manuscriptEn": "Syriac: Peshitta (SyrP)",
             "ptLiteralWord": "ao",
             "enLiteralWord": "and",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.10.s9",
@@ -1557,13 +1557,13 @@
             "transliteration": "w-chaza",
             "lemma": "ܘܚܙܐ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Siríaco: Peshitta (SyrP)",
             "manuscriptEn": "Syriac: Peshitta (SyrP)",
             "ptLiteralWord": "ajuntamento",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.s10",
@@ -1574,13 +1574,13 @@
             "transliteration": "Alaha",
             "lemma": "ܐܠܗܐ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Jussive",
             "manuscript": "Siríaco: Peshitta (SyrP)",
             "manuscriptEn": "Syriac: Peshitta (SyrP)",
             "ptLiteralWord": "das",
             "enLiteralWord": "gathering",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Ajuntem-se",
+            "explanationEn": "Ajuntem-se"
         },
         {
             "id": "gen.1.10.s11",
@@ -1591,13 +1591,13 @@
             "transliteration": "d-shapir",
             "lemma": "ܕܫܦܝܪ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Siríaco: Peshitta (SyrP)",
             "manuscriptEn": "Syriac: Peshitta (SyrP)",
             "ptLiteralWord": "águas",
             "enLiteralWord": "of",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Águas",
+            "explanationEn": "Águas"
         },
         {
             "id": "gen.1.10.c1",
@@ -1608,13 +1608,13 @@
             "transliteration": "uoh",
             "lemma": "uoh",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "E",
             "enLiteralWord": "And",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.10.c2",
@@ -1625,13 +1625,13 @@
             "transliteration": "af-muti",
             "lemma": "af-muti",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "chamou",
             "enLiteralWord": "God",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.c3",
@@ -1642,13 +1642,13 @@
             "transliteration": "nje",
             "lemma": "nje",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "Deus",
             "enLiteralWord": "called",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.c4",
@@ -1659,13 +1659,13 @@
             "transliteration": "phnuti",
             "lemma": "phnuti",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "ao",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.c5",
@@ -1676,13 +1676,13 @@
             "transliteration": "e",
             "lemma": "e",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "seco",
             "enLiteralWord": "dry",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.c6",
@@ -1693,13 +1693,13 @@
             "transliteration": "pi-pet-shuōou",
             "lemma": "pi-pet-shuōou",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "terra,",
             "enLiteralWord": "land",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.c7",
@@ -1710,13 +1710,13 @@
             "transliteration": "je",
             "lemma": "je",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "e",
             "enLiteralWord": "earth,",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.c8",
@@ -1727,13 +1727,13 @@
             "transliteration": "p-kahi",
             "lemma": "p-kahi",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "aos",
             "enLiteralWord": "and",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.10.c9",
@@ -1744,13 +1744,13 @@
             "transliteration": "uoh",
             "lemma": "uoh",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "ajuntamentos",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.c10",
@@ -1761,13 +1761,13 @@
             "transliteration": "ni-ma",
             "lemma": "ni-ma",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Jussive",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "das",
             "enLiteralWord": "gathering",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Ajuntem-se",
+            "explanationEn": "Ajuntem-se"
         },
         {
             "id": "gen.1.10.c11",
@@ -1778,13 +1778,13 @@
             "transliteration": "n-thouōti",
             "lemma": "n-thouōti",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "águas",
             "enLiteralWord": "places",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Águas",
+            "explanationEn": "Águas"
         },
         {
             "id": "gen.1.10.c12",
@@ -1795,13 +1795,13 @@
             "transliteration": "nte",
             "lemma": "nte",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "chamou",
             "enLiteralWord": "of",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Chamou",
+            "explanationEn": "Chamou"
         },
         {
             "id": "gen.1.10.c13",
@@ -1812,13 +1812,13 @@
             "transliteration": "ni-mōu",
             "lemma": "ni-mōu",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "mares;",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Mares",
+            "explanationEn": "Mares"
         },
         {
             "id": "gen.1.10.c14",
@@ -1829,13 +1829,13 @@
             "transliteration": "af-muti",
             "lemma": "af-muti",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "e",
             "enLiteralWord": "waters",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Águas",
+            "explanationEn": "Águas"
         },
         {
             "id": "gen.1.10.c15",
@@ -1846,13 +1846,13 @@
             "transliteration": "ero-ou",
             "lemma": "ero-ou",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "viu",
             "enLiteralWord": "He",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Viu",
+            "explanationEn": "Viu"
         },
         {
             "id": "gen.1.10.c16",
@@ -1863,13 +1863,13 @@
             "transliteration": "je",
             "lemma": "je",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "Deus",
             "enLiteralWord": "called",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.c17",
@@ -1880,13 +1880,13 @@
             "transliteration": "ni-amaiou",
             "lemma": "ni-amaiou",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "que",
             "enLiteralWord": "seas;",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Mares",
+            "explanationEn": "Mares"
         },
         {
             "id": "gen.1.10.c18",
@@ -1897,13 +1897,13 @@
             "transliteration": "uoh",
             "lemma": "uoh",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Imperf/Perf",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "era",
             "enLiteralWord": "and",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Era / Estava / Houve",
+            "explanationEn": "Era / Estava / Houve"
         },
         {
             "id": "gen.1.10.c19",
@@ -1914,13 +1914,13 @@
             "transliteration": "af-nau",
             "lemma": "af-nau",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "bom.",
             "enLiteralWord": "God",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.c20",
@@ -1931,13 +1931,13 @@
             "transliteration": "nje",
             "lemma": "nje",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "-",
             "enLiteralWord": "saw",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Viu",
+            "explanationEn": "Viu"
         },
         {
             "id": "gen.1.10.c21",
@@ -1948,13 +1948,13 @@
             "transliteration": "phnuti",
             "lemma": "phnuti",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj/Rel",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "-",
             "enLiteralWord": "that",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Que / O qual",
+            "explanationEn": "Que / O qual"
         },
         {
             "id": "gen.1.10.c22",
@@ -1970,8 +1970,8 @@
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "-",
             "enLiteralWord": "it",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Palavra do texto base",
+            "explanationEn": "Palavra do texto base"
         },
         {
             "id": "gen.1.10.c23",
@@ -1982,13 +1982,13 @@
             "transliteration": "nanef",
             "lemma": "nanef",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Imperf/Perf",
             "manuscript": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
             "manuscriptEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)",
             "ptLiteralWord": "-",
             "enLiteralWord": "was",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Era / Estava / Houve",
+            "explanationEn": "Era / Estava / Houve"
         },
         {
             "id": "gen.1.10.a1",
@@ -1999,13 +1999,13 @@
             "transliteration": "Ew",
             "lemma": "Եւ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "E",
             "enLiteralWord": "And",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.10.a2",
@@ -2016,13 +2016,13 @@
             "transliteration": "koč'eac'",
             "lemma": "կոչեաց",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "chamou",
             "enLiteralWord": "God",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.a3",
@@ -2033,13 +2033,13 @@
             "transliteration": "Astuac",
             "lemma": "Աստուած",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-Proper",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "Deus",
             "enLiteralWord": "called",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Deus / O Criador",
+            "explanationEn": "Deus / O Criador"
         },
         {
             "id": "gen.1.10.a4",
@@ -2050,13 +2050,13 @@
             "transliteration": "z-c'amaq'n",
             "lemma": "զցամաքն",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "à",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.a5",
@@ -2067,13 +2067,13 @@
             "transliteration": "erkir,",
             "lemma": "երկիր",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "terra",
             "enLiteralWord": "dry",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.a6",
@@ -2084,13 +2084,13 @@
             "transliteration": "ew",
             "lemma": "եւ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "seca",
             "enLiteralWord": "land",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.a7",
@@ -2101,13 +2101,13 @@
             "transliteration": "z-žołovs",
             "lemma": "զժողովս",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-fs",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "terra,",
             "enLiteralWord": "earth,",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Terra / Porção Seca",
+            "explanationEn": "Terra / Porção Seca"
         },
         {
             "id": "gen.1.10.a8",
@@ -2118,13 +2118,13 @@
             "transliteration": "ǰurc'n",
             "lemma": "ջուրցն",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "e",
             "enLiteralWord": "and",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Conjunção (E)",
+            "explanationEn": "Conjunção (E)"
         },
         {
             "id": "gen.1.10.a9",
@@ -2135,13 +2135,13 @@
             "transliteration": "koč'eac'",
             "lemma": "կոչեաց",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Art",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "aos",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Artigo definido",
+            "explanationEn": "Artigo definido"
         },
         {
             "id": "gen.1.10.a10",
@@ -2152,13 +2152,13 @@
             "transliteration": "covs:",
             "lemma": "ծովս",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Jussive",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "ajuntamentos",
             "enLiteralWord": "gatherings",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Ajuntem-se",
+            "explanationEn": "Ajuntem-se"
         },
         {
             "id": "gen.1.10.a11",
@@ -2169,13 +2169,13 @@
             "transliteration": "Ew",
             "lemma": "Եւ",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "Prep",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "das",
             "enLiteralWord": "of",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "De / Do",
+            "explanationEn": "De / Do"
         },
         {
             "id": "gen.1.10.a12",
@@ -2186,13 +2186,13 @@
             "transliteration": "etes",
             "lemma": "ետես",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "águas",
             "enLiteralWord": "the",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Águas",
+            "explanationEn": "Águas"
         },
         {
             "id": "gen.1.10.a13",
@@ -2203,13 +2203,13 @@
             "transliteration": "Astuac",
             "lemma": "Աստուած",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "chamou",
             "enLiteralWord": "waters",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Águas",
+            "explanationEn": "Águas"
         },
         {
             "id": "gen.1.10.a14",
@@ -2220,13 +2220,13 @@
             "transliteration": "zi",
             "lemma": "զի",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "mares.",
             "enLiteralWord": "He",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Mares",
+            "explanationEn": "Mares"
         },
         {
             "id": "gen.1.10.a15",
@@ -2237,13 +2237,13 @@
             "transliteration": "bari",
             "lemma": "բարի",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "V-Perf-3ms",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "E",
             "enLiteralWord": "called",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Chamou",
+            "explanationEn": "Chamou"
         },
         {
             "id": "gen.1.10.a16",
@@ -2254,13 +2254,13 @@
             "transliteration": "ē:",
             "lemma": "է",
             "strong": "N/A",
-            "morph": "Vocab",
+            "morph": "N-mp",
             "manuscript": "Armênio: versão armênia antiga (Arm)",
             "manuscriptEn": "Armenian: ancient Armenian version (Arm)",
             "ptLiteralWord": "viu",
             "enLiteralWord": "seas.",
-            "explanation": "Palavra identificada na base de texto (sem desmembramento detalhado)",
-            "explanationEn": "Word identified in base text (without detailed parsing)"
+            "explanation": "Mares",
+            "explanationEn": "Mares"
         }
     ]
 }
