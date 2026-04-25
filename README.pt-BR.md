@@ -7,26 +7,37 @@
 ![React](https://img.shields.io/badge/React-19-149ECA)
 ![Licença: MIT](https://img.shields.io/badge/licenca-MIT-green)
 
-Plataforma open source de estudo bíblico interlinear com arquitetura static-first.
-O foco é unir fidelidade aos manuscritos, análise linguística por token e entrega rápida em hospedagem estática.
+Projeto open source de estudo bíblico interlinear de alto nível, utilizando Next.js para geração estática de alta performance e roteamento dinâmico. O foco é fornecer uma ferramenta acadêmica e espiritual gratuita para análise profunda dos manuscritos originais.
 
-## Por que este projeto
+## Objetivos do Projeto
 
-- Preservar acesso aos testemunhos textuais antigos em uma interface moderna.
-- Oferecer tradução literal por verso e por palavra.
-- Facilitar comparação entre tradições linguísticas relevantes.
-- Escalar por fases sem inflar infraestrutura no inicio.
+O Biblia.Creio.EU oferece uma experiência completa de estudo interlinear:
 
-## Capacidades principais
+- **Textos de Manuscritos Antigos:** Hebraico, Aramaico, Grego, Latim, Ge'ez, Siríaco, Copta e Armênio.
+- **Tradução Literal Curada:** Versão literal por verso e palavra-por-palavra desenvolvida pela equipe.
+- **Ferramental Acadêmico:** Explicação léxica, morfologia e números de Strong por palavra.
+- **Comparativo Multitradicional:** Análise simultânea entre os principais testemunhos linguísticos da história bíblica.
 
-- Leitura interlinear por token (surface, transliteration, lemma, morfologia, referências lexicais).
+## Segurança Jurídica e Transparência
+
+Este projeto é construído sobre o pilar dos **Dados Abertos (Open Data)**. Para garantir a segurança jurídica de todos os colaboradores e usuários:
+
+- **Domínio Público:** Todas as bases de dados linguísticas (lemas, Strong, morfologia e dicionários base) utilizam exclusivamente obras de domínio público (como Jastrow, Dillmann, LSJ, L&S).
+- **Uso Justo (Fair Use):** Qualquer referência pontual a léxicos modernos é restrita ao âmbito acadêmico e comparativo, amparada pelo direito de citação e uso justo, sem redistribuição de bases protegidas.
+- **Produção Original:** As traduções literais e a organização dos dados são de propriedade da equipe Biblia.Creio.EU e licenciadas abertamente.
+
+Para detalhes completos e lista de obras, consulte [SOURCES-LICENSES.md](SOURCES-LICENSES.md).
+
+## Capacidades Principais
+
+- Leitura interlinear por token (superfície, transliteração, lema, morfologia, referências lexicais).
 - Comparação de testemunhos por verso.
 - Navegação livro -> capítulo -> verso por rotas dinâmicas.
 - Filtros em tempo real nas tabelas interlineares.
 - Superfície bilíngue (PT/EN).
 - Exportação estática otimizada para GitHub Pages.
 
-## Stack tecnológica
+## Stack Tecnológica
 
 | Camada | Tecnologia |
 | --- | --- |
@@ -36,92 +47,42 @@ O foco é unir fidelidade aos manuscritos, análise linguística por token e ent
 | Hospedagem | GitHub Pages (estática) |
 | Dados | JSON pré-gerado em public/data |
 
-## Arquitetura por fases
+## Arquitetura
 
-### Fase 1 (atual)
-Exportação estática com datasets JSON pré-gerados.
+### Exportação Estática + JSON
+As páginas são geradas no momento do build via Next.js, garantindo velocidade máxima e SEO otimizado. O roteamento dinâmico permite navegar entre livros, capítulos e versos de forma instantânea.
 
-- Geração de páginas no build.
-- Templates dinâmicos para páginas interlineares.
-- Redirecionamento por idioma do navegador em / para /pt ou /en.
-- Dados servidos como arquivos estáticos em public/data.
+### Estrutura de Dados
+Os dados são servidos como arquivos estáticos a partir de `public/data/`, permitindo que o projeto seja hospedado em qualquer servidor de arquivos estáticos sem necessidade de banco de dados ativo.
 
-### Fase 2
-Camada leve de API/busca sem quebrar contratos de URL da fase estática.
+## Estrutura do Projeto
 
-### Fase 3
-Backend completo em VPS para busca avançada, jobs de processamento e contas.
+- `src/app/`: App Router do Next.js (lógica de visualização).
+- `public/data/`: Banco de dados estruturado em JSON.
+- `public/assets/`: Assets estáticos e estilos globais.
+- `next.config.mjs`: Configuração de exportação estática.
 
-## Estrutura do projeto
+## Como Rodar Localmente
 
-```text
-src/app/                # paginas e layouts (App Router)
-public/data/            # datasets de livros, capítulos e versos
-public/assets/          # CSS/JS e mídias estáticas
-next.config.mjs         # configuração de exportação estática
-```
+1. Instale as dependências: `npm install`
+2. Inicie o servidor: `npm run dev`
+3. Gere o build estático: `npm run build`
+4. Acesse `http://localhost:3000`
 
-## Como rodar localmente
-
-Requisitos:
-
-- Node.js 20+
-- npm
-
-Instalar dependências:
-
-```bash
-npm install
-```
-
-Iniciar ambiente de desenvolvimento:
-
-```bash
-npm run dev
-```
-
-Gerar build estático:
-
-```bash
-npm run build
-```
-
-URL local: http://localhost:3000
-
-## Modelo de dados (visão geral)
-
-```text
-public/data/books.json
-public/data/books/{livro}/chapters/{capítulo}.json
-public/data/verses/{livro}.{capítulo}.{verso}.json
-```
-
-Cada JSON de verso pode incluir:
-
-- referência canônica
-- textos-fonte por idioma
-- metadados de testemunhos
-- traduções literais
-- lista de tokens com campos lexicais e morfológicos
-
-## Publicacao
+## Publicação
 
 - O CI executa build e deploy com GitHub Actions.
-- npm run build gera a pasta estática out.
-- out e publicada automaticamente na branch gh-pages.
+- `npm run build` gera a pasta estática `out`.
+- `out` é publicada automaticamente na branch `gh-pages`.
 - URL esperada: https://cristianismohumilde.github.io/biblia.eu.creio/
 
 ## Contribuição
 
-Antes de abrir PR, leia:
-
+Antes de abrir um PR, leia:
 - [CONTRIBUTING.pt-BR.md](CONTRIBUTING.pt-BR.md)
 - [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Licenciamento
 
-Código e dados textuais seguem políticas diferentes.
-
-- Licença de código: [LICENSE](LICENSE)
-- Política de dados: [LICENSE-DATA](LICENSE-DATA)
-- Status de licenciamento das fontes: [SOURCES-LICENSES.md](SOURCES-LICENSES.md)
+- **Código:** Licença MIT (ver [LICENSE](LICENSE)).
+- **Dados:** Política de uso livre para estudo e redistribuição (ver [LICENSE-DATA](LICENSE-DATA) e [SOURCES-LICENSES.md](SOURCES-LICENSES.md)).
