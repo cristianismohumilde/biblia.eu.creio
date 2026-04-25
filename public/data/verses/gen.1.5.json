@@ -12,6 +12,45 @@
         "greek": "καὶ ἐκάλεσεν ὁ θεὸς τὸ φῶς ἡμέραν καὶ τὸ σκότος ἐκάλεσεν νύκτα καὶ ἐγένετο ἑσπέρα καὶ ἐγένετο πρωί ἡμέρα μία",
         "latin": "Appellavitque lucem Diem et tenebras Noctem factumque est vespere et mane dies unus"
     },
+    "hebrewWitnesses": [
+        {
+            "id": "leningradensis",
+            "label": "Codex Leningradensis (B19A)",
+            "text": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
+            "transliteration": "Vayikra Elohim la-or yom ve-lachoshek kara laylah vayehi erev vayehi voker yom echad",
+            "literalPt": "E Deus chamou à luz Dia; e às trevas chamou Noite. E foi a tarde e a manhã, o dia primeiro."
+        },
+        {
+            "id": "aleppo",
+            "label": "Aleppo Codex (A)",
+            "text": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
+            "transliteration": "Vayikra Elohim la-or yom ve-lachoshek kara laylah vayehi erev vayehi voker yom echad",
+            "literalPt": "E Deus chamou à luz Dia; e às trevas chamou Noite. E foi a tarde e a manhã, o dia primeiro."
+        },
+        {
+            "id": "qumran",
+            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
+            "text": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
+            "transliteration": "Vayikra Elohim la-or yom ve-lachoshek kara laylah vayehi erev vayehi voker yom echad",
+            "literalPt": "E Deus chamou à luz Dia; e às trevas chamou Noite. E foi a tarde e a manhã, o dia primeiro."
+        }
+    ],
+    "greekWitnesses": [
+        {
+            "id": "lxx",
+            "label": "Septuaginta (LXX)",
+            "text": "καὶ ἐκάλεσεν ὁ θεὸς τὸ φῶς ἡμέραν καὶ τὸ σκότος ἐκάλεσεν νύκτα καὶ ἐγένετο ἑσπέρα καὶ ἐγένετο πρωί ἡμέρα μία",
+            "transliteration": "kai ekalesen ho theos to phōs hēmeran kai to skotos ekalesen nykta kai egeneto hespera kai egeneto prōi hēmera mia",
+            "literalPt": "E chamou Deus a luz dia e a treva chamou noite; e houve tarde e houve manhã, dia um."
+        },
+        {
+            "id": "byzantine",
+            "label": "Tradição Bizantina Grega (Byz/RP)",
+            "text": "καὶ ἐκάλεσεν ὁ θεὸς τὸ φῶς ἡμέραν καὶ τὸ σκότος ἐκάλεσεν νύκτα καὶ ἐγένετο ἑσπέρα καὶ ἐγένετο πρωί ἡμέρα μία",
+            "transliteration": "kai ekalesen ho theos to phōs hēmeran kai to skotos ekalesen nykta kai egeneto hespera kai egeneto prōi hēmera mia",
+            "literalPt": "E chamou Deus a luz dia e a treva chamou noite; e houve tarde e houve manhã, dia um."
+        }
+    ],
     "ptLiteralVerse": "E Deus chamou à luz Dia; e às trevas chamou Noite. E foi a tarde e a manhã, o dia primeiro.",
     "enLiteralVerse": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
     "tokens": [

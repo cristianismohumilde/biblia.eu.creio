@@ -46,12 +46,33 @@
             "text": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל פְּנֵי הַמָּיִם",
             "transliteration": "Ve-haaretz hayetah tohu va-vohu ve-choshek al penei tehom ve-ruach Elohim merachefet al penei hamayim",
             "literalPt": "E a terra era vã e vazia, e trevas [estavam] sobre a face do abismo, e o Espírito de Deus pairava sobre a face das águas."
+        },
+        {
+            "id": "aleppo",
+            "label": "Aleppo Codex (A)",
+            "text": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל פְּנֵי הַמָּיִם",
+            "transliteration": "Ve-haaretz hayetah tohu va-vohu ve-choshek al penei tehom ve-ruach Elohim merachefet al penei hamayim",
+            "literalPt": "E a terra era vã e vazia, e trevas [estavam] sobre a face do abismo, e o Espírito de Deus pairava sobre a face das águas."
+        },
+        {
+            "id": "qumran",
+            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
+            "text": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל פְּנֵי הַמָּיִם",
+            "transliteration": "Ve-haaretz hayetah tohu va-vohu ve-choshek al penei tehom ve-ruach Elohim merachefet al penei hamayim",
+            "literalPt": "E a terra era vã e vazia, e trevas [estavam] sobre a face do abismo, e o Espírito de Deus pairava sobre a face das águas."
         }
     ],
     "greekWitnesses": [
         {
             "id": "lxx",
             "label": "Septuaginta (LXX)",
+            "text": "ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος",
+            "transliteration": "he de ge en ahoratos kai akataskeuastos kai skotos epano tes abyssou kai pneuma theou epephereto epano tou hydatos",
+            "literalPt": "E a terra era invisível e inacabada, e trevas estavam sobre o abismo, e o espírito de Deus movia-se sobre a água."
+        },
+        {
+            "id": "byzantine",
+            "label": "Tradição Bizantina Grega (Byz/RP)",
             "text": "ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος",
             "transliteration": "he de ge en ahoratos kai akataskeuastos kai skotos epano tes abyssou kai pneuma theou epephereto epano tou hydatos",
             "literalPt": "E a terra era invisível e inacabada, e trevas estavam sobre o abismo, e o espírito de Deus movia-se sobre a água."

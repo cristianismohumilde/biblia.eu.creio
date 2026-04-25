@@ -12,6 +12,45 @@
         "greek": "καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους",
         "latin": "Et vidit Deus lucem quod esset bona et divisit lucem ac tenebras"
     },
+    "hebrewWitnesses": [
+        {
+            "id": "leningradensis",
+            "label": "Codex Leningradensis (B19A)",
+            "text": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
+            "transliteration": "Vayar Elohim et ha-or ki tov vayavdel Elohim bein ha-or u-vein ha-choshek",
+            "literalPt": "E viu Deus que a luz era boa; e fez Deus separação entre a luz e as trevas."
+        },
+        {
+            "id": "aleppo",
+            "label": "Aleppo Codex (A)",
+            "text": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
+            "transliteration": "Vayar Elohim et ha-or ki tov vayavdel Elohim bein ha-or u-vein ha-choshek",
+            "literalPt": "E viu Deus que a luz era boa; e fez Deus separação entre a luz e as trevas."
+        },
+        {
+            "id": "qumran",
+            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
+            "text": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
+            "transliteration": "Vayar Elohim et ha-or ki tov vayavdel Elohim bein ha-or u-vein ha-choshek",
+            "literalPt": "E viu Deus que a luz era boa; e fez Deus separação entre a luz e as trevas."
+        }
+    ],
+    "greekWitnesses": [
+        {
+            "id": "lxx",
+            "label": "Septuaginta (LXX)",
+            "text": "καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους",
+            "transliteration": "kai eiden ho theos to phōs hoti kalon kai diechōrisen ho theos ana meson tou phōtos kai ana meson tou skotous",
+            "literalPt": "E viu Deus a luz que [era] boa; e dividiu Deus entre o meio da luz e entre o meio das trevas."
+        },
+        {
+            "id": "byzantine",
+            "label": "Tradição Bizantina Grega (Byz/RP)",
+            "text": "καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους",
+            "transliteration": "kai eiden ho theos to phōs hoti kalon kai diechōrisen ho theos ana meson tou phōtos kai ana meson tou skotous",
+            "literalPt": "E viu Deus a luz que [era] boa; e dividiu Deus entre o meio da luz e entre o meio das trevas."
+        }
+    ],
     "ptLiteralVerse": "E viu Deus que a luz era boa; e fez Deus separação entre a luz e as trevas.",
     "enLiteralVerse": "And God saw the light, that it was good: and God divided the light from the darkness.",
     "tokens": [

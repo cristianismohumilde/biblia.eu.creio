@@ -12,6 +12,45 @@
         "greek": "καὶ εἶπεν ὁ θεός Γενηθήτω φῶς καὶ ἐγένετο φῶς",
         "latin": "Dixitque Deus fiat lux et facta est lux"
     },
+    "hebrewWitnesses": [
+        {
+            "id": "leningradensis",
+            "label": "Codex Leningradensis (B19A)",
+            "text": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי אוֹר",
+            "transliteration": "Vayomer Elohim yehi or vayehi or",
+            "literalPt": "E disse Deus: Haja luz; e houve luz."
+        },
+        {
+            "id": "aleppo",
+            "label": "Aleppo Codex (A)",
+            "text": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי אוֹר",
+            "transliteration": "Vayomer Elohim yehi or vayehi or",
+            "literalPt": "E disse Deus: Haja luz; e houve luz."
+        },
+        {
+            "id": "qumran",
+            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
+            "text": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי אוֹר",
+            "transliteration": "Vayomer Elohim yehi or vayehi or",
+            "literalPt": "E disse Deus: Haja luz; e houve luz."
+        }
+    ],
+    "greekWitnesses": [
+        {
+            "id": "lxx",
+            "label": "Septuaginta (LXX)",
+            "text": "καὶ εἶπεν ὁ θεός Γενηθήτω φῶς καὶ ἐγένετο φῶς",
+            "transliteration": "kai eipen ho theos genethetō phōs kai egeneto phōs",
+            "literalPt": "E disse Deus: Seja feita luz; e houve luz."
+        },
+        {
+            "id": "byzantine",
+            "label": "Tradição Bizantina Grega (Byz/RP)",
+            "text": "καὶ εἶπεν ὁ θεός Γενηθήτω φῶς καὶ ἐγένετο φῶς",
+            "transliteration": "kai eipen ho theos genethetō phōs kai egeneto phōs",
+            "literalPt": "E disse Deus: Seja feita luz; e houve luz."
+        }
+    ],
     "ptLiteralVerse": "E disse Deus: 'Haja luz'; e houve luz.",
     "enLiteralVerse": "And God said, 'Let there be light'; and there was light.",
     "tokens": [
