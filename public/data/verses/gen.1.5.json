@@ -1,0 +1,32 @@
+{
+    "schemaVersion": "1.1.0",
+    "ref": { "book": "gen", "chapter": 1, "verse": 5 },
+    "translation": {
+        "author": "Equipe Biblia.Creio.EU",
+        "authorEn": "Biblia.Creio.EU Team",
+        "baseText": "Codex Leningradensis / LXX / Vulgata",
+        "baseTextEn": "Codex Leningradensis / LXX / Vulgate"
+    },
+    "sourceTexts": {
+        "hebrew": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
+        "greek": "καὶ ἐκάλεσεν ὁ θεὸς τὸ φῶς ἡμέραν καὶ τὸ σκότος ἐκάλεσεν νύκτα καὶ ἐγένετο ἑσπέρα καὶ ἐγένετο πρωί ἡμέρα μία",
+        "latin": "Appellavitque lucem Diem et tenebras Noctem factumque est vespere et mane dies unus"
+    },
+    "ptLiteralVerse": "E Deus chamou à luz Dia; e às trevas chamou Noite. E foi a tarde e a manhã, o dia primeiro.",
+    "enLiteralVerse": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
+    "tokens": [
+        { "id": "gen.1.5.h1", "lang": "hebrew", "surface": "וַיִּקְרָא", "transliteration": "vayikra", "lemma": "קָרָא", "strong": "H7121", "morph": "Conj + Verbo", "ptLiteralWord": "e chamou", "enLiteralWord": "and called" },
+        { "id": "gen.1.5.h2", "lang": "hebrew", "surface": "אֱלֹהִים", "transliteration": "Elohim", "lemma": "אֱלֹהִים", "strong": "H430", "morph": "Subst", "ptLiteralWord": "Deus", "enLiteralWord": "God" },
+        { "id": "gen.1.5.h3", "lang": "hebrew", "surface": "לָאוֹר", "transliteration": "la-or", "lemma": "אוֹר", "strong": "H216", "morph": "Prep + Art + Subst", "ptLiteralWord": "à luz", "enLiteralWord": "to the light" },
+        { "id": "gen.1.5.h4", "lang": "hebrew", "surface": "יוֹם", "transliteration": "yom", "lemma": "יוֹם", "strong": "H3117", "morph": "Subst", "ptLiteralWord": "dia", "enLiteralWord": "day" },
+        { "id": "gen.1.5.h5", "lang": "hebrew", "surface": "וְלַחֹשֶׁךְ", "transliteration": "ve-lachoshek", "lemma": "חֹשֶׁךְ", "strong": "H2822", "morph": "Conj + Prep + Art + Subst", "ptLiteralWord": "e às trevas", "enLiteralWord": "and to the darkness" },
+        { "id": "gen.1.5.h6", "lang": "hebrew", "surface": "קָרָא", "transliteration": "kara", "lemma": "קָרָא", "strong": "H7121", "morph": "Verbo", "ptLiteralWord": "chamou", "enLiteralWord": "called" },
+        { "id": "gen.1.5.h7", "lang": "hebrew", "surface": "לָיְלָה", "transliteration": "laylah", "lemma": "לַיְלָה", "strong": "H3915", "morph": "Subst", "ptLiteralWord": "noite", "enLiteralWord": "night" },
+        { "id": "gen.1.5.h8", "lang": "hebrew", "surface": "וַיְהִי", "transliteration": "vayehi", "lemma": "הָיָה", "strong": "H1961", "morph": "Conj + Verbo", "ptLiteralWord": "e houve", "enLiteralWord": "and there was" },
+        { "id": "gen.1.5.h9", "lang": "hebrew", "surface": "עֶרֶב", "transliteration": "erev", "lemma": "עֶרֶב", "strong": "H6153", "morph": "Subst", "ptLiteralWord": "tarde", "enLiteralWord": "evening" },
+        { "id": "gen.1.5.h10", "lang": "hebrew", "surface": "וַיְהִי", "transliteration": "vayehi", "lemma": "הָיָה", "strong": "H1961", "morph": "Conj + Verbo", "ptLiteralWord": "e houve", "enLiteralWord": "and there was" },
+        { "id": "gen.1.5.h11", "lang": "hebrew", "surface": "בֹקֶר", "transliteration": "voker", "lemma": "בֹּקֶר", "strong": "H1242", "morph": "Subst", "ptLiteralWord": "manhã", "enLiteralWord": "morning" },
+        { "id": "gen.1.5.h12", "lang": "hebrew", "surface": "יוֹם", "transliteration": "yom", "lemma": "יוֹם", "strong": "H3117", "morph": "Subst", "ptLiteralWord": "dia", "enLiteralWord": "day" },
+        { "id": "gen.1.5.h13", "lang": "hebrew", "surface": "אֶחָד", "transliteration": "echad", "lemma": "אֶחָד", "strong": "H259", "morph": "Num", "ptLiteralWord": "um / primeiro", "enLiteralWord": "one / first" }
+    ]
+}

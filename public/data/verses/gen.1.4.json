@@ -1,0 +1,31 @@
+{
+    "schemaVersion": "1.1.0",
+    "ref": { "book": "gen", "chapter": 1, "verse": 4 },
+    "translation": {
+        "author": "Equipe Biblia.Creio.EU",
+        "authorEn": "Biblia.Creio.EU Team",
+        "baseText": "Codex Leningradensis / LXX / Vulgata",
+        "baseTextEn": "Codex Leningradensis / LXX / Vulgate"
+    },
+    "sourceTexts": {
+        "hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
+        "greek": "καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους",
+        "latin": "Et vidit Deus lucem quod esset bona et divisit lucem ac tenebras"
+    },
+    "ptLiteralVerse": "E viu Deus que a luz era boa; e fez Deus separação entre a luz e as trevas.",
+    "enLiteralVerse": "And God saw the light, that it was good: and God divided the light from the darkness.",
+    "tokens": [
+        { "id": "gen.1.4.h1", "lang": "hebrew", "surface": "וַיַּרְא", "transliteration": "vayar", "lemma": "רָאָה", "strong": "H7200", "morph": "Conj + Verbo", "ptLiteralWord": "e viu", "enLiteralWord": "and saw" },
+        { "id": "gen.1.4.h2", "lang": "hebrew", "surface": "אֱלֹהִים", "transliteration": "Elohim", "lemma": "אֱלֹהִים", "strong": "H430", "morph": "Subst", "ptLiteralWord": "Deus", "enLiteralWord": "God" },
+        { "id": "gen.1.4.h3", "lang": "hebrew", "surface": "אֶת", "transliteration": "et", "lemma": "אֵת", "strong": "H853", "morph": "Marcador", "ptLiteralWord": "(a)", "enLiteralWord": "(the)" },
+        { "id": "gen.1.4.h4", "lang": "hebrew", "surface": "הָאוֹר", "transliteration": "ha-or", "lemma": "אוֹר", "strong": "H216", "morph": "Art + Subst", "ptLiteralWord": "luz", "enLiteralWord": "light" },
+        { "id": "gen.1.4.h5", "lang": "hebrew", "surface": "כִּי", "transliteration": "ki", "lemma": "כִּי", "strong": "H3588", "morph": "Conj", "ptLiteralWord": "que / pois", "enLiteralWord": "that / for" },
+        { "id": "gen.1.4.h6", "lang": "hebrew", "surface": "טוֹב", "transliteration": "tov", "lemma": "טוֹב", "strong": "H2896", "morph": "Adj", "ptLiteralWord": "boa", "enLiteralWord": "good" },
+        { "id": "gen.1.4.h7", "lang": "hebrew", "surface": "וַיַּבְדֵּל", "transliteration": "vayavdel", "lemma": "בָּדַל", "strong": "H914", "morph": "Conj + Verbo", "ptLiteralWord": "e separou", "enLiteralWord": "and divided" },
+        { "id": "gen.1.4.h8", "lang": "hebrew", "surface": "אֱלֹהִים", "transliteration": "Elohim", "lemma": "אֱלֹהִים", "strong": "H430", "morph": "Subst", "ptLiteralWord": "Deus", "enLiteralWord": "God" },
+        { "id": "gen.1.4.h9", "lang": "hebrew", "surface": "בֵּין", "transliteration": "bein", "lemma": "בֵּין", "strong": "H996", "morph": "Prep", "ptLiteralWord": "entre", "enLiteralWord": "between" },
+        { "id": "gen.1.4.h10", "lang": "hebrew", "surface": "הָאוֹר", "transliteration": "ha-or", "lemma": "אוֹר", "strong": "H216", "morph": "Art + Subst", "ptLiteralWord": "a luz", "enLiteralWord": "the light" },
+        { "id": "gen.1.4.h11", "lang": "hebrew", "surface": "וּבֵין", "transliteration": "u-vein", "lemma": "בֵּין", "strong": "H996", "morph": "Conj + Prep", "ptLiteralWord": "e entre", "enLiteralWord": "and between" },
+        { "id": "gen.1.4.h12", "lang": "hebrew", "surface": "הַחֹשֶׁךְ", "transliteration": "ha-choshek", "lemma": "חֹשֶׁךְ", "strong": "H2822", "morph": "Art + Subst", "ptLiteralWord": "as trevas", "enLiteralWord": "the darkness" }
+    ]
+}
