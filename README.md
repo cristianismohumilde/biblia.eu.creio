@@ -1,88 +1,91 @@
-# Biblia.Creio.EU
+# 📜 Biblia.Creio.EU
 
-[Leia em português](README.pt-BR.md)
+[Leia em português 🇧🇷](README.pt-BR.md)
 
-[![Deploy Next.js site to Pages](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml)
-![Next.js](https://img.shields.io/badge/Next.js-16-black)
-![React](https://img.shields.io/badge/React-19-149ECA)
-![License: MIT](https://img.shields.io/badge/license-MIT-green)
+<div align="center">
+  <h3>🏛️ Ancient Manuscripts | 🔍 Interlinear Study | 🚀 Static-First Architecture</h3>
 
-High-level open source interlinear Bible study project, utilizing Next.js for high-performance static generation and dynamic routing. The focus is to provide a free academic and spiritual tool for deep analysis of original manuscripts.
+  [![Deploy Next.js site to Pages](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml)
+  ![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
+  ![React](https://img.shields.io/badge/React-19-149ECA?logo=react)
+  ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+</div>
 
-## Project Objectives
+---
 
-Biblia.Creio.EU provides a complete interlinear study experience:
+**Biblia.Creio.EU** is a high-level open-source interlinear Bible study platform. Built with **Next.js** for high-performance static generation, it provides a professional tool for deep analysis of original manuscripts across multiple linguistic traditions.
 
-- **Ancient Manuscript Texts:** Hebrew, Aramaic, Greek, Latin, Ge'ez, Syriac, Coptic, and Armenian.
-- **Curation-based Literal Translation:** Verse-level and word-by-word literal translations developed by the team.
-- **Academic Toolset:** Lexical explanations, morphology, and Strong's numbers per token.
-- **Multi-traditional Comparison:** Simultaneous analysis across key linguistic witnesses of biblical history.
+## 🎯 Project Objectives
 
-## Legal Compliance & Transparency
+Biblia.Creio.EU provides a complete, academia-grade interlinear experience:
 
-This project is built on the pillar of **Open Data**. To ensure the legal safety of all contributors and users:
+- **💎 Ancient Manuscript Witnesses:** Hebrew, Aramaic, Greek, Latin, Ge'ez, Syriac, Coptic, and Armenian.
+- **✍️ Curation-based Literal Translation:** Word-for-word literal translations developed for structural fidelity.
+- **📚 Multi-Language Lexicons:** Comprehensive support for **Strong (Hebrew/Greek)**, **Jastrow (Aramaic)**, **Dillmann (Ge'ez)**, **LSJ**, **L&S**, and more.
+- **⚖️ Multi-traditional Comparison:** Simultaneous analysis across key linguistic witnesses of biblical history.
 
-- **Public Domain:** All linguistic databases (lemmas, Strong, morphology, and base dictionaries) use exclusively public domain works (e.g., Jastrow, Dillmann, LSJ, L&S).
-- **Fair Use:** Any specific references to modern lexicons are restricted to academic and comparative contexts, supported by the right of citation and fair use, without redistribution of protected databases.
-- **Original Production:** Literal translations and data organization are the property of the Biblia.Creio.EU team and are openly licensed.
+## 🛡️ Legal Compliance & Transparency
 
-For full details and a list of works, see [SOURCES-LICENSES.md](SOURCES-LICENSES.md).
+This project is a pillar of **Open Data**. We ensure absolute legal safety for contributors and users:
 
-## Core Capabilities
+- **🔓 Public Domain:** All linguistic databases (lemmas, morphology, and base dictionaries) use exclusively public domain works.
+- **🔍 Fair Use:** Specific references to modern scholarship are restricted to academic comparative contexts (Right of Citation).
+- **🎨 Original Production:** All literal translations and data structures are original productions of the team, openly licensed.
 
-- Interlinear reading by token (surface, transliteration, lemma, morphology, lexical references).
-- Manuscript/witness comparison per verse.
-- Book -> chapter -> verse navigation with dynamic routes.
-- Real-time filtering for interlinear token tables.
-- Bilingual product surface (PT/EN).
-- Static export optimized for low-cost hosting.
+> [!IMPORTANT]
+> For full details and a list of works, see [SOURCES-LICENSES.md](SOURCES-LICENSES.md) and the [Sources Page](https://cristianismohumilde.github.io/biblia.eu.creio/en/fontes).
 
-## Technology
+## ⚡ Core Capabilities
 
-| Layer | Stack |
+- **📖 Token-Level Interlinear:** Surface text, transliteration, lemma, morphology, and lexical references.
+- **🔄 Witness Comparison:** Compare different manuscripts (Leningradensis, LXX, Vulgate, etc.) per verse.
+- **📍 Dynamic Navigation:** Book ➔ Chapter ➔ Verse navigation with SEO-optimized routes.
+- **🔍 Real-time Filtering:** Search and filter tokens in interlinear tables instantly.
+- **🌓 Theme Support:** Premium Dark and Light modes for long study sessions.
+
+## 🛠️ Technology Stack
+
+| Layer | Technology |
 | --- | --- |
-| Framework | [Next.js](https://nextjs.org/) App Router |
-| UI | Vanilla CSS + custom design system |
-| Runtime | React 19 |
-| Delivery | GitHub Pages static hosting |
-| Data | Pre-generated JSON in public/data |
+| **Framework** | [Next.js](https://nextjs.org/) App Router |
+| **UI/UX** | Vanilla CSS + Premium Design System |
+| **Runtime** | React 19 |
+| **Hosting** | GitHub Pages (Static Export) |
+| **Data** | Pre-generated JSON-LD ready Datasets |
 
-## Architecture
+## 🏗️ Architecture
 
-### Static Export + JSON
-Pages are generated at build time using Next.js, ensuring maximum speed and optimized SEO. Dynamic routing allows for instant navigation between books, chapters, and verses.
+- **🚀 Static Export:** Pages are pre-generated at build time for maximum speed and SEO.
+- **📦 Data Structure:** Served as static files from `public/data/`, requiring no active database.
+- **🗺️ Dynamic Routing:** Instant navigation powered by Next.js client-side routing.
 
-### Data Structure
-Data is served as static files from `public/data/`, allowing the project to be hosted on any static file server without the need for an active database.
+## 💻 Run Locally
 
-## Project Structure
+1. **Clone & Install:**
+   ```bash
+   npm install
+   ```
+2. **Launch Dev:**
+   ```bash
+   npm run dev
+   ```
+3. **Build Static:**
+   ```bash
+   npm run build
+   ```
 
-- `src/app/`: Next.js App Router (view logic).
-- `public/data/`: Structured JSON database.
-- `public/assets/`: Static assets and global styles.
-- `next.config.mjs`: Static export configuration.
+## 🤝 Contributing
 
-## Run Locally
-
-1. Install dependencies: `npm install`
-2. Run development server: `npm run dev`
-3. Build static output: `npm run build`
-4. Open `http://localhost:3000`
-
-## Deployment
-
-- CI builds with GitHub Actions.
-- `npm run build` generates the static `out` directory.
-- `out` is published to `gh-pages`.
-- Expected public URL: https://cristianismohumilde.github.io/biblia.eu.creio/
-
-## Contributing
-
-Before opening PRs, read:
+We welcome scholars and developers! Before opening PRs, please read:
 - [CONTRIBUTING.md](CONTRIBUTING.md)
 - [CONTRIBUTING.pt-BR.md](CONTRIBUTING.pt-BR.md)
 
-## Licensing
+## 📄 Licensing
 
-- **Code:** MIT License (see [LICENSE](LICENSE)).
-- **Data:** Free use policy for study and redistribution (see [LICENSE-DATA](LICENSE-DATA) and [SOURCES-LICENSES.md](SOURCES-LICENSES.md)).
+- **Code:** [MIT License](LICENSE)
+- **Data:** Open data policy for study and redistribution (see [LICENSE-DATA](LICENSE-DATA)).
+
+---
+<div align="center">
+  Developed with ❤️ by the Biblia.Creio.EU Team
+</div>
