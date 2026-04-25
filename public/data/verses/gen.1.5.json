@@ -1,5 +1,10 @@
 {
     "schemaVersion": "1.1.0",
+    "ref": {
+        "book": "gen",
+        "chapter": 1,
+        "verse": 5
+    },
     "translation": {
         "author": "Equipe Biblia.Creio.EU",
         "authorEn": "Biblia.Creio.EU Team",
@@ -24,11 +29,6 @@
         "armenian": "Armênio: versão armênia antiga",
         "armenianEn": "Armenian: ancient Armenian version"
     },
-    "ref": {
-        "book": "gen",
-        "chapter": 1,
-        "verse": 5
-    },
     "sourceTexts": {
         "hebrew": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
         "aramaic": "וּקְרָא יְיָ לִנְהוֹרָא יְמָמָא וְלַחֲשׁוֹכָא קְרָא לֵילְיָא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹמָא חַד",
@@ -39,27 +39,84 @@
         "coptic": "uoh af-muti nje phnuti e p-ōini je ehoou uoh p-kaki af-muti ero-f je ejōrh uoh a ruhan shōpi uoh a htoou shōpi p-huu n-houit",
         "armenian": "Եւ կոչեաց Աստուած զլոյսն տիւ, եւ զխաւարն կոչեաց գիշեր: Եւ եղեւ ընդ երեկս եւ եղեւ ընդ առաւօտս օր մի:"
     },
+    "literalTranslations": [
+        {
+            "lang": "hebrew",
+            "pt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "en": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
+        },
+        {
+            "lang": "aramaic",
+            "pt": "E chamou o Senhor à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "en": "And the Lord called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
+        },
+        {
+            "lang": "greek",
+            "pt": "E chamou Deus à luz dia e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "en": "And God called the light day and the darkness He called night; and there was evening and there was morning, day one."
+        },
+        {
+            "lang": "latin",
+            "pt": "E chamou à luz dia e às trevas noite; e foi feito tarde e manhã, dia um.",
+            "en": "And He called the light day and the darkness night; and it was made evening and morning, day one."
+        },
+        {
+            "lang": "geez",
+            "pt": "E chamou o Senhor à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "en": "And the Lord called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
+        },
+        {
+            "lang": "syriac",
+            "pt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "en": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
+        },
+        {
+            "lang": "coptic",
+            "pt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, o primeiro dia.",
+            "en": "And God called the light day, and the darkness He called night; and there was evening and there was morning, the first day."
+        },
+        {
+            "lang": "armenian",
+            "pt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "en": "And God called the light day, and the darkness He called night; and there was evening and there was morning, day one."
+        }
+    ],
+    "ptLiteralVerse": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+    "enLiteralVerse": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one.",
     "hebrewWitnesses": [
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
             "text": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
-            "transliteration": "Vayikra Elohim la-or yom ve-lachoshek kara laylah vayehi erev vayehi voker yom echad",
-            "literalPt": "E Deus chamou à luz Dia; e às trevas chamou Noite. E foi a tarde e a manhã, o dia primeiro."
+            "transliteration": "Vayikra Elohim laor yom velachoshek qara laylah vayehi erev vayehi voker yom echad",
+            "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "literalEn": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
         },
         {
             "id": "aleppo",
             "label": "Aleppo Codex (A)",
             "text": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
-            "transliteration": "Vayikra Elohim la-or yom ve-lachoshek kara laylah vayehi erev vayehi voker yom echad",
-            "literalPt": "E Deus chamou à luz Dia; e às trevas chamou Noite. E foi a tarde e a manhã, o dia primeiro."
+            "transliteration": "Vayikra Elohim laor yom velachoshek qara laylah vayehi erev vayehi voker yom echad",
+            "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "literalEn": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
         },
         {
             "id": "qumran",
             "label": "Dead Sea Scrolls (Qumran, 4QGen)",
             "text": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
-            "transliteration": "Vayikra Elohim la-or yom ve-lachoshek kara laylah vayehi erev vayehi voker yom echad",
-            "literalPt": "E Deus chamou à luz Dia; e às trevas chamou Noite. E foi a tarde e a manhã, o dia primeiro."
+            "transliteration": "Vayikra Elohim laor yom velachoshek qara laylah vayehi erev vayehi voker yom echad",
+            "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "literalEn": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
+        }
+    ],
+    "aramaicWitnesses": [
+        {
+            "id": "targum",
+            "label": "Targum Onkelos",
+            "text": "וּקְרָא יְיָ לִנְהוֹרָא יְמָמָא וְלַחֲשׁוֹכָא קְרָא לֵילְיָא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹמָא חַד",
+            "transliteration": "Uqra YY linhora yemama velachashokha qra leilya vahavah remash vahavah tzephar yoma chad",
+            "literalPt": "E chamou o Senhor à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "literalEn": "And the Lord called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
         }
     ],
     "greekWitnesses": [
@@ -67,19 +124,69 @@
             "id": "lxx",
             "label": "Septuaginta (LXX)",
             "text": "καὶ ἐκάλεσεν ὁ θεὸς τὸ φῶς ἡμέραν καὶ τὸ σκότος ἐκάλεσεν νύκτα καὶ ἐγένετο ἑσπέρα καὶ ἐγένετο πρωί ἡμέρα μία",
-            "transliteration": "kai ekalesen ho theos to phōs hēmeran kai to skotos ekalesen nykta kai egeneto hespera kai egeneto prōi hēmera mia",
-            "literalPt": "E chamou Deus a luz dia e a treva chamou noite; e houve tarde e houve manhã, dia um."
+            "transliteration": "kai ekalesen ho theos to phōs hemeran kai to skotos ekalesen nykta kai egeneto hespera kai egeneto prōi hemera mia",
+            "literalPt": "E chamou Deus à luz dia e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "literalEn": "And God called the light day and the darkness He called night; and there was evening and there was morning, day one."
         },
         {
             "id": "byzantine",
             "label": "Tradição Bizantina Grega (Byz/RP)",
             "text": "καὶ ἐκάλεσεν ὁ θεὸς τὸ φῶς ἡμέραν καὶ τὸ σκότος ἐκάλεσεν νύκτα καὶ ἐγένετο ἑσπέρα καὶ ἐγένετο πρωί ἡμέρα μία",
-            "transliteration": "kai ekalesen ho theos to phōs hēmeran kai to skotos ekalesen nykta kai egeneto hespera kai egeneto prōi hēmera mia",
-            "literalPt": "E chamou Deus a luz dia e a treva chamou noite; e houve tarde e houve manhã, dia um."
+            "transliteration": "kai ekalesen ho theos to phōs hemeran kai to skotos ekalesen nykta kai egeneto hespera kai egeneto prōi hemera mia",
+            "literalPt": "E chamou Deus à luz dia e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "literalEn": "And God called the light day and the darkness He called night; and there was evening and there was morning, day one."
         }
     ],
-    "ptLiteralVerse": "E Deus chamou à luz Dia; e às trevas chamou Noite. E foi a tarde e a manhã, o dia primeiro.",
-    "enLiteralVerse": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
+    "latinWitnesses": [
+        {
+            "id": "vulgate",
+            "label": "Vulgata",
+            "text": "Appellavitque lucem diem et tenebras noctem factumque est vespere et mane dies unus",
+            "transliteration": "Appellavitque lucem diem et tenebras noctem factumque est vespere et mane dies unus",
+            "literalPt": "E chamou à luz dia e às trevas noite; e foi feito tarde e manhã, dia um.",
+            "literalEn": "And He called the light day and the darkness night; and it was made evening and morning, day one."
+        }
+    ],
+    "geezWitnesses": [
+        {
+            "id": "geez",
+            "label": "Ge'ez",
+            "text": "ወሰመዮ እግዚአብሔር ለብርሃን ዕለተ ወለጽልመት ሰመዮ ሌሊተ ወኮነ ሠርክ ወኮነ ነግህ አሐዱ ዕለት",
+            "transliteration": "Wa-samayo 'Egzi'abḥēr la-brhān 'elata wa-la-ṣelmat samayo lēlit wa-kōna śark wa-kōna nagh 'aḥadu 'elat",
+            "literalPt": "E chamou o Senhor à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "literalEn": "And the Lord called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
+        }
+    ],
+    "syriacWitnesses": [
+        {
+            "id": "syriac",
+            "label": "Peshitta",
+            "text": "ܘܩܪܐ ܐܠܗܐ ܠܢܘܗܪܐ ܐܝܡܡܐ ܘܠܚܫܘܟܐ ܩܪܐ ܠܠܝܐ ܘܗܘܐ ܪܡܫܐ ܘܗܘܐ ܨܦܪܐ ܝܘܡܐ ܚܕ",
+            "transliteration": "W-qra Alaha l-nuhra imama w-l-cheshuka qra lelya w-hwa ramsha w-hwa tsafra yawma chad",
+            "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "literalEn": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
+        }
+    ],
+    "copticWitnesses": [
+        {
+            "id": "coptic",
+            "label": "Copta",
+            "text": "uoh af-muti nje phnuti e p-ōini je ehoou uoh p-kaki af-muti ero-f je ejōrh uoh a ruhan shōpi uoh a htoou shōpi p-huu n-houit",
+            "transliteration": "uoh af-muti nje phnuti e p-ōini je ehoou uoh p-kaki af-muti ero-f je ejōrh uoh a ruhan shōpi uoh a htoou shōpi p-huu n-houit",
+            "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, o primeiro dia.",
+            "literalEn": "And God called the light day, and the darkness He called night; and there was evening and there was morning, the first day."
+        }
+    ],
+    "armenianWitnesses": [
+        {
+            "id": "armenian",
+            "label": "Armênio",
+            "text": "Եւ կոչեաց Աստուած զլոյսն տիւ, եւ զխաւարն կոչեաց գիշեր: Եւ եղեւ ընդ երեկս եւ եղեւ ընդ առաւօտս օր մի:",
+            "transliteration": "Ew koč'eac' Astuac z-loysn tiw, ew z-xawarn koč'eac' gišer: Ew ełew ənd ereks ew ełew ənd aṙawōts ōr mi:",
+            "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
+            "literalEn": "And God called the light day, and the darkness He called night; and there was evening and there was morning, day one."
+        }
+    ],
     "tokens": [
         {
             "id": "gen.1.5.h1",
@@ -223,108 +330,6 @@
             "morph": "Num",
             "ptLiteralWord": "um / primeiro",
             "enLiteralWord": "one / first"
-        }
-    ],
-    "literalTranslations": [
-        {
-            "lang": "hebrew",
-            "pt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "en": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
-        },
-        {
-            "lang": "aramaic",
-            "pt": "E chamou o Senhor à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "en": "And the Lord called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
-        },
-        {
-            "lang": "greek",
-            "pt": "E chamou Deus à luz dia e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "en": "And God called the light day and the darkness He called night; and there was evening and there was morning, day one."
-        },
-        {
-            "lang": "latin",
-            "pt": "E chamou à luz dia e às trevas noite; e foi feito tarde e manhã, dia um.",
-            "en": "And He called the light day and the darkness night; and it was made evening and morning, day one."
-        },
-        {
-            "lang": "geez",
-            "pt": "E chamou o Senhor à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "en": "And the Lord called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
-        },
-        {
-            "lang": "syriac",
-            "pt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "en": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
-        },
-        {
-            "lang": "coptic",
-            "pt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, o primeiro dia.",
-            "en": "And God called the light day, and the darkness He called night; and there was evening and there was morning, the first day."
-        },
-        {
-            "lang": "armenian",
-            "pt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "en": "And God called the light day, and the darkness He called night; and there was evening and there was morning, day one."
-        }
-    ],
-    "aramaicWitnesses": [
-        {
-            "id": "aramaic",
-            "label": "Aramaic Witness",
-            "text": "וּקְרָא יְיָ לִנְהוֹרָא יְמָמָא וְלַחֲשׁוֹכָא קְרָא לֵילְיָא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹמָא חַד",
-            "transliteration": "-",
-            "literalPt": "E chamou o Senhor à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "literalEn": "And the Lord called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
-        }
-    ],
-    "latinWitnesses": [
-        {
-            "id": "latin",
-            "label": "Latin Witness",
-            "text": "Appellavitque lucem diem et tenebras noctem factumque est vespere et mane dies unus",
-            "transliteration": "-",
-            "literalPt": "E chamou à luz dia e às trevas noite; e foi feito tarde e manhã, dia um.",
-            "literalEn": "And He called the light day and the darkness night; and it was made evening and morning, day one."
-        }
-    ],
-    "geezWitnesses": [
-        {
-            "id": "geez",
-            "label": "Geez Witness",
-            "text": "ወሰመዮ እግዚአብሔር ለብርሃን ዕለተ ወለጽልመት ሰመዮ ሌሊተ ወኮነ ሠርክ ወኮነ ነግህ አሐዱ ዕለት",
-            "transliteration": "-",
-            "literalPt": "E chamou o Senhor à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "literalEn": "And the Lord called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
-        }
-    ],
-    "syriacWitnesses": [
-        {
-            "id": "syriac",
-            "label": "Syriac Witness",
-            "text": "ܘܩܪܐ ܐܠܗܐ ܠܢܘܗܪܐ ܐܝܡܡܐ ܘܠܚܫܘܟܐ ܩܪܐ ܠܠܝܐ ܘܗܘܐ ܪܡܫܐ ܘܗܘܐ ܨܦܪܐ ܝܘܡܐ ܚܕ",
-            "transliteration": "-",
-            "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "literalEn": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
-        }
-    ],
-    "copticWitnesses": [
-        {
-            "id": "coptic",
-            "label": "Coptic Witness",
-            "text": "uoh af-muti nje phnuti e p-ōini je ehoou uoh p-kaki af-muti ero-f je ejōrh uoh a ruhan shōpi uoh a htoou shōpi p-huu n-houit",
-            "transliteration": "-",
-            "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, o primeiro dia.",
-            "literalEn": "And God called the light day, and the darkness He called night; and there was evening and there was morning, the first day."
-        }
-    ],
-    "armenianWitnesses": [
-        {
-            "id": "armenian",
-            "label": "Armenian Witness",
-            "text": "Եւ կոչեաց Աստուած զլոյսն տիւ, եւ զխաւարն կոչեաց գիշեր: Եւ եղեւ ընդ երեկս եւ եղեւ ընդ առաւօտս օր մի:",
-            "transliteration": "-",
-            "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "literalEn": "And God called the light day, and the darkness He called night; and there was evening and there was morning, day one."
         }
     ]
 }

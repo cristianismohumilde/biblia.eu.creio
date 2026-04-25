@@ -1,0 +1,191 @@
+{
+    "schemaVersion": "1.1.0",
+    "ref": {
+        "book": "gen",
+        "chapter": 1,
+        "verse": 9
+    },
+    "translation": {
+        "author": "Equipe Biblia.Creio.EU",
+        "authorEn": "Biblia.Creio.EU Team",
+        "baseText": "Codex Leningradensis / LXX / Vulgata",
+        "baseTextEn": "Codex Leningradensis / LXX / Vulgate"
+    },
+    "manuscripts": {
+        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "aramaic": "Aramaico: Targum Onkelos (TO)",
+        "aramaicEn": "Aramaic: Targum Onkelos (TO)",
+        "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
+        "greekEn": "Greek: Septuagint (LXX) and Byzantine tradition (Byz/RP) (comparison)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "geez": "Ge'ez: tradição etíope clássica",
+        "geezEn": "Ge'ez: classical Ethiopic tradition",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses",
+        "armenian": "Armênio: versão armênia antiga",
+        "armenianEn": "Armenian: ancient Armenian version"
+    },
+    "sourceTexts": {
+        "hebrew": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַיְהִי כֵן",
+        "aramaic": "וַאֲמַר יְיָ יִתְכַּנְשׁוּן מַיָּא מִתְּחוֹת שְׁמַיָּא לַאֲתַר חַד וְתִתְחֲזֵי יַבֶּשְׁתָּא וַהֲוָה כֵן",
+        "greek": "καὶ εἶπεν ὁ θεός συναχθήτω τὸ ὕδωρ τὸ ὑποκάτω τοῦ οὐρανοῦ εἰς συναγωγὴν μίαν καὶ ὀφθήτω ἡ ξηρά καὶ ἐγένετο οὕτως καὶ συνήχθη τὸ ὕδωρ τὸ ὑποκάτω τοῦ οὐρανοῦ εἰς τὰς συναγωγὰς αὐτῶν καὶ ὤφθη ἡ ξηρά",
+        "latin": "Dixit vero Deus congregentur aquae quae sub caelo sunt in locum unum et appareat arida factumque est ita",
+        "geez": "ወይቤ እግዚአብሔር ለይትጋባእ ማይ ዘታሕተ ሰማይ ውስተ አሐዱ መካን ወትስተርኢ የብስ ወኮነ ከማሁ",
+        "syriac": "ܘܐܡܪ ܐܠܗܐ ܢܬܟܢܫܘܢ ܡܝܐ ܕܠܬܚܬ ܡܢ ܫܡܝܐ ܠܐܬܪܐ ܚܕ ܘܬܬܚܙܐ ܝܒܫܬܐ ܘܗܘܐ ܗܟܢܐ",
+        "coptic": "peje phnuti je mare ni-mōu et sa-pesēt n-t-phe thouōti e u-ma n-uōt uoh n-te pi-pet-shuōou ouōnh ebol uoh a-s-shōpi m-pairēti",
+        "armenian": "Եւ ասաց Աստուած. Ժողովեսցին ջուրքն որ ի ներքոյ երկնից ի ժողովս մի, եւ երեւեսցի ցամաքն: Եւ եղեւ այնպէս:"
+    },
+    "literalTranslations": [
+        {
+            "lang": "hebrew",
+            "pt": "E disse Deus: Ajuntem-se as águas debaixo dos céus num só lugar, e apareça a porção seca; e assim foi.",
+            "en": "And God said, Let the waters under the heavens be gathered together unto one place, and let the dry land appear; and it was so."
+        },
+        {
+            "lang": "aramaic",
+            "pt": "E disse o Senhor: Ajuntem-se as águas debaixo dos céus num lugar, e apareça a terra seca; e assim foi.",
+            "en": "And the Lord said, Let the waters under the heavens be gathered to one place, and let the dry land be seen; and it was so."
+        },
+        {
+            "lang": "greek",
+            "pt": "E disse Deus: Reúna-se a água que está debaixo do céu em um só lugar, e apareça o seco; e assim aconteceu. A água debaixo do céu reuniu-se, e apareceu o seco.",
+            "en": "And God said, Let the water under heaven be gathered into one gathering, and let the dry land appear; and it was so. The water under heaven was gathered into its gatherings, and the dry land appeared."
+        },
+        {
+            "lang": "latin",
+            "pt": "Disse também Deus: Ajuntem-se num só lugar as águas que estão debaixo do céu, e apareça a terra seca; e assim foi feito.",
+            "en": "God also said: Let the waters that are under the heaven be gathered together into one place, and let the dry land appear; and it was so done."
+        },
+        {
+            "lang": "geez",
+            "pt": "E disse o Senhor: Ajunte-se a água debaixo do céu num só lugar, e apareça a terra seca; e assim foi.",
+            "en": "And the Lord said, Let the water under heaven be gathered into one place, and let the dry land appear; and it was so."
+        },
+        {
+            "lang": "syriac",
+            "pt": "E disse Deus: Ajuntem-se as águas debaixo dos céus para um lugar, e apareça a terra seca; e assim foi.",
+            "en": "And God said, Let the waters under the heavens be gathered to one place, and let the dry land be seen; and it was so."
+        },
+        {
+            "lang": "coptic",
+            "pt": "E disse Deus: Ajuntem-se as águas debaixo do céu em um lugar, e que a terra seca apareça; e assim foi.",
+            "en": "And God said, Let the waters under heaven be gathered to one place, and let the dry land appear; and it was so."
+        },
+        {
+            "lang": "armenian",
+            "pt": "E disse Deus: Ajuntem-se as águas debaixo dos céus num ajuntamento, e apareça a terra seca. E assim foi.",
+            "en": "And God said, Let the waters under heaven be gathered into one gathering, and let the dry land appear. And it was so."
+        }
+    ],
+    "ptLiteralVerse": "E disse Deus: Ajuntem-se as águas debaixo dos céus num só lugar, e apareça a porção seca; e assim foi.",
+    "enLiteralVerse": "And God said, Let the waters under the heavens be gathered together unto one place, and let the dry land appear; and it was so.",
+    "hebrewWitnesses": [
+        {
+            "id": "leningradensis",
+            "label": "Codex Leningradensis (B19A)",
+            "text": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַיְהִי כֵן",
+            "transliteration": "Vayomer Elohim yikavu hamayim mitachat hashamayim el makom echad veteiraeh hayabashah vayehi khen",
+            "literalPt": "E disse Deus: Ajuntem-se as águas debaixo dos céus num só lugar, e apareça a porção seca; e assim foi.",
+            "literalEn": "And God said, Let the waters under the heavens be gathered together unto one place, and let the dry land appear; and it was so."
+        },
+        {
+            "id": "aleppo",
+            "label": "Aleppo Codex (A)",
+            "text": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַיְהִי כֵן",
+            "transliteration": "Vayomer Elohim yikavu hamayim mitachat hashamayim el makom echad veteiraeh hayabashah vayehi khen",
+            "literalPt": "E disse Deus: Ajuntem-se as águas debaixo dos céus num só lugar, e apareça a porção seca; e assim foi.",
+            "literalEn": "And God said, Let the waters under the heavens be gathered together unto one place, and let the dry land appear; and it was so."
+        },
+        {
+            "id": "qumran",
+            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
+            "text": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַיְהִי כֵן",
+            "transliteration": "Vayomer Elohim yikavu hamayim mitachat hashamayim el makom echad veteiraeh hayabashah vayehi khen",
+            "literalPt": "E disse Deus: Ajuntem-se as águas debaixo dos céus num só lugar, e apareça a porção seca; e assim foi.",
+            "literalEn": "And God said, Let the waters under the heavens be gathered together unto one place, and let the dry land appear; and it was so."
+        }
+    ],
+    "aramaicWitnesses": [
+        {
+            "id": "targum",
+            "label": "Targum Onkelos",
+            "text": "וַאֲמַר יְיָ יִתְכַּנְשׁוּן מַיָּא מִתְּחוֹת שְׁמַיָּא לַאֲתַר חַד וְתִתְחֲזֵי יַבֶּשְׁתָּא וַהֲוָה כֵן",
+            "transliteration": "Va'amar YY yitkanshun maya mitekhot shemaya la'atar chad vetitchazei yabeshta vahavah khein",
+            "literalPt": "E disse o Senhor: Ajuntem-se as águas debaixo dos céus num lugar, e apareça a terra seca; e assim foi.",
+            "literalEn": "And the Lord said, Let the waters under the heavens be gathered to one place, and let the dry land be seen; and it was so."
+        }
+    ],
+    "greekWitnesses": [
+        {
+            "id": "lxx",
+            "label": "Septuaginta (LXX)",
+            "text": "καὶ εἶπεν ὁ θεός συναχθήτω τὸ ὕδωρ τὸ ὑποκάτω τοῦ οὐρανοῦ εἰς συναγωγὴν μίαν καὶ ὀφθήτω ἡ ξηρά καὶ ἐγένετο οὕτως καὶ συνήχθη τὸ ὕδωρ τὸ ὑποκάτω τοῦ οὐρανοῦ εἰς τὰς συναγωγὰς αὐτῶν καὶ ὤφθη ἡ ξηρά",
+            "transliteration": "kai eipen ho theos synachthetō to hydōr to hypokatō tou ouranou eis synagōgēn mian kai ophthetō hē xēra kai egeneto houtōs kai synēchthē to hydōr to hypokatō tou ouranou eis tas synagōgas autōn kai ōphthē hē xēra",
+            "literalPt": "E disse Deus: Reúna-se a água que está debaixo do céu em um só lugar, e apareça o seco; e assim aconteceu. A água debaixo do céu reuniu-se, e apareceu o seco.",
+            "literalEn": "And God said, Let the water under heaven be gathered into one gathering, and let the dry land appear; and it was so. The water under heaven was gathered into its gatherings, and the dry land appeared."
+        },
+        {
+            "id": "byzantine",
+            "label": "Tradição Bizantina Grega (Byz/RP)",
+            "text": "καὶ εἶπεν ὁ θεός συναχθήτω τὸ ὕδωρ τὸ ὑποκάτω τοῦ οὐρανοῦ εἰς συναγωγὴν μίαν καὶ ὀφθήτω ἡ ξηρά καὶ ἐγένετο οὕτως καὶ συνήχθη τὸ ὕδωρ τὸ ὑποκάτω τοῦ οὐρανοῦ εἰς τὰς συναγωγὰς αὐτῶν καὶ ὤφθη ἡ ξηρά",
+            "transliteration": "kai eipen ho theos synachthetō to hydōr to hypokatō tou ouranou eis synagōgēn mian kai ophthetō hē xēra kai egeneto houtōs kai synēchthē to hydōr to hypokatō tou ouranou eis tas synagōgas autōn kai ōphthē hē xēra",
+            "literalPt": "E disse Deus: Reúna-se a água que está debaixo do céu em um só lugar, e apareça o seco; e assim aconteceu. A água debaixo do céu reuniu-se, e apareceu o seco.",
+            "literalEn": "And God said, Let the water under heaven be gathered into one gathering, and let the dry land appear; and it was so. The water under heaven was gathered into its gatherings, and the dry land appeared."
+        }
+    ],
+    "latinWitnesses": [
+        {
+            "id": "vulgate",
+            "label": "Vulgata",
+            "text": "Dixit vero Deus congregentur aquae quae sub caelo sunt in locum unum et appareat arida factumque est ita",
+            "transliteration": "Dixit vero Deus congregentur aquae quae sub caelo sunt in locum unum et appareat arida factumque est ita",
+            "literalPt": "Disse também Deus: Ajuntem-se num só lugar as águas que estão debaixo do céu, e apareça a terra seca; e assim foi feito.",
+            "literalEn": "God also said: Let the waters that are under the heaven be gathered together into one place, and let the dry land appear; and it was so done."
+        }
+    ],
+    "geezWitnesses": [
+        {
+            "id": "geez",
+            "label": "Ge'ez",
+            "text": "ወይቤ እግዚአብሔር ለይትጋባእ ማይ ዘታሕተ ሰማይ ውስተ አሐዱ መካን ወትስተርኢ የብስ ወኮነ ከማሁ",
+            "transliteration": "Wa-yebē 'Egzi'abḥēr la-yetgābā' māy za-tāḥta samāy westa 'aḥadu makān wa-testar'i yabs wa-kōna kamāhu",
+            "literalPt": "E disse o Senhor: Ajunte-se a água debaixo do céu num só lugar, e apareça a terra seca; e assim foi.",
+            "literalEn": "And the Lord said, Let the water under heaven be gathered into one place, and let the dry land appear; and it was so."
+        }
+    ],
+    "syriacWitnesses": [
+        {
+            "id": "syriac",
+            "label": "Peshitta",
+            "text": "ܘܐܡܪ ܐܠܗܐ ܢܬܟܢܫܘܢ ܡܝܐ ܕܠܬܚܬ ܡܢ ܫܡܝܐ ܠܐܬܪܐ ܚܕ ܘܬܬܚܙܐ ܝܒܫܬܐ ܘܗܘܐ ܗܟܢܐ",
+            "transliteration": "W-emar Alaha netkanshun maya d-l-tacht min shmaya l-atra chad w-tetchza yabshta w-hwa hakana",
+            "literalPt": "E disse Deus: Ajuntem-se as águas debaixo dos céus para um lugar, e apareça a terra seca; e assim foi.",
+            "literalEn": "And God said, Let the waters under the heavens be gathered to one place, and let the dry land be seen; and it was so."
+        }
+    ],
+    "copticWitnesses": [
+        {
+            "id": "coptic",
+            "label": "Copta",
+            "text": "peje phnuti je mare ni-mōu et sa-pesēt n-t-phe thouōti e u-ma n-uōt uoh n-te pi-pet-shuōou ouōnh ebol uoh a-s-shōpi m-pairēti",
+            "transliteration": "peje phnuti je mare ni-mōu et sa-pesēt n-t-phe thouōti e u-ma n-uōt uoh n-te pi-pet-shuōou ouōnh ebol uoh a-s-shōpi m-pairēti",
+            "literalPt": "E disse Deus: Ajuntem-se as águas debaixo do céu em um lugar, e que a terra seca apareça; e assim foi.",
+            "literalEn": "And God said, Let the waters under heaven be gathered to one place, and let the dry land appear; and it was so."
+        }
+    ],
+    "armenianWitnesses": [
+        {
+            "id": "armenian",
+            "label": "Armênio",
+            "text": "Եւ ասաց Աստուած. Ժողովեսցին ջուրքն որ ի ներքոյ երկնից ի ժողովս մի, եւ երեւեսցի ցամաքն: Եւ եղեւ այնպէս:",
+            "transliteration": "Ew asac' Astuac. Žołovesc'in ǰurq'n or i nerk'oy erknic' i žołovs mi, ew erewesc'i c'amaq'n: Ew ełew aynpēs:",
+            "literalPt": "E disse Deus: Ajuntem-se as águas debaixo dos céus num ajuntamento, e apareça a terra seca. E assim foi.",
+            "literalEn": "And God said, Let the waters under heaven be gathered into one gathering, and let the dry land appear. And it was so."
+        }
+    ],
+    "tokens": []
+}

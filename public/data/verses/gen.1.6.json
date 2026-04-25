@@ -1,0 +1,191 @@
+{
+    "schemaVersion": "1.1.0",
+    "ref": {
+        "book": "gen",
+        "chapter": 1,
+        "verse": 6
+    },
+    "translation": {
+        "author": "Equipe Biblia.Creio.EU",
+        "authorEn": "Biblia.Creio.EU Team",
+        "baseText": "Codex Leningradensis / LXX / Vulgata",
+        "baseTextEn": "Codex Leningradensis / LXX / Vulgate"
+    },
+    "manuscripts": {
+        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "aramaic": "Aramaico: Targum Onkelos (TO)",
+        "aramaicEn": "Aramaic: Targum Onkelos (TO)",
+        "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
+        "greekEn": "Greek: Septuagint (LXX) and Byzantine tradition (Byz/RP) (comparison)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "geez": "Ge'ez: tradição etíope clássica",
+        "geezEn": "Ge'ez: classical Ethiopic tradition",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses",
+        "armenian": "Armênio: versão armênia antiga",
+        "armenianEn": "Armenian: ancient Armenian version"
+    },
+    "sourceTexts": {
+        "hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָיִם",
+        "aramaic": "וַאֲמַר יְיָ יְהֵי רְקִיעָא בְּגוֹ מַיָּא וִיהֵי מַפְרֵישׁ בֵּין מַיָּא לְמַיָּא",
+        "greek": "καὶ εἶπεν ὁ θεός γενηθήτω στερέωμα ἐν μέσῳ τοῦ ὕδατος καὶ ἔστω διαχωρίζον ἀνὰ μέσον ὕδατος καὶ ὕδατος",
+        "latin": "Dixit quoque Deus fiat firmamentum in medio aquarum et dividat aquas ab aquis",
+        "geez": "ወይቤ እግዚአብሔር ለይኩን ጠፈር ማእከለ ማይ ወለይፍለጥ ማእከለ ማይ ወማይ",
+        "syriac": "ܘܐܡܪ ܐܠܗܐ ܢܗܘܐ ܪܩܝܥܐ ܡܨܥܬ ܡܝܐ ܘܢܗܘܐ ܦܪܫ ܒܝܬ ܡܝܐ ܠܡܝܐ",
+        "coptic": "peje phnuti je mare ou-stereōma šōpe hn t-mēte n-n-moou n-f-pōrj n-t-mēte n-n-moou mn n-moou",
+        "armenian": "Եւ ասաց Աստուած. Եղիցի հաստատութիւն ի մէջ ջուրցն, եւ եղիցի մեկնել ի մէջ ջրոյ եւ ջրոյ։"
+    },
+    "literalTranslations": [
+        {
+            "lang": "hebrew",
+            "pt": "E disse Deus: Haja um firmamento no meio das águas, e faça separação entre águas e águas.",
+            "en": "And God said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+        },
+        {
+            "lang": "aramaic",
+            "pt": "E disse o Senhor: Haja um firmamento no meio das águas, e faça separação entre águas e águas.",
+            "en": "And the Lord said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+        },
+        {
+            "lang": "greek",
+            "pt": "E disse Deus: Seja feito um firmamento no meio da água, e que ele divida entre água e água.",
+            "en": "And God said, Let a firmament come to be in the midst of the water, and let it divide between water and water."
+        },
+        {
+            "lang": "latin",
+            "pt": "Disse também Deus: Faça-se o firmamento no meio das águas e divida as águas das águas.",
+            "en": "God also said: Let a firmament be made in the midst of the waters and let it divide the waters from the waters."
+        },
+        {
+            "lang": "geez",
+            "pt": "E disse o Senhor: Haja um firmamento no meio das águas, e separe entre água e água.",
+            "en": "And the Lord said, Let there be a firmament in the midst of the waters, and let it separate between water and water."
+        },
+        {
+            "lang": "syriac",
+            "pt": "E disse Deus: Haja um firmamento no meio das águas, e separe entre águas e águas.",
+            "en": "And God said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+        },
+        {
+            "lang": "coptic",
+            "pt": "E disse Deus: Haja um firmamento no meio das águas, e separe entre águas e águas.",
+            "en": "And God said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+        },
+        {
+            "lang": "armenian",
+            "pt": "E disse Deus: Haja um firmamento no meio das águas, e separe entre água e água.",
+            "en": "And God said, Let there be a firmament in the midst of the waters, and let it separate between water and water."
+        }
+    ],
+    "ptLiteralVerse": "E disse Deus: Haja um firmamento no meio das águas, e faça separação entre águas e águas.",
+    "enLiteralVerse": "And God said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters.",
+    "hebrewWitnesses": [
+        {
+            "id": "leningradensis",
+            "label": "Codex Leningradensis (B19A)",
+            "text": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָיִם",
+            "transliteration": "Vayomer Elohim yehi rakiya betokh hamayim vihi mavdil bein mayim lamayim",
+            "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e faça separação entre águas e águas.",
+            "literalEn": "And God said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+        },
+        {
+            "id": "aleppo",
+            "label": "Aleppo Codex (A)",
+            "text": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָיִם",
+            "transliteration": "Vayomer Elohim yehi rakiya betokh hamayim vihi mavdil bein mayim lamayim",
+            "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e faça separação entre águas e águas.",
+            "literalEn": "And God said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+        },
+        {
+            "id": "qumran",
+            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
+            "text": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָיִם",
+            "transliteration": "Vayomer Elohim yehi rakiya betokh hamayim vihi mavdil bein mayim lamayim",
+            "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e faça separação entre águas e águas.",
+            "literalEn": "And God said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+        }
+    ],
+    "aramaicWitnesses": [
+        {
+            "id": "targum",
+            "label": "Targum Onkelos",
+            "text": "וַאֲמַר יְיָ יְהֵי רְקִיעָא בְּגוֹ מַיָּא וִיהֵי מַפְרֵישׁ בֵּין מַיָּא לְמַיָּא",
+            "transliteration": "Va'amar YY yehei reqi'a bego maya vihei mafreish bein maya lemaya",
+            "literalPt": "E disse o Senhor: Haja um firmamento no meio das águas, e faça separação entre águas e águas.",
+            "literalEn": "And the Lord said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+        }
+    ],
+    "greekWitnesses": [
+        {
+            "id": "lxx",
+            "label": "Septuaginta (LXX)",
+            "text": "καὶ εἶπεν ὁ θεός γενηθήτω στερέωμα ἐν μέσῳ τοῦ ὕδατος καὶ ἔστω διαχωρίζον ἀνὰ μέσον ὕδατος καὶ ὕδατος",
+            "transliteration": "kai eipen ho theos genethetō stereōma en mesō tou hydatos kai estō diachōrizon ana meson hydatos kai hydatos",
+            "literalPt": "E disse Deus: Seja feito um firmamento no meio da água, e que ele divida entre água e água.",
+            "literalEn": "And God said, Let a firmament come to be in the midst of the water, and let it divide between water and water."
+        },
+        {
+            "id": "byzantine",
+            "label": "Tradição Bizantina Grega (Byz/RP)",
+            "text": "καὶ εἶπεν ὁ θεός γενηθήτω στερέωμα ἐν μέσῳ τοῦ ὕδατος καὶ ἔστω διαχωρίζον ἀνὰ μέσον ὕδατος καὶ ὕδατος",
+            "transliteration": "kai eipen ho theos genethetō stereōma en mesō tou hydatos kai estō diachōrizon ana meson hydatos kai hydatos",
+            "literalPt": "E disse Deus: Seja feito um firmamento no meio da água, e que ele divida entre água e água.",
+            "literalEn": "And God said, Let a firmament come to be in the midst of the water, and let it divide between water and water."
+        }
+    ],
+    "latinWitnesses": [
+        {
+            "id": "vulgate",
+            "label": "Vulgata",
+            "text": "Dixit quoque Deus fiat firmamentum in medio aquarum et dividat aquas ab aquis",
+            "transliteration": "Dixit quoque Deus fiat firmamentum in medio aquarum et dividat aquas ab aquis",
+            "literalPt": "Disse também Deus: Faça-se o firmamento no meio das águas e divida as águas das águas.",
+            "literalEn": "God also said: Let a firmament be made in the midst of the waters and let it divide the waters from the waters."
+        }
+    ],
+    "geezWitnesses": [
+        {
+            "id": "geez",
+            "label": "Ge'ez",
+            "text": "ወይቤ እግዚአብሔር ለይኩን ጠፈር ማእከለ ማይ ወለይፍለጥ ማእከለ ማይ ወማይ",
+            "transliteration": "Wa-yebē 'Egzi'abḥēr la-yekun ṭafar mā'ekala māy wa-la-yeflaṭ mā'ekala māy wa-māy",
+            "literalPt": "E disse o Senhor: Haja um firmamento no meio das águas, e separe entre água e água.",
+            "literalEn": "And the Lord said, Let there be a firmament in the midst of the waters, and let it separate between water and water."
+        }
+    ],
+    "syriacWitnesses": [
+        {
+            "id": "syriac",
+            "label": "Peshitta",
+            "text": "ܘܐܡܪ ܐܠܗܐ ܢܗܘܐ ܪܩܝܥܐ ܡܨܥܬ ܡܝܐ ܘܢܗܘܐ ܦܪܫ ܒܝܬ ܡܝܐ ܠܡܝܐ",
+            "transliteration": "W-emar Alaha nehwe reqi'a metz'at maya w-nehwe paresh beth maya l-maya",
+            "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e separe entre águas e águas.",
+            "literalEn": "And God said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+        }
+    ],
+    "copticWitnesses": [
+        {
+            "id": "coptic",
+            "label": "Copta",
+            "text": "peje phnuti je mare ou-stereōma šōpe hn t-mēte n-n-moou n-f-pōrj n-t-mēte n-n-moou mn n-moou",
+            "transliteration": "peje phnuti je mare ou-stereōma šōpe hn t-mēte n-n-moou n-f-pōrj n-t-mēte n-n-moou mn n-moou",
+            "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e separe entre águas e águas.",
+            "literalEn": "And God said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+        }
+    ],
+    "armenianWitnesses": [
+        {
+            "id": "armenian",
+            "label": "Armênio",
+            "text": "Եւ ասաց Աստուած. Եղիցի հաստատութիւն ի մէջ ջուրցն, եւ եղիցի մեկնել ի մէջ ջրոյ եւ ջրոյ։",
+            "transliteration": "Ew asac' Astuac. Ełic'i hastatut'iwn i mēǰ ǰurc'n, ew ełic'i meknel i mēǰ ǰroy ew ǰroy.",
+            "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e separe entre água e água.",
+            "literalEn": "And God said, Let there be a firmament in the midst of the waters, and let it separate between water and water."
+        }
+    ],
+    "tokens": []
+}

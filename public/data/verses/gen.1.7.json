@@ -1,0 +1,191 @@
+{
+    "schemaVersion": "1.1.0",
+    "ref": {
+        "book": "gen",
+        "chapter": 1,
+        "verse": 7
+    },
+    "translation": {
+        "author": "Equipe Biblia.Creio.EU",
+        "authorEn": "Biblia.Creio.EU Team",
+        "baseText": "Codex Leningradensis / LXX / Vulgata",
+        "baseTextEn": "Codex Leningradensis / LXX / Vulgate"
+    },
+    "manuscripts": {
+        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "aramaic": "Aramaico: Targum Onkelos (TO)",
+        "aramaicEn": "Aramaic: Targum Onkelos (TO)",
+        "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
+        "greekEn": "Greek: Septuagint (LXX) and Byzantine tradition (Byz/RP) (comparison)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "geez": "Ge'ez: tradição etíope clássica",
+        "geezEn": "Ge'ez: classical Ethiopic tradition",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses",
+        "armenian": "Armênio: versão armênia antiga",
+        "armenianEn": "Armenian: ancient Armenian version"
+    },
+    "sourceTexts": {
+        "hebrew": "וַיַּעַשׂ אֱלֹהִים אֶת הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַיְהִי כֵן",
+        "aramaic": "וַעֲבַד יְיָ יָת רְקִיעָא וְאַפְרֵישׁ בֵּין מַיָּא דְּמִלְּרַע לִרְקִיעָא וּבֵין מַיָּא דְּמֵעַל לִרְקִיעָא וַהֲוָה כֵן",
+        "greek": "καὶ ἐποίησεν ὁ θεὸς τὸ στερέωμα καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ ὕδατος ὃ ἦν ὑποκάτω τοῦ στερεώματος καὶ ἀνὰ μέσον τοῦ ὕδατος τοῦ ἐπάνω τοῦ στερεώματος καὶ ἐγένετο οὕτως",
+        "latin": "Et fecit Deus firmamentum divisitque aquas quae erant sub firmamento ab his quae erant super firmamentum et factum est ita",
+        "geez": "ወገብረ እግዚአብሔር ጠፈረ ወአለየ እግዚአብሔር ማእከለ ማይ ዘታሕተ ጠፈር ወማእከለ ማይ ዘመልዕልተ ጠፈር ወኮነ ከማሁ",
+        "syriac": "ܘܥܒܕ ܐܠܗܐ ܪܩܝܥܐ ܘܦܪܫ ܒܝܬ ܡܝܐ ܕܠܬܚܬ ܡܢ ܪܩܝܥܐ ܘܠܡܝܐ ܕܠܥܠ ܡܢ ܪܩܝܥܐ ܘܗܘܐ ܗܟܢܐ",
+        "coptic": "uoh af-thamio nje phnuti m-p-stereōma uoh af-phōrj ut-te ni-mōu et sa-pesēt m-p-stereōma nem ut-te ni-mōu et sa-pshōi m-p-stereōma uoh a-s-shōpi m-pairēti",
+        "armenian": "Եւ արար Աստուած զհաստատութիւնն, եւ մեկնեաց Աստուած ի մէջ ջրոյն որ ի ներքոյ հաստատութեանն, եւ ի մէջ ջրոյն որ ի վերայ հաստատութեանն: Եւ եղեւ այնպէս:"
+    },
+    "literalTranslations": [
+        {
+            "lang": "hebrew",
+            "pt": "E fez Deus o firmamento, e fez separação entre as águas que estavam debaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",
+            "en": "And God made the firmament, and separated between the waters which were under the firmament and the waters which were above the firmament; and it was so."
+        },
+        {
+            "lang": "aramaic",
+            "pt": "E fez o Senhor o firmamento, e separou entre as águas que estavam debaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",
+            "en": "And the Lord made the firmament, and separated between the waters that were under the firmament and the waters that were above the firmament; and it was so."
+        },
+        {
+            "lang": "greek",
+            "pt": "E fez Deus o firmamento e separou Deus a água que estava debaixo do firmamento da água acima do firmamento; e assim aconteceu.",
+            "en": "And God made the firmament and God separated the water which was below the firmament and the water which was above the firmament; and it was so."
+        },
+        {
+            "lang": "latin",
+            "pt": "E fez Deus o firmamento e dividiu as águas que estavam sob o firmamento daquelas que estavam sobre o firmamento; e assim foi feito.",
+            "en": "And God made the firmament and divided the waters that were under the firmament from those that were above the firmament; and it was so."
+        },
+        {
+            "lang": "geez",
+            "pt": "E fez o Senhor o firmamento, e separou entre a água abaixo do firmamento e a água acima do firmamento; e assim foi.",
+            "en": "And the Lord made the firmament, and separated between the water below the firmament and the water above the firmament; and it was so."
+        },
+        {
+            "lang": "syriac",
+            "pt": "E fez Deus o firmamento, e separou entre as águas que estavam abaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",
+            "en": "And God made the firmament, and separated between the waters which were under the firmament and the waters which were above the firmament; and it was so."
+        },
+        {
+            "lang": "coptic",
+            "pt": "E fez Deus o firmamento e separou as águas abaixo do firmamento das águas acima do firmamento; e assim foi.",
+            "en": "And God made the firmament and separated the waters below the firmament from the waters above the firmament; and it was so."
+        },
+        {
+            "lang": "armenian",
+            "pt": "E fez Deus o firmamento, e separou entre a água debaixo do firmamento e a água acima do firmamento: E assim foi.",
+            "en": "And God made the firmament, and separated between the water under the firmament and the water above the firmament: And it was so."
+        }
+    ],
+    "ptLiteralVerse": "E fez Deus o firmamento, e fez separação entre as águas que estavam debaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",
+    "enLiteralVerse": "And God made the firmament, and separated between the waters which were under the firmament and the waters which were above the firmament; and it was so.",
+    "hebrewWitnesses": [
+        {
+            "id": "leningradensis",
+            "label": "Codex Leningradensis (B19A)",
+            "text": "וַיַּעַשׂ אֱלֹהִים אֶת הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַיְהִי כֵן",
+            "transliteration": "Vayaas Elohim et harakiya vayavdel bein hamayim asher mitachat larakia uvein hamayim asher meal larakia vayehi khen",
+            "literalPt": "E fez Deus o firmamento, e fez separação entre as águas que estavam debaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",
+            "literalEn": "And God made the firmament, and separated between the waters which were under the firmament and the waters which were above the firmament; and it was so."
+        },
+        {
+            "id": "aleppo",
+            "label": "Aleppo Codex (A)",
+            "text": "וַיַּעַשׂ אֱלֹהִים אֶת הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַיְהִי כֵן",
+            "transliteration": "Vayaas Elohim et harakiya vayavdel bein hamayim asher mitachat larakia uvein hamayim asher meal larakia vayehi khen",
+            "literalPt": "E fez Deus o firmamento, e fez separação entre as águas que estavam debaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",
+            "literalEn": "And God made the firmament, and separated between the waters which were under the firmament and the waters which were above the firmament; and it was so."
+        },
+        {
+            "id": "qumran",
+            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
+            "text": "וַיַּעַשׂ אֱלֹהִים אֶת הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַיְהִי כֵן",
+            "transliteration": "Vayaas Elohim et harakiya vayavdel bein hamayim asher mitachat larakia uvein hamayim asher meal larakia vayehi khen",
+            "literalPt": "E fez Deus o firmamento, e fez separação entre as águas que estavam debaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",
+            "literalEn": "And God made the firmament, and separated between the waters which were under the firmament and the waters which were above the firmament; and it was so."
+        }
+    ],
+    "aramaicWitnesses": [
+        {
+            "id": "targum",
+            "label": "Targum Onkelos",
+            "text": "וַעֲבַד יְיָ יָת רְקִיעָא וְאַפְרֵישׁ בֵּין מַיָּא דְּמִלְּרַע לִרְקִיעָא וּבֵין מַיָּא דְּמֵעַל לִרְקִיעָא וַהֲוָה כֵן",
+            "transliteration": "Va'avad YY yat reqi'a ve'afreish bein maya demilera lireqi'a uvein maya deme'al lireqi'a vahavah khein",
+            "literalPt": "E fez o Senhor o firmamento, e separou entre as águas que estavam debaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",
+            "literalEn": "And the Lord made the firmament, and separated between the waters that were under the firmament and the waters that were above the firmament; and it was so."
+        }
+    ],
+    "greekWitnesses": [
+        {
+            "id": "lxx",
+            "label": "Septuaginta (LXX)",
+            "text": "καὶ ἐποίησεν ὁ θεὸς τὸ στερέωμα καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ ὕδατος ὃ ἦν ὑποκάτω τοῦ στερεώματος καὶ ἀνὰ μέσον τοῦ ὕδατος τοῦ ἐπάνω τοῦ στερεώματος καὶ ἐγένετο οὕτως",
+            "transliteration": "kai epoiēsen ho theos to stereōma kai diechōrisen ho theos ana meson tou hydatos ho ēn hypokatō tou stereōmatos kai ana meson tou hydatos tou epanō tou stereōmatos kai egeneto houtōs",
+            "literalPt": "E fez Deus o firmamento e separou Deus a água que estava debaixo do firmamento da água acima do firmamento; e assim aconteceu.",
+            "literalEn": "And God made the firmament and God separated the water which was below the firmament and the water which was above the firmament; and it was so."
+        },
+        {
+            "id": "byzantine",
+            "label": "Tradição Bizantina Grega (Byz/RP)",
+            "text": "καὶ ἐποίησεν ὁ θεὸς τὸ στερέωμα καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ ὕδατος ὃ ἦν ὑποκάτω τοῦ στερεώματος καὶ ἀνὰ μέσον τοῦ ὕδατος τοῦ ἐπάνω τοῦ στερεώματος καὶ ἐγένετο οὕτως",
+            "transliteration": "kai epoiēsen ho theos to stereōma kai diechōrisen ho theos ana meson tou hydatos ho ēn hypokatō tou stereōmatos kai ana meson tou hydatos tou epanō tou stereōmatos kai egeneto houtōs",
+            "literalPt": "E fez Deus o firmamento e separou Deus a água que estava debaixo do firmamento da água acima do firmamento; e assim aconteceu.",
+            "literalEn": "And God made the firmament and God separated the water which was below the firmament and the water which was above the firmament; and it was so."
+        }
+    ],
+    "latinWitnesses": [
+        {
+            "id": "vulgate",
+            "label": "Vulgata",
+            "text": "Et fecit Deus firmamentum divisitque aquas quae erant sub firmamento ab his quae erant super firmamentum et factum est ita",
+            "transliteration": "Et fecit Deus firmamentum divisitque aquas quae erant sub firmamento ab his quae erant super firmamentum et factum est ita",
+            "literalPt": "E fez Deus o firmamento e dividiu as águas que estavam sob o firmamento daquelas que estavam sobre o firmamento; e assim foi feito.",
+            "literalEn": "And God made the firmament and divided the waters that were under the firmament from those that were above the firmament; and it was so."
+        }
+    ],
+    "geezWitnesses": [
+        {
+            "id": "geez",
+            "label": "Ge'ez",
+            "text": "ወገብረ እግዚአብሔር ጠፈረ ወአለየ እግዚአብሔር ማእከለ ማይ ዘታሕተ ጠፈር ወማእከለ ማይ ዘመልዕልተ ጠፈር ወኮነ ከማሁ",
+            "transliteration": "Wa-gabra 'Egzi'abḥēr ṭafara wa-'alaya 'Egzi'abḥēr mā'ekala māy za-tāḥta ṭafar wa-mā'ekala māy za-mal'elta ṭafar wa-kōna kamāhu",
+            "literalPt": "E fez o Senhor o firmamento, e separou entre a água abaixo do firmamento e a água acima do firmamento; e assim foi.",
+            "literalEn": "And the Lord made the firmament, and separated between the water below the firmament and the water above the firmament; and it was so."
+        }
+    ],
+    "syriacWitnesses": [
+        {
+            "id": "syriac",
+            "label": "Peshitta",
+            "text": "ܘܥܒܕ ܐܠܗܐ ܪܩܝܥܐ ܘܦܪܫ ܒܝܬ ܡܝܐ ܕܠܬܚܬ ܡܢ ܪܩܝܥܐ ܘܠܡܝܐ ܕܠܥܠ ܡܢ ܪܩܝܥܐ ܘܗܘܐ ܗܟܢܐ",
+            "transliteration": "W-'bad Alaha reqi'a w-prash beyth maya d-l-tacht min reqi'a w-l-maya d-l-'el min reqi'a w-hwa hakana",
+            "literalPt": "E fez Deus o firmamento, e separou entre as águas que estavam abaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",
+            "literalEn": "And God made the firmament, and separated between the waters which were under the firmament and the waters which were above the firmament; and it was so."
+        }
+    ],
+    "copticWitnesses": [
+        {
+            "id": "coptic",
+            "label": "Copta",
+            "text": "uoh af-thamio nje phnuti m-p-stereōma uoh af-phōrj ut-te ni-mōu et sa-pesēt m-p-stereōma nem ut-te ni-mōu et sa-pshōi m-p-stereōma uoh a-s-shōpi m-pairēti",
+            "transliteration": "uoh af-thamio nje phnuti m-p-stereōma uoh af-phōrj ut-te ni-mōu et sa-pesēt m-p-stereōma nem ut-te ni-mōu et sa-pshōi m-p-stereōma uoh a-s-shōpi m-pairēti",
+            "literalPt": "E fez Deus o firmamento e separou as águas abaixo do firmamento das águas acima do firmamento; e assim foi.",
+            "literalEn": "And God made the firmament and separated the waters below the firmament from the waters above the firmament; and it was so."
+        }
+    ],
+    "armenianWitnesses": [
+        {
+            "id": "armenian",
+            "label": "Armênio",
+            "text": "Եւ արար Աստուած զհաստատութիւնն, եւ մեկնեաց Աստուած ի մէջ ջրոյն որ ի ներքոյ հաստատութեանն, եւ ի մէջ ջրոյն որ ի վերայ հաստատութեանն: Եւ եղեւ այնպէս:",
+            "transliteration": "Ew arar Astuac z-hastatut'iwnn, ew mekneac' Astuac i mēǰ ǰroyn or i nerk'oy hastatut'eann, ew i mēǰ ǰroyn or i veray hastatut'eann: Ew ełew aynpēs:",
+            "literalPt": "E fez Deus o firmamento, e separou entre a água debaixo do firmamento e a água acima do firmamento: E assim foi.",
+            "literalEn": "And God made the firmament, and separated between the water under the firmament and the water above the firmament: And it was so."
+        }
+    ],
+    "tokens": []
+}

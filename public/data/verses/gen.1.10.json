@@ -1,0 +1,191 @@
+{
+    "schemaVersion": "1.1.0",
+    "ref": {
+        "book": "gen",
+        "chapter": 1,
+        "verse": 10
+    },
+    "translation": {
+        "author": "Equipe Biblia.Creio.EU",
+        "authorEn": "Biblia.Creio.EU Team",
+        "baseText": "Codex Leningradensis / LXX / Vulgata",
+        "baseTextEn": "Codex Leningradensis / LXX / Vulgate"
+    },
+    "manuscripts": {
+        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "aramaic": "Aramaico: Targum Onkelos (TO)",
+        "aramaicEn": "Aramaic: Targum Onkelos (TO)",
+        "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
+        "greekEn": "Greek: Septuagint (LXX) and Byzantine tradition (Byz/RP) (comparison)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "geez": "Ge'ez: tradição etíope clássica",
+        "geezEn": "Ge'ez: classical Ethiopic tradition",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses",
+        "armenian": "Armênio: versão armênia antiga",
+        "armenianEn": "Armenian: ancient Armenian version"
+    },
+    "sourceTexts": {
+        "hebrew": "וַיִּקְרָא אֱלֹהִים לַיַּבָּשָׁה אֶרֶץ וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים וַיַּרְא אֱלֹהִים כִּי טוֹב",
+        "aramaic": "וּקְרָא יְיָ לְיַבֶּשְׁתָּא אַרְעָא וּלְבֵית כְּנִישַׁת מַיָּא קְרָא יַמְמַיָּא וַחֲזָא יְיָ אֲרֵי טָב",
+        "greek": "καὶ ἐκάλεσεν ὁ θεὸς τὴν ξηρὰν γῆν καὶ τὰ συστήματα τῶν ὑδάτων ἐκάλεσεν θαλάσσας καὶ εἶδεν ὁ θεὸς ὅτι καλόν",
+        "latin": "Et vocavit Deus aridam terram congregationesque aquarum appellavit maria et vidit Deus quod esset bonum",
+        "geez": "ወሰመያ እግዚአብሔር ለየብስ ምድረ ወለዘተጋብአ ማይ ሰመዮ ባሕረ ወርእየ እግዚአብሔር ከመ ሠናይ",
+        "syriac": "ܘܩܪܐ ܐܠܗܐ ܠܝܒܫܬܐ ܐܪܥܐ ܘܠܟܢܫܐ ܕܡܝܐ ܩܪܐ ܝܡܡܐ ܘܚܙܐ ܐܠܗܐ ܕܫܦܝܪ",
+        "coptic": "uoh af-muti nje phnuti e pi-pet-shuōou je p-kahi uoh ni-ma n-thouōti nte ni-mōu af-muti ero-ou je ni-amaiou uoh af-nau nje phnuti je nanef",
+        "armenian": "Եւ կոչեաց Աստուած զցամաքն երկիր, եւ զժողովս ջուրցն կոչեաց ծովս: Եւ ետես Աստուած զի բարի է:"
+    },
+    "literalTranslations": [
+        {
+            "lang": "hebrew",
+            "pt": "E chamou Deus à porção seca terra; e ao ajuntamento das águas chamou mares; e viu Deus que era bom.",
+            "en": "And God called the dry land earth; and the gathering together of the waters He called seas; and God saw that it was good."
+        },
+        {
+            "lang": "aramaic",
+            "pt": "E chamou o Senhor à terra seca terra; e ao ajuntamento das águas chamou mares; e viu o Senhor que era bom.",
+            "en": "And the Lord called the dry land earth; and the gathering of the waters He called seas; and the Lord saw that it was good."
+        },
+        {
+            "lang": "greek",
+            "pt": "E chamou Deus ao seco terra, e aos ajuntamentos das águas chamou mares; e viu Deus que era bom.",
+            "en": "And God called the dry land earth, and the gatherings of the waters He called seas; and God saw that it was good."
+        },
+        {
+            "lang": "latin",
+            "pt": "E chamou Deus à seca terra; e aos ajuntamentos das águas chamou mares; e viu Deus que era bom.",
+            "en": "And God called the dry land earth; and the gatherings of the waters He called seas; and God saw that it was good."
+        },
+        {
+            "lang": "geez",
+            "pt": "E chamou o Senhor à terra seca terra, e à água reunida chamou mar; e viu o Senhor que era bom.",
+            "en": "And the Lord called the dry land earth, and the gathered water He called sea; and the Lord saw that it was good."
+        },
+        {
+            "lang": "syriac",
+            "pt": "E chamou Deus à seca terra; e ao ajuntamento das águas chamou mares; e viu Deus que era bom.",
+            "en": "And God called the dry land earth; and the gathering of waters He called seas; and God saw that it was good."
+        },
+        {
+            "lang": "coptic",
+            "pt": "E chamou Deus ao seco terra, e aos ajuntamentos das águas chamou mares; e viu Deus que era bom.",
+            "en": "And God called the dry land earth, and the gathering places of the waters He called seas; and God saw that it was good."
+        },
+        {
+            "lang": "armenian",
+            "pt": "E chamou Deus à terra seca terra, e aos ajuntamentos das águas chamou mares. E viu Deus que era bom.",
+            "en": "And God called the dry land earth, and the gatherings of the waters He called seas. And God saw that it was good."
+        }
+    ],
+    "ptLiteralVerse": "E chamou Deus à porção seca terra; e ao ajuntamento das águas chamou mares; e viu Deus que era bom.",
+    "enLiteralVerse": "And God called the dry land earth; and the gathering together of the waters He called seas; and God saw that it was good.",
+    "hebrewWitnesses": [
+        {
+            "id": "leningradensis",
+            "label": "Codex Leningradensis (B19A)",
+            "text": "וַיִּקְרָא אֱלֹהִים לַיַּבָּשָׁה אֶרֶץ וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים וַיַּרְא אֱלֹהִים כִּי טוֹב",
+            "transliteration": "Vayikra Elohim layabashah eretz ulemikveh hamayim qara yamim vayar Elohim ki tov",
+            "literalPt": "E chamou Deus à porção seca terra; e ao ajuntamento das águas chamou mares; e viu Deus que era bom.",
+            "literalEn": "And God called the dry land earth; and the gathering together of the waters He called seas; and God saw that it was good."
+        },
+        {
+            "id": "aleppo",
+            "label": "Aleppo Codex (A)",
+            "text": "וַיִּקְרָא אֱלֹהִים לַיַּבָּשָׁה אֶרֶץ וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים וַיַּרְא אֱלֹהִים כִּי טוֹב",
+            "transliteration": "Vayikra Elohim layabashah eretz ulemikveh hamayim qara yamim vayar Elohim ki tov",
+            "literalPt": "E chamou Deus à porção seca terra; e ao ajuntamento das águas chamou mares; e viu Deus que era bom.",
+            "literalEn": "And God called the dry land earth; and the gathering together of the waters He called seas; and God saw that it was good."
+        },
+        {
+            "id": "qumran",
+            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
+            "text": "וַיִּקְרָא אֱלֹהִים לַיַּבָּשָׁה אֶרֶץ וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים וַיַּרְא אֱלֹהִים כִּי טוֹב",
+            "transliteration": "Vayikra Elohim layabashah eretz ulemikveh hamayim qara yamim vayar Elohim ki tov",
+            "literalPt": "E chamou Deus à porção seca terra; e ao ajuntamento das águas chamou mares; e viu Deus que era bom.",
+            "literalEn": "And God called the dry land earth; and the gathering together of the waters He called seas; and God saw that it was good."
+        }
+    ],
+    "aramaicWitnesses": [
+        {
+            "id": "targum",
+            "label": "Targum Onkelos",
+            "text": "וּקְרָא יְיָ לְיַבֶּשְׁתָּא אַרְעָא וּלְבֵית כְּנִישַׁת מַיָּא קְרָא יַמְמַיָּא וַחֲזָא יְיָ אֲרֵי טָב",
+            "transliteration": "Uqra YY leyabeshta ara uleveit kenishat maya qra yammaya vachaza YY arei tav",
+            "literalPt": "E chamou o Senhor à terra seca terra; e ao ajuntamento das águas chamou mares; e viu o Senhor que era bom.",
+            "literalEn": "And the Lord called the dry land earth; and the gathering of the waters He called seas; and the Lord saw that it was good."
+        }
+    ],
+    "greekWitnesses": [
+        {
+            "id": "lxx",
+            "label": "Septuaginta (LXX)",
+            "text": "καὶ ἐκάλεσεν ὁ θεὸς τὴν ξηρὰν γῆν καὶ τὰ συστήματα τῶν ὑδάτων ἐκάλεσεν θαλάσσας καὶ εἶδεν ὁ θεὸς ὅτι καλόν",
+            "transliteration": "kai ekalesen ho theos tēn xēran gēn kai ta systēmata tōn hydatōn ekalesen thalassas kai eiden ho theos hoti kalon",
+            "literalPt": "E chamou Deus ao seco terra, e aos ajuntamentos das águas chamou mares; e viu Deus que era bom.",
+            "literalEn": "And God called the dry land earth, and the gatherings of the waters He called seas; and God saw that it was good."
+        },
+        {
+            "id": "byzantine",
+            "label": "Tradição Bizantina Grega (Byz/RP)",
+            "text": "καὶ ἐκάλεσεν ὁ θεὸς τὴν ξηρὰν γῆν καὶ τὰ συστήματα τῶν ὑδάτων ἐκάλεσεν θαλάσσας καὶ εἶδεν ὁ θεὸς ὅτι καλόν",
+            "transliteration": "kai ekalesen ho theos tēn xēran gēn kai ta systēmata tōn hydatōn ekalesen thalassas kai eiden ho theos hoti kalon",
+            "literalPt": "E chamou Deus ao seco terra, e aos ajuntamentos das águas chamou mares; e viu Deus que era bom.",
+            "literalEn": "And God called the dry land earth, and the gatherings of the waters He called seas; and God saw that it was good."
+        }
+    ],
+    "latinWitnesses": [
+        {
+            "id": "vulgate",
+            "label": "Vulgata",
+            "text": "Et vocavit Deus aridam terram congregationesque aquarum appellavit maria et vidit Deus quod esset bonum",
+            "transliteration": "Et vocavit Deus aridam terram congregationesque aquarum appellavit maria et vidit Deus quod esset bonum",
+            "literalPt": "E chamou Deus à seca terra; e aos ajuntamentos das águas chamou mares; e viu Deus que era bom.",
+            "literalEn": "And God called the dry land earth; and the gatherings of the waters He called seas; and God saw that it was good."
+        }
+    ],
+    "geezWitnesses": [
+        {
+            "id": "geez",
+            "label": "Ge'ez",
+            "text": "ወሰመያ እግዚአብሔር ለየብስ ምድረ ወለዘተጋብአ ማይ ሰመዮ ባሕረ ወርእየ እግዚአብሔር ከመ ሠናይ",
+            "transliteration": "Wa-samayā 'Egzi'abḥēr la-yabs mdra wa-la-za-tagāb'a māy samayo bāḥra wa-r'ya 'Egzi'abḥēr kama śanāy",
+            "literalPt": "E chamou o Senhor à terra seca terra, e à água reunida chamou mar; e viu o Senhor que era bom.",
+            "literalEn": "And the Lord called the dry land earth, and the gathered water He called sea; and the Lord saw that it was good."
+        }
+    ],
+    "syriacWitnesses": [
+        {
+            "id": "syriac",
+            "label": "Peshitta",
+            "text": "ܘܩܪܐ ܐܠܗܐ ܠܝܒܫܬܐ ܐܪܥܐ ܘܠܟܢܫܐ ܕܡܝܐ ܩܪܐ ܝܡܡܐ ܘܚܙܐ ܐܠܗܐ ܕܫܦܝܪ",
+            "transliteration": "W-qra Alaha l-yabshta ar'a w-l-kensha d-maya qra yamama w-chaza Alaha d-shapir",
+            "literalPt": "E chamou Deus à seca terra; e ao ajuntamento das águas chamou mares; e viu Deus que era bom.",
+            "literalEn": "And God called the dry land earth; and the gathering of waters He called seas; and God saw that it was good."
+        }
+    ],
+    "copticWitnesses": [
+        {
+            "id": "coptic",
+            "label": "Copta",
+            "text": "uoh af-muti nje phnuti e pi-pet-shuōou je p-kahi uoh ni-ma n-thouōti nte ni-mōu af-muti ero-ou je ni-amaiou uoh af-nau nje phnuti je nanef",
+            "transliteration": "uoh af-muti nje phnuti e pi-pet-shuōou je p-kahi uoh ni-ma n-thouōti nte ni-mōu af-muti ero-ou je ni-amaiou uoh af-nau nje phnuti je nanef",
+            "literalPt": "E chamou Deus ao seco terra, e aos ajuntamentos das águas chamou mares; e viu Deus que era bom.",
+            "literalEn": "And God called the dry land earth, and the gathering places of the waters He called seas; and God saw that it was good."
+        }
+    ],
+    "armenianWitnesses": [
+        {
+            "id": "armenian",
+            "label": "Armênio",
+            "text": "Եւ կոչեաց Աստուած զցամաքն երկիր, եւ զժողովս ջուրցն կոչեաց ծովս: Եւ ետես Աստուած զի բարի է:",
+            "transliteration": "Ew koč'eac' Astuac z-c'amaq'n erkir, ew z-žołovs ǰurc'n koč'eac' covs: Ew etes Astuac zi bari ē:",
+            "literalPt": "E chamou Deus à terra seca terra, e aos ajuntamentos das águas chamou mares. E viu Deus que era bom.",
+            "literalEn": "And God called the dry land earth, and the gatherings of the waters He called seas. And God saw that it was good."
+        }
+    ],
+    "tokens": []
+}

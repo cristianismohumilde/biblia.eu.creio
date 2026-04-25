@@ -6,10 +6,10 @@
         "verse": 2
     },
     "translation": {
-        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
-        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
-        "baseText": "Base principal hebraica com comparação multitradicional",
-        "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
+        "author": "Equipe Biblia.Creio.EU",
+        "authorEn": "Biblia.Creio.EU Team",
+        "baseText": "Codex Leningradensis / LXX / Vulgata",
+        "baseTextEn": "Codex Leningradensis / LXX / Vulgate"
     },
     "manuscripts": {
         "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
@@ -39,27 +39,84 @@
         "coptic": "p-kahi de ne u-at-nau pe nem u-at-sobte pe nem u-kaki hi-jen p-nūn nem u-pneuma nte phnuti ne f-phēu hi-jen ni-mōu pe",
         "armenian": "Եւ երկիրն էր աներեւոյթ եւ անպատրաստ. եւ խաւար ի վերայ անդնդոց. եւ հոգի Աստուծոյ շրջէր ի վերայ ջուրց"
     },
+    "literalTranslations": [
+        {
+            "lang": "hebrew",
+            "pt": "E a terra era sem forma e vazia; e havia trevas sobre a face do abismo; e o Espírito de Deus pairava sobre a face das águas.",
+            "en": "And the earth was without form and void; and darkness was upon the face of the deep; and the Spirit of God moved upon the face of the waters."
+        },
+        {
+            "lang": "aramaic",
+            "pt": "E a terra estava desolada e vazia, e trevas sobre a face do abismo, e um vento/espírito de diante do Senhor soprava sobre a face das águas.",
+            "en": "And the earth was desolate and empty, and darkness over the face of the deep, and a wind/spirit from before the Lord was blowing over the face of the waters."
+        },
+        {
+            "lang": "greek",
+            "pt": "E a terra era invisível e inacabada, e trevas estavam sobre o abismo, e o espírito de Deus movia-se sobre a água.",
+            "en": "And the earth was invisible and unfinished, and darkness was over the abyss, and the spirit of God moved over the water."
+        },
+        {
+            "lang": "latin",
+            "pt": "A terra, porém, era vazia e sem forma; e as trevas estavam sobre a face do abismo; e o Espírito de Deus movia-se sobre as águas.",
+            "en": "The earth, however, was empty and unformed; and darkness was over the face of the abyss; and the Spirit of God moved over the waters."
+        },
+        {
+            "lang": "geez",
+            "pt": "E a terra estava sem forma e sem preparo, e trevas sobre a face do abismo, e o Espírito de Deus pairava sobre as águas.",
+            "en": "And the earth was without form and unprepared, and darkness over the face of the deep, and the Spirit of God hovered over the waters."
+        },
+        {
+            "lang": "syriac",
+            "pt": "E a terra estava sem forma e vazia, e trevas sobre a face do abismo, e o Espírito de Deus pairava sobre a face das águas.",
+            "en": "And the earth was formless and empty, and darkness over the face of the deep, and the Spirit of God hovered over the face of the waters."
+        },
+        {
+            "lang": "coptic",
+            "pt": "E a terra estava invisível e não ordenada, e trevas sobre o abismo, e o Espírito de Deus movia-se sobre as águas.",
+            "en": "And the earth was unseen and not ordered, and darkness over the deep, and the Spirit of God moved over the waters."
+        },
+        {
+            "lang": "armenian",
+            "pt": "E a terra era invisível e sem preparo; e trevas sobre o abismo; e o Espírito de Deus movia-se sobre as águas.",
+            "en": "And the earth was invisible and unprepared; and darkness over the deep; and the Spirit of God moved over the waters."
+        }
+    ],
+    "ptLiteralVerse": "E a terra era sem forma e vazia; e havia trevas sobre a face do abismo; e o Espírito de Deus pairava sobre a face das águas.",
+    "enLiteralVerse": "And the earth was without form and void; and darkness was upon the face of the deep; and the Spirit of God moved upon the face of the waters.",
     "hebrewWitnesses": [
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
             "text": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל פְּנֵי הַמָּיִם",
             "transliteration": "Ve-haaretz hayetah tohu va-vohu ve-choshek al penei tehom ve-ruach Elohim merachefet al penei hamayim",
-            "literalPt": "E a terra era vã e vazia, e trevas [estavam] sobre a face do abismo, e o Espírito de Deus pairava sobre a face das águas."
+            "literalPt": "E a terra era sem forma e vazia; e havia trevas sobre a face do abismo; e o Espírito de Deus pairava sobre a face das águas.",
+            "literalEn": "And the earth was without form and void; and darkness was upon the face of the deep; and the Spirit of God moved upon the face of the waters."
         },
         {
             "id": "aleppo",
             "label": "Aleppo Codex (A)",
             "text": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל פְּנֵי הַמָּיִם",
             "transliteration": "Ve-haaretz hayetah tohu va-vohu ve-choshek al penei tehom ve-ruach Elohim merachefet al penei hamayim",
-            "literalPt": "E a terra era vã e vazia, e trevas [estavam] sobre a face do abismo, e o Espírito de Deus pairava sobre a face das águas."
+            "literalPt": "E a terra era sem forma e vazia; e havia trevas sobre a face do abismo; e o Espírito de Deus pairava sobre a face das águas.",
+            "literalEn": "And the earth was without form and void; and darkness was upon the face of the deep; and the Spirit of God moved upon the face of the waters."
         },
         {
             "id": "qumran",
             "label": "Dead Sea Scrolls (Qumran, 4QGen)",
             "text": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל פְּנֵי הַמָּיִם",
             "transliteration": "Ve-haaretz hayetah tohu va-vohu ve-choshek al penei tehom ve-ruach Elohim merachefet al penei hamayim",
-            "literalPt": "E a terra era vã e vazia, e trevas [estavam] sobre a face do abismo, e o Espírito de Deus pairava sobre a face das águas."
+            "literalPt": "E a terra era sem forma e vazia; e havia trevas sobre a face do abismo; e o Espírito de Deus pairava sobre a face das águas.",
+            "literalEn": "And the earth was without form and void; and darkness was upon the face of the deep; and the Spirit of God moved upon the face of the waters."
+        }
+    ],
+    "aramaicWitnesses": [
+        {
+            "id": "targum",
+            "label": "Targum Onkelos",
+            "text": "וְאַרְעָא הֲוָת צָדְיָא וְרֵיקָנְיָא וַחֲשׁוֹכָא עַל אַפֵּי תְהוֹמָא וְרוּחָא מִן קֳדָם יְיָ מְנַשְּׁבָא עַל אַפֵּי מַיָּא",
+            "transliteration": "Ve-ara havat tzadeya ve-reikanya va-chashokha al apei tehoma ve-rucha min qodam YY menashba al apei maya",
+            "literalPt": "E a terra estava desolada e vazia, e trevas sobre a face do abismo, e um vento/espírito de diante do Senhor soprava sobre a face das águas.",
+            "literalEn": "And the earth was desolate and empty, and darkness over the face of the deep, and a wind/spirit from before the Lord was blowing over the face of the waters."
         }
     ],
     "greekWitnesses": [
@@ -68,74 +125,66 @@
             "label": "Septuaginta (LXX)",
             "text": "ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος",
             "transliteration": "he de ge en ahoratos kai akataskeuastos kai skotos epano tes abyssou kai pneuma theou epephereto epano tou hydatos",
-            "literalPt": "E a terra era invisível e inacabada, e trevas estavam sobre o abismo, e o espírito de Deus movia-se sobre a água."
+            "literalPt": "E a terra era invisível e inacabada, e trevas estavam sobre o abismo, e o espírito de Deus movia-se sobre a água.",
+            "literalEn": "And the earth was invisible and unfinished, and darkness was over the abyss, and the spirit of God moved over the water."
         },
         {
             "id": "byzantine",
             "label": "Tradição Bizantina Grega (Byz/RP)",
             "text": "ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος",
             "transliteration": "he de ge en ahoratos kai akataskeuastos kai skotos epano tes abyssou kai pneuma theou epephereto epano tou hydatos",
-            "literalPt": "E a terra era invisível e inacabada, e trevas estavam sobre o abismo, e o espírito de Deus movia-se sobre a água."
+            "literalPt": "E a terra era invisível e inacabada, e trevas estavam sobre o abismo, e o espírito de Deus movia-se sobre a água.",
+            "literalEn": "And the earth was invisible and unfinished, and darkness was over the abyss, and the spirit of God moved over the water."
         }
     ],
-    "ptLiteralVerse": "E a terra era vã e vazia; e havia trevas sobre a face do abismo; e o Espírito de Deus pairava sobre a face das águas.",
-    "enLiteralVerse": "And the earth was without form and void; and darkness was upon the face of the deep; and the Spirit of God moved upon the face of the waters.",
-    "literalTranslations": [
+    "latinWitnesses": [
         {
-            "lang": "hebrew",
-            "langPt": "Hebraico",
-            "langEn": "Hebrew",
-            "pt": "E a terra era vã e vazia, e trevas sobre a face do abismo, e o Espírito de Deus pairava sobre as águas.",
-            "en": "And the earth was formless and empty, and darkness was over the face of the deep, and the Spirit of God moved over the waters."
-        },
+            "id": "vulgate",
+            "label": "Vulgata",
+            "text": "Terra autem erat inanis et vacua et tenebrae erant super faciem abyssi et spiritus Dei ferebatur super aquas",
+            "transliteration": "Terra autem erat inanis et vacua et tenebrae erant super faciem abyssi et spiritus Dei ferebatur super aquas",
+            "literalPt": "A terra, porém, era vazia e sem forma; e as trevas estavam sobre a face do abismo; e o Espírito de Deus movia-se sobre as águas.",
+            "literalEn": "The earth, however, was empty and unformed; and darkness was over the face of the abyss; and the Spirit of God moved over the waters."
+        }
+    ],
+    "geezWitnesses": [
         {
-            "lang": "greek",
-            "langPt": "Grego",
-            "langEn": "Greek",
-            "pt": "E a terra era invisível e inacabada, e trevas sobre o abismo, e o espírito de Deus movia-se sobre a água.",
-            "en": "And the earth was invisible and unfinished, and darkness was over the abyss, and the spirit of God moved over the water."
-        },
+            "id": "geez",
+            "label": "Ge'ez",
+            "text": "ወምድርሰ ኢትሬአይ ወኢተደልወት ወጽልመት ላዕለ ቀላይ ወመንፈሰ እግዚአብሔር ይጼልል ላዕለ ማይ",
+            "transliteration": "Wa-mdr-ssa 'i-trē'ay wa-'i-tadalwat wa-ṣelmat lā'la qalāy wa-manfasa 'Egzi'abḥēr yeṣēlel lā'la māy",
+            "literalPt": "E a terra estava sem forma e sem preparo, e trevas sobre a face do abismo, e o Espírito de Deus pairava sobre as águas.",
+            "literalEn": "And the earth was without form and unprepared, and darkness over the face of the deep, and the Spirit of God hovered over the waters."
+        }
+    ],
+    "syriacWitnesses": [
         {
-            "lang": "aramaic",
-            "langPt": "Aramaico",
-            "langEn": "Aramaic",
-            "pt": "E a terra estava desolada e vazia, e trevas sobre a face do abismo, e um vento/espírito da presença do Senhor soprava sobre a face das águas.",
-            "en": "And the earth was desolate and empty, and darkness was over the face of the deep, and a wind/spirit from the presence of the Lord was blowing over the face of the waters."
-        },
+            "id": "syriac",
+            "label": "Peshitta",
+            "text": "ܘܐܪܥܐ ܗܘܬ ܬܘܗ ܘܒܘܗ ܘܚܫܘܟܐ ܥܠ ܐܦܝ ܬܗܘܡܐ ܘܪܘܚܗ ܕܐܠܗܐ ܡܪܚܦܐ ܗܘܬ ܥܠ ܐܦܝ ܡܝܐ",
+            "transliteration": "W-ar'a hwat toh w-boh w-cheshuka 'al apey tehoma w-rucheh d-Alaha merachpa hwat 'al apey maya",
+            "literalPt": "E a terra estava sem forma e vazia, e trevas sobre a face do abismo, e o Espírito de Deus pairava sobre a face das águas.",
+            "literalEn": "And the earth was formless and empty, and darkness over the face of the deep, and the Spirit of God hovered over the face of the waters."
+        }
+    ],
+    "copticWitnesses": [
         {
-            "lang": "latin",
-            "langPt": "Latim",
-            "langEn": "Latin",
-            "pt": "A terra, porém, era vazia e sem forma; e as trevas estavam sobre a face do abismo; e o Espírito de Deus movia-se sobre as águas.",
-            "en": "The earth, however, was empty and unformed; and darkness was over the face of the abyss; and the Spirit of God moved over the waters."
-        },
+            "id": "coptic",
+            "label": "Copta",
+            "text": "p-kahi de ne u-at-nau pe nem u-at-sobte pe nem u-kaki hi-jen p-nūn nem u-pneuma nte phnuti ne f-phēu hi-jen ni-mōu pe",
+            "transliteration": "p-kahi de ne u-at-nau pe nem u-at-sobte pe nem u-kaki hi-jen p-nūn nem u-pneuma nte phnuti ne f-phēu hi-jen ni-mōu pe",
+            "literalPt": "E a terra estava invisível e não ordenada, e trevas sobre o abismo, e o Espírito de Deus movia-se sobre as águas.",
+            "literalEn": "And the earth was unseen and not ordered, and darkness over the deep, and the Spirit of God moved over the waters."
+        }
+    ],
+    "armenianWitnesses": [
         {
-            "lang": "geez",
-            "langPt": "Ge'ez",
-            "langEn": "Ge'ez",
-            "pt": "E a terra estava sem forma e sem preparo, e trevas sobre a face do abismo, e o Espírito de Deus pairava sobre as águas.",
-            "en": "And the earth was without form and unprepared, and darkness over the face of the deep, and the Spirit of God hovered over the waters."
-        },
-        {
-            "lang": "syriac",
-            "langPt": "Siríaco",
-            "langEn": "Syriac",
-            "pt": "E a terra estava sem forma e vazia, e trevas sobre a face do abismo, e o Espírito de Deus pairava sobre a face das águas.",
-            "en": "And the earth was formless and empty, and darkness over the face of the deep, and the Spirit of God hovered over the face of the waters."
-        },
-        {
-            "lang": "coptic",
-            "langPt": "Copta",
-            "langEn": "Coptic",
-            "pt": "E a terra estava invisível e não ordenada, e trevas sobre o abismo, e o Espírito de Deus movia-se sobre as águas.",
-            "en": "And the earth was unseen and not ordered, and darkness over the deep, and the Spirit of God moved over the waters."
-        },
-        {
-            "lang": "armenian",
-            "langPt": "Armênio",
-            "langEn": "Armenian",
-            "pt": "E a terra era invisível e sem preparo; e trevas sobre o abismo; e o Espírito de Deus movia-se sobre as águas.",
-            "en": "And the earth was invisible and unprepared; and darkness over the deep; and the Spirit of God moved over the waters."
+            "id": "armenian",
+            "label": "Armênio",
+            "text": "Եւ երկիրն էր աներեւոյթ եւ անպատրաստ. եւ խաւար ի վերայ անդնդոց. եւ հոգի Աստուծոյ շրջէր ի վերայ ջուրց",
+            "transliteration": "Ew erkirn ēr anerewoyt' ew anpatrast. ew xawar i veray andndoc'. ew hogi Astucoy šrǰēr i veray ǰurc'",
+            "literalPt": "E a terra era invisível e sem preparo; e trevas sobre o abismo; e o Espírito de Deus movia-se sobre as águas.",
+            "literalEn": "And the earth was invisible and unprepared; and darkness over the deep; and the Spirit of God moved over the waters."
         }
     ],
     "tokens": [

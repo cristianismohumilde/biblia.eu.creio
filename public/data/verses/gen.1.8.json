@@ -1,0 +1,191 @@
+{
+    "schemaVersion": "1.1.0",
+    "ref": {
+        "book": "gen",
+        "chapter": 1,
+        "verse": 8
+    },
+    "translation": {
+        "author": "Equipe Biblia.Creio.EU",
+        "authorEn": "Biblia.Creio.EU Team",
+        "baseText": "Codex Leningradensis / LXX / Vulgata",
+        "baseTextEn": "Codex Leningradensis / LXX / Vulgate"
+    },
+    "manuscripts": {
+        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "aramaic": "Aramaico: Targum Onkelos (TO)",
+        "aramaicEn": "Aramaic: Targum Onkelos (TO)",
+        "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
+        "greekEn": "Greek: Septuagint (LXX) and Byzantine tradition (Byz/RP) (comparison)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "geez": "Ge'ez: tradição etíope clássica",
+        "geezEn": "Ge'ez: classical Ethiopic tradition",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses",
+        "armenian": "Armênio: versão armênia antiga",
+        "armenianEn": "Armenian: ancient Armenian version"
+    },
+    "sourceTexts": {
+        "hebrew": "וַיִּקְרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם שֵׁנִי",
+        "aramaic": "וּקְרָא יְיָ לִרְקִיעָא שְׁמַיָּא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹמָא תִנְיָנָא",
+        "greek": "καὶ ἐκάλεσεν ὁ θεὸς τὸ στερέωμα οὐρανόν καὶ εἶδεν ὁ θεὸς ὅτι καλόν καὶ ἐγένετο ἑσπέρα καὶ ἐγένετο πρωί ἡμέρα δευτέρα",
+        "latin": "Vocavitque Deus firmamentum caelum et factum est vespere et mane dies secundus",
+        "geez": "ወሰመዮ እግዚአብሔር ለጠፈር ሰማየ ወርእየ እግዚአብሔር ከመ ሠናይ ወኮነ ሠርክ ወኮነ ነግህ ካልእ ዕለት",
+        "syriac": "ܘܩܪܐ ܐܠܗܐ ܠܪܩܝܥܐ ܫܡܝܐ ܘܗܘܐ ܪܡܫܐ ܘܗܘܐ ܨܦܪܐ ܝܘܡܐ ܬܪܝܢ",
+        "coptic": "uoh af-muti nje phnuti e p-stereōma je t-phe uoh af-nau nje phnuti je nanef uoh a ruhan shōpi uoh a htoou shōpi p-mah snau n-ehoou",
+        "armenian": "Եւ կոչեաց Աստուած զհաստատութիւնն երկինս: Եւ ետես Աստուած զի բարի է: Եւ եղեւ ընդ երեկս եւ եղեւ ընդ առաւօտս օր երկրորդ:"
+    },
+    "literalTranslations": [
+        {
+            "lang": "hebrew",
+            "pt": "E chamou Deus ao firmamento céus; e houve tarde e houve manhã, dia segundo.",
+            "en": "And God called the firmament heaven; and there was evening and there was morning, a second day."
+        },
+        {
+            "lang": "aramaic",
+            "pt": "E chamou o Senhor ao firmamento céus; e houve tarde e houve manhã, dia segundo.",
+            "en": "And the Lord called the firmament heaven; and there was evening and there was morning, a second day."
+        },
+        {
+            "lang": "greek",
+            "pt": "E chamou Deus ao firmamento céu; e viu Deus que era bom. E houve tarde e houve manhã, dia segundo.",
+            "en": "And God called the firmament heaven; and God saw that it was good. And there was evening and there was morning, a second day."
+        },
+        {
+            "lang": "latin",
+            "pt": "E chamou Deus ao firmamento céu; e foi feito tarde e manhã, dia segundo.",
+            "en": "And God called the firmament heaven; and it was made evening and morning, the second day."
+        },
+        {
+            "lang": "geez",
+            "pt": "E chamou o Senhor ao firmamento céu; e viu que era bom; e houve tarde e houve manhã, segundo dia.",
+            "en": "And the Lord called the firmament heaven; and He saw that it was good; and there was evening and there was morning, the second day."
+        },
+        {
+            "lang": "syriac",
+            "pt": "E chamou Deus ao firmamento céus; e houve tarde e houve manhã, dia segundo.",
+            "en": "And God called the firmament heaven; and there was evening and there was morning, the second day."
+        },
+        {
+            "lang": "coptic",
+            "pt": "E chamou Deus ao firmamento céu; e viu Deus que era bom; e houve tarde e houve manhã, o segundo dia.",
+            "en": "And God called the firmament heaven; and God saw that it was good; and there was evening and there was morning, the second day."
+        },
+        {
+            "lang": "armenian",
+            "pt": "E chamou Deus ao firmamento céu. E viu Deus que era bom. E houve tarde e houve manhã, dia segundo.",
+            "en": "And God called the firmament heaven. And God saw that it was good. And there was evening and there was morning, a second day."
+        }
+    ],
+    "ptLiteralVerse": "E chamou Deus ao firmamento céus; e houve tarde e houve manhã, dia segundo.",
+    "enLiteralVerse": "And God called the firmament heaven; and there was evening and there was morning, a second day.",
+    "hebrewWitnesses": [
+        {
+            "id": "leningradensis",
+            "label": "Codex Leningradensis (B19A)",
+            "text": "וַיִּקְרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם שֵׁנִי",
+            "transliteration": "Vayikra Elohim larakia shamayim vayehi erev vayehi voker yom sheni",
+            "literalPt": "E chamou Deus ao firmamento céus; e houve tarde e houve manhã, dia segundo.",
+            "literalEn": "And God called the firmament heaven; and there was evening and there was morning, a second day."
+        },
+        {
+            "id": "aleppo",
+            "label": "Aleppo Codex (A)",
+            "text": "וַיִּקְרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם שֵׁנִי",
+            "transliteration": "Vayikra Elohim larakia shamayim vayehi erev vayehi voker yom sheni",
+            "literalPt": "E chamou Deus ao firmamento céus; e houve tarde e houve manhã, dia segundo.",
+            "literalEn": "And God called the firmament heaven; and there was evening and there was morning, a second day."
+        },
+        {
+            "id": "qumran",
+            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
+            "text": "וַיִּקְרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם שֵׁנִי",
+            "transliteration": "Vayikra Elohim larakia shamayim vayehi erev vayehi voker yom sheni",
+            "literalPt": "E chamou Deus ao firmamento céus; e houve tarde e houve manhã, dia segundo.",
+            "literalEn": "And God called the firmament heaven; and there was evening and there was morning, a second day."
+        }
+    ],
+    "aramaicWitnesses": [
+        {
+            "id": "targum",
+            "label": "Targum Onkelos",
+            "text": "וּקְרָא יְיָ לִרְקִיעָא שְׁמַיָּא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹמָא תִנְיָנָא",
+            "transliteration": "Uqra YY lireqi'a shemaya vahavah remash vahavah tzephar yoma tinyana",
+            "literalPt": "E chamou o Senhor ao firmamento céus; e houve tarde e houve manhã, dia segundo.",
+            "literalEn": "And the Lord called the firmament heaven; and there was evening and there was morning, a second day."
+        }
+    ],
+    "greekWitnesses": [
+        {
+            "id": "lxx",
+            "label": "Septuaginta (LXX)",
+            "text": "καὶ ἐκάλεσεν ὁ θεὸς τὸ στερέωμα οὐρανόν καὶ εἶδεν ὁ θεὸς ὅτι καλόν καὶ ἐγένετο ἑσπέρα καὶ ἐγένετο πρωί ἡμέρα δευτέρα",
+            "transliteration": "kai ekalesen ho theos to stereōma ouranon kai eiden ho theos hoti kalon kai egeneto hespera kai egeneto prōi hemera deutera",
+            "literalPt": "E chamou Deus ao firmamento céu; e viu Deus que era bom. E houve tarde e houve manhã, dia segundo.",
+            "literalEn": "And God called the firmament heaven; and God saw that it was good. And there was evening and there was morning, a second day."
+        },
+        {
+            "id": "byzantine",
+            "label": "Tradição Bizantina Grega (Byz/RP)",
+            "text": "καὶ ἐκάλεσεν ὁ θεὸς τὸ στερέωμα οὐρανόν καὶ εἶδεν ὁ θεὸς ὅτι καλόν καὶ ἐγένετο ἑσπέρα καὶ ἐγένετο πρωί ἡμέρα δευτέρα",
+            "transliteration": "kai ekalesen ho theos to stereōma ouranon kai eiden ho theos hoti kalon kai egeneto hespera kai egeneto prōi hemera deutera",
+            "literalPt": "E chamou Deus ao firmamento céu; e viu Deus que era bom. E houve tarde e houve manhã, dia segundo.",
+            "literalEn": "And God called the firmament heaven; and God saw that it was good. And there was evening and there was morning, a second day."
+        }
+    ],
+    "latinWitnesses": [
+        {
+            "id": "vulgate",
+            "label": "Vulgata",
+            "text": "Vocavitque Deus firmamentum caelum et factum est vespere et mane dies secundus",
+            "transliteration": "Vocavitque Deus firmamentum caelum et factum est vespere et mane dies secundus",
+            "literalPt": "E chamou Deus ao firmamento céu; e foi feito tarde e manhã, dia segundo.",
+            "literalEn": "And God called the firmament heaven; and it was made evening and morning, the second day."
+        }
+    ],
+    "geezWitnesses": [
+        {
+            "id": "geez",
+            "label": "Ge'ez",
+            "text": "ወሰመዮ እግዚአብሔር ለጠፈር ሰማየ ወርእየ እግዚአብሔር ከመ ሠናይ ወኮነ ሠርክ ወኮነ ነግህ ካልእ ዕለት",
+            "transliteration": "Wa-samayo 'Egzi'abḥēr la-ṭafar samāya wa-r'ya 'Egzi'abḥēr kama śanāy wa-kōna śark wa-kōna nagh kāl' 'elat",
+            "literalPt": "E chamou o Senhor ao firmamento céu; e viu que era bom; e houve tarde e houve manhã, segundo dia.",
+            "literalEn": "And the Lord called the firmament heaven; and He saw that it was good; and there was evening and there was morning, the second day."
+        }
+    ],
+    "syriacWitnesses": [
+        {
+            "id": "syriac",
+            "label": "Peshitta",
+            "text": "ܘܩܪܐ ܐܠܗܐ ܠܪܩܝܥܐ ܫܡܝܐ ܘܗܘܐ ܪܡܫܐ ܘܗܘܐ ܨܦܪܐ ܝܘܡܐ ܬܪܝܢ",
+            "transliteration": "W-qra Alaha l-reqi'a shmaya w-hwa ramsha w-hwa tsafra yawma tren",
+            "literalPt": "E chamou Deus ao firmamento céus; e houve tarde e houve manhã, dia segundo.",
+            "literalEn": "And God called the firmament heaven; and there was evening and there was morning, the second day."
+        }
+    ],
+    "copticWitnesses": [
+        {
+            "id": "coptic",
+            "label": "Copta",
+            "text": "uoh af-muti nje phnuti e p-stereōma je t-phe uoh af-nau nje phnuti je nanef uoh a ruhan shōpi uoh a htoou shōpi p-mah snau n-ehoou",
+            "transliteration": "uoh af-muti nje phnuti e p-stereōma je t-phe uoh af-nau nje phnuti je nanef uoh a ruhan shōpi uoh a htoou shōpi p-mah snau n-ehoou",
+            "literalPt": "E chamou Deus ao firmamento céu; e viu Deus que era bom; e houve tarde e houve manhã, o segundo dia.",
+            "literalEn": "And God called the firmament heaven; and God saw that it was good; and there was evening and there was morning, the second day."
+        }
+    ],
+    "armenianWitnesses": [
+        {
+            "id": "armenian",
+            "label": "Armênio",
+            "text": "Եւ կոչեաց Աստուած զհաստատութիւնն երկինս: Եւ ետես Աստուած զի բարի է: Եւ եղեւ ընդ երեկս եւ եղեւ ընդ առաւօտս օր երկրորդ:",
+            "transliteration": "Ew koč'eac' Astuac z-hastatut'iwnn erkins: Ew etes Astuac zi bari ē: Ew ełew ənd ereks ew ełew ənd aṙawōts ōr erkrord:",
+            "literalPt": "E chamou Deus ao firmamento céu. E viu Deus que era bom. E houve tarde e houve manhã, dia segundo.",
+            "literalEn": "And God called the firmament heaven. And God saw that it was good. And there was evening and there was morning, a second day."
+        }
+    ],
+    "tokens": []
+}

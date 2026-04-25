@@ -1,5 +1,10 @@
 {
     "schemaVersion": "1.1.0",
+    "ref": {
+        "book": "gen",
+        "chapter": 1,
+        "verse": 4
+    },
     "translation": {
         "author": "Equipe Biblia.Creio.EU",
         "authorEn": "Biblia.Creio.EU Team",
@@ -24,11 +29,6 @@
         "armenian": "Armênio: versão armênia antiga",
         "armenianEn": "Armenian: ancient Armenian version"
     },
-    "ref": {
-        "book": "gen",
-        "chapter": 1,
-        "verse": 4
-    },
     "sourceTexts": {
         "hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
         "aramaic": "וַחֲזָא יְיָ יָת נְהוֹרָא אֲרֵי טָב וְאַפְרֵישׁ יְיָ בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא",
@@ -39,27 +39,84 @@
         "coptic": "uoh af-nau nje phnuti e p-ōini je nanef uoh af-phōrj nje phnuti ut-te p-ōini nem ut-te p-kaki",
         "armenian": "Եւ ետես Աստուած զլոյսն զի բարի է, եւ մեկնեաց Աստուած ի մէջ լուսոյն եւ ի մէջ խաւարին:"
     },
+    "literalTranslations": [
+        {
+            "lang": "hebrew",
+            "pt": "E viu Deus a luz, que era boa; e fez separação Deus entre a luz e as trevas.",
+            "en": "And God saw the light, that it was good; and God separated between the light and the darkness."
+        },
+        {
+            "lang": "aramaic",
+            "pt": "E viu o Senhor a luz, que era boa; e o Senhor separou entre a luz e as trevas.",
+            "en": "And the Lord saw the light, that it was good; and the Lord separated between the light and the darkness."
+        },
+        {
+            "lang": "greek",
+            "pt": "E viu Deus a luz que era boa, e separou Deus a luz das trevas.",
+            "en": "And God saw the light that it was good, and God divided the light from the darkness."
+        },
+        {
+            "lang": "latin",
+            "pt": "E viu Deus a luz que era boa e dividiu a luz e as trevas.",
+            "en": "And God saw the light that it was good and divided the light and the darkness."
+        },
+        {
+            "lang": "geez",
+            "pt": "E viu o Senhor a luz que era boa; e separou o Senhor entre a luz e as trevas.",
+            "en": "And the Lord saw the light that it was good; and the Lord separated between the light and the darkness."
+        },
+        {
+            "lang": "syriac",
+            "pt": "E viu Deus a luz, que era boa; e separou Deus entre a luz e as trevas.",
+            "en": "And God saw the light, that it was good; and God separated between the light and the darkness."
+        },
+        {
+            "lang": "coptic",
+            "pt": "E viu Deus a luz que era boa; e separou Deus entre a luz e as trevas.",
+            "en": "And God saw the light that it was good; and God separated between the light and the darkness."
+        },
+        {
+            "lang": "armenian",
+            "pt": "E viu Deus a luz que era boa; e separou Deus entre a luz e as trevas.",
+            "en": "And God saw the light that it was good; and God separated between the light and the darkness."
+        }
+    ],
+    "ptLiteralVerse": "E viu Deus a luz, que era boa; e fez separação Deus entre a luz e as trevas.",
+    "enLiteralVerse": "And God saw the light, that it was good; and God separated between the light and the darkness.",
     "hebrewWitnesses": [
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
             "text": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
-            "transliteration": "Vayar Elohim et ha-or ki tov vayavdel Elohim bein ha-or u-vein ha-choshek",
-            "literalPt": "E viu Deus que a luz era boa; e fez Deus separação entre a luz e as trevas."
+            "transliteration": "Vayar Elohim et haor ki tov vayavdel Elohim bein haor uvein hachoshek",
+            "literalPt": "E viu Deus a luz, que era boa; e fez separação Deus entre a luz e as trevas.",
+            "literalEn": "And God saw the light, that it was good; and God separated between the light and the darkness."
         },
         {
             "id": "aleppo",
             "label": "Aleppo Codex (A)",
             "text": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
-            "transliteration": "Vayar Elohim et ha-or ki tov vayavdel Elohim bein ha-or u-vein ha-choshek",
-            "literalPt": "E viu Deus que a luz era boa; e fez Deus separação entre a luz e as trevas."
+            "transliteration": "Vayar Elohim et haor ki tov vayavdel Elohim bein haor uvein hachoshek",
+            "literalPt": "E viu Deus a luz, que era boa; e fez separação Deus entre a luz e as trevas.",
+            "literalEn": "And God saw the light, that it was good; and God separated between the light and the darkness."
         },
         {
             "id": "qumran",
             "label": "Dead Sea Scrolls (Qumran, 4QGen)",
             "text": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
-            "transliteration": "Vayar Elohim et ha-or ki tov vayavdel Elohim bein ha-or u-vein ha-choshek",
-            "literalPt": "E viu Deus que a luz era boa; e fez Deus separação entre a luz e as trevas."
+            "transliteration": "Vayar Elohim et haor ki tov vayavdel Elohim bein haor uvein hachoshek",
+            "literalPt": "E viu Deus a luz, que era boa; e fez separação Deus entre a luz e as trevas.",
+            "literalEn": "And God saw the light, that it was good; and God separated between the light and the darkness."
+        }
+    ],
+    "aramaicWitnesses": [
+        {
+            "id": "targum",
+            "label": "Targum Onkelos",
+            "text": "וַחֲזָא יְיָ יָת נְהוֹרָא אֲרֵי טָב וְאַפְרֵישׁ יְיָ בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא",
+            "transliteration": "Vachaza YY yat nehora arei tav ve-afreish YY bein nehora uvein chashokha",
+            "literalPt": "E viu o Senhor a luz, que era boa; e o Senhor separou entre a luz e as trevas.",
+            "literalEn": "And the Lord saw the light, that it was good; and the Lord separated between the light and the darkness."
         }
     ],
     "greekWitnesses": [
@@ -68,18 +125,68 @@
             "label": "Septuaginta (LXX)",
             "text": "καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους",
             "transliteration": "kai eiden ho theos to phōs hoti kalon kai diechōrisen ho theos ana meson tou phōtos kai ana meson tou skotous",
-            "literalPt": "E viu Deus a luz que [era] boa; e dividiu Deus entre o meio da luz e entre o meio das trevas."
+            "literalPt": "E viu Deus a luz que era boa, e separou Deus a luz das trevas.",
+            "literalEn": "And God saw the light that it was good, and God divided the light from the darkness."
         },
         {
             "id": "byzantine",
             "label": "Tradição Bizantina Grega (Byz/RP)",
             "text": "καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους",
             "transliteration": "kai eiden ho theos to phōs hoti kalon kai diechōrisen ho theos ana meson tou phōtos kai ana meson tou skotous",
-            "literalPt": "E viu Deus a luz que [era] boa; e dividiu Deus entre o meio da luz e entre o meio das trevas."
+            "literalPt": "E viu Deus a luz que era boa, e separou Deus a luz das trevas.",
+            "literalEn": "And God saw the light that it was good, and God divided the light from the darkness."
         }
     ],
-    "ptLiteralVerse": "E viu Deus que a luz era boa; e fez Deus separação entre a luz e as trevas.",
-    "enLiteralVerse": "And God saw the light, that it was good: and God divided the light from the darkness.",
+    "latinWitnesses": [
+        {
+            "id": "vulgate",
+            "label": "Vulgata",
+            "text": "Et vidit Deus lucem quod esset bona et divisit lucem ac tenebras",
+            "transliteration": "Et vidit Deus lucem quod esset bona et divisit lucem ac tenebras",
+            "literalPt": "E viu Deus a luz que era boa e dividiu a luz e as trevas.",
+            "literalEn": "And God saw the light that it was good and divided the light and the darkness."
+        }
+    ],
+    "geezWitnesses": [
+        {
+            "id": "geez",
+            "label": "Ge'ez",
+            "text": "ወርእየ እግዚአብሔር ለብርሃን ከመ ሠናይ ወአለየ እግዚአብሔር ማእከለ ብርሃን ወማእከለ ጽልመት",
+            "transliteration": "Wa-r'ya 'Egzi'abḥēr la-brhān kama śanāy wa-'alaya 'Egzi'abḥēr mā'ekala brhān wa-mā'ekala ṣelmat",
+            "literalPt": "E viu o Senhor a luz que era boa; e separou o Senhor entre a luz e as trevas.",
+            "literalEn": "And the Lord saw the light that it was good; and the Lord separated between the light and the darkness."
+        }
+    ],
+    "syriacWitnesses": [
+        {
+            "id": "syriac",
+            "label": "Peshitta",
+            "text": "ܘܚܙܐ ܐܠܗܐ ܠܢܘܗܪܐ ܕܫܦܝܪ ܘܦܪܫ ܐܠܗܐ ܒܝܬ ܢܘܗܪܐ ܠܚܫܘܟܐ",
+            "transliteration": "W-chaza Alaha l-nuhra d-shapir w-prash Alaha beyth nuhra l-cheshuka",
+            "literalPt": "E viu Deus a luz, que era boa; e separou Deus entre a luz e as trevas.",
+            "literalEn": "And God saw the light, that it was good; and God separated between the light and the darkness."
+        }
+    ],
+    "copticWitnesses": [
+        {
+            "id": "coptic",
+            "label": "Copta",
+            "text": "uoh af-nau nje phnuti e p-ōini je nanef uoh af-phōrj nje phnuti ut-te p-ōini nem ut-te p-kaki",
+            "transliteration": "uoh af-nau nje phnuti e p-ōini je nanef uoh af-phōrj nje phnuti ut-te p-ōini nem ut-te p-kaki",
+            "literalPt": "E viu Deus a luz que era boa; e separou Deus entre a luz e as trevas.",
+            "literalEn": "And God saw the light that it was good; and God separated between the light and the darkness."
+        }
+    ],
+    "armenianWitnesses": [
+        {
+            "id": "armenian",
+            "label": "Armênio",
+            "text": "Եւ ետես Աստուած զլոյսն զի բարի է, եւ մեկնեաց Աստուած ի մէջ լուսոյն եւ ի մէջ խաւարին:",
+            "transliteration": "Ew etes Astuac z-loysn zi bari ē, ew mekneac' Astuac i mēǰ lusoyn ew i mēǰ xawarin:",
+            "literalPt": "E viu Deus a luz que era boa; e separou Deus entre a luz e as trevas.",
+            "literalEn": "And God saw the light that it was good; and God separated between the light and the darkness."
+        }
+    ],
     "tokens": [
         {
             "id": "gen.1.4.h1",
@@ -212,108 +319,6 @@
             "morph": "Art + Subst",
             "ptLiteralWord": "as trevas",
             "enLiteralWord": "the darkness"
-        }
-    ],
-    "literalTranslations": [
-        {
-            "lang": "hebrew",
-            "pt": "E viu Deus a luz, que era boa; e fez separação Deus entre a luz e entre as trevas.",
-            "en": "And God saw the light, that it was good; and God separated between the light and between the darkness."
-        },
-        {
-            "lang": "aramaic",
-            "pt": "E viu o Senhor a luz, que era boa; e o Senhor separou entre a luz e entre as trevas.",
-            "en": "And the Lord saw the light, that it was good; and the Lord separated between the light and between the darkness."
-        },
-        {
-            "lang": "greek",
-            "pt": "E viu Deus a luz que era boa, e separou Deus no meio da luz e no meio das trevas.",
-            "en": "And God saw the light that it was good, and God divided in the midst of the light and in the midst of the darkness."
-        },
-        {
-            "lang": "latin",
-            "pt": "E viu Deus a luz que era boa e dividiu a luz e as trevas.",
-            "en": "And God saw the light that it was good and divided the light and the darkness."
-        },
-        {
-            "lang": "geez",
-            "pt": "E viu o Senhor a luz que era boa; e separou o Senhor entre a luz e entre as trevas.",
-            "en": "And the Lord saw the light that it was good; and the Lord separated between the light and between the darkness."
-        },
-        {
-            "lang": "syriac",
-            "pt": "E viu Deus a luz, que era boa; e separou Deus entre a luz e as trevas.",
-            "en": "And God saw the light, that it was good; and God separated between the light and the darkness."
-        },
-        {
-            "lang": "coptic",
-            "pt": "E viu Deus a luz que era boa; e separou Deus entre a luz e entre as trevas.",
-            "en": "And God saw the light that it was good; and God separated between the light and between the darkness."
-        },
-        {
-            "lang": "armenian",
-            "pt": "E viu Deus a luz que era boa; e separou Deus entre a luz e entre as trevas.",
-            "en": "And God saw the light that it was good; and God separated between the light and between the darkness."
-        }
-    ],
-    "aramaicWitnesses": [
-        {
-            "id": "aramaic",
-            "label": "Aramaic Witness",
-            "text": "וַחֲזָא יְיָ יָת נְהוֹרָא אֲרֵי טָב וְאַפְרֵישׁ יְיָ בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא",
-            "transliteration": "-",
-            "literalPt": "E viu o Senhor a luz, que era boa; e o Senhor separou entre a luz e entre as trevas.",
-            "literalEn": "And the Lord saw the light, that it was good; and the Lord separated between the light and between the darkness."
-        }
-    ],
-    "latinWitnesses": [
-        {
-            "id": "latin",
-            "label": "Latin Witness",
-            "text": "Et vidit Deus lucem quod esset bona et divisit lucem ac tenebras",
-            "transliteration": "-",
-            "literalPt": "E viu Deus a luz que era boa e dividiu a luz e as trevas.",
-            "literalEn": "And God saw the light that it was good and divided the light and the darkness."
-        }
-    ],
-    "geezWitnesses": [
-        {
-            "id": "geez",
-            "label": "Geez Witness",
-            "text": "ወርእየ እግዚአብሔር ለብርሃን ከመ ሠናይ ወአለየ እግዚአብሔር ማእከለ ብርሃን ወማእከለ ጽልመት",
-            "transliteration": "-",
-            "literalPt": "E viu o Senhor a luz que era boa; e separou o Senhor entre a luz e entre as trevas.",
-            "literalEn": "And the Lord saw the light that it was good; and the Lord separated between the light and between the darkness."
-        }
-    ],
-    "syriacWitnesses": [
-        {
-            "id": "syriac",
-            "label": "Syriac Witness",
-            "text": "ܘܚܙܐ ܐܠܗܐ ܠܢܘܗܪܐ ܕܫܦܝܪ ܘܦܪܫ ܐܠܗܐ ܒܝܬ ܢܘܗܪܐ ܠܚܫܘܟܐ",
-            "transliteration": "-",
-            "literalPt": "E viu Deus a luz, que era boa; e separou Deus entre a luz e as trevas.",
-            "literalEn": "And God saw the light, that it was good; and God separated between the light and the darkness."
-        }
-    ],
-    "copticWitnesses": [
-        {
-            "id": "coptic",
-            "label": "Coptic Witness",
-            "text": "uoh af-nau nje phnuti e p-ōini je nanef uoh af-phōrj nje phnuti ut-te p-ōini nem ut-te p-kaki",
-            "transliteration": "-",
-            "literalPt": "E viu Deus a luz que era boa; e separou Deus entre a luz e entre as trevas.",
-            "literalEn": "And God saw the light that it was good; and God separated between the light and between the darkness."
-        }
-    ],
-    "armenianWitnesses": [
-        {
-            "id": "armenian",
-            "label": "Armenian Witness",
-            "text": "Եւ ետես Աստուած զլոյսն զի բարի է, եւ մեկնեաց Աստուած ի մէջ լուսոյն եւ ի մէջ խաւարին:",
-            "transliteration": "-",
-            "literalPt": "E viu Deus a luz que era boa; e separou Deus entre a luz e entre as trevas.",
-            "literalEn": "And God saw the light that it was good; and God separated between the light and between the darkness."
         }
     ]
 }
