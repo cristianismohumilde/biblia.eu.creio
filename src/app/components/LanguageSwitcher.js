@@ -24,31 +24,37 @@ function buildLangHref(pathname, search, hash, targetLang) {
 export default function LanguageSwitcher({ lang }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const [currentPathname, setCurrentPathname] = useState(pathname || "/");
   const [hash, setHash] = useState("");
 
   useEffect(() => {
+    setCurrentPathname(window.location.pathname || pathname || "/");
     setHash(window.location.hash || "");
 
-    const syncHash = () => setHash(window.location.hash || "");
-    window.addEventListener("hashchange", syncHash);
-    window.addEventListener("popstate", syncHash);
+    const syncLocation = () => {
+      setCurrentPathname(window.location.pathname || pathname || "/");
+      setHash(window.location.hash || "");
+    };
+
+    window.addEventListener("hashchange", syncLocation);
+    window.addEventListener("popstate", syncLocation);
 
     return () => {
-      window.removeEventListener("hashchange", syncHash);
-      window.removeEventListener("popstate", syncHash);
+      window.removeEventListener("hashchange", syncLocation);
+      window.removeEventListener("popstate", syncLocation);
     };
-  }, []);
+  }, [pathname]);
 
   const search = searchParams.toString();
 
   const ptHref = useMemo(
-    () => buildLangHref(pathname, search, hash, "pt"),
-    [pathname, search, hash],
+    () => buildLangHref(currentPathname, search, hash, "pt"),
+    [currentPathname, search, hash],
   );
 
   const enHref = useMemo(
-    () => buildLangHref(pathname, search, hash, "en"),
-    [pathname, search, hash],
+    () => buildLangHref(currentPathname, search, hash, "en"),
+    [currentPathname, search, hash],
   );
 
   return (
