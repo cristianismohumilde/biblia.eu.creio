@@ -14,78 +14,86 @@ export default async function FontesPage({ params }) {
   const content = {
     pt: [
       {
-        title: "Tradição Hebraica (Texto Massorético)",
-        text: "O Codex Leningradensis (B19A) é o manuscrito completo mais antigo da Bíblia Hebraica (1008 d.C.), servindo como base para as principais edições acadêmicas modernas (BHS). O Codex de Aleppo, embora incompleto, é considerado a testemunha mais autoritativa da pontuação e acentuação massorética. Ambos garantem a preservação técnica do texto do Antigo Testamento."
+        title: "Tradições de Manuscritos e Testemunhos",
+        text: "Nosso projeto utiliza as bases textuais mais respeitadas da história: o Texto Massorético (Codex Leningradensis e Aleppo) para o Hebraico; a Septuaginta (LXX) e o Texto Bizantino para o Grego; a Vulgata de Jerônimo para o Latim; o Targum Onkelos para o Aramaico; a Peshitta para o Siríaco; e as antigas versões Etíope (Ge'ez), Copta e Armênia. Cada uma dessas fontes representa uma linhagem de transmissão que preserva nuances e variantes essenciais para a crítica textual e exegese profunda."
       },
       {
-        title: "Tradição Grega (LXX e Texto Bizantino)",
-        text: "A Septuaginta (LXX) é a tradução grega mais antiga do Antigo Testamento (séc. III-II a.C.), sendo a versão mais citada pelos autores do Novo Testamento. O Texto Bizantino (ou Majoritário) representa a forma do texto grego preservada na maioria dos manuscritos e na liturgia da Igreja Ortodoxa, sendo fundamental para entender a transmissão viva do texto neotestamentário."
+        title: "James Strong (Concordância de Strong)",
+        text: "Publicado originalmente em 1890, o sistema de numeração de James Strong tornou-se o padrão universal para o estudo bíblico não especializado. Ele atribui um número único a cada palavra raiz no Hebraico e no Grego, permitindo que estudantes sem profundo conhecimento linguístico acessem o léxico original e comparem ocorrências de termos em toda a Bíblia."
       },
       {
-        title: "Tradição Aramaica (Targum Onkelos)",
-        text: "Os Targumim são traduções e paráfrases aramaicas antigas. O Targum Onkelos é a versão oficial da Torá, essencial para compreender como os judeus do período do Segundo Templo e da era talmúdica interpretavam e aplicavam o texto bíblico em sua própria língua vernácula."
+        title: "BDB (Brown-Driver-Briggs)",
+        text: "Este é o léxico definitivo para o Hebraico Bíblico. O BDB é fundamentado na filologia semítica comparada, focando intensamente nas raízes das palavras e em como seu significado se desenvolveu ao longo dos séculos. É a ferramenta indispensável para entender o Antigo Testamento em sua profundidade semântica original."
       },
       {
-        title: "Tradição Latina (Vulgata)",
-        text: "Traduzida por Jerônimo no final do século IV, a Vulgata tornou-se o texto padrão da Igreja Ocidental por mais de um milênio. Ela é uma peça-chave para rastrear a recepção teológica no Ocidente e para entender o desenvolvimento do vocabulário doutrinário latino."
+        title: "LSJ (Liddell-Scott-Jones)",
+        text: "Considerado o maior dicionário de Grego Antigo do mundo. O LSJ cobre desde a literatura homérica até o período koiné (bíblico), oferecendo uma visão monumental de como as palavras gregas eram usadas na filosofia, poesia e, posteriormente, na tradução da Septuaginta e no Novo Testamento."
       },
       {
-        title: "Tradição Siríaca (Peshitta)",
-        text: "A Peshitta é a versão 'simples' ou 'comum' utilizada pelos cristãos de fala siríaca (um dialeto do aramaico). Por ser uma língua semítica, o siríaco preserva estruturas de pensamento e nuances poéticas muito próximas do ambiente original da revelação bíblica."
+        title: "Marcus Jastrow",
+        text: "O léxico de Marcus Jastrow é a autoridade máxima para o Aramaico dos Targumim, do Talmude e da literatura Midráshica. Ele é fundamental para o nosso projeto pois fornece as chaves interpretativas para o Aramaico antigo, captando nuances que léxicos bíblicos genéricos muitas vezes ignoram."
       },
       {
-        title: "Tradição Etíope (Ge'ez) e outras Versões",
-        text: "A Bíblia em Ge'ez preserva uma trajetória única do cristianismo africano, enquanto as versões Copta e Armênia (a 'Rainha das Versões') ajudam a reconstruir a expansão do cristianismo para além do eixo greco-latino, preservando leituras que auxiliam na identificação de variantes textuais arcaicas."
+        title: "Lewis & Short",
+        text: "O padrão para o estudo do Latim clássico e tardio. É o léxico que utilizamos para decifrar a Vulgata Latina, garantindo que as escolhas lexicais de Jerônimo sejam entendidas dentro do contexto linguístico romano do século IV."
       },
       {
-        title: "A Importância dos Léxicos Utilizados",
-        text: "Utilizamos as ferramentas mais robustas da filologia clássica: o sistema **Strong** permite a conexão universal entre termos; o **BDB** é a autoridade máxima em etimologia hebraica; o **LSJ** é o monumento do grego antigo; o **Lewis & Short** define o vocabulário latino clássico; o **Jastrow** é vital para o aramaico targúmico; e os léxicos de **Dillmann**, **Crum** e **Bedrossian** são os portais fundamentais para as nuances do Ge'ez, Copta e Armênio, respectivamente. Cada léxico garante que o significado de cada token seja fundamentado em séculos de erudição."
+        title: "August Dillmann (Ge'ez)",
+        text: "O 'Lexicon Linguae Aethiopicae' de Dillmann é um monumento da erudição do século XIX e continua sendo a obra de referência primária para o Ge'ez (Etíope clássico). Sem este léxico, o acesso acadêmico à rica e antiga tradição bíblica etíope seria virtualmente impossível."
+      },
+      {
+        title: "W.E. Crum (Copta) e Matthias Bedrossian (Armênio)",
+        text: "Crum é a autoridade absoluta para o Copta, essencial para entender a Bíblia no Egito cristão. Bedrossian fornece o dicionário mais detalhado para o Armênio clássico (a 'Rainha das Versões'), permitindo captar a precisão e a beleza desta tradição textual tão importante para a crítica textual."
       },
       {
         title: "O Valor da Tradução Literal Biblia.Creio.EU",
-        text: "Muitas traduções modernas priorizam a fluidez e a beleza do texto ('equivalência dinâmica'), o que frequentemente 'suaviza' ou até oculta estruturas gramaticais e repetições propositais do original. Nossa tradução literal de curadoria é de extrema importância porque foca na **fidelidade estrutural e morfológica**. Ela permite que o estudante veja exatamente qual palavra original gerou o conceito traduzido, mantendo as ambiguidades e forças do texto-fonte que se perdem em leituras meramente devocionais. É a ponte transparente entre o leitor e o manuscrito."
+        text: "Enquanto as traduções comerciais buscam a fluidez ('equivalência dinâmica'), nossa curadoria foca na fidelidade estrutural. A tradução literal é de extrema importância pois permite ao estudante ver a 'anatomia' do texto original: as repetições de palavras, a ordem sintática e as ambiguidades ricas do manuscrito que desaparecem em traduções devocionais comuns."
       },
       {
         title: "Conformidade e Domínio Público",
-        text: "Para garantir segurança jurídica total e liberdade de redistribuição, fundamentamos nossos dados técnicos em obras clássicas de domínio público, complementadas por nossa própria curadoria original de traduções e glosas."
+        text: "Para garantir segurança jurídica total e liberdade de redistribuição, fundamentamos nossos dados técnicos nestas obras clássicas de domínio público, complementadas por nossa própria curadoria original de traduções e glosas."
       }
     ],
     en: [
       {
-        title: "Hebrew Tradition (Masoretic Text)",
-        text: "The Codex Leningradensis (B19A) is the oldest complete manuscript of the Hebrew Bible (1008 AD), serving as the basis for major modern academic editions (BHS). The Aleppo Codex, although incomplete, is considered the most authoritative witness to Masoretic pointing and accentuation."
+        title: "Manuscript Traditions and Witnesses",
+        text: "Our project uses the most respected textual bases in history: the Masoretic Text (Codex Leningradensis and Aleppo) for Hebrew; the Septuagint (LXX) and the Byzantine Text for Greek; Jerome's Vulgate for Latin; Targum Onkelos for Aramaic; the Peshitta for Syriac; and the ancient Ethiopic (Ge'ez), Coptic, and Armenian versions. Each of these sources represents a lineage of transmission that preserves nuances and variants essential for textual criticism and deep exegesis."
       },
       {
-        title: "Greek Tradition (LXX and Byzantine Text)",
-        text: "The Septuagint (LXX) is the oldest Greek translation of the Old Testament (3rd-2nd century BC), and was the version most cited by New Testament authors. The Byzantine (or Majority) Text represents the form of the Greek text preserved in most manuscripts and in the liturgy of the Orthodox Church."
+        title: "James Strong (Strong's Concordance)",
+        text: "Originally published in 1890, James Strong's numbering system has become the universal standard for non-specialist Bible study. It assigns a unique number to each root word in Hebrew and Greek, allowing students without deep linguistic knowledge to access the original lexicon and compare occurrences of terms throughout the Bible."
       },
       {
-        title: "Aramaic Tradition (Targum Onkelos)",
-        text: "The Targumim are ancient Aramaic translations and paraphrases. Targum Onkelos is the official version of the Torah, essential for understanding how Jews of the Second Temple and Talmudic eras interpreted and applied the biblical text."
+        title: "BDB (Brown-Driver-Briggs)",
+        text: "This is the definitive lexicon for Biblical Hebrew. BDB is grounded in comparative Semitic philology, focusing intensely on word roots and how their meaning developed over the centuries. It is the indispensable tool for understanding the Old Testament in its original semantic depth."
       },
       {
-        title: "Latin Tradition (Vulgate)",
-        text: "Translated by Jerome at the end of the 4th century, the Vulgate became the standard text of the Western Church for over a millennium, being a key piece for tracking theological reception in the West."
+        title: "LSJ (Liddell-Scott-Jones)",
+        text: "Considered the greatest dictionary of Ancient Greek in the world. LSJ covers everything from Homeric literature to the Koine (biblical) period, offering a monumental view of how Greek words were used in philosophy, poetry, and later in the translation of the Septuagint and the New Testament."
       },
       {
-        title: "Syriac Tradition (Peshitta)",
-        text: "The Peshitta is the 'simple' version used by Syriac-speaking Christians. As a Semitic language, Syriac preserves thought structures and poetic nuances very close to the original environment of biblical revelation."
+        title: "Marcus Jastrow",
+        text: "Marcus Jastrow's lexicon is the ultimate authority for the Aramaic of the Targumim, the Talmud, and Midrashic literature. It is fundamental to our project as it provides the interpretative keys for ancient Aramaic, capturing nuances that generic biblical lexicons often ignore."
       },
       {
-        title: "Ethiopic (Ge'ez) and other Versions",
-        text: "The Bible in Ge'ez preserves a unique trajectory of African Christianity, while Coptic and Armenian ('Queen of Versions') help reconstruct the expansion of Christianity beyond the Greco-Latin axis."
+        title: "Lewis & Short",
+        text: "The standard for the study of classical and late Latin. It is the lexicon we use to decipher the Latin Vulgate, ensuring that Jerome's lexical choices are understood within the Roman linguistic context of the 4th century."
       },
       {
-        title: "The Importance of the Lexicons Used",
-        text: "We use the most robust tools of classical philology: the **Strong** system provides a universal connection between terms; **BDB** is the ultimate authority on Hebrew etymology; **LSJ** is the monument of ancient Greek; **Lewis & Short** defines classical Latin vocabulary; **Jastrow** is vital for Targumic Aramaic; and the lexicons of **Dillmann**, **Crum**, and **Bedrossian** are the fundamental portals to the nuances of Ge'ez, Coptic, and Armenian. Each lexicon ensures that the meaning of every token is grounded in centuries of scholarship."
+        title: "August Dillmann (Ge'ez)",
+        text: "Dillmann's 'Lexicon Linguae Aethiopicae' is a monument of 19th-century scholarship and remains the primary reference work for Ge'ez (Classical Ethiopic). Without this lexicon, academic access to the rich and ancient Ethiopian biblical tradition would be virtually impossible."
+      },
+      {
+        title: "W.E. Crum (Coptic) and Matthias Bedrossian (Armenian)",
+        text: "Crum is the absolute authority for Coptic, essential for understanding the Bible in Christian Egypt. Bedrossian provides the most detailed dictionary for Classical Armenian (the 'Queen of Versions'), allowing us to capture the precision and beauty of this textual tradition so important for textual criticism."
       },
       {
         title: "The Value of the Biblia.Creio.EU Literal Translation",
-        text: "Many modern translations prioritize flow and beauty ('dynamic equivalence'), which often 'smooths' or even hides grammatical structures and intentional repetitions of the original. Our curated literal translation is of extreme importance because it focuses on **structural and morphological fidelity**. It allows the student to see exactly which original word generated the translated concept, maintaining the ambiguities and strengths of the source text that are lost in purely devotional readings. It is the transparent bridge between the reader and the manuscript."
+        text: "While commercial translations seek flow ('dynamic equivalence'), our curation focuses on structural fidelity. The literal translation is of extreme importance as it allows the student to see the 'anatomy' of the original text: word repetitions, syntactic order, and the rich ambiguities of the manuscript that disappear in common devotional translations."
       },
       {
         title: "Compliance and Public Domain",
-        text: "To ensure total legal safety and freedom of redistribution, we base our technical data on classic public domain works, complemented by our own original curation of translations and glosses."
+        text: "To ensure total legal safety and freedom of redistribution, we base our technical data on these classic public domain works, complemented by our own original curation of translations and glosses."
       }
     ]
   };
@@ -113,6 +121,10 @@ export default async function FontesPage({ params }) {
           <p>{item.text}</p>
         </section>
       ))}
+
+      <footer className="site-footer" style={{ marginTop: '2rem' }}>
+        <p>{t.footerText} <a href="https://github.com/cristianismohumilde/biblia.eu.creio" target="_blank" rel="noopener noreferrer">github.com/cristianismohumilde/biblia.eu.creio</a></p>
+      </footer>
     </>
   );
 }
