@@ -91,15 +91,15 @@
             "langEn": "Hebrew",
             "surface": "וַיֹּאמֶר",
             "transliteration": "Vayomer",
-            "lemma": "וַיֹּאמֶר",
+            "lemma": "אָמַר",
             "strong": "H559",
-            "morph": "Conj",
+            "morph": "V-Qal-Wayyq-3ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "E",
-            "enLiteralWord": "And",
-            "explanation": "Conjunção (E)",
-            "explanationEn": "Conjunção (E)"
+            "ptLiteralWord": "E disse",
+            "enLiteralWord": "And said",
+            "explanation": "E disse",
+            "explanationEn": "E disse"
         },
         {
             "id": "gen.1.29.h2",
@@ -110,13 +110,13 @@
             "transliteration": "Elohim",
             "lemma": "אֱלֹהִים",
             "strong": "H430",
-            "morph": "N-Proper",
+            "morph": "N-mp",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "disse",
+            "ptLiteralWord": "Deus",
             "enLiteralWord": "God",
-            "explanation": "Deus / O Criador",
-            "explanationEn": "Deus / O Criador"
+            "explanation": "Deus",
+            "explanationEn": "Deus"
         },
         {
             "id": "gen.1.29.h3",
@@ -211,14 +211,14 @@
             "surface": "עֵשֶׂב",
             "transliteration": "esev",
             "lemma": "עֵשֶׂב",
-            "strong": "H3887",
-            "morph": "Prep",
+            "strong": "H6212",
+            "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "dado",
-            "enLiteralWord": "you",
-            "explanation": "De / Do",
-            "explanationEn": "De / Do"
+            "ptLiteralWord": "erva",
+            "enLiteralWord": "herb",
+            "explanation": "Erva",
+            "explanationEn": "Erva"
         },
         {
             "id": "gen.1.29.h9",
@@ -246,13 +246,13 @@
             "transliteration": "zera",
             "lemma": "זֶרַע",
             "strong": "H2233",
-            "morph": "Art",
+            "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "a",
-            "enLiteralWord": "herb",
-            "explanation": "Artigo definido",
-            "explanationEn": "Artigo definido"
+            "ptLiteralWord": "semente",
+            "enLiteralWord": "seed",
+            "explanation": "Semente",
+            "explanationEn": "Semente"
         },
         {
             "id": "gen.1.29.h11",
@@ -329,15 +329,15 @@
             "langEn": "Hebrew",
             "surface": "הָאָרֶץ",
             "transliteration": "ha'aretz",
-            "lemma": "הָאָרֶץ",
+            "lemma": "אֶרֶץ",
             "strong": "H776",
-            "morph": "Conj/Rel",
+            "morph": "Art | N-fs",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "que",
-            "enLiteralWord": "upon",
-            "explanation": "Que / O qual",
-            "explanationEn": "Que / O qual"
+            "ptLiteralWord": "a terra",
+            "enLiteralWord": "the earth",
+            "explanation": "A terra",
+            "explanationEn": "A terra"
         },
         {
             "id": "gen.1.29.h16",
@@ -450,13 +450,13 @@
             "transliteration": "etz",
             "lemma": "עֵץ",
             "strong": "H6086",
-            "morph": "Conj",
+            "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "a",
-            "enLiteralWord": "and",
-            "explanation": "Conjunção (E)",
-            "explanationEn": "Conjunção (E)"
+            "ptLiteralWord": "árvore",
+            "enLiteralWord": "tree",
+            "explanation": "Árvore",
+            "explanationEn": "Árvore"
         },
         {
             "id": "gen.1.29.h23",
@@ -550,15 +550,15 @@
             "langEn": "Greek",
             "surface": "καὶ",
             "transliteration": "kai",
-            "lemma": "καὶ",
+            "lemma": "καί",
             "strong": "G2532",
             "morph": "Conj",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "E",
             "enLiteralWord": "And",
-            "explanation": "Conjunção (E)",
-            "explanationEn": "Conjunção (E)"
+            "explanation": "E",
+            "explanationEn": "E"
         },
         {
             "id": "gen.1.29.g2",
@@ -567,15 +567,15 @@
             "langEn": "Greek",
             "surface": "εἶπεν",
             "transliteration": "eipen",
-            "lemma": "εἶπεν",
+            "lemma": "λέγω",
             "strong": "G3004",
-            "morph": "N-Proper",
+            "morph": "V-AAI-3S",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
             "ptLiteralWord": "disse",
-            "enLiteralWord": "God",
-            "explanation": "Deus / O Criador",
-            "explanationEn": "Deus / O Criador"
+            "enLiteralWord": "said",
+            "explanation": "Disse",
+            "explanationEn": "Disse"
         },
         {
             "id": "gen.1.29.g3",
@@ -586,13 +586,13 @@
             "transliteration": "ho",
             "lemma": "ὁ",
             "strong": "G3588",
-            "morph": "N-Proper",
+            "morph": "Art-NMS",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
-            "ptLiteralWord": "Deus:",
-            "enLiteralWord": "said,",
-            "explanation": "Deus / O Criador",
-            "explanationEn": "Deus / O Criador"
+            "ptLiteralWord": "o",
+            "enLiteralWord": "the",
+            "explanation": "O",
+            "explanationEn": "O"
         },
         {
             "id": "gen.1.29.g4",
@@ -601,15 +601,15 @@
             "langEn": "Greek",
             "surface": "θεός",
             "transliteration": "theos",
-            "lemma": "θεός",
+            "lemma": "θεός",
             "strong": "G2316",
-            "morph": "Vocab",
+            "morph": "N-NMS",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
-            "ptLiteralWord": "Eis",
-            "enLiteralWord": "Behold,",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "ptLiteralWord": "Deus",
+            "enLiteralWord": "God",
+            "explanation": "Deus",
+            "explanationEn": "Deus"
         },
         {
             "id": "gen.1.29.g5",
@@ -856,15 +856,15 @@
             "langEn": "Greek",
             "surface": "καὶ",
             "transliteration": "kai",
-            "lemma": "καὶ",
+            "lemma": "καί",
             "strong": "G2532",
-            "morph": "Vocab",
+            "morph": "Conj",
             "manuscript": "Grego: Septuaginta (LXX)",
             "manuscriptEn": "Greek: Septuagint (LXX)",
-            "ptLiteralWord": "face",
-            "enLiteralWord": "all",
-            "explanation": "Palavra do texto base",
-            "explanationEn": "Palavra do texto base"
+            "ptLiteralWord": "E",
+            "enLiteralWord": "And",
+            "explanation": "E",
+            "explanationEn": "E"
         },
         {
             "id": "gen.1.29.g20",
