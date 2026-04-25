@@ -72,6 +72,7 @@ export default async function IdiomasBiblicosPage({ params }) {
           <Link href={`/${lang}/`}>{t.back}</Link>
           <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">{t.biblicalLanguages}</Link>
           <Link href={`/${lang}/fontes`}>{t.sources}</Link>
+          <Link href={`/${lang}/#apoie`} style={{ color: '#ef4444', fontWeight: 'bold' }}>❤️ {t.support}</Link>
           <LanguageSwitcher lang={lang} />
           <ThemeToggle t={t} />
         </nav>

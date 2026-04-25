@@ -62,6 +62,9 @@ export default function LangHomePage({ params }) {
           <Link href={`/${lang}/fontes`}>
             {t.sources}
           </Link>
+          <Link href={`/${lang}/#apoie`} style={{ color: '#ef4444', fontWeight: 'bold' }}>
+            ❤️ {t.support}
+          </Link>
           <LanguageSwitcher lang={lang} />
           <ThemeToggle t={t} />
         </nav>
