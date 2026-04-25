@@ -71,7 +71,7 @@ export default function LangHomePage({ params }) {
       <section className="card support-banner" aria-labelledby="support-title" id="apoie">
         <p className="support-kicker">{t.community}</p>
         <h2 id="support-title">{t.supportTitle}</h2>
-        <p style={{ fontSize: '0.85rem', opacity: 0.8 }}>{t.globalBannerText}</p>
+        <p style={{ fontSize: '0.85rem', opacity: 0.8, textAlign: 'center', width: '100%' }}>{t.globalBannerText}</p>
 
         {!showDonation ? (
           <div className="support-actions">
@@ -143,7 +143,7 @@ export default function LangHomePage({ params }) {
             </div>
           </div>
         )}
-        <p style={{ marginTop: '1.5rem', fontStyle: 'italic' }}>
+        <p style={{ marginTop: '1.5rem', fontStyle: 'italic', textAlign: 'center', width: '100%' }}>
           {t.supportText}
         </p>
       </section>
