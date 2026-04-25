@@ -13,6 +13,13 @@ export default async function IdiomasBiblicosPage({ params }) {
 
   const content = {
     pt: {
+      methodology: {
+        sectionTitle: "Metodologia e Impacto",
+        items: [
+          { title: "🎯 A Importância para Estudantes e Leitores", text: "O projeto Biblia.Creio.EU democratiza o acesso a ferramentas acadêmicas de alta qualidade, permitindo que qualquer pessoa — do leitor devocional leigo ao pesquisador experiente — tenha contato direto com as fontes originais das Escrituras. Ao integrar múltiplos idiomas antigos, transliterações precisas e léxicos históricos, quebramos a barreira da língua e proporcionamos um ambiente seguro para o aprofundamento teológico. Nossa missão é resgatar a riqueza estrutural do texto sagrado, garantindo que a beleza, a precisão e a profundidade da revelação original não se percam em traduções simplificadas, equipando a Igreja e a academia com recursos de excelência de forma livre e acessível." },
+          { title: "📊 Resumo Metodológico", text: "Trabalhar com múltiplos idiomas não é apenas 'ter mais traduções': é comparar testemunhas de épocas, regiões e tradições diferentes com critérios históricos e filológicos. Essa abordagem permite detectar variantes, pesar escolhas interpretativas antigas e evitar leituras anacrônicas. Na prática, o estudo multilíngue fortalece a exegese, melhora a transparência metodológica e torna a leitura bíblica mais robusta e verificável." }
+        ]
+      },
       languages: {
         sectionTitle: "Idiomas Bíblicos e Tradições",
         items: [
@@ -25,16 +32,16 @@ export default async function IdiomasBiblicosPage({ params }) {
           { title: "🏺 Copta", text: "Os testemunhos coptas ajudam a reconstruir a recepção bíblica no Egito cristão e preservam leituras relevantes em diferentes dialetos e tradições manuscritas. Em crítica textual do Novo Testamento, o copta frequentemente funciona como apoio para identificar variantes antigas e padrões de transmissão regional. Ele também contribui para entender práticas catequéticas, litúrgicas e monásticas que moldaram a interpretação do texto." },
           { title: "🏺 Armênio", text: "A versão armênia antiga conserva tradições textuais relevantes e, em vários casos, registra leituras úteis para avaliar variantes difíceis. A tradição bíblica armênia é importante para mapear a expansão do cristianismo para além dos grandes centros mediterrâneos e observar processos locais de recepção. Seu valor cresce quando comparada com grego, siríaco e latim em passagens com transmissão complexa." }
         ]
-      },
-      methodology: {
-        sectionTitle: "Metodologia e Impacto",
-        items: [
-          { title: "📊 Resumo Metodológico", text: "Trabalhar com múltiplos idiomas não é apenas 'ter mais traduções': é comparar testemunhas de épocas, regiões e tradições diferentes com critérios históricos e filológicos. Essa abordagem permite detectar variantes, pesar escolhas interpretativas antigas e evitar leituras anacrônicas. Na prática, o estudo multilíngue fortalece a exegese, melhora a transparência metodológica e torna a leitura bíblica mais robusta e verificável." },
-          { title: "🎯 A Importância para Estudantes e Leitores", text: "O projeto Biblia.Creio.EU democratiza o acesso a ferramentas acadêmicas de alta qualidade, permitindo que qualquer pessoa — do leitor devocional leigo ao pesquisador experiente — tenha contato direto com as fontes originais das Escrituras. Ao integrar múltiplos idiomas antigos, transliterações precisas e léxicos históricos, quebramos a barreira da língua e proporcionamos um ambiente seguro para o aprofundamento teológico. Nossa missão é resgatar a riqueza estrutural do texto sagrado, garantindo que a beleza, a precisão e a profundidade da revelação original não se percam em traduções simplificadas, equipando a Igreja e a academia com recursos de excelência de forma livre e acessível." }
-        ]
       }
     },
     en: {
+      methodology: {
+        sectionTitle: "Methodology and Impact",
+        items: [
+          { title: "🎯 The Importance for Students and Readers", text: "The Biblia.Creio.EU project democratizes access to high-quality academic tools, allowing anyone — from the lay devotional reader to the experienced researcher — to have direct contact with the original sources of the Scriptures. By integrating multiple ancient languages, precise transliterations, and historical lexicons, we break the language barrier and provide a safe environment for theological deepening. Our mission is to rescue the structural richness of the sacred text, ensuring that the beauty, precision, and depth of the original revelation are not lost in simplified translations, equipping the Church and the academy with excellent resources freely and accessibly." },
+          { title: "📊 Methodological Summary", text: "Working with multiple languages is not just 'having more translations': it is comparing witnesses from different eras, regions, and traditions with historical and philological criteria. This approach allows for detecting variants, weighing ancient interpretative choices, and avoiding anachronistic readings. In practice, multilingual study strengthens exegesis, improves methodological transparency, and makes biblical reading more robust and verifiable." }
+        ]
+      },
       languages: {
         sectionTitle: "Biblical Languages and Traditions",
         items: [
@@ -46,13 +53,6 @@ export default async function IdiomasBiblicosPage({ params }) {
           { title: "⛪ Syriac", text: "The Peshitta and other Syriac traditions are key witnesses of Eastern Christianity and its liturgical and theological life. Being a Semitic language, Syriac helps capture structures of thought close to the environment of Hebrew and Aramaic, while at the same time dialoguing with Greek. This makes it a valuable source for textual criticism and for comparative exegesis between East and West." },
           { title: "🏺 Coptic", text: "Coptic witnesses help reconstruct biblical reception in Christian Egypt and preserve relevant readings in different dialects and manuscript traditions. In New Testament textual criticism, Coptic often works as support for identifying ancient variants and regional transmission patterns. It also contributes to understanding catechetical, liturgical, and monastic practices that shaped the interpretation of the text." },
           { title: "🏺 Armenian", text: "The ancient Armenian version preserves relevant textual traditions and, in several cases, records useful readings for evaluating difficult variants. The Armenian biblical tradition is important for mapping the expansion of Christianity beyond the major Mediterranean centers and observing local processes of reception. Its value grows when compared with Greek, Syriac, and Latin in passages with complex transmission." }
-        ]
-      },
-      methodology: {
-        sectionTitle: "Methodology and Impact",
-        items: [
-          { title: "📊 Methodological Summary", text: "Working with multiple languages is not just 'having more translations': it is comparing witnesses from different eras, regions, and traditions with historical and philological criteria. This approach allows for detecting variants, weighing ancient interpretative choices, and avoiding anachronistic readings. In practice, multilingual study strengthens exegesis, improves methodological transparency, and makes biblical reading more robust and verifiable." },
-          { title: "🎯 The Importance for Students and Readers", text: "The Biblia.Creio.EU project democratizes access to high-quality academic tools, allowing anyone — from the lay devotional reader to the experienced researcher — to have direct contact with the original sources of the Scriptures. By integrating multiple ancient languages, precise transliterations, and historical lexicons, we break the language barrier and provide a safe environment for theological deepening. Our mission is to rescue the structural richness of the sacred text, ensuring that the beauty, precision, and depth of the original revelation are not lost in simplified translations, equipping the Church and the academy with excellent resources freely and accessibly." }
         ]
       }
     }
@@ -70,6 +70,7 @@ export default async function IdiomasBiblicosPage({ params }) {
         </div>
         <nav className="quick-nav">
           <Link href={`/${lang}/`}>{t.back}</Link>
+          <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">{t.biblicalLanguages}</Link>
           <Link href={`/${lang}/fontes`}>{t.sources}</Link>
           <LanguageSwitcher lang={lang} />
           <ThemeToggle t={t} />
@@ -87,15 +88,12 @@ export default async function IdiomasBiblicosPage({ params }) {
             {section.sectionTitle}
           </h2>
           <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', 
+            display: 'flex', 
+            flexDirection: 'column', 
             gap: '1.5rem' 
           }}>
             {section.items.map((item, index) => (
               <section key={index} className="card" style={{ 
-                height: '100%', 
-                display: 'flex', 
-                flexDirection: 'column',
                 margin: 0
               }}>
                 <h3 style={{ 
@@ -104,7 +102,6 @@ export default async function IdiomasBiblicosPage({ params }) {
                   lineHeight: '1.4'
                 }}>{item.title}</h3>
                 <p style={{ 
-                  flex: 1, 
                   lineHeight: '1.6', 
                   opacity: 0.9,
                   margin: 0

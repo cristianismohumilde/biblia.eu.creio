@@ -67,7 +67,7 @@ export default function LangHomePage({ params }) {
         </nav>
       </header>
 
-      <section className="card support-banner" aria-labelledby="support-title">
+      <section className="card support-banner" aria-labelledby="support-title" id="apoie">
         <p className="support-kicker">{t.community}</p>
         <h2 id="support-title">{t.supportTitle}</h2>
         <p>{t.supportText}</p>

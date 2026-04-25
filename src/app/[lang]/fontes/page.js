@@ -94,6 +94,7 @@ export default async function FontesPage({ params }) {
         </div>
         <nav className="quick-nav">
           <Link href={`/${lang}/`}>{t.back}</Link>
+          <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">{t.biblicalLanguages}</Link>
           <LanguageSwitcher lang={lang} />
           <ThemeToggle t={t} />
         </nav>
@@ -110,15 +111,12 @@ export default async function FontesPage({ params }) {
             {section.sectionTitle}
           </h2>
           <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', 
+            display: 'flex', 
+            flexDirection: 'column', 
             gap: '1.5rem' 
           }}>
             {section.items.map((item, index) => (
               <section key={index} className="card" style={{ 
-                height: '100%', 
-                display: 'flex', 
-                flexDirection: 'column',
                 margin: 0
               }}>
                 <h3 style={{ 
@@ -127,7 +125,6 @@ export default async function FontesPage({ params }) {
                   lineHeight: '1.4'
                 }}>{item.title}</h3>
                 <p style={{ 
-                  flex: 1, 
                   lineHeight: '1.6', 
                   opacity: 0.9,
                   margin: 0
