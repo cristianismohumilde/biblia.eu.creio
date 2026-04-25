@@ -1102,12 +1102,13 @@ th {
 }
 
 .heart-beat {
-  animation: heart-beat 1.4s infinite;
+  animation: heart-beat 3s infinite;
 }
 
 .support-cta--red {
-  background: linear-gradient(120deg, #ef4444, #dc2626) !important;
-  box-shadow: 0 10px 18px rgba(239, 68, 68, 0.3) !important;
+  background: linear-gradient(120deg, #991b1b, #7f1d1d) !important;
+  box-shadow: 0 10px 18px rgba(153, 27, 27, 0.3) !important;
+  color: #fff !important;
 }
 
 .support-cta--red:hover {
