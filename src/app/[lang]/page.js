@@ -56,8 +56,11 @@ export default function LangHomePage({ params }) {
         <nav className="quick-nav" aria-label="Navegação rápida">
           <Link href={`/${lang}/#verso`}>{t.verse}</Link>
           <Link href={`/${lang}/#originais`}>{t.manuscriptTexts}</Link>
-          <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">
+          <Link href={`/${lang}/idiomas-biblicos`}>
             {t.biblicalLanguages}
+          </Link>
+          <Link href={`/${lang}/fontes`} className="nav-spotlight">
+            {t.sources}
           </Link>
           <LanguageSwitcher lang={lang} />
           <ThemeToggle t={t} />

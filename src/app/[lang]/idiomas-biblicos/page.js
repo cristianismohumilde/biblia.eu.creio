@@ -102,6 +102,7 @@ export default async function IdiomasBiblicosPage({ params }) {
         </div>
         <nav className="quick-nav">
           <Link href={`/${lang}/`}>{t.back}</Link>
+          <Link href={`/${lang}/fontes`}>{t.sources}</Link>
           <LanguageSwitcher lang={lang} />
           <ThemeToggle t={t} />
         </nav>

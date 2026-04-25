@@ -152,6 +152,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
         </div>
         <nav className="quick-nav">
           <Link href={`/${lang}/`}>{t.backToIndex}</Link>
+          <Link href={`/${lang}/fontes`}>{t.sources}</Link>
           <a href="#tabela-interlinear">{t.detailedTable}</a>
           <LanguageSwitcher lang={lang} />
           <ThemeToggle t={t} />
