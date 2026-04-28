@@ -30,7 +30,7 @@
         "armenianEn": "Armenian: ancient Armenian version"
     },
     "sourceTexts": {
-        "hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָיִם",
+        "hebrew": "וַיֹּ֣אֲמַר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּתֹ֣וֹךְ הַמָּ֑יִם וִיהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָמָֽיִם׃",
         "aramaic": "וַאֲמַר יְיָ יְהֵי רְקִיעָא בְּגוֹ מַיָּא וִיהֵי מַפְרֵישׁ בֵּין מַיָּא לְמַיָּא",
         "greek": "καὶ εἶπεν ὁ θεός γενηθήτω στερέωμα ἐν μέσῳ τοῦ ὕδατος καὶ ἔστω διαχωρίζον ἀνὰ μέσον ὕδατος καὶ ὕδατος",
         "latin": "Dixit quoque Deus fiat firmamentum in medio aquarum et dividat aquas ab aquis",
@@ -42,13 +42,13 @@
     "literalTranslations": [
         {
             "lang": "hebrew",
-            "pt": "E disse Deus: Haja um firmamento no meio das águas, e faça separação entre águas e águas.",
-            "en": "And God said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+            "pt": "E disse Deus: Haja um firmamento no meio das águas, e separe as águas das águas.",
+            "en": "And God said, Let there be a firmament in the midst of the waters, and let it separate the waters from the waters."
         },
         {
             "lang": "aramaic",
-            "pt": "E disse o Senhor: Haja um firmamento no meio das águas, e faça separação entre águas e águas.",
-            "en": "And the Lord said, Let there be a firmament in the midst of the waters, and let it separate between waters and waters."
+            "pt": "E disse o Senhor: Haja um firmamento no meio das águas, e separe as águas das águas.",
+            "en": "And the Lord said, Let there be a firmament in the midst of the waters, and let it separate the waters from the waters."
         },
         {
             "lang": "greek",
@@ -87,7 +87,7 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָיִם",
+            "text": "וַיֹּ֣אמֶר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּתֹ֣וךְ הַמָּ֑יִם וִיהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָמָֽיִם׃",
             "transliteration": "Vayomer Elohim yehi raqi'a betokh ham-mayim vihi mavdil beyn mayim la-mayim",
             "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e separe as águas das águas.",
             "literalEn": "And God said, Let there be a firmament in the midst of the waters, and let it separate the waters from the waters."
@@ -95,7 +95,7 @@
         {
             "id": "aleppo",
             "label": "Aleppo Codex (A)",
-            "text": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָיִם",
+            "text": "וַיֹּ֣אמֶר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּתֹ֣וךְ הַמָּ֑יִם וִיהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָמָֽיִם׃",
             "transliteration": "Vayomer Elohim yehi raqi'a betokh ham-mayim vihi mavdil beyn mayim la-mayim",
             "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e separe as águas das águas.",
             "literalEn": "And God said, Let there be a firmament in the midst of the waters, and let it separate the waters from the waters."
@@ -103,7 +103,7 @@
         {
             "id": "qumran",
             "label": "Dead Sea Scrolls (Qumran, 4QGen)",
-            "text": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָיִם",
+            "text": "וַיֹּ֣אמֶר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּתֹ֣וךְ הַמָּ֑יִם וִיהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָמָֽיִם׃",
             "transliteration": "Vayomer Elohim yehi raqi'a betokh ham-mayim vihi mavdil beyn mayim la-mayim",
             "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e separe as águas das águas.",
             "literalEn": "And God said, Let there be a firmament in the midst of the waters, and let it separate the waters from the waters."
@@ -197,6 +197,7 @@
             "transliteration": "Vayomer",
             "lemma": "אָמַר",
             "strong": "H559",
+            "bdb": "to say, to speak",
             "morph": "V-Qal-Wayyq-3ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
@@ -322,6 +323,7 @@
             "transliteration": "mavdil",
             "lemma": "בָּדַל",
             "strong": "H914",
+            "bdb": "to separate, to divide",
             "morph": "V-Hifil-Ptc-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
@@ -356,6 +358,7 @@
             "transliteration": "mayim",
             "lemma": "מַיִם",
             "strong": "H4325",
+            "bdb": "water, waters",
             "morph": "N-mp",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
@@ -373,6 +376,7 @@
             "transliteration": "lamayim",
             "lemma": "מַיִם",
             "strong": "H4325",
+            "bdb": "water, waters",
             "morph": "Prep-l | Art | N-mp",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
