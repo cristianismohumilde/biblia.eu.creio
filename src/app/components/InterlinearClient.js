@@ -83,7 +83,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     if (!filter) return tokens;
     const query = filter.toLowerCase();
     return tokens.filter(tk => {
-      const haystack = [tk.surface, tk.transliteration, tk.lemma, tk.strong, tk.bdb, tk.lexicon, tk.cal, tk.morph, tk.ptLiteralWord]
+      const haystack = [tk.surface, tk.transliteration, tk.lemma, tk.strong, tk.bdb, tk.lsj, tk.lexicon, tk.cal, tk.morph, tk.ptLiteralWord]
         .filter(Boolean).join(" ").toLowerCase();
       return haystack.includes(query);
     });
@@ -96,6 +96,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
       total: tokens.length,
       withStrong: tokens.filter(tk => tk.strong && tk.strong !== "-").length,
       withBdb: tokens.filter(tk => tk.bdb && tk.bdb !== "-").length,
+      withLsj: tokens.filter(tk => tk.lsj && tk.lsj !== "-").length,
       withLexicon: tokens.filter(tk => (tk.lexicon && tk.lexicon !== "-") || (tk.strong && tk.strong !== "-") || (tk.bdb && tk.bdb !== "-") || (tk.cal && tk.cal !== "-")).length,
       withMorph: tokens.filter(tk => tk.morph && tk.morph !== "-").length
     };
@@ -194,6 +195,17 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                   <p className="interlinear-stat-value">{stats.withBdb}</p>
                 </article>
               </>
+            ) : targetLang === "greek" ? (
+              <>
+                <article className="interlinear-stat-card">
+                  <p className="interlinear-stat-label">{t.withStrong}</p>
+                  <p className="interlinear-stat-value">{stats.withStrong}</p>
+                </article>
+                <article className="interlinear-stat-card">
+                  <p className="interlinear-stat-label">{t.withLsj}</p>
+                  <p className="interlinear-stat-value">{stats.withLsj}</p>
+                </article>
+              </>
             ) : (
               <article className="interlinear-stat-card">
                 <p className="interlinear-stat-label">{lexiconStatLabel}</p>
@@ -233,6 +245,11 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                       <th>Strong</th>
                       <th>BDB</th>
                     </>
+                  ) : targetLang === "greek" ? (
+                    <>
+                      <th>Strong</th>
+                      <th>LSJ</th>
+                    </>
                   ) : (
                     <th>{lexiconHeader}</th>
                   )}
@@ -254,6 +271,11 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                       <>
                         <td>{token.strong && token.strong !== "-" ? token.strong : "-"}</td>
                         <td>{token.bdb && token.bdb !== "-" ? token.bdb : "-"}</td>
+                      </>
+                    ) : targetLang === "greek" ? (
+                      <>
+                        <td>{token.strong && token.strong !== "-" ? token.strong : "-"}</td>
+                        <td>{token.lsj && token.lsj !== "-" ? token.lsj : "-"}</td>
                       </>
                     ) : (
                       <td>{(() => {
