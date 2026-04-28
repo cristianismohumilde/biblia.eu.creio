@@ -90,7 +90,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
   }, [data, targetLang, filter]);
 
   const stats = useMemo(() => {
-    if (!data || !data.tokens) return { total: 0, withStrong: 0, withBdb: 0, withLsj: 0, withBedrossian: 0, withLexicon: 0, withMorph: 0 };
+    if (!data || !data.tokens) return { total: 0, withStrong: 0, withBdb: 0, withLsj: 0, withBedrossian: 0, withBrockelmann: 0, withLexicon: 0, withMorph: 0 };
     const tokens = data.tokens.filter(tk => tk.lang === targetLang);
     return {
       total: tokens.length,
@@ -98,7 +98,8 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
       withBdb: tokens.filter(tk => tk.bdb && tk.bdb !== "-").length,
       withLsj: tokens.filter(tk => tk.lsj && tk.lsj !== "-").length,
       withBedrossian: tokens.filter(tk => tk.bedrossian && tk.bedrossian !== "-").length,
-      withLexicon: tokens.filter(tk => (tk.lexicon && tk.lexicon !== "-") || (tk.strong && tk.strong !== "-") || (tk.bdb && tk.bdb !== "-") || (tk.cal && tk.cal !== "-") || (tk.bedrossian && tk.bedrossian !== "-")).length,
+      withBrockelmann: tokens.filter(tk => tk.brockelmann && tk.brockelmann !== "-").length,
+      withLexicon: tokens.filter(tk => (tk.lexicon && tk.lexicon !== "-") || (tk.strong && tk.strong !== "-") || (tk.bdb && tk.bdb !== "-") || (tk.cal && tk.cal !== "-") || (tk.bedrossian && tk.bedrossian !== "-") || (tk.brockelmann && tk.brockelmann !== "-")).length,
       withMorph: tokens.filter(tk => tk.morph && tk.morph !== "-").length
     };
 
@@ -138,6 +139,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     if (manuscript === "coptic") return t.copticLexicon;
     if (manuscript === "targum") return t.aramaicLexicon;
     if (manuscript === "armenian") return t.armenianLexicon;
+    if (manuscript === "syriac") return t.syriacLexicon;
     return t.lexiconStrong;
   })();
   const lexiconStatLabel = lexiconHeader;
@@ -215,6 +217,13 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                   <p className="interlinear-stat-value">{stats.withBedrossian}</p>
                 </article>
               </>
+            ) : targetLang === "syriac" ? (
+              <>
+                <article className="interlinear-stat-card">
+                  <p className="interlinear-stat-label">{t.withBrockelmann}</p>
+                  <p className="interlinear-stat-value">{stats.withBrockelmann}</p>
+                </article>
+              </>
             ) : (
               <article className="interlinear-stat-card">
                 <p className="interlinear-stat-label">{lexiconStatLabel}</p>
@@ -261,6 +270,8 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                     </>
                   ) : targetLang === "armenian" ? (
                     <th>{t.armenianLexicon}</th>
+                  ) : targetLang === "syriac" ? (
+                    <th>{t.syriacLexicon}</th>
                   ) : (
                     <th>{lexiconHeader}</th>
                   )}
@@ -290,6 +301,8 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                       </>
                     ) : targetLang === "armenian" ? (
                       <td>{token.bedrossian && token.bedrossian !== "-" ? token.bedrossian : (token.lexicon && token.lexicon !== "-" ? token.lexicon : (token.strong && token.strong !== "-" ? token.strong : "-"))}</td>
+                    ) : targetLang === "syriac" ? (
+                      <td>{token.brockelmann && token.brockelmann !== "-" ? token.brockelmann : (token.lexicon && token.lexicon !== "-" ? token.lexicon : (token.strong && token.strong !== "-" ? token.strong : "-"))}</td>
                     ) : (
                       <td>{(() => {
                         if (token.lexicon && token.lexicon !== "-") return token.lexicon;
