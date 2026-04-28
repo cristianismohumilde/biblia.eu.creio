@@ -92,13 +92,14 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
   const stats = useMemo(() => {
     if (!data || !data.tokens) return { total: 0, withStrong: 0, withBdb: 0, withLsj: 0, withBedrossian: 0, withBrockelmann: 0, withLexicon: 0, withMorph: 0 };
     const tokens = data.tokens.filter(tk => tk.lang === targetLang);
+    const hasValue = (value) => value && value !== "-";
     return {
       total: tokens.length,
       withStrong: tokens.filter(tk => tk.strong && tk.strong !== "-").length,
       withBdb: tokens.filter(tk => tk.bdb && tk.bdb !== "-").length,
       withLsj: tokens.filter(tk => tk.lsj && tk.lsj !== "-").length,
-      withBedrossian: tokens.filter(tk => tk.bedrossian && tk.bedrossian !== "-").length,
-      withBrockelmann: tokens.filter(tk => tk.brockelmann && tk.brockelmann !== "-").length,
+      withBedrossian: tokens.filter(tk => hasValue(tk.bedrossian) || hasValue(tk.lexicon) || hasValue(tk.strong)).length,
+      withBrockelmann: tokens.filter(tk => hasValue(tk.brockelmann) || hasValue(tk.lexicon) || hasValue(tk.strong)).length,
       withLexicon: tokens.filter(tk => (tk.lexicon && tk.lexicon !== "-") || (tk.strong && tk.strong !== "-") || (tk.bdb && tk.bdb !== "-") || (tk.cal && tk.cal !== "-") || (tk.bedrossian && tk.bedrossian !== "-") || (tk.brockelmann && tk.brockelmann !== "-")).length,
       withMorph: tokens.filter(tk => tk.morph && tk.morph !== "-").length
     };
