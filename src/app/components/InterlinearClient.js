@@ -83,23 +83,25 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     if (!filter) return tokens;
     const query = filter.toLowerCase();
     return tokens.filter(tk => {
-      const haystack = [tk.surface, tk.transliteration, tk.lemma, tk.strong, tk.bdb, tk.lsj, tk.lexicon, tk.cal, tk.morph, tk.ptLiteralWord]
+      const haystack = [tk.surface, tk.transliteration, tk.lemma, tk.strong, tk.bdb, tk.lsj, tk.bedrossian, tk.lexicon, tk.cal, tk.morph, tk.ptLiteralWord]
         .filter(Boolean).join(" ").toLowerCase();
       return haystack.includes(query);
     });
   }, [data, targetLang, filter]);
 
   const stats = useMemo(() => {
-    if (!data || !data.tokens) return { total: 0, withStrong: 0, withBdb: 0, withLexicon: 0, withMorph: 0 };
+    if (!data || !data.tokens) return { total: 0, withStrong: 0, withBdb: 0, withLsj: 0, withBedrossian: 0, withLexicon: 0, withMorph: 0 };
     const tokens = data.tokens.filter(tk => tk.lang === targetLang);
     return {
       total: tokens.length,
       withStrong: tokens.filter(tk => tk.strong && tk.strong !== "-").length,
       withBdb: tokens.filter(tk => tk.bdb && tk.bdb !== "-").length,
       withLsj: tokens.filter(tk => tk.lsj && tk.lsj !== "-").length,
-      withLexicon: tokens.filter(tk => (tk.lexicon && tk.lexicon !== "-") || (tk.strong && tk.strong !== "-") || (tk.bdb && tk.bdb !== "-") || (tk.cal && tk.cal !== "-")).length,
+      withBedrossian: tokens.filter(tk => tk.bedrossian && tk.bedrossian !== "-").length,
+      withLexicon: tokens.filter(tk => (tk.lexicon && tk.lexicon !== "-") || (tk.strong && tk.strong !== "-") || (tk.bdb && tk.bdb !== "-") || (tk.cal && tk.cal !== "-") || (tk.bedrossian && tk.bedrossian !== "-")).length,
       withMorph: tokens.filter(tk => tk.morph && tk.morph !== "-").length
     };
+
   }, [data, targetLang]);
 
   if (error) return <div className="card"><h2>Erro</h2><p>{error}</p></div>;
@@ -135,9 +137,9 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     if (manuscript === "vulgate") return t.latinLexicon;
     if (manuscript === "coptic") return t.copticLexicon;
     if (manuscript === "targum") return t.aramaicLexicon;
+    if (manuscript === "armenian") return t.armenianLexicon;
     return t.lexiconStrong;
   })();
-
   const lexiconStatLabel = lexiconHeader;
 
   return (
@@ -206,6 +208,13 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                   <p className="interlinear-stat-value">{stats.withLsj}</p>
                 </article>
               </>
+            ) : targetLang === "armenian" ? (
+              <>
+                <article className="interlinear-stat-card">
+                  <p className="interlinear-stat-label">{t.withBedrossian}</p>
+                  <p className="interlinear-stat-value">{stats.withBedrossian}</p>
+                </article>
+              </>
             ) : (
               <article className="interlinear-stat-card">
                 <p className="interlinear-stat-label">{lexiconStatLabel}</p>
@@ -250,6 +259,8 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                       <th>Strong</th>
                       <th>LSJ</th>
                     </>
+                  ) : targetLang === "armenian" ? (
+                    <th>{t.armenianLexicon}</th>
                   ) : (
                     <th>{lexiconHeader}</th>
                   )}
@@ -277,6 +288,8 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                         <td>{token.strong && token.strong !== "-" ? token.strong : "-"}</td>
                         <td>{token.lsj && token.lsj !== "-" ? token.lsj : "-"}</td>
                       </>
+                    ) : targetLang === "armenian" ? (
+                      <td>{token.bedrossian && token.bedrossian !== "-" ? token.bedrossian : (token.lexicon && token.lexicon !== "-" ? token.lexicon : (token.strong && token.strong !== "-" ? token.strong : "-"))}</td>
                     ) : (
                       <td>{(() => {
                         if (token.lexicon && token.lexicon !== "-") return token.lexicon;
