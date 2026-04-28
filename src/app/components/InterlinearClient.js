@@ -83,7 +83,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     if (!filter) return tokens;
     const query = filter.toLowerCase();
     return tokens.filter(tk => {
-      const haystack = [tk.surface, tk.transliteration, tk.lemma, tk.strong, tk.lexicon, tk.cal, tk.morph, tk.ptLiteralWord]
+      const haystack = [tk.surface, tk.transliteration, tk.lemma, tk.strong, tk.bdb, tk.lexicon, tk.cal, tk.morph, tk.ptLiteralWord]
         .filter(Boolean).join(" ").toLowerCase();
       return haystack.includes(query);
     });
@@ -94,7 +94,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     const tokens = data.tokens.filter(tk => tk.lang === targetLang);
     return {
       total: tokens.length,
-      withLexicon: tokens.filter(tk => (tk.lexicon && tk.lexicon !== "-") || (tk.strong && tk.strong !== "-") || (tk.cal && tk.cal !== "-")).length,
+      withLexicon: tokens.filter(tk => (tk.lexicon && tk.lexicon !== "-") || (tk.strong && tk.strong !== "-") || (tk.bdb && tk.bdb !== "-") || (tk.cal && tk.cal !== "-")).length,
       withMorph: tokens.filter(tk => tk.morph && tk.morph !== "-").length
     };
   }, [data, targetLang]);
@@ -132,13 +132,15 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     if (manuscript === "vulgate") return t.latinLexicon;
     if (manuscript === "coptic") return t.copticLexicon;
     if (manuscript === "targum") return t.aramaicLexicon;
-    if (targetLang === "hebrew" || targetLang === "greek") return t.lexiconStrong;
+    if (targetLang === "hebrew") return t.hebrewLexicon;
+    if (targetLang === "greek") return t.lexiconStrong;
     return t.lexiconLabel;
   })();
 
   const lexiconStatLabel = (() => {
     if (manuscript === "targum") return t.withCal;
     if (manuscript === "geez" || manuscript === "vulgate" || manuscript === "coptic") return t.withLexicon;
+    if (targetLang === "hebrew") return t.withBdb;
     return t.withStrong;
   })();
 
@@ -234,6 +236,15 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                     <td>{token.transliteration}</td>
                     <td>{token.lemma}</td>
                     <td>{(() => {
+                      if (targetLang === "hebrew") {
+                        const strong = token.strong && token.strong !== "-" ? token.strong : null;
+                        const bdb = token.bdb && token.bdb !== "-" ? token.bdb : null;
+                        if (strong && bdb) return `${strong} / ${bdb}`;
+                        if (strong) return strong;
+                        if (bdb) return bdb;
+                        if (token.lexicon && token.lexicon !== "-") return token.lexicon;
+                        return "-";
+                      }
                       if (token.lexicon && token.lexicon !== "-") return token.lexicon;
                       if (token.strong && token.strong !== "-") return token.strong;
                       if (token.cal && token.cal !== "-") return token.cal;
