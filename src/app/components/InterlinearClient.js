@@ -137,6 +137,8 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     return t.lexiconStrong;
   })();
 
+  const lexiconStatLabel = lexiconHeader;
+
   return (
     <>
       <header className="site-header">
