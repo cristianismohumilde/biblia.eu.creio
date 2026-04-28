@@ -66,7 +66,7 @@ export default function WitnessCards({ lang, data, manuscript }) {
           ? providedWitnesses 
           : (sourceText ? [{
               id: "base",
-              label: `${t.source}: ${lo.label}`,
+              label: lo.label,
               text: sourceText,
               transliteration: fallbackTransliteration,
               literalPt: fallbackLiteral,
