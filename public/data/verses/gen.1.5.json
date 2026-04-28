@@ -195,6 +195,7 @@
             "transliteration": "vayikra",
             "lemma": "קָרָא",
             "strong": "H7121",
+            "bdb": "to call, to name",
             "morph": "Conj + Verbo",
             "ptLiteralWord": "e chamou",
             "enLiteralWord": "and called"
@@ -218,7 +219,7 @@
             "transliteration": "la-or",
             "lemma": "אוֹר",
             "strong": "H216",
-            "lsj": "light",
+            "bdb": "light",
             "morph": "Prep + Art + Subst",
             "ptLiteralWord": "à luz",
             "enLiteralWord": "to the light"
@@ -230,7 +231,7 @@
             "transliteration": "yom",
             "lemma": "יוֹם",
             "strong": "H3117",
-            "lsj": "day",
+            "bdb": "day",
             "morph": "Subst",
             "ptLiteralWord": "dia",
             "enLiteralWord": "day"
@@ -242,7 +243,7 @@
             "transliteration": "ve-lachoshek",
             "lemma": "חֹשֶׁךְ",
             "strong": "H2822",
-            "lsj": "darkness",
+            "bdb": "darkness",
             "morph": "Conj + Prep + Art + Subst",
             "ptLiteralWord": "e às trevas",
             "enLiteralWord": "and to the darkness"
@@ -254,7 +255,7 @@
             "transliteration": "kara",
             "lemma": "קָרָא",
             "strong": "H7121",
-            "lsj": "to call, to name",
+            "bdb": "to call, to name",
             "morph": "Verbo",
             "ptLiteralWord": "chamou",
             "enLiteralWord": "called"
@@ -266,7 +267,7 @@
             "transliteration": "laylah",
             "lemma": "לַיְלָה",
             "strong": "H3915",
-            "lsj": "night",
+            "bdb": "night",
             "morph": "Subst",
             "ptLiteralWord": "noite",
             "enLiteralWord": "night"
@@ -326,7 +327,7 @@
             "transliteration": "yom",
             "lemma": "יוֹם",
             "strong": "H3117",
-            "lsj": "day",
+            "bdb": "day",
             "morph": "Subst",
             "ptLiteralWord": "dia",
             "enLiteralWord": "day"
@@ -692,7 +693,7 @@
             "langEn": "Greek",
             "surface": "ἡμέραν",
             "transliteration": "hemeran",
-            "lemma": "ἡμέρα",
+            "lemma": "ἡμέρα",
             "strong": "G2250",
             "lsj": "day",
             "morph": "N-AFS",
