@@ -90,10 +90,12 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
   }, [data, targetLang, filter]);
 
   const stats = useMemo(() => {
-    if (!data || !data.tokens) return { total: 0, withLexicon: 0, withMorph: 0 };
+    if (!data || !data.tokens) return { total: 0, withStrong: 0, withBdb: 0, withLexicon: 0, withMorph: 0 };
     const tokens = data.tokens.filter(tk => tk.lang === targetLang);
     return {
       total: tokens.length,
+      withStrong: tokens.filter(tk => tk.strong && tk.strong !== "-").length,
+      withBdb: tokens.filter(tk => tk.bdb && tk.bdb !== "-").length,
       withLexicon: tokens.filter(tk => (tk.lexicon && tk.lexicon !== "-") || (tk.strong && tk.strong !== "-") || (tk.bdb && tk.bdb !== "-") || (tk.cal && tk.cal !== "-")).length,
       withMorph: tokens.filter(tk => tk.morph && tk.morph !== "-").length
     };
@@ -132,16 +134,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     if (manuscript === "vulgate") return t.latinLexicon;
     if (manuscript === "coptic") return t.copticLexicon;
     if (manuscript === "targum") return t.aramaicLexicon;
-    if (targetLang === "hebrew") return t.hebrewLexicon;
-    if (targetLang === "greek") return t.lexiconStrong;
-    return t.lexiconLabel;
-  })();
-
-  const lexiconStatLabel = (() => {
-    if (manuscript === "targum") return t.withCal;
-    if (manuscript === "geez" || manuscript === "vulgate" || manuscript === "coptic") return t.withLexicon;
-    if (targetLang === "hebrew") return t.withBdb;
-    return t.withStrong;
+    return t.lexiconStrong;
   })();
 
   return (
@@ -188,10 +181,23 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
               <p className="interlinear-stat-label">{t.tokensTotal}</p>
               <p className="interlinear-stat-value">{stats.total}</p>
             </article>
-            <article className="interlinear-stat-card">
-              <p className="interlinear-stat-label">{lexiconStatLabel}</p>
-              <p className="interlinear-stat-value">{stats.withLexicon}</p>
-            </article>
+            {targetLang === "hebrew" ? (
+              <>
+                <article className="interlinear-stat-card">
+                  <p className="interlinear-stat-label">{t.withStrong}</p>
+                  <p className="interlinear-stat-value">{stats.withStrong}</p>
+                </article>
+                <article className="interlinear-stat-card">
+                  <p className="interlinear-stat-label">{t.withBdb}</p>
+                  <p className="interlinear-stat-value">{stats.withBdb}</p>
+                </article>
+              </>
+            ) : (
+              <article className="interlinear-stat-card">
+                <p className="interlinear-stat-label">{lexiconStatLabel}</p>
+                <p className="interlinear-stat-value">{stats.withLexicon}</p>
+              </article>
+            )}
             <article className="interlinear-stat-card">
               <p className="interlinear-stat-label">{t.withMorphology}</p>
               <p className="interlinear-stat-value">{stats.withMorph}</p>
@@ -220,7 +226,14 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                   <th>{t.original}</th>
                   <th>{t.transliteration}</th>
                   <th>{t.lemma}</th>
-                  <th>{lexiconHeader}</th>
+                  {targetLang === "hebrew" ? (
+                    <>
+                      <th>Strong</th>
+                      <th>BDB</th>
+                    </>
+                  ) : (
+                    <th>{lexiconHeader}</th>
+                  )}
                   <th>{t.morphology}</th>
                   <th>{t.literalTranslationLabel}</th>
                 </tr>
@@ -235,21 +248,19 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                     </td>
                     <td>{token.transliteration}</td>
                     <td>{token.lemma}</td>
-                    <td>{(() => {
-                      if (targetLang === "hebrew") {
-                        const strong = token.strong && token.strong !== "-" ? token.strong : null;
-                        const bdb = token.bdb && token.bdb !== "-" ? token.bdb : null;
-                        if (strong && bdb) return `${strong} / ${bdb}`;
-                        if (strong) return strong;
-                        if (bdb) return bdb;
+                    {targetLang === "hebrew" ? (
+                      <>
+                        <td>{token.strong && token.strong !== "-" ? token.strong : "-"}</td>
+                        <td>{token.bdb && token.bdb !== "-" ? token.bdb : "-"}</td>
+                      </>
+                    ) : (
+                      <td>{(() => {
                         if (token.lexicon && token.lexicon !== "-") return token.lexicon;
+                        if (token.strong && token.strong !== "-") return token.strong;
+                        if (token.cal && token.cal !== "-") return token.cal;
                         return "-";
-                      }
-                      if (token.lexicon && token.lexicon !== "-") return token.lexicon;
-                      if (token.strong && token.strong !== "-") return token.strong;
-                      if (token.cal && token.cal !== "-") return token.cal;
-                      return "-";
-                    })()}</td>
+                      })()}</td>
+                    )}
                     <td>{token.morph}</td>
                     <td>{lang === 'pt' ? token.ptLiteralWord : token.enLiteralWord}</td>
                   </tr>
