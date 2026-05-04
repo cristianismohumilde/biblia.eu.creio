@@ -7,6 +7,7 @@ import ReferenceSelector from "@/app/components/ReferenceSelector";
 import WitnessCards from "@/app/components/WitnessCards";
 import ThemeToggle from "@/app/components/ThemeToggle";
 import LanguageSwitcher from "@/app/components/LanguageSwitcher";
+import NewsBanner from "@/app/components/NewsBanner";
 
 export default function LangHomePage({ params }) {
   const [resolvedParams, setResolvedParams] = useState(null);
@@ -153,6 +154,7 @@ export default function LangHomePage({ params }) {
         </p>
       </section>
 
+      <NewsBanner lang={lang} />
       <ReferenceSelector lang={lang} t={t} onSelect={loadVerse} />
 
       {data && (

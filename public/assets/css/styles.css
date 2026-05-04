@@ -1114,3 +1114,127 @@ th {
 .support-cta--red:hover {
   filter: brightness(1.1);
 }
+
+/* News Banner & Animations */
+.news-banner {
+  background: linear-gradient(135deg, #1e6b64, #2f837a);
+  color: white;
+  padding: 1rem;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(30, 107, 100, 0.25);
+  animation: slideDown 0.6s ease-out;
+}
+
+.news-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  animation: shine 4s infinite;
+}
+
+.bouncing-emoji {
+  font-size: 1.5rem;
+  animation: bounce 1.5s infinite;
+  display: inline-block;
+}
+
+.news-banner-content {
+  flex: 1;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.95rem;
+  z-index: 1;
+}
+
+.news-banner-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.2s ease;
+  margin-left: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.news-banner-link:hover {
+  border-bottom-color: #fff;
+  gap: 8px;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes shine {
+  0% { left: -100%; }
+  20% { left: 100%; }
+  100% { left: 100%; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Updates Page Styles */
+.updates-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.update-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 2.5rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+}
+
+.update-header {
+  border-bottom: 2px solid var(--line);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.update-title {
+  margin: 0;
+  color: var(--accent);
+  font-size: 1.8rem;
+}
+
+.update-date {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.update-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.update-content p {
+  margin-bottom: 1.5rem;
+}
