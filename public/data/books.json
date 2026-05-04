@@ -3,6 +3,234 @@
     "code": "gen",
     "name": "Gênesis",
     "nameEn": "Genesis",
+    "chapters": 50
+  },
+  {
+    "code": "exo",
+    "name": "Êxodo",
+    "nameEn": "Exodus",
+    "chapters": 40
+  },
+  {
+    "code": "lev",
+    "name": "Levítico",
+    "nameEn": "Leviticus",
+    "chapters": 27
+  },
+  {
+    "code": "num",
+    "name": "Números",
+    "nameEn": "Numbers",
+    "chapters": 36
+  },
+  {
+    "code": "deu",
+    "name": "Deuteronômio",
+    "nameEn": "Deuteronomy",
+    "chapters": 34
+  },
+  {
+    "code": "jos",
+    "name": "Josué",
+    "nameEn": "Joshua",
+    "chapters": 24
+  },
+  {
+    "code": "jdg",
+    "name": "Juízes",
+    "nameEn": "Judges",
+    "chapters": 21
+  },
+  {
+    "code": "rut",
+    "name": "Rute",
+    "nameEn": "Ruth",
+    "chapters": 4
+  },
+  {
+    "code": "1sa",
+    "name": "1 Samuel",
+    "nameEn": "1 Samuel",
+    "chapters": 31
+  },
+  {
+    "code": "2sa",
+    "name": "2 Samuel",
+    "nameEn": "2 Samuel",
+    "chapters": 24
+  },
+  {
+    "code": "1ki",
+    "name": "1 Reis",
+    "nameEn": "1 Kings",
+    "chapters": 22
+  },
+  {
+    "code": "2ki",
+    "name": "2 Reis",
+    "nameEn": "2 Kings",
+    "chapters": 25
+  },
+  {
+    "code": "1ch",
+    "name": "1 Crônicas",
+    "nameEn": "1 Chronicles",
+    "chapters": 29
+  },
+  {
+    "code": "2ch",
+    "name": "2 Crônicas",
+    "nameEn": "2 Chronicles",
+    "chapters": 36
+  },
+  {
+    "code": "ezr",
+    "name": "Esdras",
+    "nameEn": "Ezra",
+    "chapters": 10
+  },
+  {
+    "code": "neh",
+    "name": "Neemias",
+    "nameEn": "Nehemiah",
+    "chapters": 13
+  },
+  {
+    "code": "est",
+    "name": "Ester",
+    "nameEn": "Esther",
+    "chapters": 10
+  },
+  {
+    "code": "job",
+    "name": "Jó",
+    "nameEn": "Job",
+    "chapters": 42
+  },
+  {
+    "code": "psa",
+    "name": "Salmos",
+    "nameEn": "Psalms",
+    "chapters": 150
+  },
+  {
+    "code": "pro",
+    "name": "Provérbios",
+    "nameEn": "Proverbs",
+    "chapters": 31
+  },
+  {
+    "code": "ecc",
+    "name": "Eclesiastes",
+    "nameEn": "Ecclesiastes",
+    "chapters": 12
+  },
+  {
+    "code": "sng",
+    "name": "Cânticos",
+    "nameEn": "Song of Solomon",
+    "chapters": 8
+  },
+  {
+    "code": "isa",
+    "name": "Isaías",
+    "nameEn": "Isaiah",
+    "chapters": 66
+  },
+  {
+    "code": "jer",
+    "name": "Jeremias",
+    "nameEn": "Jeremiah",
+    "chapters": 52
+  },
+  {
+    "code": "lam",
+    "name": "Lamentações",
+    "nameEn": "Lamentations",
     "chapters": 5
+  },
+  {
+    "code": "ezk",
+    "name": "Ezequiel",
+    "nameEn": "Ezekiel",
+    "chapters": 48
+  },
+  {
+    "code": "dan",
+    "name": "Daniel",
+    "nameEn": "Daniel",
+    "chapters": 12
+  },
+  {
+    "code": "hos",
+    "name": "Oséias",
+    "nameEn": "Hosea",
+    "chapters": 14
+  },
+  {
+    "code": "jol",
+    "name": "Joel",
+    "nameEn": "Joel",
+    "chapters": 4
+  },
+  {
+    "code": "amo",
+    "name": "Amós",
+    "nameEn": "Amos",
+    "chapters": 9
+  },
+  {
+    "code": "oba",
+    "name": "Obadias",
+    "nameEn": "Obadiah",
+    "chapters": 1
+  },
+  {
+    "code": "jon",
+    "name": "Jonas",
+    "nameEn": "Jonah",
+    "chapters": 4
+  },
+  {
+    "code": "mic",
+    "name": "Miquéias",
+    "nameEn": "Micah",
+    "chapters": 7
+  },
+  {
+    "code": "nah",
+    "name": "Naum",
+    "nameEn": "Nahum",
+    "chapters": 3
+  },
+  {
+    "code": "hab",
+    "name": "Habacuque",
+    "nameEn": "Habakkuk",
+    "chapters": 3
+  },
+  {
+    "code": "zph",
+    "name": "Sofonias",
+    "nameEn": "Zephaniah",
+    "chapters": 3
+  },
+  {
+    "code": "hag",
+    "name": "Ageu",
+    "nameEn": "Haggai",
+    "chapters": 2
+  },
+  {
+    "code": "zec",
+    "name": "Zacarias",
+    "nameEn": "Zechariah",
+    "chapters": 14
+  },
+  {
+    "code": "mal",
+    "name": "Malaquias",
+    "nameEn": "Malachi",
+    "chapters": 3
   }
 ]
