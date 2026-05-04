@@ -99,7 +99,8 @@
             "ptLiteralWord": "E disse",
             "enLiteralWord": "And said",
             "explanation": "E disse",
-            "explanationEn": "E disse"
+            "explanationEn": "And said",
+            "bdb": "to say"
         },
         {
             "id": "gen.1.14.h2",
@@ -116,7 +117,8 @@
             "ptLiteralWord": "Deus",
             "enLiteralWord": "God",
             "explanation": "Deus",
-            "explanationEn": "Deus"
+            "explanationEn": "God",
+            "bdb": "God"
         },
         {
             "id": "gen.1.14.h3",
@@ -132,8 +134,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "haja",
             "enLiteralWord": "let there be",
-            "explanation": "Haja",
-            "explanationEn": "Haja"
+            "explanation": "haja",
+            "explanationEn": "let there be",
+            "bdb": "to be, become"
         },
         {
             "id": "gen.1.14.h4",
@@ -149,8 +152,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "luminares",
             "enLiteralWord": "lights",
-            "explanation": "Luminares",
-            "explanationEn": "Luminares"
+            "explanation": "luminares",
+            "explanationEn": "lights",
+            "bdb": "luminary, light"
         },
         {
             "id": "gen.1.14.h5",
@@ -166,8 +170,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "no firmamento",
             "enLiteralWord": "in the firmament",
-            "explanation": "No firmamento",
-            "explanationEn": "No firmamento"
+            "explanation": "no firmamento",
+            "explanationEn": "in the firmament",
+            "bdb": "firmament"
         },
         {
             "id": "gen.1.14.h6",
@@ -182,9 +187,10 @@
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "dos céus",
-            "enLiteralWord": "of the heavens",
-            "explanation": "Os céus",
-            "explanationEn": "Os céus"
+            "enLiteralWord": "of heaven",
+            "explanation": "dos céus",
+            "explanationEn": "of heaven",
+            "bdb": "heavens"
         },
         {
             "id": "gen.1.14.h7",
@@ -200,8 +206,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "para separar",
             "enLiteralWord": "to divide",
-            "explanation": "Para fazer separação",
-            "explanationEn": "Para fazer separação"
+            "explanation": "para separar",
+            "explanationEn": "to divide",
+            "bdb": "to separate"
         },
         {
             "id": "gen.1.14.h8",
@@ -211,14 +218,15 @@
             "surface": "בֵּין",
             "transliteration": "bein",
             "lemma": "בֵּין",
-            "strong": "H2350",
+            "strong": "H996",
             "morph": "Prep",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "do",
-            "enLiteralWord": "in",
-            "explanation": "Em / No",
-            "explanationEn": "Em / No"
+            "ptLiteralWord": "entre",
+            "enLiteralWord": "between",
+            "explanation": "entre",
+            "explanationEn": "between",
+            "bdb": "between"
         },
         {
             "id": "gen.1.14.h9",
@@ -228,14 +236,15 @@
             "surface": "הַיּוֹם",
             "transliteration": "hayom",
             "lemma": "הַיּוֹם",
-            "strong": "H8073",
+            "strong": "H3117",
             "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "céu,",
-            "enLiteralWord": "the",
-            "explanation": "Céus / Firmamento",
-            "explanationEn": "Céus / Firmamento"
+            "ptLiteralWord": "o dia",
+            "enLiteralWord": "the day",
+            "explanation": "o dia",
+            "explanationEn": "the day",
+            "bdb": "day"
         },
         {
             "id": "gen.1.14.h10",
@@ -245,14 +254,15 @@
             "surface": "וּבֵין",
             "transliteration": "uvein",
             "lemma": "וּבֵין",
-            "strong": "H4434",
+            "strong": "H996",
             "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "para",
-            "enLiteralWord": "firmament",
-            "explanation": "Céus / Firmamento",
-            "explanationEn": "Céus / Firmamento"
+            "ptLiteralWord": "e entre",
+            "enLiteralWord": "and between",
+            "explanation": "e entre",
+            "explanationEn": "and between",
+            "bdb": "between"
         },
         {
             "id": "gen.1.14.h11",
@@ -262,14 +272,15 @@
             "surface": "הַלָּיְלָה",
             "transliteration": "halaylah",
             "lemma": "הַלָּיְלָה",
-            "strong": "H3408",
+            "strong": "H3915",
             "morph": "Prep",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "fazerem",
-            "enLiteralWord": "of",
-            "explanation": "Em / No",
-            "explanationEn": "Em / No"
+            "ptLiteralWord": "a noite",
+            "enLiteralWord": "the night",
+            "explanation": "a noite",
+            "explanationEn": "the night",
+            "bdb": "night"
         },
         {
             "id": "gen.1.14.h12",
@@ -279,14 +290,15 @@
             "surface": "וְהָיוּ",
             "transliteration": "vehayu",
             "lemma": "וְהָיוּ",
-            "strong": "H5635",
+            "strong": "H1961",
             "morph": "Prep",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "separação",
-            "enLiteralWord": "the",
-            "explanation": "Para / A",
-            "explanationEn": "Para / A"
+            "ptLiteralWord": "e sejam",
+            "enLiteralWord": "and let them be",
+            "explanation": "e sejam",
+            "explanationEn": "and let them be",
+            "bdb": "to be"
         },
         {
             "id": "gen.1.14.h13",
@@ -296,14 +308,15 @@
             "surface": "לְאֹתֹת",
             "transliteration": "le'otot",
             "lemma": "לְאֹתֹת",
-            "strong": "H4606",
+            "strong": "H226",
             "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "entre",
-            "enLiteralWord": "heaven",
-            "explanation": "Céus / Firmamento",
-            "explanationEn": "Céus / Firmamento"
+            "ptLiteralWord": "para sinais",
+            "enLiteralWord": "for signs",
+            "explanation": "para sinais",
+            "explanationEn": "for signs",
+            "bdb": "sign"
         },
         {
             "id": "gen.1.14.h14",
@@ -313,14 +326,15 @@
             "surface": "וּלְמוֹעֲדִים",
             "transliteration": "ulemo'adim",
             "lemma": "וּלְמוֹעֲדִים",
-            "strong": "H7851",
+            "strong": "H4150",
             "morph": "Prep",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "o",
-            "enLiteralWord": "to",
-            "explanation": "Para / A",
-            "explanationEn": "Para / A"
+            "ptLiteralWord": "e para estações",
+            "enLiteralWord": "and for seasons",
+            "explanation": "e para estações",
+            "explanationEn": "and for seasons",
+            "bdb": "appointed time, season"
         },
         {
             "id": "gen.1.14.h15",
@@ -330,14 +344,15 @@
             "surface": "וּלְיָמִים",
             "transliteration": "uleyamim",
             "lemma": "וּלְיָמִים",
-            "strong": "H5683",
+            "strong": "H3117",
             "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "dia",
-            "enLiteralWord": "divide",
-            "explanation": "Dia",
-            "explanationEn": "Dia"
+            "ptLiteralWord": "e para dias",
+            "enLiteralWord": "and for days",
+            "explanation": "e para dias",
+            "explanationEn": "and for days",
+            "bdb": "day"
         },
         {
             "id": "gen.1.14.h16",
@@ -347,14 +362,15 @@
             "surface": "וְשָׁנִים",
             "transliteration": "veshanim",
             "lemma": "וְשָׁנִים",
-            "strong": "H865",
+            "strong": "H8141",
             "morph": "Conj",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "e",
-            "enLiteralWord": "the",
-            "explanation": "Conjunção (E)",
-            "explanationEn": "Conjunção (E)"
+            "ptLiteralWord": "e anos",
+            "enLiteralWord": "and years",
+            "explanation": "e anos",
+            "explanationEn": "and years",
+            "bdb": "year"
         },
         {
             "id": "gen.1.14.g1",

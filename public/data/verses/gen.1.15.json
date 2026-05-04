@@ -92,14 +92,15 @@
             "surface": "וְהָיוּ",
             "transliteration": "Vehayu",
             "lemma": "וְהָיוּ",
-            "strong": "H3803",
+            "strong": "H1961",
             "morph": "Conj",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "E",
-            "enLiteralWord": "And",
-            "explanation": "Conjunção (E)",
-            "explanationEn": "Conjunção (E)"
+            "ptLiteralWord": "e sejam",
+            "enLiteralWord": "and let them be",
+            "explanation": "e sejam",
+            "explanationEn": "and let them be",
+            "bdb": "to be"
         },
         {
             "id": "gen.1.15.h2",
@@ -109,14 +110,15 @@
             "surface": "לִמְאוֹרֹת",
             "transliteration": "lim'orot",
             "lemma": "לִמְאוֹרֹת",
-            "strong": "H2915",
+            "strong": "H3974",
             "morph": "V-Jussive",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "sejam",
-            "enLiteralWord": "let",
-            "explanation": "Seja / Faça-se (Jussivo/Imperativo)",
-            "explanationEn": "Seja / Faça-se (Jussivo/Imperativo)"
+            "ptLiteralWord": "para luminares",
+            "enLiteralWord": "for lights",
+            "explanation": "para luminares",
+            "explanationEn": "for lights",
+            "bdb": "luminary"
         },
         {
             "id": "gen.1.15.h3",
@@ -132,8 +134,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "no firmamento",
             "enLiteralWord": "in the firmament",
-            "explanation": "No firmamento",
-            "explanationEn": "No firmamento"
+            "explanation": "no firmamento",
+            "explanationEn": "in the firmament",
+            "bdb": "firmament"
         },
         {
             "id": "gen.1.15.h4",
@@ -148,9 +151,10 @@
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "dos céus",
-            "enLiteralWord": "of the heavens",
-            "explanation": "Os céus",
-            "explanationEn": "Os céus"
+            "enLiteralWord": "of the heaven",
+            "explanation": "dos céus",
+            "explanationEn": "of the heaven",
+            "bdb": "heavens"
         },
         {
             "id": "gen.1.15.h5",
@@ -160,14 +164,15 @@
             "surface": "לְהָאִיר",
             "transliteration": "leha'ir",
             "lemma": "לְהָאִיר",
-            "strong": "H2341",
+            "strong": "H215",
             "morph": "Prep",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "no",
-            "enLiteralWord": "for",
-            "explanation": "Em / No",
-            "explanationEn": "Em / No"
+            "ptLiteralWord": "para iluminar",
+            "enLiteralWord": "to give light",
+            "explanation": "para iluminar",
+            "explanationEn": "to give light",
+            "bdb": "to shine"
         },
         {
             "id": "gen.1.15.h6",
@@ -177,14 +182,15 @@
             "surface": "עַל",
             "transliteration": "al",
             "lemma": "עַל",
-            "strong": "H3472",
+            "strong": "H5921",
             "morph": "N-fs",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "firmamento",
-            "enLiteralWord": "lights",
-            "explanation": "Luz",
-            "explanationEn": "Luz"
+            "ptLiteralWord": "sobre",
+            "enLiteralWord": "upon",
+            "explanation": "sobre",
+            "explanationEn": "upon",
+            "bdb": "upon"
         },
         {
             "id": "gen.1.15.h7",
@@ -200,8 +206,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "a terra",
             "enLiteralWord": "the earth",
-            "explanation": "A terra",
-            "explanationEn": "A terra"
+            "explanation": "a terra",
+            "explanationEn": "the earth",
+            "bdb": "earth"
         },
         {
             "id": "gen.1.15.h8",
@@ -216,9 +223,10 @@
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "e foi",
-            "enLiteralWord": "and was",
-            "explanation": "E foi",
-            "explanationEn": "E foi"
+            "enLiteralWord": "and it was",
+            "explanation": "e foi",
+            "explanationEn": "and it was",
+            "bdb": "to be"
         },
         {
             "id": "gen.1.15.h9",
@@ -228,14 +236,15 @@
             "surface": "כֵן",
             "transliteration": "chen",
             "lemma": "כֵן",
-            "strong": "H3603",
+            "strong": "H3651",
             "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "para",
-            "enLiteralWord": "firmament",
-            "explanation": "Céus / Firmamento",
-            "explanationEn": "Céus / Firmamento"
+            "ptLiteralWord": "assim",
+            "enLiteralWord": "so",
+            "explanation": "assim",
+            "explanationEn": "so",
+            "bdb": "so, thus"
         },
         {
             "id": "gen.1.15.g1",

@@ -99,7 +99,8 @@
             "ptLiteralWord": "E disse",
             "enLiteralWord": "And said",
             "explanation": "E disse",
-            "explanationEn": "E disse"
+            "explanationEn": "And said",
+            "bdb": "to say"
         },
         {
             "id": "gen.1.11.h2",
@@ -116,7 +117,8 @@
             "ptLiteralWord": "Deus",
             "enLiteralWord": "God",
             "explanation": "Deus",
-            "explanationEn": "Deus"
+            "explanationEn": "God",
+            "bdb": "God"
         },
         {
             "id": "gen.1.11.h3",
@@ -131,9 +133,10 @@
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "Produza",
-            "enLiteralWord": "Let produce",
+            "enLiteralWord": "Let bring forth",
             "explanation": "Produza",
-            "explanationEn": "Produza"
+            "explanationEn": "Let bring forth",
+            "bdb": "sprout, shoot"
         },
         {
             "id": "gen.1.11.h4",
@@ -149,8 +152,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "a terra",
             "enLiteralWord": "the earth",
-            "explanation": "A terra",
-            "explanationEn": "A terra"
+            "explanation": "a terra",
+            "explanationEn": "the earth",
+            "bdb": "earth, land"
         },
         {
             "id": "gen.1.11.h5",
@@ -166,8 +170,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "relva",
             "enLiteralWord": "grass",
-            "explanation": "Relva / Grama",
-            "explanationEn": "Relva / Grama"
+            "explanation": "relva",
+            "explanationEn": "grass",
+            "bdb": "grass, new grass"
         },
         {
             "id": "gen.1.11.h6",
@@ -183,8 +188,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "erva",
             "enLiteralWord": "herb",
-            "explanation": "Erva",
-            "explanationEn": "Erva"
+            "explanation": "erva",
+            "explanationEn": "herb",
+            "bdb": "herb, herbage"
         },
         {
             "id": "gen.1.11.h7",
@@ -200,8 +206,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "dando",
             "enLiteralWord": "yielding",
-            "explanation": "Que dá semente",
-            "explanationEn": "Que dá semente"
+            "explanation": "dando",
+            "explanationEn": "yielding",
+            "bdb": "to sow, yield"
         },
         {
             "id": "gen.1.11.h8",
@@ -217,8 +224,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "semente",
             "enLiteralWord": "seed",
-            "explanation": "Semente",
-            "explanationEn": "Semente"
+            "explanation": "semente",
+            "explanationEn": "seed",
+            "bdb": "seed"
         },
         {
             "id": "gen.1.11.h9",
@@ -234,8 +242,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "árvore",
             "enLiteralWord": "tree",
-            "explanation": "Árvore",
-            "explanationEn": "Árvore"
+            "explanation": "árvore",
+            "explanationEn": "tree",
+            "bdb": "tree, wood"
         },
         {
             "id": "gen.1.11.h10",
@@ -249,10 +258,11 @@
             "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "fruto",
+            "ptLiteralWord": "frutífera",
             "enLiteralWord": "fruit",
-            "explanation": "Fruto",
-            "explanationEn": "Fruto"
+            "explanation": "frutífera",
+            "explanationEn": "fruit",
+            "bdb": "fruit"
         },
         {
             "id": "gen.1.11.h11",
@@ -267,9 +277,10 @@
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "fazendo",
-            "enLiteralWord": "making",
-            "explanation": "Que faz",
-            "explanationEn": "Que faz"
+            "enLiteralWord": "yielding",
+            "explanation": "fazendo",
+            "explanationEn": "yielding",
+            "bdb": "to do, make"
         },
         {
             "id": "gen.1.11.h12",
@@ -285,8 +296,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "fruto",
             "enLiteralWord": "fruit",
-            "explanation": "Fruto",
-            "explanationEn": "Fruto"
+            "explanation": "fruto",
+            "explanationEn": "fruit",
+            "bdb": "fruit"
         },
         {
             "id": "gen.1.11.h13",
@@ -302,8 +314,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "segundo sua espécie",
             "enLiteralWord": "after its kind",
-            "explanation": "Segundo a sua espécie",
-            "explanationEn": "Segundo a sua espécie"
+            "explanation": "segundo sua espécie",
+            "explanationEn": "after its kind",
+            "bdb": "kind, species"
         },
         {
             "id": "gen.1.11.h14",
@@ -313,14 +326,15 @@
             "surface": "אֲשֶׁר",
             "transliteration": "asher",
             "lemma": "אֲשֶׁר",
-            "strong": "H2289",
+            "strong": "H834",
             "morph": "V-Imperf/Perf",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "frutíferas",
-            "enLiteralWord": "and",
-            "explanation": "Era / Estava / Houve",
-            "explanationEn": "Era / Estava / Houve"
+            "ptLiteralWord": "cuja",
+            "enLiteralWord": "whose",
+            "explanation": "cuja",
+            "explanationEn": "whose",
+            "bdb": "which, whose"
         },
         {
             "id": "gen.1.11.h15",
@@ -330,14 +344,15 @@
             "surface": "זַרְעוֹ",
             "transliteration": "zar'o",
             "lemma": "זַרְעוֹ",
-            "strong": "H5160",
+            "strong": "H2233",
             "morph": "Conj/Rel",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "que",
-            "enLiteralWord": "the",
-            "explanation": "Que / O qual",
-            "explanationEn": "Que / O qual"
+            "ptLiteralWord": "semente",
+            "enLiteralWord": "seed",
+            "explanation": "semente",
+            "explanationEn": "seed",
+            "bdb": "seed"
         },
         {
             "id": "gen.1.11.h16",
@@ -347,14 +362,15 @@
             "surface": "בוֹ",
             "transliteration": "vo",
             "lemma": "בוֹ",
-            "strong": "H5221",
+            "strong": "H9003",
             "morph": "Prep",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "deem",
-            "enLiteralWord": "fruit",
-            "explanation": "Em / No",
-            "explanationEn": "Em / No"
+            "ptLiteralWord": "nela",
+            "enLiteralWord": "in itself",
+            "explanation": "nela",
+            "explanationEn": "in itself",
+            "bdb": "in, at"
         },
         {
             "id": "gen.1.11.h17",
@@ -364,14 +380,15 @@
             "surface": "עַל",
             "transliteration": "al",
             "lemma": "עַל",
-            "strong": "-",
+            "strong": "H5921",
             "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "fruto",
-            "enLiteralWord": "tree",
-            "explanation": "Árvore (substantivo)",
-            "explanationEn": "Árvore (substantivo)"
+            "ptLiteralWord": "sobre",
+            "enLiteralWord": "upon",
+            "explanation": "sobre",
+            "explanationEn": "upon",
+            "bdb": "upon, above"
         },
         {
             "id": "gen.1.11.h18",
@@ -387,8 +404,9 @@
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "a terra",
             "enLiteralWord": "the earth",
-            "explanation": "A terra",
-            "explanationEn": "A terra"
+            "explanation": "a terra",
+            "explanationEn": "the earth",
+            "bdb": "earth, land"
         },
         {
             "id": "gen.1.11.h19",
@@ -403,9 +421,10 @@
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
             "ptLiteralWord": "e foi",
-            "enLiteralWord": "and was",
-            "explanation": "E foi",
-            "explanationEn": "E foi"
+            "enLiteralWord": "and it was",
+            "explanation": "e foi",
+            "explanationEn": "and it was",
+            "bdb": "to be, become"
         },
         {
             "id": "gen.1.11.h20",
@@ -415,14 +434,15 @@
             "surface": "כֵן",
             "transliteration": "chen",
             "lemma": "כֵן",
-            "strong": "-",
+            "strong": "H3651",
             "morph": "N-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "sua",
-            "enLiteralWord": "after",
-            "explanation": "Palavra identificada no texto base",
-            "explanationEn": "Palavra identificada no texto base"
+            "ptLiteralWord": "assim",
+            "enLiteralWord": "so",
+            "explanation": "assim",
+            "explanationEn": "so",
+            "bdb": "so, thus"
         },
         {
             "id": "gen.1.11.g1",
