@@ -9,7 +9,7 @@ export default function NewsBanner({ lang }) {
 
   return (
     <div className="news-banner">
-      <span className="bouncing-emoji">✨</span>
+      <span className="bouncing-emoji">📢</span>
       <div className="news-banner-content">
         {text}
         <Link href={`/${lang}/atualizacoes-e-novidades`} className="news-banner-link">
