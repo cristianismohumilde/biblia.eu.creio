@@ -59,6 +59,33 @@ Este projeto é construído sobre o pilar dos **Dados Abertos (Open Data)**. Gar
 - **📦 Estrutura de Dados:** Servidos como arquivos estáticos a partir de `public/data/`, sem necessidade de banco de dados ativo.
 - **🗺️ Roteamento Dinâmico:** Navegação instantânea via roteamento client-side do Next.js.
 
+## ⚙️ Master Data Pipeline (Para outros Apps e Desenvolvedores)
+
+O coração do **Biblia.Creio.EU** é a sua estrutura de dados JSON interlinear. Se você está desenvolvendo **outro aplicativo** e deseja reutilizar esta mesma arquitetura (por exemplo, um aplicativo mobile ou outro site de estudo), você não deve criar o banco de dados manualmente. 
+
+Em vez disso, você deve utilizar um **Script Gerador Mestre** (Master Data Pipeline) para importar dados acadêmicos abertos (como OSIS ou o repositório OpenScriptures) e convertê-los em arquivos `.json` consumíveis pela sua aplicação.
+
+### Exemplo de Pipeline (Hebraico sem Niqqud)
+Muitos desenvolvedores preferem trabalhar com o **Hebraico Consonantal** (apenas as consoantes originais, sem as vogais/Niqqud introduzidas pelos massoretas). Para aplicar esse pipeline em seu próprio app e remover as vogais, o seu script Node.js ou Python deve aplicar uma expressão regular simples durante a importação dos dados:
+
+```javascript
+// Exemplo de como um script de importação limpa o Hebraico
+function removeNiqqud(hebrewText) {
+    // A regex [\u0591-\u05C7] captura todos os sinais massoréticos e de cantilação
+    return hebrewText.replace(/[\u0591-\u05C7]/g, '');
+}
+
+// Exemplo:
+// Entrada: "בְּרֵאשִׁית" (bereshit com niqqud)
+// Saída: "בראשית" (bereshit apenas consoantes)
+```
+
+**Como adaptar para o seu App:**
+1. Baixe um banco de dados bruto (ex: XML do Westminster Leningrad Codex).
+2. Escreva um script (Node.js/Python) que itere por todos os capítulos e versos.
+3. Para cada palavra, aplique o `removeNiqqud()` na propriedade de texto.
+4. Salve o resultado como um grande array de objetos (ou múltiplos arquivos JSON) dentro da pasta de dados do seu novo aplicativo.
+
 ## 💻 Como Rodar Localmente
 
 1. **Instalação:**

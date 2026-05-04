@@ -59,6 +59,33 @@ This project is a pillar of **Open Data**. We ensure absolute legal safety for c
 - **📦 Data Structure:** Served as static files from `public/data/`, requiring no active database.
 - **🗺️ Dynamic Routing:** Instant navigation powered by Next.js client-side routing.
 
+## ⚙️ Master Data Pipeline (For Other Apps & Developers)
+
+The core of **Biblia.Creio.EU** is its interlinear JSON data structure. If you are developing **another application** and wish to reuse this same architecture (e.g., a mobile app or another study platform), you should not create the database manually.
+
+Instead, you should use a **Master Data Pipeline** script to import open academic data (like OSIS or the OpenScriptures repository) and convert them into `.json` files consumable by your application.
+
+### Pipeline Example (Unpointed Hebrew / No Niqqud)
+Many developers prefer working with **Consonantal Hebrew** (only the original consonants, without the vowels/Niqqud introduced by the Masoretes). To apply this pipeline in your own app and remove the vowels, your Node.js or Python script must apply a simple regular expression during data import:
+
+```javascript
+// Example of how an import script cleans Hebrew text
+function removeNiqqud(hebrewText) {
+    // The regex [\u0591-\u05C7] matches all masoretic and cantillation marks
+    return hebrewText.replace(/[\u0591-\u05C7]/g, '');
+}
+
+// Example:
+// Input: "בְּרֵאשִׁית" (bereshit with niqqud)
+// Output: "בראשית" (bereshit consonants only)
+```
+
+**How to adapt it for your App:**
+1. Download a raw database (e.g., Westminster Leningrad Codex XML).
+2. Write a script (Node.js/Python) that iterates through all chapters and verses.
+3. For each word, apply `removeNiqqud()` to the surface text property.
+4. Save the result as a large array of objects (or multiple JSON files) inside your new application's data folder.
+
 ## 💻 Run Locally
 
 1. **Clone & Install:**
