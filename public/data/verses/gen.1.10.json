@@ -185,10 +185,10 @@
             "morph": "V-Qal-Wayyq-3ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "E",
-            "enLiteralWord": "And",
+            "ptLiteralWord": "E chamou",
+            "enLiteralWord": "And he called",
             "explanation": "E chamou",
-            "explanationEn": "E chamou"
+            "explanationEn": "And he called"
         },
         {
             "id": "gen.1.10.h2",
@@ -202,10 +202,10 @@
             "morph": "N-mp",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "chamou",
+            "ptLiteralWord": "Deus",
             "enLiteralWord": "God",
             "explanation": "Deus (plural majestático)",
-            "explanationEn": "Deus (plural majestático)"
+            "explanationEn": "God (majestic plural)"
         },
         {
             "id": "gen.1.10.h3",
@@ -214,16 +214,16 @@
             "langEn": "Hebrew",
             "surface": "לַיַּבָּשָׁה",
             "transliteration": "layabashah",
-            "lemma": "לַיַּבָּשָׁה",
-            "strong": "H6731",
-            "bdb": "to call, to name",
-            "morph": "Subj + Verbo",
+            "lemma": "יַבָּשָׁה",
+            "strong": "H3004",
+            "bdb": "dry land, dry ground",
+            "morph": "Prep-l | Art | N-fs",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "Deus",
-            "enLiteralWord": "called",
-            "explanation": "Deus / O Criador",
-            "explanationEn": "Deus / O Criador"
+            "ptLiteralWord": "à porção seca",
+            "enLiteralWord": "to the dry land",
+            "explanation": "À porção seca / Ao seco",
+            "explanationEn": "To the dry land"
         },
         {
             "id": "gen.1.10.h4",
@@ -235,13 +235,13 @@
             "lemma": "אֶרֶץ",
             "strong": "H776",
             "bdb": "earth, land",
-            "morph": "Art + Subst",
+            "morph": "N-fs",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "à",
-            "enLiteralWord": "the",
+            "ptLiteralWord": "terra;",
+            "enLiteralWord": "earth;",
             "explanation": "Terra",
-            "explanationEn": "Terra"
+            "explanationEn": "Earth / Land"
         },
         {
             "id": "gen.1.10.h5",
@@ -251,15 +251,15 @@
             "surface": "וּלְמִקְוֵה",
             "transliteration": "ulemikveh",
             "lemma": "מִקְוֶה",
-            "strong": "H7200",
-            "bdb": "to see, to perceive",
-            "morph": "Conj + Verbo",
+            "strong": "H4723",
+            "bdb": "gathering, collected mass",
+            "morph": "Conj-w | Prep-l | N-msc",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "porção",
-            "enLiteralWord": "dry",
-            "explanation": "E ao ajuntamento",
-            "explanationEn": "E ao ajuntamento"
+            "ptLiteralWord": "e ao ajuntamento",
+            "enLiteralWord": "and to the gathering",
+            "explanation": "E à coleção / ajuntamento",
+            "explanationEn": "And to the gathering"
         },
         {
             "id": "gen.1.10.h6",
@@ -268,16 +268,16 @@
             "langEn": "Hebrew",
             "surface": "הַמַּיִם",
             "transliteration": "hamayim",
-            "lemma": "הַמַּיִם",
-            "strong": "H4723",
-            "bdb": "dry, dry land",
-            "morph": "Subst",
+            "lemma": "מַיִם",
+            "strong": "H4325",
+            "bdb": "water, waters",
+            "morph": "Art | N-mp",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "seca",
-            "enLiteralWord": "land",
-            "explanation": "Terra / Porção Seca",
-            "explanationEn": "Terra / Porção Seca"
+            "ptLiteralWord": "das águas",
+            "enLiteralWord": "of the waters",
+            "explanation": "As águas",
+            "explanationEn": "The waters"
         },
         {
             "id": "gen.1.10.h7",
@@ -292,10 +292,10 @@
             "morph": "V-Qal-Perf-3ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "terra;",
-            "enLiteralWord": "earth;",
-            "explanation": "Chamou",
-            "explanationEn": "Chamou"
+            "ptLiteralWord": "chamou",
+            "enLiteralWord": "he called",
+            "explanation": "Ele chamou",
+            "explanationEn": "He called"
         },
         {
             "id": "gen.1.10.h8",
@@ -306,14 +306,14 @@
             "transliteration": "yamim",
             "lemma": "יָם",
             "strong": "H3220",
-            "bdb": "sea, seas",
-            "morph": "Art + Subst",
+            "bdb": "sea",
+            "morph": "N-mp",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "e",
-            "enLiteralWord": "and",
+            "ptLiteralWord": "mares;",
+            "enLiteralWord": "seas;",
             "explanation": "Mares",
-            "explanationEn": "Mares"
+            "explanationEn": "Seas"
         },
         {
             "id": "gen.1.10.h9",
@@ -324,13 +324,14 @@
             "transliteration": "vayar",
             "lemma": "רָאָה",
             "strong": "H7200",
+            "bdb": "to see",
             "morph": "V-Qal-Wayyq-3ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "ao",
-            "enLiteralWord": "the",
+            "ptLiteralWord": "e viu",
+            "enLiteralWord": "and he saw",
             "explanation": "E viu",
-            "explanationEn": "E viu"
+            "explanationEn": "And he saw"
         },
         {
             "id": "gen.1.10.h10",
@@ -344,10 +345,10 @@
             "morph": "N-mp",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "ajuntamento",
-            "enLiteralWord": "gathering",
+            "ptLiteralWord": "Deus",
+            "enLiteralWord": "God",
             "explanation": "Deus (plural majestático)",
-            "explanationEn": "Deus (plural majestático)"
+            "explanationEn": "God (majestic plural)"
         },
         {
             "id": "gen.1.10.h11",
@@ -358,14 +359,14 @@
             "transliteration": "ki",
             "lemma": "כִּי",
             "strong": "H3588",
-            "bdb": "that, which",
+            "bdb": "that, because",
             "morph": "Conj",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "das",
-            "enLiteralWord": "together",
+            "ptLiteralWord": "que era",
+            "enLiteralWord": "that it was",
             "explanation": "Que / Porque",
-            "explanationEn": "Que / Porque"
+            "explanationEn": "That / Because"
         },
         {
             "id": "gen.1.10.h12",
@@ -380,10 +381,10 @@
             "morph": "Adj-ms",
             "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
             "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-            "ptLiteralWord": "águas",
-            "enLiteralWord": "of",
+            "ptLiteralWord": "bom.",
+            "enLiteralWord": "good.",
             "explanation": "Bom",
-            "explanationEn": "Bom"
+            "explanationEn": "Good"
         },
         {
             "id": "gen.1.10.a1",

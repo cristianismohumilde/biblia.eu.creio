@@ -233,7 +233,19 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
         </section>
 
         <section className="card" id="tabela-interlinear">
-          <h2>{t.detailedTable}</h2>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '1rem' }}>
+            <h2 style={{ margin: 0 }}>{t.detailedTable}</h2>
+            <div style={{ display: 'flex', gap: '0.5rem' }}>
+              {parseInt(verse) > 1 && (
+                <Link href={`/${lang}/interlinear/${manuscript}/${book}/${chapter}/${parseInt(verse) - 1}`} className="support-cta" style={{ padding: '0.4rem 0.8rem', fontSize: '0.9rem' }}>
+                  ⬅ {lang === 'en' ? 'Previous' : 'Anterior'}
+                </Link>
+              )}
+              <Link href={`/${lang}/interlinear/${manuscript}/${book}/${chapter}/${parseInt(verse) + 1}`} className="support-cta" style={{ padding: '0.4rem 0.8rem', fontSize: '0.9rem' }}>
+                {lang === 'en' ? 'Next' : 'Próximo'} ➡
+              </Link>
+            </div>
+          </div>
           <label className="interlinear-filter">
             {t.searchPlaceholder}
             <input 
