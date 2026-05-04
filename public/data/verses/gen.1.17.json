@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -1415,22 +1415,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיִּתֵּן אֹתָם אֱלֹהִים בִּרְקִיעַ הַשָּׁמַיִם לְהָאִיר עַל הָאָרֶץ",
-            "transliteration": "Vayiten otam Elohim birkiya hashamayim leha'ir al ha'aretz",
-            "literalPt": "E Deus os pôs no firmamento do céu para alumiar a terra,",
-            "literalEn": "And God set them in the firmament of the heaven to give light upon the earth,"
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex",
-            "text": "וַיִּתֵּן אֹתָם אֱלֹהִים בִּרְקִיעַ הַשָּׁמַיִם לְהָאִיר עַל הָאָרֶץ",
-            "transliteration": "Vayiten otam Elohim birkiya hashamayim leha'ir al ha'aretz",
-            "literalPt": "E Deus os pôs no firmamento do céu para alumiar a terra,",
-            "literalEn": "And God set them in the firmament of the heaven to give light upon the earth,"
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls",
             "text": "וַיִּתֵּן אֹתָם אֱלֹהִים בִּרְקִיעַ הַשָּׁמַיִם לְהָאִיר עַל הָאָרֶץ",
             "transliteration": "Vayiten otam Elohim birkiya hashamayim leha'ir al ha'aretz",
             "literalPt": "E Deus os pôs no firmamento do céu para alumiar a terra,",

@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -2707,22 +2707,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ וְעֵץ עֹשֶׂה פְּרִי אֲשֶׁר זַרְעוֹ בוֹ לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי טוֹב",
-            "transliteration": "Vatotze ha'aretz deshe esev mazria zera leminehu ve'etz oseh peri asher zar'o vo leminehu vayar Elohim ki tov",
-            "literalPt": "E a terra produziu relva, ervas que davam semente segundo a sua espécie, e árvores que davam fruto, cuja semente estava nelas, segundo a sua espécie; e viu Deus que era bom.",
-            "literalEn": "And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex",
-            "text": "וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ וְעֵץ עֹשֶׂה פְּרִי אֲשֶׁר זַרְעוֹ בוֹ לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי טוֹב",
-            "transliteration": "Vatotze ha'aretz deshe esev mazria zera leminehu ve'etz oseh peri asher zar'o vo leminehu vayar Elohim ki tov",
-            "literalPt": "E a terra produziu relva, ervas que davam semente segundo a sua espécie, e árvores que davam fruto, cuja semente estava nelas, segundo a sua espécie; e viu Deus que era bom.",
-            "literalEn": "And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls",
             "text": "וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ וְעֵץ עֹשֶׂה פְּרִי אֲשֶׁר זַרְעוֹ בוֹ לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי טוֹב",
             "transliteration": "Vatotze ha'aretz deshe esev mazria zera leminehu ve'etz oseh peri asher zar'o vo leminehu vayar Elohim ki tov",
             "literalPt": "E a terra produziu relva, ervas que davam semente segundo a sua espécie, e árvores que davam fruto, cuja semente estava nelas, segundo a sua espécie; e viu Deus que era bom.",

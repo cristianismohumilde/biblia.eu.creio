@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -1109,22 +1109,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם חֲמִישִׁי",
-            "transliteration": "Vayehi erev vayehi voker yom chamishi",
-            "literalPt": "E houve tarde e houve manhã, dia quinto.",
-            "literalEn": "And the evening and the morning were the fifth day."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex",
-            "text": "וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם חֲמִישִׁי",
-            "transliteration": "Vayehi erev vayehi voker yom chamishi",
-            "literalPt": "E houve tarde e houve manhã, dia quinto.",
-            "literalEn": "And the evening and the morning were the fifth day."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls",
             "text": "וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם חֲמִישִׁי",
             "transliteration": "Vayehi erev vayehi voker yom chamishi",
             "literalPt": "E houve tarde e houve manhã, dia quinto.",

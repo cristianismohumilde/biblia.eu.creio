@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -87,22 +87,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיַּעַשׂ אֱלֹהִים אֶת הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַיְהִי כֵן",
-            "transliteration": "Vayaas Elohim et harakiya vayavdel bein hamayim asher mitachat larakia uvein hamayim asher meal larakia vayehi khen",
-            "literalPt": "E fez Deus o firmamento, e fez separação entre as águas que estavam debaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",
-            "literalEn": "And God made the firmament, and separated between the waters which were under the firmament and the waters which were above the firmament; and it was so."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex (A)",
-            "text": "וַיַּעַשׂ אֱלֹהִים אֶת הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַיְהִי כֵן",
-            "transliteration": "Vayaas Elohim et harakiya vayavdel bein hamayim asher mitachat larakia uvein hamayim asher meal larakia vayehi khen",
-            "literalPt": "E fez Deus o firmamento, e fez separação entre as águas que estavam debaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",
-            "literalEn": "And God made the firmament, and separated between the waters which were under the firmament and the waters which were above the firmament; and it was so."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
             "text": "וַיַּעַשׂ אֱלֹהִים אֶת הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַיְהִי כֵן",
             "transliteration": "Vayaas Elohim et harakiya vayavdel bein hamayim asher mitachat larakia uvein hamayim asher meal larakia vayehi khen",
             "literalPt": "E fez Deus o firmamento, e fez separação entre as águas que estavam debaixo do firmamento e as águas que estavam acima do firmamento; e assim foi.",

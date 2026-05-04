@@ -3,7 +3,7 @@ import InterlinearClient from "@/app/components/InterlinearClient";
 export async function generateStaticParams() {
   const langs = ["pt", "en"];
   const manuscripts = [
-    "b19a", "aleppo", "qumran", "lxx", "byzantine", 
+    "b19a", "lxx", "byzantine", 
     "targum", "vulgate", "syriac", "geez", "coptic", "armenian"
   ];
   

@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -87,22 +87,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיִּקְרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם שֵׁנִי",
-            "transliteration": "Vayikra Elohim larakia shamayim vayehi erev vayehi voker yom sheni",
-            "literalPt": "E chamou Deus ao firmamento céus; e houve tarde e houve manhã, dia segundo.",
-            "literalEn": "And God called the firmament heaven; and there was evening and there was morning, a second day."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex (A)",
-            "text": "וַיִּקְרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם שֵׁנִי",
-            "transliteration": "Vayikra Elohim larakia shamayim vayehi erev vayehi voker yom sheni",
-            "literalPt": "E chamou Deus ao firmamento céus; e houve tarde e houve manhã, dia segundo.",
-            "literalEn": "And God called the firmament heaven; and there was evening and there was morning, a second day."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
             "text": "וַיִּקְרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם שֵׁנִי",
             "transliteration": "Vayikra Elohim larakia shamayim vayehi erev vayehi voker yom sheni",
             "literalPt": "E chamou Deus ao firmamento céus; e houve tarde e houve manhã, dia segundo.",

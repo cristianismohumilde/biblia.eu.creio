@@ -5,7 +5,7 @@ import path from 'path';
 
 export async function generateStaticParams() {
   const langs = ["pt", "en"];
-  const manuscripts = ["b19a", "aleppo", "qumran", "lxx", "byzantine", "targum", "vulgate", "syriac", "geez", "coptic", "armenian"];
+  const manuscripts = ["b19a", "lxx", "byzantine", "targum", "vulgate", "syriac", "geez", "coptic", "armenian"];
   
   const versesDir = path.join(process.cwd(), 'public', 'data', 'verses');
   let verses = [];

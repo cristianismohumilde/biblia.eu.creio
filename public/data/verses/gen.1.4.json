@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -87,22 +87,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
-            "transliteration": "Vayar Elohim et haor ki tov vayavdel Elohim bein haor uvein hachoshek",
-            "literalPt": "E viu Deus a luz, que era boa; e fez separação Deus entre a luz e as trevas.",
-            "literalEn": "And God saw the light, that it was good; and God separated between the light and the darkness."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex (A)",
-            "text": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
-            "transliteration": "Vayar Elohim et haor ki tov vayavdel Elohim bein haor uvein hachoshek",
-            "literalPt": "E viu Deus a luz, que era boa; e fez separação Deus entre a luz e as trevas.",
-            "literalEn": "And God saw the light, that it was good; and God separated between the light and the darkness."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
             "text": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
             "transliteration": "Vayar Elohim et haor ki tov vayavdel Elohim bein haor uvein hachoshek",
             "literalPt": "E viu Deus a luz, que era boa; e fez separação Deus entre a luz e as trevas.",

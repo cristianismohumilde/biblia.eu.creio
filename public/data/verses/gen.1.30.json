@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -3421,22 +3421,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וּלְכָל חַיַּת הָאָרֶץ וּלְכָל עוֹף הַשָּׁמַיִם וּלְכֹל רוֹמֵשׂ עַל הָאָרֶץ אֲשֶׁר בּוֹ נֶפֶשׁ חַיָּה אֶת כָּל יֶרֶק עֵשֶׂב לְאָכְלָה וַיְהִי כֵן",
-            "transliteration": "Ulechol chayat ha'aretz ulechol of hashamayim ulechol romes al ha'aretz asher bo nefesh chayah et kol yerek esev le'ochlah vayehi chen",
-            "literalPt": "E a todo o animal da terra, e a toda a ave dos céus, e a todo o réptil da terra, em que há alma vivente, toda a erva verde será para mantimento; e assim foi.",
-            "literalEn": "And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for meat: and it was so."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex",
-            "text": "וּלְכָל חַיַּת הָאָרֶץ וּלְכָל עוֹף הַשָּׁמַיִם וּלְכֹל רוֹמֵשׂ עַל הָאָרֶץ אֲשֶׁר בּוֹ נֶפֶשׁ חַיָּה אֶת כָּל יֶרֶק עֵשֶׂב לְאָכְלָה וַיְהִי כֵן",
-            "transliteration": "Ulechol chayat ha'aretz ulechol of hashamayim ulechol romes al ha'aretz asher bo nefesh chayah et kol yerek esev le'ochlah vayehi chen",
-            "literalPt": "E a todo o animal da terra, e a toda a ave dos céus, e a todo o réptil da terra, em que há alma vivente, toda a erva verde será para mantimento; e assim foi.",
-            "literalEn": "And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for meat: and it was so."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls",
             "text": "וּלְכָל חַיַּת הָאָרֶץ וּלְכָל עוֹף הַשָּׁמַיִם וּלְכֹל רוֹמֵשׂ עַל הָאָרֶץ אֲשֶׁר בּוֹ נֶפֶשׁ חַיָּה אֶת כָּל יֶרֶק עֵשֶׂב לְאָכְלָה וַיְהִי כֵן",
             "transliteration": "Ulechol chayat ha'aretz ulechol of hashamayim ulechol romes al ha'aretz asher bo nefesh chayah et kol yerek esev le'ochlah vayehi chen",
             "literalPt": "E a todo o animal da terra, e a toda a ave dos céus, e a todo o réptil da terra, em que há alma vivente, toda a erva verde será para mantimento; e assim foi.",

@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -2979,22 +2979,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיֹּאמֶר אֱלֹהִים תַּדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ בוֹ עַל הָאָרֶץ וַיְהִי כֵן",
-            "transliteration": "Vayomer Elohim tadshe ha'aretz deshe esev mazria zera etz peri oseh peri lemino asher zar'o vo al ha'aretz vayehi chen",
-            "literalPt": "E disse Deus: Produza a terra relva, ervas que deem semente, e árvores frutíferas que deem fruto segundo a sua espécie, cuja semente esteja nelas sobre a terra; e assim foi.",
-            "literalEn": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex",
-            "text": "וַיֹּאמֶר אֱלֹהִים תַּדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ בוֹ עַל הָאָרֶץ וַיְהִי כֵן",
-            "transliteration": "Vayomer Elohim tadshe ha'aretz deshe esev mazria zera etz peri oseh peri lemino asher zar'o vo al ha'aretz vayehi chen",
-            "literalPt": "E disse Deus: Produza a terra relva, ervas que deem semente, e árvores frutíferas que deem fruto segundo a sua espécie, cuja semente esteja nelas sobre a terra; e assim foi.",
-            "literalEn": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls",
             "text": "וַיֹּאמֶר אֱלֹהִים תַּדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ בוֹ עַל הָאָרֶץ וַיְהִי כֵן",
             "transliteration": "Vayomer Elohim tadshe ha'aretz deshe esev mazria zera etz peri oseh peri lemino asher zar'o vo al ha'aretz vayehi chen",
             "literalPt": "E disse Deus: Produza a terra relva, ervas que deem semente, e árvores frutíferas que deem fruto segundo a sua espécie, cuja semente esteja nelas sobre a terra; e assim foi.",

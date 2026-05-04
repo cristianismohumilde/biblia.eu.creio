@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -2639,22 +2639,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיֹּאמֶר אֱלֹהִים יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִים",
-            "transliteration": "Vayomer Elohim yehi me'orot birkiya hashamayim lehavdil bein hayom uvein halaylah vehayu le'otot ulemo'adim uleyamim veshanim",
-            "literalPt": "E disse Deus: Haja luminares no firmamento do céu, para fazerem separação entre o dia e a noite; e sejam eles para sinais e para tempos determinados e para dias e anos.",
-            "literalEn": "And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:"
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex",
-            "text": "וַיֹּאמֶר אֱלֹהִים יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִים",
-            "transliteration": "Vayomer Elohim yehi me'orot birkiya hashamayim lehavdil bein hayom uvein halaylah vehayu le'otot ulemo'adim uleyamim veshanim",
-            "literalPt": "E disse Deus: Haja luminares no firmamento do céu, para fazerem separação entre o dia e a noite; e sejam eles para sinais e para tempos determinados e para dias e anos.",
-            "literalEn": "And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:"
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls",
             "text": "וַיֹּאמֶר אֱלֹהִים יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִים",
             "transliteration": "Vayomer Elohim yehi me'orot birkiya hashamayim lehavdil bein hayom uvein halaylah vehayu le'otot ulemo'adim uleyamim veshanim",
             "literalPt": "E disse Deus: Haja luminares no firmamento do céu, para fazerem separação entre o dia e a noite; e sejam eles para sinais e para tempos determinados e para dias e anos.",

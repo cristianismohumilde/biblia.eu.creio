@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -87,22 +87,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיֹּ֣אמֶר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּתֹ֣וךְ הַמָּ֑יִם וִיהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָמָֽיִם׃",
-            "transliteration": "Vayomer Elohim yehi raqi'a betokh ham-mayim vihi mavdil beyn mayim la-mayim",
-            "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e separe as águas das águas.",
-            "literalEn": "And God said, Let there be a firmament in the midst of the waters, and let it separate the waters from the waters."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex (A)",
-            "text": "וַיֹּ֣אמֶר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּתֹ֣וךְ הַמָּ֑יִם וִיהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָמָֽיִם׃",
-            "transliteration": "Vayomer Elohim yehi raqi'a betokh ham-mayim vihi mavdil beyn mayim la-mayim",
-            "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e separe as águas das águas.",
-            "literalEn": "And God said, Let there be a firmament in the midst of the waters, and let it separate the waters from the waters."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
             "text": "וַיֹּ֣אמֶר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּתֹ֣וךְ הַמָּ֑יִם וִיהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָמָֽיִם׃",
             "transliteration": "Vayomer Elohim yehi raqi'a betokh ham-mayim vihi mavdil beyn mayim la-mayim",
             "literalPt": "E disse Deus: Haja um firmamento no meio das águas, e separe as águas das águas.",

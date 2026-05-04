@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -87,22 +87,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַיְהִי כֵן",
-            "transliteration": "Vayomer Elohim yikavu hamayim mitachat hashamayim el makom echad veteiraeh hayabashah vayehi khen",
-            "literalPt": "E disse Deus: Ajuntem-se as águas debaixo dos céus num só lugar, e apareça a porção seca; e assim foi.",
-            "literalEn": "And God said, Let the waters under the heavens be gathered together unto one place, and let the dry land appear; and it was so."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex (A)",
-            "text": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַיְהִי כֵן",
-            "transliteration": "Vayomer Elohim yikavu hamayim mitachat hashamayim el makom echad veteiraeh hayabashah vayehi khen",
-            "literalPt": "E disse Deus: Ajuntem-se as águas debaixo dos céus num só lugar, e apareça a porção seca; e assim foi.",
-            "literalEn": "And God said, Let the waters under the heavens be gathered together unto one place, and let the dry land appear; and it was so."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
             "text": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַיְהִי כֵן",
             "transliteration": "Vayomer Elohim yikavu hamayim mitachat hashamayim el makom echad veteiraeh hayabashah vayehi khen",
             "literalPt": "E disse Deus: Ajuntem-se as águas debaixo dos céus num só lugar, e apareça a porção seca; e assim foi.",

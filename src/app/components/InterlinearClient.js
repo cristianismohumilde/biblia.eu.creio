@@ -11,8 +11,6 @@ import LanguageSwitcher from "./LanguageSwitcher";
 const manuscriptLabels = {
   pt: {
     b19a: "Codex Leningradensis (B19A)",
-    aleppo: "Aleppo Codex (A)",
-    qumran: "Qumran (4QGen)",
     lxx: "Septuaginta (LXX)",
     byzantine: "Tradição Bizantina",
     targum: "Targum Onkelos",
@@ -24,8 +22,6 @@ const manuscriptLabels = {
   },
   en: {
     b19a: "Codex Leningradensis (B19A)",
-    aleppo: "Aleppo Codex (A)",
-    qumran: "Qumran (4QGen)",
     lxx: "Septuagint (LXX)",
     byzantine: "Byzantine Tradition",
     targum: "Targum Onkelos",
@@ -64,8 +60,6 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
 
   const langMap = {
     b19a: "hebrew",
-    aleppo: "hebrew",
-    qumran: "hebrew",
     lxx: "greek",
     byzantine: "greek",
     targum: "aramaic",

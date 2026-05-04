@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -1942,22 +1942,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיִּבְרָא אֱלֹהִים אֶת הָאָדָם בְּצַלְמוֹ בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ זָכָר וּנְקֵבָה בָּרָא אֹתָם",
-            "transliteration": "Vayivra Elohim et ha'adam betzalmo betzelem Elohim bara oto zachar unekevah bara otam",
-            "literalPt": "E criou Deus o homem à sua imagem; à imagem de Deus o criou; homem e mulher os criou.",
-            "literalEn": "So God created man in his own image, in the image of God created he him; male and female created he them."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex",
-            "text": "וַיִּבְרָא אֱלֹהִים אֶת הָאָדָם בְּצַלְמוֹ בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ זָכָר וּנְקֵבָה בָּרָא אֹתָם",
-            "transliteration": "Vayivra Elohim et ha'adam betzalmo betzelem Elohim bara oto zachar unekevah bara otam",
-            "literalPt": "E criou Deus o homem à sua imagem; à imagem de Deus o criou; homem e mulher os criou.",
-            "literalEn": "So God created man in his own image, in the image of God created he him; male and female created he them."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls",
             "text": "וַיִּבְרָא אֱלֹהִים אֶת הָאָדָם בְּצַלְמוֹ בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ זָכָר וּנְקֵבָה בָּרָא אֹתָם",
             "transliteration": "Vayivra Elohim et ha'adam betzalmo betzelem Elohim bara oto zachar unekevah bara otam",
             "literalPt": "E criou Deus o homem à sua imagem; à imagem de Deus o criou; homem e mulher os criou.",

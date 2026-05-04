@@ -13,7 +13,7 @@ Este projeto deixou de ser um MVP técnico e agora é a versão completa em expa
 O projeto utiliza uma combinação de dados em domínio público e curadoria original. Abaixo, o detalhamento por componente das tabelas interlineares:
 
 ### 1. Textos Fonte (Manuscritos)
-- **Hebraico:** Codex Leningradensis e Aleppo Codex.
+- **Hebraico:** Codex Leningradensis.
 - **Grego:** Septuaginta (LXX) e Texto Bizantino.
 - **Outros:** Vulgata (Latim), Peshitta (Siríaco), Copta, Armênio e Ge'ez.
 - **Status:** **Domínio Público.** As transcrições digitais utilizadas são baseadas em fontes abertas (como *Open Scriptures* e projetos acadêmicos de acesso livre).

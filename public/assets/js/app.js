@@ -209,41 +209,7 @@ const isHebrewLeningradensisWitness = (witness) => {
   return normalizedLabel.includes("leningradensis") || normalizedLabel.includes("b19a");
 };
 
-const buildHebrewAleppoInterlinearHref = (ref) => {
-  const params = new URLSearchParams({
-    book: String(ref.book || "gen"),
-    chapter: String(ref.chapter || 1),
-    verse: String(ref.verse || 1),
-  });
-  return `interlinear-hebraico-aleppo.html?${params.toString()}`;
-};
 
-const isHebrewAleppoWitness = (witness) => {
-  if (!witness || typeof witness !== "object") {
-    return false;
-  }
-  if (witness.id === "aleppo") return true;
-  const normalizedLabel = String(witness.label || "").toLowerCase();
-  return normalizedLabel.includes("aleppo") || normalizedLabel.includes("codex a");
-};
-
-const buildHebrewQumranInterlinearHref = (ref) => {
-  const params = new URLSearchParams({
-    book: String(ref.book || "gen"),
-    chapter: String(ref.chapter || 1),
-    verse: String(ref.verse || 1),
-  });
-  return `interlinear-hebraico-qumran.html?${params.toString()}`;
-};
-
-const isHebrewQumranWitness = (witness) => {
-  if (!witness || typeof witness !== "object") {
-    return false;
-  }
-  if (witness.id === "dead-sea-scrolls" || witness.id === "qumran") return true;
-  const normalizedLabel = String(witness.label || "").toLowerCase();
-  return normalizedLabel.includes("qumran") || normalizedLabel.includes("dead sea") || normalizedLabel.includes("4qgen");
-};
 
 const buildGreekInterlinearHref = (ref) => {
   const params = new URLSearchParams({
@@ -479,10 +445,6 @@ const renderLanguageWitnesses = ({
       let href = null;
       if (isHebrewLeningradensisWitness(witness)) {
         href = buildHebrewInterlinearHref(currentRef);
-      } else if (isHebrewAleppoWitness(witness)) {
-        href = buildHebrewAleppoInterlinearHref(currentRef);
-      } else if (isHebrewQumranWitness(witness)) {
-        href = buildHebrewQumranInterlinearHref(currentRef);
       }
 
       if (href) {

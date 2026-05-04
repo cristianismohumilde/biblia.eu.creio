@@ -5,9 +5,7 @@ const RTL_LANGS = new Set(["hebrew", "aramaic", "syriac"]);
 
 const manuscriptMap = {
   hebrew: [
-    { id: "leningradensis", key: "b19a", label: "Codex Leningradensis (B19A)" },
-    { id: "aleppo", key: "aleppo", label: "Aleppo Codex (A)" },
-    { id: "dead-sea-scrolls", key: "qumran", label: "Qumran (4QGen)" }
+    { id: "leningradensis", key: "b19a", label: "Codex Leningradensis (B19A)" }
   ],
   greek: [
     { id: "lxx", key: "lxx", label: "Septuaginta (LXX)" },
@@ -93,8 +91,6 @@ export default function WitnessCards({ lang, data, manuscript }) {
                   if (lo.code === "greek" && m.key === "lxx") return true;
                 }
                 if (m.key === "b19a" && label.includes("leningradensis")) return true;
-                if (m.key === "aleppo" && label.includes("codex a")) return true;
-                if (m.key === "qumran" && (label.includes("dead sea") || label.includes("4qgen"))) return true;
                 if (m.key === "lxx" && label.includes("septuaginta")) return true;
                 if (m.key === "byzantine" && (label.includes("bizantina") || label.includes("byz"))) return true;
                 if (m.key === "targum" && label.includes("onkelos")) return true;

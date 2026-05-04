@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran (4QGen)",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts (4QGen)",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO), tradições targúmicas (comparação)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO), targumic traditions (comparison)",
         "greek": "Grego: Septuaginta (LXX), tradição bizantina (Byz/RP) (comparação)",
@@ -43,20 +43,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־קַיִן",
-            "transliteration": "Vehaadam yada et-havah ishto vatahar vateled et-qayin",
-            "literalPt": "O homem conheceu Eva, sua mulher, e ela gerou Caim."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex (A)",
-            "text": "וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־קַיִן",
-            "transliteration": "Vehaadam yada et-havah ishto vatahar vateled et-qayin",
-            "literalPt": "O homem conheceu Eva, sua mulher, e ela gerou Caim."
-        },
-        {
-            "id": "dead-sea-scrolls",
-            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
             "text": "וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־קַיִן",
             "transliteration": "Vehaadam yada et-havah ishto vatahar vateled et-qayin",
             "literalPt": "O homem conheceu Eva, sua mulher, e ela gerou Caim."

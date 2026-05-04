@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -87,22 +87,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
-            "transliteration": "Vayikra Elohim laor yom velachoshek qara laylah vayehi erev vayehi voker yom echad",
-            "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "literalEn": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex (A)",
-            "text": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
-            "transliteration": "Vayikra Elohim laor yom velachoshek qara laylah vayehi erev vayehi voker yom echad",
-            "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",
-            "literalEn": "And God called to the light day, and to the darkness He called night; and there was evening and there was morning, day one."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls (Qumran, 4QGen)",
             "text": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
             "transliteration": "Vayikra Elohim laor yom velachoshek qara laylah vayehi erev vayehi voker yom echad",
             "literalPt": "E chamou Deus à luz dia, e às trevas chamou noite; e houve tarde e houve manhã, dia um.",

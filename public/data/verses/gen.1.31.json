@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -2384,22 +2384,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיַּרְא אֱלֹהִים אֶת כָּל אֲשֶׁר עָשָׂה וְהִנֵּה טוֹב מְאֹד וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם הַשִּׁשִּׁי",
-            "transliteration": "Vayar Elohim et kol asher asah vehineh tov me'od vayehi erev vayehi voker yom hashishi",
-            "literalPt": "E viu Deus tudo quanto tinha feito, e eis que era muito bom; e houve tarde e houve manhã, dia sexto.",
-            "literalEn": "And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex",
-            "text": "וַיַּרְא אֱלֹהִים אֶת כָּל אֲשֶׁר עָשָׂה וְהִנֵּה טוֹב מְאֹד וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם הַשִּׁשִּׁי",
-            "transliteration": "Vayar Elohim et kol asher asah vehineh tov me'od vayehi erev vayehi voker yom hashishi",
-            "literalPt": "E viu Deus tudo quanto tinha feito, e eis que era muito bom; e houve tarde e houve manhã, dia sexto.",
-            "literalEn": "And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls",
             "text": "וַיַּרְא אֱלֹהִים אֶת כָּל אֲשֶׁר עָשָׂה וְהִנֵּה טוֹב מְאֹד וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם הַשִּׁשִּׁי",
             "transliteration": "Vayar Elohim et kol asher asah vehineh tov me'od vayehi erev vayehi voker yom hashishi",
             "literalPt": "E viu Deus tudo quanto tinha feito, e eis que era muito bom; e houve tarde e houve manhã, dia sexto.",

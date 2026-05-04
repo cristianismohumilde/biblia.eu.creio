@@ -12,8 +12,8 @@
         "baseTextEn": "Primary Hebrew base with multi-tradition comparison"
     },
     "manuscripts": {
-        "hebrew": "Hebraico: Codex Leningradensis (B19A), Aleppo Codex (A) e manuscritos de Qumran",
-        "hebrewEn": "Hebrew: Codex Leningradensis (B19A), Aleppo Codex (A), and Qumran manuscripts",
+        "hebrew": "Hebraico: Codex Leningradensis (B19A)",
+        "hebrewEn": "Hebrew: Codex Leningradensis (B19A)",
         "aramaic": "Aramaico: Targum Onkelos (TO)",
         "aramaicEn": "Aramaic: Targum Onkelos (TO)",
         "greek": "Grego: Septuaginta (LXX) e tradição bizantina (Byz/RP) (comparação)",
@@ -2945,22 +2945,6 @@
         {
             "id": "leningradensis",
             "label": "Codex Leningradensis (B19A)",
-            "text": "וַיַּעַשׂ אֱלֹהִים אֶת חַיַּת הָאָרֶץ לְמִינָהּ וְאֶת הַבְּהֵמָה לְמִינָהּ וְאֵת כָּל רֶמֶשׂ הָאֲדָמָה לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי טוֹב",
-            "transliteration": "Vaya'as Elohim et chayat ha'aretz leminah ve'et habehemah leminah ve'et kol remes ha'adamah leminehu vayar Elohim ki tov",
-            "literalPt": "E fez Deus as feras da terra conforme a sua espécie, e o gado conforme a sua espécie, e todo o réptil da terra conforme a sua espécie; e viu Deus que era bom.",
-            "literalEn": "And God made the beast of the earth after his kind, and cattle after their kind, and every thing that creepeth upon the earth after his kind: and God saw that it was good."
-        },
-        {
-            "id": "aleppo",
-            "label": "Aleppo Codex",
-            "text": "וַיַּעַשׂ אֱלֹהִים אֶת חַיַּת הָאָרֶץ לְמִינָהּ וְאֶת הַבְּהֵמָה לְמִינָהּ וְאֵת כָּל רֶמֶשׂ הָאֲדָמָה לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי טוֹב",
-            "transliteration": "Vaya'as Elohim et chayat ha'aretz leminah ve'et habehemah leminah ve'et kol remes ha'adamah leminehu vayar Elohim ki tov",
-            "literalPt": "E fez Deus as feras da terra conforme a sua espécie, e o gado conforme a sua espécie, e todo o réptil da terra conforme a sua espécie; e viu Deus que era bom.",
-            "literalEn": "And God made the beast of the earth after his kind, and cattle after their kind, and every thing that creepeth upon the earth after his kind: and God saw that it was good."
-        },
-        {
-            "id": "qumran",
-            "label": "Dead Sea Scrolls",
             "text": "וַיַּעַשׂ אֱלֹהִים אֶת חַיַּת הָאָרֶץ לְמִינָהּ וְאֶת הַבְּהֵמָה לְמִינָהּ וְאֵת כָּל רֶמֶשׂ הָאֲדָמָה לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי טוֹב",
             "transliteration": "Vaya'as Elohim et chayat ha'aretz leminah ve'et habehemah leminah ve'et kol remes ha'adamah leminehu vayar Elohim ki tov",
             "literalPt": "E fez Deus as feras da terra conforme a sua espécie, e o gado conforme a sua espécie, e todo o réptil da terra conforme a sua espécie; e viu Deus que era bom.",
