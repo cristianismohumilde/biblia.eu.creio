@@ -127,8 +127,9 @@ export default function WitnessCards({ lang, data, manuscript }) {
                         marginTop: '0.2rem'
                       }}
                     >
-                      🔊
+                      🔊 {lang === 'pt' ? "OUVIR" : "LISTEN"}
                     </button>
+
                   </div>
 
                   <p className="text-witness-label">{t.transliteration}</p>

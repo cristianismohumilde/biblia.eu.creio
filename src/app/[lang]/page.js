@@ -70,9 +70,10 @@ export default function LangHomePage({ params }) {
           <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">
             {t.biblicalLanguages}
           </Link>
-          <Link href={`/${lang}/atualizacoes-e-novidades`}>
+          <Link href={`/${lang}/atualizacoes-e-novidades`} className="nav-updates">
             {t.updates}
           </Link>
+
           <Link href={`/${lang}/fontes`}>
             {t.sources}
           </Link>

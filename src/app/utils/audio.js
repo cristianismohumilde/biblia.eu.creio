@@ -14,7 +14,7 @@ export const handleSpeak = (text, langCode) => {
     pt: 'pt',
     en: 'en',
     syriac: 'ar',
-    aramaic: 'ar',
+    aramaic: 'he',
     geez: 'am', 
     coptic: 'el',
     armenian: 'hy'
@@ -22,22 +22,36 @@ export const handleSpeak = (text, langCode) => {
 
   const targetLang = voiceMap[langCode] || langCode;
 
-  // Limpeza básica do texto para evitar problemas na URL (limite de ~200 caracteres)
-  const cleanText = text.slice(0, 200).trim();
+  // 1. Limpeza do texto: remove sinais massoréticos e de cantilação (importante para o Hebraico)
+  // O motor do Google entende melhor o texto "limpo" (consonantal)
+  let cleanText = text;
+  if (targetLang === 'he' || langCode === 'hebrew') {
+    cleanText = text.replace(/[\u0591-\u05C7]/g, '');
+  }
+  cleanText = cleanText.slice(0, 250).trim();
 
-  // Tentativa 1: Google Translate TTS (Motor robusto)
-  // Usando 'client=gtx' que é mais estável para requisições diretas
-  const googleTtsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${targetLang}&client=gtx&total=1&idx=0&textlen=${cleanText.length}`;
+  // 2. Para qualquer áudio em andamento para evitar sobreposição
+  if (window._currentAudio) {
+    window._currentAudio.pause();
+    window._currentAudio.src = "";
+  }
+  if (window.speechSynthesis) {
+    window.speechSynthesis.cancel();
+  }
+
+  // 3. Tentativa 1: Google TTS com endpoint de alta compatibilidade
+  const googleTtsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${targetLang}&client=tw-ob&ttsspeed=1`;
   
-  console.log(`Tentando áudio para [${langCode}]: ${googleTtsUrl}`);
+  console.log(`🔊 Reproduzindo [${targetLang}]: ${cleanText.slice(0, 20)}...`);
 
-  const audio = new Audio(googleTtsUrl);
+  const audio = new Audio();
+  window._currentAudio = audio; // Salva globalmente para controle
+  audio.src = googleTtsUrl;
   
   audio.play().catch(err => {
-    console.error("Erro ao reproduzir áudio via Google:", err);
+    console.error("❌ Erro Google TTS:", err);
     
-    // Fallback: Web Speech API (Vozes locais do sistema)
-    console.log("Tentando fallback para vozes locais...");
+    // Fallback: Web Speech API (Vozes locais)
     const utterance = new SpeechSynthesisUtterance(cleanText);
     const bcp47Map = {
       he: 'he-IL', el: 'el-GR', la: 'la', pt: 'pt-BR', en: 'en-US', ar: 'ar-SY'
@@ -47,6 +61,7 @@ export const handleSpeak = (text, langCode) => {
     window.speechSynthesis.speak(utterance);
   });
 };
+
 
 
 
