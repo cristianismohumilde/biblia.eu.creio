@@ -15,9 +15,9 @@
     "lemma": "יְהֹוָה",
     "xlit": "Yᵉhôvâh",
     "enDefinition": "Jehovah, Jewish national name of God",
-    "ptLiteralWord": "Jehovah",
-    "explanation": "Jehovah, Jewish national name of God",
-    "needsReview": true
+    "ptLiteralWord": "O SENHOR",
+    "explanation": "YHWH — Nome próprio de Deus revelado a Moisés. Tradição massorética lê \"Adonai\"",
+    "needsReview": false
   },
   "H5921": {
     "rank": 3,
@@ -25,8 +25,8 @@
     "lemma": "עַל",
     "xlit": "ʻal",
     "enDefinition": "above, over, upon, or against (yet always in this last relation with a downward aspect) in a great variety of applications",
-    "ptLiteralWord": "sobre",
-    "explanation": "al — sobre, acima, em relação a",
+    "ptLiteralWord": "sobre/acima",
+    "explanation": "al — sobre, acima, contra, em relação a",
     "needsReview": false
   },
   "H413": {
@@ -46,7 +46,7 @@
     "xlit": "kôl",
     "enDefinition": "properly, the whole; hence, all, any or every (in the singular only, but often in a plural sense)",
     "ptLiteralWord": "todo/toda",
-    "explanation": "kol — todo, toda, qualquer, totalidade",
+    "explanation": "kol — todo, toda, qualquer, totalidade de algo",
     "needsReview": false
   },
   "H559": {
@@ -55,7 +55,7 @@
     "lemma": "אָמַר",
     "xlit": "ʼâmar",
     "enDefinition": "to say (used with great latitude)",
-    "ptLiteralWord": "disse",
+    "ptLiteralWord": "disse/falou",
     "explanation": "amar — dizer, falar, declarar, ordenar",
     "needsReview": false
   },
@@ -65,9 +65,9 @@
     "lemma": "לֹא",
     "xlit": "lôʼ",
     "enDefinition": "not (the simple or abs. negation); by implication, no; often used with other particles",
-    "ptLiteralWord": "not (the simple or abs. negation); by implication",
-    "explanation": "not (the simple or abs. negation); by implication, no; often used with other particles",
-    "needsReview": true
+    "ptLiteralWord": "não",
+    "explanation": "lo — negação absoluta em hebraico: não, nunca, jamais",
+    "needsReview": false
   },
   "H834": {
     "rank": 8,
@@ -75,8 +75,8 @@
     "lemma": "אֲשֶׁר",
     "xlit": "ʼăsher",
     "enDefinition": "who, which, what, that; also (as an adverb and a conjunction) when, where, how, because, in order that, etc.",
-    "ptLiteralWord": "que/cujo",
-    "explanation": "asher — pronome relativo: que, quem, o qual",
+    "ptLiteralWord": "que/o qual",
+    "explanation": "asher — pronome relativo: que, quem, o qual, cujo",
     "needsReview": false
   },
   "H1121": {
@@ -85,9 +85,9 @@
     "lemma": "בֵּן",
     "xlit": "bên",
     "enDefinition": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)",
-    "ptLiteralWord": "a son (as a builder of the family name)",
-    "explanation": "a son (as a builder of the family name), in the widest sense (of literal and figurative relationship, including grandson, subject, nation, quality or condition, etc., (like father or brother), etc.)",
-    "needsReview": true
+    "ptLiteralWord": "filho/filhos",
+    "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
+    "needsReview": false
   },
   "H3588": {
     "rank": 10,
@@ -95,8 +95,8 @@
     "lemma": "כִּי",
     "xlit": "kîy",
     "enDefinition": "(by implication) very widely used as a relative conjunction or adverb (as below); often largely modified by other particles annexed",
-    "ptLiteralWord": "que/pois",
-    "explanation": "ki — porque, pois, que (conjunção causal/explicativa)",
+    "ptLiteralWord": "porque/que/pois",
+    "explanation": "ki — conjunção causal e explicativa: porque, pois, que, quando",
     "needsReview": false
   },
   "H1961": {
@@ -105,8 +105,8 @@
     "lemma": "הָיָה",
     "xlit": "hâyâh",
     "enDefinition": "to exist, i.e. be or become, come to pass (always emphatic, and not a mere copula or auxiliary)",
-    "ptLiteralWord": "era/havia",
-    "explanation": "hayah — ser, estar, existir, tornar-se",
+    "ptLiteralWord": "era/foi/havia",
+    "explanation": "hayah — ser, existir, acontecer, tornar-se",
     "needsReview": false
   },
   "H6213": {
@@ -115,8 +115,8 @@
     "lemma": "עָשָׂה",
     "xlit": "ʻâsâh",
     "enDefinition": "to do or make, in the broadest sense and widest application",
-    "ptLiteralWord": "faz/fez",
-    "explanation": "asah — fazer, realizar, executar, produzir",
+    "ptLiteralWord": "fez/fazer",
+    "explanation": "asah — fazer, realizar, executar, praticar, produzir",
     "needsReview": false
   },
   "H430": {
@@ -126,7 +126,7 @@
     "xlit": "ʼĕlôhîym",
     "enDefinition": "gods in the ordinary sense; but specifically used (in the plural thus, especially with the article) of the supreme God; occasionally applied by way of deference to magistrates; and sometimes as a superlative",
     "ptLiteralWord": "Deus",
-    "explanation": "Elohim — nome hebraico de Deus, forma plural de majestade",
+    "explanation": "Elohim — nome hebraico de Deus. Plural de majestade. Denota o único Deus verdadeiro",
     "needsReview": false
   },
   "H935": {
@@ -135,9 +135,9 @@
     "lemma": "בּוֹא",
     "xlit": "bôwʼ",
     "enDefinition": "to go or come (in a wide variety of applications)",
-    "ptLiteralWord": "to go or come (in a wide variety of applications)",
-    "explanation": "to go or come (in a wide variety of applications)",
-    "needsReview": true
+    "ptLiteralWord": "veio/entrou/foi",
+    "explanation": "bo — vir, ir, entrar, chegar, avançar em direção a algo",
+    "needsReview": false
   },
   "H4428": {
     "rank": 15,
@@ -145,9 +145,9 @@
     "lemma": "מֶלֶךְ",
     "xlit": "melek",
     "enDefinition": "a king",
-    "ptLiteralWord": "a king",
-    "explanation": "a king",
-    "needsReview": true
+    "ptLiteralWord": "rei",
+    "explanation": "melek — rei, governante, soberano de um povo ou nação",
+    "needsReview": false
   },
   "H3478": {
     "rank": 16,
@@ -155,9 +155,9 @@
     "lemma": "יִשְׂרָאֵל",
     "xlit": "Yisrâʼêl",
     "enDefinition": "Jisrael, a symbolical name of Jacob; also (typically) of his posterity",
-    "ptLiteralWord": "Jisrael",
-    "explanation": "Jisrael, a symbolical name of Jacob; also (typically) of his posterity",
-    "needsReview": true
+    "ptLiteralWord": "Israel",
+    "explanation": "Yisrael — nome dado a Jacó (aquele que luta com Deus)",
+    "needsReview": false
   },
   "H776": {
     "rank": 17,
@@ -166,7 +166,7 @@
     "xlit": "ʼerets",
     "enDefinition": "the earth (at large, or partitively a land)",
     "ptLiteralWord": "terra",
-    "explanation": "eretz — terra, solo, país, região",
+    "explanation": "eretz — terra, solo, país, região, toda a terra",
     "needsReview": false
   },
   "H3117": {
@@ -176,7 +176,7 @@
     "xlit": "yôwm",
     "enDefinition": "a day (as the warm hours), whether literal (from sunrise to sunset, or from one sunset to the next), or figurative (a space of time defined by an associated term), (often used adverb)",
     "ptLiteralWord": "dia",
-    "explanation": "yom — dia, período de tempo, era",
+    "explanation": "yom — dia, período de luz, era, tempo específico",
     "needsReview": false
   },
   "H376": {
@@ -185,9 +185,9 @@
     "lemma": "אִישׁ",
     "xlit": "ʼîysh",
     "enDefinition": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)",
-    "ptLiteralWord": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)",
-    "explanation": "a man as an individual or a male person; often used as an adjunct to a more definite term (and in such cases frequently not expressed in translation)",
-    "needsReview": true
+    "ptLiteralWord": "homem/alguém",
+    "explanation": "ish — homem, varão, marido, indivíduo, alguém",
+    "needsReview": false
   },
   "H6440": {
     "rank": 20,
@@ -195,8 +195,8 @@
     "lemma": "פָּנִים",
     "xlit": "pânîym",
     "enDefinition": "the face (as the part that turns); used in a great variety of applications (literally and figuratively); also (with prepositional prefix) as a preposition (before, etc.)",
-    "ptLiteralWord": "face/superfície",
-    "explanation": "panim — face, superfície, presença",
+    "ptLiteralWord": "face/frente",
+    "explanation": "panim — face, presença, frente (sempre plural em hebraico)",
     "needsReview": false
   },
   "H1004": {
@@ -205,9 +205,9 @@
     "lemma": "בַּיִת",
     "xlit": "bayith",
     "enDefinition": "a house (in the greatest variation of applications, especially family, etc.)",
-    "ptLiteralWord": "a house (in the greatest variation of applications",
-    "explanation": "a house (in the greatest variation of applications, especially family, etc.)",
-    "needsReview": true
+    "ptLiteralWord": "casa/família",
+    "explanation": "bayit — casa, família, templo, dinastia",
+    "needsReview": false
   },
   "H5414": {
     "rank": 22,
@@ -215,9 +215,9 @@
     "lemma": "נָתַן",
     "xlit": "nâthan",
     "enDefinition": "to give, used with greatest latitude of application (put, make, etc.)",
-    "ptLiteralWord": "to give",
-    "explanation": "to give, used with greatest latitude of application (put, make, etc.)",
-    "needsReview": true
+    "ptLiteralWord": "deu/dar",
+    "explanation": "natan — dar, entregar, conceder, pôr, colocar",
+    "needsReview": false
   },
   "H1931": {
     "rank": 23,
@@ -235,9 +235,9 @@
     "lemma": "עַם",
     "xlit": "ʻam",
     "enDefinition": "a people (as a congregated unit); specifically, a tribe (as those of Israel); hence (collectively) troops or attendants; figuratively, a flock",
-    "ptLiteralWord": "a people (as a congregated unit); specifically",
-    "explanation": "a people (as a congregated unit); specifically, a tribe (as those of Israel); hence (collectively) troops or attendants; figuratively, a flock",
-    "needsReview": true
+    "ptLiteralWord": "povo/pessoas",
+    "explanation": "am — povo, nação, grupo de pessoas com identidade comum",
+    "needsReview": false
   },
   "H3027": {
     "rank": 25,
@@ -245,9 +245,9 @@
     "lemma": "יָד",
     "xlit": "yâd",
     "enDefinition": "a hand (the open one (indicating power, means, direction, etc.),",
-    "ptLiteralWord": "a hand (the open one (indicating power",
-    "explanation": "a hand (the open one (indicating power, means, direction, etc.),",
-    "needsReview": true
+    "ptLiteralWord": "mão/poder",
+    "explanation": "yad — mão, força, poder, influência, autoridade",
+    "needsReview": false
   },
   "H1697": {
     "rank": 26,
@@ -255,9 +255,9 @@
     "lemma": "דָּבָר",
     "xlit": "dâbâr",
     "enDefinition": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause",
-    "ptLiteralWord": "a word; by implication",
-    "explanation": "a word; by implication, a matter (as spoken of) or thing; adverbially, a cause",
-    "needsReview": true
+    "ptLiteralWord": "palavra/coisa",
+    "explanation": "davar — palavra, assunto, coisa, evento, mandamento",
+    "needsReview": false
   },
   "H7200": {
     "rank": 27,
@@ -265,8 +265,8 @@
     "lemma": "רָאָה",
     "xlit": "râʼâh",
     "enDefinition": "to see, literally or figuratively (in numerous applications, direct and implied, transitive, intransitive and causative)",
-    "ptLiteralWord": "viu",
-    "explanation": "raah — ver, observar, contemplar, perceber",
+    "ptLiteralWord": "viu/ver",
+    "explanation": "raah — ver, observar, contemplar, perceber, entender",
     "needsReview": false
   },
   "H5704": {
@@ -295,9 +295,9 @@
     "lemma": "אָב",
     "xlit": "ʼâb",
     "enDefinition": "father, in a literal and immediate, or figurative and remote application",
-    "ptLiteralWord": "father",
-    "explanation": "father, in a literal and immediate, or figurative and remote application",
-    "needsReview": true
+    "ptLiteralWord": "pai",
+    "explanation": "av — pai, ancestral, fundador, progenitor",
+    "needsReview": false
   },
   "H2088": {
     "rank": 31,
@@ -315,9 +315,9 @@
     "lemma": "שָׁמַע",
     "xlit": "shâmaʻ",
     "enDefinition": "to hear intelligently (often with implication of attention, obedience, etc.; causatively, to tell, etc.)",
-    "ptLiteralWord": "to hear intelligently (often with implication of attention",
-    "explanation": "to hear intelligently (often with implication of attention, obedience, etc.; causatively, to tell, etc.)",
-    "needsReview": true
+    "ptLiteralWord": "ouviu/ouvir",
+    "explanation": "shama — ouvir, escutar, obedecer, prestar atenção",
+    "needsReview": false
   },
   "H1696": {
     "rank": 33,
@@ -325,9 +325,9 @@
     "lemma": "דָבַר",
     "xlit": "dâbar",
     "enDefinition": "perhaps properly, to arrange; but used figuratively (of words), to speak; rarely (in a destructive sense) to subdue",
-    "ptLiteralWord": "perhaps properly",
-    "explanation": "perhaps properly, to arrange; but used figuratively (of words), to speak; rarely (in a destructive sense) to subdue",
-    "needsReview": true
+    "ptLiteralWord": "falou/disse",
+    "explanation": "davar — falar, dizer, declarar (forma verbal de davar)",
+    "needsReview": false
   },
   "H5892": {
     "rank": 34,
@@ -335,9 +335,9 @@
     "lemma": "עִיר",
     "xlit": "ʻîyr",
     "enDefinition": "a city (a place guarded by waking or a watch) in the widest sense (even of a mere encampment or post)",
-    "ptLiteralWord": "a city (a place guarded by waking or a watch) in the widest sense (even of a mere encampment or post)",
-    "explanation": "a city (a place guarded by waking or a watch) in the widest sense (even of a mere encampment or post)",
-    "needsReview": true
+    "ptLiteralWord": "cidade",
+    "explanation": "ir — cidade, vila, lugar habitado",
+    "needsReview": false
   },
   "H3427": {
     "rank": 35,
@@ -355,9 +355,9 @@
     "lemma": "יָצָא",
     "xlit": "yâtsâʼ",
     "enDefinition": "to go (causatively, bring) out, in a great variety of applications, literally and figuratively, direct and proxim.",
-    "ptLiteralWord": "to go (causatively",
-    "explanation": "to go (causatively, bring) out, in a great variety of applications, literally and figuratively, direct and proxim.",
-    "needsReview": true
+    "ptLiteralWord": "saiu/sair",
+    "explanation": "yatsa — sair, partir, nascer, brotar, emergir",
+    "needsReview": false
   },
   "H1732": {
     "rank": 37,
@@ -365,9 +365,9 @@
     "lemma": "דָּוִד",
     "xlit": "Dâvid",
     "enDefinition": "David, the youngest son of Jesse",
-    "ptLiteralWord": "David",
-    "explanation": "David, the youngest son of Jesse",
-    "needsReview": true
+    "ptLiteralWord": "Davi",
+    "explanation": "David — Davi, rei de Israel, autor de muitos salmos",
+    "needsReview": false
   },
   "H7725": {
     "rank": 38,
@@ -375,9 +375,9 @@
     "lemma": "שׁוּב",
     "xlit": "shûwb",
     "enDefinition": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again",
-    "ptLiteralWord": "to turn back (hence",
-    "explanation": "to turn back (hence, away) transitively or intransitively, literally or figuratively (not necessarily with the idea of return to the starting point); generally to retreat; often adverbial, again",
-    "needsReview": true
+    "ptLiteralWord": "voltou/retornar",
+    "explanation": "shuv — voltar, retornar, arrepender-se, converter-se",
+    "needsReview": false
   },
   "H518": {
     "rank": 39,
@@ -416,7 +416,7 @@
     "xlit": "ʼechâd",
     "enDefinition": "properly, united, i.e. one; or (as an ordinal) first",
     "ptLiteralWord": "um/primeiro",
-    "explanation": "echad — um, unido, o primeiro",
+    "explanation": "echad — um, unido, o primeiro (numeral ordinal)",
     "needsReview": false
   },
   "H3947": {
@@ -445,9 +445,9 @@
     "lemma": "עַיִן",
     "xlit": "ʻayin",
     "enDefinition": "an eye (literally or figuratively); by analogy, a fountain (as the eye of the landscape)",
-    "ptLiteralWord": "an eye (literally or figuratively); by analogy",
-    "explanation": "an eye (literally or figuratively); by analogy, a fountain (as the eye of the landscape)",
-    "needsReview": true
+    "ptLiteralWord": "olho/olhos",
+    "explanation": "ayin — olho, olhos, aparência, fonte (de água), perspectiva",
+    "needsReview": false
   },
   "H5927": {
     "rank": 46,
@@ -455,9 +455,9 @@
     "lemma": "עָלָה",
     "xlit": "ʻâlâh",
     "enDefinition": "to ascend, intransitively (be high) or actively (mount); used in a great variety of senses, primary and secondary, literal and figurative",
-    "ptLiteralWord": "to ascend",
-    "explanation": "to ascend, intransitively (be high) or actively (mount); used in a great variety of senses, primary and secondary, literal and figurative",
-    "needsReview": true
+    "ptLiteralWord": "subiu/subir",
+    "explanation": "alah — subir, ascender, oferecer holocausto",
+    "needsReview": false
   },
   "H854": {
     "rank": 47,
@@ -475,8 +475,8 @@
     "lemma": "שָׁנֶה",
     "xlit": "shâneh",
     "enDefinition": "a year (as a revolution of time)",
-    "ptLiteralWord": "anos",
-    "explanation": "shanah — ano, período anual",
+    "ptLiteralWord": "anos/ano",
+    "explanation": "shanah — ano, período de um ano completo",
     "needsReview": false
   },
   "H589": {
@@ -505,9 +505,9 @@
     "lemma": "שָׁלַח",
     "xlit": "shâlach",
     "enDefinition": "to send away, for, or out (in a great variety of applications)",
-    "ptLiteralWord": "to send away",
-    "explanation": "to send away, for, or out (in a great variety of applications)",
-    "needsReview": true
+    "ptLiteralWord": "enviou/enviar",
+    "explanation": "shalach — enviar, mandar, despachar, estender a mão",
+    "needsReview": false
   },
   "H2009": {
     "rank": 52,
@@ -515,9 +515,9 @@
     "lemma": "הִנֵּה",
     "xlit": "hinnêh",
     "enDefinition": "lo!",
-    "ptLiteralWord": "lo!",
-    "explanation": "lo!",
-    "needsReview": true
+    "ptLiteralWord": "eis aqui!/veja!",
+    "explanation": "hinneh — interjeição de atenção: eis, veja, olha!",
+    "needsReview": false
   },
   "H4191": {
     "rank": 53,
@@ -545,9 +545,9 @@
     "lemma": "יְהוּדָה",
     "xlit": "Yᵉhûwdâh",
     "enDefinition": "Jehudah (or Judah), the name of five Israelites; also of the tribe descended from the first, and of its territory",
-    "ptLiteralWord": "Jehudah (or Judah)",
-    "explanation": "Jehudah (or Judah), the name of five Israelites; also of the tribe descended from the first, and of its territory",
-    "needsReview": true
+    "ptLiteralWord": "Judá",
+    "explanation": "Yehudah — Judá, quarto filho de Jacó, tribo e reino",
+    "needsReview": false
   },
   "H859": {
     "rank": 56,
@@ -575,9 +575,9 @@
     "lemma": "עֶבֶד",
     "xlit": "ʻebed",
     "enDefinition": "a servant",
-    "ptLiteralWord": "a servant",
-    "explanation": "a servant",
-    "needsReview": true
+    "ptLiteralWord": "servo/escravo",
+    "explanation": "eved — servo, escravo, adorador (eved YHWH = servo do Senhor)",
+    "needsReview": false
   },
   "H369": {
     "rank": 59,
@@ -605,8 +605,8 @@
     "lemma": "כֵּן",
     "xlit": "kên",
     "enDefinition": "properly, set upright; hence (figuratively as adjective) just; but usually (as adverb or conjunction) rightly or so (in various applications to manner, time and relation; often with other particles)",
-    "ptLiteralWord": "assim",
-    "explanation": "ken — assim, deste modo, portanto",
+    "ptLiteralWord": "assim/deste modo",
+    "explanation": "ken — assim, deste modo, portanto, desta forma",
     "needsReview": false
   },
   "H8147": {
@@ -635,9 +635,9 @@
     "lemma": "מֹשֶׁה",
     "xlit": "Môsheh",
     "enDefinition": "Mosheh, the Israelite lawgiver",
-    "ptLiteralWord": "Mosheh",
-    "explanation": "Mosheh, the Israelite lawgiver",
-    "needsReview": true
+    "ptLiteralWord": "Moisés",
+    "explanation": "Moshe — Moisés, o grande legislador e profeta de Israel",
+    "needsReview": false
   },
   "H5315": {
     "rank": 65,
@@ -646,7 +646,7 @@
     "xlit": "nephesh",
     "enDefinition": "properly, a breathing creature, i.e. animal of (abstractly) vitality; used very widely in a literal, accommodated or figurative sense (bodily or mental)",
     "ptLiteralWord": "alma/ser vivo",
-    "explanation": "nefesh — alma, ser vivo, vida, pessoa",
+    "explanation": "nefesh — alma, ser vivo, vida, pessoa, desejo interior",
     "needsReview": false
   },
   "H4100": {
@@ -685,8 +685,8 @@
     "lemma": "קָרָא",
     "xlit": "qârâʼ",
     "enDefinition": "to call out to (i.e. properly, address by name, but used in a wide variety of applications)",
-    "ptLiteralWord": "chamou",
-    "explanation": "qara — chamar, nomear, convocar, proclamar",
+    "ptLiteralWord": "chamou/chamar",
+    "explanation": "qara — chamar, nomear, convocar, proclamar, invocar",
     "needsReview": false
   },
   "H408": {
@@ -705,9 +705,9 @@
     "lemma": "אַחַר",
     "xlit": "ʼachar",
     "enDefinition": "properly, the hind part; generally used as an adverb or conjunction, after (in various senses)",
-    "ptLiteralWord": "properly",
-    "explanation": "properly, the hind part; generally used as an adverb or conjunction, after (in various senses)",
-    "needsReview": true
+    "ptLiteralWord": "depois/após",
+    "explanation": "achar — depois, após, atrás, em seguida",
+    "needsReview": false
   },
   "H1870": {
     "rank": 72,
@@ -715,9 +715,9 @@
     "lemma": "דֶּרֶךְ",
     "xlit": "derek",
     "enDefinition": "a road (as trodden); figuratively, a course of life or mode of action, often adverb",
-    "ptLiteralWord": "a road (as trodden); figuratively",
-    "explanation": "a road (as trodden); figuratively, a course of life or mode of action, often adverb",
-    "needsReview": true
+    "ptLiteralWord": "caminho",
+    "explanation": "derek — caminho, estrada, modo de vida, conduta",
+    "needsReview": false
   },
   "H7451": {
     "rank": 73,
@@ -755,9 +755,9 @@
     "lemma": "מִצְרַיִם",
     "xlit": "Mitsrayim",
     "enDefinition": "Mitsrajim, i.e. Upper and Lower Egypt",
-    "ptLiteralWord": "Mitsrajim",
-    "explanation": "Mitsrajim, i.e. Upper and Lower Egypt",
-    "needsReview": true
+    "ptLiteralWord": "Egito",
+    "explanation": "Mitsrayim — Egito. A terra das \"duas margens\" do Nilo",
+    "needsReview": false
   },
   "H251": {
     "rank": 77,
@@ -765,9 +765,9 @@
     "lemma": "אָח",
     "xlit": "ʼâch",
     "enDefinition": "a brother (used in the widest sense of literal relationship and metaphorical affinity or resemblance (like father))",
-    "ptLiteralWord": "a brother (used in the widest sense of literal relationship and metaphorical affinity or resemblance (like father))",
-    "explanation": "a brother (used in the widest sense of literal relationship and metaphorical affinity or resemblance (like father))",
-    "needsReview": true
+    "ptLiteralWord": "irmão",
+    "explanation": "ach — irmão, parente próximo, aliado",
+    "needsReview": false
   },
   "H6965": {
     "rank": 78,
@@ -805,9 +805,9 @@
     "lemma": "לֵב",
     "xlit": "lêb",
     "enDefinition": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the centre of anything",
-    "ptLiteralWord": "the heart; also used (figuratively) very widely for the feelings",
-    "explanation": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the centre of anything",
-    "needsReview": true
+    "ptLiteralWord": "coração/mente",
+    "explanation": "lev — coração, mente, vontade, centro da vida interior",
+    "needsReview": false
   },
   "H1323": {
     "rank": 82,
@@ -846,7 +846,7 @@
     "xlit": "mayim",
     "enDefinition": "water; figuratively, juice; by euphemism, urine, semen",
     "ptLiteralWord": "águas",
-    "explanation": "mayim — água, rio, mar (sempre no plural em hebraico)",
+    "explanation": "mayim — água, rio, mar (sempre plural em hebraico)",
     "needsReview": false
   },
   "H3541": {
@@ -885,8 +885,8 @@
     "lemma": "טוֹב",
     "xlit": "ṭôwb",
     "enDefinition": "good (as an adjective) in the widest sense; used likewise as a noun, both in the masculine and the feminine, the singular and the plural (good, a good or good thing, a good man or woman; the good, goods or good things, good men or women), also as an adverb (well)",
-    "ptLiteralWord": "bom",
-    "explanation": "tov — bom, agradável, útil, correto",
+    "ptLiteralWord": "bom/agradável",
+    "explanation": "tov — bom, correto, agradável, útil, virtuoso",
     "needsReview": false
   },
   "H5674": {
@@ -906,7 +906,7 @@
     "xlit": "ʼâdâm",
     "enDefinition": "ruddy i.e. a human being (an individual or the species, mankind, etc.)",
     "ptLiteralWord": "homem/ser humano",
-    "explanation": "adam — ser humano, homem, a humanidade",
+    "explanation": "adam — ser humano, homem, a humanidade como espécie",
     "needsReview": false
   },
   "H2022": {
@@ -1005,9 +1005,9 @@
     "lemma": "פֶּה",
     "xlit": "peh",
     "enDefinition": "the mouth (as the means of blowing), whether literal or figurative (particularly speech); specifically edge, portion or side; adverbially (with preposition) according to",
-    "ptLiteralWord": "the mouth (as the means of blowing)",
-    "explanation": "the mouth (as the means of blowing), whether literal or figurative (particularly speech); specifically edge, portion or side; adverbially (with preposition) according to",
-    "needsReview": true
+    "ptLiteralWord": "boca/ordem",
+    "explanation": "peh — boca, linguagem, beira, entrada, abertura",
+    "needsReview": false
   },
   "H6680": {
     "rank": 102,
@@ -1065,9 +1065,9 @@
     "lemma": "רַב",
     "xlit": "rab",
     "enDefinition": "abundant (in quantity, size, age, number, rank, quality)",
-    "ptLiteralWord": "abundant (in quantity",
-    "explanation": "abundant (in quantity, size, age, number, rank, quality)",
-    "needsReview": true
+    "ptLiteralWord": "muito/grande/muitos",
+    "explanation": "rav — grande, muito, numeroso, abundante, ancião",
+    "needsReview": false
   },
   "H4672": {
     "rank": 108,
@@ -1166,7 +1166,7 @@
     "xlit": "shâmayim",
     "enDefinition": "the sky (as aloft; the dual perhaps alluding to the visible arch in which the clouds move, as well as to the higher ether where the celestial bodies revolve)",
     "ptLiteralWord": "céus",
-    "explanation": "shamayim — os céus, o firmamento, a abóbada celeste",
+    "explanation": "shamayim — os céus, o firmamento (sempre plural em hebraico)",
     "needsReview": false
   },
   "H8432": {
@@ -1175,8 +1175,8 @@
     "lemma": "תָּוֶךְ",
     "xlit": "tâvek",
     "enDefinition": "a bisection, i.e. (by implication) the centre",
-    "ptLiteralWord": "meio",
-    "explanation": "tavek — meio, centro, interior",
+    "ptLiteralWord": "meio/centro",
+    "explanation": "tavek — meio, centro, interior, entre",
     "needsReview": false
   },
   "H2719": {
@@ -1196,7 +1196,7 @@
     "xlit": "bêyn",
     "enDefinition": "between (repeated before each noun, often with other particles); also as a conjunction, either...or",
     "ptLiteralWord": "entre",
-    "explanation": "ben — entre, no meio de",
+    "explanation": "ben — entre, no meio de, no espaço que separa",
     "needsReview": false
   },
   "H7586": {
@@ -1246,7 +1246,7 @@
     "xlit": "mâqôwm",
     "enDefinition": "properly, a standing, i.e. a spot; but used widely of a locality (general or specific); also (figuratively) of a condition (of body or mind)",
     "ptLiteralWord": "lugar",
-    "explanation": "maqom — lugar, localidade, espaço",
+    "explanation": "maqom — lugar, localidade, espaço físico, santuário",
     "needsReview": false
   },
   "H3220": {
@@ -1255,8 +1255,8 @@
     "lemma": "יָם",
     "xlit": "yâm",
     "enDefinition": "a sea (as breaking in noisy surf) or large body of water; specifically (with the article), the Mediterranean Sea; sometimes a large river, or an artifical basin; locally, the west, or (rarely) the south",
-    "ptLiteralWord": "mares",
-    "explanation": "yam — mar, lago, océano",
+    "ptLiteralWord": "mar/mares",
+    "explanation": "yam — mar, lago, oceano, ocidente (o mar fica a oeste)",
     "needsReview": false
   },
   "H7651": {
@@ -1345,9 +1345,9 @@
     "lemma": "נָגַד",
     "xlit": "nâgad",
     "enDefinition": "properly, to front, i.e. stand boldly out opposite; by implication (causatively), to manifest; figuratively, to announce (always by word of mouth to one present); specifically, to expose, predict, explain, praise",
-    "ptLiteralWord": "properly",
-    "explanation": "properly, to front, i.e. stand boldly out opposite; by implication (causatively), to manifest; figuratively, to announce (always by word of mouth to one present); specifically, to expose, predict, explain, praise",
-    "needsReview": true
+    "ptLiteralWord": "anunciou/contou",
+    "explanation": "nagad — anunciar, declarar, dizer, contar, revelar",
+    "needsReview": false
   },
   "H1818": {
     "rank": 136,
@@ -1395,9 +1395,9 @@
     "lemma": "יַעֲקֹב",
     "xlit": "Yaʻăqôb",
     "enDefinition": "Jaakob, the Israelitish patriarch",
-    "ptLiteralWord": "Jaakob",
-    "explanation": "Jaakob, the Israelitish patriarch",
-    "needsReview": true
+    "ptLiteralWord": "Jacó",
+    "explanation": "Yaaqov — Jacó (depois chamado Israel), patriarca das 12 tribos",
+    "needsReview": false
   },
   "H168": {
     "rank": 141,
@@ -1476,7 +1476,7 @@
     "xlit": "bârak",
     "enDefinition": "to kneel; by implication to bless God (as an act of adoration), and (vice-versa) man (as a benefit); also (by euphemism) to curse (God or the king, as treason)",
     "ptLiteralWord": "abençoou",
-    "explanation": "barak — abençoar, louvar, ajoelhar",
+    "explanation": "barak — abençoar, louvar, ajoelhar em reverência",
     "needsReview": false
   },
   "H6086": {
@@ -1486,7 +1486,7 @@
     "xlit": "ʻêts",
     "enDefinition": "a tree (from its firmness); hence, wood (plural sticks)",
     "ptLiteralWord": "árvore",
-    "explanation": "ets — árvore, madeira, lenho",
+    "explanation": "ets — árvore, madeira, lenho, madeira como material",
     "needsReview": false
   },
   "H3372": {
@@ -1725,9 +1725,9 @@
     "lemma": "עָבַד",
     "xlit": "ʻâbad",
     "enDefinition": "to work (in any sense); by implication, to serve, till, (causatively) enslave, etc.",
-    "ptLiteralWord": "to work (in any sense); by implication",
-    "explanation": "to work (in any sense); by implication, to serve, till, (causatively) enslave, etc.",
-    "needsReview": true
+    "ptLiteralWord": "servir/adorar",
+    "explanation": "avad — trabalhar, servir, adorar, ser escravo de algo",
+    "needsReview": false
   },
   "H3881": {
     "rank": 174,
@@ -1926,7 +1926,7 @@
     "xlit": "mâlêʼ",
     "enDefinition": "to fill or (intransitively) be full of, in a wide application (literally and figuratively)",
     "ptLiteralWord": "enchei",
-    "explanation": "male — encher, completar, cumprir",
+    "explanation": "male — encher, completar, cumprir, saturar",
     "needsReview": false
   },
   "H520": {
@@ -1985,9 +1985,9 @@
     "lemma": "שָׁלוֹם",
     "xlit": "shâlôwm",
     "enDefinition": "safe, i.e. (figuratively) well, happy, friendly; also (abstractly) welfare, i.e. health, prosperity, peace",
-    "ptLiteralWord": "safe",
-    "explanation": "safe, i.e. (figuratively) well, happy, friendly; also (abstractly) welfare, i.e. health, prosperity, peace",
-    "needsReview": true
+    "ptLiteralWord": "paz/prosperidade",
+    "explanation": "shalom — paz, harmonia, integridade, bem-estar, salvação",
+    "needsReview": false
   },
   "H2142": {
     "rank": 200,
@@ -2006,7 +2006,7 @@
     "xlit": "layil",
     "enDefinition": "properly, a twist (away of the light), i.e. night; figuratively, adversity",
     "ptLiteralWord": "noite",
-    "explanation": "lailah — noite, escuridão",
+    "explanation": "lailah — noite, período de escuridão",
     "needsReview": false
   },
   "H7235": {
@@ -2066,7 +2066,7 @@
     "xlit": "zeraʻ",
     "enDefinition": "seed; figuratively, fruit, plant, sowing-time, posterity",
     "ptLiteralWord": "semente",
-    "explanation": "zera — semente, descendência, progênie",
+    "explanation": "zera — semente, descendência, progênie, posteridade",
     "needsReview": false
   },
   "H3789": {
@@ -2115,8 +2115,8 @@
     "lemma": "מוֹעֵד",
     "xlit": "môwʻêd",
     "enDefinition": "properly, an appointment, i.e. a fixed time or season; specifically, a festival; conventionally ayear; by implication, an assembly (as convened for a definite purpose); technically the congregation; by extension, the place of meeting; also a signal (as appointed beforehand)",
-    "ptLiteralWord": "estações/festivais",
-    "explanation": "moed — tempo fixo, estação, assembleia, festival",
+    "ptLiteralWord": "tempos/festivais",
+    "explanation": "moed — tempo fixo, estação, assembleia sagrada, festival",
     "needsReview": false
   },
   "H5159": {
@@ -2145,9 +2145,9 @@
     "lemma": "אֵם",
     "xlit": "ʼêm",
     "enDefinition": "a mother (as the bond of the family); in a wide sense (both literally and figuratively (like father))",
-    "ptLiteralWord": "a mother (as the bond of the family); in a wide sense (both literally and figuratively (like father))",
-    "explanation": "a mother (as the bond of the family); in a wide sense (both literally and figuratively (like father))",
-    "needsReview": true
+    "ptLiteralWord": "mãe",
+    "explanation": "em — mãe, origem, laço familiar",
+    "needsReview": false
   },
   "H3559": {
     "rank": 216,
@@ -2655,9 +2655,9 @@
     "lemma": "אַבְרָהָם",
     "xlit": "ʼAbrâhâm",
     "enDefinition": "Abraham, the later name of Abram",
-    "ptLiteralWord": "Abraham",
-    "explanation": "Abraham, the later name of Abram",
-    "needsReview": true
+    "ptLiteralWord": "Abraão",
+    "explanation": "Avraham — Abraão, pai das nações, patriarca do povo de Deus",
+    "needsReview": false
   },
   "H7970": {
     "rank": 267,
@@ -2926,7 +2926,7 @@
     "xlit": "shênîy",
     "enDefinition": "properly, double, i.e. second; also adverbially, again",
     "ptLiteralWord": "segundo",
-    "explanation": "sheni — segundo (ordinal)",
+    "explanation": "sheni — segundo (numeral ordinal)",
     "needsReview": false
   },
   "H6726": {
@@ -3346,7 +3346,7 @@
     "xlit": "ʻereb",
     "enDefinition": "dusk",
     "ptLiteralWord": "tarde/entardecer",
-    "explanation": "erev — tarde, entardecer, crepúsculo",
+    "explanation": "erev — tarde, entardecer, crepúsculo vespertino",
     "needsReview": false
   },
   "H5387": {
@@ -3615,9 +3615,9 @@
     "lemma": "אָחוֹת",
     "xlit": "ʼâchôwth",
     "enDefinition": "a sister (used very widely (like brother), literally and figuratively)",
-    "ptLiteralWord": "a sister (used very widely (like brother)",
-    "explanation": "a sister (used very widely (like brother), literally and figuratively)",
-    "needsReview": true
+    "ptLiteralWord": "irmã",
+    "explanation": "achot — irmã, parente feminina próxima",
+    "needsReview": false
   },
   "H5104": {
     "rank": 363,
@@ -3656,7 +3656,7 @@
     "xlit": "pᵉrîy",
     "enDefinition": "fruit (literally or figuratively)",
     "ptLiteralWord": "fruto",
-    "explanation": "peri — fruto, produto, resultado",
+    "explanation": "peri — fruto, produto, resultado de algo",
     "needsReview": false
   },
   "H6664": {
@@ -4886,7 +4886,7 @@
     "xlit": "zâkâr",
     "enDefinition": "properly, remembered, i.e. a male (of man or animals, as being the most noteworthy sex)",
     "ptLiteralWord": "macho/masculino",
-    "explanation": "zakar — macho, masculino, varão",
+    "explanation": "zakar — macho, masculino, varão, sexo masculino",
     "needsReview": false
   },
   "H7043": {

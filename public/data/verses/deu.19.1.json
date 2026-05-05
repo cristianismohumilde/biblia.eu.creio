@@ -19,9 +19,9 @@
       "kjv": "and, + (forasmuch, inasmuch, where-) as, assured(-ly), + but, certainly, doubtless, + else, even, + except, for, how, (because, in, so, than) that, + nevertheless, now, rightly, seeing, since, surely, then, therefore, + (al-) though, + till, truly, + until, when, whether, while, whom, yea, yet.",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "very widely used as a relative conjunction or adverb ; often largely modified by other particles annexed",
+      "ptLiteralWord": "porque/que/pois",
       "enLiteralWord": "very widely used as a relative conjunction or adverb ; often largely modified by other particles annexed",
-      "explanation": "very widely used as a relative conjunction or adverb ; often largely modified by other particles annexed",
+      "explanation": "ki — conjunção causal e explicativa: porque, pois, que, quando",
       "explanationEn": "very widely used as a relative conjunction or adverb ; often largely modified by other particles annexed"
     },
     {
@@ -57,9 +57,9 @@
       "kjv": "Jehovah, the Lord. Compare H3050 (יָהּ), H3069 (יְהֹוִה).",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "Jehovah",
+      "ptLiteralWord": "O SENHOR",
       "enLiteralWord": "Jehovah",
-      "explanation": "Jehovah",
+      "explanation": "YHWH — Nome próprio de Deus revelado a Moisés. Tradição massorética lê \"Adonai\"",
       "explanationEn": "Jehovah"
     },
     {
@@ -76,9 +76,9 @@
       "kjv": "angels, [idiom] exceeding, God (gods) (-dess, -ly), [idiom] (very) great, judges, [idiom] mighty.",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "gods in the ordinary sense; but specifically used (in the plural thus",
+      "ptLiteralWord": "Deus",
       "enLiteralWord": "gods in the ordinary sense; but specifically used (in the plural thus",
-      "explanation": "gods in the ordinary sense; but specifically used (in the plural thus",
+      "explanation": "Elohim — nome hebraico de Deus. Plural de majestade. Denota o único Deus verdadeiro",
       "explanationEn": "gods in the ordinary sense; but specifically used (in the plural thus"
     },
     {
@@ -95,9 +95,9 @@
       "kjv": "(as such unrepresented in English).",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "properly",
+      "ptLiteralWord": "(part. direta)",
       "enLiteralWord": "properly",
-      "explanation": "properly",
+      "explanation": "et — partícula de objeto direto, sem tradução literal em português",
       "explanationEn": "properly"
     },
     {
@@ -133,9 +133,9 @@
       "kjv": "[idiom] after, [idiom] alike, as (soon as), because, [idiom] every, for, [phrase] forasmuch, [phrase] from whence, [phrase] how(-soever), [idiom] if, (so) that ((thing) which, wherein), [idiom] though, [phrase] until, [phrase] whatsoever, when, where ([phrase] -as, -in, -of, -on, -soever, -with), which, whilst, [phrase] whither(-soever), who(-m, -soever, -se). As it is indeclinable, it is often accompanied by the personal pronoun expletively, used to show the connection.",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "who",
+      "ptLiteralWord": "que/o qual",
       "enLiteralWord": "who",
-      "explanation": "who",
+      "explanation": "asher — pronome relativo: que, quem, o qual, cujo",
       "explanationEn": "who"
     },
     {
@@ -152,9 +152,9 @@
       "kjv": "Jehovah, the Lord. Compare H3050 (יָהּ), H3069 (יְהֹוִה).",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "Jehovah",
+      "ptLiteralWord": "O SENHOR",
       "enLiteralWord": "Jehovah",
-      "explanation": "Jehovah",
+      "explanation": "YHWH — Nome próprio de Deus revelado a Moisés. Tradição massorética lê \"Adonai\"",
       "explanationEn": "Jehovah"
     },
     {
@@ -171,9 +171,9 @@
       "kjv": "angels, [idiom] exceeding, God (gods) (-dess, -ly), [idiom] (very) great, judges, [idiom] mighty.",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "gods in the ordinary sense; but specifically used (in the plural thus",
+      "ptLiteralWord": "Deus",
       "enLiteralWord": "gods in the ordinary sense; but specifically used (in the plural thus",
-      "explanation": "gods in the ordinary sense; but specifically used (in the plural thus",
+      "explanation": "Elohim — nome hebraico de Deus. Plural de majestade. Denota o único Deus verdadeiro",
       "explanationEn": "gods in the ordinary sense; but specifically used (in the plural thus"
     },
     {
@@ -190,9 +190,9 @@
       "kjv": "add, apply, appoint, ascribe, assign, [idiom] avenge, [idiom] be (healed), bestow, bring (forth, hither), cast, cause, charge, come, commit, consider, count, [phrase] cry, deliver (up), direct, distribute, do, [idiom] doubtless, [idiom] without fail, fasten, frame, [idiom] get, give (forth, over, up), grant, hang (up), [idiom] have, [idiom] indeed, lay (unto charge, up), (give) leave, lend, let (out), [phrase] lie, lift up, make, [phrase] O that, occupy, offer, ordain, pay, perform, place, pour, print, [idiom] pull, put (forth), recompense, render, requite, restore, send (out), set (forth), shew, shoot forth (up), [phrase] sing, [phrase] slander, strike, (sub-) mit, suffer, [idiom] surely, [idiom] take, thrust, trade, turn, utter, [phrase] weep, [phrase] willingly, [phrase] withdraw, [phrase] would (to) God, yield.",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "to give",
+      "ptLiteralWord": "deu/dar",
       "enLiteralWord": "to give",
-      "explanation": "to give",
+      "explanation": "natan — dar, entregar, conceder, pôr, colocar",
       "explanationEn": "to give"
     },
     {
@@ -228,9 +228,9 @@
       "kjv": "(as such unrepresented in English).",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "properly",
+      "ptLiteralWord": "(part. direta)",
       "enLiteralWord": "properly",
-      "explanation": "properly",
+      "explanation": "et — partícula de objeto direto, sem tradução literal em português",
       "explanationEn": "properly"
     },
     {
@@ -247,9 +247,9 @@
       "kjv": "[idiom] common, country, earth, field, ground, land, [idiom] natins, way, [phrase] wilderness, world.",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "the earth (at large",
+      "ptLiteralWord": "terra",
       "enLiteralWord": "the earth (at large",
-      "explanation": "the earth (at large",
+      "explanation": "eretz — terra, solo, país, região, toda a terra",
       "explanationEn": "the earth (at large"
     },
     {
@@ -304,9 +304,9 @@
       "kjv": "Ai (from margin), city, court (from margin), town.",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "a city  in the widest sense",
+      "ptLiteralWord": "cidade",
       "enLiteralWord": "a city  in the widest sense",
-      "explanation": "a city  in the widest sense",
+      "explanation": "ir — cidade, vila, lugar habitado",
       "explanationEn": "a city  in the widest sense"
     },
     {
@@ -323,9 +323,9 @@
       "kjv": "court, daughter, door, [phrase] dungeon, family, [phrase] forth of, [idiom] great as would contain, hangings, home(born), (winter) house(-hold), inside(-ward), palace, place, [phrase] prison, [phrase] steward, [phrase] tablet, temple, web, [phrase] within(-out).",
       "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
       "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-      "ptLiteralWord": "a house (in the greatest variation of applications",
+      "ptLiteralWord": "casa/família",
       "enLiteralWord": "a house (in the greatest variation of applications",
-      "explanation": "a house (in the greatest variation of applications",
+      "explanation": "bayit — casa, família, templo, dinastia",
       "explanationEn": "a house (in the greatest variation of applications"
     }
   ]
