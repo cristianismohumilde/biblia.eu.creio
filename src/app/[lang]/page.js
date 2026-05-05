@@ -27,8 +27,8 @@ export default function LangHomePage({ params }) {
         return res.json();
       })
       .then((json) => {
-        // Encontra o verso específico dentro do capítulo
-        const verseData = json.verses.find(v => v.verse === parseInt(verse));
+        // Encontra o verso específico dentro do capítulo (suporta formatos v.verse ou v.ref.verse)
+        const verseData = json.verses.find(v => (v.verse || v.ref?.verse) === parseInt(verse));
         if (!verseData) throw new Error("Versículo não encontrado no capítulo");
         
         setData(verseData);
