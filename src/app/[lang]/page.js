@@ -20,14 +20,18 @@ export default function LangHomePage({ params }) {
   }, [params]);
 
   const loadVerse = (book, chapter, verse) => {
-    const filePath = `/data/verses/${book.toLowerCase()}.${chapter}.${verse}.json`;
+    const filePath = `/data/verses/${book.toLowerCase()}.${chapter}.json`;
     fetch(filePath)
       .then((res) => {
-        if (!res.ok) throw new Error("Verso não encontrado");
+        if (!res.ok) throw new Error("Capítulo não encontrado");
         return res.json();
       })
       .then((json) => {
-        setData(json);
+        // Encontra o verso específico dentro do capítulo
+        const verseData = json.verses.find(v => v.verse === parseInt(verse));
+        if (!verseData) throw new Error("Versículo não encontrado no capítulo");
+        
+        setData(verseData);
         const url = new URL(window.location.href);
         url.searchParams.set("book", book);
         url.searchParams.set("chapter", chapter);

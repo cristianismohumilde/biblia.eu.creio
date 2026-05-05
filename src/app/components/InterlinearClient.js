@@ -49,6 +49,8 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    if (!book || !chapter) return;
+    
     const filePath = `/data/verses/${book.toLowerCase()}.${chapter}.json`;
     fetch(filePath)
       .then((res) => {
@@ -56,13 +58,22 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
         return res.json();
       })
       .then((json) => {
+        if (!json.verses) throw new Error("Formato de capítulo inválido");
         // Encontra o verso específico dentro do capítulo
         const verseData = json.verses.find(v => v.verse === parseInt(verse));
-        if (!verseData) throw new Error("Versículo não encontrado no capítulo");
-        setData(verseData);
+        if (!verseData) {
+          // Se não achar o verso (ex: mudou de livro), pega o primeiro do capítulo
+          setData(json.verses[0]);
+        } else {
+          setData(verseData);
+        }
+        setError(null);
       })
-      .catch((err) => setError(err.message));
-  }, [book, chapter, verse]);
+      .catch((err) => {
+        console.error("Erro ao carregar verso:", err);
+        setError(err.message);
+      });
+  }, [book, chapter, verse, manuscript]); // Adicionado manuscript e verse explicitamente
 
   const langMap = {
     b19a: "hebrew",
