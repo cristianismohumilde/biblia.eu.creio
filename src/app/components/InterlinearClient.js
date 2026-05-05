@@ -41,7 +41,8 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
 
   const book = initialBook || searchParams.get("book") || "gen";
   const chapter = initialChapter || searchParams.get("chapter") || "1";
-  const verse = initialVerse || searchParams.get("verse") || "1";
+  // Prioriza o verso da URL (?v=1), depois o inicial, senão 1
+  const verse = searchParams.get("v") || initialVerse || "1";
 
   const [data, setData] = useState(null);
   const [filter, setFilter] = useState("");
@@ -242,11 +243,11 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
             <h2 style={{ margin: 0 }}>{t.detailedTable}</h2>
             <div style={{ display: 'flex', gap: '0.5rem' }}>
               {parseInt(verse) > 1 && (
-                <Link href={`/${lang}/interlinear/${manuscript}/${book}/${chapter}/${parseInt(verse) - 1}`} className="support-cta" style={{ padding: '0.4rem 0.8rem', fontSize: '0.9rem' }}>
+                <Link href={`/${lang}/interlinear/${manuscript}/${book}/${chapter}?v=${parseInt(verse) - 1}`} className="support-cta" style={{ padding: '0.4rem 0.8rem', fontSize: '0.9rem' }}>
                   ⬅ {lang === 'en' ? 'Previous' : 'Anterior'}
                 </Link>
               )}
-              <Link href={`/${lang}/interlinear/${manuscript}/${book}/${chapter}/${parseInt(verse) + 1}`} className="support-cta" style={{ padding: '0.4rem 0.8rem', fontSize: '0.9rem' }}>
+              <Link href={`/${lang}/interlinear/${manuscript}/${book}/${chapter}?v=${parseInt(verse) + 1}`} className="support-cta" style={{ padding: '0.4rem 0.8rem', fontSize: '0.9rem' }}>
                 {lang === 'en' ? 'Next' : 'Próximo'} ➡
               </Link>
             </div>

@@ -59,8 +59,8 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (isInterlinear) {
-      // Update URL with new verse on interlinear page
-      const url = `/${lang}/interlinear/${manuscript}/${selectedBook}/${selectedChapter}/${selectedVerse}`;
+      // Update URL with new verse on interlinear page (using query param for verse)
+      const url = `/${lang}/interlinear/${manuscript}/${selectedBook}/${selectedChapter}?v=${selectedVerse}`;
       router.push(url);
     } else if (onSelect) {
       // Update home page content
