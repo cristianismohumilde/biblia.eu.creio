@@ -5,6 +5,11 @@
   "verses": [
     {
       "id": "psa.133.1",
+      "ref": {
+        "book": "Ps",
+        "chapter": 133,
+        "verse": 1
+      },
       "book": "Ps",
       "chapter": 133,
       "verse": 1,
@@ -242,6 +247,11 @@
     },
     {
       "id": "psa.133.2",
+      "ref": {
+        "book": "Ps",
+        "chapter": 133,
+        "verse": 2
+      },
       "book": "Ps",
       "chapter": 133,
       "verse": 2,
@@ -498,6 +508,11 @@
     },
     {
       "id": "psa.133.3",
+      "ref": {
+        "book": "Ps",
+        "chapter": 133,
+        "verse": 3
+      },
       "book": "Ps",
       "chapter": 133,
       "verse": 3,

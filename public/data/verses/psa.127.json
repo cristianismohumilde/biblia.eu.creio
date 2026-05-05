@@ -5,6 +5,11 @@
   "verses": [
     {
       "id": "psa.127.1",
+      "ref": {
+        "book": "Ps",
+        "chapter": 127,
+        "verse": 1
+      },
       "book": "Ps",
       "chapter": 127,
       "verse": 1,
@@ -394,6 +399,11 @@
     },
     {
       "id": "psa.127.2",
+      "ref": {
+        "book": "Ps",
+        "chapter": 127,
+        "verse": 2
+      },
       "book": "Ps",
       "chapter": 127,
       "verse": 2,
@@ -650,6 +660,11 @@
     },
     {
       "id": "psa.127.3",
+      "ref": {
+        "book": "Ps",
+        "chapter": 127,
+        "verse": 3
+      },
       "book": "Ps",
       "chapter": 127,
       "verse": 3,
@@ -792,6 +807,11 @@
     },
     {
       "id": "psa.127.4",
+      "ref": {
+        "book": "Ps",
+        "chapter": 127,
+        "verse": 4
+      },
       "book": "Ps",
       "chapter": 127,
       "verse": 4,
@@ -915,6 +935,11 @@
     },
     {
       "id": "psa.127.5",
+      "ref": {
+        "book": "Ps",
+        "chapter": 127,
+        "verse": 5
+      },
       "book": "Ps",
       "chapter": 127,
       "verse": 5,

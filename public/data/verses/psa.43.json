@@ -5,6 +5,11 @@
   "verses": [
     {
       "id": "psa.43.1",
+      "ref": {
+        "book": "Ps",
+        "chapter": 43,
+        "verse": 1
+      },
       "book": "Ps",
       "chapter": 43,
       "verse": 1,
@@ -223,6 +228,11 @@
     },
     {
       "id": "psa.43.2",
+      "ref": {
+        "book": "Ps",
+        "chapter": 43,
+        "verse": 2
+      },
       "book": "Ps",
       "chapter": 43,
       "verse": 2,
@@ -441,6 +451,11 @@
     },
     {
       "id": "psa.43.3",
+      "ref": {
+        "book": "Ps",
+        "chapter": 43,
+        "verse": 3
+      },
       "book": "Ps",
       "chapter": 43,
       "verse": 3,
@@ -659,6 +674,11 @@
     },
     {
       "id": "psa.43.4",
+      "ref": {
+        "book": "Ps",
+        "chapter": 43,
+        "verse": 4
+      },
       "book": "Ps",
       "chapter": 43,
       "verse": 4,
@@ -896,6 +916,11 @@
     },
     {
       "id": "psa.43.5",
+      "ref": {
+        "book": "Ps",
+        "chapter": 43,
+        "verse": 5
+      },
       "book": "Ps",
       "chapter": 43,
       "verse": 5,

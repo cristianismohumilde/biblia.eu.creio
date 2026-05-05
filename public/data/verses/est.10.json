@@ -5,6 +5,11 @@
   "verses": [
     {
       "id": "est.10.1",
+      "ref": {
+        "book": "Esth",
+        "chapter": 10,
+        "verse": 1
+      },
       "book": "Esth",
       "chapter": 10,
       "verse": 1,
@@ -185,6 +190,11 @@
     },
     {
       "id": "est.10.2",
+      "ref": {
+        "book": "Esth",
+        "chapter": 10,
+        "verse": 2
+      },
       "book": "Esth",
       "chapter": 10,
       "verse": 2,
@@ -574,6 +584,11 @@
     },
     {
       "id": "est.10.3",
+      "ref": {
+        "book": "Esth",
+        "chapter": 10,
+        "verse": 3
+      },
       "book": "Esth",
       "chapter": 10,
       "verse": 3,

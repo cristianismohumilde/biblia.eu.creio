@@ -5,6 +5,11 @@
   "verses": [
     {
       "id": "psa.100.1",
+      "ref": {
+        "book": "Ps",
+        "chapter": 100,
+        "verse": 1
+      },
       "book": "Ps",
       "chapter": 100,
       "verse": 1,
@@ -128,6 +133,11 @@
     },
     {
       "id": "psa.100.2",
+      "ref": {
+        "book": "Ps",
+        "chapter": 100,
+        "verse": 2
+      },
       "book": "Ps",
       "chapter": 100,
       "verse": 2,
@@ -270,6 +280,11 @@
     },
     {
       "id": "psa.100.3",
+      "ref": {
+        "book": "Ps",
+        "chapter": 100,
+        "verse": 3
+      },
       "book": "Ps",
       "chapter": 100,
       "verse": 3,
@@ -526,6 +541,11 @@
     },
     {
       "id": "psa.100.4",
+      "ref": {
+        "book": "Ps",
+        "chapter": 100,
+        "verse": 4
+      },
       "book": "Ps",
       "chapter": 100,
       "verse": 4,
@@ -706,6 +726,11 @@
     },
     {
       "id": "psa.100.5",
+      "ref": {
+        "book": "Ps",
+        "chapter": 100,
+        "verse": 5
+      },
       "book": "Ps",
       "chapter": 100,
       "verse": 5,

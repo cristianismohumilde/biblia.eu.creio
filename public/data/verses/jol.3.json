@@ -5,6 +5,11 @@
   "verses": [
     {
       "id": "jol.3.1",
+      "ref": {
+        "book": "Joel",
+        "chapter": 3,
+        "verse": 1
+      },
       "book": "Joel",
       "chapter": 3,
       "verse": 1,
@@ -356,6 +361,11 @@
     },
     {
       "id": "jol.3.2",
+      "ref": {
+        "book": "Joel",
+        "chapter": 3,
+        "verse": 2
+      },
       "book": "Joel",
       "chapter": 3,
       "verse": 2,
@@ -555,6 +565,11 @@
     },
     {
       "id": "jol.3.3",
+      "ref": {
+        "book": "Joel",
+        "chapter": 3,
+        "verse": 3
+      },
       "book": "Joel",
       "chapter": 3,
       "verse": 3,
@@ -716,6 +731,11 @@
     },
     {
       "id": "jol.3.4",
+      "ref": {
+        "book": "Joel",
+        "chapter": 3,
+        "verse": 4
+      },
       "book": "Joel",
       "chapter": 3,
       "verse": 4,
@@ -934,6 +954,11 @@
     },
     {
       "id": "jol.3.5",
+      "ref": {
+        "book": "Joel",
+        "chapter": 3,
+        "verse": 5
+      },
       "book": "Joel",
       "chapter": 3,
       "verse": 5,

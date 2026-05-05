@@ -5,6 +5,11 @@
   "verses": [
     {
       "id": "psa.117.1",
+      "ref": {
+        "book": "Ps",
+        "chapter": 117,
+        "verse": 1
+      },
       "book": "Ps",
       "chapter": 117,
       "verse": 1,
@@ -166,6 +171,11 @@
     },
     {
       "id": "psa.117.2",
+      "ref": {
+        "book": "Ps",
+        "chapter": 117,
+        "verse": 2
+      },
       "book": "Ps",
       "chapter": 117,
       "verse": 2,

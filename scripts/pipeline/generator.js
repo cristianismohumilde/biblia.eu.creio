@@ -126,6 +126,11 @@ function parseOSISBook(xmlContent, osisBookCode, siteCode, lexicon) {
     // Cria o objeto do verso
     const verseObj = {
       id: `${siteCode}.${chapter}.${verse}`,
+      ref: {
+        book: osisBookCode,
+        chapter,
+        verse
+      },
       book: osisBookCode,
       chapter,
       verse,
