@@ -4,7 +4,7 @@ import path from 'path';
 
 export async function generateStaticParams() {
   const langs = ["pt", "en"];
-  const manuscripts = ["b19a"]; // Por enquanto focamos no Hebraico (B19A) para o AT
+  const manuscripts = ["b19a", "lxx", "byzantine", "targum", "vulgate", "syriac", "geez", "coptic", "armenian"];
   
   const versesDir = path.join(process.cwd(), 'public', 'data', 'verses');
   let chapters = [];

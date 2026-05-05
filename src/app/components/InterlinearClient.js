@@ -318,7 +318,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                     {targetLang === "hebrew" ? (
                       <>
                         <td>{token.strong && token.strong !== "-" ? token.strong : "-"}</td>
-                        <td>{token.bdb && token.bdb !== "-" ? token.bdb : "-"}</td>
+                        <td>{token.bdb && token.bdb !== "-" ? (lang === 'pt' ? token.bdb.replace(/direct object marker/gi, "marcador de objeto direto") : token.bdb) : "-"}</td>
                       </>
                     ) : targetLang === "greek" ? (
                       <>
