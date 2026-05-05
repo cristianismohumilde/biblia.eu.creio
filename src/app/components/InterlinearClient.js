@@ -137,8 +137,10 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
         literal: w.literalPt || literalEntry?.pt || data.ptLiteralVerse
       };
     }
+    const tokenWithMs = data.tokens?.find(tk => tk.lang === targetLang);
     return {
-      label: (manuscriptLabels[lang] ? manuscriptLabels[lang][manuscript] : manuscript.toUpperCase()),
+      label: (manuscriptLabels[lang] ? manuscriptLabels[lang][manuscript] : manuscript.toUpperCase()) || 
+             (tokenWithMs?.[lang === 'en' ? 'manuscriptEn' : 'manuscript']),
       text: data.sourceTexts?.[targetLang] || data[`${targetLang}Text`],
       transliteration: translit,
       literal: literalEntry?.pt || data.ptLiteralVerse

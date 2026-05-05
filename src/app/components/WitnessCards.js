@@ -75,13 +75,18 @@ export default function WitnessCards({ lang, data, manuscript }) {
         return (
           <article key={lo.code}>
             <h3>{lo.label}</h3>
-            <p className="manuscript-meta">{ (lang === 'en' ? data.manuscripts?.[`${lo.code}En`] : data.manuscripts?.[lo.code]) || `Manuscript/source (${lo.label}) not informed.`}</p>
+            <p className="manuscript-meta">
+              { (lang === 'en' ? data.manuscripts?.[`${lo.code}En`] : data.manuscripts?.[lo.code]) || 
+                (data.tokens?.find(tk => tk.lang === lo.code)?.[lang === 'en' ? 'manuscriptEn' : 'manuscript']) ||
+                t.notInformedMsg || `Manuscript/source not informed.` }
+            </p>
             {witnesses.map(w => {
               const msInfo = manuscriptMap[lo.code]?.find(m => {
                 const label = (w.label || "").toLowerCase();
                 const id = (w.id || "").toLowerCase();
                 if (id === m.id || label.includes(m.id)) return true;
                 if (id === "base") {
+                  if (lo.code === "hebrew" && m.key === "b19a") return true;
                   if (lo.code === "aramaic" && m.key === "targum") return true;
                   if (lo.code === "latin" && m.key === "vulgate") return true;
                   if (lo.code === "syriac" && m.key === "syriac") return true;

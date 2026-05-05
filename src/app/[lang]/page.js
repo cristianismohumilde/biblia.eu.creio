@@ -174,11 +174,7 @@ export default function LangHomePage({ params }) {
           <section className="card" id="verso">
             <h2>{t.literalTranslation}</h2>
             <p className="reference">{data.ref.book} {data.ref.chapter}:{data.ref.verse}</p>
-            <blockquote className="verse">
-              {(lang === 'pt' ? data.ptLiteralVerse : data.enLiteralVerse) || 
-               (data.tokens?.filter(tk => tk.lang === 'hebrew' || tk.lang === 'greek').map(tk => lang === 'pt' ? tk.ptLiteralWord : tk.enLiteralWord).filter(Boolean).join(" ")) || 
-               t.noLiteral}
-            </blockquote>
+            <blockquote className="verse">{lang === 'pt' ? data.ptLiteralVerse : data.enLiteralVerse}</blockquote>
             <p className="translation-meta">{t.translationAuthor} { (lang === 'en' ? data.translation?.authorEn : data.translation?.author) || t.notInformed}</p>
             <p className="translation-meta">{t.translationSource} { (lang === 'en' ? data.translation?.baseTextEn : data.translation?.baseText) || t.notInformed}</p>
           </section>
