@@ -161,12 +161,24 @@ export default function LangHomePage({ params }) {
       <NewsBanner lang={lang} />
       <ReferenceSelector lang={lang} t={t} onSelect={loadVerse} />
 
+      {error && (
+        <section className="card" style={{ borderColor: '#e74c3c', background: '#fdf2f2' }}>
+          <h2 style={{ color: '#c0392b' }}>Erro</h2>
+          <p>{error}</p>
+          <button onClick={() => { setError(null); loadVerse("gen", 1, 1); }} className="support-cta" style={{ fontSize: '0.8rem', padding: '0.4rem 0.8rem' }}>Tentar novamente</button>
+        </section>
+      )}
+
       {data && (
         <>
           <section className="card" id="verso">
             <h2>{t.literalTranslation}</h2>
             <p className="reference">{data.ref.book} {data.ref.chapter}:{data.ref.verse}</p>
-            <blockquote className="verse">{lang === 'pt' ? data.ptLiteralVerse : data.enLiteralVerse}</blockquote>
+            <blockquote className="verse">
+              {(lang === 'pt' ? data.ptLiteralVerse : data.enLiteralVerse) || 
+               (data.tokens?.filter(tk => tk.lang === 'hebrew' || tk.lang === 'greek').map(tk => lang === 'pt' ? tk.ptLiteralWord : tk.enLiteralWord).filter(Boolean).join(" ")) || 
+               t.noLiteral}
+            </blockquote>
             <p className="translation-meta">{t.translationAuthor} { (lang === 'en' ? data.translation?.authorEn : data.translation?.author) || t.notInformed}</p>
             <p className="translation-meta">{t.translationSource} { (lang === 'en' ? data.translation?.baseTextEn : data.translation?.baseText) || t.notInformed}</p>
           </section>

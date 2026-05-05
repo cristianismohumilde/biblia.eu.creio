@@ -62,10 +62,10 @@ export default function WitnessCards({ lang, data, manuscript }) {
 
         const witnesses = providedWitnesses.length > 0 
           ? providedWitnesses 
-          : (sourceText ? [{
+          : (sourceText || data[`${lo.code}Text`] ? [{
               id: "base",
               label: lo.label,
-              text: sourceText,
+              text: sourceText || data[`${lo.code}Text`],
               transliteration: fallbackTransliteration,
               literalPt: fallbackLiteral,
             }] : []);

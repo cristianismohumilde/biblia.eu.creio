@@ -131,17 +131,17 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
 
     if (w) {
       return {
-        label: w.label || manuscriptLabels[lang][manuscript],
-        text: w.text || data.sourceTexts?.[targetLang],
+        label: w.label || (manuscriptLabels[lang] ? manuscriptLabels[lang][manuscript] : manuscript.toUpperCase()),
+        text: w.text || data.sourceTexts?.[targetLang] || data[`${targetLang}Text`],
         transliteration: w.transliteration || translit,
-        literal: w.literalPt || literalEntry?.pt
+        literal: w.literalPt || literalEntry?.pt || data.ptLiteralVerse
       };
     }
     return {
-      label: manuscriptLabels[lang][manuscript],
-      text: data.sourceTexts?.[targetLang],
+      label: (manuscriptLabels[lang] ? manuscriptLabels[lang][manuscript] : manuscript.toUpperCase()),
+      text: data.sourceTexts?.[targetLang] || data[`${targetLang}Text`],
       transliteration: translit,
-      literal: literalEntry?.pt
+      literal: literalEntry?.pt || data.ptLiteralVerse
     };
   })();
 

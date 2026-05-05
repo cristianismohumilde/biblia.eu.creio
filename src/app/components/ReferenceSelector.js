@@ -19,7 +19,9 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
         setBooks(data);
         if (data.length > 0) {
           const bookToUse = initialBook || data[0].code;
-          if (!selectedBook) setSelectedBook(bookToUse);
+          setSelectedBook(bookToUse);
+          setSelectedChapter(initialChapter || "1");
+          setSelectedVerse(initialVerse || "1");
           updateChapters(data, bookToUse, initialChapter || "1", initialVerse || "1");
         }
       });
@@ -30,7 +32,7 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
     if (book) {
       const chaps = Array.from({ length: book.chapters }, (_, i) => i + 1);
       setChapters(chaps);
-      if (!selectedChapter || targetChapter !== "1") setSelectedChapter(targetChapter);
+      setSelectedChapter(targetChapter);
       updateVerses(bookCode, targetChapter, targetVerse);
     }
   };
@@ -40,7 +42,7 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
       .then((res) => res.json())
       .then((data) => {
         setVerses(data.verses);
-        if (!selectedVerse || targetVerse !== "1") setSelectedVerse(targetVerse);
+        setSelectedVerse(targetVerse);
       });
   };
 
