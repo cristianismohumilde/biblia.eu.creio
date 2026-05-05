@@ -7,6 +7,8 @@ import { translations } from "@/app/translations";
 import ReferenceSelector from "./ReferenceSelector";
 import ThemeToggle from "./ThemeToggle";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { handleSpeak, SpeakerIcon } from "@/app/utils/audio";
+
 
 const manuscriptLabels = {
   pt: {
@@ -82,41 +84,6 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
 
   const [chapterData, setChapterData] = useState(null);
 
-  const handleSpeak = (text, langCode) => {
-    if (typeof window === "undefined" || !window.speechSynthesis) return;
-    
-    // Cancela qualquer fala em andamento
-    window.speechSynthesis.cancel();
-
-    const utterance = new SpeechSynthesisUtterance(text);
-    
-    // Mapeamento de códigos BCP 47 para a API de síntese
-    const voiceMap = {
-      hebrew: 'he-IL',
-      greek: 'el-GR',
-      latin: 'it-IT', // Italiano é um bom substituto se Latim não estiver disponível
-      pt: 'pt-BR',
-      en: 'en-US',
-      syriac: 'ar-SY', // Árabe como substituto para fonética semítica
-      aramaic: 'ar-SY',
-      geez: 'am-ET', // Amárico para Ge'ez
-      coptic: 'el-GR',
-      armenian: 'hy-AM'
-    };
-
-    utterance.lang = voiceMap[langCode] || langCode;
-    utterance.rate = 0.85; // Velocidade levemente reduzida para fins de estudo
-    utterance.pitch = 1;
-    
-    window.speechSynthesis.speak(utterance);
-  };
-
-  const SpeakerIcon = () => (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ verticalAlign: 'middle' }}>
-      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-      <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-    </svg>
-  );
 
 
   useEffect(() => {
@@ -272,17 +239,24 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
           <p className="reference">{data.ref.book} {data.ref.chapter}:{data.ref.verse}</p>
           <p className="translation-meta">{witnessData.label}</p>
 
-          <p className="text-witness-label" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            {t.manuscriptText}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginTop: '1rem', marginBottom: '0.3rem' }}>
+            <p className="text-witness-label" style={{ margin: 0 }}>{t.manuscriptText}</p>
             <button 
               onClick={() => handleSpeak(witnessData.text, targetLang)} 
-              className="theme-toggle" 
-              style={{ padding: '0.3rem', display: 'inline-flex', alignItems: 'center' }}
-              title={lang === 'pt' ? "Ouvir original" : "Listen to original"}
+              className="support-cta" 
+              style={{ 
+                padding: '0.2rem 0.6rem', 
+                fontSize: '0.7rem', 
+                display: 'inline-flex', 
+                alignItems: 'center', 
+                gap: '0.3rem',
+                height: 'auto',
+                boxShadow: 'none'
+              }}
             >
-              <SpeakerIcon />
+              🔊 {lang === 'pt' ? "OUVIR" : "LISTEN"}
             </button>
-          </p>
+          </div>
 
           <blockquote className={`verse ${RTL_LANGS.has(targetLang) ? 'rtl' : ''}`}>
             {witnessData.text}
@@ -291,19 +265,28 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
           <p className="text-witness-label">{t.transliteration}</p>
           <p className="text-witness-transliteration">{witnessData.transliteration}</p>
 
-          <p className="text-witness-label" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            {t.literalTranslationLabel}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginTop: '1rem', marginBottom: '0.3rem' }}>
+            <p className="text-witness-label" style={{ margin: 0 }}>{t.literalTranslationLabel}</p>
             <button 
               onClick={() => handleSpeak(witnessData.literal, lang)} 
-              className="theme-toggle" 
-              style={{ padding: '0.3rem', display: 'inline-flex', alignItems: 'center' }}
-              title={lang === 'pt' ? "Ouvir tradução" : "Listen to translation"}
+              className="support-cta" 
+              style={{ 
+                padding: '0.2rem 0.6rem', 
+                fontSize: '0.7rem', 
+                display: 'inline-flex', 
+                alignItems: 'center', 
+                gap: '0.3rem',
+                height: 'auto',
+                boxShadow: 'none',
+                background: 'linear-gradient(120deg, #cc9a58, #e0b37a)' // Cor dourada para diferenciar
+              }}
             >
-              <SpeakerIcon />
+              🔊 {lang === 'pt' ? "OUVIR" : "LISTEN"}
             </button>
-          </p>
+          </div>
 
           <p className="text-witness-literal">{witnessData.literal}</p>
+
         </section>
 
         <section className="card">

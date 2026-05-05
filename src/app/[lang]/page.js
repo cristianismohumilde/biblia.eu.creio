@@ -8,6 +8,8 @@ import WitnessCards from "@/app/components/WitnessCards";
 import ThemeToggle from "@/app/components/ThemeToggle";
 import LanguageSwitcher from "@/app/components/LanguageSwitcher";
 import NewsBanner from "@/app/components/NewsBanner";
+import { handleSpeak } from "@/app/utils/audio";
+
 
 export default function LangHomePage({ params }) {
   const [resolvedParams, setResolvedParams] = useState(null);
@@ -172,9 +174,28 @@ export default function LangHomePage({ params }) {
       {data && (
         <>
           <section className="card" id="verso">
-            <h2>{t.literalTranslation}</h2>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
+              <h2 style={{ margin: 0 }}>{t.literalTranslation}</h2>
+              <button 
+                onClick={() => handleSpeak(lang === 'pt' ? data.ptLiteralVerse : data.enLiteralVerse, lang)} 
+                className="support-cta" 
+                style={{ 
+                  padding: '0.2rem 0.6rem', 
+                  fontSize: '0.7rem', 
+                  display: 'inline-flex', 
+                  alignItems: 'center', 
+                  gap: '0.3rem',
+                  height: 'auto',
+                  boxShadow: 'none',
+                  background: 'linear-gradient(120deg, #cc9a58, #e0b37a)'
+                }}
+              >
+                🔊 {lang === 'pt' ? "OUVIR" : "LISTEN"}
+              </button>
+            </div>
             <p className="reference">{data.ref.book} {data.ref.chapter}:{data.ref.verse}</p>
             <blockquote className="verse">{lang === 'pt' ? data.ptLiteralVerse : data.enLiteralVerse}</blockquote>
+
             <p className="translation-meta">{t.translationAuthor} { (lang === 'en' ? data.translation?.authorEn : data.translation?.author) || t.notInformed}</p>
             <p className="translation-meta">{t.translationSource} { (lang === 'en' ? data.translation?.baseTextEn : data.translation?.baseText) || t.notInformed}</p>
           </section>

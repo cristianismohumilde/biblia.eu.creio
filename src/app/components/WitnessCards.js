@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { translations } from "@/app/translations";
+import { handleSpeak } from "@/app/utils/audio";
+
 
 const RTL_LANGS = new Set(["hebrew", "aramaic", "syriac"]);
 
@@ -107,13 +109,51 @@ export default function WitnessCards({ lang, data, manuscript }) {
 
               return (
                 <div key={w.id} className={`text-witness ${isCurrent ? 'active-witness' : ''}`}>
-                  <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`}>
-                    {w.text || t.noText}
-                  </p>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '0.5rem' }}>
+                    <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`} style={{ flex: 1 }}>
+                      {w.text || t.noText}
+                    </p>
+                    <button 
+                      onClick={() => handleSpeak(w.text || data.sourceTexts?.[lo.code] || data[`${lo.code}Text`], lo.code)} 
+                      className="support-cta" 
+                      style={{ 
+                        padding: '0.2rem 0.5rem', 
+                        fontSize: '0.65rem', 
+                        display: 'inline-flex', 
+                        alignItems: 'center', 
+                        gap: '0.2rem',
+                        height: 'auto',
+                        boxShadow: 'none',
+                        marginTop: '0.2rem'
+                      }}
+                    >
+                      🔊
+                    </button>
+                  </div>
+
                   <p className="text-witness-label">{t.transliteration}</p>
                   <p className="text-witness-transliteration">{w.transliteration || fallbackTransliteration || t.noTranslit}</p>
-                  <p className="text-witness-label">{t.literalTranslationLabel}</p>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginTop: '0.8rem' }}>
+                    <p className="text-witness-label" style={{ margin: 0 }}>{t.literalTranslationLabel}</p>
+                    <button 
+                      onClick={() => handleSpeak((lang === 'en' ? w.literalEn : w.literalPt) || fallbackLiteral, lang)} 
+                      className="support-cta" 
+                      style={{ 
+                        padding: '0.1rem 0.4rem', 
+                        fontSize: '0.6rem', 
+                        display: 'inline-flex', 
+                        alignItems: 'center', 
+                        gap: '0.2rem',
+                        height: 'auto',
+                        boxShadow: 'none',
+                        background: 'linear-gradient(120deg, #cc9a58, #e0b37a)'
+                      }}
+                    >
+                      🔊 {lang === 'pt' ? "OUVIR" : "LISTEN"}
+                    </button>
+                  </div>
                   <p className="text-witness-literal">{(lang === 'en' ? w.literalEn : w.literalPt) || fallbackLiteral || t.noLiteral}</p>
+
                   
                   {msInfo && !isCurrent && (
                     <div className="manuscript-actions">
