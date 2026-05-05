@@ -17,15 +17,19 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
       .then((res) => res.json())
       .then((data) => {
         setBooks(data);
-        if (data.length > 0) {
-          const bookToUse = initialBook || data[0].code;
-          setSelectedBook(bookToUse);
-          setSelectedChapter(initialChapter || "1");
-          setSelectedVerse(initialVerse || "1");
-          updateChapters(data, bookToUse, initialChapter || "1", initialVerse || "1");
-        }
       });
-  }, [initialBook, initialChapter, initialVerse]);
+  }, []);
+
+  useEffect(() => {
+    if (books.length === 0) return;
+    
+    const bookToUse = initialBook || books[0].code;
+    setSelectedBook(bookToUse);
+    setSelectedChapter(initialChapter || "1");
+    setSelectedVerse(initialVerse || "1");
+    updateChapters(books, bookToUse, initialChapter || "1", initialVerse || "1");
+  }, [books, initialBook, initialChapter, initialVerse]);
+
 
   const updateChapters = (allBooks, bookCode, targetChapter = "1", targetVerse = "1") => {
     const book = allBooks.find((b) => b.code === bookCode);
@@ -37,14 +41,24 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
     }
   };
 
+  const [lastFetched, setLastFetched] = useState({ book: "", chapter: "" });
+
   const updateVerses = (bookCode, chapter, targetVerse = "1") => {
+    if (lastFetched.book === bookCode && lastFetched.chapter === chapter) {
+      setSelectedVerse(targetVerse);
+      return;
+    }
+
     fetch(`/data/books/${bookCode}/chapters/${chapter}.json`)
       .then((res) => res.json())
       .then((data) => {
         setVerses(data.verses);
         setSelectedVerse(targetVerse);
-      });
+        setLastFetched({ book: bookCode, chapter: chapter });
+      })
+      .catch(err => console.error("Erro ao carregar lista de versos:", err));
   };
+
 
   const handleBookChange = (e) => {
     const code = e.target.value;

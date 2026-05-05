@@ -33,6 +33,38 @@ const manuscriptLabels = {
   }
 };
 
+const morphTranslations = {
+  en: {
+    "verbo": "Verb",
+    "subst": "Noun",
+    "substantivo": "Noun",
+    "marcador": "Marker",
+    "artigo": "Article",
+    "particípio": "participle",
+    "advérbio": "adverb",
+    "adjetivo": "adjective",
+    "pronome": "pronoun",
+    "preposição": "preposition",
+    "conjunção": "conjunction",
+    "numeral": "numeral",
+    "interjeição": "interjection",
+    "conj": "Conj"
+  }
+};
+
+const formatMorph = (morph, lang) => {
+  if (!morph || lang === 'pt' || !morphTranslations[lang]) return morph;
+  let result = morph;
+  const dict = morphTranslations[lang];
+  
+  Object.entries(dict).forEach(([pt, en]) => {
+    const regex = new RegExp(`\\b${pt}\\b`, 'gi');
+    result = result.replace(regex, en);
+  });
+  return result;
+};
+
+
 const RTL_LANGS = new Set(["hebrew", "aramaic", "syriac"]);
 
 function InterlinearContent({ lang, manuscript, initialBook, initialChapter, initialVerse }) {
@@ -48,6 +80,8 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
   const [filter, setFilter] = useState("");
   const [error, setError] = useState(null);
 
+  const [chapterData, setChapterData] = useState(null);
+
   useEffect(() => {
     if (!book || !chapter) return;
     
@@ -59,21 +93,27 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
       })
       .then((json) => {
         if (!json.verses) throw new Error("Formato de capítulo inválido");
-        // Encontra o verso específico dentro do capítulo
-        const verseData = json.verses.find(v => v.verse === parseInt(verse));
-        if (!verseData) {
-          // Se não achar o verso (ex: mudou de livro), pega o primeiro do capítulo
-          setData(json.verses[0]);
-        } else {
-          setData(verseData);
-        }
+        setChapterData(json);
         setError(null);
       })
       .catch((err) => {
-        console.error("Erro ao carregar verso:", err);
+        console.error("Erro ao carregar capítulo:", err);
         setError(err.message);
       });
-  }, [book, chapter, verse, manuscript]); // Adicionado manuscript e verse explicitamente
+  }, [book, chapter]);
+
+  useEffect(() => {
+    if (!chapterData) return;
+    
+    const vNum = parseInt(verse);
+    const verseData = chapterData.verses.find(v => v.verse === vNum);
+    if (!verseData) {
+      setData(chapterData.verses[0]);
+    } else {
+      setData(verseData);
+    }
+  }, [chapterData, verse]);
+
 
   const langMap = {
     b19a: "hebrew",
@@ -179,7 +219,19 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
         <ReferenceSelector lang={lang} t={t} isInterlinear manuscript={manuscript} initialBook={book} initialChapter={chapter} initialVerse={verse} />
 
         <section className="card" id="visao-geral">
-          <h2>{t.verseVision}</h2>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '1rem' }}>
+            <h2 style={{ margin: 0 }}>{t.verseVision}</h2>
+            <div style={{ display: 'flex', gap: '0.5rem' }}>
+              {parseInt(verse) > 1 && (
+                <Link href={`/${lang}/interlinear/${manuscript}/${book}/${chapter}?v=${parseInt(verse) - 1}`} className="support-cta" style={{ padding: '0.4rem 0.8rem', fontSize: '0.9rem' }}>
+                  ⬅ {lang === 'en' ? 'Previous' : 'Anterior'}
+                </Link>
+              )}
+              <Link href={`/${lang}/interlinear/${manuscript}/${book}/${chapter}?v=${parseInt(verse) + 1}`} className="support-cta" style={{ padding: '0.4rem 0.8rem', fontSize: '0.9rem' }}>
+                {lang === 'en' ? 'Next' : 'Próximo'} ➡
+              </Link>
+            </div>
+          </div>
           <p className="reference">{data.ref.book} {data.ref.chapter}:{data.ref.verse}</p>
           <p className="translation-meta">{witnessData.label}</p>
 
@@ -337,7 +389,7 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
                         return "-";
                       })()}</td>
                     )}
-                    <td>{token.morph}</td>
+                    <td>{formatMorph(token.morph, lang)}</td>
                     <td>{lang === 'pt' ? token.ptLiteralWord : token.enLiteralWord}</td>
                   </tr>
                 ))}
