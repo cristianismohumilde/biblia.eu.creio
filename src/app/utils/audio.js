@@ -33,33 +33,46 @@ export const handleSpeak = (text, langCode) => {
 
   console.log(`🔊 [Audio] Lang: ${targetLang} | Original: ${langCode} | Text: ${cleanText.slice(0, 30)}...`);
 
+  // Feedback visual (opcional, mas ajuda a depurar)
+  const showToast = (msg) => {
+    let toast = document.getElementById('audio-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'audio-toast';
+      toast.style = "position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.8); color:white; padding:8px 16px; border-radius:20px; z-index:9999; font-size:12px; font-family:sans-serif; pointer-events:none; transition:opacity 0.3s;";
+      document.body.appendChild(toast);
+    }
+    toast.textContent = msg;
+    toast.style.opacity = '1';
+    setTimeout(() => { toast.style.opacity = '0'; }, 2000);
+  };
+
+  showToast(`${langCode.toUpperCase()}...`);
+
   // 2. Limpeza de instâncias anteriores
   if (window._currentAudio) {
     window._currentAudio.pause();
-    if (window._currentAudio.parentNode) {
-      window._currentAudio.parentNode.removeChild(window._currentAudio);
-    }
+    window._currentAudio = null;
   }
 
-  // 3. Criação do elemento de áudio no DOM (mais robusto que new Audio())
-  const audio = document.createElement('audio');
-  audio.style.display = 'none';
-  // Endpoint gtx é mais permissivo com scripts externos
-  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${targetLang}&client=gtx&ttsspeed=1`;
+  // 3. Técnica de Fetch + Blob URL (Bypassa restrições de alguns navegadores para áudio externo)
+  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${targetLang}&client=tw-ob`;
   
-  audio.src = url;
-  audio.setAttribute('autoplay', 'true');
-  document.body.appendChild(audio);
-  window._currentAudio = audio;
-
-  const playPromise = audio.play();
-
-  if (playPromise !== undefined) {
-    playPromise.catch(error => {
-      console.error("❌ Google TTS falhou:", error);
+  fetch(url)
+    .then(response => {
+      if (!response.ok) throw new Error("Google bloqueou a requisição");
+      return response.blob();
+    })
+    .then(blob => {
+      const blobUrl = URL.createObjectURL(blob);
+      const audio = new Audio(blobUrl);
+      window._currentAudio = audio;
+      return audio.play();
+    })
+    .catch(error => {
+      console.error("❌ Erro no streaming de áudio:", error);
       
-      // Fallback 2: Web Speech API (Vozes do Sistema)
-      console.log("🔄 Tentando Fallback local...");
+      // Fallback final: Web Speech API (Vozes do Sistema)
       if (window.speechSynthesis) {
         window.speechSynthesis.cancel();
         const utterance = new SpeechSynthesisUtterance(cleanText);
@@ -69,11 +82,8 @@ export const handleSpeak = (text, langCode) => {
         window.speechSynthesis.speak(utterance);
       }
     });
-  }
-
-  // Remove o elemento após terminar ou erro
-  audio.onended = () => { if (audio.parentNode) audio.parentNode.removeChild(audio); };
 };
+
 
 
 
