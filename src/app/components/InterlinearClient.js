@@ -48,13 +48,18 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const filePath = `/data/verses/${book.toLowerCase()}.${chapter}.${verse}.json`;
+    const filePath = `/data/verses/${book.toLowerCase()}.${chapter}.json`;
     fetch(filePath)
       .then((res) => {
-        if (!res.ok) throw new Error("Verso não encontrado");
+        if (!res.ok) throw new Error("Capítulo não encontrado");
         return res.json();
       })
-      .then((json) => setData(json))
+      .then((json) => {
+        // Encontra o verso específico dentro do capítulo
+        const verseData = json.verses.find(v => v.verse === parseInt(verse));
+        if (!verseData) throw new Error("Versículo não encontrado no capítulo");
+        setData(verseData);
+      })
       .catch((err) => setError(err.message));
   }, [book, chapter, verse]);
 

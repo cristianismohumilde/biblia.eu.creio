@@ -162,14 +162,18 @@ function applyTranslations() {
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     let changed = false;
 
-    if (data.tokens) {
-      for (const token of data.tokens) {
-        const entry = PT_TRANSLATIONS[token.strong];
-        if (entry) {
-          token.ptLiteralWord = entry.pt;
-          token.explanation   = entry.ex;
-          changed = true;
-          tokensUpdated++;
+    if (data.verses) {
+      for (const verse of data.verses) {
+        if (verse.tokens) {
+          for (const token of verse.tokens) {
+            const entry = PT_TRANSLATIONS[token.strong];
+            if (entry) {
+              token.ptLiteralWord = entry.pt;
+              token.explanation   = entry.ex;
+              changed = true;
+              tokensUpdated++;
+            }
+          }
         }
       }
     }

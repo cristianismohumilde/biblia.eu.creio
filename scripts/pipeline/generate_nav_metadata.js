@@ -69,15 +69,18 @@ function run() {
 
   for (const file of files) {
     const parts = file.replace('.json', '').split('.');
-    if (parts.length !== 3) continue;
-    const [book, chapter, verse] = parts;
+    if (parts.length !== 2) continue; // Agora é book.chapter.json
+    const [book, chapter] = parts;
     const chNum = parseInt(chapter);
-    const vNum  = parseInt(verse);
-    if (!book || isNaN(chNum) || isNaN(vNum)) continue;
+    if (!book || isNaN(chNum)) continue;
 
-    if (!index[book]) index[book] = {};
-    if (!index[book][chNum]) index[book][chNum] = [];
-    index[book][chNum].push(vNum);
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(VERSES_DIR, file), 'utf8'));
+      if (data.verses) {
+        if (!index[book]) index[book] = {};
+        index[book][chNum] = data.verses.map(v => v.verse).sort((a, b) => a - b);
+      }
+    } catch (e) { console.error(`Erro ao ler ${file}:`, e.message); }
   }
 
   // Ordena versos dentro de cada capítulo

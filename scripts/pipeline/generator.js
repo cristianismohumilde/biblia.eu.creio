@@ -243,14 +243,28 @@ async function run() {
       const xmlContent = fs.readFileSync(path.join(WLC_DIR, xmlFile), 'utf8');
       const verses = parseOSISBook(xmlContent, osisCode, siteCode, lexicon);
 
+      // Agrupa versos por capítulo
+      const chapters = {};
       for (const verse of verses) {
-        const outFile = path.join(OUT_DIR, `${verse.id}.json`);
-        fs.writeFileSync(outFile, JSON.stringify(verse, null, 2), 'utf8');
-        totalTokens += verse.tokens.length;
+        if (!chapters[verse.chapter]) chapters[verse.chapter] = [];
+        chapters[verse.chapter].push(verse);
+      }
+
+      // Salva um arquivo por capítulo
+      for (const [chNum, chapterVerses] of Object.entries(chapters)) {
+        const outFile = path.join(OUT_DIR, `${siteCode}.${chNum}.json`);
+        const chapterData = {
+          book: osisCode,
+          bookCode: siteCode,
+          chapter: parseInt(chNum),
+          verses: chapterVerses
+        };
+        fs.writeFileSync(outFile, JSON.stringify(chapterData, null, 2), 'utf8');
+        totalTokens += chapterVerses.reduce((a, v) => a + v.tokens.length, 0);
       }
 
       totalVerses += verses.length;
-      console.log(`${verses.length} versos | ${verses.reduce((a, v) => a + v.tokens.length, 0)} tokens`);
+      console.log(`${verses.length} versos | ${chapters.length || Object.keys(chapters).length} capítulos`);
     } catch (err) {
       console.log(`❌ ERRO: ${err.message}`);
       errors.push({ book: osisCode, error: err.message });
