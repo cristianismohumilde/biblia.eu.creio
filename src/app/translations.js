@@ -93,6 +93,8 @@ export const translations = {
     summary: "Resumo",
     manuscriptSource: "Manuscrito/Fonte",
     notInformedMsg: "não informado",
+    updates: "Novidades",
+
 
   },
   en: {
@@ -187,6 +189,8 @@ export const translations = {
     summary: "Summary",
     manuscriptSource: "Manuscript/Source",
     notInformedMsg: "not informed",
+    updates: "Updates",
+
 
   }
 };

@@ -38,10 +38,12 @@ This project is a pillar of **Open Data**. We ensure absolute legal safety for c
 ## ⚡ Core Capabilities
 
 - **📖 Token-Level Interlinear:** Surface text, transliteration, lemma, morphology, and lexical references.
+- **🔊 High-Quality Cloud Audio:** Hear original manuscripts and literal translations via advanced Cloud TTS (Google engine).
 - **🔄 Witness Comparison:** Compare different manuscripts (Leningradensis, LXX, Vulgate, etc.) per verse.
-- **📍 Dynamic Navigation:** Book ➔ Chapter ➔ Verse navigation with SEO-optimized routes.
+- **📍 Dynamic Navigation:** Instant verse-by-verse navigation with cached data loading.
 - **🔍 Real-time Filtering:** Search and filter tokens in interlinear tables instantly.
 - **🌓 Theme Support:** Premium Dark and Light modes for long study sessions.
+
 
 ## 🛠️ Technology Stack
 

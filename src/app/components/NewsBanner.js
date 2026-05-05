@@ -2,10 +2,11 @@ import Link from "next/link";
 
 export default function NewsBanner({ lang }) {
   const text = lang === 'en' 
-    ? "For the book of Genesis in Hebrew, we now use only the Codex Leningradensis (B19A)" 
-    : "Para o livro de Gênesis em Hebraico, agora utilizamos exclusivamente o Codex Leningradensis (B19A)";
+    ? "New: High-quality audio for original languages and literal translations!" 
+    : "Novidade: Áudio de alta fidelidade para os idiomas originais e traduções literais!";
   
-  const linkText = lang === 'en' ? "read more" : "leia mais";
+  const linkText = lang === 'en' ? "learn more" : "saiba mais";
+
 
   return (
     <div className="news-banner">

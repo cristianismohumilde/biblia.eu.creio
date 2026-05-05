@@ -38,10 +38,12 @@ Este projeto é construído sobre o pilar dos **Dados Abertos (Open Data)**. Gar
 ## ⚡ Capacidades Principais
 
 - **📖 Interlinear por Token:** Texto de superfície, transliteração, lema, morfologia e referências lexicais.
+- **🔊 Áudio de Alta Fidelidade em Nuvem:** Ouça os manuscritos originais e traduções literais via Cloud TTS avançado (motor Google).
 - **🔄 Comparação de Testemunhos:** Compare diferentes manuscritos (Leningradensis, LXX, Vulgata, etc.) por verso.
-- **📍 Navegação Dinâmica:** Navegação Livro ➔ Capítulo ➔ Verso com rotas otimizadas para SEO.
+- **📍 Navegação Dinâmica:** Navegação instantânea verso a verso com carregamento de dados otimizado.
 - **🔍 Filtros em Tempo Real:** Busque e filtre tokens nas tabelas interlineares instantaneamente.
 - **🌓 Suporte a Temas:** Modos Escuro e Claro premium para longas sessões de estudo.
+
 
 ## 🛠️ Stack Tecnológica
 
