@@ -22,17 +22,23 @@ export const handleSpeak = (text, langCode) => {
 
   const targetLang = voiceMap[langCode] || langCode;
 
-  // Tentativa 1: Google Translate TTS (Alta qualidade, funciona em qualquer lugar)
-  // Nota: 'client=tw-ob' é necessário para uso público sem chave de API
-  const googleTtsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=${targetLang}&client=tw-ob`;
+  // Limpeza básica do texto para evitar problemas na URL (limite de ~200 caracteres)
+  const cleanText = text.slice(0, 200).trim();
+
+  // Tentativa 1: Google Translate TTS (Motor robusto)
+  // Usando 'client=gtx' que é mais estável para requisições diretas
+  const googleTtsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${targetLang}&client=gtx&total=1&idx=0&textlen=${cleanText.length}`;
   
+  console.log(`Tentando áudio para [${langCode}]: ${googleTtsUrl}`);
+
   const audio = new Audio(googleTtsUrl);
   
   audio.play().catch(err => {
-    console.warn("Google TTS falhou, tentando fallback local:", err);
+    console.error("Erro ao reproduzir áudio via Google:", err);
     
-    // Fallback: Web Speech API (Vozes do sistema)
-    const utterance = new SpeechSynthesisUtterance(text);
+    // Fallback: Web Speech API (Vozes locais do sistema)
+    console.log("Tentando fallback para vozes locais...");
+    const utterance = new SpeechSynthesisUtterance(cleanText);
     const bcp47Map = {
       he: 'he-IL', el: 'el-GR', la: 'la', pt: 'pt-BR', en: 'en-US', ar: 'ar-SY'
     };
@@ -41,6 +47,7 @@ export const handleSpeak = (text, langCode) => {
     window.speechSynthesis.speak(utterance);
   });
 };
+
 
 
 

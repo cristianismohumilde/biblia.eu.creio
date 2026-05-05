@@ -178,27 +178,50 @@ export default function LangHomePage({ params }) {
       {data && (
         <>
           <section className="card" id="verso">
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '0.5rem' }}>
-              <h2 style={{ margin: 0 }}>{t.literalTranslation}</h2>
-              <button 
-                onClick={() => handleSpeak(lang === 'pt' ? data.ptLiteralVerse : data.enLiteralVerse, lang)} 
-                className="support-cta" 
-                style={{ 
-                  padding: '0.2rem 0.6rem', 
-                  fontSize: '0.7rem', 
-                  display: 'inline-flex', 
-                  alignItems: 'center', 
-                  gap: '0.3rem',
-                  height: 'auto',
-                  boxShadow: 'none',
-                  background: 'linear-gradient(120deg, #cc9a58, #e0b37a)'
-                }}
-              >
-                🔊 {lang === 'pt' ? "OUVIR" : "LISTEN"}
-              </button>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '1rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+                <h2 style={{ margin: 0 }}>{t.literalTranslation}</h2>
+                <button 
+                  onClick={() => handleSpeak(lang === 'pt' ? data.ptLiteralVerse : data.enLiteralVerse, lang)} 
+                  className="support-cta" 
+                  style={{ 
+                    padding: '0.2rem 0.6rem', 
+                    fontSize: '0.7rem', 
+                    display: 'inline-flex', 
+                    alignItems: 'center', 
+                    gap: '0.3rem',
+                    height: 'auto',
+                    boxShadow: 'none',
+                    background: 'linear-gradient(120deg, #cc9a58, #e0b37a)'
+                  }}
+                >
+                  🔊 {lang === 'pt' ? "OUVIR" : "LISTEN"}
+                </button>
+              </div>
+              
+              <div style={{ display: 'flex', gap: '0.5rem' }}>
+                {parseInt(data.ref.verse || data.verse) > 1 && (
+                  <button 
+                    onClick={() => loadVerse(data.ref.book, data.ref.chapter, parseInt(data.ref.verse || data.verse) - 1)} 
+                    className="support-cta" 
+                    style={{ padding: '0.4rem 0.8rem', fontSize: '0.9rem' }}
+                  >
+                    ⬅ {lang === 'en' ? 'Previous' : 'Anterior'}
+                  </button>
+                )}
+                <button 
+                  onClick={() => loadVerse(data.ref.book, data.ref.chapter, parseInt(data.ref.verse || data.verse) + 1)} 
+                  className="support-cta" 
+                  style={{ padding: '0.4rem 0.8rem', fontSize: '0.9rem' }}
+                >
+                  {lang === 'en' ? 'Next' : 'Próximo'} ➡
+                </button>
+              </div>
             </div>
-            <p className="reference">{data.ref.book} {data.ref.chapter}:{data.ref.verse}</p>
+
+            <p className="reference">{data.ref.book} {data.ref.chapter}:{data.ref.verse || data.verse}</p>
             <blockquote className="verse">{lang === 'pt' ? data.ptLiteralVerse : data.enLiteralVerse}</blockquote>
+
 
             <p className="translation-meta">{t.translationAuthor} { (lang === 'en' ? data.translation?.authorEn : data.translation?.author) || t.notInformed}</p>
             <p className="translation-meta">{t.translationSource} { (lang === 'en' ? data.translation?.baseTextEn : data.translation?.baseText) || t.notInformed}</p>
