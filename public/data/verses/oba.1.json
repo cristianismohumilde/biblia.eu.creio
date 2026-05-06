@@ -1900,7 +1900,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "um dia",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -1919,7 +1919,7 @@
           "kjv": "he, as for her, him(-self), it, the same, she (herself), such, that (...it), these, they, this, those, which (is), who.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
+          "ptLiteralWord": "ele",
           "enLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
           "explanation": "he ; only expressed when emphatic or without a verb; also  self",
           "explanationEn": "he ; only expressed when emphatic or without a verb; also  self"
@@ -1938,7 +1938,7 @@
           "kjv": "(hath) said, saith.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "an oracle",
+          "ptLiteralWord": "um oráculo",
           "enLiteralWord": "an oracle",
           "explanation": "an oracle",
           "explanationEn": "an oracle"
@@ -1957,7 +1957,7 @@
           "kjv": "Jehovah, the Lord. Compare H3050 (יָהּ), H3069 (יְהֹוִה).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "O SENHOR",
+          "ptLiteralWord": "Jehovah",
           "enLiteralWord": "Jehovah",
           "explanation": "YHWH — Nome próprio de Deus revelado a Moisés. Tradição massorética lê \"Adonai\"",
           "explanationEn": "Jehovah"
@@ -1976,7 +1976,7 @@
           "kjv": "break, destroy(-uction), [phrase] not escape, fail, lose, (cause to, make) perish, spend, [idiom] and surely, take, be undone, [idiom] utterly, be void of, have no way to flee.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -1995,7 +1995,7 @@
           "kjv": "cunning (man), subtil, (un-), wise((hearted), man).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "wise",
+          "ptLiteralWord": "sábio",
           "enLiteralWord": "wise",
           "explanation": "wise",
           "explanationEn": "wise"
@@ -2033,7 +2033,7 @@
           "kjv": "discretion, reason, skilfulness, understanding, wisdom.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "intelligence; by implication",
+          "ptLiteralWord": "inteligência",
           "enLiteralWord": "intelligence; by implication",
           "explanation": "intelligence; by implication",
           "explanationEn": "intelligence; by implication"
@@ -2052,7 +2052,7 @@
           "kjv": "hill (country), mount(-ain), [idiom] promotion.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a mountain or range of hills",
+          "ptLiteralWord": "uma montanha",
           "enLiteralWord": "a mountain or range of hills",
           "explanation": "a mountain or range of hills",
           "explanationEn": "a mountain or range of hills"
@@ -2076,7 +2076,8 @@
           "explanation": "Esav",
           "explanationEn": "Esav"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Não há um dia em que ele seja sábio, diz o Senhor, Deus de Israel, sobre Edom: 'Ele não há, e não há inteligência em Sião, e não há um que possa dar conselhos de Deus.'"
     },
     {
       "id": "oba.1.9",
@@ -2104,7 +2105,7 @@
           "kjv": "abolish, affright, be (make) afraid, amaze, beat down, discourage, (cause to) dismay, go down, scare, terrify.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "corretamente",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -2123,7 +2124,7 @@
           "kjv": "champion, chief, [idiom] excel, giant, man, mighty (man, one), strong (man), valiant man.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "powerful; by implication",
+          "ptLiteralWord": "poderoso; por implicação",
           "enLiteralWord": "powerful; by implication",
           "explanation": "powerful; by implication",
           "explanationEn": "powerful; by implication"
@@ -2161,7 +2162,7 @@
           "kjv": "because of, to the end (intent) that, for (to,... 's sake), [phrase] lest, that, to.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "corretamente",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -2180,7 +2181,7 @@
           "kjv": "be chewed, be con-(feder-) ate, covenant, cut (down, off), destroy, fail, feller, be freed, hew (down), make a league (covenant), [idiom] lose, perish, [idiom] utterly, [idiom] want.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to cut (off",
+          "ptLiteralWord": "cortar (off)",
           "enLiteralWord": "to cut (off",
           "explanation": "to cut (off",
           "explanationEn": "to cut (off"
@@ -2199,7 +2200,7 @@
           "kjv": "also, another, any (man), a certain, [phrase] champion, consent, each, every (one), fellow, (foot-, husband-) man, (good-, great, mighty) man, he, high (degree), him (that is), husband, man(-kind), [phrase] none, one, people, person, [phrase] steward, what (man) soever, whoso(-ever), worthy. Compare H802 (אִשָּׁה).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "homem/alguém",
+          "ptLiteralWord": "um homem como um indivíduo ou um homem; frequentemente usado como um adjunto a um termo mais definido",
           "enLiteralWord": "a man as an individual or a male person; often used as an adjunct to a more definite term",
           "explanation": "ish — homem, varão, marido, indivíduo, alguém",
           "explanationEn": "a man as an individual or a male person; often used as an adjunct to a more definite term"
@@ -2218,7 +2219,7 @@
           "kjv": "hill (country), mount(-ain), [idiom] promotion.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a mountain or range of hills",
+          "ptLiteralWord": "uma montanha ou uma cadeia de colinas",
           "enLiteralWord": "a mountain or range of hills",
           "explanation": "a mountain or range of hills",
           "explanationEn": "a mountain or range of hills"
@@ -2256,12 +2257,13 @@
           "kjv": "slaughter.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a violent death",
+          "ptLiteralWord": "uma morte violenta",
           "enLiteralWord": "a violent death",
           "explanation": "a violent death",
           "explanationEn": "a violent death"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Não há versículo original fornecido, por favor forneça o texto original em inglês."
     },
     {
       "id": "oba.1.10",
@@ -2289,7 +2291,7 @@
           "kjv": "cruel(-ty), damage, false, injustice, [idiom] oppressor, unrighteous, violence (against, done), violent (dealing), wrong.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "violence; by implication",
+          "ptLiteralWord": "violência; por implicação",
           "enLiteralWord": "violence; by implication",
           "explanation": "violence; by implication",
           "explanationEn": "violence; by implication"
@@ -2308,7 +2310,7 @@
           "kjv": "another, brother(-ly); kindred, like, other. Compare also the proper names beginning with 'Ah-' or 'Ahi-'.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "irmão",
+          "ptLiteralWord": "um irmão",
           "enLiteralWord": "a brother )",
           "explanation": "ach — irmão, parente próximo, aliado",
           "explanationEn": "a brother )"
@@ -2327,7 +2329,7 @@
           "kjv": "Jacob.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Jacó",
+          "ptLiteralWord": "Jaakob",
           "enLiteralWord": "Jaakob",
           "explanation": "Yaaqov — Jacó (depois chamado Israel), patriarca das 12 tribos",
           "explanationEn": "Jaakob"
@@ -2346,7 +2348,7 @@
           "kjv": "clad self, close, clothe, conceal, cover (self), (flee to) hide, overwhelm. Compare H3780 (כָּשָׂה).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "corretamente",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -2365,7 +2367,7 @@
           "kjv": "shame.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "shame",
+          "ptLiteralWord": "vergonha",
           "enLiteralWord": "shame",
           "explanation": "shame",
           "explanationEn": "shame"
@@ -2384,7 +2386,7 @@
           "kjv": "be chewed, be con-(feder-) ate, covenant, cut (down, off), destroy, fail, feller, be freed, hew (down), make a league (covenant), [idiom] lose, perish, [idiom] utterly, [idiom] want.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to cut (off",
+          "ptLiteralWord": "para cortar (off)",
           "enLiteralWord": "to cut (off",
           "explanation": "to cut (off",
           "explanationEn": "to cut (off"
@@ -2403,12 +2405,13 @@
           "kjv": "alway(-s), ancient (time), any more, continuance, eternal, (for, (n-)) ever(-lasting, -more, of old), lasting, long (time), (of) old (time), perpetual, at any time, (beginning of the) world ([phrase] without end). Compare H5331 (נֶצַח), H5703 (עַד).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "corretamente",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Não há versículo original fornecido, por favor forneça o texto original em inglês."
     },
     {
       "id": "oba.1.11",
@@ -2436,7 +2439,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "um dia",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -2455,7 +2458,7 @@
           "kjv": "abide (behind), appoint, arise, cease, confirm, continue, dwell, be employed, endure, establish, leave, make, ordain, be (over), place, (be) present (self), raise up, remain, repair, [phrase] serve, set (forth, over, -tle, up), (make to, make to be at a, with-) stand (by, fast, firm, still, up), (be at a) stay (up), tarry.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to stand",
+          "ptLiteralWord": "se levantar",
           "enLiteralWord": "to stand",
           "explanation": "to stand",
           "explanationEn": "to stand"
@@ -2474,7 +2477,7 @@
           "kjv": "about, (over) against, [idiom] aloof, [idiom] far (off), [idiom] from, over, presence, [idiom] other side, sight, [idiom] to view.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a front",
+          "ptLiteralWord": "em frente",
           "enLiteralWord": "a front",
           "explanation": "a front",
           "explanationEn": "a front"
@@ -2493,7 +2496,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "um dia",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -2512,7 +2515,7 @@
           "kjv": "(bring away, carry, carry away, lead, lead away, take) captive(-s), drive (take) away.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to transport into captivity",
+          "ptLiteralWord": "transportar para cativeiro",
           "enLiteralWord": "to transport into captivity",
           "explanation": "to transport into captivity",
           "explanationEn": "to transport into captivity"
@@ -2531,7 +2534,7 @@
           "kjv": "(come from) another (man, place), fanner, go away, (e-) strange(-r, thing, woman).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to turn aside ; hence to be aforeigner",
+          "ptLiteralWord": "tornar-se estrangeiro",
           "enLiteralWord": "to turn aside ; hence to be aforeigner",
           "explanation": "to turn aside ; hence to be aforeigner",
           "explanationEn": "to turn aside ; hence to be aforeigner"
@@ -2550,7 +2553,7 @@
           "kjv": "able, activity, ([phrase]) army, band of men (soldiers), company, (great) forces, goods, host, might, power, riches, strength, strong, substance, train, ([phrase]) valiant(-ly), valour, virtuous(-ly), war, worthy(-ily).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "probably a force",
+          "ptLiteralWord": "uma força",
           "enLiteralWord": "probably a force",
           "explanation": "probably a force",
           "explanationEn": "probably a force"
@@ -2569,7 +2572,7 @@
           "kjv": "alien, foreigner, outlandish, strange(-r, woman).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "strange",
+          "ptLiteralWord": "estranho",
           "enLiteralWord": "strange",
           "explanation": "strange",
           "explanationEn": "strange"
@@ -2588,7 +2591,7 @@
           "kjv": "abide, apply, attain, [idiom] be, befall, [phrase] besiege, bring (forth, in, into, to pass), call, carry, [idiom] certainly, (cause, let, thing for) to come (against, in, out, upon, to pass), depart, [idiom] doubtless again, [phrase] eat, [phrase] employ, (cause to) enter (in, into, -tering, -trance, -try), be fallen, fetch, [phrase] follow, get, give, go (down, in, to war), grant, [phrase] have, [idiom] indeed, (in-) vade, lead, lift (up), mention, pull in, put, resort, run (down), send, set, [idiom] (well) stricken (in age), [idiom] surely, take (in), way.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "veio/entrou/foi",
+          "ptLiteralWord": "ir ou vir",
           "enLiteralWord": "to go or come",
           "explanation": "bo — vir, ir, entrar, chegar, avançar em direção a algo",
           "explanationEn": "to go or come"
@@ -2607,7 +2610,7 @@
           "kjv": "city, door, gate, port ([idiom] -er).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "an opening",
+          "ptLiteralWord": "uma abertura",
           "enLiteralWord": "an opening",
           "explanation": "an opening",
           "explanationEn": "an opening"
@@ -2626,7 +2629,7 @@
           "kjv": "city, door, gate, port ([idiom] -er).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "an opening",
+          "ptLiteralWord": "uma abertura",
           "enLiteralWord": "an opening",
           "explanation": "an opening",
           "explanationEn": "an opening"
@@ -2645,7 +2648,7 @@
           "kjv": "above, according to(-ly), after, (as) against, among, and, [idiom] as, at, because of, beside (the rest of), between, beyond the time, [idiom] both and, by (reason of), [idiom] had the charge of, concerning for, in (that), (forth, out) of, (from) (off), (up-) on, over, than, through(-out), to, touching, [idiom] with.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "sobre/acima",
+          "ptLiteralWord": "acima",
           "enLiteralWord": "above",
           "explanation": "al — sobre, acima, contra, em relação a",
           "explanationEn": "above"
@@ -2664,7 +2667,7 @@
           "kjv": "Jerusalem.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Jerushalaim or Jerushalem",
+          "ptLiteralWord": "Jerusalém",
           "enLiteralWord": "Jerushalaim or Jerushalem",
           "explanation": "Jerushalaim or Jerushalem",
           "explanationEn": "Jerushalaim or Jerushalem"
@@ -2683,7 +2686,7 @@
           "kjv": "cast.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "proprietariamente",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -2702,7 +2705,7 @@
           "kjv": "lot.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "proprietariamente",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -2721,7 +2724,7 @@
           "kjv": "again, alike, also, (so much) as (soon), both (so)...and, but, either...or, even, for all, (in) likewise (manner), moreover, nay...neither, one, then(-refore), though, what, with, yea.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "também",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -2740,7 +2743,7 @@
           "kjv": "thee, thou, ye, you.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "thou and thee",
+          "ptLiteralWord": "tu e ti",
           "enLiteralWord": "thou and thee",
           "explanation": "thou and thee",
           "explanationEn": "thou and thee"
@@ -2759,7 +2762,7 @@
           "kjv": "a, alike, alone, altogether, and, any(-thing), apiece, a certain, (dai-) ly, each (one), [phrase] eleven, every, few, first, [phrase] highway, a man, once, one, only, other, some, together,",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "um/primeiro",
+          "ptLiteralWord": "um",
           "enLiteralWord": "properly",
           "explanation": "echad — um, unido, o primeiro (numeral ordinal)",
           "explanationEn": "properly"
@@ -2783,7 +2786,8 @@
           "explanation": "",
           "explanationEn": ""
         }
-      ]
+      ],
+      "ptLiteralVerse": "Eles virão em um dia para se levantar contra ti, em um dia para te transportar para a cativeiro, e te tornar um estrangeiro."
     },
     {
       "id": "oba.1.12",
@@ -2811,7 +2815,7 @@
           "kjv": "nay, neither, [phrase] never, no, nor, not, nothing (worth), rather than.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "not (the qualified negation",
+          "ptLiteralWord": "não",
           "enLiteralWord": "not (the qualified negation",
           "explanation": "not (the qualified negation",
           "explanationEn": "not (the qualified negation"
@@ -2830,7 +2834,7 @@
           "kjv": "advise self, appear, approve, behold, [idiom] certainly, consider, discern, (make to) enjoy, have experience, gaze, take heed, [idiom] indeed, [idiom] joyfully, lo, look (on, one another, one on another, one upon another, out, up, upon), mark, meet, [idiom] be near, perceive, present, provide, regard, (have) respect, (fore-, cause to, let) see(-r, -m, one another), shew (self), [idiom] sight of others, (e-) spy, stare, [idiom] surely, [idiom] think, view, visions.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "viu/ver",
+          "ptLiteralWord": "verás",
           "enLiteralWord": "to see",
           "explanation": "raah — ver, observar, contemplar, perceber, entender",
           "explanationEn": "to see"
@@ -2849,7 +2853,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "um dia",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -2868,7 +2872,7 @@
           "kjv": "another, brother(-ly); kindred, like, other. Compare also the proper names beginning with 'Ah-' or 'Ahi-'.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "irmão",
+          "ptLiteralWord": "um irmão",
           "enLiteralWord": "a brother )",
           "explanation": "ach — irmão, parente próximo, aliado",
           "explanationEn": "a brother )"
@@ -2887,7 +2891,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "um dia",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -2906,7 +2910,7 @@
           "kjv": "strange.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "something strange",
+          "ptLiteralWord": "algo estranho",
           "enLiteralWord": "something strange",
           "explanation": "something strange",
           "explanationEn": "something strange"
@@ -2925,7 +2929,7 @@
           "kjv": "nay, neither, [phrase] never, no, nor, not, nothing (worth), rather than.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "not (the qualified negation",
+          "ptLiteralWord": "não",
           "enLiteralWord": "not (the qualified negation",
           "explanation": "not (the qualified negation",
           "explanationEn": "not (the qualified negation"
@@ -2944,7 +2948,7 @@
           "kjv": "cheer up, be (make) glad, (have, make) joy(-ful), be (make) merry, (cause to, make to) rejoice, [idiom] very.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "probably to brighten up",
+          "ptLiteralWord": "se alegrarás",
           "enLiteralWord": "probably to brighten up",
           "explanation": "probably to brighten up",
           "explanationEn": "probably to brighten up"
@@ -2963,7 +2967,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "um filho de Judá",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -3001,7 +3005,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "um dia",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -3020,7 +3024,7 @@
           "kjv": "break, destroy(-uction), [phrase] not escape, fail, lose, (cause to, make) perish, spend, [idiom] and surely, take, be undone, [idiom] utterly, be void of, have no way to flee.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "desaparecerás",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -3039,7 +3043,7 @@
           "kjv": "nay, neither, [phrase] never, no, nor, not, nothing (worth), rather than.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "not (the qualified negation",
+          "ptLiteralWord": "não",
           "enLiteralWord": "not (the qualified negation",
           "explanation": "not (the qualified negation",
           "explanationEn": "not (the qualified negation"
@@ -3058,7 +3062,7 @@
           "kjv": "advance, boast, bring up, exceed, excellent, be(-come, do, give, make, wax), great(-er, come to... estate, [phrase] things), grow(up), increase, lift up, magnify(-ifical), be much set by, nourish (up), pass, promote, proudly (spoken), tower.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to be  large (in various senses",
+          "ptLiteralWord": "serás grande",
           "enLiteralWord": "to be  large (in various senses",
           "explanation": "to be  large (in various senses",
           "explanationEn": "to be  large (in various senses"
@@ -3077,7 +3081,7 @@
           "kjv": "accord(-ing as, -ing to), after, appointment, assent, collar, command(-ment), [idiom] eat, edge, end, entry, [phrase] file, hole, [idiom] in, mind, mouth, part, portion, [idiom] (should) say(-ing), sentence, skirt, sound, speech, [idiom] spoken, talk, tenor, [idiom] to, [phrase] two-edged, wish, word.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "boca/ordem",
+          "ptLiteralWord": "a boca",
           "enLiteralWord": "the mouth",
           "explanation": "peh — boca, linguagem, beira, entrada, abertura",
           "explanationEn": "the mouth"
@@ -3096,7 +3100,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "um dia",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -3115,12 +3119,13 @@
           "kjv": "adversary, adversity, affliction, anguish, distress, tribulation, trouble.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "tightness (i.e. figuratively",
+          "ptLiteralWord": "a angústia",
           "enLiteralWord": "tightness (i.e. figuratively",
           "explanation": "tightness (i.e. figuratively",
           "explanationEn": "tightness (i.e. figuratively"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Não verás um dia, um irmão, um dia, algo estranho. Não verás um dia, não se alegrarás, um filho de Judá, um dia, não desaparecerás, não serás grande, a boca, um dia, a angústia."
     },
     {
       "id": "oba.1.13",
@@ -3148,7 +3153,7 @@
           "kjv": "nay, neither, [phrase] never, no, nor, not, nothing (worth), rather than.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "not (the qualified negation",
+          "ptLiteralWord": "não",
           "enLiteralWord": "not (the qualified negation",
           "explanation": "not (the qualified negation",
           "explanationEn": "not (the qualified negation"
@@ -3167,7 +3172,7 @@
           "kjv": "abide, apply, attain, [idiom] be, befall, [phrase] besiege, bring (forth, in, into, to pass), call, carry, [idiom] certainly, (cause, let, thing for) to come (against, in, out, upon, to pass), depart, [idiom] doubtless again, [phrase] eat, [phrase] employ, (cause to) enter (in, into, -tering, -trance, -try), be fallen, fetch, [phrase] follow, get, give, go (down, in, to war), grant, [phrase] have, [idiom] indeed, (in-) vade, lead, lift (up), mention, pull in, put, resort, run (down), send, set, [idiom] (well) stricken (in age), [idiom] surely, take (in), way.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "veio/entrou/foi",
+          "ptLiteralWord": "ir",
           "enLiteralWord": "to go or come",
           "explanation": "bo — vir, ir, entrar, chegar, avançar em direção a algo",
           "explanationEn": "to go or come"
@@ -3186,7 +3191,7 @@
           "kjv": "city, door, gate, port ([idiom] -er).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "an opening",
+          "ptLiteralWord": "abertura",
           "enLiteralWord": "an opening",
           "explanation": "an opening",
           "explanationEn": "an opening"
@@ -3205,7 +3210,7 @@
           "kjv": "folk, men, nation, people.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "povo/pessoas",
+          "ptLiteralWord": "povo",
           "enLiteralWord": "a people ; specifically",
           "explanation": "am — povo, nação, grupo de pessoas com identidade comum",
           "explanationEn": "a people ; specifically"
@@ -3224,7 +3229,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "dia de opressão",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -3243,7 +3248,7 @@
           "kjv": "calamity, destruction.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "oppression; by implication misfortune",
+          "ptLiteralWord": "mal",
           "enLiteralWord": "oppression; by implication misfortune",
           "explanation": "oppression; by implication misfortune",
           "explanationEn": "oppression; by implication misfortune"
@@ -3262,7 +3267,7 @@
           "kjv": "nay, neither, [phrase] never, no, nor, not, nothing (worth), rather than.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "not (the qualified negation",
+          "ptLiteralWord": "não",
           "enLiteralWord": "not (the qualified negation",
           "explanation": "not (the qualified negation",
           "explanationEn": "not (the qualified negation"
@@ -3281,7 +3286,7 @@
           "kjv": "advise self, appear, approve, behold, [idiom] certainly, consider, discern, (make to) enjoy, have experience, gaze, take heed, [idiom] indeed, [idiom] joyfully, lo, look (on, one another, one on another, one upon another, out, up, upon), mark, meet, [idiom] be near, perceive, present, provide, regard, (have) respect, (fore-, cause to, let) see(-r, -m, one another), shew (self), [idiom] sight of others, (e-) spy, stare, [idiom] surely, [idiom] think, view, visions.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "viu/ver",
+          "ptLiteralWord": "ver",
           "enLiteralWord": "to see",
           "explanation": "raah — ver, observar, contemplar, perceber, entender",
           "explanationEn": "to see"
@@ -3300,7 +3305,7 @@
           "kjv": "again, alike, also, (so much) as (soon), both (so)...and, but, either...or, even, for all, (in) likewise (manner), moreover, nay...neither, one, then(-refore), though, what, with, yea.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "também",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -3319,7 +3324,7 @@
           "kjv": "thee, thou, ye, you.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "thou and thee",
+          "ptLiteralWord": "tu",
           "enLiteralWord": "thou and thee",
           "explanation": "thou and thee",
           "explanationEn": "thou and thee"
@@ -3338,7 +3343,7 @@
           "kjv": "adversity, affliction, bad, calamity, [phrase] displease(-ure), distress, evil((-favouredness), man, thing), [phrase] exceedingly, [idiom] great, grief(-vous), harm, heavy, hurt(-ful), ill (favoured), [phrase] mark, mischief(-vous), misery, naught(-ty), noisome, [phrase] not please, sad(-ly), sore, sorrow, trouble, vex, wicked(-ly, -ness, one), worse(-st), wretchedness, wrong. (Incl. feminine raaah; as adjective or noun.).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "bad or  evil",
+          "ptLiteralWord": "mau",
           "enLiteralWord": "bad or  evil",
           "explanation": "bad or  evil",
           "explanationEn": "bad or  evil"
@@ -3357,7 +3362,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "dia de opressão",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -3395,7 +3400,7 @@
           "kjv": "nay, neither, [phrase] never, no, nor, not, nothing (worth), rather than.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "not (the qualified negation",
+          "ptLiteralWord": "não",
           "enLiteralWord": "not (the qualified negation",
           "explanation": "not (the qualified negation",
           "explanationEn": "not (the qualified negation"
@@ -3414,7 +3419,7 @@
           "kjv": "[idiom] any wise, appoint, bring (on the way), cast (away, out), conduct, [idiom] earnestly, forsake, give (up), grow long, lay, leave, let depart (down, go, loose), push away, put (away, forth, in, out), reach forth, send (away, forth, out), set, shoot (forth, out), sow, spread, stretch forth (out).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "enviou/enviar",
+          "ptLiteralWord": "enviar",
           "enLiteralWord": "to send away",
           "explanation": "shalach — enviar, mandar, despachar, estender a mão",
           "explanationEn": "to send away"
@@ -3433,7 +3438,7 @@
           "kjv": "able, activity, ([phrase]) army, band of men (soldiers), company, (great) forces, goods, host, might, power, riches, strength, strong, substance, train, ([phrase]) valiant(-ly), valour, virtuous(-ly), war, worthy(-ily).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "probably a force",
+          "ptLiteralWord": "força",
           "enLiteralWord": "probably a force",
           "explanation": "probably a force",
           "explanationEn": "probably a force"
@@ -3452,7 +3457,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "dia de opressão",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -3471,12 +3476,13 @@
           "kjv": "calamity, destruction.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "oppression; by implication misfortune",
+          "ptLiteralWord": "mal",
           "enLiteralWord": "oppression; by implication misfortune",
           "explanation": "oppression; by implication misfortune",
           "explanationEn": "oppression; by implication misfortune"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Não vá, nem entre por uma abertura, nem entre por uma porta, nem vá para um povo, nem para um dia de opressão; não vejas um dia de mal; não envies uma força para um dia de opressão."
     },
     {
       "id": "oba.1.14",
@@ -3504,7 +3510,7 @@
           "kjv": "nay, neither, [phrase] never, no, nor, not, nothing (worth), rather than.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "not (the qualified negation",
+          "ptLiteralWord": "não",
           "enLiteralWord": "not (the qualified negation",
           "explanation": "not (the qualified negation",
           "explanationEn": "not (the qualified negation"
@@ -3523,7 +3529,7 @@
           "kjv": "abide (behind), appoint, arise, cease, confirm, continue, dwell, be employed, endure, establish, leave, make, ordain, be (over), place, (be) present (self), raise up, remain, repair, [phrase] serve, set (forth, over, -tle, up), (make to, make to be at a, with-) stand (by, fast, firm, still, up), (be at a) stay (up), tarry.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to stand",
+          "ptLiteralWord": "se levante",
           "enLiteralWord": "to stand",
           "explanation": "to stand",
           "explanationEn": "to stand"
@@ -3542,7 +3548,7 @@
           "kjv": "above, according to(-ly), after, (as) against, among, and, [idiom] as, at, because of, beside (the rest of), between, beyond the time, [idiom] both and, by (reason of), [idiom] had the charge of, concerning for, in (that), (forth, out) of, (from) (off), (up-) on, over, than, through(-out), to, touching, [idiom] with.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "sobre/acima",
+          "ptLiteralWord": "acima",
           "enLiteralWord": "above",
           "explanation": "al — sobre, acima, contra, em relação a",
           "explanationEn": "above"
@@ -3561,7 +3567,7 @@
           "kjv": "crossway, robbery.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "rapine; also a fork",
+          "ptLiteralWord": "rapina",
           "enLiteralWord": "rapine; also a fork",
           "explanation": "rapine; also a fork",
           "explanationEn": "rapine; also a fork"
@@ -3580,7 +3586,7 @@
           "kjv": "be chewed, be con-(feder-) ate, covenant, cut (down, off), destroy, fail, feller, be freed, hew (down), make a league (covenant), [idiom] lose, perish, [idiom] utterly, [idiom] want.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to cut (off",
+          "ptLiteralWord": "corte",
           "enLiteralWord": "to cut (off",
           "explanation": "to cut (off",
           "explanationEn": "to cut (off"
@@ -3599,7 +3605,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "um",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -3618,7 +3624,7 @@
           "kjv": "(that have) escape(-d, -th), fugitive.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a refugee",
+          "ptLiteralWord": "refugiado",
           "enLiteralWord": "a refugee",
           "explanation": "a refugee",
           "explanationEn": "a refugee"
@@ -3637,7 +3643,7 @@
           "kjv": "nay, neither, [phrase] never, no, nor, not, nothing (worth), rather than.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "not (the qualified negation",
+          "ptLiteralWord": "não",
           "enLiteralWord": "not (the qualified negation",
           "explanation": "not (the qualified negation",
           "explanationEn": "not (the qualified negation"
@@ -3656,7 +3662,7 @@
           "kjv": "close up, deliver (up), give over (up), inclose, [idiom] pure, repair, shut (in, self, out, up, up together), stop, [idiom] straitly.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to shut up; figuratively",
+          "ptLiteralWord": "feche",
           "enLiteralWord": "to shut up; figuratively",
           "explanation": "to shut up; figuratively",
           "explanationEn": "to shut up; figuratively"
@@ -3675,7 +3681,7 @@
           "kjv": "[idiom] alive, left, remain(-ing), remnant, rest.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a survivor",
+          "ptLiteralWord": "sobrevivente",
           "enLiteralWord": "a survivor",
           "explanation": "a survivor",
           "explanationEn": "a survivor"
@@ -3694,7 +3700,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "um dia",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -3713,12 +3719,13 @@
           "kjv": "adversary, adversity, affliction, anguish, distress, tribulation, trouble.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "tightness (i.e. figuratively",
+          "ptLiteralWord": "aperto",
           "enLiteralWord": "tightness (i.e. figuratively",
           "explanation": "tightness (i.e. figuratively",
           "explanationEn": "tightness (i.e. figuratively"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Não permita que ele se levante acima de rapina; também não permita que ele corte um refugiado, não feche um sobrevivente em um dia de aperto."
     },
     {
       "id": "oba.1.15",
@@ -3746,7 +3753,7 @@
           "kjv": "and, + (forasmuch, inasmuch, where-) as, assured(-ly), + but, certainly, doubtless, + else, even, + except, for, how, (because, in, so, than) that, + nevertheless, now, rightly, seeing, since, surely, then, therefore, + (al-) though, + till, truly, + until, when, whether, while, whom, yea, yet.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "porque/que/pois",
+          "ptLiteralWord": "porque",
           "enLiteralWord": "very widely used as a relative conjunction or adverb ; often largely modified by other particles annexed",
           "explanation": "ki — conjunção causal e explicativa: porque, pois, que, quando",
           "explanationEn": "very widely used as a relative conjunction or adverb ; often largely modified by other particles annexed"
@@ -3765,7 +3772,7 @@
           "kjv": "allied, approach, at hand, [phrase] any of kin, kinsfold(-sman), (that is) near (of kin), neighbour, (that is) next, (them that come) nigh (at hand), more ready, short(-ly).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "near (in place",
+          "ptLiteralWord": "perto",
           "enLiteralWord": "near (in place",
           "explanation": "near (in place",
           "explanationEn": "near (in place"
@@ -3784,7 +3791,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "um dia",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -3803,7 +3810,7 @@
           "kjv": "Jehovah, the Lord. Compare H3050 (יָהּ), H3069 (יְהֹוִה).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "O SENHOR",
+          "ptLiteralWord": "Jehovah",
           "enLiteralWord": "Jehovah",
           "explanation": "YHWH — Nome próprio de Deus revelado a Moisés. Tradição massorética lê \"Adonai\"",
           "explanationEn": "Jehovah"
@@ -3822,7 +3829,7 @@
           "kjv": "above, according to(-ly), after, (as) against, among, and, [idiom] as, at, because of, beside (the rest of), between, beyond the time, [idiom] both and, by (reason of), [idiom] had the charge of, concerning for, in (that), (forth, out) of, (from) (off), (up-) on, over, than, through(-out), to, touching, [idiom] with.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "sobre/acima",
+          "ptLiteralWord": "acima",
           "enLiteralWord": "above",
           "explanation": "al — sobre, acima, contra, em relação a",
           "explanationEn": "above"
@@ -3841,7 +3848,7 @@
           "kjv": "(in) all (manner, (ye)), altogether, any (manner), enough, every (one, place, thing), howsoever, as many as, (no-) thing, ought, whatsoever, (the) whole, whoso(-ever).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "todo/toda",
+          "ptLiteralWord": "tudo",
           "enLiteralWord": "properly",
           "explanation": "kol — todo, toda, qualquer, totalidade de algo",
           "explanationEn": "properly"
@@ -3860,7 +3867,7 @@
           "kjv": "Gentile, heathen, nation, people.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a foreign nation; hence",
+          "ptLiteralWord": "um povo estrangeiro",
           "enLiteralWord": "a foreign nation; hence",
           "explanation": "a foreign nation; hence",
           "explanationEn": "a foreign nation; hence"
@@ -3879,7 +3886,7 @@
           "kjv": "",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "",
+          "ptLiteralWord": "como",
           "enLiteralWord": "",
           "explanation": "",
           "explanationEn": ""
@@ -3898,7 +3905,7 @@
           "kjv": "accomplish, advance, appoint, apt, be at, become, bear, bestow, bring forth, bruise, be busy, [idiom] certainly, have the charge of, commit, deal (with), deck, [phrase] displease, do, (ready) dress(-ed), (put in) execute(-ion), exercise, fashion, [phrase] feast, (fight-) ing man, [phrase] finish, fit, fly, follow, fulfill, furnish, gather, get, go about, govern, grant, great, [phrase] hinder, hold (a feast), [idiom] indeed, [phrase] be industrious, [phrase] journey, keep, labour, maintain, make, be meet, observe, be occupied, offer, [phrase] officer, pare, bring (come) to pass, perform, pracise, prepare, procure, provide, put, requite, [idiom] sacrifice, serve, set, shew, [idiom] sin, spend, [idiom] surely, take, [idiom] thoroughly, trim, [idiom] very, [phrase] vex, be (warr-) ior, work(-man), yield, use.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "fez/fazer",
+          "ptLiteralWord": "ele fez",
           "enLiteralWord": "to do or make",
           "explanation": "asah — fazer, realizar, executar, praticar, produzir",
           "explanationEn": "to do or make"
@@ -3917,7 +3924,7 @@
           "kjv": "accomplish, advance, appoint, apt, be at, become, bear, bestow, bring forth, bruise, be busy, [idiom] certainly, have the charge of, commit, deal (with), deck, [phrase] displease, do, (ready) dress(-ed), (put in) execute(-ion), exercise, fashion, [phrase] feast, (fight-) ing man, [phrase] finish, fit, fly, follow, fulfill, furnish, gather, get, go about, govern, grant, great, [phrase] hinder, hold (a feast), [idiom] indeed, [phrase] be industrious, [phrase] journey, keep, labour, maintain, make, be meet, observe, be occupied, offer, [phrase] officer, pare, bring (come) to pass, perform, pracise, prepare, procure, provide, put, requite, [idiom] sacrifice, serve, set, shew, [idiom] sin, spend, [idiom] surely, take, [idiom] thoroughly, trim, [idiom] very, [phrase] vex, be (warr-) ior, work(-man), yield, use.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "fez/fazer",
+          "ptLiteralWord": "ele fez",
           "enLiteralWord": "to do or make",
           "explanation": "asah — fazer, realizar, executar, praticar, produzir",
           "explanationEn": "to do or make"
@@ -3936,7 +3943,7 @@
           "kjv": "",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "",
+          "ptLiteralWord": "para",
           "enLiteralWord": "",
           "explanation": "",
           "explanationEn": ""
@@ -3955,7 +3962,7 @@
           "kjv": "[phrase] as hast served, benefit, desert, deserving, that which he hath given, recompense, reward.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "treatment",
+          "ptLiteralWord": "tratamento",
           "enLiteralWord": "treatment",
           "explanation": "treatment",
           "explanationEn": "treatment"
@@ -3974,7 +3981,7 @@
           "kjv": "((break, build, circumcise, dig, do anything, do evil, feed, lay down, lie down, lodge, make, rejoice, send, take, weep)) [idiom] again, (cause to) answer ([phrase] again), [idiom] in any case (wise), [idiom] at all, averse, bring (again, back, home again), call (to mind), carry again (back), cease, [idiom] certainly, come again (back), [idiom] consider, [phrase] continually, convert, deliver (again), [phrase] deny, draw back, fetch home again, [idiom] fro, get (oneself) (back) again, [idiom] give (again), go again (back, home), (go) out, hinder, let, (see) more, [idiom] needs, be past, [idiom] pay, pervert, pull in again, put (again, up again), recall, recompense, recover, refresh, relieve, render (again), requite, rescue, restore, retrieve, (cause to, make to) return, reverse, reward, [phrase] say nay, send back, set again, slide back, still, [idiom] surely, take back (off), (cause to, make to) turn (again, self again, away, back, back again, backward, from, off), withdraw.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "voltou/retornar",
+          "ptLiteralWord": "ele voltou",
           "enLiteralWord": "to turn back (hence",
           "explanation": "shuv — voltar, retornar, arrepender-se, converter-se",
           "explanationEn": "to turn back (hence"
@@ -3993,12 +4000,13 @@
           "kjv": "band, beginning, captain, chapiter, chief(-est place, man, things), company, end, [idiom] every (man), excellent, first, forefront, (be-)head, height, (on) high(-est part, (priest)), [idiom] lead, [idiom] poor, principal, ruler, sum, top.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "the head",
+          "ptLiteralWord": "a cabeça",
           "enLiteralWord": "the head",
           "explanation": "the head",
           "explanationEn": "the head"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Porque [obrigado] [perto] [um dia] [Jehovah] [acima] [tudo] [um povo estrangeiro] [como] [ele fez] [ele fez] [para] [tratamento] [ele voltou] [a cabeça]"
     },
     {
       "id": "oba.1.16",
@@ -4549,7 +4557,7 @@
           "kjv": "beacon, [idiom] altogether, be(-come), accomplished, committed, like), break, cause, come (to pass), do, faint, fall, [phrase] follow, happen, [idiom] have, last, pertain, quit (one-) self, require, [idiom] use.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "era/foi/havia",
+          "ptLiteralWord": "não comerão",
           "enLiteralWord": "to exist",
           "explanation": "hayah — ser, existir, acontecer, tornar-se",
           "explanationEn": "to exist"
@@ -4568,7 +4576,7 @@
           "kjv": "court, daughter, door, [phrase] dungeon, family, [phrase] forth of, [idiom] great as would contain, hangings, home(born), (winter) house(-hold), inside(-ward), palace, place, [phrase] prison, [phrase] steward, [phrase] tablet, temple, web, [phrase] within(-out).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "casa/família",
+          "ptLiteralWord": "casa",
           "enLiteralWord": "a house (in the greatest variation of applications",
           "explanation": "bayit — casa, família, templo, dinastia",
           "explanationEn": "a house (in the greatest variation of applications"
@@ -4606,7 +4614,7 @@
           "kjv": "burning, fiery, fire, flaming, hot.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "fire",
+          "ptLiteralWord": "fogo",
           "enLiteralWord": "fire",
           "explanation": "fire",
           "explanationEn": "fire"
@@ -4625,7 +4633,7 @@
           "kjv": "court, daughter, door, [phrase] dungeon, family, [phrase] forth of, [idiom] great as would contain, hangings, home(born), (winter) house(-hold), inside(-ward), palace, place, [phrase] prison, [phrase] steward, [phrase] tablet, temple, web, [phrase] within(-out).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "casa/família",
+          "ptLiteralWord": "casa",
           "enLiteralWord": "a house (in the greatest variation of applications",
           "explanation": "bayit — casa, família, templo, dinastia",
           "explanationEn": "a house (in the greatest variation of applications"
@@ -4644,7 +4652,7 @@
           "kjv": "Joseph. Compare H3084 (יְהוֹסֵף).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Joseph",
+          "ptLiteralWord": "José",
           "enLiteralWord": "Joseph",
           "explanation": "Joseph",
           "explanationEn": "Joseph"
@@ -4663,7 +4671,7 @@
           "kjv": "flame(-ming), head (of a spear).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "{a flash; figuratively",
+          "ptLiteralWord": "chama",
           "enLiteralWord": "{a flash; figuratively",
           "explanation": "{a flash; figuratively",
           "explanationEn": "{a flash; figuratively"
@@ -4682,7 +4690,7 @@
           "kjv": "court, daughter, door, [phrase] dungeon, family, [phrase] forth of, [idiom] great as would contain, hangings, home(born), (winter) house(-hold), inside(-ward), palace, place, [phrase] prison, [phrase] steward, [phrase] tablet, temple, web, [phrase] within(-out).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "casa/família",
+          "ptLiteralWord": "casa",
           "enLiteralWord": "a house (in the greatest variation of applications",
           "explanation": "bayit — casa, família, templo, dinastia",
           "explanationEn": "a house (in the greatest variation of applications"
@@ -4701,7 +4709,7 @@
           "kjv": "Esau.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Esav",
+          "ptLiteralWord": "Esaú",
           "enLiteralWord": "Esav",
           "explanation": "Esav",
           "explanationEn": "Esav"
@@ -4720,7 +4728,7 @@
           "kjv": "stubble.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "straw",
+          "ptLiteralWord": "palha",
           "enLiteralWord": "straw",
           "explanation": "straw",
           "explanationEn": "straw"
@@ -4739,7 +4747,7 @@
           "kjv": "burning, chase, inflame, kindle, persecute(-or), pursue hotly.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to flame",
+          "ptLiteralWord": "flamejar",
           "enLiteralWord": "to flame",
           "explanation": "to flame",
           "explanationEn": "to flame"
@@ -4777,7 +4785,7 @@
           "kjv": "[idiom] at all, burn up, consume, devour(-er, up), dine, eat(-er, up), feed (with), food, [idiom] freely, [idiom] in...wise(-deed, plenty), (lay) meat, [idiom] quite.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to eat",
+          "ptLiteralWord": "comer",
           "enLiteralWord": "to eat",
           "explanation": "to eat",
           "explanationEn": "to eat"
@@ -4815,7 +4823,7 @@
           "kjv": "beacon, [idiom] altogether, be(-come), accomplished, committed, like), break, cause, come (to pass), do, faint, fall, [phrase] follow, happen, [idiom] have, last, pertain, quit (one-) self, require, [idiom] use.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "era/foi/havia",
+          "ptLiteralWord": "haverá",
           "enLiteralWord": "to exist",
           "explanation": "hayah — ser, existir, acontecer, tornar-se",
           "explanationEn": "to exist"
@@ -4834,7 +4842,7 @@
           "kjv": "[idiom] alive, left, remain(-ing), remnant, rest.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a survivor",
+          "ptLiteralWord": "sobrevivente",
           "enLiteralWord": "a survivor",
           "explanation": "a survivor",
           "explanationEn": "a survivor"
@@ -4853,7 +4861,7 @@
           "kjv": "court, daughter, door, [phrase] dungeon, family, [phrase] forth of, [idiom] great as would contain, hangings, home(born), (winter) house(-hold), inside(-ward), palace, place, [phrase] prison, [phrase] steward, [phrase] tablet, temple, web, [phrase] within(-out).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "casa/família",
+          "ptLiteralWord": "casa",
           "enLiteralWord": "a house (in the greatest variation of applications",
           "explanation": "bayit — casa, família, templo, dinastia",
           "explanationEn": "a house (in the greatest variation of applications"
@@ -4872,7 +4880,7 @@
           "kjv": "Esau.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Esav",
+          "ptLiteralWord": "Esaú",
           "enLiteralWord": "Esav",
           "explanation": "Esav",
           "explanationEn": "Esav"
@@ -4891,7 +4899,7 @@
           "kjv": "and, + (forasmuch, inasmuch, where-) as, assured(-ly), + but, certainly, doubtless, + else, even, + except, for, how, (because, in, so, than) that, + nevertheless, now, rightly, seeing, since, surely, then, therefore, + (al-) though, + till, truly, + until, when, whether, while, whom, yea, yet.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "porque/que/pois",
+          "ptLiteralWord": "porque",
           "enLiteralWord": "very widely used as a relative conjunction or adverb ; often largely modified by other particles annexed",
           "explanation": "ki — conjunção causal e explicativa: porque, pois, que, quando",
           "explanationEn": "very widely used as a relative conjunction or adverb ; often largely modified by other particles annexed"
@@ -4910,7 +4918,7 @@
           "kjv": "Jehovah, the Lord. Compare H3050 (יָהּ), H3069 (יְהֹוִה).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "O SENHOR",
+          "ptLiteralWord": "Senhor",
           "enLiteralWord": "Jehovah",
           "explanation": "YHWH — Nome próprio de Deus revelado a Moisés. Tradição massorética lê \"Adonai\"",
           "explanationEn": "Jehovah"
@@ -4929,12 +4937,13 @@
           "kjv": "answer, appoint, bid, command, commune, declare, destroy, give, name, promise, pronounce, rehearse, say, speak, be spokesman, subdue, talk, teach, tell, think, use (entreaties), utter, [idiom] well, [idiom] work.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "falou/disse",
+          "ptLiteralWord": "falou",
           "enLiteralWord": "perhaps properly",
           "explanation": "davar — falar, dizer, declarar (forma verbal de davar)",
           "explanationEn": "perhaps properly"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Eles não comerão, nem haverá sobrevivente, nem haverá casa de Jacó, nem haverá que exista a casa de Israel. Porque o Senhor falou: Eu me afastarei de Jacó, e de Israel não me voltarei."
     },
     {
       "id": "oba.1.19",
@@ -4962,7 +4971,7 @@
           "kjv": "cast out, consume, destroy, disinherit, dispossess, drive(-ing) out, enjoy, expel, [idiom] without fail, (give to, leave for) inherit(-ance, -or) [phrase] magistrate, be (make) poor, come to poverty, (give to, make to) possess, get (have) in (take) possession, seize upon, succeed, [idiom] utterly.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to occupy (by driving out previous tenants",
+          "ptLiteralWord": "ocuparão (pelas expulsões de antigos moradores)",
           "enLiteralWord": "to occupy (by driving out previous tenants",
           "explanation": "to occupy (by driving out previous tenants",
           "explanationEn": "to occupy (by driving out previous tenants"
@@ -4981,7 +4990,7 @@
           "kjv": "south (country, side, -ward).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "the south ; specifically",
+          "ptLiteralWord": "o sul; especificamente",
           "enLiteralWord": "the south ; specifically",
           "explanation": "the south ; specifically",
           "explanationEn": "the south ; specifically"
@@ -5000,7 +5009,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "proprietariamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5019,7 +5028,7 @@
           "kjv": "hill (country), mount(-ain), [idiom] promotion.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a mountain or range of hills",
+          "ptLiteralWord": "uma montanha ou cadeia de colinas",
           "enLiteralWord": "a mountain or range of hills",
           "explanation": "a mountain or range of hills",
           "explanationEn": "a mountain or range of hills"
@@ -5057,7 +5066,7 @@
           "kjv": "low country, (low) plain, vale(-ley).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Lowland",
+          "ptLiteralWord": "Planície",
           "enLiteralWord": "Lowland",
           "explanation": "Lowland",
           "explanationEn": "Lowland"
@@ -5076,7 +5085,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "proprietariamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5095,7 +5104,7 @@
           "kjv": "Philistine.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Pelishtite or inhabitant of Pelesheth",
+          "ptLiteralWord": "um Pelishtita ou habitante de Pelesheth",
           "enLiteralWord": "a Pelishtite or inhabitant of Pelesheth",
           "explanation": "a Pelishtite or inhabitant of Pelesheth",
           "explanationEn": "a Pelishtite or inhabitant of Pelesheth"
@@ -5114,7 +5123,7 @@
           "kjv": "cast out, consume, destroy, disinherit, dispossess, drive(-ing) out, enjoy, expel, [idiom] without fail, (give to, leave for) inherit(-ance, -or) [phrase] magistrate, be (make) poor, come to poverty, (give to, make to) possess, get (have) in (take) possession, seize upon, succeed, [idiom] utterly.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to occupy (by driving out previous tenants",
+          "ptLiteralWord": "ocuparão (pelas expulsões de antigos moradores)",
           "enLiteralWord": "to occupy (by driving out previous tenants",
           "explanation": "to occupy (by driving out previous tenants",
           "explanationEn": "to occupy (by driving out previous tenants"
@@ -5133,7 +5142,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "proprietariamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5152,7 +5161,7 @@
           "kjv": "country, field, ground, land, soil, [idiom] wild.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a field",
+          "ptLiteralWord": "um campo",
           "enLiteralWord": "a field",
           "explanation": "a field",
           "explanationEn": "a field"
@@ -5171,7 +5180,7 @@
           "kjv": "Ephraim, Ephraimites.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Ephrajim",
+          "ptLiteralWord": "Efraim",
           "enLiteralWord": "Ephrajim",
           "explanation": "Ephrajim",
           "explanationEn": "Ephrajim"
@@ -5190,7 +5199,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "proprietariamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5209,7 +5218,7 @@
           "kjv": "country, field, ground, land, soil, [idiom] wild.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a field",
+          "ptLiteralWord": "um campo",
           "enLiteralWord": "a field",
           "explanation": "a field",
           "explanationEn": "a field"
@@ -5228,7 +5237,7 @@
           "kjv": "Samaria.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Shomeron",
+          "ptLiteralWord": "Samaria",
           "enLiteralWord": "Shomeron",
           "explanation": "Shomeron",
           "explanationEn": "Shomeron"
@@ -5266,7 +5275,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "proprietariamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5290,7 +5299,8 @@
           "explanation": "Gilad",
           "explanationEn": "Gilad"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Eles ocuparão a parte sul; especificamente, a montanha de Esav. Eles ocuparão a planície; especificamente, a planície dos Pelishtitas. Eles ocuparão o campo de Efraim; especificamente, o campo de Efraim. Eles ocuparão o campo de Samaria; especificamente, o campo de Binjamin. Eles ocuparão a terra de Gilad; especificamente, a terra de Gilad."
     },
     {
       "id": "oba.1.20",
@@ -5655,7 +5665,7 @@
           "kjv": "arise (up), (cause to) ascend up, at once, break (the day) (up), bring (up), (cause to) burn, carry up, cast up, [phrase] shew, climb (up), (cause to, make to) come (up), cut off, dawn, depart, exalt, excel, fall, fetch up, get up, (make to) go (away, up); grow (over) increase, lay, leap, levy, lift (self) up, light, (make) up, [idiom] mention, mount up, offer, make to pay, [phrase] perfect, prefer, put (on), raise, recover, restore, (make to) rise (up), scale, set (up), shoot forth (up), (begin to) spring (up), stir up, take away (up), work.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "subiu/subir",
+          "ptLiteralWord": "subir",
           "enLiteralWord": "to ascend",
           "explanation": "alah — subir, ascender, oferecer holocausto",
           "explanationEn": "to ascend"
@@ -5674,7 +5684,7 @@
           "kjv": "[idiom] at all, avenging, defend, deliver(-er), help, preserve, rescue, be safe, bring (having) salvation, save(-iour), get victory.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -5693,7 +5703,7 @@
           "kjv": "hill (country), mount(-ain), [idiom] promotion.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a mountain or range of hills",
+          "ptLiteralWord": "montanha ou montanhas",
           "enLiteralWord": "a mountain or range of hills",
           "explanation": "a mountain or range of hills",
           "explanationEn": "a mountain or range of hills"
@@ -5712,7 +5722,7 @@
           "kjv": "Zion.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Tsijon",
+          "ptLiteralWord": "Sião",
           "enLiteralWord": "Tsijon",
           "explanation": "Tsijon",
           "explanationEn": "Tsijon"
@@ -5731,7 +5741,7 @@
           "kjv": "[phrase] avenge, [idiom] that condemn, contend, defend, execute (judgment), (be a) judge(-ment), [idiom] needs, plead, reason, rule.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to judge",
+          "ptLiteralWord": "julgar",
           "enLiteralWord": "to judge",
           "explanation": "to judge",
           "explanationEn": "to judge"
@@ -5750,7 +5760,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5769,7 +5779,7 @@
           "kjv": "hill (country), mount(-ain), [idiom] promotion.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a mountain or range of hills",
+          "ptLiteralWord": "montanha ou montanhas",
           "enLiteralWord": "a mountain or range of hills",
           "explanation": "a mountain or range of hills",
           "explanationEn": "a mountain or range of hills"
@@ -5788,7 +5798,7 @@
           "kjv": "Esau.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Esav",
+          "ptLiteralWord": "Esaú",
           "enLiteralWord": "Esav",
           "explanation": "Esav",
           "explanationEn": "Esav"
@@ -5807,7 +5817,7 @@
           "kjv": "beacon, [idiom] altogether, be(-come), accomplished, committed, like), break, cause, come (to pass), do, faint, fall, [phrase] follow, happen, [idiom] have, last, pertain, quit (one-) self, require, [idiom] use.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "era/foi/havia",
+          "ptLiteralWord": "existir",
           "enLiteralWord": "to exist",
           "explanation": "hayah — ser, existir, acontecer, tornar-se",
           "explanationEn": "to exist"
@@ -5826,7 +5836,7 @@
           "kjv": "Jehovah, the Lord. Compare H3050 (יָהּ), H3069 (יְהֹוִה).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "O SENHOR",
+          "ptLiteralWord": "Javé",
           "enLiteralWord": "Jehovah",
           "explanation": "YHWH — Nome próprio de Deus revelado a Moisés. Tradição massorética lê \"Adonai\"",
           "explanationEn": "Jehovah"
@@ -5845,12 +5855,13 @@
           "kjv": "kingsom, king's, [idiom] royal.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "something ruled",
+          "ptLiteralWord": "algo governado",
           "enLiteralWord": "something ruled",
           "explanation": "something ruled",
           "explanationEn": "something ruled"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E subirá para a montanha de Sião, e para a cidade do Deus de Jacob."
     }
   ]
 }
