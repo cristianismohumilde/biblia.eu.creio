@@ -70,9 +70,8 @@ async function callAzureOpenAI(prompt) {
         },
         { role: 'user', content: prompt }
       ],
-      temperature: 0.1,
       response_format: { type: 'json_object' },
-      max_tokens: 4096,
+      max_completion_tokens: 16000,
     }),
   });
 
@@ -94,7 +93,7 @@ async function translateChapter(filePath, targetLang = 'pt') {
   console.log(`\n📖 Processando: ${path.basename(filePath)}...`);
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-  const BATCH_SIZE = 20; // 20 versos por vez — sem medo de rate limit!
+  const BATCH_SIZE = 10; // 10 versos: bom equilíbrio entre velocidade e confiabilidade
 
   for (let i = 0; i < data.verses.length; i += BATCH_SIZE) {
     const allInBatch = data.verses.slice(i, i + BATCH_SIZE);

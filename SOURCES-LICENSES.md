@@ -57,3 +57,28 @@ O projeto Biblia.Creio.EU está em constante processo de auditoria.
 ## Próximas Ações
 - Manter o manifesto de proveniência para cada novo dataset de idiomas adicionado.
 - Priorizar sempre fontes com licenças Creative Commons ou equivalentes.
+
+---
+
+## 🤖 Traduções Assistidas por IA (AI-Assisted Translations)
+
+### Metodologia
+A partir de Maio de 2026, parte das traduções literais em Português (`ptLiteralVerse`, `ptLiteralWord`) foram geradas com auxílio de Inteligência Artificial, especificamente:
+
+- **Modelo**: OpenAI `o4-mini` via Microsoft Azure OpenAI Service
+- **Pipeline**: `scripts/pipeline/ai_translate_azure.js`
+- **Fonte de referência**: Textos em inglês literal (`enLiteralVerse`, `enLiteralWord`) como base de entrada
+
+### Situação Jurídica
+- **Textos fonte** (Hebraico, Grego, Aramaico): Domínio Público. Sem restrições.
+- **Output do modelo**: Os [Termos de Serviço da Microsoft Azure](https://azure.microsoft.com/support/legal/) permitem uso comercial e não-comercial dos outputs gerados.
+- **Direito Autoral do Output**: Segundo a legislação da maioria das jurisdições (incluindo Brasil e EUA), conteúdo gerado puramente por IA **sem criatividade humana substancial** não é protegido por direitos autorais e pode ser considerado de domínio público.
+- **Posição do Projeto**: Tratamos as traduções AI-assistidas como **produção original da equipe** (supervisionadas editorialmente) e as licenciamos como **Dados Abertos (CC0 / Open Data)**.
+
+### Transparência e Auditoria
+- Os arquivos JSON contêm os campos `ptLiteralVerse` e `ptLiteralWord` gerados por este processo.
+- O processo é **reproduzível**: qualquer pessoa pode re-executar o pipeline com a mesma entrada e verificar o output.
+- Revisão editorial humana é **recomendada** antes de uso em publicações acadêmicas formais.
+
+### Risco Legal
+- **Baixo / Seguro** para uso no contexto deste projeto open-source de estudo bíblico.
