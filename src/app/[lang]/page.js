@@ -51,10 +51,6 @@ export default function LangHomePage({ params }) {
   const t = translations[lang] || translations.pt;
 
   const navLinks = [
-    ...(data ? [
-      { href: `/${lang}/#verso`, label: t.verse },
-      { href: `/${lang}/#originais`, label: t.manuscriptTexts }
-    ] : []),
     { href: `/${lang}/idiomas-biblicos`, label: t.biblicalLanguages, className: "nav-spotlight" },
     { href: `/${lang}/atualizacoes-e-novidades`, label: t.updates, className: "nav-updates" },
     { href: `/${lang}/fontes`, label: t.sources }
