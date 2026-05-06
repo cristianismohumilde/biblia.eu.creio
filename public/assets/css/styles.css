@@ -113,6 +113,12 @@ h1 {
   max-width: 50ch;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
 .quick-nav {
   display: flex;
   gap: 0.5rem;
@@ -290,7 +296,7 @@ h1 {
 .layout {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 0.75rem;
   padding-bottom: 2rem;
 }
 
@@ -558,7 +564,9 @@ button:hover {
 }
 
 #verso h2,
-#verse h2 {
+#verse h2,
+#originais h2,
+.controls h2 {
   margin: 0 0 0.7rem;
   font-size: 1.25rem;
 }
@@ -599,7 +607,9 @@ button:hover {
 }
 
 :root[data-theme="dark"] #verso h2,
-:root[data-theme="dark"] #verse h2 {
+:root[data-theme="dark"] #verse h2,
+:root[data-theme="dark"] #originais h2,
+:root[data-theme="dark"] .controls h2 {
   color: #ecf7f5;
 }
 
@@ -737,7 +747,7 @@ button:hover {
   width: 100%;
   border: 1px solid rgba(132, 111, 77, 0.22);
   border-radius: 14px;
-  padding: 1rem;
+  padding: 0.75rem;
   background: var(--card);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
@@ -766,13 +776,13 @@ button:hover {
 }
 
 .text-witness-text {
-  margin: 0.3rem 0 0.6rem;
+  margin: 0.2rem 0 0.4rem;
   font-size: 1.25rem;
   line-height: 1.6;
 }
 
 .text-witness-label {
-  margin: 0.4rem 0 0.1rem;
+  margin: 0.2rem 0 0.05rem;
   font-size: 0.72rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -1000,12 +1010,6 @@ th {
   .header-brand {
     flex: 1;
     min-width: 200px;
-  }
-
-  .header-actions {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
   }
 
   .quick-nav {
@@ -1258,7 +1262,9 @@ th {
   }
 
   #verso h2,
-  #verse h2 {
+  #verse h2,
+  #originais h2,
+  .controls h2 {
     font-size: 1.1rem;
     margin-bottom: 0.55rem;
   }
@@ -1362,7 +1368,7 @@ th {
   color: white;
   padding: 1.2rem 1.5rem;
   border-radius: var(--radius);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
   display: flex;
   align-items: center;
   justify-content: center;

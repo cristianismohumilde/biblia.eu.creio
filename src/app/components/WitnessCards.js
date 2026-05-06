@@ -125,8 +125,8 @@ export default function WitnessCards({ lang, data, manuscript }) {
 
                 return (
                   <article key={w.id} className={`text-witness ${isCurrent ? 'active-witness' : ''}`}>
-                    <div className="text-witness-header" style={{ borderBottom: displayTitle ? '1px solid rgba(132, 111, 77, 0.12)' : 'none', paddingBottom: displayTitle ? '0.4rem' : '0' }}>
-                      {displayTitle && <h3 className="text-witness-title" style={{ fontSize: '0.9rem', margin: 0 }}>{displayTitle}</h3>}
+                    <div className="text-witness-header" style={{ borderBottom: displayTitle ? '1px solid rgba(132, 111, 77, 0.12)' : 'none', paddingBottom: displayTitle ? '0.2rem' : '0' }}>
+                      {displayTitle && <h3 className="text-witness-title" style={{ fontSize: '0.85rem', margin: 0 }}>{displayTitle}</h3>}
                       <button 
                         onClick={() => handleSpeak(w.text || sourceText || data[`${lo.code}Text`], lo.code)} 
                         className="audio-player-mini"
@@ -140,11 +140,11 @@ export default function WitnessCards({ lang, data, manuscript }) {
                       </button>
                     </div>
 
-                    <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`} style={{ fontSize: '1.4rem', margin: '0.4rem 0 0.8rem' }}>
+                    <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`} style={{ fontSize: '1.35rem', margin: '0.25rem 0 0.5rem' }}>
                       {w.text || t.noText}
                     </p>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem', borderTop: '1px solid rgba(132,111,77,0.1)', paddingTop: '0.8rem' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '0.75rem', borderTop: '1px solid rgba(132,111,77,0.1)', paddingTop: '0.6rem' }}>
                       <div>
                         <p className="text-witness-label">{t.transliteration}</p>
                         <p className="text-witness-transliteration" style={{ fontSize: '1.1rem' }}>{w.transliteration || fallbackTransliteration || t.noTranslit}</p>
