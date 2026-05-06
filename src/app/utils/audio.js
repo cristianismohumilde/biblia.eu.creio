@@ -17,10 +17,11 @@ export const handleSpeak = async (text, langCode) => {
     aramaic: { locale: 'he-IL', name: 'he-IL-AvriNeural' },
     syriac: { locale: 'he-IL', name: 'he-IL-AvriNeural' }, // Usando Hebraico como proxy fonético
     geez: { locale: 'am-ET', name: 'am-ET-AmehaNeural' },
-    armenian: { locale: 'hy-AM', name: 'hy-AM-AnahitNeural' }
+    armenian: { locale: 'hy-AM', name: 'hy-AM-AnahitNeural' },
+    coptic: { locale: 'el-GR', name: 'el-GR-AthinaNeural' } // Usando Grego como proxy para Copta
   };
 
-  // Conversor de Script Siríaco para Hebraico (Para que o motor consiga ler)
+  // Conversor de Script Siríaco para Hebraico
   const transliterateSyriac = (t) => {
     const sToH = {
       '\u0710':'\u05D0','\u0712':'\u05D1','\u0713':'\u05D2','\u0715':'\u05D3','\u0717':'\u05D4',
@@ -32,11 +33,22 @@ export const handleSpeak = async (text, langCode) => {
     return t.split('').map(c => sToH[c] || c).join('');
   };
 
+  // Conversor de Script Copta para Grego (Fonético para o TTS)
+  const transliterateCoptic = (t) => {
+    const cToG = {
+      'ⲁ':'α','ⲃ':'β','ⲅ':'γ','ⲇ':'δ','ⲉ':'ε','ⲍ':'ζ','eta':'η','ⲑ':'θ','ⲓ':'ι','ⲕ':'κ','ⲗ':'λ','ⲙ':'μ','ⲛ':'ν','ⲝ':'ξ','ⲟ':'ο','ⲡ':'π','ⲣ':'ρ','ⲥ':'σ','ⲧ':'τ','ⲩ':'υ','ⲫ':'φ','ⲭ':'χ','ⲯ':'ψ','ⲱ':'ω',
+      'ϣ':'sh','ϥ':'f','ϧ':'kh','ϩ':'h','ϫ':'dj','ϭ':'ch','ϯ':'ti','ⲏ':'η','ⲑ':'θ'
+    };
+    return t.toLowerCase().split('').map(c => cToG[c] || c).join('');
+  };
+
   const config = voiceMap[langCode.toLowerCase()] || { locale: 'en-US', name: 'en-US-JennyNeural' };
   let cleanText = text.replace(/[\u0591-\u05C7]/g, '').trim().slice(0, 5000);
 
   if (langCode.toLowerCase() === 'syriac') {
     cleanText = transliterateSyriac(cleanText);
+  } else if (langCode.toLowerCase() === 'coptic') {
+    cleanText = transliterateCoptic(cleanText);
   }
 
   const showToast = (msg) => {
