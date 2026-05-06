@@ -8,6 +8,7 @@
   "exclude": [
     "node_modules",
     ".next",
+    "out",
     "public/data",
     "backup_old_site",
     "test-results",

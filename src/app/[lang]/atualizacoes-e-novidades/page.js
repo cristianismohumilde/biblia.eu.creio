@@ -35,6 +35,9 @@ export default async function UpdatesPage({ params }) {
             "Nossa nova ferramenta utiliza tecnologia de nuvem para garantir que, mesmo que você não saiba ler Hebraico ou Grego fluentemente, você possa 'sentir' a textura do idioma. É o início de uma nova era de imersão linguística para todos os nossos usuários."
           ]
         },
+        {
+          date: "04 de Maio, 2026",
+          headline: "Unificação do Texto Hebraico: Por que o Codex Leningradensis (B19A)?",
           paragraphs: [
             "Recentemente, tomamos a decisão estratégica de focar nossa base de dados de Gênesis exclusivamente no Codex Leningradensis (B19A) para a tradição hebraica massorética. Mas qual a importância técnica disso?",
             "O Codex Leningradensis é o manuscrito completo mais antigo da Bíblia Hebraica (aprox. 1008 d.C.). Ele é o 'irmão' mais novo do Códice de Aleppo (que está incompleto) e serve como base para as edições acadêmicas modernas como a BHS. O mais fascinante é que, ao compararmos o B19A com os Manuscritos do Mar Morto (DSS), descobertos em Qumran e mil anos mais antigos, vemos que o texto é praticamente idêntico. Isso prova a precisão milenar da transmissão dos escribas judeus.",
