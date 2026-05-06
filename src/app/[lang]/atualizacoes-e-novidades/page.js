@@ -29,8 +29,9 @@ export default async function UpdatesPage({ params }) {
           date: "04 de Maio, 2026",
           headline: "Unificação do Texto Hebraico: Por que o Codex Leningradensis (B19A)?",
           paragraphs: [
-            "Recentemente, tomamos a decisão estratégica de focar nossa base de dados de Gênesis exclusivamente no Codex Leningradensis (B19A) para a tradição hebraica massorética.",
-            "O Codex Leningradensis é o manuscrito completo mais antigo da Bíblia Hebraica que sobreviveu até os nossos dias (datado de aproximadamente 1008 d.C.). Ele serve como o 'texto padrão' (textus receptus acadêmico) para as edições críticas modernas mais respeitadas no mundo, como a Biblia Hebraica Stuttgartensia (BHS).",
+            "Recentemente, tomamos a decisão estratégica de focar nossa base de dados de Gênesis exclusivamente no Codex Leningradensis (B19A) para a tradição hebraica massorética. Mas qual a importância técnica disso?",
+            "O Codex Leningradensis é o manuscrito completo mais antigo da Bíblia Hebraica (aprox. 1008 d.C.). Ele é o 'irmão' mais novo do Códice de Aleppo (que está incompleto) e serve como base para as edições acadêmicas modernas como a BHS. O mais fascinante é que, ao compararmos o B19A com os Manuscritos do Mar Morto (DSS), descobertos em Qumran e mil anos mais antigos, vemos que o texto é praticamente idêntico. Isso prova a precisão milenar da transmissão dos escribas judeus.",
+            "Para gerar esses textos com precisão acadêmica, utilizamos as fontes em domínio público do projeto TanakhML (distribuído em formato OSIS XML), garantindo que cada acento e vogal massorética siga os padrões internacionais de crítica textual.",
             "Esta mudança permite uma interface mais limpa e um foco maior na curadoria das traduções literais e na análise morfológica, garantindo a você a melhor ferramenta de estudo possível."
           ]
         }
@@ -53,8 +54,9 @@ export default async function UpdatesPage({ params }) {
           date: "May 04, 2026",
           headline: "Hebrew Text Unification: Why Codex Leningradensis (B19A)?",
           paragraphs: [
-            "Recently, we made the strategic decision to focus our Genesis database exclusively on the Codex Leningradensis (B19A) for the Masoretic Hebrew tradition.",
-            "The Codex Leningradensis is the oldest complete manuscript of the Hebrew Bible that has survived to this day (dated to approximately 1008 AD). It serves as the 'standard text' (academic textus receptus) for the most respected modern critical editions in the world, such as the Biblia Hebraica Stuttgartensia (BHS).",
+            "Recently, we made the strategic decision to focus our Genesis database exclusively on the Codex Leningradensis (B19A) for the Masoretic Hebrew tradition. But what is the technical significance of this?",
+            "The Codex Leningradensis is the oldest complete manuscript of the Hebrew Bible (approx. 1008 AD). It is the younger 'brother' of the Aleppo Codex (which is incomplete) and serves as the basis for modern academic editions such as the BHS. What's most fascinating is that when we compare B19A with the Dead Sea Scrolls (DSS), discovered in Qumran and a thousand years older, we see that the text is virtually identical. This proves the millennial precision of the transmission by Jewish scribes.",
+            "To generate these texts with academic precision, we utilized the public domain sources from the TanakhML project (distributed in OSIS XML format), ensuring that every accent and Masoretic vowel follows international textual criticism standards.",
             "This change allows for a cleaner interface and a greater focus on the curation of literal translations and morphological analysis, ensuring you have the best possible study tool."
           ]
         }
