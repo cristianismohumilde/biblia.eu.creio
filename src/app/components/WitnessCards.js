@@ -5,9 +5,7 @@ import { handleSpeak } from "@/app/utils/audio";
 const RTL_LANGS = new Set(["hebrew", "aramaic", "syriac"]);
 
 const manuscriptMap = {
-  hebrew: [
-    { id: "leningradensis", key: "b19a", label: "Codex Leningradensis (B19A)" }
-  ],
+  hebrew: [{ id: "leningradensis", key: "b19a", label: "Codex Leningradensis (B19A)" }],
   greek: [
     { id: "lxx", key: "lxx", label: "Septuaginta (LXX)" },
     { id: "byzantine", key: "byzantine", label: "Tradição Bizantina" }
@@ -73,93 +71,100 @@ export default function WitnessCards({ lang, data, manuscript }) {
 
         if (witnesses.length === 0) return null;
 
-        return witnesses.map(w => {
-          const msInfo = manuscriptMap[lo.code]?.find(m => {
-            const label = (w.label || "").toLowerCase();
-            const id = (w.id || "").toLowerCase();
-            if (id === m.id || label.includes(m.id)) return true;
-            if (id === "base") {
-              if (lo.code === "hebrew" && m.key === "b19a") return true;
-              if (lo.code === "aramaic" && m.key === "targum") return true;
-              if (lo.code === "latin" && m.key === "vulgate") return true;
-              if (lo.code === "syriac" && m.key === "syriac") return true;
-              if (lo.code === "geez" && m.key === "geez") return true;
-              if (lo.code === "coptic" && m.key === "coptic") return true;
-              if (lo.code === "armenian" && m.key === "armenian") return true;
-              if (lo.code === "greek" && m.key === "lxx") return true;
-            }
-            if (m.key === "b19a" && label.includes("leningradensis")) return true;
-            if (m.key === "lxx" && label.includes("septuaginta")) return true;
-            if (m.key === "byzantine" && (label.includes("bizantina") || label.includes("byz"))) return true;
-            if (m.key === "targum" && label.includes("onkelos")) return true;
-            if (m.key === "geez" && (label.includes("etióp") || label.includes("ethiopic"))) return true;
-            return false;
-          });
+        return (
+          <div key={lo.code} className="language-group" style={{ marginBottom: '2rem' }}>
+            <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', borderLeft: '4px solid var(--accent)', paddingLeft: '0.8rem', color: 'var(--accent)' }}>
+              {lo.label}
+            </h2>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              {witnesses.map(w => {
+                const msInfo = manuscriptMap[lo.code]?.find(m => {
+                  const label = (w.label || "").toLowerCase();
+                  const id = (w.id || "").toLowerCase();
+                  if (id === m.id || label.includes(m.id)) return true;
+                  if (id === "base") {
+                    if (lo.code === "hebrew" && m.key === "b19a") return true;
+                    if (lo.code === "aramaic" && m.key === "targum") return true;
+                    if (lo.code === "latin" && m.key === "vulgate") return true;
+                    if (lo.code === "syriac" && m.key === "syriac") return true;
+                    if (lo.code === "geez" && m.key === "geez") return true;
+                    if (lo.code === "coptic" && m.key === "coptic") return true;
+                    if (lo.code === "armenian" && m.key === "armenian") return true;
+                    if (lo.code === "greek" && m.key === "lxx") return true;
+                  }
+                  if (m.key === "b19a" && label.includes("leningradensis")) return true;
+                  if (m.key === "lxx" && label.includes("septuaginta")) return true;
+                  if (m.key === "byzantine" && (label.includes("bizantina") || label.includes("byz"))) return true;
+                  if (m.key === "targum" && label.includes("onkelos")) return true;
+                  if (m.key === "geez" && (label.includes("etióp") || label.includes("ethiopic"))) return true;
+                  return false;
+                });
 
-          const isCurrent = msInfo && msInfo.key === manuscript;
+                const isCurrent = msInfo && msInfo.key === manuscript;
 
-          return (
-            <article key={`${lo.code}-${w.id}`} className={`text-witness ${isCurrent ? 'active-witness' : ''}`}>
-              <div className="text-witness-header">
-                <h3 className="text-witness-title">{w.label || lo.label}</h3>
-                <button 
-                  onClick={() => handleSpeak(w.text || sourceText || data[`${lo.code}Text`], lo.code)} 
-                  className="audio-player-mini"
-                  title={t.listen}
-                >
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-                  </svg>
-                  {lang === 'pt' ? "Ouvir" : "Listen"}
-                </button>
-              </div>
+                return (
+                  <article key={w.id} className={`text-witness ${isCurrent ? 'active-witness' : ''}`}>
+                    <div className="text-witness-header">
+                      <h3 className="text-witness-title" style={{ fontSize: '1.05rem' }}>{w.label || lo.label}</h3>
+                      <button 
+                        onClick={() => handleSpeak(w.text || sourceText || data[`${lo.code}Text`], lo.code)} 
+                        className="audio-player-mini"
+                      >
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                          <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                        </svg>
+                        {lang === 'pt' ? "Ouvir" : "Listen"}
+                      </button>
+                    </div>
 
-              <div className="text-witness-meta" style={{ marginBottom: '1rem' }}>
-                <p className="manuscript-meta" style={{ fontSize: '0.8rem', opacity: 0.7, margin: 0 }}>
-                  { (lang === 'en' ? data.manuscripts?.[`${lo.code}En`] : data.manuscripts?.[lo.code]) || 
-                    (data.tokens?.find(tk => tk.lang === lo.code)?.[lang === 'en' ? 'manuscriptEn' : 'manuscript']) ||
-                    t.notInformedMsg || `Source not informed.` }
-                </p>
-              </div>
+                    <p className="manuscript-meta" style={{ fontSize: '0.85rem', opacity: 0.7, marginBottom: '1rem' }}>
+                      { (lang === 'en' ? data.manuscripts?.[`${lo.code}En`] : data.manuscripts?.[lo.code]) || 
+                        (data.tokens?.find(tk => tk.lang === lo.code)?.[lang === 'en' ? 'manuscriptEn' : 'manuscript']) ||
+                        t.notInformedMsg || `Source not informed.` }
+                    </p>
 
-              <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`}>
-                {w.text || t.noText}
-              </p>
+                    <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`} style={{ fontSize: '1.35rem', marginBottom: '1.2rem' }}>
+                      {w.text || t.noText}
+                    </p>
 
-              <div className="text-witness-section">
-                <p className="text-witness-label">{t.transliteration}</p>
-                <p className="text-witness-transliteration">{w.transliteration || fallbackTransliteration || t.noTranslit}</p>
-              </div>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem', borderTop: '1px solid rgba(132,111,77,0.1)', paddingTop: '1rem' }}>
+                      <div>
+                        <p className="text-witness-label">{t.transliteration}</p>
+                        <p className="text-witness-transliteration" style={{ fontSize: '1.05rem' }}>{w.transliteration || fallbackTransliteration || t.noTranslit}</p>
+                      </div>
+                      <div>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                          <p className="text-witness-label">{t.literalTranslationLabel}</p>
+                          <button 
+                            onClick={() => handleSpeak((lang === 'en' ? w.literalEn : w.literalPt) || fallbackLiteral, lang)} 
+                            className="audio-player-mini"
+                            style={{ padding: '0.2rem 0.6rem', fontSize: '0.65rem' }}
+                          >
+                            🔊
+                          </button>
+                        </div>
+                        <p className="text-witness-literal" style={{ fontSize: '1.1rem', fontWeight: 500 }}>{(lang === 'en' ? w.literalEn : w.literalPt) || fallbackLiteral || t.noLiteral}</p>
+                      </div>
+                    </div>
 
-              <div className="text-witness-section">
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <p className="text-witness-label">{t.literalTranslationLabel}</p>
-                  <button 
-                    onClick={() => handleSpeak((lang === 'en' ? w.literalEn : w.literalPt) || fallbackLiteral, lang)} 
-                    className="audio-player-mini"
-                    style={{ padding: '0.2rem 0.6rem', fontSize: '0.65rem' }}
-                  >
-                    🔊
-                  </button>
-                </div>
-                <p className="text-witness-literal">{(lang === 'en' ? w.literalEn : w.literalPt) || fallbackLiteral || t.noLiteral}</p>
-              </div>
-
-              {msInfo && !isCurrent && (
-                <div className="manuscript-actions" style={{ marginTop: 'auto', paddingTop: '1.2rem' }}>
-                  <Link 
-                    href={`/${lang}/interlinear/${msInfo.key}/${data.ref.book.toLowerCase()}/${data.ref.chapter}?v=${data.ref.verse}`}
-                    className="manuscript-cta"
-                    style={{ width: '100%' }}
-                  >
-                    {t.interlinearComplete}
-                  </Link>
-                </div>
-              )}
-            </article>
-          );
-        });
+                    {msInfo && !isCurrent && (
+                      <div className="manuscript-actions" style={{ marginTop: '1.5rem', paddingTop: '1rem', borderTop: '1px dashed rgba(132,111,77,0.15)' }}>
+                        <Link 
+                          href={`/${lang}/interlinear/${msInfo.key}/${data.ref.book.toLowerCase()}/${data.ref.chapter}?v=${data.ref.verse}`}
+                          className="manuscript-cta"
+                          style={{ maxWidth: '300px' }}
+                        >
+                          {t.interlinearComplete}
+                        </Link>
+                      </div>
+                    )}
+                  </article>
+                );
+              })}
+            </div>
+          </div>
+        );
       })}
     </div>
   );

@@ -735,17 +735,18 @@ button:hover {
 }
 
 .text-witnesses {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .text-witness {
   display: flex;
   flex-direction: column;
-  border: 1px solid rgba(132, 111, 77, 0.28);
+  width: 100%;
+  border: 1px solid rgba(132, 111, 77, 0.22);
   border-radius: 14px;
-  padding: 1.2rem;
+  padding: 1.5rem;
   background: var(--card);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
