@@ -67,6 +67,7 @@ export const handleSpeak = (text, langCode) => {
     const backupAudio = new Audio(backupUrl);
     backupAudio.play().catch(() => {
       showToast("FAIL: USING SYSTEM VOICE");
+    });
 
     
     // Fallback 2: SpeechSynthesis (Vozes locais)
