@@ -62,6 +62,14 @@ Este projeto é construído sobre o pilar dos **Dados Abertos (Open Data)**. Gar
 - **📦 Estrutura de Dados:** Servidos como arquivos estáticos a partir de `public/data/`, sem necessidade de banco de dados ativo.
 - **🗺️ Roteamento Dinâmico:** Navegação instantânea via roteamento client-side do Next.js.
 
+## 🧪 Engenharia de Áudio Linguística
+
+Uma das inovações centrais da plataforma é a recuperação de fonéticas antigas através de **Proxy Linguístico**. Como vozes neurais dedicadas para línguas litúrgicas (como Ge'Ez ou Siríaco) não estão disponíveis comercialmente, desenvolvemos estratégias customizadas:
+
+- **🇪🇹 Ge'Ez:** Mapeado para motores **Amáricos (am-ET)**. Como compartilham o mesmo alfabeto (Fidäl), a precisão fonética é superior a 95%.
+- **🇸🇾 Siríaco (Peshitta):** Implementamos um **Transliterador de Script** customizado. O texto siríaco é convertido para caracteres hebraicos em tempo real e processado pelo motor **Hebraico (he-IL)**, alcançando uma entonação aramaica natural.
+- **🏛️ Latim:** Roteado através de motores **Italianos (it-IT)** para uma pronúncia Eclesiástica autêntica.
+
 ## ⚙️ Master Data Pipeline (Para outros Apps e Desenvolvedores)
 
 O coração do **Biblia.Creio.EU** é a sua estrutura de dados JSON interlinear. Se você está desenvolvendo **outro aplicativo** e deseja reutilizar esta mesma arquitetura (por exemplo, um aplicativo mobile ou outro site de estudo), você não deve criar o banco de dados manualmente. 

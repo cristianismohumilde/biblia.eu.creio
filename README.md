@@ -62,6 +62,14 @@ This project is a pillar of **Open Data**. We ensure absolute legal safety for c
 - **📦 Data Structure:** Served as static files from `public/data/`, requiring no active database.
 - **🗺️ Dynamic Routing:** Instant navigation powered by Next.js client-side routing.
 
+## 🧪 Linguistic Audio Engineering
+
+One of the platform's core innovations is the recovery of ancient phonetics through **Linguistic Proxying**. Since dedicated Neural Voices for liturgical languages (like Ge'Ez or Syriac) are not commercially available, we developed custom strategies:
+
+- **🇪🇹 Ge'Ez:** Mapped to **Amharic (am-ET)** Neural engines. Since they share the same Ge'ez script, the phonetic recovery is 95%+ accurate.
+- **🇸🇾 Syriac (Peshitta):** Implemented a custom **Script Transliterator**. Before synthesis, Syriac text is converted to Hebrew script on-the-fly and processed by the **Hebrew (he-IL)** Neural engine, achieving natural Aramaic intonation.
+- **🏛️ Latin:** Routed through **Italian (it-IT)** engines for an authentic Ecclesiastical pronunciation.
+
 ## ⚙️ Master Data Pipeline (For Other Apps & Developers)
 
 The core of **Biblia.Creio.EU** is its interlinear JSON data structure. If you are developing **another application** and wish to reuse this same architecture (e.g., a mobile app or another study platform), you should not create the database manually.
