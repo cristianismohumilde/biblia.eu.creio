@@ -242,27 +242,42 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
           <p className="reference">{data.ref.book} {data.ref.chapter}:{data.ref.verse}</p>
           <p className="translation-meta">{witnessData.label}</p>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginTop: '1rem', marginBottom: '0.3rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginTop: '1.2rem', marginBottom: '0.5rem' }}>
             <p className="text-witness-label" style={{ margin: 0 }}>{t.manuscriptText}</p>
-            <button onClick={() => handleSpeak(witnessData.text, targetLang)} className="support-cta" style={{ padding: '0.2rem 0.6rem', fontSize: '0.7rem', display: 'inline-flex', alignItems: 'center', gap: '0.3rem', height: 'auto', boxShadow: 'none' }}>
-              🔊 {lang === 'pt' ? "OUVIR" : "LISTEN"}
+            <button 
+              onClick={() => handleSpeak(witnessData.text, targetLang)} 
+              className="audio-player-mini"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+              </svg>
+              {lang === 'pt' ? "OUVIR" : "LISTEN"}
             </button>
           </div>
 
-          <blockquote className={`verse ${RTL_LANGS.has(targetLang) ? 'rtl' : ''}`}>
+          <blockquote className={`verse ${RTL_LANGS.has(targetLang) ? 'rtl' : ''}`} style={{ fontSize: '1.5rem', lineHeight: '1.4' }}>
             {witnessData.text}
           </blockquote>
 
           <p className="text-witness-label">{t.transliteration}</p>
-          <p className="text-witness-transliteration">{witnessData.transliteration}</p>
+          <p className="text-witness-transliteration" style={{ fontSize: '1.1rem', opacity: 0.8 }}>{witnessData.transliteration}</p>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginTop: '1rem', marginBottom: '0.3rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginTop: '1.2rem', marginBottom: '0.5rem' }}>
             <p className="text-witness-label" style={{ margin: 0 }}>{t.literalTranslationLabel}</p>
-            <button onClick={() => handleSpeak(witnessData.literal, lang)} className="support-cta" style={{ padding: '0.2rem 0.6rem', fontSize: '0.7rem', display: 'inline-flex', alignItems: 'center', gap: '0.3rem', height: 'auto', boxShadow: 'none', background: 'linear-gradient(120deg, #cc9a58, #e0b37a)' }}>
-              🔊 {lang === 'pt' ? "OUVIR" : "LISTEN"}
+            <button 
+              onClick={() => handleSpeak(witnessData.literal, lang)} 
+              className="audio-player-mini"
+              style={{ background: 'rgba(204, 154, 88, 0.1)', borderColor: 'rgba(204, 154, 88, 0.25)', color: '#cc9a58' }}
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+              </svg>
+              {lang === 'pt' ? "OUVIR" : "LISTEN"}
             </button>
           </div>
-          <p className="text-witness-literal">{witnessData.literal}</p>
+          <p className="text-witness-literal" style={{ fontSize: '1.15rem', fontWeight: 500 }}>{witnessData.literal}</p>
         </section>
 
         <section className="card">
