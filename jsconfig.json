@@ -8,6 +8,12 @@
   "exclude": [
     "node_modules",
     ".next",
-    "public/data"
+    "public/data",
+    "backup_old_site",
+    "test-results",
+    "scratch",
+    "e2e",
+    "scripts/pipeline/raw_data",
+    ".git"
   ]
 }
