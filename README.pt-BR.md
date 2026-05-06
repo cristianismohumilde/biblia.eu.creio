@@ -38,9 +38,10 @@ Este projeto é construído sobre o pilar dos **Dados Abertos (Open Data)**. Gar
 ## ⚡ Capacidades Principais
 
 - **📖 Interlinear por Token:** Texto de superfície, transliteração, lema, morfologia e referências lexicais.
-- **🔊 Áudio de Alta Fidelidade em Nuvem:** Ouça os manuscritos originais e traduções literais via Cloud TTS avançado (motor Google).
+- **🔊 Áudio Neural de Alta Fidelidade:** Áudio de nível profissional para manuscritos e traduções via **Azure Neural TTS** (Hebraico, Grego e mais).
 - **🔄 Comparação de Testemunhos:** Compare diferentes manuscritos (Leningradensis, LXX, Vulgata, etc.) por verso.
-- **📍 Navegação Dinâmica:** Navegação instantânea verso a verso com carregamento de dados otimizado.
+- **📍 Navegação Dinâmica:** Navegação instantânea verso a verso em todas as visualizações.
+- **✨ Novidades e Atualizações:** Sistema integrado e animado de acompanhamento da evolução da plataforma.
 - **🔍 Filtros em Tempo Real:** Busque e filtre tokens nas tabelas interlineares instantaneamente.
 - **🌓 Suporte a Temas:** Modos Escuro e Claro premium para longas sessões de estudo.
 
@@ -87,6 +88,17 @@ function removeNiqqud(hebrewText) {
 2. Escreva um script (Node.js/Python) que itere por todos os capítulos e versos.
 3. Para cada palavra, aplique o `removeNiqqud()` na propriedade de texto.
 4. Salve o resultado como um grande array de objetos (ou múltiplos arquivos JSON) dentro da pasta de dados do seu novo aplicativo.
+
+## 🔐 Segurança e Configuração de API
+
+Para áudio de alta fidelidade, o projeto suporta **Azure Cognitive Services**. Para manter as chaves seguras:
+
+1. **Desenvolvimento Local:** Crie um arquivo `.env.local`:
+   ```env
+   NEXT_PUBLIC_AZURE_SPEECH_KEY=sua_chave_aqui
+   NEXT_PUBLIC_AZURE_SPEECH_REGION=sua_regiao
+   ```
+2. **Produção (GitHub Pages):** Adicione as mesmas chaves nos **GitHub Secrets** (`Settings > Secrets and variables > Actions`). O workflow de deploy está pré-configurado para injetá-las durante o build.
 
 ## 💻 Como Rodar Localmente
 

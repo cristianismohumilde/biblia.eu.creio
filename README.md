@@ -38,9 +38,10 @@ This project is a pillar of **Open Data**. We ensure absolute legal safety for c
 ## ⚡ Core Capabilities
 
 - **📖 Token-Level Interlinear:** Surface text, transliteration, lemma, morphology, and lexical references.
-- **🔊 High-Quality Cloud Audio:** Hear original manuscripts and literal translations via advanced Cloud TTS (Google engine).
+- **🔊 High-Fidelity Neural Audio:** Professional-grade audio for original manuscripts and literal translations via **Azure Neural TTS** (supports Hebrew, Greek, and more).
 - **🔄 Witness Comparison:** Compare different manuscripts (Leningradensis, LXX, Vulgate, etc.) per verse.
-- **📍 Dynamic Navigation:** Instant verse-by-verse navigation with cached data loading.
+- **📍 Dynamic Navigation:** Instant verse-by-verse navigation across all study views.
+- **✨ News & Updates:** Integrated animated updates tracker for platform evolution.
 - **🔍 Real-time Filtering:** Search and filter tokens in interlinear tables instantly.
 - **🌓 Theme Support:** Premium Dark and Light modes for long study sessions.
 
@@ -87,6 +88,17 @@ function removeNiqqud(hebrewText) {
 2. Write a script (Node.js/Python) that iterates through all chapters and verses.
 3. For each word, apply `removeNiqqud()` to the surface text property.
 4. Save the result as a large array of objects (or multiple JSON files) inside your new application's data folder.
+
+## 🔐 Security & API Configuration
+
+For high-fidelity audio, this project supports **Azure Cognitive Services**. To keep keys secure:
+
+1. **Local Development:** Create a `.env.local` file:
+   ```env
+   NEXT_PUBLIC_AZURE_SPEECH_KEY=your_key_here
+   NEXT_PUBLIC_AZURE_SPEECH_REGION=your_region
+   ```
+2. **Production (GitHub Pages):** Add the same keys to **GitHub Secrets** (`Settings > Secrets and variables > Actions`). The deployment workflow is pre-configured to inject these safely during build.
 
 ## 💻 Run Locally
 
