@@ -214,7 +214,6 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
           <Link href={`/${lang}/`}>{t.backToIndex}</Link>
           <Link href={`/${lang}/atualizacoes-e-novidades`} className="nav-updates">{t.updates}</Link>
           <Link href={`/${lang}/fontes`}>{t.sources}</Link>
-          <a href="#tabela-interlinear">{t.detailedTable}</a>
           <LanguageSwitcher lang={lang} />
           <ThemeToggle t={t} />
         </nav>

@@ -69,11 +69,19 @@ body {
 
 .site-header {
   display: flex;
-  justify-content: space-between;
-  align-items: end;
-  gap: 1rem;
-  padding: 2.4rem 0 1.2rem;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 0 1.5rem;
   animation: reveal 550ms ease;
+}
+
+@media (min-width: 1024px) {
+  .site-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2.4rem 0 1.2rem;
+  }
 }
 
 @keyframes reveal {
@@ -107,8 +115,31 @@ h1 {
 
 .quick-nav {
   display: flex;
-  gap: 0.6rem;
-  flex-wrap: wrap;
+  gap: 0.65rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 0.5rem 0.2rem;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+}
+
+.quick-nav::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.quick-nav > * {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+@media (min-width: 1024px) {
+  .quick-nav {
+    flex-wrap: wrap;
+    overflow-x: visible;
+    justify-content: flex-end;
+  }
 }
 
 .quick-nav a {

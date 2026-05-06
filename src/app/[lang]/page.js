@@ -61,12 +61,6 @@ export default function LangHomePage({ params }) {
           <p className="subtitle">{t.subtitle}</p>
         </div>
         <nav className="quick-nav" aria-label="Navegação rápida">
-          {data && (
-            <>
-              <a href={`/${lang}/#verso`}>{t.verse}</a>
-              <a href={`/${lang}/#originais`}>{t.manuscriptTexts}</a>
-            </>
-          )}
           <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">
             {t.biblicalLanguages}
           </Link>
