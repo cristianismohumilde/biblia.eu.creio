@@ -64,34 +64,42 @@ async function translateChapter(filePath, targetLang = 'pt') {
   console.log(`📖 Processando: ${path.basename(filePath)}...`);
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   
-  for (let i = 0; i < data.verses.length; i++) {
-    const verse = data.verses[i];
-    const enVerse = verse.enLiteralVerse;
+  const BATCH_SIZE = 5; // Processar 5 versos de cada vez
+  
+  for (let i = 0; i < data.verses.length; i += BATCH_SIZE) {
+    const batch = data.verses.slice(i, i + BATCH_SIZE)
+      .filter(v => !v.ptLiteralVerse || v.ptLiteralVerse.includes("[placeholder]"));
     
-    // Pular se já tiver tradução
-    if (verse.ptLiteralVerse && !verse.ptLiteralVerse.includes("[placeholder]")) {
-       console.log(`⏩ Pulando verso ${verse.ref.verse} (já traduzido)`);
-       continue;
+    if (batch.length === 0) {
+      console.log(`⏩ Pulando lote (versos ${i + 1} a ${i + BATCH_SIZE} já traduzidos)`);
+      continue;
     }
 
-    console.log(`   🔸 Traduzindo verso ${verse.ref.verse}...`);
+    console.log(`   🔸 Traduzindo lote de ${batch.length} versos (início no verso ${batch[0].ref.verse})...`);
 
-    // Criar prompt para o verso e para os tokens
-    const tokensToTranslate = verse.tokens
-      .filter(t => t.lang === 'hebrew' || t.lang === 'greek')
-      .map(t => ({ id: t.id, en: t.enLiteralWord, lemma: t.lemma }));
+    const promptData = batch.map(v => ({
+      id: v.id,
+      text: v.enLiteralVerse,
+      tokens: v.tokens
+        .filter(t => t.lang === 'hebrew' || t.lang === 'greek')
+        .map(t => ({ id: t.id, en: t.enLiteralWord }))
+    }));
 
     const prompt = `
-      Traduza o seguinte versículo bíblico do inglês para o ${targetLang === 'pt' ? 'Português' : targetLang} de forma LITERAL.
-      Versículo Original (EN): "${enVerse}"
+      Traduza os seguintes ${batch.length} versículos bíblicos do inglês para o ${targetLang === 'pt' ? 'Português' : targetLang} de forma LITERAL.
       
-      Também traduza os seguintes termos individuais baseados no contexto do versículo:
-      ${JSON.stringify(tokensToTranslate)}
+      Dados:
+      ${JSON.stringify(promptData)}
 
       Retorne APENAS um objeto JSON no formato:
       {
-        "translatedVerse": "tradução aqui",
-        "tokens": { "id_do_token": "tradução_do_termo", ... }
+        "verses": [
+          {
+            "id": "id_do_verso",
+            "translatedVerse": "tradução aqui",
+            "tokens": { "id_do_token": "tradução_em_português", ... }
+          }
+        ]
       }
     `;
 
@@ -102,37 +110,40 @@ async function translateChapter(filePath, targetLang = 'pt') {
       while (retries > 0) {
         try {
           result = await callGroq(prompt);
-          break;
+          if (result.verses) break;
+          throw new Error("Formato de resposta inválido");
         } catch (err) {
-          if (err.message.includes("Rate limit reached")) {
-            console.log(`     ⚠️ Rate limit! Esperando 10 segundos... (Tentativas restantes: ${retries})`);
-            await new Promise(r => setTimeout(r, 10000));
+          if (err.message.includes("Rate limit")) {
+            console.log(`     ⚠️ Rate limit! Esperando 15 segundos...`);
+            await new Promise(r => setTimeout(r, 15000));
             retries--;
           } else {
-            throw err;
+            console.error(`     ❌ Erro: ${err.message}`);
+            retries--;
+            await new Promise(r => setTimeout(r, 2000));
           }
         }
       }
 
-      if (!result) throw new Error("Falha após várias tentativas");
-      
-      // Atualizar o verso
-      if (targetLang === 'pt') {
-        verse.ptLiteralVerse = result.translatedVerse;
-        
-        // Atualizar os tokens
-        verse.tokens.forEach(token => {
-          if (result.tokens[token.id]) {
-            token.ptLiteralWord = result.tokens[token.id];
+      if (result && result.verses) {
+        result.verses.forEach(vResult => {
+          const verse = data.verses.find(v => v.id === vResult.id);
+          if (verse) {
+            verse.ptLiteralVerse = vResult.translatedVerse;
+            verse.tokens.forEach(token => {
+              if (vResult.tokens[token.id]) {
+                token.ptLiteralWord = vResult.tokens[token.id];
+              }
+            });
           }
         });
+        console.log(`      ✅ Lote de ${batch.length} versos salvo.`);
       }
       
-      // Delay maior para evitar rate limit agressivo
-      await new Promise(r => setTimeout(r, 1000));
+      await new Promise(r => setTimeout(r, 2000)); // Pausa entre lotes
       
     } catch (err) {
-      console.error(`   ❌ Erro no verso ${verse.ref.verse}: ${err.message}`);
+      console.error(`   ❌ Erro fatal no lote: ${err.message}`);
     }
   }
 

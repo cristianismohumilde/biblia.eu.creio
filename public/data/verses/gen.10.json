@@ -29,7 +29,7 @@
           "kjv": "an-(the) other; one sort, so, some, such, them, these (same), they, this, those, thus, which, who(-m).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "these or those",
+          "ptLiteralWord": "estes",
           "enLiteralWord": "these or those",
           "explanation": "these or those",
           "explanationEn": "these or those"
@@ -67,7 +67,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -162,7 +162,7 @@
           "kjv": "bear, beget, birth(-day), born, (make to) bring forth (children, young), bring up, calve, child, come, be delivered (of a child), time of delivery, gender, hatch, labour, (do the office of a) midwife, declare pedigrees, be the son of, (woman in, woman that) travail(-eth, -ing woman).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to bear young; causatively",
+          "ptLiteralWord": "dar à luz",
           "enLiteralWord": "to bear young; causatively",
           "explanation": "to bear young; causatively",
           "explanationEn": "to bear young; causatively"
@@ -181,7 +181,7 @@
           "kjv": "",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "",
+          "ptLiteralWord": "a eles",
           "enLiteralWord": "",
           "explanation": "",
           "explanationEn": ""
@@ -200,7 +200,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -219,7 +219,7 @@
           "kjv": "after (that, -ward), again, at, away from, back (from, -side), behind, beside, by, follow (after, -ing), forasmuch, from, hereafter, hinder end, [phrase] out (over) live, [phrase] persecute, posterity, pursuing, remnant, seeing, since, thence(-forth), when, with.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "depois/após",
+          "ptLiteralWord": "após",
           "enLiteralWord": "properly",
           "explanation": "achar — depois, após, atrás, em seguida",
           "explanationEn": "properly"
@@ -238,12 +238,13 @@
           "kjv": "flood.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a deluge",
+          "ptLiteralWord": "inundação",
           "enLiteralWord": "a deluge",
           "explanation": "a deluge",
           "explanationEn": "a deluge"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Estes são os filhos de Noach, Shem, Cham e Jepheth, na ordem em que nasceram: os filhos de Noach: Shem, Cham e Jepheth."
     },
     {
       "id": "gen.10.2",
@@ -271,7 +272,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -290,7 +291,7 @@
           "kjv": "Japheth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Jepheth",
+          "ptLiteralWord": "Jafé",
           "enLiteralWord": "Jepheth",
           "explanation": "Jepheth",
           "explanationEn": "Jepheth"
@@ -404,7 +405,7 @@
           "kjv": "Mesech, Meshech.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Meshek",
+          "ptLiteralWord": "Meshech",
           "enLiteralWord": "Meshek",
           "explanation": "Meshek",
           "explanationEn": "Meshek"
@@ -428,7 +429,8 @@
           "explanation": "Tiras",
           "explanationEn": "Tiras"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E estes são os filhos de Jafé: Gomer, Magog, Madai, Javan, Tubal, Meshech e Tiras."
     },
     {
       "id": "gen.10.3",
@@ -456,7 +458,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -537,7 +539,8 @@
           "explanation": "Togarmah",
           "explanationEn": "Togarmah"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E estes são os filhos de Jafé: Gomer, Magogue, Madai, Javan, Tubal, Mesec e Tiras."
     },
     {
       "id": "gen.10.4",
@@ -565,7 +568,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filha",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -603,7 +606,7 @@
           "kjv": "Elishah.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Elishah",
+          "ptLiteralWord": "Elisha",
           "enLiteralWord": "Elishah",
           "explanation": "Elishah",
           "explanationEn": "Elishah"
@@ -622,7 +625,7 @@
           "kjv": "Tarshish, Tharshish.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Tarshish",
+          "ptLiteralWord": "Tarsis",
           "enLiteralWord": "Tarshish",
           "explanation": "Tarshish",
           "explanationEn": "Tarshish"
@@ -641,7 +644,7 @@
           "kjv": "Chittim, Kittim.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Kittite or Cypriote; hence",
+          "ptLiteralWord": "Cete",
           "enLiteralWord": "a Kittite or Cypriote; hence",
           "explanation": "a Kittite or Cypriote; hence",
           "explanationEn": "a Kittite or Cypriote; hence"
@@ -660,12 +663,13 @@
           "kjv": "Dodanim.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Dodanites",
+          "ptLiteralWord": "Dodanitas",
           "enLiteralWord": "Dodanites",
           "explanation": "Dodanites",
           "explanationEn": "Dodanites"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Jafé: a filha de Javan, Elisha, e a filha de Tarsis, Cete."
     },
     {
       "id": "gen.10.5",
@@ -693,7 +697,7 @@
           "kjv": "an-(the) other; one sort, so, some, such, them, these (same), they, this, those, thus, which, who(-m).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "these or those",
+          "ptLiteralWord": "estes",
           "enLiteralWord": "these or those",
           "explanation": "these or those",
           "explanationEn": "these or those"
@@ -712,7 +716,7 @@
           "kjv": "disperse, divide, be out of joint, part, scatter (abroad), separate (self), sever self, stretch, sunder.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to break through",
+          "ptLiteralWord": "quebrar através",
           "enLiteralWord": "to break through",
           "explanation": "to break through",
           "explanationEn": "to break through"
@@ -731,7 +735,7 @@
           "kjv": "country, isle, island.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "de forma própria",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -750,7 +754,7 @@
           "kjv": "Gentile, heathen, nation, people.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a foreign nation; hence",
+          "ptLiteralWord": "nação estrangeira; portanto",
           "enLiteralWord": "a foreign nation; hence",
           "explanation": "a foreign nation; hence",
           "explanationEn": "a foreign nation; hence"
@@ -769,7 +773,7 @@
           "kjv": "[idiom] common, country, earth, field, ground, land, [idiom] natins, way, [phrase] wilderness, world.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "terra",
+          "ptLiteralWord": "a terra (em geral",
           "enLiteralWord": "the earth (at large",
           "explanation": "eretz — terra, solo, país, região, toda a terra",
           "explanationEn": "the earth (at large"
@@ -788,7 +792,7 @@
           "kjv": "also, another, any (man), a certain, [phrase] champion, consent, each, every (one), fellow, (foot-, husband-) man, (good-, great, mighty) man, he, high (degree), him (that is), husband, man(-kind), [phrase] none, one, people, person, [phrase] steward, what (man) soever, whoso(-ever), worthy. Compare H802 (אִשָּׁה).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "homem/alguém",
+          "ptLiteralWord": "homem como indivíduo ou pessoa masculina; frequentemente usado como um adjunto a um termo mais definido",
           "enLiteralWord": "a man as an individual or a male person; often used as an adjunct to a more definite term",
           "explanation": "ish — homem, varão, marido, indivíduo, alguém",
           "explanationEn": "a man as an individual or a male person; often used as an adjunct to a more definite term"
@@ -807,7 +811,7 @@
           "kjv": "[phrase] babbler, bay, [phrase] evil speaker, language, talker, tongue, wedge.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "the tongue",
+          "ptLiteralWord": "língua",
           "enLiteralWord": "the tongue",
           "explanation": "the tongue",
           "explanationEn": "the tongue"
@@ -826,7 +830,7 @@
           "kjv": "family, kind(-red).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a family",
+          "ptLiteralWord": "família",
           "enLiteralWord": "a family",
           "explanation": "a family",
           "explanationEn": "a family"
@@ -845,12 +849,13 @@
           "kjv": "Gentile, heathen, nation, people.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a foreign nation; hence",
+          "ptLiteralWord": "nação estrangeira; portanto",
           "enLiteralWord": "a foreign nation; hence",
           "explanation": "a foreign nation; hence",
           "explanationEn": "a foreign nation; hence"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Eram estes os filhos de Jafé: Gomer, Magogue, Madai, Javã, Tubal, Meseque e Tiras."
     },
     {
       "id": "gen.10.6",
@@ -878,7 +883,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -897,7 +902,7 @@
           "kjv": "Ham.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Cham",
+          "ptLiteralWord": "Caim",
           "enLiteralWord": "Cham",
           "explanation": "Cham",
           "explanationEn": "Cham"
@@ -916,7 +921,7 @@
           "kjv": "Chush, Cush, Ethiopia.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Cush",
+          "ptLiteralWord": "Cuxe",
           "enLiteralWord": "Cush",
           "explanation": "Cush",
           "explanationEn": "Cush"
@@ -935,7 +940,7 @@
           "kjv": "Egypt, Egyptians, Mizraim.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Egito",
+          "ptLiteralWord": "Mitzraim",
           "enLiteralWord": "Mitsrajim",
           "explanation": "Mitsrayim — Egito. A terra das \"duas margens\" do Nilo",
           "explanationEn": "Mitsrajim"
@@ -954,7 +959,7 @@
           "kjv": "Phut, Put.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Put",
+          "ptLiteralWord": "Pute",
           "enLiteralWord": "Put",
           "explanation": "Put",
           "explanationEn": "Put"
@@ -973,12 +978,13 @@
           "kjv": "Canaan, merchant, traffick.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Kenaan",
+          "ptLiteralWord": "Canaã",
           "enLiteralWord": "Kenaan",
           "explanation": "Kenaan",
           "explanationEn": "Kenaan"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Noé foram: Sem, Cham, Jafé e Canaã."
     },
     {
       "id": "gen.10.7",
@@ -1006,7 +1012,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -1025,7 +1031,7 @@
           "kjv": "Chush, Cush, Ethiopia.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Cush",
+          "ptLiteralWord": "Cus",
           "enLiteralWord": "Cush",
           "explanation": "Cush",
           "explanationEn": "Cush"
@@ -1044,7 +1050,7 @@
           "kjv": "Seba.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Seba",
+          "ptLiteralWord": "Sebá",
           "enLiteralWord": "Seba",
           "explanation": "Seba",
           "explanationEn": "Seba"
@@ -1063,7 +1069,7 @@
           "kjv": "Havilah.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Chavilah",
+          "ptLiteralWord": "Havilá",
           "enLiteralWord": "Chavilah",
           "explanation": "Chavilah",
           "explanationEn": "Chavilah"
@@ -1082,7 +1088,7 @@
           "kjv": "Sabta, Sabtah.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Sabta or Sabtah",
+          "ptLiteralWord": "Sabta",
           "enLiteralWord": "Sabta or Sabtah",
           "explanation": "Sabta or Sabtah",
           "explanationEn": "Sabta or Sabtah"
@@ -1101,7 +1107,7 @@
           "kjv": "Raamah.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Ramah",
+          "ptLiteralWord": "Raamá",
           "enLiteralWord": "Ramah",
           "explanation": "Ramah",
           "explanationEn": "Ramah"
@@ -1139,7 +1145,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -1158,7 +1164,7 @@
           "kjv": "Raamah.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Ramah",
+          "ptLiteralWord": "Raamá",
           "enLiteralWord": "Ramah",
           "explanation": "Ramah",
           "explanationEn": "Ramah"
@@ -1177,7 +1183,7 @@
           "kjv": "Sheba, Sabeans.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Sheba",
+          "ptLiteralWord": "Seba",
           "enLiteralWord": "Sheba",
           "explanation": "Sheba",
           "explanationEn": "Sheba"
@@ -1196,12 +1202,13 @@
           "kjv": "Dedan.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Dedan",
+          "ptLiteralWord": "Dedã",
           "enLiteralWord": "Dedan",
           "explanation": "Dedan",
           "explanationEn": "Dedan"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Cus foram Sebá, Havilá, Sabta, Raamá e Sabteca."
     },
     {
       "id": "gen.10.8",
@@ -1229,7 +1236,7 @@
           "kjv": "Chush, Cush, Ethiopia.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Cush",
+          "ptLiteralWord": "Cus",
           "enLiteralWord": "Cush",
           "explanation": "Cush",
           "explanationEn": "Cush"
@@ -1248,7 +1255,7 @@
           "kjv": "bear, beget, birth(-day), born, (make to) bring forth (children, young), bring up, calve, child, come, be delivered (of a child), time of delivery, gender, hatch, labour, (do the office of a) midwife, declare pedigrees, be the son of, (woman in, woman that) travail(-eth, -ing woman).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to bear young; causatively",
+          "ptLiteralWord": "gerar",
           "enLiteralWord": "to bear young; causatively",
           "explanation": "to bear young; causatively",
           "explanationEn": "to bear young; causatively"
@@ -1267,7 +1274,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "o qual",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -1305,7 +1312,7 @@
           "kjv": "he, as for her, him(-self), it, the same, she (herself), such, that (...it), these, they, this, those, which (is), who.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
+          "ptLiteralWord": "ele",
           "enLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
           "explanation": "he ; only expressed when emphatic or without a verb; also  self",
           "explanationEn": "he ; only expressed when emphatic or without a verb; also  self"
@@ -1324,7 +1331,7 @@
           "kjv": "begin ([idiom] men began), defile, [idiom] break, defile, [idiom] eat (as common things), [idiom] first, [idiom] gather the grape thereof, [idiom] take inheritance, pipe, player on instruments, pollute, (cast as) profane (self), prostitute, slay (slain), sorrow, stain, wound.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "o qual",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -1343,7 +1350,7 @@
           "kjv": "beacon, [idiom] altogether, be(-come), accomplished, committed, like), break, cause, come (to pass), do, faint, fall, [phrase] follow, happen, [idiom] have, last, pertain, quit (one-) self, require, [idiom] use.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "era/foi/havia",
+          "ptLiteralWord": "existiu",
           "enLiteralWord": "to exist",
           "explanation": "hayah — ser, existir, acontecer, tornar-se",
           "explanationEn": "to exist"
@@ -1362,7 +1369,7 @@
           "kjv": "champion, chief, [idiom] excel, giant, man, mighty (man, one), strong (man), valiant man.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "powerful; by implication",
+          "ptLiteralWord": "poderoso",
           "enLiteralWord": "powerful; by implication",
           "explanation": "powerful; by implication",
           "explanationEn": "powerful; by implication"
@@ -1381,12 +1388,13 @@
           "kjv": "[idiom] common, country, earth, field, ground, land, [idiom] natins, way, [phrase] wilderness, world.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "terra",
+          "ptLiteralWord": "na terra",
           "enLiteralWord": "the earth (at large",
           "explanation": "eretz — terra, solo, país, região, toda a terra",
           "explanationEn": "the earth (at large"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Cam: Cus, o qual foi o primeiro a gerar em terra; Cus gerou a Nimrod, que foi um poderoso, que existiu na terra."
     },
     {
       "id": "gen.10.9",
@@ -1414,7 +1422,7 @@
           "kjv": "he, as for her, him(-self), it, the same, she (herself), such, that (...it), these, they, this, those, which (is), who.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
+          "ptLiteralWord": "os",
           "enLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
           "explanation": "he ; only expressed when emphatic or without a verb; also  self",
           "explanationEn": "he ; only expressed when emphatic or without a verb; also  self"
@@ -1433,7 +1441,7 @@
           "kjv": "beacon, [idiom] altogether, be(-come), accomplished, committed, like), break, cause, come (to pass), do, faint, fall, [phrase] follow, happen, [idiom] have, last, pertain, quit (one-) self, require, [idiom] use.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "era/foi/havia",
+          "ptLiteralWord": "eram",
           "enLiteralWord": "to exist",
           "explanation": "hayah — ser, existir, acontecer, tornar-se",
           "explanationEn": "to exist"
@@ -1452,7 +1460,7 @@
           "kjv": "champion, chief, [idiom] excel, giant, man, mighty (man, one), strong (man), valiant man.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "powerful; by implication",
+          "ptLiteralWord": "poderosos",
           "enLiteralWord": "powerful; by implication",
           "explanation": "powerful; by implication",
           "explanationEn": "powerful; by implication"
@@ -1471,7 +1479,7 @@
           "kjv": "[idiom] catcheth, food, [idiom] hunter, (that which he took in) hunting, venison, victuals.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "the chase; also game ;  lunch",
+          "ptLiteralWord": "caçadores",
           "enLiteralWord": "the chase; also game ;  lunch",
           "explanation": "the chase; also game ;  lunch",
           "explanationEn": "the chase; also game ;  lunch"
@@ -1490,7 +1498,7 @@
           "kjv": "[phrase] accept, a-(be-) fore(-time), against, anger, [idiom] as (long as), at, [phrase] battle, [phrase] because (of), [phrase] beseech, countenance, edge, [phrase] employ, endure, [phrase] enquire, face, favour, fear of, for, forefront(-part), form(-er time, -ward), from, front, heaviness, [idiom] him(-self), [phrase] honourable, [phrase] impudent, [phrase] in, it, look(-eth) (-s), [idiom] me, [phrase] meet, [idiom] more than, mouth, of, off, (of) old (time), [idiom] on, open, [phrase] out of, over against, the partial, person, [phrase] please, presence, propect, was purposed, by reason of, [phrase] regard, right forth, [phrase] serve, [idiom] shewbread, sight, state, straight, [phrase] street, [idiom] thee, [idiom] them(-selves), through ([phrase] -out), till, time(-s) past, (un-) to(-ward), [phrase] upon, upside ([phrase] down), with(-in, [phrase] -stand), [idiom] ye, [idiom] you.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "face/frente",
+          "ptLiteralWord": "homens",
           "enLiteralWord": "the face ; used in a great variety of applications ; also  as a preposition (before",
           "explanation": "panim — face, presença, frente (sempre plural em hebraico)",
           "explanationEn": "the face ; used in a great variety of applications ; also  as a preposition (before"
@@ -1509,7 +1517,7 @@
           "kjv": "Jehovah, the Lord. Compare H3050 (יָהּ), H3069 (יְהֹוִה).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "O SENHOR",
+          "ptLiteralWord": "Deus",
           "enLiteralWord": "Jehovah",
           "explanation": "YHWH — Nome próprio de Deus revelado a Moisés. Tradição massorética lê \"Adonai\"",
           "explanationEn": "Jehovah"
@@ -1528,7 +1536,7 @@
           "kjv": "above, according to(-ly), after, (as) against, among, and, [idiom] as, at, because of, beside (the rest of), between, beyond the time, [idiom] both and, by (reason of), [idiom] had the charge of, concerning for, in (that), (forth, out) of, (from) (off), (up-) on, over, than, through(-out), to, touching, [idiom] with.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "sobre/acima",
+          "ptLiteralWord": "acima",
           "enLiteralWord": "above",
           "explanation": "al — sobre, acima, contra, em relação a",
           "explanationEn": "above"
@@ -1547,7 +1555,7 @@
           "kjv": "[phrase] after that (this, -ward, -wards), as... as, [phrase] (for-) asmuch as yet, [phrase] be (for which) cause, [phrase] following, howbeit, in (the) like (manner, -wise), [idiom] the more, right, (even) so, state, straightway, such (thing), surely, [phrase] there (where) -fore, this, thus, true, well, [idiom] you.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "assim/deste modo",
+          "ptLiteralWord": "proprietariamente",
           "enLiteralWord": "properly",
           "explanation": "ken — assim, deste modo, portanto, desta forma",
           "explanationEn": "properly"
@@ -1566,7 +1574,7 @@
           "kjv": "answer, appoint, avouch, bid, boast self, call, certify, challenge, charge, [phrase] (at the, give) command(-ment), commune, consider, declare, demand, [idiom] desire, determine, [idiom] expressly, [idiom] indeed, [idiom] intend, name, [idiom] plainly, promise, publish, report, require, say, speak (against, of), [idiom] still, [idiom] suppose, talk, tell, term, [idiom] that is, [idiom] think, use (speech), utter, [idiom] verily, [idiom] yet.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "disse/falou",
+          "ptLiteralWord": "dizer",
           "enLiteralWord": "to say",
           "explanation": "amar — dizer, falar, declarar, ordenar",
           "explanationEn": "to say"
@@ -1604,7 +1612,7 @@
           "kjv": "champion, chief, [idiom] excel, giant, man, mighty (man, one), strong (man), valiant man.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "powerful; by implication",
+          "ptLiteralWord": "poderoso",
           "enLiteralWord": "powerful; by implication",
           "explanation": "powerful; by implication",
           "explanationEn": "powerful; by implication"
@@ -1623,7 +1631,7 @@
           "kjv": "[idiom] catcheth, food, [idiom] hunter, (that which he took in) hunting, venison, victuals.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "the chase; also game ;  lunch",
+          "ptLiteralWord": "caça",
           "enLiteralWord": "the chase; also game ;  lunch",
           "explanation": "the chase; also game ;  lunch",
           "explanationEn": "the chase; also game ;  lunch"
@@ -1642,7 +1650,7 @@
           "kjv": "[phrase] accept, a-(be-) fore(-time), against, anger, [idiom] as (long as), at, [phrase] battle, [phrase] because (of), [phrase] beseech, countenance, edge, [phrase] employ, endure, [phrase] enquire, face, favour, fear of, for, forefront(-part), form(-er time, -ward), from, front, heaviness, [idiom] him(-self), [phrase] honourable, [phrase] impudent, [phrase] in, it, look(-eth) (-s), [idiom] me, [phrase] meet, [idiom] more than, mouth, of, off, (of) old (time), [idiom] on, open, [phrase] out of, over against, the partial, person, [phrase] please, presence, propect, was purposed, by reason of, [phrase] regard, right forth, [phrase] serve, [idiom] shewbread, sight, state, straight, [phrase] street, [idiom] thee, [idiom] them(-selves), through ([phrase] -out), till, time(-s) past, (un-) to(-ward), [phrase] upon, upside ([phrase] down), with(-in, [phrase] -stand), [idiom] ye, [idiom] you.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "face/frente",
+          "ptLiteralWord": "homens",
           "enLiteralWord": "the face ; used in a great variety of applications ; also  as a preposition (before",
           "explanation": "panim — face, presença, frente (sempre plural em hebraico)",
           "explanationEn": "the face ; used in a great variety of applications ; also  as a preposition (before"
@@ -1661,12 +1669,13 @@
           "kjv": "Jehovah, the Lord. Compare H3050 (יָהּ), H3069 (יְהֹוִה).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "O SENHOR",
+          "ptLiteralWord": "Deus",
           "enLiteralWord": "Jehovah",
           "explanation": "YHWH — Nome próprio de Deus revelado a Moisés. Tradição massorética lê \"Adonai\"",
           "explanationEn": "Jehovah"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Eram os descendentes de Sem, o filho de Noé, que foram os poderosos da terra, em sua época; e foram os caçadores, os homens da caça, os que se alimentavam de caça, os que se alimentavam de carne de caça, os que se alimentavam de carne de animais selvagens. Eram os homens da face de Deus, os que eram considerados como os filhos de Deus, os que eram considerados como os deuses. Eram os homens que eram considerados como os deuses, os que eram considerados como os poderosos da terra. Eram os homens que eram considerados como os poderosos da terra, os que eram considerados como os caçadores, os homens da caça, os que se alimentavam de caça, os que se alimentavam de carne de caça, os que se alimentavam de carne de animais selvagens."
     },
     {
       "id": "gen.10.10",
@@ -1694,7 +1703,7 @@
           "kjv": "beacon, [idiom] altogether, be(-come), accomplished, committed, like), break, cause, come (to pass), do, faint, fall, [phrase] follow, happen, [idiom] have, last, pertain, quit (one-) self, require, [idiom] use.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "era/foi/havia",
+          "ptLiteralWord": "eram",
           "enLiteralWord": "to exist",
           "explanation": "hayah — ser, existir, acontecer, tornar-se",
           "explanationEn": "to exist"
@@ -1713,7 +1722,7 @@
           "kjv": "beginning, chief(-est), first(-fruits, part, time), principal thing.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "princípio/começo",
+          "ptLiteralWord": "primeiro",
           "enLiteralWord": "the first",
           "explanation": "reshit — começo, início, a primeira parte de algo",
           "explanationEn": "the first"
@@ -1732,7 +1741,7 @@
           "kjv": "kingdom, king's, reign, royal.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dominion",
+          "ptLiteralWord": "domínio",
           "enLiteralWord": "dominion",
           "explanation": "dominion",
           "explanationEn": "dominion"
@@ -1808,7 +1817,7 @@
           "kjv": "Calneh, Calno. Compare H3656 (כַּנֶּה).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Calneh or Calno",
+          "ptLiteralWord": "Calneh ou Calno",
           "enLiteralWord": "Calneh or Calno",
           "explanation": "Calneh or Calno",
           "explanationEn": "Calneh or Calno"
@@ -1827,7 +1836,7 @@
           "kjv": "[idiom] common, country, earth, field, ground, land, [idiom] natins, way, [phrase] wilderness, world.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "terra",
+          "ptLiteralWord": "a terra",
           "enLiteralWord": "the earth (at large",
           "explanation": "eretz — terra, solo, país, região, toda a terra",
           "explanationEn": "the earth (at large"
@@ -1851,7 +1860,8 @@
           "explanation": "Shinar",
           "explanationEn": "Shinar"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Eram os nomes de seus filhos: Sem, Cam e Jafé."
     },
     {
       "id": "gen.10.11",
@@ -1879,7 +1889,7 @@
           "kjv": "above, after, among, at, because of, by (reason of), from (among), in, [idiom] neither, [idiom] nor, (out) of, over, since, [idiom] then, through, [idiom] whether, with.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "de forma própria",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -1898,7 +1908,7 @@
           "kjv": "[idiom] common, country, earth, field, ground, land, [idiom] natins, way, [phrase] wilderness, world.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "terra",
+          "ptLiteralWord": "da terra",
           "enLiteralWord": "the earth (at large",
           "explanation": "eretz — terra, solo, país, região, toda a terra",
           "explanationEn": "the earth (at large"
@@ -1917,7 +1927,7 @@
           "kjv": "he, as for her, him(-self), it, the same, she (herself), such, that (...it), these, they, this, those, which (is), who.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
+          "ptLiteralWord": "ele",
           "enLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
           "explanation": "he ; only expressed when emphatic or without a verb; also  self",
           "explanationEn": "he ; only expressed when emphatic or without a verb; also  self"
@@ -1936,7 +1946,7 @@
           "kjv": "[idiom] after, appear, [idiom] assuredly, bear out, [idiom] begotten, break out, bring forth (out, up), carry out, come (abroad, out, thereat, without), [phrase] be condemned, depart(-ing, -ure), draw forth, in the end, escape, exact, fail, fall (out), fetch forth (out), get away (forth, hence, out), (able to, cause to, let) go abroad (forth, on, out), going out, grow, have forth (out), issue out, lay (lie) out, lead out, pluck out, proceed, pull out, put away, be risen, [idiom] scarce, send with commandment, shoot forth, spread, spring out, stand out, [idiom] still, [idiom] surely, take forth (out), at any time, [idiom] to (and fro), utter.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "saiu/sair",
+          "ptLiteralWord": "sair (causativamente)",
           "enLiteralWord": "to go (causatively",
           "explanation": "yatsa — sair, partir, nascer, brotar, emergir",
           "explanationEn": "to go (causatively"
@@ -1974,7 +1984,7 @@
           "kjv": "(begin to) build(-er), obtain children, make, repair, set (up), [idiom] surely.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to build",
+          "ptLiteralWord": "construir",
           "enLiteralWord": "to build",
           "explanation": "to build",
           "explanationEn": "to build"
@@ -1993,7 +2003,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "de forma própria",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2012,7 +2022,7 @@
           "kjv": "Nineveh.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Nineveh",
+          "ptLiteralWord": "Ninive",
           "enLiteralWord": "Nineveh",
           "explanation": "Nineveh",
           "explanationEn": "Nineveh"
@@ -2031,7 +2041,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "de forma própria",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2069,7 +2079,7 @@
           "kjv": "Ai (from margin), city, court (from margin), town.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "cidade",
+          "ptLiteralWord": "cidade (no sentido mais amplo)",
           "enLiteralWord": "a city  in the widest sense",
           "explanation": "ir — cidade, vila, lugar habitado",
           "explanationEn": "a city  in the widest sense"
@@ -2088,7 +2098,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "de forma própria",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2112,7 +2122,8 @@
           "explanation": "Kelach",
           "explanationEn": "Kelach"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E Ashshur construiu Ninive e Rechoboth e Kelach."
     },
     {
       "id": "gen.10.12",
@@ -2140,7 +2151,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "que",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2197,7 +2208,7 @@
           "kjv": "Nineveh.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Nineveh",
+          "ptLiteralWord": "Ninrode",
           "enLiteralWord": "Nineveh",
           "explanation": "Nineveh",
           "explanationEn": "Nineveh"
@@ -2254,7 +2265,7 @@
           "kjv": "he, as for her, him(-self), it, the same, she (herself), such, that (...it), these, they, this, those, which (is), who.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
+          "ptLiteralWord": "ele",
           "enLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
           "explanation": "he ; only expressed when emphatic or without a verb; also  self",
           "explanationEn": "he ; only expressed when emphatic or without a verb; also  self"
@@ -2292,12 +2303,13 @@
           "kjv": "[phrase] aloud, elder(-est), [phrase] exceeding(-ly), [phrase] far, (man of) great (man, matter, thing,-er,-ness), high, long, loud, mighty, more, much, noble, proud thing, [idiom] sore, ([idiom]) very.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "great ; hence",
+          "ptLiteralWord": "grande",
           "enLiteralWord": "great ; hence",
           "explanation": "great ; hence",
           "explanationEn": "great ; hence"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Eram os descendentes de Sem: Elão e Assur, que construíram Ninrode, a cidade."
     },
     {
       "id": "gen.10.13",
@@ -2325,7 +2337,7 @@
           "kjv": "Egypt, Egyptians, Mizraim.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Egito",
+          "ptLiteralWord": "Mitsrajim",
           "enLiteralWord": "Mitsrajim",
           "explanation": "Mitsrayim — Egito. A terra das \"duas margens\" do Nilo",
           "explanationEn": "Mitsrajim"
@@ -2344,7 +2356,7 @@
           "kjv": "bear, beget, birth(-day), born, (make to) bring forth (children, young), bring up, calve, child, come, be delivered (of a child), time of delivery, gender, hatch, labour, (do the office of a) midwife, declare pedigrees, be the son of, (woman in, woman that) travail(-eth, -ing woman).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to bear young; causatively",
+          "ptLiteralWord": "dar à luz; causativamente",
           "enLiteralWord": "to bear young; causatively",
           "explanation": "to bear young; causatively",
           "explanationEn": "to bear young; causatively"
@@ -2363,7 +2375,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2382,7 +2394,7 @@
           "kjv": "Ludim. Lydians.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Ludite or inhabitants of Lud",
+          "ptLiteralWord": "Ludita ou habitantes de Lud",
           "enLiteralWord": "a Ludite or inhabitants of Lud",
           "explanation": "a Ludite or inhabitants of Lud",
           "explanationEn": "a Ludite or inhabitants of Lud"
@@ -2401,7 +2413,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2439,7 +2451,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2477,7 +2489,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2501,7 +2513,8 @@
           "explanation": "Naphtuchim",
           "explanationEn": "Naphtuchim"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Misraim foram: Ludim, Anamim, Leabim, Naftuquim, Patruquim e Casluquim, de quem nasceu a tribo dos Mitsrajim."
     },
     {
       "id": "gen.10.14",
@@ -2529,7 +2542,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "por sua própria natureza",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2548,7 +2561,7 @@
           "kjv": "Pathrusim.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Pathrusite",
+          "ptLiteralWord": "um Patrusita",
           "enLiteralWord": "a Pathrusite",
           "explanation": "a Pathrusite",
           "explanationEn": "a Pathrusite"
@@ -2567,7 +2580,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "por sua própria natureza",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2586,7 +2599,7 @@
           "kjv": "Casluhim.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Casluchim",
+          "ptLiteralWord": "Casluchitas",
           "enLiteralWord": "Casluchim",
           "explanation": "Casluchim",
           "explanationEn": "Casluchim"
@@ -2605,7 +2618,7 @@
           "kjv": "[idiom] after, [idiom] alike, as (soon as), because, [idiom] every, for, [phrase] forasmuch, [phrase] from whence, [phrase] how(-soever), [idiom] if, (so) that ((thing) which, wherein), [idiom] though, [phrase] until, [phrase] whatsoever, when, where ([phrase] -as, -in, -of, -on, -soever, -with), which, whilst, [phrase] whither(-soever), who(-m, -soever, -se). As it is indeclinable, it is often accompanied by the personal pronoun expletively, used to show the connection.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "que/o qual",
+          "ptLiteralWord": "aqueles que",
           "enLiteralWord": "who",
           "explanation": "asher — pronome relativo: que, quem, o qual, cujo",
           "explanationEn": "who"
@@ -2624,7 +2637,7 @@
           "kjv": "[idiom] after, appear, [idiom] assuredly, bear out, [idiom] begotten, break out, bring forth (out, up), carry out, come (abroad, out, thereat, without), [phrase] be condemned, depart(-ing, -ure), draw forth, in the end, escape, exact, fail, fall (out), fetch forth (out), get away (forth, hence, out), (able to, cause to, let) go abroad (forth, on, out), going out, grow, have forth (out), issue out, lay (lie) out, lead out, pluck out, proceed, pull out, put away, be risen, [idiom] scarce, send with commandment, shoot forth, spread, spring out, stand out, [idiom] still, [idiom] surely, take forth (out), at any time, [idiom] to (and fro), utter.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "saiu/sair",
+          "ptLiteralWord": "sair (causativamente)",
           "enLiteralWord": "to go (causatively",
           "explanation": "yatsa — sair, partir, nascer, brotar, emergir",
           "explanationEn": "to go (causatively"
@@ -2643,7 +2656,7 @@
           "kjv": "in it, [phrase] thence, there (-in, [phrase] of, [phrase] out), [phrase] thither, [phrase] whither.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "there  then; often thither",
+          "ptLiteralWord": "para lá, então; frequentemente para lá",
           "enLiteralWord": "there  then; often thither",
           "explanation": "there  then; often thither",
           "explanationEn": "there  then; often thither"
@@ -2662,7 +2675,7 @@
           "kjv": "Philistine.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Pelishtite or inhabitant of Pelesheth",
+          "ptLiteralWord": "um Pelishtita ou habitante de Pelesheth",
           "enLiteralWord": "a Pelishtite or inhabitant of Pelesheth",
           "explanation": "a Pelishtite or inhabitant of Pelesheth",
           "explanationEn": "a Pelishtite or inhabitant of Pelesheth"
@@ -2681,7 +2694,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "por sua própria natureza",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2700,12 +2713,13 @@
           "kjv": "Caphthorim, Caphtorim(-s).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Caphtorite  or native of Caphtor",
+          "ptLiteralWord": "um Caphtorita ou nativo de Caphtor",
           "enLiteralWord": "a Caphtorite  or native of Caphtor",
           "explanation": "a Caphtorite  or native of Caphtor",
           "explanationEn": "a Caphtorite  or native of Caphtor"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Caín foram descritos por suas famílias, filhos de Javã: Ela, Tubal, Meçua, Ráã, Zóar, e Dúgil."
     },
     {
       "id": "gen.10.15",
@@ -2733,7 +2747,7 @@
           "kjv": "Canaan, merchant, traffick.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Kenaan",
+          "ptLiteralWord": "Caín",
           "enLiteralWord": "Kenaan",
           "explanation": "Kenaan",
           "explanationEn": "Kenaan"
@@ -2752,7 +2766,7 @@
           "kjv": "bear, beget, birth(-day), born, (make to) bring forth (children, young), bring up, calve, child, come, be delivered (of a child), time of delivery, gender, hatch, labour, (do the office of a) midwife, declare pedigrees, be the son of, (woman in, woman that) travail(-eth, -ing woman).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to bear young; causatively",
+          "ptLiteralWord": "dar à luz",
           "enLiteralWord": "to bear young; causatively",
           "explanation": "to bear young; causatively",
           "explanationEn": "to bear young; causatively"
@@ -2771,7 +2785,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "isto é",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2790,7 +2804,7 @@
           "kjv": "Sidon, Zidon.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Tsidon",
+          "ptLiteralWord": "Sidom",
           "enLiteralWord": "Tsidon",
           "explanation": "Tsidon",
           "explanationEn": "Tsidon"
@@ -2809,7 +2823,7 @@
           "kjv": "eldest (son), firstborn(-ling).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "firstborn; hence",
+          "ptLiteralWord": "primogênito",
           "enLiteralWord": "firstborn; hence",
           "explanation": "firstborn; hence",
           "explanationEn": "firstborn; hence"
@@ -2828,7 +2842,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "isto é",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2847,12 +2861,13 @@
           "kjv": "Heth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Cheth",
+          "ptLiteralWord": "Heth",
           "enLiteralWord": "Cheth",
           "explanation": "Cheth",
           "explanationEn": "Cheth"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Caín foram: Sidom, e Heth."
     },
     {
       "id": "gen.10.16",
@@ -2880,7 +2895,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2899,7 +2914,7 @@
           "kjv": "Jebusite(-s).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Jebusite or inhabitant of Jebus",
+          "ptLiteralWord": "um jebuseu ou habitante de Jebus",
           "enLiteralWord": "a Jebusite or inhabitant of Jebus",
           "explanation": "a Jebusite or inhabitant of Jebus",
           "explanationEn": "a Jebusite or inhabitant of Jebus"
@@ -2918,7 +2933,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2937,7 +2952,7 @@
           "kjv": "Amorite.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "an Emorite",
+          "ptLiteralWord": "um emorita",
           "enLiteralWord": "an Emorite",
           "explanation": "an Emorite",
           "explanationEn": "an Emorite"
@@ -2956,7 +2971,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -2975,12 +2990,13 @@
           "kjv": "Girgashite, Girgasite.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Girgashite",
+          "ptLiteralWord": "um girgashita",
           "enLiteralWord": "a Girgashite",
           "explanation": "a Girgashite",
           "explanationEn": "a Girgashite"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Eram os descendentes de Sem, segundo suas famílias, filhos de Héber, filho de Sala, filho de Cuai, filho de Séreg, filho de Naor;"
     },
     {
       "id": "gen.10.17",
@@ -3008,7 +3024,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -3027,7 +3043,7 @@
           "kjv": "Hivite.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Chivvite",
+          "ptLiteralWord": "um Chivvita",
           "enLiteralWord": "a Chivvite",
           "explanation": "a Chivvite",
           "explanationEn": "a Chivvite"
@@ -3046,7 +3062,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -3065,7 +3081,7 @@
           "kjv": "Arkite.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "an Arkite or inhabitant of Erek",
+          "ptLiteralWord": "um Arquita ou habitante de Erek",
           "enLiteralWord": "an Arkite or inhabitant of Erek",
           "explanation": "an Arkite or inhabitant of Erek",
           "explanationEn": "an Arkite or inhabitant of Erek"
@@ -3084,7 +3100,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -3103,12 +3119,13 @@
           "kjv": "Sinite.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Sinite",
+          "ptLiteralWord": "um Sinita",
           "enLiteralWord": "a Sinite",
           "explanation": "a Sinite",
           "explanationEn": "a Sinite"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Eram os filhos de Sem: Elão, Assur, Arfaxade, Lud, Arã, Uz, Hul, Geter e Meseque."
     },
     {
       "id": "gen.10.18",
@@ -3136,7 +3153,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -3155,7 +3172,7 @@
           "kjv": "Arvadite.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "an Arvadite or citizen of Arvad",
+          "ptLiteralWord": "arvadita ou cidadão de Arvad",
           "enLiteralWord": "an Arvadite or citizen of Arvad",
           "explanation": "an Arvadite or citizen of Arvad",
           "explanationEn": "an Arvadite or citizen of Arvad"
@@ -3174,7 +3191,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -3193,7 +3210,7 @@
           "kjv": "Zemarite.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Tsemarite or branch of the Canaanites",
+          "ptLiteralWord": "tsemarita ou ramo dos cananeus",
           "enLiteralWord": "a Tsemarite or branch of the Canaanites",
           "explanation": "a Tsemarite or branch of the Canaanites",
           "explanationEn": "a Tsemarite or branch of the Canaanites"
@@ -3212,7 +3229,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -3231,7 +3248,7 @@
           "kjv": "Hamathite.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Chamathite or native of Chamath",
+          "ptLiteralWord": "chamathita ou nativo de Chamath",
           "enLiteralWord": "a Chamathite or native of Chamath",
           "explanation": "a Chamathite or native of Chamath",
           "explanationEn": "a Chamathite or native of Chamath"
@@ -3250,7 +3267,7 @@
           "kjv": "after (that, -ward), again, at, away from, back (from, -side), behind, beside, by, follow (after, -ing), forasmuch, from, hereafter, hinder end, [phrase] out (over) live, [phrase] persecute, posterity, pursuing, remnant, seeing, since, thence(-forth), when, with.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "depois/após",
+          "ptLiteralWord": "após",
           "enLiteralWord": "properly",
           "explanation": "achar — depois, após, atrás, em seguida",
           "explanationEn": "properly"
@@ -3269,7 +3286,7 @@
           "kjv": "break (dash, shake) in (to) pieces, cast (abroad), disperse (selves), drive, retire, scatter (abroad), spread abroad.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to dash in pieces",
+          "ptLiteralWord": "despedaçar em pedaços",
           "enLiteralWord": "to dash in pieces",
           "explanation": "to dash in pieces",
           "explanationEn": "to dash in pieces"
@@ -3288,7 +3305,7 @@
           "kjv": "family, kind(-red).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a family",
+          "ptLiteralWord": "família",
           "enLiteralWord": "a family",
           "explanation": "a family",
           "explanationEn": "a family"
@@ -3307,12 +3324,13 @@
           "kjv": "Canaanite, merchant, trafficker.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Kenaanite or inhabitant of Kenaan; by implication",
+          "ptLiteralWord": "kenaanita ou habitante de Kenaan",
           "enLiteralWord": "a Kenaanite or inhabitant of Kenaan; by implication",
           "explanation": "a Kenaanite or inhabitant of Kenaan; by implication",
           "explanationEn": "a Kenaanite or inhabitant of Kenaan; by implication"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Sem foram: Elão e Assur, que foram filhos de Cam, o pai de Canaã."
     },
     {
       "id": "gen.10.19",
@@ -3340,7 +3358,7 @@
           "kjv": "beacon, [idiom] altogether, be(-come), accomplished, committed, like), break, cause, come (to pass), do, faint, fall, [phrase] follow, happen, [idiom] have, last, pertain, quit (one-) self, require, [idiom] use.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "era/foi/havia",
+          "ptLiteralWord": "lazeram-se",
           "enLiteralWord": "to exist",
           "explanation": "hayah — ser, existir, acontecer, tornar-se",
           "explanationEn": "to exist"
@@ -3359,7 +3377,7 @@
           "kjv": "border, bound, coast, [idiom] great, landmark, limit, quarter, space.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "propriedade",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -3378,7 +3396,7 @@
           "kjv": "Canaanite, merchant, trafficker.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a Kenaanite or inhabitant of Kenaan; by implication",
+          "ptLiteralWord": "canaanita ou habitante de Canaã",
           "enLiteralWord": "a Kenaanite or inhabitant of Kenaan; by implication",
           "explanation": "a Kenaanite or inhabitant of Kenaan; by implication",
           "explanationEn": "a Kenaanite or inhabitant of Kenaan; by implication"
@@ -3416,7 +3434,7 @@
           "kjv": "abide, apply, attain, [idiom] be, befall, [phrase] besiege, bring (forth, in, into, to pass), call, carry, [idiom] certainly, (cause, let, thing for) to come (against, in, out, upon, to pass), depart, [idiom] doubtless again, [phrase] eat, [phrase] employ, (cause to) enter (in, into, -tering, -trance, -try), be fallen, fetch, [phrase] follow, get, give, go (down, in, to war), grant, [phrase] have, [idiom] indeed, (in-) vade, lead, lift (up), mention, pull in, put, resort, run (down), send, set, [idiom] (well) stricken (in age), [idiom] surely, take (in), way.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "veio/entrou/foi",
+          "ptLiteralWord": "ir ou vir",
           "enLiteralWord": "to go or come",
           "explanation": "bo — vir, ir, entrar, chegar, avançar em direção a algo",
           "explanationEn": "to go or come"
@@ -3454,7 +3472,7 @@
           "kjv": "against, and, as, at, before, by (that), even (to), for(-asmuch as), (hither-) to, [phrase] how long, into, as long (much) as, (so) that, till, toward, until, when, while, ([phrase] as) yet.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "as far (or long",
+          "ptLiteralWord": "até",
           "enLiteralWord": "as far (or long",
           "explanation": "as far (or long",
           "explanationEn": "as far (or long"
@@ -3492,7 +3510,7 @@
           "kjv": "abide, apply, attain, [idiom] be, befall, [phrase] besiege, bring (forth, in, into, to pass), call, carry, [idiom] certainly, (cause, let, thing for) to come (against, in, out, upon, to pass), depart, [idiom] doubtless again, [phrase] eat, [phrase] employ, (cause to) enter (in, into, -tering, -trance, -try), be fallen, fetch, [phrase] follow, get, give, go (down, in, to war), grant, [phrase] have, [idiom] indeed, (in-) vade, lead, lift (up), mention, pull in, put, resort, run (down), send, set, [idiom] (well) stricken (in age), [idiom] surely, take (in), way.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "veio/entrou/foi",
+          "ptLiteralWord": "ir ou vir",
           "enLiteralWord": "to go or come",
           "explanation": "bo — vir, ir, entrar, chegar, avançar em direção a algo",
           "explanationEn": "to go or come"
@@ -3568,7 +3586,7 @@
           "kjv": "Zeboiim, Zeboim.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Tseboim or Tsebijim",
+          "ptLiteralWord": "Tseboim ou Tsebijim",
           "enLiteralWord": "Tseboim or Tsebijim",
           "explanation": "Tseboim or Tsebijim",
           "explanationEn": "Tseboim or Tsebijim"
@@ -3587,7 +3605,7 @@
           "kjv": "against, and, as, at, before, by (that), even (to), for(-asmuch as), (hither-) to, [phrase] how long, into, as long (much) as, (so) that, till, toward, until, when, while, ([phrase] as) yet.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "as far (or long",
+          "ptLiteralWord": "até",
           "enLiteralWord": "as far (or long",
           "explanation": "as far (or long",
           "explanationEn": "as far (or long"
@@ -3611,7 +3629,8 @@
           "explanation": "Lesha",
           "explanationEn": "Lesha"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Quedor lazeram-se com as filhas de Madiã; e as filhas de Madiã se chamam: Sára, Három, e Támar."
     },
     {
       "id": "gen.10.20",
@@ -3639,7 +3658,7 @@
           "kjv": "an-(the) other; one sort, so, some, such, them, these (same), they, this, those, thus, which, who(-m).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "these or those",
+          "ptLiteralWord": "estes",
           "enLiteralWord": "these or those",
           "explanation": "these or those",
           "explanationEn": "these or those"
@@ -3658,7 +3677,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -3677,7 +3696,7 @@
           "kjv": "Ham.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Cham",
+          "ptLiteralWord": "Cã",
           "enLiteralWord": "Cham",
           "explanation": "Cham",
           "explanationEn": "Cham"
@@ -3696,7 +3715,7 @@
           "kjv": "family, kind(-red).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a family",
+          "ptLiteralWord": "família",
           "enLiteralWord": "a family",
           "explanation": "a family",
           "explanationEn": "a family"
@@ -3715,7 +3734,7 @@
           "kjv": "[phrase] babbler, bay, [phrase] evil speaker, language, talker, tongue, wedge.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "the tongue",
+          "ptLiteralWord": "língua",
           "enLiteralWord": "the tongue",
           "explanation": "the tongue",
           "explanationEn": "the tongue"
@@ -3753,12 +3772,13 @@
           "kjv": "Gentile, heathen, nation, people.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a foreign nation; hence",
+          "ptLiteralWord": "nação",
           "enLiteralWord": "a foreign nation; hence",
           "explanation": "a foreign nation; hence",
           "explanationEn": "a foreign nation; hence"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Eram estes os filhos de Noé, segundo suas famílias, na descendência deles, pela sua língua, na sua terra, na sua nação."
     },
     {
       "id": "gen.10.21",
@@ -3805,7 +3825,7 @@
           "kjv": "bear, beget, birth(-day), born, (make to) bring forth (children, young), bring up, calve, child, come, be delivered (of a child), time of delivery, gender, hatch, labour, (do the office of a) midwife, declare pedigrees, be the son of, (woman in, woman that) travail(-eth, -ing woman).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to bear young; causatively",
+          "ptLiteralWord": "gerar jovens; causativamente",
           "enLiteralWord": "to bear young; causatively",
           "explanation": "to bear young; causatively",
           "explanationEn": "to bear young; causatively"
@@ -3824,7 +3844,7 @@
           "kjv": "again, alike, also, (so much) as (soon), both (so)...and, but, either...or, even, for all, (in) likewise (manner), moreover, nay...neither, one, then(-refore), though, what, with, yea.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "properly",
+          "ptLiteralWord": "proprietariamente",
           "enLiteralWord": "properly",
           "explanation": "properly",
           "explanationEn": "properly"
@@ -3843,7 +3863,7 @@
           "kjv": "he, as for her, him(-self), it, the same, she (herself), such, that (...it), these, they, this, those, which (is), who.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
+          "ptLiteralWord": "ele; apenas expresso quando enfático ou sem um verbo; também  self",
           "enLiteralWord": "he ; only expressed when emphatic or without a verb; also  self",
           "explanation": "he ; only expressed when emphatic or without a verb; also  self",
           "explanationEn": "he ; only expressed when emphatic or without a verb; also  self"
@@ -3881,7 +3901,7 @@
           "kjv": "(in) all (manner, (ye)), altogether, any (manner), enough, every (one, place, thing), howsoever, as many as, (no-) thing, ought, whatsoever, (the) whole, whoso(-ever).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "todo/toda",
+          "ptLiteralWord": "proprietariamente",
           "enLiteralWord": "properly",
           "explanation": "kol — todo, toda, qualquer, totalidade de algo",
           "explanationEn": "properly"
@@ -3900,7 +3920,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "um filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -3938,7 +3958,7 @@
           "kjv": "another, brother(-ly); kindred, like, other. Compare also the proper names beginning with 'Ah-' or 'Ahi-'.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "irmão",
+          "ptLiteralWord": "um irmão )",
           "enLiteralWord": "a brother )",
           "explanation": "ach — irmão, parente próximo, aliado",
           "explanationEn": "a brother )"
@@ -3976,12 +3996,13 @@
           "kjv": "[phrase] aloud, elder(-est), [phrase] exceeding(-ly), [phrase] far, (man of) great (man, matter, thing,-er,-ness), high, long, loud, mighty, more, much, noble, proud thing, [idiom] sore, ([idiom]) very.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "great ; hence",
+          "ptLiteralWord": "grande; portanto",
           "enLiteralWord": "great ; hence",
           "explanation": "great ; hence",
           "explanationEn": "great ; hence"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E foram gerados também Eber, um filho de Shem, o grande."
     },
     {
       "id": "gen.10.22",
@@ -4009,7 +4030,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filhos",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -4047,7 +4068,7 @@
           "kjv": "Elam.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Elam",
+          "ptLiteralWord": "Elão",
           "enLiteralWord": "Elam",
           "explanation": "Elam",
           "explanationEn": "Elam"
@@ -4066,7 +4087,7 @@
           "kjv": "Asshur, Assur, Assyria, Assyrians. See H838 (אָשֻׁר).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Ashshur",
+          "ptLiteralWord": "Assírio",
           "enLiteralWord": "Ashshur",
           "explanation": "Ashshur",
           "explanationEn": "Ashshur"
@@ -4085,7 +4106,7 @@
           "kjv": "Arphaxad.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Arpakshad",
+          "ptLiteralWord": "Arfaxade",
           "enLiteralWord": "Arpakshad",
           "explanation": "Arpakshad",
           "explanationEn": "Arpakshad"
@@ -4123,12 +4144,13 @@
           "kjv": "Aram, Mesopotamia, Syria, Syrians.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Aram or Syria",
+          "ptLiteralWord": "Aram",
           "enLiteralWord": "Aram or Syria",
           "explanation": "Aram or Syria",
           "explanationEn": "Aram or Syria"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Sem foram Elão e Assírio e Arfaxade e Lud e Arã."
     },
     {
       "id": "gen.10.23",
@@ -4156,7 +4178,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -4175,7 +4197,7 @@
           "kjv": "Aram, Mesopotamia, Syria, Syrians.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Aram or Syria",
+          "ptLiteralWord": "Aram ou Síria",
           "enLiteralWord": "Aram or Syria",
           "explanation": "Aram or Syria",
           "explanationEn": "Aram or Syria"
@@ -4256,7 +4278,8 @@
           "explanation": "Mash",
           "explanationEn": "Mash"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Uts foram Aram, e o filho de Aram foi Uts, e o filho de Uts foi Chul, e o filho de Chul foi Gether, e o filho de Gether foi Mash."
     },
     {
       "id": "gen.10.24",
@@ -4303,7 +4326,7 @@
           "kjv": "bear, beget, birth(-day), born, (make to) bring forth (children, young), bring up, calve, child, come, be delivered (of a child), time of delivery, gender, hatch, labour, (do the office of a) midwife, declare pedigrees, be the son of, (woman in, woman that) travail(-eth, -ing woman).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to bear young; causatively",
+          "ptLiteralWord": "dar à luz; causativamente",
           "enLiteralWord": "to bear young; causatively",
           "explanation": "to bear young; causatively",
           "explanationEn": "to bear young; causatively"
@@ -4322,7 +4345,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -4379,7 +4402,7 @@
           "kjv": "bear, beget, birth(-day), born, (make to) bring forth (children, young), bring up, calve, child, come, be delivered (of a child), time of delivery, gender, hatch, labour, (do the office of a) midwife, declare pedigrees, be the son of, (woman in, woman that) travail(-eth, -ing woman).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to bear young; causatively",
+          "ptLiteralWord": "dar à luz; causativamente",
           "enLiteralWord": "to bear young; causatively",
           "explanation": "to bear young; causatively",
           "explanationEn": "to bear young; causatively"
@@ -4398,7 +4421,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -4422,7 +4445,8 @@
           "explanation": "Eber",
           "explanationEn": "Eber"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E Arpakshad viveu cincocentos e trinta e cinco anos e teve filhos. E o seu filho foi Shelach."
     },
     {
       "id": "gen.10.25",
@@ -4469,7 +4493,7 @@
           "kjv": "bear, beget, birth(-day), born, (make to) bring forth (children, young), bring up, calve, child, come, be delivered (of a child), time of delivery, gender, hatch, labour, (do the office of a) midwife, declare pedigrees, be the son of, (woman in, woman that) travail(-eth, -ing woman).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to bear young; causatively",
+          "ptLiteralWord": "gerou",
           "enLiteralWord": "to bear young; causatively",
           "explanation": "to bear young; causatively",
           "explanationEn": "to bear young; causatively"
@@ -4488,7 +4512,7 @@
           "kjv": "both, couple, double, second, twain, [phrase] twelfth, [phrase] twelve, [phrase] twenty (sixscore) thousand, twice, two.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "two; also  twofold",
+          "ptLiteralWord": "dois",
           "enLiteralWord": "two; also  twofold",
           "explanation": "two; also  twofold",
           "explanationEn": "two; also  twofold"
@@ -4507,7 +4531,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filhos",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -4526,7 +4550,7 @@
           "kjv": "[phrase] base, (in-) fame(-ous), named(-d), renown, report.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "an appellation",
+          "ptLiteralWord": "o nome de um era",
           "enLiteralWord": "an appellation",
           "explanation": "an appellation",
           "explanationEn": "an appellation"
@@ -4545,7 +4569,7 @@
           "kjv": "a, alike, alone, altogether, and, any(-thing), apiece, a certain, (dai-) ly, each (one), [phrase] eleven, every, few, first, [phrase] highway, a man, once, one, only, other, some, together,",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "um/primeiro",
+          "ptLiteralWord": "o nome",
           "enLiteralWord": "properly",
           "explanation": "echad — um, unido, o primeiro (numeral ordinal)",
           "explanationEn": "properly"
@@ -4583,7 +4607,7 @@
           "kjv": "and, + (forasmuch, inasmuch, where-) as, assured(-ly), + but, certainly, doubtless, + else, even, + except, for, how, (because, in, so, than) that, + nevertheless, now, rightly, seeing, since, surely, then, therefore, + (al-) though, + till, truly, + until, when, whether, while, whom, yea, yet.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "porque/que/pois",
+          "ptLiteralWord": "porque",
           "enLiteralWord": "very widely used as a relative conjunction or adverb ; often largely modified by other particles annexed",
           "explanation": "ki — conjunção causal e explicativa: porque, pois, que, quando",
           "explanationEn": "very widely used as a relative conjunction or adverb ; often largely modified by other particles annexed"
@@ -4602,7 +4626,7 @@
           "kjv": "age, [phrase] always, [phrase] chronicals, continually(-ance), daily, ((birth-), each, to) day, (now a, two) days (agone), [phrase] elder, [idiom] end, [phrase] evening, [phrase] (for) ever(-lasting, -more), [idiom] full, life, as (so) long as (... live), (even) now, [phrase] old, [phrase] outlived, [phrase] perpetually, presently, [phrase] remaineth, [idiom] required, season, [idiom] since, space, then, (process of) time, [phrase] as at other times, [phrase] in trouble, weather, (as) when, (a, the, within a) while (that), [idiom] whole ([phrase] age), (full) year(-ly), [phrase] younger.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "dia",
+          "ptLiteralWord": "naquele dia",
           "enLiteralWord": "a day",
           "explanation": "yom — dia, período de luz, era, tempo específico",
           "explanationEn": "a day"
@@ -4621,7 +4645,7 @@
           "kjv": "divide.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to split",
+          "ptLiteralWord": "foi dividida",
           "enLiteralWord": "to split",
           "explanation": "to split",
           "explanationEn": "to split"
@@ -4640,7 +4664,7 @@
           "kjv": "[idiom] common, country, earth, field, ground, land, [idiom] natins, way, [phrase] wilderness, world.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "terra",
+          "ptLiteralWord": "a terra",
           "enLiteralWord": "the earth (at large",
           "explanation": "eretz — terra, solo, país, região, toda a terra",
           "explanationEn": "the earth (at large"
@@ -4659,7 +4683,7 @@
           "kjv": "[phrase] base, (in-) fame(-ous), named(-d), renown, report.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "an appellation",
+          "ptLiteralWord": "o nome do outro era",
           "enLiteralWord": "an appellation",
           "explanation": "an appellation",
           "explanationEn": "an appellation"
@@ -4678,7 +4702,7 @@
           "kjv": "another, brother(-ly); kindred, like, other. Compare also the proper names beginning with 'Ah-' or 'Ahi-'.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "irmão",
+          "ptLiteralWord": "Joktan",
           "enLiteralWord": "a brother )",
           "explanation": "ach — irmão, parente próximo, aliado",
           "explanationEn": "a brother )"
@@ -4702,7 +4726,8 @@
           "explanation": "Joktan",
           "explanationEn": "Joktan"
         }
-      ]
+      ],
+      "ptLiteralVerse": "Eber gerou dois filhos: o nome de um era Peleg, porque naquele dia a terra foi dividida; e o nome do outro era Joktan."
     },
     {
       "id": "gen.10.26",
@@ -4749,7 +4774,7 @@
           "kjv": "bear, beget, birth(-day), born, (make to) bring forth (children, young), bring up, calve, child, come, be delivered (of a child), time of delivery, gender, hatch, labour, (do the office of a) midwife, declare pedigrees, be the son of, (woman in, woman that) travail(-eth, -ing woman).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "to bear young; causatively",
+          "ptLiteralWord": "dar à luz; causativamente",
           "enLiteralWord": "to bear young; causatively",
           "explanation": "to bear young; causatively",
           "explanationEn": "to bear young; causatively"
@@ -4768,7 +4793,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -4806,7 +4831,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -4844,7 +4869,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -4882,7 +4907,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -4906,7 +4931,8 @@
           "explanation": "Jerach",
           "explanationEn": "Jerach"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Joktan: Almodad, Sheleph, Chatsarmaveth, Jerach."
     },
     {
       "id": "gen.10.27",
@@ -4934,7 +4960,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -4972,7 +4998,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5010,7 +5036,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5034,7 +5060,8 @@
           "explanation": "Diklah",
           "explanationEn": "Diklah"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Sem foram: Elão, e Assur, e Arfaxade, e Lud, e Arã, e Uz, e Hul, e Geter, e Mesec."
     },
     {
       "id": "gen.10.28",
@@ -5062,7 +5089,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5100,7 +5127,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5138,7 +5165,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5162,7 +5189,8 @@
           "explanation": "Sheba",
           "explanationEn": "Sheba"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os filhos de Cus foram: Seba, e Havilá, e Sabá, e Raamá, e Sabteca; e os filhos de Raamá foram: Zúz, e Bené Dedã."
     },
     {
       "id": "gen.10.29",
@@ -5190,7 +5218,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5228,7 +5256,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5266,7 +5294,7 @@
           "kjv": "(as such unrepresented in English).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "(part. direta)",
+          "ptLiteralWord": "propriamente",
           "enLiteralWord": "properly",
           "explanation": "et — partícula de objeto direto, sem tradução literal em português",
           "explanationEn": "properly"
@@ -5304,7 +5332,7 @@
           "kjv": "(in) all (manner, (ye)), altogether, any (manner), enough, every (one, place, thing), howsoever, as many as, (no-) thing, ought, whatsoever, (the) whole, whoso(-ever).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "todo/toda",
+          "ptLiteralWord": "tudo",
           "enLiteralWord": "properly",
           "explanation": "kol — todo, toda, qualquer, totalidade de algo",
           "explanationEn": "properly"
@@ -5323,7 +5351,7 @@
           "kjv": "an-(the) other; one sort, so, some, such, them, these (same), they, this, those, thus, which, who(-m).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "these or those",
+          "ptLiteralWord": "esses ou aqueles",
           "enLiteralWord": "these or those",
           "explanation": "these or those",
           "explanationEn": "these or those"
@@ -5342,7 +5370,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -5366,7 +5394,8 @@
           "explanation": "Joktan",
           "explanationEn": "Joktan"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E estes são os filhos de Joktan: Ophir, e Havela, e Jobab, e a todos esses filhos de Joktan."
     },
     {
       "id": "gen.10.30",
@@ -5394,7 +5423,7 @@
           "kjv": "beacon, [idiom] altogether, be(-come), accomplished, committed, like), break, cause, come (to pass), do, faint, fall, [phrase] follow, happen, [idiom] have, last, pertain, quit (one-) self, require, [idiom] use.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "era/foi/havia",
+          "ptLiteralWord": "existir",
           "enLiteralWord": "to exist",
           "explanation": "hayah — ser, existir, acontecer, tornar-se",
           "explanationEn": "to exist"
@@ -5413,7 +5442,7 @@
           "kjv": "assembly, dwell in, dwelling(-place), wherein (that) dwelt (in), inhabited place, seat, sitting, situation, sojourning.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a seat; figuratively",
+          "ptLiteralWord": "assento; metaforicamente",
           "enLiteralWord": "a seat; figuratively",
           "explanation": "a seat; figuratively",
           "explanationEn": "a seat; figuratively"
@@ -5451,7 +5480,7 @@
           "kjv": "abide, apply, attain, [idiom] be, befall, [phrase] besiege, bring (forth, in, into, to pass), call, carry, [idiom] certainly, (cause, let, thing for) to come (against, in, out, upon, to pass), depart, [idiom] doubtless again, [phrase] eat, [phrase] employ, (cause to) enter (in, into, -tering, -trance, -try), be fallen, fetch, [phrase] follow, get, give, go (down, in, to war), grant, [phrase] have, [idiom] indeed, (in-) vade, lead, lift (up), mention, pull in, put, resort, run (down), send, set, [idiom] (well) stricken (in age), [idiom] surely, take (in), way.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "veio/entrou/foi",
+          "ptLiteralWord": "ir ou vir",
           "enLiteralWord": "to go or come",
           "explanation": "bo — vir, ir, entrar, chegar, avançar em direção a algo",
           "explanationEn": "to go or come"
@@ -5489,7 +5518,7 @@
           "kjv": "hill (country), mount(-ain), [idiom] promotion.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a mountain or range of hills",
+          "ptLiteralWord": "montanha ou cordilheira",
           "enLiteralWord": "a mountain or range of hills",
           "explanation": "a mountain or range of hills",
           "explanationEn": "a mountain or range of hills"
@@ -5508,12 +5537,13 @@
           "kjv": "aforetime, ancient (time), before, east (end, part, side, -ward), eternal, [idiom] ever(-lasting), forward, old, past. Compare H6926 (קִדְמָה).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "the front",
+          "ptLiteralWord": "a frente",
           "enLiteralWord": "the front",
           "explanation": "the front",
           "explanationEn": "the front"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E os nomes deles, os seus lugares e as suas tribos, e os seus lugares de residência, e as suas migrações, foram: Mesha, a sua residência, e Sephar, a sua montanha, e a sua fronteira."
     },
     {
       "id": "gen.10.31",
@@ -5541,7 +5571,7 @@
           "kjv": "an-(the) other; one sort, so, some, such, them, these (same), they, this, those, thus, which, who(-m).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "these or those",
+          "ptLiteralWord": "estes",
           "enLiteralWord": "these or those",
           "explanation": "these or those",
           "explanationEn": "these or those"
@@ -5560,7 +5590,7 @@
           "kjv": "[phrase] afflicted, age, (Ahoh-) (Ammon-) (Hachmon-) (Lev-) ite, (anoint-) ed one, appointed to, ([phrase]) arrow, (Assyr-) (Babylon-) (Egypt-) (Grec-) ian, one born, bough, branch, breed, [phrase] (young) bullock, [phrase] (young) calf, [idiom] came up in, child, colt, [idiom] common, [idiom] corn, daughter, [idiom] of first, [phrase] firstborn, foal, [phrase] very fruitful, [phrase] postage, [idiom] in, [phrase] kid, [phrase] lamb, ([phrase]) man, meet, [phrase] mighty, [phrase] nephew, old, ([phrase]) people, [phrase] rebel, [phrase] robber, [idiom] servant born, [idiom] soldier, son, [phrase] spark, [phrase] steward, [phrase] stranger, [idiom] surely, them of, [phrase] tumultuous one, [phrase] valiant(-est), whelp, worthy, young (one), youth.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "filho/filhos",
+          "ptLiteralWord": "filho",
           "enLiteralWord": "a son",
           "explanation": "ben — filho, descendente, membro de um grupo (bar em aramaico)",
           "explanationEn": "a son"
@@ -5579,7 +5609,7 @@
           "kjv": "Sem, Shem.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "Shem",
+          "ptLiteralWord": "Sém",
           "enLiteralWord": "Shem",
           "explanation": "Shem",
           "explanationEn": "Shem"
@@ -5598,7 +5628,7 @@
           "kjv": "family, kind(-red).",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a family",
+          "ptLiteralWord": "família",
           "enLiteralWord": "a family",
           "explanation": "a family",
           "explanationEn": "a family"
@@ -5617,7 +5647,7 @@
           "kjv": "[phrase] babbler, bay, [phrase] evil speaker, language, talker, tongue, wedge.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "the tongue",
+          "ptLiteralWord": "língua",
           "enLiteralWord": "the tongue",
           "explanation": "the tongue",
           "explanationEn": "the tongue"
@@ -5655,12 +5685,13 @@
           "kjv": "Gentile, heathen, nation, people.",
           "manuscript": "Hebraico: Codex Leningradensis (B19A), tradição massorética (MT)",
           "manuscriptEn": "Hebrew: Codex Leningradensis (B19A), Masoretic tradition (MT)",
-          "ptLiteralWord": "a foreign nation; hence",
+          "ptLiteralWord": "nação estrangeira",
           "enLiteralWord": "a foreign nation; hence",
           "explanation": "a foreign nation; hence",
           "explanationEn": "a foreign nation; hence"
         }
-      ]
+      ],
+      "ptLiteralVerse": "E estes são os que foram repartidos após a inundação."
     },
     {
       "id": "gen.10.32",
