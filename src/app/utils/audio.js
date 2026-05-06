@@ -43,7 +43,7 @@ export const handleSpeak = (text, langCode) => {
     setTimeout(() => { toast.style.opacity = '0'; }, 3000);
   };
 
-  showToast(`PLAYING...`);
+  showToast(`TRYING CLOUD...`);
 
   // 2. Parar áudio anterior
   if (window._currentAudio) {
@@ -51,16 +51,16 @@ export const handleSpeak = (text, langCode) => {
     window._currentAudio = null;
   }
 
-  // 3. Estratégia de Reprodução Direta (Mais compatível com mobile/desktop moderno)
-  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${targetLang}&client=tw-ob`;
+  // 3. Estratégia "Extension": Mimica uma extensão do Chrome (Muito mais permissiva)
+  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${targetLang}&client=gtx&total=1&idx=0&textlen=${cleanText.length}`;
   
   const audio = new Audio();
   audio.src = url;
   window._currentAudio = audio;
 
   audio.play().catch(error => {
-    console.error("❌ Erro Google:", error);
-    showToast("RETRYING LOCAL...");
+    console.error("❌ Cloud TTS Blocked:", error);
+    showToast("FAIL: USING SYSTEM VOICE");
     
     // Fallback 2: SpeechSynthesis (Vozes locais)
     if (window.speechSynthesis) {
