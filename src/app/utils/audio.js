@@ -51,8 +51,9 @@ export const handleSpeak = (text, langCode) => {
     window._currentAudio = null;
   }
 
-  // 3. Estratégia "Extension": Mimica uma extensão do Chrome (Muito mais permissiva)
-  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${targetLang}&client=gtx&total=1&idx=0&textlen=${cleanText.length}`;
+  // 3. Estratégia "Dictionary": Usa o motor que o Google usa em buscas de dicionário
+  // Este endpoint costuma ser mais permissivo que o do Tradutor
+  const url = `https://www.google.com/logos/fnbx/tts/tts?device=mobile&language=${targetLang}&text=${encodeURIComponent(cleanText)}`;
   
   const audio = new Audio();
   audio.src = url;
@@ -60,7 +61,13 @@ export const handleSpeak = (text, langCode) => {
 
   audio.play().catch(error => {
     console.error("❌ Cloud TTS Blocked:", error);
-    showToast("FAIL: USING SYSTEM VOICE");
+    
+    // Tenta uma segunda URL do Google (Tradutor gtx) como backup rápido
+    const backupUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${targetLang}&client=gtx`;
+    const backupAudio = new Audio(backupUrl);
+    backupAudio.play().catch(() => {
+      showToast("FAIL: USING SYSTEM VOICE");
+
     
     // Fallback 2: SpeechSynthesis (Vozes locais)
     if (window.speechSynthesis) {
