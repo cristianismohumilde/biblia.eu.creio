@@ -40,6 +40,23 @@ To add Greek to the pipeline:
 2. Obtain a **Greek Strong's Dictionary** in JSON format.
 3. Create a `greek_pipeline.js` that reads the SBLGNT, maps the `G...` Strong numbers to your dictionary, and outputs the tokens with `"lang": "greek"`.
 
-## ⚠️ Important Considerations
-- **Unpointed Texts**: If your target application requires unpointed text (e.g., Hebrew without Niqqud or Greek without accents), strip them out using Regex *during* step 2 of the pipeline.
-- **Data Deduplication**: Keep your dictionaries centralized. If a translation for a specific Strong's number needs fixing, fix it in the master dictionary JSON and re-run the pipeline to update all thousands of verses automatically.
+---
+
+## 🤖 AI-Assisted Localization
+
+For languages with large existing datasets (like English), we can use LLMs to automate the translation of literal verses and tokens while preserving the original structure.
+
+### 🛠️ Using the Groq Pipeline
+
+1. **Setup Credentials**: Add your `GROQ_API_KEY` to `.env.local`.
+2. **Run the Script**: Use the AI pipeline to translate a specific book.
+   ```bash
+   # Usage: node --env-file=.env.local scripts/pipeline/ai_translate_pipeline.js [bookCode] [targetLang]
+   node --env-file=.env.local scripts/pipeline/ai_translate_pipeline.js mal pt
+   ```
+
+### 🧬 Why this works
+- **Context Awareness**: The AI sees the entire verse and the English literal translation, allowing it to choose the best Portuguese word for that specific Hebrew lemma.
+- **Safety**: The script updates JSON files but maintains the `schemaVersion`, ensuring the frontend remains compatible.
+- **Scalability**: Once the prompt is tuned for one language (e.g., `pt`), you can easily replicate it for `es`, `fr`, etc., by just changing the command argument.
+
