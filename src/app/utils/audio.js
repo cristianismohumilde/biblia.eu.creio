@@ -8,85 +8,78 @@ export const handleSpeak = (text, langCode) => {
   
   // Mapping of codes to BCP 47
   // Mapeamento expandido para aceitar códigos curtos ou nomes completos
+  // Mapeamento com códigos modernos e legados (Hebraico iw/he)
   const voiceMap = {
-    hebrew: 'he', he: 'he',
+    hebrew: 'iw', he: 'iw',
     greek: 'el', el: 'el',
     latin: 'la', la: 'la',
-    pt: 'pt', portuguese: 'pt',
-    en: 'en', english: 'en',
-    syriac: 'ar', ar: 'ar',
-    aramaic: 'he',
-    geez: 'am', am: 'am',
-    coptic: 'el',
-    armenian: 'hy', hy: 'hy'
+    pt: 'pt-BR', portuguese: 'pt-BR',
+    en: 'en-US', english: 'en-US',
+    aramaic: 'iw',
+    syriac: 'ar',
+    geez: 'am',
+    armenian: 'hy'
   };
 
   const targetLang = voiceMap[langCode.toLowerCase()] || langCode;
 
-  // 1. Sanitização agressiva do texto
+  // 1. Sanitização do texto
   let cleanText = text
-    .replace(/[\u0591-\u05C7]/g, '') // Remove Niqqud/Cantilação Hebraica
-    .replace(/[^\w\s\u00C0-\u00FF\u0590-\u05FF\u0370-\u03FF]/g, ' ') // Mantém apenas letras básicas, hebraicas e gregas
-    .replace(/\s+/g, ' ')
+    .replace(/[\u0591-\u05C7]/g, '') 
     .trim()
     .slice(0, 200);
 
-  console.log(`🔊 [Audio] Lang: ${targetLang} | Original: ${langCode} | Text: ${cleanText.slice(0, 30)}...`);
-
-  // Feedback visual (opcional, mas ajuda a depurar)
+  // Toast de depuração
   const showToast = (msg) => {
     let toast = document.getElementById('audio-toast');
     if (!toast) {
       toast = document.createElement('div');
       toast.id = 'audio-toast';
-      toast.style = "position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.8); color:white; padding:8px 16px; border-radius:20px; z-index:9999; font-size:12px; font-family:sans-serif; pointer-events:none; transition:opacity 0.3s;";
+      toast.style = "position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.9); color:#00ff00; padding:8px 16px; border-radius:20px; z-index:9999; font-size:12px; font-family:monospace; pointer-events:none; border:1px solid #00ff00;";
       document.body.appendChild(toast);
     }
-    toast.textContent = msg;
+    toast.textContent = `[${targetLang}] ${msg}`;
     toast.style.opacity = '1';
-    setTimeout(() => { toast.style.opacity = '0'; }, 2000);
+    setTimeout(() => { toast.style.opacity = '0'; }, 3000);
   };
 
-  showToast(`${langCode.toUpperCase()}...`);
+  showToast(`PLAYING...`);
 
-  // 2. Limpeza de instâncias anteriores
+  // 2. Parar áudio anterior
   if (window._currentAudio) {
     window._currentAudio.pause();
     window._currentAudio = null;
   }
 
-  // 3. Técnica de Fetch + Blob URL (Bypassa restrições de alguns navegadores para áudio externo)
+  // 3. Estratégia de Reprodução Direta (Mais compatível com mobile/desktop moderno)
   const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${targetLang}&client=tw-ob`;
   
-  fetch(url)
-    .then(response => {
-      if (!response.ok) throw new Error("Google bloqueou a requisição");
-      return response.blob();
-    })
-    .then(blob => {
-      const blobUrl = URL.createObjectURL(blob);
-      const audio = new Audio(blobUrl);
-      window._currentAudio = audio;
-      return audio.play();
-    })
-    .catch(error => {
-      console.error("❌ Erro no streaming de áudio:", error);
+  const audio = new Audio();
+  audio.src = url;
+  window._currentAudio = audio;
+
+  audio.play().catch(error => {
+    console.error("❌ Erro Google:", error);
+    showToast("RETRYING LOCAL...");
+    
+    // Fallback 2: SpeechSynthesis (Vozes locais)
+    if (window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(cleanText);
+      // Tenta mapear para códigos BCP47
+      const bcp = { iw: 'he-IL', he: 'he-IL', el: 'el-GR', pt: 'pt-BR', en: 'en-US' };
+      utterance.lang = bcp[targetLang] || targetLang;
+      utterance.rate = 0.8;
       
-      // Fallback final: Web Speech API (Vozes do Sistema)
-      if (window.speechSynthesis) {
-        window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(cleanText);
-        const bcp47 = { he: 'he-IL', el: 'el-GR', la: 'la', pt: 'pt-BR', en: 'en-US', ar: 'ar-SY', am: 'am-ET' };
-        utterance.lang = bcp47[targetLang] || targetLang;
-        utterance.rate = 0.8;
-        window.speechSynthesis.speak(utterance);
-      }
-    });
+      // Procura voz específica no sistema
+      const voices = window.speechSynthesis.getVoices();
+      const v = voices.find(v => v.lang.startsWith(targetLang) || v.lang.includes(targetLang));
+      if (v) utterance.voice = v;
+
+      window.speechSynthesis.speak(utterance);
+    }
+  });
 };
-
-
-
-
 
 
 
