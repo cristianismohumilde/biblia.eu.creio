@@ -5,11 +5,9 @@ import Link from "next/link";
 import { translations } from "@/app/translations";
 import ReferenceSelector from "@/app/components/ReferenceSelector";
 import WitnessCards from "@/app/components/WitnessCards";
-import ThemeToggle from "@/app/components/ThemeToggle";
-import LanguageSwitcher from "@/app/components/LanguageSwitcher";
+import SiteHeader from "@/app/components/SiteHeader";
 import NewsBanner from "@/app/components/NewsBanner";
 import { handleSpeak } from "@/app/utils/audio";
-
 
 export default function LangHomePage({ params }) {
   const [resolvedParams, setResolvedParams] = useState(null);
@@ -52,31 +50,26 @@ export default function LangHomePage({ params }) {
   const { lang } = resolvedParams;
   const t = translations[lang] || translations.pt;
 
+  const navLinks = [
+    ...(data ? [
+      { href: `/${lang}/#verso`, label: t.verse },
+      { href: `/${lang}/#originais`, label: t.manuscriptTexts }
+    ] : []),
+    { href: `/${lang}/idiomas-biblicos`, label: t.biblicalLanguages, className: "nav-spotlight" },
+    { href: `/${lang}/atualizacoes-e-novidades`, label: t.updates, className: "nav-updates" },
+    { href: `/${lang}/fontes`, label: t.sources }
+  ];
+
   return (
     <>
-      <header className="site-header">
-        <div>
-          <p className="brand-eyebrow">{t.openSource}</p>
-          <h1><Link href={`/${lang}/`} style={{ color: 'inherit', textDecoration: 'none' }}>Biblia.Creio.EU</Link></h1>
-          <p className="subtitle">{t.subtitle}</p>
-        </div>
-        <nav className="quick-nav" aria-label="Navegação rápida">
-          <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">
-            {t.biblicalLanguages}
-          </Link>
-          <Link href={`/${lang}/atualizacoes-e-novidades`} className="nav-updates">
-            {t.updates}
-          </Link>
-
-          <Link href={`/${lang}/fontes`}>
-            {t.sources}
-          </Link>
-
-
-          <LanguageSwitcher lang={lang} />
-          <ThemeToggle t={t} />
-        </nav>
-      </header>
+      <SiteHeader 
+        lang={lang}
+        t={t}
+        eyebrow={t.openSource}
+        title={<Link href={`/${lang}/`} style={{ color: 'inherit', textDecoration: 'none' }}>Biblia.Creio.EU</Link>}
+        subtitle={t.subtitle}
+        links={navLinks}
+      />
 
       <section className="card support-banner" aria-labelledby="support-title" id="apoie">
         <p className="support-kicker">{t.community}</p>

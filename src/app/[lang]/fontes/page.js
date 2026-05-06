@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { translations } from "../../translations";
-import ThemeToggle from "../../components/ThemeToggle";
-import LanguageSwitcher from "../../components/LanguageSwitcher";
+import SiteHeader from "../../components/SiteHeader";
 
 export async function generateStaticParams() {
   return [{ lang: "pt" }, { lang: "en" }];
@@ -86,21 +85,21 @@ export default async function FontesPage({ params }) {
 
   const activeContent = content[lang] || content.pt;
 
+  const navLinks = [
+    { href: `/${lang}/`, label: t.back },
+    { href: `/${lang}/idiomas-biblicos`, label: t.biblicalLanguages, className: "nav-spotlight" }
+  ];
+
   return (
     <>
-      <header className="site-header" style={{ marginBottom: '3rem' }}>
-        <div>
-          <p className="brand-eyebrow">{t.openSource}</p>
-          <h1>{t.sources}</h1>
-          <p className="subtitle">{t.sourcesSubtitle}</p>
-        </div>
-        <nav className="quick-nav">
-          <Link href={`/${lang}/`}>{t.back}</Link>
-          <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">{t.biblicalLanguages}</Link>
-          <LanguageSwitcher lang={lang} />
-          <ThemeToggle t={t} />
-        </nav>
-      </header>
+      <SiteHeader 
+        lang={lang}
+        t={t}
+        eyebrow={t.openSource}
+        title={t.sources}
+        subtitle={t.sourcesSubtitle}
+        links={navLinks}
+      />
 
       {Object.entries(activeContent).map(([key, section]) => (
         <div key={key} style={{ marginBottom: '4rem' }}>

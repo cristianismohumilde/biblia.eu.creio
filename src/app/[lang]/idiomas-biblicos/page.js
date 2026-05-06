@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { translations } from "../../translations";
-import ThemeToggle from "../../components/ThemeToggle";
-import LanguageSwitcher from "../../components/LanguageSwitcher";
+import SiteHeader from "../../components/SiteHeader";
 
 export async function generateStaticParams() {
   return [{ lang: "pt" }, { lang: "en" }];
@@ -60,22 +59,22 @@ export default async function IdiomasBiblicosPage({ params }) {
 
   const activeContent = content[lang] || content.pt;
 
+  const navLinks = [
+    { href: `/${lang}/`, label: t.back },
+    { href: `/${lang}/idiomas-biblicos`, label: t.biblicalLanguages, className: "nav-spotlight" },
+    { href: `/${lang}/fontes`, label: t.sources }
+  ];
+
   return (
     <>
-      <header className="site-header" style={{ marginBottom: '3rem' }}>
-        <div>
-          <p className="brand-eyebrow">{t.biblicalStudies}</p>
-          <h1>{t.biblicalLanguages}</h1>
-          <p className="subtitle">{t.languagesSubtitle}</p>
-        </div>
-        <nav className="quick-nav">
-          <Link href={`/${lang}/`}>{t.back}</Link>
-          <Link href={`/${lang}/idiomas-biblicos`} className="nav-spotlight">{t.biblicalLanguages}</Link>
-          <Link href={`/${lang}/fontes`}>{t.sources}</Link>
-          <LanguageSwitcher lang={lang} />
-          <ThemeToggle t={t} />
-        </nav>
-      </header>
+      <SiteHeader 
+        lang={lang}
+        t={t}
+        eyebrow={t.biblicalStudies}
+        title={t.biblicalLanguages}
+        subtitle={t.languagesSubtitle}
+        links={navLinks}
+      />
 
       {Object.entries(activeContent).map(([key, section]) => (
         <div key={key} style={{ marginBottom: '4rem' }}>
