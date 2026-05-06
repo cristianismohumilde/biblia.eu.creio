@@ -64,14 +64,14 @@ async function translateChapter(filePath, targetLang = 'pt') {
   console.log(`📖 Processando: ${path.basename(filePath)}...`);
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   
-  const BATCH_SIZE = 5; // Processar 5 versos de cada vez
+  const BATCH_SIZE = 10; // Lote otimizado: mais versos, mais espera
   
   for (let i = 0; i < data.verses.length; i += BATCH_SIZE) {
     const batch = data.verses.slice(i, i + BATCH_SIZE)
       .filter(v => !v.ptLiteralVerse || v.ptLiteralVerse.includes("[placeholder]"));
     
     if (batch.length === 0) {
-      console.log(`⏩ Pulando lote (versos ${i + 1} a ${i + BATCH_SIZE} já traduzidos)`);
+      console.log(`   ⏩ Lote (versos ${i + 1}-${Math.min(i + BATCH_SIZE, data.verses.length)}) já traduzido.`);
       continue;
     }
 
@@ -86,18 +86,18 @@ async function translateChapter(filePath, targetLang = 'pt') {
     }));
 
     const prompt = `
-      Traduza os seguintes ${batch.length} versículos bíblicos do inglês para o ${targetLang === 'pt' ? 'Português' : targetLang} de forma LITERAL.
+      Traduza estes ${batch.length} versículos bíblicos do inglês para o Português de forma LITERAL.
       
-      Dados:
+      DADOS (JSON):
       ${JSON.stringify(promptData)}
 
-      Retorne APENAS um objeto JSON no formato:
+      RETORNE APENAS JSON:
       {
         "verses": [
           {
             "id": "id_do_verso",
-            "translatedVerse": "tradução aqui",
-            "tokens": { "id_do_token": "tradução_em_português", ... }
+            "translatedVerse": "tradução",
+            "tokens": { "id_token": "tradução_palavra", ... }
           }
         ]
       }
@@ -114,8 +114,8 @@ async function translateChapter(filePath, targetLang = 'pt') {
           throw new Error("Formato de resposta inválido");
         } catch (err) {
           if (err.message.includes("Rate limit")) {
-            console.log(`     ⚠️ Rate limit! Esperando 15 segundos...`);
-            await new Promise(r => setTimeout(r, 15000));
+            console.log(`     ⚠️ Rate limit! Esperando 20 segundos...`);
+            await new Promise(r => setTimeout(r, 20000));
             retries--;
           } else {
             console.error(`     ❌ Erro: ${err.message}`);

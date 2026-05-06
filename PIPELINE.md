@@ -42,21 +42,50 @@ To add Greek to the pipeline:
 
 ---
 
-## 🤖 AI-Assisted Localization
+## 🤖 AI-Assisted Localization Engines
 
-For languages with large existing datasets (like English), we can use LLMs to automate the translation of literal verses and tokens while preserving the original structure.
+For high-volume translation of literal verses and individual word tokens, the pipeline supports two primary AI engines. Choosing the right one depends on your needs for speed vs. volume.
 
-### 🛠️ Using the Groq Pipeline
+### 1. 🚀 Groq Engine (`ai_translate_pipeline.js`)
+**Best for**: Speed and low latency on small to medium books.
+- **Model**: `llama-3.1-8b-instant`
+- **Strategy**: Small batches (3-5 verses) to stay under Free Tier rate limits.
+- **Usage**:
+  ```bash
+  node scripts/pipeline/ai_translate_pipeline.js [bookCode] [lang]
+  ```
 
-1. **Setup Credentials**: Add your `GROQ_API_KEY` to `.env.local`.
-2. **Run the Script**: Use the AI pipeline to translate a specific book.
-   ```bash
-   # Usage: node --env-file=.env.local scripts/pipeline/ai_translate_pipeline.js [bookCode] [targetLang]
-   node --env-file=.env.local scripts/pipeline/ai_translate_pipeline.js mal pt
-   ```
+### 2. ✨ Google Gemini Engine (`ai_translate_gemini.js`)
+**Best for**: Massive volume and large context windows.
+- **Model**: `gemini-flash-latest` (1.5/2.5/3.1 depending on availability).
+- **Strategy**: Large batches (10-30 verses) leveraging the **2 million Tokens Per Minute (TPM)** limit of the Google AI Studio free tier.
+- **Usage**:
+  ```bash
+  node scripts/pipeline/ai_translate_gemini.js [bookCode] [lang]
+  ```
 
-### 🧬 Why this works
-- **Context Awareness**: The AI sees the entire verse and the English literal translation, allowing it to choose the best Portuguese word for that specific Hebrew lemma.
-- **Safety**: The script updates JSON files but maintains the `schemaVersion`, ensuring the frontend remains compatible.
-- **Scalability**: Once the prompt is tuned for one language (e.g., `pt`), you can easily replicate it for `es`, `fr`, etc., by just changing the command argument.
+---
+
+## 🧬 Intelligent Batch Processing
+
+Both scripts utilize a **Batching Strategy** to maximize API efficiency:
+1. **Filtering**: The script scans the target book and filters out verses that already have a translation (skipping manual work or previous runs).
+2. **Batching**: It groups the remaining verses into chunks (e.g., 10 verses).
+3. **Contextual Prompting**: It sends the original Hebrew/Greek tokens and the English literal reference to the AI, asking for a structured JSON response.
+4. **Hydration**: It injects the AI's response back into the correct JSON fields (`ptLiteralVerse`, `ptLiteralWord`).
+
+### 🛡️ Error Handling & Resilience
+- **Rate Limits (429)**: The scripts include automatic exponential backoff.
+- **Service Overload (503)**: Specifically tuned for Gemini, the script will wait up to 20 seconds and retry up to 5 times if the server is busy.
+- **Schema Safety**: The AI is forced to return JSON via `response_format`, preventing hallucinations from breaking the file structure.
+
+---
+
+## 🛠️ Summary of Commands
+
+| Task | Command |
+| --- | --- |
+| **Translate Book (Fast/Groq)** | `node scripts/pipeline/ai_translate_pipeline.js [book] pt` |
+| **Translate Book (Bulk/Gemini)** | `node scripts/pipeline/ai_translate_gemini.js [book] pt` |
+| **Re-run Pipeline** | Simply run the command again; it will skip already translated verses. |
 

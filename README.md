@@ -97,6 +97,25 @@ function removeNiqqud(hebrewText) {
 3. For each word, apply `removeNiqqud()` to the surface text property.
 4. Save the result as a large array of objects (or multiple JSON files) inside your new application's data folder.
 
+## 🤖 AI-Powered Localization (Groq & Gemini)
+
+To scale the platform to dozens of languages without manual data entry, we implemented an **AI-Assisted Translation Pipeline**. This system uses Large Language Models (LLMs) to generate literal word-for-word translations while preserving academic context.
+
+- **🚀 Groq (Llama 3.1):** Used for high-speed, low-latency translation of small batches.
+- **✨ Google Gemini (3.1/Flash):** Used for massive, high-volume batch processing (up to 2 million tokens/min).
+- **🧠 Context-Aware:** The pipeline doesn't just translate strings; it analyzes the original Hebrew/Greek tokens alongside the English reference to ensure structural fidelity.
+
+**Commands:**
+```bash
+# Using Groq (Speed focus)
+node scripts/pipeline/ai_translate_pipeline.js [bookCode] [lang]
+
+# Using Gemini (Volume focus)
+node scripts/pipeline/ai_translate_gemini.js [bookCode] [lang]
+```
+> [!TIP]
+> This architecture allows translating the entire Old Testament (39 books) in a matter of hours with zero manual intervention.
+
 ## 🔐 Security & API Configuration
 
 For high-fidelity audio, this project supports **Azure Cognitive Services**. To keep keys secure:
