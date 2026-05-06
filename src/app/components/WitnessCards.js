@@ -72,11 +72,11 @@ export default function WitnessCards({ lang, data, manuscript }) {
         if (witnesses.length === 0) return null;
 
         return (
-          <div key={lo.code} className="language-group" style={{ marginBottom: '2rem' }}>
-            <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem', borderLeft: '4px solid var(--accent)', paddingLeft: '0.8rem', color: 'var(--accent)' }}>
+          <div key={lo.code} className="language-group" style={{ marginBottom: '2.5rem' }}>
+            <h2 style={{ fontSize: '1.25rem', marginBottom: '1.2rem', borderLeft: '5px solid var(--accent)', paddingLeft: '1rem', color: 'var(--accent)', fontWeight: 800 }}>
               {lo.label}
             </h2>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
               {witnesses.map(w => {
                 const msInfo = manuscriptMap[lo.code]?.find(m => {
                   const label = (w.label || "").toLowerCase();
@@ -102,13 +102,30 @@ export default function WitnessCards({ lang, data, manuscript }) {
 
                 const isCurrent = msInfo && msInfo.key === manuscript;
 
+                // Lógica para evitar redundância de nomes
+                const manuscriptName = (lang === 'en' ? data.manuscripts?.[`${lo.code}En`] : data.manuscripts?.[lo.code]) || 
+                                       (data.tokens?.find(tk => tk.lang === lo.code)?.[lang === 'en' ? 'manuscriptEn' : 'manuscript']) ||
+                                       w.label;
+                
+                // Se o nome do manuscrito for igual ao nome do idioma, ou contiver o idioma de forma redundante no início
+                let cleanManuscriptName = manuscriptName || "";
+                if (cleanManuscriptName.toLowerCase().startsWith(lo.label.toLowerCase() + ":")) {
+                  cleanManuscriptName = cleanManuscriptName.split(":")[1].trim();
+                }
+
+                // O título do card deve ser o nome do manuscrito, a menos que ele seja nulo ou igual ao idioma
+                const displayTitle = (cleanManuscriptName && cleanManuscriptName.toLowerCase() !== lo.label.toLowerCase()) 
+                                     ? cleanManuscriptName 
+                                     : (w.label !== lo.label ? w.label : null);
+
                 return (
                   <article key={w.id} className={`text-witness ${isCurrent ? 'active-witness' : ''}`}>
-                    <div className="text-witness-header">
-                      <h3 className="text-witness-title" style={{ fontSize: '1.05rem' }}>{w.label || lo.label}</h3>
+                    <div className="text-witness-header" style={{ borderBottom: displayTitle ? '1px solid rgba(132, 111, 77, 0.12)' : 'none', paddingBottom: displayTitle ? '0.8rem' : '0' }}>
+                      {displayTitle && <h3 className="text-witness-title" style={{ fontSize: '1.1rem', margin: 0 }}>{displayTitle}</h3>}
                       <button 
                         onClick={() => handleSpeak(w.text || sourceText || data[`${lo.code}Text`], lo.code)} 
                         className="audio-player-mini"
+                        style={{ marginLeft: 'auto' }}
                       >
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                           <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
@@ -118,20 +135,14 @@ export default function WitnessCards({ lang, data, manuscript }) {
                       </button>
                     </div>
 
-                    <p className="manuscript-meta" style={{ fontSize: '0.85rem', opacity: 0.7, marginBottom: '1rem' }}>
-                      { (lang === 'en' ? data.manuscripts?.[`${lo.code}En`] : data.manuscripts?.[lo.code]) || 
-                        (data.tokens?.find(tk => tk.lang === lo.code)?.[lang === 'en' ? 'manuscriptEn' : 'manuscript']) ||
-                        t.notInformedMsg || `Source not informed.` }
-                    </p>
-
-                    <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`} style={{ fontSize: '1.35rem', marginBottom: '1.2rem' }}>
+                    <p className={`text-witness-text ${RTL_LANGS.has(lo.code) ? 'rtl' : ''}`} style={{ fontSize: '1.45rem', margin: '1.2rem 0' }}>
                       {w.text || t.noText}
                     </p>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem', borderTop: '1px solid rgba(132,111,77,0.1)', paddingTop: '1rem' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem', borderTop: '1px solid rgba(132,111,77,0.1)', paddingTop: '1.2rem' }}>
                       <div>
                         <p className="text-witness-label">{t.transliteration}</p>
-                        <p className="text-witness-transliteration" style={{ fontSize: '1.05rem' }}>{w.transliteration || fallbackTransliteration || t.noTranslit}</p>
+                        <p className="text-witness-transliteration" style={{ fontSize: '1.1rem' }}>{w.transliteration || fallbackTransliteration || t.noTranslit}</p>
                       </div>
                       <div>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -144,16 +155,16 @@ export default function WitnessCards({ lang, data, manuscript }) {
                             🔊
                           </button>
                         </div>
-                        <p className="text-witness-literal" style={{ fontSize: '1.1rem', fontWeight: 500 }}>{(lang === 'en' ? w.literalEn : w.literalPt) || fallbackLiteral || t.noLiteral}</p>
+                        <p className="text-witness-literal" style={{ fontSize: '1.15rem', fontWeight: 600 }}>{(lang === 'en' ? w.literalEn : w.literalPt) || fallbackLiteral || t.noLiteral}</p>
                       </div>
                     </div>
 
                     {msInfo && !isCurrent && (
-                      <div className="manuscript-actions" style={{ marginTop: '1.5rem', paddingTop: '1rem', borderTop: '1px dashed rgba(132,111,77,0.15)' }}>
+                      <div className="manuscript-actions" style={{ marginTop: '1.8rem', paddingTop: '1.2rem', borderTop: '1px dashed rgba(132,111,77,0.2)' }}>
                         <Link 
                           href={`/${lang}/interlinear/${msInfo.key}/${data.ref.book.toLowerCase()}/${data.ref.chapter}?v=${data.ref.verse}`}
                           className="manuscript-cta"
-                          style={{ maxWidth: '300px' }}
+                          style={{ maxWidth: '350px' }}
                         >
                           {t.interlinearComplete}
                         </Link>
