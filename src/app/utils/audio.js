@@ -9,19 +9,35 @@ export const handleSpeak = async (text, langCode) => {
   const voiceMap = {
     hebrew: { locale: 'he-IL', name: 'he-IL-AvriNeural' },
     greek: { locale: 'el-GR', name: 'el-GR-NestorasNeural' },
-    latin: { locale: 'it-IT', name: 'it-IT-ElsaNeural' }, // Usando Italiano como proxy para Latim (fonética similar)
+    latin: { locale: 'it-IT', name: 'it-IT-ElsaNeural' },
     pt: { locale: 'pt-BR', name: 'pt-BR-FranciscaNeural' },
     portuguese: { locale: 'pt-BR', name: 'pt-BR-FranciscaNeural' },
     en: { locale: 'en-US', name: 'en-US-JennyNeural' },
     english: { locale: 'en-US', name: 'en-US-JennyNeural' },
     aramaic: { locale: 'he-IL', name: 'he-IL-AvriNeural' },
-    syriac: { locale: 'ar-SY', name: 'ar-SY-AmanyNeural' },
+    syriac: { locale: 'he-IL', name: 'he-IL-AvriNeural' }, // Usando Hebraico como proxy fonético
     geez: { locale: 'am-ET', name: 'am-ET-AmehaNeural' },
     armenian: { locale: 'hy-AM', name: 'hy-AM-AnahitNeural' }
   };
 
+  // Conversor de Script Siríaco para Hebraico (Para que o motor consiga ler)
+  const transliterateSyriac = (t) => {
+    const sToH = {
+      '\u0710':'\u05D0','\u0712':'\u05D1','\u0713':'\u05D2','\u0715':'\u05D3','\u0717':'\u05D4',
+      '\u0718':'\u05D5','\u0719':'\u05D6','\u071A':'\u05D7','\u071B':'\u05D8','\u071D':'\u05D9',
+      '\u071F':'\u05DB','\u0720':'\u05DC','\u0721':'\u05DE','\u0722':'\u05E0','\u0723':'\u05E1',
+      '\u0725':'\u05E2','\u0726':'\u05E4','\u0728':'\u05E6','\u0729':'\u05E7','\u072A':'\u05E8',
+      '\u072B':'\u05E9','\u072C':'\u05EA'
+    };
+    return t.split('').map(c => sToH[c] || c).join('');
+  };
+
   const config = voiceMap[langCode.toLowerCase()] || { locale: 'en-US', name: 'en-US-JennyNeural' };
-  const cleanText = text.replace(/[\u0591-\u05C7]/g, '').trim().slice(0, 5000);
+  let cleanText = text.replace(/[\u0591-\u05C7]/g, '').trim().slice(0, 5000);
+
+  if (langCode.toLowerCase() === 'syriac') {
+    cleanText = transliterateSyriac(cleanText);
+  }
 
   const showToast = (msg) => {
     let toast = document.getElementById('audio-toast');
