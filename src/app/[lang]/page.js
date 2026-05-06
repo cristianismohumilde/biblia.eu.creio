@@ -166,7 +166,14 @@ export default function LangHomePage({ params }) {
       </section>
 
       <NewsBanner lang={lang} />
-      <ReferenceSelector lang={lang} t={t} onSelect={loadVerse} />
+      <ReferenceSelector 
+        lang={lang} 
+        t={t} 
+        onSelect={loadVerse} 
+        initialBook={data?.ref?.book || "gen"}
+        initialChapter={data?.ref?.chapter || "1"}
+        initialVerse={data?.ref?.verse || data?.verse || "1"}
+      />
 
       {error && (
         <section className="card" style={{ borderColor: '#e74c3c', background: '#fdf2f2' }}>
