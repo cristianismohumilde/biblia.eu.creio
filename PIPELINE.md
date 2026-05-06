@@ -64,6 +64,22 @@ For high-volume translation of literal verses and individual word tokens, the pi
   node scripts/pipeline/ai_translate_gemini.js [bookCode] [lang]
   ```
 
+### 3. 🔵 Azure OpenAI Engine (`ai_translate_azure.js`) ⭐ RECOMENDADO
+**Melhor para**: Tradução em massa de alta qualidade com custo mínimo. Ideal para quem tem créditos Azure for Students.
+- **Modelo**: `gpt-4o-mini` (melhor custo-benefício de todos)
+- **Custo estimado**: ~$0.15/1M tokens → **a Bíblia toda por menos de $2**
+- **Estratégia**: Lotes de 20 versos. Sem os rate limits agressivos do Groq/Gemini gratuito.
+- **Pré-requisitos**: Adicionar ao `.env.local`:
+  ```env
+  AZURE_OPENAI_ENDPOINT=https://SEU-RECURSO.openai.azure.com
+  AZURE_OPENAI_KEY=sua_chave_aqui
+  AZURE_OPENAI_DEPLOYMENT=gpt-4o-mini
+  ```
+- **Uso**:
+  ```bash
+  node scripts/pipeline/ai_translate_azure.js [bookCode] [lang]
+  ```
+
 ---
 
 ## 🧬 Intelligent Batch Processing
@@ -87,5 +103,6 @@ Both scripts utilize a **Batching Strategy** to maximize API efficiency:
 | --- | --- |
 | **Translate Book (Fast/Groq)** | `node scripts/pipeline/ai_translate_pipeline.js [book] pt` |
 | **Translate Book (Bulk/Gemini)** | `node scripts/pipeline/ai_translate_gemini.js [book] pt` |
+| **Translate Book (Azure/GPT-4o-mini) ⭐** | `node scripts/pipeline/ai_translate_azure.js [book] pt` |
 | **Re-run Pipeline** | Simply run the command again; it will skip already translated verses. |
 
