@@ -73,12 +73,12 @@ function parseXML(xmlData) {
       
       bible[projectBookCode][chapter] = {};
       
-      const verseRegex = /<v id="(\d+)">([\s\S]*?)<\/v>/g;
+      const verseRegex = /<v id="(\d+)"\/>([^<]*)<ve\/>/g;
       let verseMatch;
       
       while ((verseMatch = verseRegex.exec(chapterContent)) !== null) {
         const verse = verseMatch[1];
-        let text = verseMatch[2].replace(/<[^>]+>/g, '').trim(); // Remove tags extras como <f> ou <w>
+        let text = verseMatch[2].trim(); // Remove tags extras como <f> ou <w>
         bible[projectBookCode][chapter][verse] = text;
       }
     }
@@ -113,8 +113,8 @@ function applyTranslation(almeidaBible) {
       
       if (!almeidaText) continue;
 
-      // PULA os já traduzidos pela IA!
-      if (verseObj.ptLiteralVerse && !verseObj.ptLiteralVerse.includes('[placeholder]') && verseObj.ptLiteralVerse.trim() !== '') {
+      // PULA os já traduzidos pela IA! (se tem conteúdo real)
+      if (verseObj.ptLiteralVerse && !verseObj.ptLiteralVerse.includes('[placeholder]') && verseObj.ptLiteralVerse.trim().length > 0) {
         totalSkipped++;
         continue;
       }

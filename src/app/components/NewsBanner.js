@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function NewsBanner({ lang }) {
   const text = lang === 'en' 
-    ? "New: High-quality audio for original languages and literal translations!" 
-    : "Novidade: Áudio de alta fidelidade para os idiomas originais e traduções literais!";
+    ? "Almeida translation now available! We're expanding literal translations soon." 
+    : "Tradução Almeida disponível! Expandindo com traduções literais em breve.";
   
   const linkText = lang === 'en' ? "learn more" : "saiba mais";
 

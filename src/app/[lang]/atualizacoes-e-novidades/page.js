@@ -16,6 +16,16 @@ export default async function UpdatesPage({ params }) {
       title: "Atualizações e Novidades",
       articles: [
         {
+          date: "06 de Maio, 2026",
+          headline: "Novo Marco: Gênesis em Tradução Literal + Bíblia Inteira com Almeida",
+          paragraphs: [
+            "🎉 Cumprimos nosso compromisso inicial! Gênesis foi concluído com tradução literal em curadoria, e a Bíblia inteira agora está disponível com a tradução de João Ferreira de Almeida (Domínio Público).",
+            "Por quê essa decisão? Como projeto de código aberto com recursos limitados, decidimos utilizar a Almeida como base sólida e gratuita para oferecer uma Bíblia completa funcionando agora, em vez de esperar meses por tradução literal de todo o texto. A Almeida é confiável, em domínio público e mantém a qualidade acadêmica que nossos usuários merecem.",
+            "O plano futuro: Conforme recursos forem disponíveis, continuaremos a curadoria e tradução literal livro por livro, começando pelos que têm maior relevância litúrgica e acadêmica. Gênesis é o início dessa jornada; você verá mais avanços em breve.",
+            "Enquanto isso, todos os interlineares (Hebraico, Grego, Aramaico, Latim, Ge'ez, Siríaco, Copta e Armênio) continuam íntegros com suas definições lexicais, transliterações e análise morfológica — a ferramenta de estudo que você esperava funciona plenamente."
+          ]
+        },
+        {
           date: "05 de Maio, 2026",
           headline: "A Anatomia Sonora da Fé: Por que ouvir os textos em seus idiomas originais?",
           paragraphs: [
@@ -25,9 +35,6 @@ export default async function UpdatesPage({ params }) {
             "Nossa nova ferramenta utiliza tecnologia de nuvem para garantir que, mesmo que você não saiba ler Hebraico ou Grego fluentemente, você possa 'sentir' a textura do idioma. É o início de uma nova era de imersão linguística para todos os nossos usuários."
           ]
         },
-        {
-          date: "04 de Maio, 2026",
-          headline: "Unificação do Texto Hebraico: Por que o Codex Leningradensis (B19A)?",
           paragraphs: [
             "Recentemente, tomamos a decisão estratégica de focar nossa base de dados de Gênesis exclusivamente no Codex Leningradensis (B19A) para a tradição hebraica massorética. Mas qual a importância técnica disso?",
             "O Codex Leningradensis é o manuscrito completo mais antigo da Bíblia Hebraica (aprox. 1008 d.C.). Ele é o 'irmão' mais novo do Códice de Aleppo (que está incompleto) e serve como base para as edições acadêmicas modernas como a BHS. O mais fascinante é que, ao compararmos o B19A com os Manuscritos do Mar Morto (DSS), descobertos em Qumran e mil anos mais antigos, vemos que o texto é praticamente idêntico. Isso prova a precisão milenar da transmissão dos escribas judeus.",
@@ -40,6 +47,16 @@ export default async function UpdatesPage({ params }) {
     en: {
       title: "Updates and News",
       articles: [
+        {
+          date: "May 06, 2026",
+          headline: "New Milestone: Genesis in Literal Translation + Full Bible with Almeida",
+          paragraphs: [
+            "🎉 We fulfilled our initial commitment! Genesis has been completed with curated literal translation, and the entire Bible is now available with the translation of João Ferreira de Almeida (Public Domain).",
+            "Why this decision? As an open-source project with limited resources, we chose to use Almeida as a solid and free foundation to offer a complete, functioning Bible now, rather than wait months for a literal translation of the entire text. Almeida is reliable, public domain, and maintains the academic quality our users deserve.",
+            "The future plan: As resources become available, we will continue with curation and literal translation book by book, starting with those of greater liturgical and academic relevance. Genesis is the beginning of this journey; you will see more progress soon.",
+            "Meanwhile, all interlinears (Hebrew, Greek, Aramaic, Latin, Ge'ez, Syriac, Coptic, and Armenian) remain intact with their lexical definitions, transliterations, and morphological analysis — the study tool you've been waiting for works fully."
+          ]
+        },
         {
           date: "May 05, 2026",
           headline: "The Sonic Anatomy of Faith: Why listen to the texts in their original languages?",
