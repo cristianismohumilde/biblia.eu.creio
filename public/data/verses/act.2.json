@@ -1,0 +1,2498 @@
+{
+  "book": "Acts",
+  "bookCode": "act",
+  "chapter": 2,
+  "verses": [
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 1
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ao cumprir-se o dia de Pentecostes, estavam todos reunidos no mesmo lugar.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 2
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "De repente veio do céu um ruído, como que de um vento impetuoso, e encheu toda a casa onde estavam sentados.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 3
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E lhes apareceram umas línguas como que de fogo, que se distribuíam, e sobre cada um deles pousou uma.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 4
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E todos ficaram cheios do Espírito Santo, e começaram a falar noutras línguas, conforme o Espírito lhes concedia que falassem.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 5
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Habitavam então em Jerusalém judeus, homens piedosos, de todas as nações que há debaixo do céu.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 6
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ouvindo-se, pois, aquele ruído, ajuntou-se a multidão; e estava confusa, porque cada um os ouvia falar na sua própria língua.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 7
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E todos pasmavam e se admiravam, dizendo uns aos outros: Pois quê! não são galileus todos esses que estão falando?",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 8
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Como é, pois, que os ouvimos falar cada um na própria língua em que nascemos?",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 9
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Nós, partos, medos, e elamitas; e os que habitamos a Mesopotâmia, a Judéia e a Capadócia, o Ponto e a Ásia,",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 10
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "a Frígia e a Panfília, o Egito e as partes da Líbia próximas a Cirene, e forasteiros romanos, tanto judeus como prosélitos,",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 11
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "cretenses e árabes - ouvímo-los em nossas línguas, falar das grandezas de Deus.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 12
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E todos pasmavam e estavam perplexos, dizendo uns aos outros: Que quer dizer isto?",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 13
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E outros, zombando, diziam: Estão cheios de mosto.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 14
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Então Pedro, pondo-se em pé com os onze, levantou a voz e disse-lhes: Varões judeus e todos os que habitais em Jerusalém, seja- vos isto notório, e escutai as minhas palavras.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 15
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Pois estes homens não estão embriagados, como vós pensais, visto que é apenas a terceira hora do dia.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 16
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Mas isto é o que foi dito pelo profeta Joel:",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 17
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E acontecerá nos últimos dias, diz o Senhor, que derramarei do meu Espírito sobre toda a carne; e os vossos filhos e as vossas filhas profetizarão, os vossos mancebos terão visões, os vossos anciãos terão sonhos;",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 18
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "e sobre os meus servos e sobre as minhas servas derramarei do meu Espírito naqueles dias, e eles profetizarão.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 19
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E mostrarei prodígios em cima no céu; e sinais embaixo na terra, sangue, fogo e vapor de fumaça.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 20
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "O sol se converterá em trevas, e a lua em sangue, antes que venha o grande e glorioso dia do Senhor.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 21
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "e acontecerá que todo aquele que invocar o nome do Senhor será salvo.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 22
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Varões israelitas, escutai estas palavras: A Jesus, o nazareno, varão aprovado por Deus entre vós com milagres, prodígios e sinais, que Deus por ele fez no meio de vós, como vós mesmos bem sabeis;",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 23
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "a este, que foi entregue pelo determinado conselho e presciência de Deus, vós matastes, crucificando-o pelas mãos de iníquos;",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 24
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "ao qual Deus ressuscitou, rompendo os grilhões da morte, pois não era possível que fosse retido por ela.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 25
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Porque dele fala Davi: Sempre via diante de mim o Senhor, porque está à minha direita, para que eu não seja abalado;",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 26
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "por isso se alegrou o meu coração, e a minha língua exultou; e além disso a minha carne há de repousar em esperança;",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 27
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "pois não deixarás a minha alma no hades, nem permitirás que o teu Santo veja a corrupção;",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 28
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "fizeste-me conhecer os caminhos da vida; encher-me-ás de alegria na tua presença.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 29
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Irmãos, seja-me permitido dizer-vos livremente acerca do patriarca Davi, que ele morreu e foi sepultado, e entre nós está até hoje a sua sepultura.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 30
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Sendo, pois, ele profeta, e sabendo que Deus lhe havia prometido com juramento que faria sentar sobre o seu trono um dos seus descendentes -",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 31
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "prevendo isto, Davi falou da ressurreição de Cristo, que a sua alma não foi deixada no hades, nem a sua carne viu a corrupção.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 32
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ora, a este Jesus, Deus ressuscitou, do que todos nós somos testemunhas.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 33
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "De sorte que, exaltado pela dextra de Deus, e tendo recebido do Pai a promessa do Espírito Santo, derramou isto que vós agora vedes e ouvis.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 34
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Porque Davi não subiu aos céus, mas ele próprio declara: Disse o Senhor ao meu Senhor: Assenta-te à minha direita,",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 35
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "até que eu ponha os teus inimigos por escabelo de teus pés.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 36
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Saiba pois com certeza toda a casa de Israel que a esse mesmo Jesus, a quem vós crucificastes, Deus o fez Senhor e Cristo.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 37
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E, ouvindo eles isto, compungiram-se em seu coração, e perguntaram a Pedro e aos demais apóstolos: Que faremos, irmãos?",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 38
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Pedro então lhes respondeu: Arrependei-vos, e cada um de vós seja batizado em nome de Jesus Cristo, para remissão de vossos pecados; e recebereis o dom do Espírito Santo.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 39
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Porque a promessa vos pertence a vós, a vossos filhos, e a todos os que estão longe: a quantos o Senhor nosso Deus chamar.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 40
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E com muitas outras palavras dava testemunho, e os exortava, dizendo: salvai-vos desta geração perversa.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 41
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "De sorte que foram batizados os que receberam a sua palavra; e naquele dia agregaram-se quase três mil almas;",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 42
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "e perseveravam na doutrina dos apóstolos e na comunhão, no partir do pão e nas orações.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 43
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Em cada alma havia temor, e muitos prodígios e sinais eram feitos pelos apóstolos.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 44
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Todos os que criam estavam unidos e tinham tudo em comum.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 45
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E vendiam suas propriedades e bens e os repartiam por todos, segundo a necessidade de cada um.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 46
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E, perseverando unânimes todos os dias no templo, e partindo o pão em casa, comiam com alegria e singeleza de coração,",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "act",
+        "chapter": 2,
+        "verse": 47
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "louvando a Deus, e caindo na graça de todo o povo. E cada dia acrescentava-lhes o Senhor os que iam sendo salvos.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    }
+  ]
+}

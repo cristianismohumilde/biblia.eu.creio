@@ -1,0 +1,802 @@
+{
+  "book": "Revelation",
+  "bookCode": "rev",
+  "chapter": 20,
+  "verses": [
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 1
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E vi descer do céu um anjo, que tinha a chave do abismo e uma grande cadeia na sua mão.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 2
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ele prendeu o dragão, a antiga serpente, que é o Diabo e Satanás, e o amarrou por mil anos.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 3
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Lançou-o no abismo, o qual fechou e selou sobre ele, para que não enganasse mais as nações até que os mil anos se completassem. Depois disto é necessário que ele seja solto por um pouco de tempo.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 4
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Então vi uns tronos; e aos que se assentaram sobre eles foi dado o poder de julgar; e vi as almas daqueles que foram degolados por causa do testemunho de Jesus e da palavra de Deus, e que não adoraram a besta nem a sua imagem, e não receberam o sinal na fronte nem nas mãos; e reviveram, e reinaram com Cristo durante mil anos.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 5
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Mas os outros mortos não reviveram, até que os mil anos se completassem. Esta é a primeira ressurreição.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 6
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Bem-aventurado e santo é aquele que tem parte na primeira ressurreição; sobre estes não tem poder a segunda morte; mas serão sacerdotes de Deus e de Cristo, e reinarão com ele durante os mil anos.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 7
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ora, quando se completarem os mil anos, Satanás será solto da sua prisão,",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 8
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "e sairá a enganar as nações que estão nos quatro cantos da terra, Gogue e Magogue, cujo número é como a areia do mar, a fim de ajuntá-las para a batalha.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 9
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E subiram sobre a largura da terra, e cercaram o arraial dos santos e a cidade querida; mas desceu fogo do céu, e os devorou;",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 10
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "e o Diabo, que os enganava, foi lançado no lago de fogo e enxofre, onde estão a besta e o falso profeta; e de dia e de noite serão atormentados pelos séculos dos séculos.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 11
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E vi um grande trono branco e o que estava assentado sobre ele, de cuja presença fugiram a terra e o céu; e não foi achado lugar para eles.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 12
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E vi os mortos, grandes e pequenos, em pé diante do trono; e abriram-se uns livros; e abriu-se outro livro, que é o da vida; e os mortos foram julgados pelas coisas que estavam escritas nos livros, segundo as suas obras.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 13
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "O mar entregou os mortos que nele havia; e a morte e o hades entregaram os mortos que neles havia; e foram julgados, cada um segundo as suas obras.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 14
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E a morte e o hades foram lançados no lago de fogo. Esta é a segunda morte, o lago de fogo.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "rev",
+        "chapter": 20,
+        "verse": 15
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E todo aquele que não foi achado inscrito no livro da vida, foi lançado no lago de fogo.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    }
+  ]
+}

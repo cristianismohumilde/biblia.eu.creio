@@ -1,0 +1,2710 @@
+{
+  "book": "John",
+  "bookCode": "jhn",
+  "chapter": 1,
+  "verses": [
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 1
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 2
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ele estava no princípio com Deus.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 3
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Todas as coisas foram feitas por intermédio dele, e sem ele nada do que foi feito se fez.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 4
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Nele estava a vida, e a vida era a luz dos homens;",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 5
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "a luz resplandece nas trevas, e as trevas não prevaleceram contra ela.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 6
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Houve um homem enviado de Deus, cujo nome era João.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 7
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Este veio como testemunha, a fim de dar testemunho da luz, para que todos cressem por meio dele.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 8
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ele não era a luz, mas veio para dar testemunho da luz.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 9
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Pois a verdadeira luz, que alumia a todo homem, estava chegando ao mundo.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 10
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Estava ele no mundo, e o mundo foi feito por intermédio dele, e o mundo não o conheceu.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 11
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Veio para o que era seu, e os seus não o receberam.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 12
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Mas, a todos quantos o receberam, aos que crêem no seu nome, deu-lhes o poder de se tornarem filhos de Deus;",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 13
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "os quais não nasceram do sangue, nem da vontade da carne, nem da vontade do varão, mas de Deus.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 14
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E o Verbo se fez carne, e habitou entre nós, cheio de graça e de verdade; e vimos a sua glória, como a glória do unigênito do Pai.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 15
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "João deu testemunho dele, e clamou, dizendo: Este é aquele de quem eu disse: O que vem depois de mim, passou adiante de mim; porque antes de mim ele já existia.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 16
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Pois todos nós recebemos da sua plenitude, e graça sobre graça.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 17
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Porque a lei foi dada por meio de Moisés; a graça e a verdade vieram por Jesus Cristo.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 18
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ninguém jamais viu a Deus. O Deus unigênito, que está no seio do Pai, esse o deu a conhecer.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 19
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E este foi o testemunho de João, quando os judeus lhe enviaram de Jerusalém sacerdotes e levitas para que lhe perguntassem: Quem és tu?",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 20
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ele, pois, confessou e não negou; sim, confessou: Eu não sou o Cristo.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 21
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ao que lhe perguntaram: Pois que? És tu Elias? Respondeu ele: Não sou. És tu o profeta? E respondeu: Não.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 22
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Disseram-lhe, pois: Quem és? para podermos dar resposta aos que nos enviaram; que dizes de ti mesmo?",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 23
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Respondeu ele: Eu sou a voz do que clama no deserto: Endireitai o caminho do Senhor, como disse o profeta Isaías.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 24
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E os que tinham sido enviados eram dos fariseus.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 25
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Então lhe perguntaram: Por que batizas, pois, se tu não és o Cristo, nem Elias, nem o profeta?",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 26
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Respondeu-lhes João: Eu batizo em água; no meio de vós está um a quem vós não conheceis.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 27
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "aquele que vem depois de mim, de quem eu não sou digno de desatar a correia da alparca.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 28
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Estas coisas aconteceram em Betânia, além do Jordão, onde João estava batizando.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 29
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "No dia seguinte João viu a Jesus, que vinha para ele, e disse: Eis o Cordeiro de Deus, que tira o pecado do mundo.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 30
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "este é aquele de quem eu disse: Depois de mim vem um varão que passou adiante de mim, porque antes de mim ele já existia.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 31
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Eu não o conhecia; mas, para que ele fosse manifestado a Israel, é que vim batizando em água.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 32
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E João deu testemunho, dizendo: Vi o Espírito descer do céu como pomba, e repousar sobre ele.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 33
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Eu não o conhecia; mas o que me enviou a batizar em água, esse me disse: Aquele sobre quem vires descer o Espírito, e sobre ele permanecer, esse é o que batiza no Espírito Santo.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 34
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Eu mesmo vi e já vos dei testemunho de que este é o Filho de Deus.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 35
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "No dia seguinte João estava outra vez ali, com dois dos seus discípulos",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 36
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "e, olhando para Jesus, que passava, disse: Eis o Cordeiro de Deus!",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 37
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Aqueles dois discípulos ouviram-no dizer isto, e seguiram a Jesus.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 38
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Voltando-se Jesus e vendo que o seguiam, perguntou-lhes: Que buscais? Disseram-lhe eles: rabi (que, traduzido, quer dizer Mestre), onde pousas?",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 39
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Respondeu-lhes: Vinde, e vereis. Foram, pois, e viram onde pousava; e passaram o dia com ele; era cerca da hora décima.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 40
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "André, irmão de Simão Pedro, era um dos dois que ouviram João falar, e que seguiram a Jesus.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 41
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ele achou primeiro a seu irmão Simão, e disse-lhe: Havemos achado o Messias (que, traduzido, quer dizer Cristo).",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 42
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E o levou a Jesus. Jesus, fixando nele o olhar, disse: Tu és Simão, filho de João, tu serás chamado Cefas (que quer dizer Pedro).",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 43
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "No dia seguinte Jesus resolveu partir para a Galiléia, e achando a Felipe disse-lhe: Segue-me.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 44
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ora, Felipe era de Betsaida, cidade de André e de Pedro.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 45
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Felipe achou a Natanael, e disse-lhe: Acabamos de achar aquele de quem escreveram Moisés na lei, e os profetas: Jesus de Nazaré, filho de José.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 46
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Perguntou-lhe Natanael: Pode haver coisa bem vinda de Nazaré? Disse-lhe Felipe: Vem e vê.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 47
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Jesus, vendo Natanael aproximar-se dele, disse a seu respeito: Eis um verdadeiro israelita, em quem não há dolo!",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 48
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Perguntou-lhe Natanael: Donde me conheces? Respondeu-lhe Jesus: Antes que Felipe te chamasse, eu te vi, quando estavas debaixo da figueira.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 49
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Respondeu-lhe Natanael: Rabi, tu és o Filho de Deus, tu és rei de Israel.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 50
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "Ao que lhe disse Jesus: Porque te disse: Vi-te debaixo da figueira, crês? coisas maiores do que estas verás.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "jhn",
+        "chapter": 1,
+        "verse": 51
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (Almeida + interlineares em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (Almeida + interlinears under curation)",
+        "baseText": "Almeida (Domínio Público) + comparação com manuscritos gregos",
+        "baseTextEn": "Almeida (Public Domain) + comparison with Greek manuscripts"
+      },
+      "manuscripts": {
+        "greek": "Grego: Textos Críticos (NA28/UBS5) e tradição bizantina (Byz/RP)",
+        "greekEn": "Greek: Critical Texts (NA28/UBS5) and Byzantine tradition (Byz/RP)",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "armenian": "Armênio: versão armênia antiga (Arm)",
+        "armenianEn": "Armenian: ancient Armenian version (Arm)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)",
+        "coptic": "Copta: testemunhos sahídico/boárico (cop-sa/cop-bo)",
+        "copticEn": "Coptic: Sahidic/Bohairic witnesses (cop-sa/cop-bo)"
+      },
+      "sourceTexts": {
+        "greek": "[Greek text to be added]",
+        "latin": "[Latin text to be added]",
+        "armenian": "[Armenian text to be added]",
+        "syriac": "[Syriac text to be added]",
+        "coptic": "[Coptic text to be added]"
+      },
+      "greekWitnesses": [],
+      "ptLiteralVerse": "E acrescentou: Em verdade, em verdade vos digo que vereis o céu aberto, e os anjos de Deus subindo e descendo sobre o Filho do homem.",
+      "enLiteralVerse": "[placeholder]",
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "langPt": "Grego",
+          "langEn": "Greek",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        },
+        {
+          "lang": "latin",
+          "langPt": "Latim",
+          "langEn": "Latin",
+          "pt": "[placeholder]",
+          "en": "[placeholder]"
+        }
+      ],
+      "tokens": []
+    }
+  ]
+}

@@ -16,15 +16,27 @@ const XML_PATH = path.join(__dirname, '../../public/data/almeida.xml');
 const VERSES_DIR = path.join(__dirname, '../../public/data/verses');
 
 // Mapeamento de nomes de livros do USFX para o seu formato
+// Antigo Testamento + Novo Testamento + preparação para deuterocanônicos
 const bookMap = {
+  // Antigo Testamento (Tanak hebraico)
   'GEN': 'gen', 'EXO': 'exo', 'LEV': 'lev', 'NUM': 'num', 'DEU': 'deu',
   'JOS': 'jos', 'JDG': 'jdg', 'RUT': 'rut', '1SA': '1sa', '2SA': '2sa',
   '1KI': '1ki', '2KI': '2ki', '1CH': '1ch', '2CH': '2ch', 'EZR': 'ezr',
   'NEH': 'neh', 'EST': 'est', 'JOB': 'job', 'PSA': 'psa', 'PRO': 'pro',
   'ECC': 'ecc', 'SNG': 'sng', 'ISA': 'isa', 'JER': 'jer', 'LAM': 'lam',
   'EZK': 'ezk', 'DAN': 'dan', 'HOS': 'hos', 'JOL': 'jol', 'AMO': 'amo',
-  'OBA': 'oba', 'JON': 'jon', 'MIC': 'mic', 'NAM': 'nam', 'HAB': 'hab',
-  'ZEP': 'zep', 'HAG': 'hag', 'ZEC': 'zec', 'MAL': 'mal'
+  'OBA': 'oba', 'JON': 'jon', 'MIC': 'mic', 'NAM': 'nah', 'HAB': 'hab',
+  'ZEP': 'zph', 'HAG': 'hag', 'ZEC': 'zec', 'MAL': 'mal',
+  // Novo Testamento
+  'MAT': 'mat', 'MRK': 'mrk', 'LUK': 'luk', 'JHN': 'jhn',
+  'ACT': 'act', 'ROM': 'rom', '1CO': '1co', '2CO': '2co', 'GAL': 'gal',
+  'EPH': 'eph', 'PHP': 'php', 'COL': 'col', '1TH': '1th', '2TH': '2th',
+  '1TI': '1ti', '2TI': '2ti', 'TIT': 'tit', 'PHM': 'phm', 'HEB': 'heb',
+  'JAS': 'jas', '1PE': '1pe', '2PE': '2pe', '1JN': '1jn', '2JN': '2jn',
+  '3JN': '3jn', 'JUD': 'jud', 'REV': 'rev',
+  // Deuterocanônicos (se adicionados na fonte futura)
+  'TOB': 'tob', 'JDT': 'jdt', 'WIS': 'wis', 'SIR': 'sir', 'BAR': 'bar',
+  '1MA': '1ma', '2MA': '2ma', '1ES': '1es', '2ES': '2es'
 };
 
 async function downloadAlmeida() {
@@ -60,7 +72,7 @@ function parseXML(xmlData) {
     const bookContent = bookMatch[2];
     
     const projectBookCode = bookMap[usfxBookCode];
-    if (!projectBookCode) continue; // Pula Novo Testamento se não mapeado
+    if (!projectBookCode) continue; // Livro não mapeado — pula
     
     bible[projectBookCode] = {};
     
