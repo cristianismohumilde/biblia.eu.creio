@@ -49,10 +49,11 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
       return;
     }
 
-    fetch(`/data/books/${bookCode}/chapters/${chapter}.json`)
+    fetch(`/data/verses/${bookCode}.${chapter}.json`)
       .then((res) => res.json())
       .then((data) => {
-        setVerses(data.verses);
+        const verseNumbers = data.verses.map(v => v.ref.verse.toString());
+        setVerses(verseNumbers);
         setSelectedVerse(targetVerse);
         setLastFetched({ book: bookCode, chapter: chapter });
       })
