@@ -129,11 +129,6 @@ export default function LangHomePage({ params }) {
                 src="/rob3.png"
                 alt="Rob3"
                 className="rob3-mascot mobile-only"
-                style={{
-                  width: '75px',
-                  height: '75px',
-                  objectFit: 'contain'
-                }}
               />
             </div>
           </div>

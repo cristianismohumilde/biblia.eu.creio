@@ -461,13 +461,12 @@ h1 {
 }
 
 .rob3-mascot {
-  width: 75px;
-  height: 75px;
-  object-fit: contain;
+  display: none;
 }
 
 @media (max-width: 640px) {
   .rob3-mascot {
+    display: block;
     width: 200px;
     height: 200px;
     transform: scaleX(-1);
