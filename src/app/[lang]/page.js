@@ -130,8 +130,8 @@ export default function LangHomePage({ params }) {
                 alt="Rob3"
                 className="rob3-mascot mobile-only"
                 style={{
-                  width: '55px',
-                  height: '55px',
+                  width: '75px',
+                  height: '75px',
                   objectFit: 'contain'
                 }}
               />
