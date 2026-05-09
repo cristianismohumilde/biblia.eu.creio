@@ -444,14 +444,39 @@ h1 {
   box-shadow: 0 10px 18px rgba(204, 154, 88, 0.22);
 }
 
+.academy-action-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
 .lux-mascot {
   width: 150px;
+  opacity: 0.95;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.rob3-mobile {
+  width: 58px;
+  transform: scaleX(-1);
+  margin-right: 0.45rem;
 }
 
 @media (max-width: 640px) {
   .lux-mascot {
     width: 84px;
     bottom: 66% !important;
+  }
+
+  .mobile-only {
+    display: inline-block;
+  }
+
+  .academy-action-wrap {
+    gap: 0.2rem;
   }
 }
 
