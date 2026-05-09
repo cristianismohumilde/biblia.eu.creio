@@ -27,7 +27,9 @@ O projeto utiliza uma combinação de dados em domínio público e curadoria ori
 - **Manuscritos Base:** Codex Vaticanus (B), Sinaiticus (א), Alexandrinus (A)
 
 #### Grego - Novo Testamento
-- **Texto Bizantino** e **SBLGNT** (Society of Biblical Literature Greek New Testament)
+- **Texto base + morfologia:** *MorphGNT: SBLGNT Edition* (James Tauber et al.) — morfologia/lemas **CC-BY-SA 3.0**; texto **SBLGNT** sujeito ao [EULA da SBL](https://sblgnt.com/license/). Pipeline: `fetch_nt_morphgnt.js` + `generator_nt_greek.js`.
+- **Léxico Strong grego (glosas EN):** Open Scriptures — **CC-BY-SA** (`strongs-greek-dictionary.js`).
+- **Nota:** O site também menciona comparação com tradição bizantina (metadados); o interlinear NT gerado pelo pipeline atual usa a camada MorphGNT/SBLGNT conforme os scripts acima.
 
 #### Outros Idiomas
 - **Vulgata (Latim),** Peshitta (Siríaco), Copta, Armênio e Ge'ez.

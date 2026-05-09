@@ -86,7 +86,7 @@ async function callAzureOpenAI(prompt) {
 }
 
 /**
- * Traduz um capítulo inteiro usando lotes de 20 versos.
+ * Traduz um capítulo inteiro em lotes (tamanho definido por BATCH_SIZE).
  * O GPT-4o-mini suporta contextos muito maiores que a Groq Free Tier.
  */
 async function translateChapter(filePath, targetLang = 'pt') {
@@ -211,7 +211,7 @@ async function run() {
 
   console.log(`\n🚀 Iniciando tradução de "${bookCode.toUpperCase()}" (${files.length} capítulos) com Azure OpenAI GPT-4o-mini`);
   console.log(`   Modelo: ${DEPLOYMENT}`);
-  console.log(`   Lotes: 20 versos por requisição\n`);
+  console.log(`   Lotes: até 10 versos por requisição (variável BATCH_SIZE no script)\n`);
 
   for (const file of files) {
     await translateChapter(path.join(VERSES_DIR, file), lang);

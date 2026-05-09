@@ -9,7 +9,9 @@
     "lint": "eslint",
     "test:e2e": "playwright test",
     "test:e2e:headed": "playwright test --headed",
-    "test:e2e:ui": "playwright test --ui"
+    "test:e2e:ui": "playwright test --ui",
+    "pipeline:fetch-morphgnt": "node scripts/pipeline/fetch_nt_morphgnt.js",
+    "pipeline:nt-greek": "node scripts/pipeline/generator_nt_greek.js"
   },
   "dependencies": {
     "next": "^16.2.3",
@@ -20,10 +22,11 @@
     "node": ">=20.9.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
     "@playwright/test": "^1.53.1",
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "^15.1.0",
+    "eslint-config-next": "^16.2.6",
     "tailwindcss": "^4"
   }
 }

@@ -6,7 +6,7 @@
   <h3>🏛️ Manuscritos Antigos | 🔍 Estudo Interlinear | 🚀 Arquitetura Static-First</h3>
 
   [![Deploy Next.js site to Pages](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml)
-  ![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
+  ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
   ![React](https://img.shields.io/badge/React-19-149ECA?logo=react)
   ![Licença: MIT](https://img.shields.io/badge/licenca-MIT-green)
 </div>
@@ -96,6 +96,26 @@ function removeNiqqud(hebrewText) {
 2. Escreva um script (Node.js/Python) que itere por todos os capítulos e versos.
 3. Para cada palavra, aplique o `removeNiqqud()` na propriedade de texto.
 4. Salve o resultado como um grande array de objetos (ou múltiplos arquivos JSON) dentro da pasta de dados do seu novo aplicativo.
+
+## 🤖 Localização assistida por IA (Groq e Gemini)
+
+Para escalar a plataforma a dezenas de idiomas sem digitação manual de dados, há um **pipeline de tradução assistido por IA**. Ele usa modelos de linguagem para gerar traduções literais palavra a palavra, preservando o contexto acadêmico.
+
+- **Groq (Llama 3.1):** lotes pequenos, baixa latência.
+- **Google Gemini (Flash):** alto volume em lote.
+- **Azure OpenAI (GPT-4o-mini):** opção recomendada para custo e limites de uso (compatível com créditos Azure for Students).
+
+**Comandos:**
+```bash
+# Azure OpenAI — recomendado (GPT-4o-mini)
+node scripts/pipeline/ai_translate_azure.js [códigoDoLivro] pt
+
+# Groq — rápido, com rate limits
+node scripts/pipeline/ai_translate_pipeline.js [códigoDoLivro] pt
+
+# Gemini — alto volume (plano gratuito pode ser instável)
+node scripts/pipeline/ai_translate_gemini.js [códigoDoLivro] pt
+```
 
 ## 🔐 Segurança e Configuração de API
 

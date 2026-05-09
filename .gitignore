@@ -23,6 +23,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# downloaded MorphGNT text (run fetch_nt_morphgnt.js)
+scripts/pipeline/raw_data/morphgnt-sblgnt/*.txt
+
 # local env files
 .env*.local
 

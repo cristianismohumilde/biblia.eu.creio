@@ -47,10 +47,18 @@ The pipeline supports multiple Greek textual traditions:
    - Input: `raw_data/GreekResources-master/GreekResources-master/LxxLemmas/*.js`
    - Output: Tokens with `"lang": "greek"` for OT books including deuterocanonicals
 
-#### **Option B: SBL Greek New Testament**
-1. Obtain the **SBLGNT** with morphological tags and Strong's numbers.
-2. Obtain a **Greek Strong's Dictionary** in JSON format.
-3. Create a `greek_pipeline.js` that reads the SBLGNT, maps the `G...` Strong numbers to your dictionary, and outputs the tokens with `"lang": "greek"`.
+#### **Option B: SBL Greek New Testament (implementado neste repositório)**
+1. **MorphGNT** (edição SBLGNT): texto + morfologia por palavra — ver licenças em `scripts/pipeline/raw_data/morphgnt-sblgnt/README.md`.
+2. **Strong grego** em JSON: `scripts/pipeline/raw_data/strongs-master/strongs-master/greek/strongs-greek-dictionary.js` (Open Scriptures).
+
+**Comandos:**
+```bash
+node scripts/pipeline/fetch_nt_morphgnt.js
+node scripts/pipeline/generator_nt_greek.js
+# ou um livro: node scripts/pipeline/generator_nt_greek.js mat
+```
+
+O script grava `sourceTexts.greek`, testemunho `sblgnt` em `greekWitnesses`, tokens `lang: "greek"` e preenche `enLiteralVerse` / glosas EN a partir do Strong onde possível. Use os pipelines `ai_translate_*.js` para português literal por versículo/token.
 
 ---
 
@@ -80,7 +88,7 @@ For high-volume translation of literal verses and individual word tokens, the pi
 **Melhor para**: Tradução em massa de alta qualidade com custo mínimo. Ideal para quem tem créditos Azure for Students.
 - **Modelo**: `gpt-4o-mini` (melhor custo-benefício de todos)
 - **Custo estimado**: ~$0.15/1M tokens → **a Bíblia toda por menos de $2**
-- **Estratégia**: Lotes de 20 versos. Sem os rate limits agressivos do Groq/Gemini gratuito.
+- **Estratégia**: Lotes pequenos (padrão atual no script: 10 versos; ajustável via `BATCH_SIZE`). Sem os rate limits agressivos do Groq/Gemini gratuito.
 - **Pré-requisitos**: Adicionar ao `.env.local`:
   ```env
   AZURE_OPENAI_ENDPOINT=https://SEU-RECURSO.openai.azure.com

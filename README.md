@@ -6,7 +6,7 @@
   <h3>🏛️ Ancient Manuscripts | 🔍 Interlinear Study | 🚀 Static-First Architecture</h3>
 
   [![Deploy Next.js site to Pages](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/cristianismohumilde/biblia.eu.creio/actions/workflows/deploy-pages.yml)
-  ![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
+  ![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
   ![React](https://img.shields.io/badge/React-19-149ECA?logo=react)
   ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 </div>
@@ -108,7 +108,7 @@ To scale the platform to dozens of languages without manual data entry, we imple
 
 **Commands:**
 ```bash
-# Azure OpenAI — Recomendado (GPT-4o-mini, lotes de 20 versos)
+# Azure OpenAI — Recommended (GPT-4o-mini; batch size set in script, typically 10 verses)
 node scripts/pipeline/ai_translate_azure.js [bookCode] pt
 
 # Groq — Rápido mas com rate limits (lotes de 10 versos)
