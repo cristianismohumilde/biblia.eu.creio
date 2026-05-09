@@ -444,6 +444,17 @@ h1 {
   box-shadow: 0 10px 18px rgba(204, 154, 88, 0.22);
 }
 
+.lux-mascot {
+  width: 150px;
+}
+
+@media (max-width: 640px) {
+  .lux-mascot {
+    width: 84px;
+    bottom: 66% !important;
+  }
+}
+
 @keyframes banner-shine {
   0% {
     transform: translateX(-115%);

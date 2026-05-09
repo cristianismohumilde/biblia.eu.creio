@@ -105,14 +105,13 @@ export default function LangHomePage({ params }) {
               <img
                 src="/lux%202.png"
                 alt="Lux 2"
-                className="desktop-only"
+                className="lux-mascot"
                 style={{
                   position: 'absolute',
                   bottom: '60%',
                   left: '50%',
                   transform: 'translateX(-50%)',
                   zIndex: 0,
-                  width: '70px',
                   animation: 'bounce 1.5s infinite ease-in-out',
                   pointerEvents: 'none'
                 }}
