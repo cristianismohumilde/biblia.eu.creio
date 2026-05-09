@@ -460,11 +460,6 @@ h1 {
   display: none;
 }
 
-.rob3-mobile {
-  width: 58px;
-  margin-right: 0.45rem;
-}
-
 @media (max-width: 640px) {
   .lux-mascot {
     width: 84px;
@@ -473,15 +468,6 @@ h1 {
 
   .mobile-only {
     display: inline-block;
-  }
-
-  .academy-action-wrap {
-    gap: 0.2rem;
-  }
-
-  .rob3-mobile {
-    margin-right: 0;
-    margin-left: 0.45rem;
   }
 }
 

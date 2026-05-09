@@ -116,12 +116,6 @@ export default function LangHomePage({ params }) {
                   pointerEvents: 'none'
                 }}
               />
-              <img
-                src="/rob3.png"
-                alt="Rob3"
-                className="rob3-mobile mobile-only"
-                style={{ pointerEvents: 'none' }}
-              />
               <a
                 className="support-cta support-cta--academy"
                 href="https://creio.eu"
