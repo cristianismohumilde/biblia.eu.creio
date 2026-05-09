@@ -461,12 +461,26 @@ h1 {
 }
 
 .rob3-mascot {
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   object-fit: contain;
 }
 
 @media (max-width: 640px) {
+  .rob3-mascot {
+    filter: drop-shadow(0 0 4px rgba(204, 154, 88, 0.6)) drop-shadow(0 0 8px rgba(204, 154, 88, 0.4));
+    animation: rob3-glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes rob3-glow {
+    0% {
+      filter: drop-shadow(0 0 3px rgba(204, 154, 88, 0.5)) drop-shadow(0 0 6px rgba(204, 154, 88, 0.3));
+    }
+    100% {
+      filter: drop-shadow(0 0 6px rgba(204, 154, 88, 0.8)) drop-shadow(0 0 12px rgba(204, 154, 88, 0.5));
+    }
+  }
+
   .academy-action-wrap {
     text-align: center;
     width: 100%;

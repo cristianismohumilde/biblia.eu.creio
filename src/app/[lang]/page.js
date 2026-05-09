@@ -108,8 +108,8 @@ export default function LangHomePage({ params }) {
                 className="lux-mascot desktop-only"
                 style={{
                   position: 'absolute',
-                  bottom: '-50%',
-                  left: '35%',
+                  bottom: '-40%',
+                  left: '28%',
                   transform: 'translateX(-50%)',
                   zIndex: 0,
                   animation: 'bounce 1.5s infinite ease-in-out',
@@ -130,10 +130,9 @@ export default function LangHomePage({ params }) {
                 alt="Rob3"
                 className="rob3-mascot mobile-only"
                 style={{
-                  width: '40px',
-                  height: '40px',
-                  objectFit: 'contain',
-                  animation: 'bounce 1.5s infinite ease-in-out'
+                  width: '55px',
+                  height: '55px',
+                  objectFit: 'contain'
                 }}
               />
             </div>
