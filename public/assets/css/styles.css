@@ -461,6 +461,11 @@ h1 {
 }
 
 @media (max-width: 640px) {
+  .academy-action-wrap {
+    display: block;
+    text-align: center;
+  }
+
   .lux-mascot {
     width: 84px;
     bottom: 66% !important;
