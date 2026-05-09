@@ -478,7 +478,6 @@ h1 {
   .academy-action-wrap {
     gap: 0.2rem;
     flex-direction: row-reverse;
-    justify-content: center;
   }
 
   .rob3-mobile {
