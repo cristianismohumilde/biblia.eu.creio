@@ -468,7 +468,10 @@ h1 {
 
 @media (max-width: 640px) {
   .rob3-mascot {
-    filter: drop-shadow(0 0 4px rgba(204, 154, 88, 0.6)) drop-shadow(0 0 8px rgba(204, 154, 88, 0.4));
+    width: 200px;
+    height: 200px;
+    transform: scaleX(-1);
+    filter: drop-shadow(0 0 8px rgba(204, 154, 88, 0.8)) drop-shadow(0 0 16px rgba(204, 154, 88, 0.6));
     animation: rob3-glow 2s ease-in-out infinite alternate;
   }
 
