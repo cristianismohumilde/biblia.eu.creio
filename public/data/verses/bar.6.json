@@ -1,0 +1,5053 @@
+{
+  "book": "bar",
+  "bookName": "Baruc",
+  "bookNameEn": "Baruch",
+  "chapter": 6,
+  "schemaVersion": "1.1.0",
+  "verses": [
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 1
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 2
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 3
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 4
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 5
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 6
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 7
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 8
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 9
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 10
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 11
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 12
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 13
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 14
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 15
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 16
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 17
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 18
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 19
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 20
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 21
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 22
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 23
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 24
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 25
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 26
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 27
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 28
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 29
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 30
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 31
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 32
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 33
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 34
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 35
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 36
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 37
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 38
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 39
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 40
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 41
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 42
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 43
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 44
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 45
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 46
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 47
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 48
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 49
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 50
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 51
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 52
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 53
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 54
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 55
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 56
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 57
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 58
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 59
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 60
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 61
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 62
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 63
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 64
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 65
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 66
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 67
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 68
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 69
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 70
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 71
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 72
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ref": {
+        "book": "bar",
+        "chapter": 6,
+        "verse": 73
+      },
+      "translation": {
+        "author": "Equipe Biblia.Creio.EU (tradução literal em curadoria)",
+        "authorEn": "Biblia.Creio.EU Team (literal translation under curation)",
+        "baseText": "Base principal da Septuaginta (LXX)",
+        "baseTextEn": "Primary Septuagint (LXX) base"
+      },
+      "manuscripts": {
+        "hebrew": "Hebraico: Texto não preservado no TM, presente na LXX",
+        "hebrewEn": "Hebrew: Text not preserved in MT, present in LXX",
+        "aramaic": "Aramaico: Não aplicável",
+        "aramaicEn": "Aramaic: Not applicable",
+        "greek": "Grego: Septuaginta (LXX), tradição alexandrina",
+        "greekEn": "Greek: Septuagint (LXX), Alexandrian tradition",
+        "latin": "Latim: Vulgata (Vg)",
+        "latinEn": "Latin: Vulgate (Vg)",
+        "syriac": "Siríaco: Peshitta (SyrP)",
+        "syriacEn": "Syriac: Peshitta (SyrP)"
+      },
+      "sourceTexts": {
+        "greek": "",
+        "latin": "",
+        "syriac": ""
+      },
+      "literalTranslations": [
+        {
+          "lang": "greek",
+          "pt": "",
+          "en": ""
+        }
+      ],
+      "ptLiteralVerse": "",
+      "enLiteralVerse": "",
+      "greekWitnesses": [
+        {
+          "id": "lxx",
+          "label": "Septuaginta (LXX)",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "latinWitnesses": [
+        {
+          "id": "vulgate",
+          "label": "Vulgata",
+          "text": "",
+          "transliteration": "",
+          "literalPt": "",
+          "literalEn": ""
+        }
+      ],
+      "tokens": [],
+      "interlinearStats": {
+        "totalTokens": 0,
+        "hebrewTokens": 0,
+        "aramaicTokens": 0,
+        "greekTokens": 0,
+        "latinTokens": 0,
+        "uniqueLemmas": 0
+      }
+    }
+  ],
+  "chapterStats": {
+    "totalVerses": 73,
+    "totalTokens": 0,
+    "hebrewTokens": 0,
+    "greekTokens": 0,
+    "latinTokens": 0
+  }
+}

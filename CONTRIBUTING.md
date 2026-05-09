@@ -12,6 +12,7 @@ This repository prioritizes static publishing stability, cross-language consiste
 - Do not break public routes or files required by static deploy.
 - Keep PT and EN behavior aligned when changing UI.
 - Handle biblical data with rigor and source traceability.
+- **Data Sources:** When adding new manuscript data (e.g., Greek LXX, Hebrew, Aramaic), use only open academic sources (like CATSS, OpenScriptures) and document the provenance in `SOURCES-LICENSES.md`.
 
 ## Recommended workflow
 

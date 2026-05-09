@@ -19,7 +19,7 @@
 
 Biblia.Creio.EU provides a complete, academia-grade interlinear experience:
 
-- **💎 Ancient Manuscript Witnesses:** Hebrew, Aramaic, Greek, Latin, Ge'ez, Syriac, Coptic, and Armenian.
+- **💎 Ancient Manuscript Witnesses:** Hebrew (Leningradensis), Aramaic (Targums), **Greek (Septuaginta - CATSS/Penn State)**, Latin (Vulgate), Ge'ez, Syriac (Peshitta), Coptic, and Armenian.
 - **✍️ Curation-based Literal Translation:** Word-for-word literal translations developed for structural fidelity.
 - **📚 Multi-Language Lexicons:** Comprehensive support for **Strong (Hebrew/Greek)**, **Jastrow (Aramaic)**, **Dillmann (Ge'ez)**, **LSJ**, **L&S**, and more.
 - **⚖️ Multi-traditional Comparison:** Simultaneous analysis across key linguistic witnesses of biblical history.
@@ -39,7 +39,7 @@ This project is a pillar of **Open Data**. We ensure absolute legal safety for c
 
 - **📖 Token-Level Interlinear:** Surface text, transliteration, lemma, morphology, and lexical references.
 - **🔊 High-Fidelity Neural Audio:** Professional-grade audio for original manuscripts and literal translations via **Azure Neural TTS** (supports Hebrew, Greek, and more).
-- **🔄 Witness Comparison:** Compare different manuscripts (Leningradensis, LXX, Vulgate, etc.) per verse.
+- **🔄 Witness Comparison:** Compare different manuscripts (Leningradensis, **Septuaginta LXX**, Vulgate, etc.) per verse.
 - **📍 Dynamic Navigation:** Instant verse-by-verse navigation across all study views.
 - **✨ News & Updates:** Integrated animated updates tracker for platform evolution.
 - **🔍 Real-time Filtering:** Search and filter tokens in interlinear tables instantly.
@@ -92,7 +92,7 @@ function removeNiqqud(hebrewText) {
 ```
 
 **How to adapt it for your App:**
-1. Download a raw database (e.g., Westminster Leningrad Codex XML).
+1. Download a raw database (e.g., Westminster Leningrad Codex XML for Hebrew, or CATSS GreekResources for LXX).
 2. Write a script (Node.js/Python) that iterates through all chapters and verses.
 3. For each word, apply `removeNiqqud()` to the surface text property.
 4. Save the result as a large array of objects (or multiple JSON files) inside your new application's data folder.

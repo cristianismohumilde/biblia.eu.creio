@@ -19,7 +19,7 @@ O **Biblia.Creio.EU** é um projeto open source de estudo bíblico interlinear d
 
 O Biblia.Creio.EU oferece uma experiência completa de estudo interlinear:
 
-- **💎 Testemunhos de Manuscritos Antigos:** Hebraico, Aramaico, Grego, Latim, Ge'ez, Siríaco, Copta e Armênio.
+- **💎 Testemunhos de Manuscritos Antigos:** Hebraico (Leningradensis), Aramaico (Targuns), **Grego (Septuaginta - CATSS/Penn State)**, Latim (Vulgata), Ge'ez, Siríaco (Peshitta), Copta e Armênio.
 - **✍️ Tradução Literal Curada:** Versão literal por verso e palavra-por-palavra desenvolvida para fidelidade estrutural.
 - **📚 Léxicos Multilinguagem:** Suporte abrangente a **Strong (Hebraico/Grego)**, **Jastrow (Aramaico)**, **Dillmann (Ge'ez)**, **LSJ**, **L&S** e mais.
 - **⚖️ Comparativo Multitradicional:** Análise simultânea entre os principais testemunhos linguísticos da história bíblica.
@@ -39,7 +39,7 @@ Este projeto é construído sobre o pilar dos **Dados Abertos (Open Data)**. Gar
 
 - **📖 Interlinear por Token:** Texto de superfície, transliteração, lema, morfologia e referências lexicais.
 - **🔊 Áudio Neural de Alta Fidelidade:** Áudio de nível profissional para manuscritos e traduções via **Azure Neural TTS** (Hebraico, Grego e mais).
-- **🔄 Comparação de Testemunhos:** Compare diferentes manuscritos (Leningradensis, LXX, Vulgata, etc.) por verso.
+- **🔄 Comparação de Testemunhos:** Compare diferentes manuscritos (Leningradensis, **Septuaginta LXX**, Vulgata, etc.) por verso.
 - **📍 Navegação Dinâmica:** Navegação instantânea verso a verso em todas as visualizações.
 - **✨ Novidades e Atualizações:** Sistema integrado e animado de acompanhamento da evolução da plataforma.
 - **🔍 Filtros em Tempo Real:** Busque e filtre tokens nas tabelas interlineares instantaneamente.

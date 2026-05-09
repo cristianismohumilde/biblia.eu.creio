@@ -102,6 +102,48 @@
     "chapters": 10
   },
   {
+    "code": "1ma",
+    "name": "1 Macabeus",
+    "nameEn": "1 Maccabees",
+    "chapters": 16
+  },
+  {
+    "code": "2ma",
+    "name": "2 Macabeus",
+    "nameEn": "2 Maccabees",
+    "chapters": 15
+  },
+  {
+    "code": "3ma",
+    "name": "3 Macabeus",
+    "nameEn": "3 Maccabees",
+    "chapters": 7
+  },
+  {
+    "code": "4ma",
+    "name": "4 Macabeus",
+    "nameEn": "4 Maccabees",
+    "chapters": 18
+  },
+  {
+    "code": "1es",
+    "name": "1 Esdras",
+    "nameEn": "1 Esdras",
+    "chapters": 9
+  },
+  {
+    "code": "tob",
+    "name": "Tobias",
+    "nameEn": "Tobit",
+    "chapters": 14
+  },
+  {
+    "code": "jdt",
+    "name": "Judite",
+    "nameEn": "Judith",
+    "chapters": 16
+  },
+  {
     "code": "job",
     "name": "Jó",
     "nameEn": "Job",
@@ -132,6 +174,18 @@
     "chapters": 8
   },
   {
+    "code": "wis",
+    "name": "Sabedoria",
+    "nameEn": "Wisdom of Solomon",
+    "chapters": 19
+  },
+  {
+    "code": "sir",
+    "name": "Eclesiástico",
+    "nameEn": "Sirach (Ecclesiasticus)",
+    "chapters": 51
+  },
+  {
     "code": "isa",
     "name": "Isaías",
     "nameEn": "Isaiah",
@@ -148,6 +202,42 @@
     "name": "Lamentações",
     "nameEn": "Lamentations",
     "chapters": 5
+  },
+  {
+    "code": "bar",
+    "name": "Baruc",
+    "nameEn": "Baruch",
+    "chapters": 6
+  },
+  {
+    "code": "epj",
+    "name": "Epístola de Jeremias",
+    "nameEn": "Letter of Jeremiah",
+    "chapters": 1
+  },
+  {
+    "code": "sus",
+    "name": "Susana",
+    "nameEn": "Susanna",
+    "chapters": 1
+  },
+  {
+    "code": "bel",
+    "name": "Bel e o Dragão",
+    "nameEn": "Bel and the Dragon",
+    "chapters": 1
+  },
+  {
+    "code": "man",
+    "name": "Oração de Manassés",
+    "nameEn": "Prayer of Manasseh",
+    "chapters": 1
+  },
+  {
+    "code": "2es",
+    "name": "2 Esdras",
+    "nameEn": "2 Esdras",
+    "chapters": 16
   },
   {
     "code": "ezk",
@@ -232,6 +322,24 @@
     "name": "Malaquias",
     "nameEn": "Malachi",
     "chapters": 3
+  },
+  {
+    "code": "pss",
+    "name": "Salmos de Salomão",
+    "nameEn": "Psalms of Solomon",
+    "chapters": 18
+  },
+  {
+    "code": "ode",
+    "name": "Odes/Cânticos",
+    "nameEn": "Odes of Solomon",
+    "chapters": 14
+  },
+  {
+    "code": "ps2",
+    "name": "Salmo 151",
+    "nameEn": "Psalm 151",
+    "chapters": 1
   },
   {
     "code": "mat",

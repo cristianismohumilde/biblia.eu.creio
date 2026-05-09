@@ -8,10 +8,11 @@ Este repositório prioriza estabilidade de publicação estática, consistência
 
 ## Princípios
 
-- Preserve a estabilidade do site em produção.
-- Não quebre rotas públicas nem arquivos usados pelo deploy estático.
-- Mantenha consistência entre PT e EN quando a mudança for de interface.
-- Trate dados bíblicos com rigor e rastreabilidade de fontes.
+- Preservar a estabilidade do site em produção.
+- Não quebrar rotas públicas ou arquivos necessários ao deploy estático.
+- Manter comportamento PT e EN alinhado ao alterar UI.
+- Lidar com dados bíblicos com rigor e rastreabilidade de fontes.
+- **Fontes de Dados:** Ao adicionar novos dados de manuscritos (ex: LXX Grego, Hebraico, Aramaico), use apenas fontes acadêmicas abertas (como CATSS, OpenScriptures) e documente a proveniência no `SOURCES-LICENSES.md`.
 
 ## Fluxo recomendado
 

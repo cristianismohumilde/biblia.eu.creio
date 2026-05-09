@@ -35,8 +35,20 @@ The Master Script (`scripts/pipeline/generator.js`) performs the following steps
 
 ### 🛠️ Adding a New Language (Example: Greek)
 
-To add Greek to the pipeline:
-1. Obtain the **SBL Greek New Testament** with morphological tags and Strong's numbers.
+The pipeline supports multiple Greek textual traditions:
+
+#### **Option A: Septuaginta (LXX) - Old Testament Greek**
+1. **Source:** CATSS (Computer Assisted Tools for Septuagint Studies) / Penn State University
+   - Repository: https://github.com/CATSS
+   - Dataset: GreekResources LXX Lemmas
+   - License: Open Source academic (free for research)
+2. **Pipeline:** Use `generator_lxx.js` (already implemented)
+   - Location: `scripts/pipeline/generator_lxx.js`
+   - Input: `raw_data/GreekResources-master/GreekResources-master/LxxLemmas/*.js`
+   - Output: Tokens with `"lang": "greek"` for OT books including deuterocanonicals
+
+#### **Option B: SBL Greek New Testament**
+1. Obtain the **SBLGNT** with morphological tags and Strong's numbers.
 2. Obtain a **Greek Strong's Dictionary** in JSON format.
 3. Create a `greek_pipeline.js` that reads the SBLGNT, maps the `G...` Strong numbers to your dictionary, and outputs the tokens with `"lang": "greek"`.
 

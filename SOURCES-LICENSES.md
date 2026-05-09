@@ -13,10 +13,27 @@ Este projeto deixou de ser um MVP técnico e agora é a versão completa em expa
 O projeto utiliza uma combinação de dados em domínio público e curadoria original. Abaixo, o detalhamento por componente das tabelas interlineares:
 
 ### 1. Textos Fonte (Manuscritos)
-- **Hebraico:** Codex Leningradensis (B19A). Fonte digital: TanakhML (OSIS XML Project) - Domínio Público.
-- **Grego:** Septuaginta (LXX) e Texto Bizantino.
-- **Outros:** Vulgata (Latim), Peshitta (Siríaco), Copta, Armênio e Ge'ez.
-- **Status:** **Domínio Público.** As transcrições digitais utilizadas são baseadas em fontes abertas (como *Open Scriptures* e projetos acadêmicos de acesso livre).
+
+#### Hebraico
+- **Codex Leningradensis (B19A).** Fonte digital: TanakhML (OSIS XML Project) - Domínio Público.
+
+#### Grego - Septuaginta (LXX)
+- **Fonte Principal:** CATSS (Computer Assisted Tools for Septuagint Studies) / Penn State University
+- **Dataset:** GreekResources LXX Lemmas
+- **Localização:** `scripts/pipeline/raw_data/GreekResources-master/`
+- **URL:** https://github.com/CATSS
+- **Licença:** Acadêmica/Open Source (uso permitido para pesquisa e projetos open source)
+- **Conteúdo:** Texto grego, lemas, parsing morfológico para toda a Septuaginta incluindo deuterocanônicos
+- **Manuscritos Base:** Codex Vaticanus (B), Sinaiticus (א), Alexandrinus (A)
+
+#### Grego - Novo Testamento
+- **Texto Bizantino** e **SBLGNT** (Society of Biblical Literature Greek New Testament)
+
+#### Outros Idiomas
+- **Vulgata (Latim),** Peshitta (Siríaco), Copta, Armênio e Ge'ez.
+
+#### Status Geral
+- **Domínio Público.** As transcrições digitais utilizadas são baseadas em fontes abertas (como *Open Scriptures*, *CATSS* e projetos acadêmicos de acesso livre).
   - *Nota Histórica:* O B19A é utilizado por sua integridade. Pesquisas comparativas demonstram que ele é praticamente idêntico ao Códice de Aleppo e aos Manuscritos do Mar Morto (DSS), confirmando uma preservação textual de extrema fidelidade ao longo de mais de mil anos.
 
 ### 2. Dados Linguísticos Técnicos
