@@ -108,7 +108,7 @@ export default function LangHomePage({ params }) {
                 className="lux-mascot desktop-only"
                 style={{
                   position: 'absolute',
-                  bottom: '60%',
+                  bottom: '-30%',
                   left: '50%',
                   transform: 'translateX(-50%)',
                   zIndex: 0,
