@@ -1,0 +1,39 @@
+Data License - Biblia.Creio.EU
+[Leia em português](LICENSE-DATA)
+
+This file defines the usage rules for the textual data in this repository.
+
+1. Scope
+- This license exclusively covers data in folders such as data/ and files derived from textual sources.
+- The project's source code remains under the MIT license (see LICENSE file).
+
+2. General Rule
+- No data shall be published without verification of usage rights from the original source.
+- Each dataset must include origin and license metadata in its own file.
+
+3. Permitted Use
+- Use, study, and redistribution are only permitted when the original source authorizes.
+- Modifications are permitted when compatible with the original source's license.
+
+4. Prohibited Use
+- Publishing, redistributing, or commercializing datasets without a valid license from the source.
+- Removing or hiding attributions required by the origin license.
+
+5. Attribution and Provenance
+- Each new dataset must record:
+  - source name
+  - official source URL
+  - license type
+  - collection date
+  - transformations applied
+
+6. Responsibility
+- The maintainer and contributors are responsible for verifying legal compliance before each publication.
+- Data without proven license must be removed from the repository.
+
+7. Supremacy of Original License
+- In case of conflict, the terms of the original data source's license prevail.
+
+8. Version
+- Version of this document: 1.0.0
+- Date: 2026-04-17

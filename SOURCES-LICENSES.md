@@ -1,5 +1,7 @@
 # SOURCES-LICENSES
 
+[Read in English](SOURCES-LICENSES.en.md)
+
 Status de verificação de fontes e licenças de dados textuais do projeto.
 
 Data desta última revisão: 2026-04-25
