@@ -60,7 +60,7 @@ export default async function IdiomasBiblicosPage({ params }) {
   const activeContent = content[lang] || content.pt;
 
   const navLinks = [
-    { href: `/${lang}/`, label: t.back },
+    { href: `/${lang}/`, label: t.backToHome },
     { href: `/${lang}/idiomas-biblicos`, label: t.biblicalLanguages, className: "nav-spotlight" },
     { href: `/${lang}/fontes`, label: t.sources }
   ];

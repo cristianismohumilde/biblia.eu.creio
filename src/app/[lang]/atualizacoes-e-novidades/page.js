@@ -92,7 +92,7 @@ export default async function UpdatesPage({ params }) {
         t={t}
         eyebrow="Biblia.Creio.EU"
         title={active.title}
-        links={[{ href: `/${lang}/`, label: t.back || "Voltar" }]}
+        links={[{ href: `/${lang}/`, label: t.backToHome }]}
       />
 
       {active.articles.map((article, idx) => (

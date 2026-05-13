@@ -5,8 +5,7 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { translations } from "@/app/translations";
 import ReferenceSelector from "./ReferenceSelector";
-import ThemeToggle from "./ThemeToggle";
-import LanguageSwitcher from "./LanguageSwitcher";
+import SiteHeader from "./SiteHeader";
 import { handleSpeak } from "@/app/utils/audio";
 
 const manuscriptLabels = {
@@ -202,22 +201,22 @@ function InterlinearContent({ lang, manuscript, initialBook, initialChapter, ini
     return t.lexiconStrong;
   })();
 
+  const navLinks = [
+    { href: `/${lang}/`, label: t.backToHome },
+    { href: `/${lang}/atualizacoes-e-novidades`, className: "nav-updates", label: t.updates },
+    { href: `/${lang}/fontes`, label: t.sources }
+  ];
+
   return (
     <>
-      <header className="site-header">
-        <div>
-          <p className="brand-eyebrow">{manuscriptLabels[lang][manuscript] || manuscript.toUpperCase()}</p>
-          <h1>{t.interlinearTitle}</h1>
-          <p className="subtitle">{t.interlinearSubtitle}</p>
-        </div>
-        <nav className="quick-nav">
-          <Link href={`/${lang}/`}>{t.backToIndex}</Link>
-          <Link href={`/${lang}/atualizacoes-e-novidades`} className="nav-updates">{t.updates}</Link>
-          <Link href={`/${lang}/fontes`}>{t.sources}</Link>
-          <LanguageSwitcher lang={lang} />
-          <ThemeToggle t={t} />
-        </nav>
-      </header>
+      <SiteHeader 
+        lang={lang}
+        t={t}
+        eyebrow={manuscriptLabels[lang][manuscript] || manuscript.toUpperCase()}
+        title={t.interlinearTitle}
+        subtitle={t.interlinearSubtitle}
+        links={navLinks}
+      />
 
       <div className="layout">
         <ReferenceSelector lang={lang} t={t} isInterlinear manuscript={manuscript} initialBook={book} initialChapter={chapter} initialVerse={verse} />
