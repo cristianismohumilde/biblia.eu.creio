@@ -115,13 +115,17 @@ h1 {
 
 .quick-nav {
   display: none;
-  width: 100%;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 260px;
+  max-width: calc(100vw - 2rem);
   flex-direction: column;
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 1rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   box-shadow: var(--shadow);
   z-index: 100;
   gap: 0.5rem;
