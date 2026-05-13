@@ -94,8 +94,9 @@ export const translations = {
     manuscriptSource: "Manuscrito/Fonte",
     notInformedMsg: "não informado",
     updates: "Novidades",
-
-
+    ot: "Antigo Testamento",
+    dc: "Deuterocanônicos",
+    nt: "Novo Testamento"
   },
   en: {
     title: "Biblia.Creio.EU | Interlinear",
@@ -190,7 +191,8 @@ export const translations = {
     manuscriptSource: "Manuscript/Source",
     notInformedMsg: "not informed",
     updates: "Updates",
-
-
+    ot: "Old Testament",
+    dc: "Deuterocanonicals",
+    nt: "New Testament"
   }
 };

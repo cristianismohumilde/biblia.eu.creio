@@ -3,6 +3,9 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
+const otCodes = ['gen', 'exo', 'lev', 'num', 'deu', 'jos', 'jdg', 'rut', '1sa', '2sa', '1ki', '2ki', '1ch', '2ch', 'ezr', 'neh', 'est', 'job', 'psa', 'pro', 'ecc', 'sng', 'isa', 'jer', 'lam', 'ezk', 'dan', 'hos', 'jol', 'amo', 'oba', 'jon', 'mic', 'nah', 'hab', 'zph', 'hag', 'zec', 'mal'];
+const ntCodes = ['mat', 'mrk', 'luk', 'jhn', 'act', 'rom', '1co', '2co', 'gal', 'eph', 'php', 'col', '1th', '2th', '1ti', '2ti', 'tit', 'phm', 'heb', 'jas', '1pe', '2pe', '1jn', '2jn', '3jn', 'jud', 'rev'];
+
 export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, onSelect, initialBook, initialChapter, initialVerse }) {
   const [books, setBooks] = useState([]);
   const [selectedBook, setSelectedBook] = useState(initialBook || "");
@@ -85,6 +88,10 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
     }
   };
 
+  const otBooks = books.filter(b => otCodes.includes(b.code));
+  const ntBooks = books.filter(b => ntCodes.includes(b.code));
+  const dcBooks = books.filter(b => !otCodes.includes(b.code) && !ntCodes.includes(b.code));
+
   return (
     <section className="card controls" aria-labelledby="controles-titulo">
       <h2 id="controles-titulo">{t.selectReference}</h2>
@@ -92,11 +99,33 @@ export default function ReferenceSelector({ lang, t, isInterlinear, manuscript, 
         <label>
           {t.book}
           <select value={selectedBook} onChange={handleBookChange} name="book">
-            {books.map((b) => (
-              <option key={b.code} value={b.code}>
-                {lang === 'pt' ? b.name : b.nameEn}
-              </option>
-            ))}
+            {otBooks.length > 0 && (
+              <optgroup label={t.ot}>
+                {otBooks.map((b) => (
+                  <option key={b.code} value={b.code}>
+                    {lang === 'pt' ? b.name : b.nameEn}
+                  </option>
+                ))}
+              </optgroup>
+            )}
+            {dcBooks.length > 0 && (
+              <optgroup label={t.dc}>
+                {dcBooks.map((b) => (
+                  <option key={b.code} value={b.code}>
+                    {lang === 'pt' ? b.name : b.nameEn}
+                  </option>
+                ))}
+              </optgroup>
+            )}
+            {ntBooks.length > 0 && (
+              <optgroup label={t.nt}>
+                {ntBooks.map((b) => (
+                  <option key={b.code} value={b.code}>
+                    {lang === 'pt' ? b.name : b.nameEn}
+                  </option>
+                ))}
+              </optgroup>
+            )}
           </select>
         </label>
         <label>
