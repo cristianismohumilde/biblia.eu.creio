@@ -69,19 +69,13 @@ body {
 
 .site-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   gap: 1.5rem;
-  padding: 2rem 0 1.5rem;
+  padding: 1.6rem 0 1rem;
   animation: reveal 550ms ease;
-}
-
-@media (min-width: 1024px) {
-  .site-header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 2.4rem 0 1.2rem;
-  }
 }
 
 @keyframes reveal {
@@ -120,22 +114,38 @@ h1 {
 }
 
 .quick-nav {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: none;
   width: 100%;
+  flex-direction: column;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: var(--shadow);
+  z-index: 100;
+  gap: 0.5rem;
+  animation: revealDown 0.3s ease;
 }
 
-@media (min-width: 1024px) {
-  .quick-nav {
-    width: auto;
-    justify-content: flex-end;
-    gap: 0.65rem;
-  }
+.quick-nav.mobile-open {
+  display: flex;
 }
 
-.quick-nav a,
+.quick-nav a {
+  text-decoration: none;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
+  padding: 0.8rem;
+  font-size: 0.88rem;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  width: 100%;
+  text-align: center;
+}
+
 .theme-toggle {
   text-decoration: none;
   color: var(--ink);
@@ -162,6 +172,7 @@ h1 {
     0 10px 20px rgba(59, 39, 20, 0.22);
   transform: translateY(-1px);
   animation: nav-spotlight-glow 4s ease-in-out infinite;
+  width: 100%;
 }
 
 .quick-nav .nav-spotlight:hover {
@@ -1053,46 +1064,9 @@ th {
     width: min(1100px, calc(100% - 1.9rem));
   }
 
-  .site-header {
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1.6rem 0 1rem;
-  }
-
   .header-brand {
     flex: 1;
     min-width: 200px;
-  }
-
-  .quick-nav {
-    display: none;
-    width: 100%;
-    flex-direction: column;
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: 1rem;
-    margin-top: 1rem;
-    box-shadow: var(--shadow);
-    z-index: 100;
-    animation: revealDown 0.3s ease;
-  }
-
-  .quick-nav.mobile-open {
-    display: flex;
-  }
-
-  .quick-nav a {
-    width: 100%;
-    text-align: center;
-    padding: 0.8rem;
-    border-radius: 8px;
-  }
-
-  .quick-nav .nav-spotlight {
-    width: 100%;
   }
 
   .controls form {
@@ -1149,7 +1123,7 @@ th {
 
 /* --- Hamburger Icon --- */
 .hamburger {
-  display: none;
+  display: flex;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -1218,11 +1192,6 @@ th {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-@media (max-width: 860px) {
-  .hamburger {
-    display: flex;
-  }
-}
 
 @keyframes revealDown {
   from {

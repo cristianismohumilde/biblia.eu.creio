@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { translations } from "../../translations";
-import ThemeToggle from "../../components/ThemeToggle";
-import LanguageSwitcher from "../../components/LanguageSwitcher";
+import SiteHeader from "../../components/SiteHeader";
 
 export async function generateStaticParams() {
   return [{ lang: "pt" }, { lang: "en" }];
@@ -88,17 +87,13 @@ export default async function UpdatesPage({ params }) {
 
   return (
     <div className="updates-container">
-      <header className="site-header" style={{ marginBottom: '3rem' }}>
-        <div>
-          <p className="brand-eyebrow">Biblia.Creio.EU</p>
-          <h1>{active.title}</h1>
-        </div>
-        <nav className="quick-nav">
-          <Link href={`/${lang}/`}>{t.back || "Voltar"}</Link>
-          <LanguageSwitcher lang={lang} />
-          <ThemeToggle t={t} />
-        </nav>
-      </header>
+      <SiteHeader 
+        lang={lang}
+        t={t}
+        eyebrow="Biblia.Creio.EU"
+        title={active.title}
+        links={[{ href: `/${lang}/`, label: t.back || "Voltar" }]}
+      />
 
       {active.articles.map((article, idx) => (
         <article key={idx} className="update-card" style={{ marginBottom: '2rem' }}>
