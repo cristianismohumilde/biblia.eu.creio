@@ -35,6 +35,43 @@ Este projeto é construído sobre o pilar dos **Dados Abertos (Open Data)**. Gar
 > [!IMPORTANT]
 > Para detalhes completos e lista de obras, consulte o [SOURCES-LICENSES.md](SOURCES-LICENSES.md) e a [Página de Fontes](https://cristianismohumilde.github.io/biblia.eu.creio/pt/fontes).
 
+## 🛡️ Princípios Globais de Privacidade e Proteção de Dados
+
+Este projeto segue princípios amplamente aceitos por legislações internacionais de privacidade, incluindo LGPD (Brasil), GDPR (União Europeia), CCPA (Califórnia), PIPEDA (Canadá), PDPA (Singapura) e outras normas globais de proteção de dados.
+
+📌 **1. Minimização de Dados**
+Coletamos apenas os dados estritamente necessários para o funcionamento do serviço. Nenhuma informação é solicitada sem propósito legítimo, claro e documentado.
+
+📌 **2. Transparência**
+Todas as práticas de coleta, uso, armazenamento e compartilhamento de dados são descritas de forma clara e acessível em nossa [Política de Privacidade](https://cristianismohumilde.github.io/biblia.eu.creio/pt/privacidade). O usuário sempre sabe quais dados são coletados, por quê e por quanto tempo.
+
+📌 **3. Consentimento Claro e Informado**
+Antes de coletar dados pessoais ou cookies não essenciais, o usuário recebe explicação do propósito, opção de aceitar ou recusar, e a possibilidade de alterar o consentimento a qualquer momento. O consentimento nunca é presumido.
+
+📌 **4. Direitos do Usuário**
+Garantimos mecanismos para que qualquer usuário possa acessar seus dados, corrigir informações, solicitar exclusão, solicitar portabilidade, revogar consentimento e obter informações sobre o tratamento de forma simples e sem burocracia.
+
+📌 **5. Segurança e Proteção**
+Aplicamos medidas técnicas e organizacionais para proteger dados contra acesso não autorizado, vazamentos, alterações indevidas, perda ou destruição (incluindo criptografia, controle de acesso e monitoramento contínuo).
+
+📌 **6. Finalidade Específica**
+Dados são usados somente para finalidades legítimas e previamente informadas. Não utilizamos dados para fins incompatíveis com o motivo original da coleta.
+
+📌 **7. Limitação de Armazenamento**
+Os dados são mantidos apenas pelo tempo necessário para cumprir a finalidade informada ou obrigações legais. Após esse período, são anonimizados ou excluídos de forma segura.
+
+📌 **8. Compartilhamento Responsável**
+Quando necessário, dados podem ser compartilhados com parceiros ou prestadores de serviço, sempre sob contrato, garantindo confidencialidade, segurança e uso limitado à finalidade contratada. **Nunca vendemos dados pessoais.**
+
+📌 **9. Acesso e Controle Interno**
+Somente pessoas autorizadas têm acesso aos dados, seguindo o princípio de menor privilégio. Treinamentos e políticas internas reforçam o uso ético e seguro das informações.
+
+📌 **10. Notificação de Incidentes**
+Em caso de incidente de segurança relevante, os usuários e autoridades competentes serão notificados dentro dos prazos exigidos pelas legislações aplicáveis.
+
+📌 **11. Avaliações e Conformidade Contínua**
+Revisamos periodicamente nossas práticas de privacidade para garantir conformidade com leis emergentes e padrões internacionais. Atualizações são comunicadas de forma transparente.
+
 ## ⚡ Capacidades Principais
 
 - **📖 Interlinear por Token:** Texto de superfície, transliteração, lema, morfologia e referências lexicais.

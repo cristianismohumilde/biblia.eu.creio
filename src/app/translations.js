@@ -97,7 +97,10 @@ export const translations = {
     updates: "Novidades",
     ot: "Antigo Testamento",
     dc: "Deuterocanônicos",
-    nt: "Novo Testamento"
+    nt: "Novo Testamento",
+    privacyPolicy: "Política de Privacidade",
+    cookieNotice: "Aviso de Cookies",
+    privacyPrinciples: "Princípios de Privacidade"
   },
   en: {
     title: "Biblia.Creio.EU | Interlinear",
@@ -195,6 +198,9 @@ export const translations = {
     updates: "Updates",
     ot: "Old Testament",
     dc: "Deuterocanonicals",
-    nt: "New Testament"
+    nt: "New Testament",
+    privacyPolicy: "Privacy Policy",
+    cookieNotice: "Cookie Notice",
+    privacyPrinciples: "Privacy Principles"
   }
 };

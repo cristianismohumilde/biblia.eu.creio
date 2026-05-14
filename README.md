@@ -35,6 +35,43 @@ This project is a pillar of **Open Data**. We ensure absolute legal safety for c
 > [!IMPORTANT]
 > For full details and a list of works, see [SOURCES-LICENSES.md](SOURCES-LICENSES.md) and the [Sources Page](https://cristianismohumilde.github.io/biblia.eu.creio/en/fontes).
 
+## 🛡️ Global Privacy and Data Protection Principles
+
+This project follows principles widely accepted by international privacy legislation, including GDPR (European Union), LGPD (Brazil), CCPA (California), PIPEDA (Canada), PDPA (Singapore), and other global data protection standards.
+
+📌 **1. Data Minimization**
+We collect only the data strictly necessary for the service to function. No information is requested without a legitimate, clear, and documented purpose.
+
+📌 **2. Transparency**
+All data collection, use, storage, and sharing practices are described clearly and accessibly in our [Privacy Policy](https://cristianismohumilde.github.io/biblia.eu.creio/en/privacidade). The user always knows what data is collected, why, and for how long.
+
+📌 **3. Clear and Informed Consent**
+Before collecting personal data or non-essential cookies, the user receives an explanation of the purpose, the option to accept or decline, and the ability to change consent at any time. Consent is never presumed.
+
+📌 **4. User Rights**
+We guarantee mechanisms for any user to access their data, correct information, request deletion, request portability, revoke consent, and obtain information about data processing simply and without bureaucracy.
+
+📌 **5. Security and Protection**
+We apply technical and organizational measures to protect data against unauthorized access, leaks, improper alterations, loss, or destruction (including encryption, access control, and continuous monitoring).
+
+📌 **6. Specific Purpose**
+Data is used only for legitimate and previously informed purposes. We do not use data for purposes incompatible with the original reason for collection.
+
+📌 **7. Storage Limitation**
+Data is kept only for the time necessary to fulfill the informed purpose or legal obligations. After this period, it is securely anonymized or deleted.
+
+📌 **8. Responsible Sharing**
+When necessary, data may be shared with partners or service providers, always under contract, guaranteeing confidentiality, security, and use limited to the contracted purpose. **We never sell personal data.**
+
+📌 **9. Access and Internal Control**
+Only authorized persons have access to the data, following the principle of least privilege. Training and internal policies reinforce the ethical and secure use of information.
+
+📌 **10. Incident Notification**
+In the event of a relevant security incident, users and competent authorities will be notified within the deadlines required by applicable legislation.
+
+📌 **11. Continuous Evaluations and Compliance**
+We periodically review our privacy practices to ensure compliance with emerging laws and international standards. Updates are communicated transparently.
+
 ## ⚡ Core Capabilities
 
 - **📖 Token-Level Interlinear:** Surface text, transliteration, lemma, morphology, and lexical references.
