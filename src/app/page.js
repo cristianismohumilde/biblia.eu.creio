@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import "./welcome.css";
+import CookieConsentBanner from "./components/CookieConsentBanner";
 
 export default function RootPage() {
   const [text, setText] = useState("");
@@ -66,6 +67,9 @@ export default function RootPage() {
           <a href={next}>{manual}</a>
         </p>
       </section>
+      
+      {/* Exibe o banner já na tela de boas-vindas usando o idioma detectado */}
+      {next && <CookieConsentBanner lang={next.replace(/\//g, "") || "pt"} />}
     </main>
   );
 }

@@ -33,6 +33,10 @@ export default async function LangLayout({ children, params }) {
           {t.licenses} | <Link href={`/${lang}/fontes`}>{t.sources}</Link> | <a href={`/${lang}/#apoie`} style={{ color: '#ef4444', fontWeight: 'bold', textDecoration: 'none' }}>❤️ {t.support}</a>
         </p>
         <p style={{ fontSize: '0.82rem', marginTop: '0.5rem', opacity: 0.75 }}>
+          <Link href={`/${lang}/termos`} style={{ color: 'var(--accent)' }}>
+            {lang === 'en' ? '📜 Terms of Use' : '📜 Termos de Uso'}
+          </Link>
+          {' · '}
           <Link href={`/${lang}/privacidade`} style={{ color: 'var(--accent)' }}>
             {lang === 'en' ? '🛡️ Privacy Policy' : '🛡️ Política de Privacidade'}
           </Link>
