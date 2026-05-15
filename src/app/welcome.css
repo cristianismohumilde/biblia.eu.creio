@@ -5,6 +5,13 @@
   --bg-mid: #36466a;
   --bg-end: #8b5a2b;
   --tech-cyan: #86e8ff;
+
+  /* Variáveis do cookie banner — forçadas para o tema escuro da tela de boas-vindas */
+  --card: #1e2a38;
+  --accent: #66c5ba;
+  --accent-soft: #2f837a;
+  --line: #3f515f;
+  --bg-soft: #202a33;
 }
 
 .welcome {
