@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function NewsBanner({ lang }) {
   const text = lang === 'en' 
-    ? "Almeida translation now available! We're expanding literal translations soon." 
-    : "Tradução Almeida disponível! Expandindo com traduções literais em breve.";
+    ? "We moved to a new site with a more complete translation: cristianismohumilde.github.io/AI-BIBLE." 
+    : "Estamos de casa nova com uma tradução mais completa: cristianismohumilde.github.io/AI-BIBLE.";
   
-  const linkText = lang === 'en' ? "learn more" : "saiba mais";
+  const linkText = lang === 'en' ? "read more" : "saiba mais";
 
 
   return (
